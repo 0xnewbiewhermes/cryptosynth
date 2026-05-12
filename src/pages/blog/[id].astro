@@ -21,12 +21,18 @@ const formattedDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', {
 
 // OG image path
 const ogImage = `/images/og/${post.id}.png`;
+// Hero image path
+const heroImage = `/images/hero/${post.id}.png`;
 ---
 
 <BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={post.data.pubDate?.toISOString()} category={post.data.category}>
   <article>
     <div class="article-header">
       <div class="container">
+        <!-- Hero Image -->
+        <div class="article-hero">
+          <img src={heroImage} alt={post.data.title} loading="lazy" />
+        </div>
         <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
           {post.data.category || 'Berita'}
         </a>

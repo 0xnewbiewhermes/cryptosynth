@@ -13,7 +13,7 @@ tags: ["tutorial", "pemula", "crypto", "bitcoin", "trading", "exchange Indonesia
 
 ## Kenapa Harus Belajar Crypto?
 
-Crypto bukan lagi sekadar tren — ini adalah revolusi finansial. Di Indonesia, jumlah investor crypto tembus 20 juta lebih. Tapi banyak yang rugi karena tidak paham dasarnya. Artikel ini akan bantu kamu mulai dari nol.
+Crypto bukan lagi sekadar tren — ini adalah revolusi finansial. Di Indonesia, jumlah investor crypto tembus 20 juta lebih [2]. Tapi banyak yang rugi karena tidak paham dasarnya [3]. Artikel ini akan bantu kamu mulai dari nol.
 
 ## Step 1: Pilih Exchange Terpercaya
 

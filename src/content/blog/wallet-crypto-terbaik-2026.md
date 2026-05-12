@@ -13,7 +13,7 @@ tags: ["wallet", "crypto", "MetaMask", "Trust Wallet", "Ledger", "keamanan", "pe
 
 ## Kenapa Butuh Wallet Crypto?
 
-Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang pegang. Wallet crypto memberikan kamu **full control** atas aset. Prinsipnya: *"Not your keys, not your coins."*
+Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang pegang. Wallet crypto memberikan kamu **full control** atas aset [1]. Prinsipnya: *"Not your keys, not your coins."*
 
 ## Jenis Wallet Crypto
 
@@ -56,7 +56,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 - **Cocok untuk**: Ekosistem Solana, NFT Solana
 - **Gratis**: ✅
 
-### 4. Ledger — Hardware Wallet Terbaik
+### 4. Ledger — Hardware Wallet Terbaik [2]
 
 - **Platform**: Hardware device + App
 - **Chain**: 5.500+ crypto
@@ -65,7 +65,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 - **Cocok untuk**: Simpan besar, HODL jangka panjang
 - **Harga**: $79 (Nano S Plus) / $149 (Nano X)
 
-### 5. Trezor — Hardware Wallet Open Source
+### 5. Trezor — Hardware Wallet Open Source [3]
 
 - **Platform**: Hardware device
 - **Chain**: 1.000+ crypto

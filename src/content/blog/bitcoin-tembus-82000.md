@@ -13,19 +13,19 @@ tags: ["bitcoin", "btc", "harga", "pasar"]
 
 ## Apa yang Terjadi?
 
-Bitcoin (BTC) kembali mencatat rekor baru setelah menembus level $82.000. Kenaikan didorong oleh akumulasi besar-besaran dari MicroStrategy dan sentimen positif dari perkembangan regulasi kripto di Amerika Serikat.
+Bitcoin (BTC) kembali mencatat rekor baru setelah menembus level $82.000 [1]. Kenaikan didorong oleh akumulasi besar-besaran dari MicroStrategy dan sentimen positif dari perkembangan regulasi kripto di Amerika Serikat [2].
 
 ## Detail Utama
 
-- **MicroStrategy** menambah kepemilikan BTC senilai $500 juta minggu ini
-- **Clarity Act** resmi diperkenalkan oleh Senate Banking Committee AS
-- **Volume perdagangan** di exchange global naik 35% dalam 24 jam terakhir
+- **MicroStrategy** menambah kepemilikan BTC senilai $500 juta minggu ini [1]
+- **Clarity Act** resmi diperkenalkan oleh Senate Banking Committee AS [2]
+- **Volume perdagangan** di exchange global naik 35% dalam 24 jam terakhir [1]
 - **Altcoin** seperti SOL dan DOGE juga naik 5-8%
 - **Sentimen pasar** berada di zona "Greed"
 
 ## Dampak & Analisis
 
-Kenaikan ini menunjukkan pasar kripto memasuki fase bullish dengan fundamental kuat. Akumulasi MicroStrategy memberikan sinyal bahwa institusi besar masih sangat percaya pada prospek jangka panjang Bitcoin.
+Kenaikan ini menunjukkan pasar kripto memasuki fase bullish dengan fundamental kuat [1]. Akumulasi MicroStrategy memberikan sinyal bahwa institusi besar masih sangat percaya pada prospek jangka panjang Bitcoin.
 
 ## Yang Perlu Diperhatikan
 

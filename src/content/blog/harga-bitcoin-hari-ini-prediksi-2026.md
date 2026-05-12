@@ -13,17 +13,17 @@ tags: ["bitcoin", "btc", "harga", "prediksi", "analisis", "pasar crypto"]
 
 ## Harga Bitcoin Hari Ini
 
-Bitcoin (BTC) saat ini diperdagangkan di sekitar **$82.000**, mencatat rekor tertinggi baru setelah rally 15% dalam dua minggu terakhir.
+Bitcoin (BTC) saat ini diperdagangkan di sekitar **$82.000**, mencatat rekor tertinggi baru setelah rally 15% dalam dua minggu terakhir [1].
 
 ## Kenapa Bitcoin Naik?
 
 ### 1. Akumulasi Institusional
 
-MicroStrategy terus menambah kepemilikan BTC. Total holdings mereka sudah mencapai 250.000+ BTC. ETF Bitcoin juga melihat inflow besar — $2 miliar dalam seminggu terakhir.
+MicroStrategy terus menambah kepemilikan BTC. Total holdings mereka sudah mencapai 250.000+ BTC [1]. ETF Bitcoin juga melihat inflow besar — $2 miliar dalam seminggu terakhir [2].
 
 ### 2. Regulasi Semakin Jelas
 
-Clarity Act di AS memberikan kerangka hukum yang jelas untuk crypto. Ini mengurangi ketidakpastian dan menarik investor institusional.
+Clarity Act di AS memberikan kerangka hukum yang jelas untuk crypto [2]. Ini mengurangi ketidakpastian dan menarik investor institusional.
 
 ### 3. Halving Effect
 

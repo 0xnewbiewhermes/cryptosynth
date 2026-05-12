@@ -735,8 +735,9 @@ code, pre {
   .card-title { font-size: 1.05rem; }
 
   .article-header { padding: 2rem 0 1.5rem; }
-  .article-header h1 { font-size: 1.6rem; }
-  .article-body { padding: 1.5rem 0 2.5rem; font-size: 0.95rem; }
+  .article-body { padding: 1.5rem 1rem 2.5rem; font-size: 0.95rem; }
+  .article-header { padding: 2rem 1rem 1.5rem; }
+  .article-header h1 { font-size: 1.6rem; padding: 0; }
   .article-body h2 { font-size: 1.3rem; }
 
   .footer-inner {

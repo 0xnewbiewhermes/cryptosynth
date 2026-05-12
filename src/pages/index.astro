@@ -8,39 +8,76 @@ const posts = (await getCollection('blog')).sort(
 ---
 
 <BaseLayout title="Web3 Insights Daily">
+  <!-- Hero -->
   <section class="hero">
     <div class="container">
-      <h1>Web3 Insights Daily</h1>
-      <p>Berita crypto, airdrop, DeFi, dan analisis harian — diringkas dari sumber kredibel untuk pembaca Indonesia.</p>
+      <div class="hero-badge">
+        <span class="hero-badge-dot"></span>
+        Updated daily dari sumber kredibel global
+      </div>
+      <h1>
+        <span class="gradient-text">Web3 Insights</span><br/>Daily
+      </h1>
+      <p>Berita crypto, airdrop, DeFi, dan analisis harian &mdash; diringkas khusus untuk pembaca Indonesia.</p>
+      <div class="hero-buttons">
+        <a href="/category/berita" class="btn btn-primary">Baca Berita &rarr;</a>
+        <a href="/about" class="btn btn-outline">Tentang Kami</a>
+      </div>
     </div>
   </section>
 
-  <section class="container">
-    <h2 style="margin: 0 0 1rem 0; font-size: 1.5rem;">Artikel Terbaru</h2>
-    <div class="articles-grid">
-      {posts.slice(0, 9).map((post) => (
-        <article class="article-card">
-          <div class="card-content">
-            <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
-              {post.data.category || 'Berita'}
-            </a>
-            <h3 class="card-title">
-              <a href={`/blog/${post.id}`}>{post.data.title}</a>
-            </h3>
-            <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
-            <div class="card-meta">
-              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
-            </div>
-          </div>
-        </article>
-      ))}
+  <!-- Stats -->
+  <section class="stats-bar">
+    <div class="stat-item">
+      <div class="stat-value">5+</div>
+      <div class="stat-label">Sumber Kredibel</div>
     </div>
+    <div class="stat-item">
+      <div class="stat-value">1</div>
+      <div class="stat-label">Artikel/Hari</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">6</div>
+      <div class="stat-label">Kategori</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-value">ID</div>
+      <div class="stat-label">Bahasa</div>
+    </div>
+  </section>
 
-    {posts.length === 0 && (
-      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-        <p style="font-size: 1.2rem;">Artikel pertama akan segera hadir!</p>
-        <p style="margin-top: 0.5rem;">Kami sedang menyiapkan konten terbaik untuk Anda.</p>
+  <!-- Articles -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Artikel Terbaru</h2>
+        <p>Ringkasan harian dari CoinDesk, The Block, Decrypt, dan sumber terpercaya lainnya.</p>
       </div>
-    )}
+      <div class="articles-grid">
+        {posts.slice(0, 9).map((post) => (
+          <article class="article-card">
+            <div class="card-content">
+              <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
+                {post.data.category || 'Berita'}
+              </a>
+              <h3 class="card-title">
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+              </h3>
+              <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
+              <div class="card-meta">
+                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+              </div>
+            </div>
+          </article>
+        ))}
+      </div>
+
+      {posts.length === 0 && (
+        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+          <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Artikel pertama akan segera hadir</p>
+          <p style="font-size: 0.9rem;">Kami sedang menyiapkan konten terbaik untuk Anda.</p>
+        </div>
+      )}
+    </div>
   </section>
 </BaseLayout>

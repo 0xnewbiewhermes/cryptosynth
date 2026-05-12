@@ -47,32 +47,49 @@ const { title, description = "CryptoSynth.id — Web3 Insights Daily. Berita cry
       <slot />
     </main>
     <footer class="footer">
-      <div class="container">
-        <p>&copy; 2026 CryptoSynth.id — Web3 Insights Daily</p>
-        <p style="margin-top: 0.5rem;">
-          <a href="/about">Tentang</a> &middot; <a href="/disclaimer">Disclaimer</a> &middot; <a href="/privacy">Privacy Policy</a>
-        </p>
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <div class="logo-icon">&#9889;</div>
+            <span><span class="logo-text">Crypto</span><span class="logo-accent">Synth</span></span>
+          </a>
+          <p>Portal berita web3 Indonesia. Ringkasan harian dari sumber kredibel global.</p>
+        </div>
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Konten</h4>
+            <a href="/category/berita">Berita</a>
+            <a href="/category/airdrop">Airdrop</a>
+            <a href="/category/funding">Funding</a>
+            <a href="/category/defi">DeFi</a>
+            <a href="/category/tutorial">Tutorial</a>
+          </div>
+          <div class="footer-col">
+            <h4>Perusahaan</h4>
+            <a href="/about">Tentang</a>
+            <a href="/disclaimer">Disclaimer</a>
+            <a href="/privacy">Privacy</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 CryptoSynth.id &mdash; Web3 Insights Daily. Bukan saran keuangan.</p>
       </div>
     </footer>
     <script>
       const toggle = document.getElementById('menuToggle');
       const nav = document.getElementById('mainNav');
-      
       if (toggle && nav) {
         toggle.addEventListener('click', () => {
           nav.classList.toggle('open');
           toggle.textContent = nav.classList.contains('open') ? '\u2715' : '\u2630';
         });
-        
-        // Close menu when clicking a link
         nav.querySelectorAll('a').forEach(link => {
           link.addEventListener('click', () => {
             nav.classList.remove('open');
             toggle.textContent = '\u2630';
           });
         });
-        
-        // Close menu when clicking outside
         document.addEventListener('click', (e) => {
           if (!nav.contains(e.target) && !toggle.contains(e.target)) {
             nav.classList.remove('open');

@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+---
+
+<BaseLayout title="Web3 Insights Daily">
+  <section class="hero">
+    <div class="container">
+      <h1>Web3 Insights Daily</h1>
+      <p>Berita crypto, airdrop, DeFi, dan analisis harian — diringkas dari sumber kredibel untuk pembaca Indonesia.</p>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 style="margin-bottom: 1rem; font-size: 1.5rem;">Artikel Terbaru</h2>
+    <div class="articles-grid">
+      {posts.slice(0, 9).map((post) => (
+        <article class="article-card">
+          <div class="card-content">
+            <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
+              {post.data.category || 'Berita'}
+            </a>
+            <h3 class="card-title">
+              <a href={`/blog/${post.id}`}>{post.data.title}</a>
+            </h3>
+            <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
+            <div class="card-meta">
+              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    {posts.length === 0 && (
+      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+        <p style="font-size: 1.2rem;">Artikel pertama akan segera hadir!</p>
+        <p style="margin-top: 0.5rem;">Kami sedang menyiapkan konten terbaik untuk Anda.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>

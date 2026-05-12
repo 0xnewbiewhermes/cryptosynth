@@ -26,10 +26,13 @@ const { title, description = "CryptoSynth.id — Web3 Insights Daily. Berita cry
     <header class="header">
       <div class="header-inner">
         <a href="/" class="logo">
-          <div class="logo-icon">⚡</div>
+          <div class="logo-icon">&#9889;</div>
           <span><span class="logo-text">Crypto</span><span class="logo-accent">Synth</span></span>
         </a>
-        <nav class="nav">
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          &#9776;
+        </button>
+        <nav class="nav" id="mainNav">
           <a href="/">Home</a>
           <a href="/category/berita">Berita</a>
           <a href="/category/airdrop">Airdrop</a>
@@ -47,10 +50,37 @@ const { title, description = "CryptoSynth.id — Web3 Insights Daily. Berita cry
       <div class="container">
         <p>&copy; 2026 CryptoSynth.id — Web3 Insights Daily</p>
         <p style="margin-top: 0.5rem;">
-          <a href="/about">Tentang</a> · <a href="/disclaimer">Disclaimer</a> · <a href="/privacy">Privacy Policy</a>
+          <a href="/about">Tentang</a> &middot; <a href="/disclaimer">Disclaimer</a> &middot; <a href="/privacy">Privacy Policy</a>
         </p>
       </div>
     </footer>
+    <script>
+      const toggle = document.getElementById('menuToggle');
+      const nav = document.getElementById('mainNav');
+      
+      if (toggle && nav) {
+        toggle.addEventListener('click', () => {
+          nav.classList.toggle('open');
+          toggle.textContent = nav.classList.contains('open') ? '\u2715' : '\u2630';
+        });
+        
+        // Close menu when clicking a link
+        nav.querySelectorAll('a').forEach(link => {
+          link.addEventListener('click', () => {
+            nav.classList.remove('open');
+            toggle.textContent = '\u2630';
+          });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', (e) => {
+          if (!nav.contains(e.target) && !toggle.contains(e.target)) {
+            nav.classList.remove('open');
+            toggle.textContent = '\u2630';
+          }
+        });
+      }
+    </script>
   </body>
 </html>
 

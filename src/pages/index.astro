@@ -16,7 +16,7 @@ const posts = (await getCollection('blog')).sort(
   </section>
 
   <section class="container">
-    <h2 style="margin-bottom: 1rem; font-size: 1.5rem;">Artikel Terbaru</h2>
+    <h2 style="margin: 0 0 1rem 0; font-size: 1.5rem;">Artikel Terbaru</h2>
     <div class="articles-grid">
       {posts.slice(0, 9).map((post) => (
         <article class="article-card">

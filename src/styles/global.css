@@ -134,9 +134,9 @@ code, pre {
   background: var(--bg-surface);
 }
 
-/* ===== HERO ===== */
+/* Hero */
 .hero {
-  padding: 3rem 0;
+  padding: 2.5rem 0 1.5rem;
   text-align: center;
   background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-card) 100%);
 }
@@ -443,7 +443,7 @@ code, pre {
 
   /* Hero mobile */
   .hero {
-    padding: 2rem 0;
+    padding: 1.5rem 0 1rem;
   }
 
   .hero h1 {
@@ -458,7 +458,7 @@ code, pre {
   .articles-grid {
     grid-template-columns: 1fr;
     gap: 1rem;
-    padding: 1rem 0;
+    padding: 0.75rem 0 1.5rem;
   }
 
   .card-content {

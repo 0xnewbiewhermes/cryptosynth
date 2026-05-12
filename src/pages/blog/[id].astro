@@ -20,7 +20,7 @@ const formattedDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', {
 });
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description}>
+<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} type="article" publishDate={post.data.pubDate?.toISOString()} category={post.data.category}>
   <article>
     <div class="article-header">
       <div class="container">

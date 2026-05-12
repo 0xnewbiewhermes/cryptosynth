@@ -1,26 +1,23 @@
 ---
+import SeoHead from '../components/SeoHead.astro';
+
 interface Props {
   title: string;
   description?: string;
   image?: string;
+  type?: 'website' | 'article';
+  publishDate?: string;
+  category?: string;
 }
 
-const { title, description = "CryptoSynth.id — Web3 Insights Daily. Berita crypto, airdrop, DeFi, dan analisis harian.", image = "/images/og-default.png" } = Astro.props;
+const { title, description, image, type = 'website', publishDate, category } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="id">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content={description} />
-    <meta property="og:title" content={title} />
-    <meta property="og:description" content={description} />
-    <meta property="og:image" content={image} />
-    <meta property="og:type" content="website" />
-    <meta name="twitter:card" content="summary_large_image" />
+    <SeoHead {title} {description} {image} {type} {publishDate} {category} />
     <link rel="icon" type="image/png" href="/favicon.png" />
-    <title>{title} | CryptoSynth.id</title>
   </head>
   <body>
     <header class="header">

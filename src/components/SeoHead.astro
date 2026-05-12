@@ -1,0 +1,103 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  image?: string;
+  canonical?: string;
+  type?: 'website' | 'article';
+  publishDate?: string;
+  modifiedDate?: string;
+  author?: string;
+  category?: string;
+}
+
+const {
+  title,
+  description = "CryptoSynth.id — Web3 Insights Daily. Berita crypto, airdrop, DeFi, dan analisis harian dari sumber kredibel global.",
+  image = "/images/og-default.png",
+  canonical,
+  type = "website",
+  publishDate,
+  modifiedDate,
+  author = "CryptoSynth",
+  category
+} = Astro.props;
+
+const canonicalURL = canonical || Astro.url.href;
+const fullImageURL = new URL(image, Astro.site).href;
+
+// JSON-LD Structured Data
+const websiteSchema = {
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "CryptoSynth.id",
+  "url": "https://cryptosynth.id",
+  "description": "Portal berita web3 Indonesia. Ringkasan harian dari sumber kredibel global.",
+  "inLanguage": "id",
+  "publisher": {
+    "@type": "Organization",
+    "name": "CryptoSynth",
+    "url": "https://cryptosynth.id",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cryptosynth.id/images/cryptosynth-logo.png"
+    }
+  }
+};
+
+const articleSchema = type === "article" ? {
+  "@context": "https://schema.org",
+  "@type": "NewsArticle",
+  "headline": title,
+  "description": description,
+  "image": fullImageURL,
+  "datePublished": publishDate,
+  "dateModified": modifiedDate || publishDate,
+  "author": {
+    "@type": "Organization",
+    "name": author
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "CryptoSynth",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://cryptosynth.id/images/cryptosynth-logo.png"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": canonicalURL
+  },
+  "inLanguage": "id"
+} : null;
+---
+
+<!-- Primary Meta -->
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content={description} />
+<meta name="author" content={author} />
+{category && <meta name="keywords" content={`${category}, crypto, web3, blockchain, DeFi, airdrop, Indonesia`} />}
+<link rel="canonical" href={canonicalURL} />
+
+<!-- Open Graph -->
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:image" content={fullImageURL} />
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:site_name" content="CryptoSynth.id" />
+<meta property="og:locale" content="id_ID" />
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={fullImageURL} />
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />
+{articleSchema && <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />}
+
+<title>{title} | CryptoSynth.id</title>

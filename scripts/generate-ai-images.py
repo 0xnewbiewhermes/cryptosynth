@@ -8,9 +8,9 @@ import time
 import re
 from pathlib import Path
 
-BLOG_DIR = "/root/cryptosynth/cryptosynth-repo/src/content/blog"
-OG_DIR = "/root/cryptosynth/cryptosynth-repo/public/images/og"
-HERO_DIR = "/root/cryptosynth/cryptosynth-repo/public/images/hero"
+BLOG_DIR = "/root/cryptosynth/src/content/blog"
+OG_DIR = "/root/cryptosynth/public/images/og"
+HERO_DIR = "/root/cryptosynth/public/images/hero"
 
 # Style prompt suffixes per category
 CATEGORY_STYLES = {

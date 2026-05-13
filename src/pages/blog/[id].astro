@@ -25,7 +25,7 @@ const ogImage = `/images/og/${post.id}.png`;
 const heroImage = `/images/hero/${post.id}.png`;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={post.data.pubDate?.toISOString()} category={post.data.category}>
+<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={post.data.pubDate?.toISOString()} modifiedDate={post.data.pubDate?.toISOString()} category={post.data.category} tags={post.data.tags}>
   <article>
     <div class="article-header">
       <div class="container">

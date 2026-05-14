@@ -2,7 +2,7 @@
 title: "CLARITY Act Vote Besok, Trader Bitcoin Prediksi Lompatan ke $90.000"
 description: "Voting CLARITY Act di Senat AS hari Kamis bisa jadi katalis Bitcoin menuju $90.000. Tekanan jual short-term holder turun, onchain data makin bullish."
 excerpt: "Trader Bitcoin antisipasi pergerakan cepat ke $90.000 menjelang voting CLARITY Act di Senate Banking Committee AS."
-pubDate: 2026-05-14
+pubDate: 2026-05-14T08:00:00
 category: "Berita"
 tags: ["bitcoin", "clarity act", "regulasi crypto", "harga bitcoin", "trading bitcoin", "senat AS"]
 ---

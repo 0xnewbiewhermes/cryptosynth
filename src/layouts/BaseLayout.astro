@@ -100,15 +100,15 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
       // Client-side relative time — updates in real-time in the browser
       (function updateRelativeTimes() {
         function formatRelative(dateStr) {
-          const now = new Date();
-          const d = new Date(dateStr);
-          const diffMs = now.getTime() - d.getTime();
-          const diffSec = Math.floor(diffMs / 1000);
-          const diffMin = Math.floor(diffSec / 60);
-          const diffHour = Math.floor(diffMin / 60);
-          const diffDay = Math.floor(diffHour / 24);
-          const diffWeek = Math.floor(diffDay / 7);
-          const diffMonth = Math.floor(diffDay / 30);
+          var now = new Date();
+          var d = new Date(dateStr);
+          var diffMs = now.getTime() - d.getTime();
+          var diffSec = Math.floor(diffMs / 1000);
+          var diffMin = Math.floor(diffSec / 60);
+          var diffHour = Math.floor(diffMin / 60);
+          var diffDay = Math.floor(diffHour / 24);
+          var diffWeek = Math.floor(diffDay / 7);
+          var diffMonth = Math.floor(diffDay / 30);
 
           if (diffMin < 1) return 'Baru saja';
           if (diffMin < 60) return diffMin + ' menit lalu';
@@ -120,8 +120,8 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
         }
 
-        document.querySelectorAll('.card-relative-time[data-pubdate]').forEach(el => {
-          const pubdate = el.getAttribute('data-pubdate');
+        document.querySelectorAll('.card-relative-time[data-pubdate]').forEach(function(el) {
+          var pubdate = el.getAttribute('data-pubdate');
           if (pubdate) el.textContent = formatRelative(pubdate);
         });
       })();

@@ -1,37 +1,37 @@
-     1|---
-     2|import BaseLayout from '../../layouts/BaseLayout.astro';
-     3|import { getCollection } from 'astro:content';
-     5|
-     6|const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase() === 'funding')).sort(
-     7|  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
-     8|);
-     9|---
-    10|
-    11|<BaseLayout title="Funding & Investasi">
-    12|  <section class="container" style="padding-top: 3rem;">
-    13|    <h1 style="margin-bottom: 2rem;">Funding & Investasi</h1>
-    14|    <div class="articles-grid">
-    15|      {posts.map((post) => (
-    16|        <article class="article-card">
-    17|          <div class="card-content">
-    18|            <h3 class="card-title">
-    19|              <a href={`/blog/${post.id}`}>{post.data.title}</a>
-    20|            </h3>
-    21|            <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
-    22|            <div class="card-meta">
-    <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}></span>
-    24|              <span class="card-date-sep">·</span>
-    25|              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
-    26|            </div>
-    27|          </div>
-    28|        </article>
-    29|      ))}
-    30|    </div>
-    31|    {posts.length === 0 && (
-    32|      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-    33|        <p>Belum ada artikel di kategori ini.</p>
-    34|      </div>
-    35|    )}
-    36|  </section>
-    37|</BaseLayout>
-    38|
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { relativeTime } from '../../utils/relativeTime';
+
+const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase() === 'funding')).sort(
+  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+---
+
+<BaseLayout title="Funding & Investasi">
+  <section class="container" style="padding-top: 3rem;">
+    <h1 style="margin-bottom: 2rem;">Funding & Investasi</h1>
+    <div class="articles-grid">
+      {posts.map((post) => (
+        <article class="article-card">
+          <div class="card-content">
+            <h3 class="card-title">
+              <a href={`/blog/${post.id}`}>{post.data.title}</a>
+            </h3>
+            <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
+            <div class="card-meta">
+              <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+              <span class="card-date-sep">·</span>
+              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+    {posts.length === 0 && (
+      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+        <p>Belum ada artikel di kategori ini.</p>
+      </div>
+    )}
+  </section>
+</BaseLayout>

@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { relativeTime } from '../utils/relativeTime';
+
+const posts = (await getCollection('blog')).sort(
+  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+
+const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial'];
+---
+
+<BaseLayout title="Semua Artikel — CryptoSynth">
+  <section class="container" style="padding-top: 3rem;">
+    <div class="section-header">
+      <h1>Semua Artikel</h1>
+      <p>Seluruh artikel yang telah dipublikasikan oleh tim redaksi CryptoSynth.</p>
+    </div>
+
+    <!-- Category Filter -->
+    <div class="category-filter" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+      {categories.map((cat) => (
+        <a
+          href={cat === 'Semua' ? '/articles' : `/category/${cat.toLowerCase()}`}
+          class={`filter-btn ${cat === 'Semua' ? 'active' : ''}`}
+          style={`
+            padding: 0.4rem 1rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 500;
+            text-decoration: none;
+            transition: all 0.2s;
+            ${cat === 'Semua'
+              ? 'background: var(--accent, #0d9488); color: #fff;'
+              : 'background: var(--card-bg, #1a1a2e); color: var(--text-muted, #888); border: 1px solid var(--border, #2a2a3e);'}
+          `}
+        >
+          {cat}
+        </a>
+      ))}
+    </div>
+
+    <!-- Articles Grid -->
+    <div class="articles-grid">
+      {posts.map((post) => (
+        <article class="article-card">
+          <div class="card-content">
+            <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
+              {post.data.category || 'Berita'}
+            </a>
+            <h3 class="card-title">
+              <a href={`/blog/${post.id}`}>{post.data.title}</a>
+            </h3>
+            <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
+            <div class="card-meta">
+                <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+                <span class="card-date-sep">·</span>
+                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+
+    {posts.length === 0 && (
+      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+        <p style="font-size: 1.1rem;">Belum ada artikel yang dipublikasikan.</p>
+      </div>
+    )}
+
+    <div style="text-align: center; padding: 2rem 0 3rem; color: var(--text-muted); font-size: 0.85rem;">
+      Menampilkan {posts.length} artikel
+    </div>
+  </section>
+</BaseLayout>

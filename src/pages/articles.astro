@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { relativeTime } from '../utils/relativeTime';
 
 const posts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
@@ -52,7 +53,9 @@ const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial']
             </h3>
             <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
             <div class="card-meta">
-              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+                <span class="card-relative-time">{relativeTime(post.data.pubDate)}</span>
+                <span class="card-date-sep">·</span>
+                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
             </div>
           </div>
         </article>

@@ -2,7 +2,7 @@
 title: "Xi Peringatkan Trump Soal Taiwan, Bitcoin & Solana Anjlok"
 description: "Peringatan Xi Jinping tentang konflik Taiwan saat pertemuan dengan Trump di Beijing tekan Bitcoin di bawah $79.200 dan Solana turun 5%. Analisis lengkap."
 excerpt: "Presiden China Xi Jinping memperingatkan Donald Trump tentang potensi konflik atas Taiwan, memicu aksi jual crypto besar-besaran yang dorong BTC di bawah $79.200 dan SOL anjlok 5,6%."
-pubDate: 2026-05-14
+pubDate: 2026-05-14T07:00:00
 category: "Berita"
 tags: ["bitcoin", "solana", "taiwan", "geopolitik", "harga-bitcoin-hari-ini", "trump-xi"]
 ---

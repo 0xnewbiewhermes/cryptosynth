@@ -2,7 +2,7 @@
 title: "Indikator Bull-Bear Bitcoin Hijau Pertama Sejak 2023, BTC Kuat di $81.000"
 description: "Indikator bull-bear CryptoQuant berwarna hijau pertama kali sejak Maret 2023. Bitcoin pulih ke $81.000 pasca data CPI panas, dana kripto masuk $858 juta."
 excerpt: "Sinyal bullish langka dari CryptoQuant dan pemulihan BTC ke $81.000 menandai potensi awal fase bull baru."
-pubDate: 2026-05-13
+pubDate: 2026-05-13T14:00:00
 category: "Berita"
 tags: ["bitcoin", "btc", "harga bitcoin hari ini", "prediksi crypto", "bull market", "cryptoquant"]
 ---

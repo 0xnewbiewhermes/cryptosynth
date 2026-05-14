@@ -417,6 +417,18 @@ code, pre {
   border-top: 1px solid var(--border);
 }
 
+.card-relative-time {
+  color: var(--accent, #0d9488);
+  font-weight: 600;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+
+.card-date-sep {
+  color: var(--border);
+  font-size: 0.7rem;
+}
+
 /* ===== ARTICLE PAGE ===== */
 .article-header {
   padding: 3rem 0 2rem;

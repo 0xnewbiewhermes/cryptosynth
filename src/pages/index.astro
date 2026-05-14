@@ -52,6 +52,14 @@ const posts = (await getCollection('blog')).sort(
         ))}
       </div>
 
+      {posts.length > 9 && (
+        <div style="text-align: center; padding: 2rem 0 1rem;">
+          <a href="/articles" class="btn btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2rem; font-size: 0.95rem;">
+            Berita Selengkapnya &rarr;
+          </a>
+        </div>
+      )}
+
       {posts.length === 0 && (
         <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
           <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Artikel pertama akan segera hadir</p>

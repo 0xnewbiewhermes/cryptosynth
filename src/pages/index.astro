@@ -1,74 +1,74 @@
----
-import BaseLayout from '../layouts/BaseLayout.astro';
-import { getCollection } from 'astro:content';
-import { relativeTime } from '../utils/relativeTime';
-
-const posts = (await getCollection('blog')).sort(
-  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
-);
----
-
-<BaseLayout title="Web3 Insights Daily">
-  <!-- Hero -->
-  <section class="hero">
-    <div class="container">
-      <div class="hero-badge">
-        <span class="hero-badge-dot"></span>
-        Updated daily dari sumber kredibel global
-      </div>
-      <h1>
-        <span class="gradient-text">Web3 Insights</span><br/>Daily
-      </h1>
-      <p>Berita crypto, airdrop, DeFi, dan analisis harian &mdash; diringkas khusus untuk pembaca Indonesia.</p>
-      <div class="hero-buttons">
-        <a href="/category/berita" class="btn btn-primary">Baca Berita &rarr;</a>
-        <a href="/about" class="btn btn-outline">Tentang Kami</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- Articles -->
-  <section class="section">
-    <div class="container">
-      <div class="section-header">
-        <h2>Artikel Terbaru</h2>
-        <p>Ringkasan harian dari CoinDesk, The Block, Decrypt, dan sumber terpercaya lainnya.</p>
-      </div>
-      <div class="articles-grid">
-        {posts.slice(0, 9).map((post) => (
-          <article class="article-card">
-            <div class="card-content">
-              <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
-                {post.data.category || 'Berita'}
-              </a>
-              <h3 class="card-title">
-                <a href={`/blog/${post.id}`}>{post.data.title}</a>
-              </h3>
-              <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
-              <div class="card-meta">
-                <span class="card-relative-time">{relativeTime(post.data.pubDate)}</span>
-                <span class="card-date-sep">·</span>
-                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
-              </div>
-            </div>
-          </article>
-        ))}
-      </div>
-
-      {posts.length > 9 && (
-        <div style="text-align: center; padding: 2rem 0 1rem;">
-          <a href="/articles" class="btn btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2rem; font-size: 0.95rem;">
-            Berita Selengkapnya &rarr;
-          </a>
-        </div>
-      )}
-
-      {posts.length === 0 && (
-        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-          <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Artikel pertama akan segera hadir</p>
-          <p style="font-size: 0.9rem;">Kami sedang menyiapkan konten terbaik untuk Anda.</p>
-        </div>
-      )}
-    </div>
-  </section>
-</BaseLayout>
+     1|---
+     2|import BaseLayout from '../layouts/BaseLayout.astro';
+     3|import { getCollection } from 'astro:content';
+     5|
+     6|const posts = (await getCollection('blog')).sort(
+     7|  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+     8|);
+     9|---
+    10|
+    11|<BaseLayout title="Web3 Insights Daily">
+    12|  <!-- Hero -->
+    13|  <section class="hero">
+    14|    <div class="container">
+    15|      <div class="hero-badge">
+    16|        <span class="hero-badge-dot"></span>
+    17|        Updated daily dari sumber kredibel global
+    18|      </div>
+    19|      <h1>
+    20|        <span class="gradient-text">Web3 Insights</span><br/>Daily
+    21|      </h1>
+    22|      <p>Berita crypto, airdrop, DeFi, dan analisis harian &mdash; diringkas khusus untuk pembaca Indonesia.</p>
+    23|      <div class="hero-buttons">
+    24|        <a href="/category/berita" class="btn btn-primary">Baca Berita &rarr;</a>
+    25|        <a href="/about" class="btn btn-outline">Tentang Kami</a>
+    26|      </div>
+    27|    </div>
+    28|  </section>
+    29|
+    30|  <!-- Articles -->
+    31|  <section class="section">
+    32|    <div class="container">
+    33|      <div class="section-header">
+    34|        <h2>Artikel Terbaru</h2>
+    35|        <p>Ringkasan harian dari CoinDesk, The Block, Decrypt, dan sumber terpercaya lainnya.</p>
+    36|      </div>
+    37|      <div class="articles-grid">
+    38|        {posts.slice(0, 9).map((post) => (
+    39|          <article class="article-card">
+    40|            <div class="card-content">
+    41|              <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
+    42|                {post.data.category || 'Berita'}
+    43|              </a>
+    44|              <h3 class="card-title">
+    45|                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+    46|              </h3>
+    47|              <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
+    48|              <div class="card-meta">
+    <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}></span>
+    50|                <span class="card-date-sep">·</span>
+    51|                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
+    52|              </div>
+    53|            </div>
+    54|          </article>
+    55|        ))}
+    56|      </div>
+    57|
+    58|      {posts.length > 9 && (
+    59|        <div style="text-align: center; padding: 2rem 0 1rem;">
+    60|          <a href="/articles" class="btn btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2rem; font-size: 0.95rem;">
+    61|            Berita Selengkapnya &rarr;
+    62|          </a>
+    63|        </div>
+    64|      )}
+    65|
+    66|      {posts.length === 0 && (
+    67|        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+    68|          <p style="font-size: 1.1rem; margin-bottom: 0.5rem;">Artikel pertama akan segera hadir</p>
+    69|          <p style="font-size: 0.9rem;">Kami sedang menyiapkan konten terbaik untuk Anda.</p>
+    70|        </div>
+    71|      )}
+    72|    </div>
+    73|  </section>
+    74|</BaseLayout>
+    75|

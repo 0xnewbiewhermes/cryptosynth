@@ -1,3 +1,7 @@
+/**
+ * Client-side relative time computation.
+ * Used by the script in BaseLayout to update .card-relative-time elements dynamically.
+ */
 export function relativeTime(date: Date | string): string {
   const now = new Date();
   const d = typeof date === 'string' ? new Date(date) : date;
@@ -22,4 +26,12 @@ export function relativeTime(date: Date | string): string {
     month: 'long',
     day: 'numeric',
   });
+}
+
+/**
+ * Returns ISO date string for use in data-pubdate attributes.
+ */
+export function toISODate(date: Date | string): string {
+  const d = typeof date === 'string' ? new Date(date) : date;
+  return d.toISOString();
 }

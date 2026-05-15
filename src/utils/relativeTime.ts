@@ -21,5 +21,6 @@ export function relativeTime(date: Date | string): string {
     year: 'numeric',
     month: 'long',
     day: 'numeric',
+    timeZone: 'Asia/Jakarta',
   });
 }

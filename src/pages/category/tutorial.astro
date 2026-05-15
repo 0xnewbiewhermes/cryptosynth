@@ -22,7 +22,7 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
             <div class="card-meta">
               <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
               <span class="card-date-sep">·</span>
-              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric' })}</span>
+              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
             </div>
           </div>
         </article>

@@ -117,7 +117,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           if (diffWeek < 4) return diffWeek + ' minggu lalu';
           if (diffMonth < 12) return diffMonth + ' bulan lalu';
 
-          return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric' });
+          return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
         }
 
         document.querySelectorAll('.card-relative-time[data-pubdate]').forEach(function(el) {

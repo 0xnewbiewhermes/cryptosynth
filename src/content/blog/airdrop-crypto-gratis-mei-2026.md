@@ -2,7 +2,7 @@
 title: "Airdrop Crypto Gratis Mei 2026: 5 Project yang Wajib Kamu Pantau"
 description: "Daftar airdrop crypto gratis terbaru Mei 2026. Tutorial lengkap cara claim airdrop dari project blockchain potensial dengan reward besar."
 excerpt: "Kumpulan airdrop crypto gratis terbaru yang bisa kamu claim sekarang. Update setiap hari dari sumber terpercaya."
-pubDate: 2026-05-12T08:00:00
+pubDate: 2026-05-12T08:00:00+07:00
 category: "Airdrop"
 tags: ["airdrop", "crypto gratis", "airdrop 2026", "blockchain", "token gratis", "DeFi"]
 ---

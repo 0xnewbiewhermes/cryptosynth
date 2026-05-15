@@ -2,7 +2,7 @@
 title: "Whale Hyperliquid Buka Short $70 Juta, Bitcoin di Bawah $80.000"
 description: "Whale Hyperliquid dengan profit $42 juta buka posisi short $70 juta di BTC, HYPE, dan saham tech. Analisis dampak ke trader Indonesia."
 excerpt: "Whale Hyperliquid Loracle buka short $70 juta di crypto dan saham tech saat Bitcoin jatuh di bawah $80.000 akibat inflasi PPI AS yang melonjak."
-pubDate: 2026-05-14T06:00:00
+pubDate: 2026-05-14T06:00:00+07:00
 category: "Berita"
 tags: ["bitcoin", "hyperliquid", "whale", "short", "trading", "inflasi", "fed"]
 ---

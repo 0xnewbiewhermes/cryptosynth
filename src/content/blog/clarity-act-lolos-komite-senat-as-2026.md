@@ -2,7 +2,7 @@
 title: "CLARITY Act Lolos Komite Senat AS, Bitcoin Sentuh $82.000"
 description: "CLARITY Act resmi lolos Senate Banking Committee dengan 15-9 suara. Regulasi crypto AS selangkah lebih dekat ke final. Analisis dampak untuk trader Indonesia."
 excerpt: "RUU pasar crypto CLARITY Act berhasil melewati voting di Senate Banking Committee AS, membuka jalan menuju regulasi yang lebih jelas untuk industri digital asset."
-pubDate: 2026-05-14T20:00:00
+pubDate: 2026-05-14T20:00:00+07:00
 category: "Berita"
 tags: ["clarity act", "regulasi crypto", "senat AS", "bitcoin", "market structure bill", "crypto regulation"]
 author: "CryptoSynth Research"

@@ -2,7 +2,7 @@
 title: "Claude AI Bantu Pulihkan 5 Bitcoin Senilai Rp6 Miliar dari Wallet Terkunci"
 description: "Seorang Bitcoiner berhasil pulihkan 5 BTC senilai $395.000 setelah terkunci selama 11 tahun. Claude AI menemukan file backup wallet di komputer kuliah lama."
 excerpt: "Pengguna anonim Cprkrn menggunakan Claude AI untuk menemukan file backup wallet dari 2019 di komputer lamanya, berhasil memulihkan 5 Bitcoin yang tidak bisa diakses sejak 2015."
-pubDate: 2026-05-14T09:00:00
+pubDate: 2026-05-14T09:00:00+07:00
 category: "Berita"
 tags: ["bitcoin", "claude ai", "anthropic", "seed phrase", "wallet recovery", "AI crypto"]
 ---

@@ -2,7 +2,7 @@
 title: "Consensys Tunda IPO hingga Musim Gugur 2026, Pasar Crypto Terlalu Lesu"
 description: "Consensys, perusahaan di balik MetaMask, tunda rencana IPO ke musim gugur 2026 karena kondisi pasar crypto yang buruk. Padahal sudah gandeng JPMorgan dan Goldman Sachs."
 excerpt: "Perusahaan yang dibangun oleh co-founder Ethereum Joe Lubin ini terpaksa menunda IPO karena pasar crypto melemah sejak Februari 2026."
-pubDate: 2026-05-13T12:00:00
+pubDate: 2026-05-13T12:00:00+07:00
 category: "Berita"
 tags: ["consensys", "metamask", "IPO", "ethereum", "jpmorgan", "goldman-sachs", "crypto-ipo"]
 ---

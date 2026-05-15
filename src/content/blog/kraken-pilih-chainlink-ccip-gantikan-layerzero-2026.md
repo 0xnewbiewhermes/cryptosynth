@@ -2,7 +2,7 @@
 title: "Kraken Pilih Chainlink CCIP Gantikan LayerZero Setelah Exploit $292 Juta"
 description: "Kraken migrasi dari LayerZero ke Chainlink CCIP untuk bridge aset cross-chain kBTC setelah exploit Kelp DAO $292 juta. Apa dampaknya untuk DeFi?"
 excerpt: "Kraken resmi menggantikan LayerZero dengan Chainlink CCIP sebagai infrastruktur bridge eksklusif untuk kBTC dan semua Kraken Wrapped Assets."
-pubDate: 2026-05-14T20:00:00
+pubDate: 2026-05-14T20:00:00+07:00
 category: "Berita"
 tags: ["kraken", "chainlink", "ccip", "layerzero", "kbtc", "bridge", "defi", "keamanan"]
 ---

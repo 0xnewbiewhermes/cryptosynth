@@ -2,7 +2,7 @@
 title: "Bitcoin Hadapi Resistensi 200 Hari, CryptoQuant Peringatkan Risiko Koreksi"
 description: "Bitcoin menghadapi resistensi kuat di moving average 200 hari sekitar $82.400. CryptoQuant peringatkan pola mirip bear market 2022, trader sudah ambil untung 14.600 BTC."
 excerpt: "Bitcoin rally 6 minggu terhenti di resistensi historis 200-day MA, CryptoQuant soroti kesamaan dengan pola bear market Maret 2022."
-pubDate: 2026-05-14T12:00:00
+pubDate: 2026-05-14T12:00:00+07:00
 category: "Berita"
 tags: ["bitcoin", "btc", "harga bitcoin hari ini", "cryptoquant", "prediksi crypto", "analisis teknikal", "bear market"]
 ---

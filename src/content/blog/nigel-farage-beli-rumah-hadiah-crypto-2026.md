@@ -40,8 +40,6 @@ Jika penyelidikan menemukan Farage melakukan pelanggaran serius terhadap aturan 
 
 Properti yang dibeli Farage adalah satu dari empat properti yang dimilikinya. Sejak pembelian, properti tersebut telah mengajukan beberapa permohonan perluasan dan pembangunan kembali, yang semuanya telah disetujui [2].
 
-## Insight untuk Trader/Investor Indonesia
-
 Kasus Farage ini menunjukkan bahwa donasi crypto ke politisi sedang menjadi sorotan global. Di Indonesia, Bappebti dan OJK perlu memperhatikan tren ini karena regulasi donasi politik berbasis crypto belum ada. Jika Inggris berhasil melarang donasi crypto politik, negara lain kemungkinan akan mengikuti, yang berpotensi memengaruhi narasi adopsi crypto secara global.
 
 Selain itu, kasus ini menunjukkan bahwa dana crypto dalam jumlah besar tetap bisa dilacak dan menjadi bahan investigasi. Bagi investor Indonesia, ini menjadi pengingat bahwa transaksi crypto berskala besar di ranah politik akan semakin terekspos, dan privasi bukanlah jaminan mutlak di ekosistem blockchain.

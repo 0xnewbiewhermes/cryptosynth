@@ -49,8 +49,6 @@ Ironisnya, pengungkapan Dartmouth datang bersamaan dengan kabar kurang menggembi
 
 Meskipun demikian, Bitcoin berhasil rally sekitar **2%** dalam 24 jam terakhir ke level $81.237, menyentuh **200-day exponential moving average (EMA)** yang merupakan level support dinamis. Namun, harga BTC masih berada di bawah 365-day EMA dan jauh dari rekor tertinggi Oktober 2025. [1]
 
-## Insight untuk Trader/Investor Indonesia
-
 Keputusan Dartmouth menambahkan **Solana ETF** ke portofolio endowment mereka punya implikasi yang lebih luas dari sekadar berita institusional biasa, dan ini belum banyak dibahas oleh media crypto mainstream.
 
 **Pertama, diversifikasi ke Solana oleh institusi besar adalah sinyal penting bagi market Indonesia.** Banyak trader ritel Indonesia yang sudah lama bullish di Solana (SOL diperdagangkan di $94,64 saat penulisan), tapi validasi dari endowment universitas sekelas Dartmouth menunjukkan bahwa aset ini mulai dianggap serius oleh investor konservatif berhorizon waktu panjang. Ini bukan hedge fund yang ambil posisi spekulatif, ini dana pensiun universitas yang biasanya ultra-konservatif. [3]

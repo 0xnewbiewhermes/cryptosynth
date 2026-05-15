@@ -61,8 +61,6 @@ Coinbase, salah satu bursa crypto terbesar AS, juga memimpin kenaikan saham cryp
 
 *Sumber: Cointelegraph/TradingView, 14 Mei 2026*
 
-## Insight untuk Trader/Investor Indonesia
-
 **Kenapa ini penting buat market Indonesia?** Lolosnya CLARITY Act dari komite bukan sekadar berita AS, ini menentukan *playbook* regulasi global untuk dekade berikutnya. Indonesia yang saat ini mengatur crypto melalui Bappebti dan OJK perlu memperhatikan karena standar yang dibentuk AS sering kali menjadi acuan regulator regional.
 
 **Dampak ke ekosistem lokal yang belum banyak dibahas:** Definisi jelas antara sekuritas dan komoditas di CLARITY Act akan langsung mempengaruhi bagaimana token yang listing di bursa Indonesia diklasifikasikan. Jika SEC dan CFTC akhirnya punya batas yang tegas, token yang saat ini berada di area abu-abu, termasuk sebagian besar token DeFi dan *yield farming*, bisa menghadapi tekanan listing/delisting di bursa global yang berimbas ke Indodaca, Tokocrypto, dan platform lokal lainnya.

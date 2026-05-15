@@ -55,9 +55,9 @@ Beberapa poin yang perlu dicermati:
 
 ## Sumber
 
-1. [[CoinDesk, Bitcoin investors yanked $635 million from spot ETFs in a day](https://www.coindesk.com/markets/2026/05/14/bitcoin-investors-yanked-usd635-million-from-spot-etfs-in-a-day-here-s-what-it-means-for-price)](https://www.coindesk.com/markets/2026/05/14/bitcoin-investors-yanked-usd635-million-from-spot-etfs-in-a-day-here-s-what-it-means-for-price) (14 Mei 2026)
-2. [[The Block, 'Rally without conviction': Bitcoin ETFs see $630M in outflows](https://www.theblock.co/post/401247/rally-without-conviction-bitcoin-etfs-see-630m-in-outflows-as-corporate-treasury-demand-drops-and-resistance-builds)](https://www.theblock.co/post/401247/rally-without-conviction-bitcoin-etfs-see-630m-in-outflows-as-corporate-treasury-demand-drops-and-resistance-builds) (14 Mei 2026)
-3. [[Cointelegraph, Bitcoin price targets $79K as US PPI inflation hits highest since 2022](https://cointelegraph.com/news/bitcoin-price-targets-79k-as-us-ppi-inflation-hits-highest-since-2022)](https://cointelegraph.com/news/bitcoin-price-targets-79k-as-us-ppi-inflation-hits-highest-since-2022) (14 Mei 2026)
+1. [CoinDesk - Bitcoin investors yanked $635 million from spot ETFs in a day](https://www.coindesk.com/markets/2026/05/14/bitcoin-investors-yanked-usd635-million-from-spot-etfs-in-a-day-here-s-what-it-means-for-price) (14 Mei 2026)
+2. [The Block - 'Rally without conviction': Bitcoin ETFs see $630M in outflows](https://www.theblock.co/post/401247/rally-without-conviction-bitcoin-etfs-see-630m-in-outflows-as-corporate-treasury-demand-drops-and-resistance-builds) (14 Mei 2026)
+3. [Cointelegraph - Bitcoin price targets $79K as US PPI inflation hits highest since 2022](https://cointelegraph.com/news/bitcoin-price-targets-79k-as-us-ppi-inflation-hits-highest-since-2022) (14 Mei 2026)
 
 ---
 

@@ -67,9 +67,9 @@ Yang juga menarik adalah pola rebalancing Dartmouth. Mereka mengurangi posisi Bi
 
 ## Sumber
 
-1. [[Cointelegraph, "Dartmouth Endowment Invests in Solana ETF, Holds $14M in Crypto Exposure"](https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec)](https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec), 14 Mei 2026
-2. [[BloomingBit, "Dartmouth Endowment Adds $3.3 Million Solana ETF, Bringing Crypto Holdings Near $14.5 Million"](https://en.bloomingbit.io/feed/news/112128)](https://en.bloomingbit.io/feed/news/112128), 15 Mei 2026
-3. [[SEC Filing, Trustees of Dartmouth College](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=dartmouth&CIK=&type=13F&dateb=&owner=include&count=40&search_text=&action=getcompany)](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=dartmouth&CIK=&type=13F&dateb=&owner=include&count=40&search_text=&action=getcompany), Mei 2026
+1. [Cointelegraph - Dartmouth Endowment Invests in Solana ETF, Holds $14M in Crypto Exposure](https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec), 14 Mei 2026
+2. [BloomingBit - Dartmouth Endowment Adds $3.3 Million Solana ETF, Bringing Crypto Holdings Near $14.5 Million](https://en.bloomingbit.io/feed/news/112128), 15 Mei 2026
+3. [SEC Filing - Trustees of Dartmouth College](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=dartmouth&CIK=&type=13F&dateb=&owner=include&count=40&search_text=&action=getcompany), Mei 2026
 
 ---
 

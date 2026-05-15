@@ -63,10 +63,10 @@ Namun, pertanyaan besar tetap: apakah Fed perlu mempertimbangkan **pengetatan ta
 
 ## Sumber
 
-1. [[CoinDesk, Live markets: Bitcoin dips below $80,000 as producer price inflation surges to 6%](https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6)](https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6) (13 Mei 2026)
-2. [[CoinDesk, Live markets: Bitcoin holds $80,000 as stocks sink, yields rise on ugly inflation print](https://www.coindesk.com/markets/2026/05/12/live-markets-bitcoin-holds-usd80-000-as-stocks-sink-yields-rise-on-ugly-inflation-print)](https://www.coindesk.com/markets/2026/05/12/live-markets-bitcoin-holds-usd80-000-as-stocks-sink-yields-rise-on-ugly-inflation-print) (12 Mei 2026)
-3. [[CoinDesk, Senate confirms Warsh to Fed board; crypto stocks decline](https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6)](https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6) (12 Mei 2026)
-4. [[CoinDesk, Bitcoin holds below $81,000 with Trump-Xi talks on the horizon](https://www.coindesk.com/markets/2026/05/13/bitcoin-holds-below-usd81-000-with-trump-xi-talks-on-the-horizon)](https://www.coindesk.com/markets/2026/05/13/bitcoin-holds-below-usd81-000-with-trump-xi-talks-on-the-horizon) (13 Mei 2026)
+1. [CoinDesk - Live markets: Bitcoin dips below $80,000 as producer price inflation surges to 6%](https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6) (13 Mei 2026)
+2. [CoinDesk - Live markets: Bitcoin holds $80,000 as stocks sink, yields rise on ugly inflation print](https://www.coindesk.com/markets/2026/05/12/live-markets-bitcoin-holds-usd80-000-as-stocks-sink-yields-rise-on-ugly-inflation-print) (12 Mei 2026)
+3. [CoinDesk - Senate confirms Warsh to Fed board; crypto stocks decline](https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6) (12 Mei 2026)
+4. [CoinDesk - Bitcoin holds below $81,000 with Trump-Xi talks on the horizon](https://www.coindesk.com/markets/2026/05/13/bitcoin-holds-below-usd81-000-with-trump-xi-talks-on-the-horizon) (13 Mei 2026)
 
 ---
 

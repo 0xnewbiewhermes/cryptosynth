@@ -13,7 +13,7 @@ tags: ["tutorial", "pemula", "crypto", "bitcoin", "trading", "exchange Indonesia
 
 ## Kenapa Harus Belajar Crypto?
 
-Crypto bukan lagi sekadar tren — ini adalah revolusi finansial. Di Indonesia, jumlah investor crypto tembus 20 juta lebih [2]. Tapi banyak yang rugi karena tidak paham dasarnya [3]. Artikel ini akan bantu kamu mulai dari nol.
+Crypto bukan lagi sekadar tren, ini adalah revolusi finansial. Di Indonesia, jumlah investor crypto tembus 20 juta lebih [2]. Tapi banyak yang rugi karena tidak paham dasarnya [3]. Artikel ini akan bantu kamu mulai dari nol.
 
 ## Step 1: Pilih Exchange Terpercaya
 
@@ -71,22 +71,22 @@ Investasi hanya uang yang siap hilang. Jangan pakai uang kebutuhan sehari-hari.
 
 ## Kesalahan Umum Pemula
 
-- **FOMO** — beli saat harga sudah naik tinggi
-- **Panic sell** — jual saat harga turun
-- **Ikut grup signal** — kebanyakan scam
-- **Tidak riset** — beli tanpa paham project-nya
-- **Simpan di exchange** — rawan hack
+- **FOMO**, beli saat harga sudah naik tinggi
+- **Panic sell**, jual saat harga turun
+- **Ikut grup signal**, kebanyakan scam
+- **Tidak riset**, beli tanpa paham project-nya
+- **Simpan di exchange**, rawan hack
 
 ## Kosakata Crypto yang Wajib Diketahui
 
-- **Bull market** — pasar naik
-- **Bear market** — pasar turun
-- **Altcoin** — semua crypto selain Bitcoin
-- **DeFi** — keuangan terdesentralisasi
-- **Gas fee** — biaya transaksi di blockchain
-- **Whale** — pemilik crypto dalam jumlah besar
-- **Moon** — harga naik drastis
-- **Rekt** — rugi besar
+- **Bull market**, pasar naik
+- **Bear market**, pasar turun
+- **Altcoin**, semua crypto selain Bitcoin
+- **DeFi**, keuangan terdesentralisasi
+- **Gas fee**, biaya transaksi di blockchain
+- **Whale**, pemilik crypto dalam jumlah besar
+- **Moon**, harga naik drastis
+- **Rekt**, rugi besar
 
 ---
 

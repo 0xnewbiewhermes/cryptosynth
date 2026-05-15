@@ -17,11 +17,11 @@ JPMorgan (JPM), salah satu bank terbesar di dunia, sedang bersiap meluncurkan da
 
 Dana yang diberi nama **JPMorgan OnChain Liquidity-Token Money Market Fund (JLTXX)** ini akan mempertahankan saldo token berbasis blockchain yang terkait dengan catatan kepemilikan investor. Pengguna yang disetujui dapat mengajukan permintaan pembelian, penebusan, dan transfer melalui Ethereum [1].
 
-Infrastruktur blockchain yang mendasarinya akan dioperasikan oleh **Kinexys Digital Assets** — unit blockchain JPMorgan yang sebelumnya dikenal dengan nama Onyx [1].
+Infrastruktur blockchain yang mendasarinya akan dioperasikan oleh **Kinexys Digital Assets**, unit blockchain JPMorgan yang sebelumnya dikenal dengan nama Onyx [1].
 
 ## Dirancang untuk GENIUS Act
 
-Yang membuat dana ini istimewa adalah strukturnya yang dirancang untuk memenuhi persyaratan aset cadangan di bawah **GENIUS Act** — undang-undang yang bertujuan mengatur penerbit stablecoin di AS [1].
+Yang membuat dana ini istimewa adalah strukturnya yang dirancang untuk memenuhi persyaratan aset cadangan di bawah **GENIUS Act**, undang-undang yang bertujuan mengatur penerbit stablecoin di AS [1].
 
 Ini berposisi sebagai kendaraan cadangan yang menghasilkan yield bagi perusahaan stablecoin yang mencari eksposur Treasury yang patuh regulasi. Dengan kata lain, JPMorgan sedang membangun infrastruktur keuangan yang bisa menjadi tulang punggung ekosistem stablecoin di masa depan.
 
@@ -29,7 +29,7 @@ Ini berposisi sebagai kendaraan cadangan yang menghasilkan yield bagi perusahaan
 
 Langkah JPMorgan ini terjadi hanya beberapa hari setelah **BlackRock (BLK)**, manajer aset terbesar di dunia, mengajukan dokumen untuk kendela cadangan Treasury tokenized baru dan saham berbasis blockchain dari dana money market senilai $7 miliar yang sudah ada [1].
 
-Persaingan antara dua raksasa keuangan ini menunjukkan bahwa tokenisasi bukan lagi eksperimen — ini sudah menjadi lini bisnis strategis.
+Persaingan antara dua raksasa keuangan ini menunjukkan bahwa tokenisasi bukan lagi eksperimen, ini sudah menjadi lini bisnis strategis.
 
 ### Pasar Aset Dunia Nyata (RWA) Terus Tumbuh
 
@@ -77,9 +77,9 @@ Sumber: CoinDesk [2]
 
 <div class="sources-box">
 <strong>Sumber:</strong>
-<a href="https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up" target="_blank" rel="noopener">[1] CoinDesk — JPMorgan files to launch new tokenized fund</a> · 
-<a href="https://www.coindesk.com" target="_blank" rel="noopener">[2] CoinDesk — Data harga real-time</a> · 
-<a href="https://rwa.xyz" target="_blank" rel="noopener">[3] rwa.xyz — Data pasar RWA tokenized</a>
+<a href="https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up" target="_blank" rel="noopener">[1] CoinDesk, JPMorgan files to launch new tokenized fund</a> · 
+<a href="https://www.coindesk.com" target="_blank" rel="noopener">[2] CoinDesk, Data harga real-time</a> · 
+<a href="https://rwa.xyz" target="_blank" rel="noopener">[3] rwa.xyz, Data pasar RWA tokenized</a>
 </div>
 
 <div class="disclaimer-box">

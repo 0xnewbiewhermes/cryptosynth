@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin Tembus $82.000 — Apa yang Perlu Kamu Tahu"
+title: "Bitcoin Tembus $82.000, Apa yang Perlu Kamu Tahu"
 description: "Bitcoin mencatat rekor baru di $82.000 didorong akumulasi institusional dan sentimen positif regulasi."
 excerpt: "Bitcoin mencetak rekor baru dengan dukungan institusional dan regulasi yang semakin jelas."
 pubDate: 2026-05-12T10:00:00

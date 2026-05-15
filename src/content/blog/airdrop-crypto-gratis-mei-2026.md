@@ -17,35 +17,35 @@ Airdrop crypto adalah distribusi token gratis dari project blockchain kepada pen
 
 ## 5 Airdrop Crypto Gratis Terbaru Mei 2026
 
-### 1. LayerZero (ZRO) — Phase 2
+### 1. LayerZero (ZRO), Phase 2
 
 - **Reward**: Estimasi $500-2.000 per wallet
 - **Cara claim**: Bridge minimal $100 melalui Stargate Finance
 - **Deadline**: Belum diumumkan
 - **Status**: Aktif
 
-### 2. zkSync (ZK) — Bonus Round
+### 2. zkSync (ZK), Bonus Round
 
 - **Reward**: Estimasi $200-800 per wallet
 - **Cara claim**: Interaksi dengan dApp di ekosistem zkSync
 - **Deadline**: Q2 2026
 - **Status**: Aktif
 
-### 3. Starknet (STRK) — Season 2
+### 3. Starknet (STRK), Season 2
 
 - **Reward**: Estimasi $100-500 per wallet
 - **Cara claim**: Transaksi di Starknet mainnet
 - **Deadline**: Juni 2026
 - **Status**: Aktif
 
-### 4. Scroll (SCR) — Early User Reward
+### 4. Scroll (SCR), Early User Reward
 
 - **Reward**: Estimasi $300-1.000 per wallet
 - **Cara claim**: Bridge dan swap di Scroll network
 - **Deadline**: Q2 2026
 - **Status**: Coming Soon
 
-### 5. EigenLayer (EIGEN) — Restaking Season
+### 5. EigenLayer (EIGEN), Restaking Season
 
 - **Reward**: Estimasi $500-3.000 per wallet
 - **Cara claim**: Restake ETH di EigenLayer
@@ -54,26 +54,26 @@ Airdrop crypto adalah distribusi token gratis dari project blockchain kepada pen
 
 ## Cara Claim Airdrop: Step by Step
 
-1. **Siapkan wallet** — Gunakan MetaMask atau Rabby Wallet
-2. **Pastikan ada saldo** — Minimal $50-100 di ETH atau USDC
-3. **Ikuti syarat** — Bridge, swap, atau stake sesuai ketentuan
-4. **Simpan bukti** — Screenshot transaksi untuk klaim
-5. **Pantau pengumuman** — Follow Twitter resmi project
+1. **Siapkan wallet**, Gunakan MetaMask atau Rabby Wallet
+2. **Pastikan ada saldo**, Minimal $50-100 di ETH atau USDC
+3. **Ikuti syarat**, Bridge, swap, atau stake sesuai ketentuan
+4. **Simpan bukti**, Screenshot transaksi untuk klaim
+5. **Pantau pengumuman**, Follow Twitter resmi project
 
 ## Tips Anti Scam Airdrop
 
 - **Jangan pernah** kasih seed phrase ke siapapun
-- **Verifikasi URL** — pastikan domain resmi, bukan phishing
-- **Cek kontrak** — gunakan Etherscan untuk verifikasi
-- **Research** — baca whitepaper dan tim di balik project
+- **Verifikasi URL**, pastikan domain resmi, bukan phishing
+- **Cek kontrak**, gunakan Etherscan untuk verifikasi
+- **Research**, baca whitepaper dan tim di balik project
 
 ## Kenapa Airdrop Populer di Indonesia?
 
 Indonesia adalah salah satu pasar crypto terbesar di Asia Tenggara. Menurut data Bappebti [2], jumlah investor crypto Indonesia mencapai 20+ juta orang. Airdrop menjadi cara favorit karena:
 
-- **Tanpa modal** — cukup interaksi dengan platform
-- **Reward besar** — beberapa airdrop bernilai ribuan dollar
-- **Belajar sambil earn** — paham teknologi blockchain sambil dapat token
+- **Tanpa modal**, cukup interaksi dengan platform
+- **Reward besar**, beberapa airdrop bernilai ribuan dollar
+- **Belajar sambil earn**, paham teknologi blockchain sambil dapat token
 
 ---
 

@@ -19,7 +19,7 @@ Bitcoin (BTC) saat ini diperdagangkan di sekitar **$82.000**, mencatat rekor ter
 
 ### 1. Akumulasi Institusional
 
-MicroStrategy terus menambah kepemilikan BTC. Total holdings mereka sudah mencapai 250.000+ BTC [1]. ETF Bitcoin juga melihat inflow besar — $2 miliar dalam seminggu terakhir [2].
+MicroStrategy terus menambah kepemilikan BTC. Total holdings mereka sudah mencapai 250.000+ BTC [1]. ETF Bitcoin juga melihat inflow besar, $2 miliar dalam seminggu terakhir [2].
 
 ### 2. Regulasi Semakin Jelas
 
@@ -45,7 +45,7 @@ Ekspektasi pemotongan suku bunga Fed membuat investor mencari aset berisiko term
 
 - **RSI**: 68 (mendekati overbought tapi belum)
 - **MACD**: Bullish crossover
-- **Volume**: Meningkat — konfirmasi rally
+- **Volume**: Meningkat, konfirmasi rally
 
 ## Prediksi Analis 2026
 
@@ -74,9 +74,9 @@ Ekspektasi pemotongan suku bunga Fed membuat investor mencari aset berisiko term
 ## Apa yang Harus Dilakukan?
 
 ### Untuk Investor Jangka Panjang
-- **DCA** — beli rutin setiap minggu/bulan
-- **HODL** — tahan untuk 2-5 tahun
-- **Cold wallet** — simpan di hardware wallet
+- **DCA**, beli rutin setiap minggu/bulan
+- **HODL**, tahan untuk 2-5 tahun
+- **Cold wallet**, simpan di hardware wallet
 
 ### Untuk Trader
 - Perhatikan level resistance $85.000
@@ -85,7 +85,7 @@ Ekspektasi pemotongan suku bunga Fed membuat investor mencari aset berisiko term
 
 ## Hubungan Bitcoin dengan Rupiah
 
-Bitcoin bukan hanya naik dalam USD — juga naik dalam Rupiah karena pelemahan IDR. Ini membuat BTC menjadi hedge terhadap inflasi dan depresiasi Rupiah.
+Bitcoin bukan hanya naik dalam USD, juga naik dalam Rupiah karena pelemahan IDR. Ini membuat BTC menjadi hedge terhadap inflasi dan depresiasi Rupiah.
 
 ---
 

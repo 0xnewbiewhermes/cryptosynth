@@ -15,7 +15,7 @@ Senate Banking Committee AS dijadwalkan menggelar *markup* untuk membahas dan me
 
 Menjelang sesi tersebut, lebih dari 100 amandemen telah diajukan oleh anggota komite. Sebagian besar perubahan yang diusulkan berfokus pada stablecoin, pengembang crypto, dan masalah etika terkait pemerintah. [2][3]
 
-Senator Demokrat Elizabeth Warren dan Jack Reed menjadi nama-nama yang paling dominan dalam daftar amandemen. Namun, amandemen-ammendemen tersebut diperkirakan lebih bersifat retoris — mayoritas Partai Republik di komite berusaha meloloskan RUU ini tanpa perubahan signifikan. [3]
+Senator Demokrat Elizabeth Warren dan Jack Reed menjadi nama-nama yang paling dominan dalam daftar amandemen. Namun, amandemen-ammendemen tersebut diperkirakan lebih bersifat retoris, mayoritas Partai Republik di komite berusaha meloloskan RUU ini tanpa perubahan signifikan. [3]
 
 Salah satu poin penting dari versi terbaru yang bocor: bursa crypto dan platform lain mungkin tidak lagi diizinkan menawarkan *rewards* stablecoin yang berfungsi seperti bunga tabungan tradisional. Firma riset crypto XWIN Japan menyebut proposal ini bertujuan memisahkan stablecoin untuk pembayaran dari produk yang mirip deposito bank. [1]
 
@@ -23,7 +23,7 @@ Salah satu poin penting dari versi terbaru yang bocor: bursa crypto dan platform
 
 Di sisi pasar, sinyal-sinyal onchain menunjukkan kondisi yang membaik. Peneliti Bitcoin Axel Adler Jr. melaporkan bahwa tekanan kerugian *short-term holder* (STH) tetap di nol persen selama lima hari berturut-turut. Metrik ini mengukur apakah pembeli Bitcoin baru-baru ini sedang menahan BTC di bawah harga beli mereka. [1]
 
-Lebih lanjut, Adler Jr. mencatat bahwa porsi pasokan Bitcoin yang dipegang oleh trader jangka pendek turun ke 22,2% — level terendah dalam 90 hari. Ini menunjukkan bahwa semakin sedikit BTC yang baru dibeli yang dijual, yang bisa meningkatkan peluang *breakout*. [1]
+Lebih lanjut, Adler Jr. mencatat bahwa porsi pasokan Bitcoin yang dipegang oleh trader jangka pendek turun ke 22,2%, level terendah dalam 90 hari. Ini menunjukkan bahwa semakin sedikit BTC yang baru dibeli yang dijual, yang bisa meningkatkan peluang *breakout*. [1]
 
 ## Harga Bitcoin Hari Ini
 
@@ -49,7 +49,7 @@ Selain itu, lebih dari $3 miliar posisi *leveraged long* berkumpul di antara $79
 
 ## Dampak untuk Pasar Crypto Indonesia
 
-Voting CLARITY Act bukan hanya berita AS — regulasi yang lebih jelas di Negeri Paman Sam sering kali menjadi sinyal positif untuk pasar global, termasuk Indonesia. Jika RUU ini lolos dari komite, sentimen positif bisa merembet ke altcoin dan token DeFi yang banyak diperdagangkan di bursa lokal.
+Voting CLARITY Act bukan hanya berita AS, regulasi yang lebih jelas di Negeri Paman Sam sering kali menjadi sinyal positif untuk pasar global, termasuk Indonesia. Jika RUU ini lolos dari komite, sentimen positif bisa merembet ke altcoin dan token DeFi yang banyak diperdagangkan di bursa lokal.
 
 Stablecoin juga tetap menjadi sumber utama pergerakan uang di pasar crypto. Aktivitas alamat stablecoin ERC-20 terus menunjukkan pertumbuhan parabolik dalam beberapa tahun terakhir, dan adopsi yang lebih luas bisa mendukung investasi jangka panjang di Bitcoin. [1]
 
@@ -60,15 +60,15 @@ Coinbase CEO Brian Armstrong menyebut RUU ini "kuat" dan akan "memberi manfaat b
 - **Voting Kamis (14 Mei):** Hasil markup Senate Banking Committee akan menentukan arah jangka pendek BTC
 - **Resistance $83.400–$84.600:** Zona kunci untuk profit-taking
 - **Support $78.000–$79.000:** Level di mana posisi leveraged long bertumpuk
-- **Amandemen etika:** Demokrat menuntut ketentuan konflik kepentingan terkait pejabat pemerintah dan crypto — ini bisa jadi hambatan jika tidak ada kesepakatan [3]
+- **Amandemen etika:** Demokrat menuntut ketentuan konflik kepentingan terkait pejabat pemerintah dan crypto, ini bisa jadi hambatan jika tidak ada kesepakatan [3]
 
 ---
 
 **Sumber:**
 
-1. [Cointelegraph — "Bitcoin traders expect 'fast move' to $90K following CLARITY Act vote"](https://cointelegraph.com/markets/bitcoin-traders-expect-fast-move-90k-following-clarity-act-vote) — 13 Mei 2026
-2. [The Block — "More than 100 amendments filed targeting stablecoins, ethics and DeFi ahead of Senate Banking Committee Clarity Act vote"](https://www.theblock.co/post/401074/senate-banking-members-file-clarity-act-amendments) — 13 Mei 2026
-3. [CoinDesk — "Clarity Act amendments would remake key parts of crypto bill but have doubtful future"](https://www.coindesk.com/policy/2026/05/13/clarity-act-amendments-would-remake-key-parts-of-crypto-bill-but-have-doubtful-future) — 13 Mei 2026
+1. [Cointelegraph, "Bitcoin traders expect 'fast move' to $90K following CLARITY Act vote"](https://cointelegraph.com/markets/bitcoin-traders-expect-fast-move-90k-following-clarity-act-vote), 13 Mei 2026
+2. [The Block, "More than 100 amendments filed targeting stablecoins, ethics and DeFi ahead of Senate Banking Committee Clarity Act vote"](https://www.theblock.co/post/401074/senate-banking-members-file-clarity-act-amendments), 13 Mei 2026
+3. [CoinDesk, "Clarity Act amendments would remake key parts of crypto bill but have doubtful future"](https://www.coindesk.com/policy/2026/05/13/clarity-act-amendments-would-remake-key-parts-of-crypto-bill-but-have-doubtful-future), 13 Mei 2026
 
 ---
 

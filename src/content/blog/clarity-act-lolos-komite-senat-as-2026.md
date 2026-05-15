@@ -12,7 +12,7 @@ author: "CryptoSynth Research"
 
 ## CLARITY Act Lolos: Tonggak Baru Regulasi Crypto AS
 
-RUU struktur pasar crypto terbesar di AS, **Digital Asset Market Clarity Act (CLARITY)**, resmi disetujui oleh Senate Banking Committee dalam sesi *markup* pada Kamis, 14 Mei 2026. Voting berakhir dengan skor **15-9** — seluruh 13 anggota Republik dan dua senator Demokrat (Ruben Gallego dari Arizona dan Angela Alsobrooks dari Maryland) memilih mendukung, sementara sembilan senator Demokrat lainnya menolak. [1][2]
+RUU struktur pasar crypto terbesar di AS, **Digital Asset Market Clarity Act (CLARITY)**, resmi disetujui oleh Senate Banking Committee dalam sesi *markup* pada Kamis, 14 Mei 2026. Voting berakhir dengan skor **15-9**, seluruh 13 anggota Republik dan dua senator Demokrat (Ruben Gallego dari Arizona dan Angela Alsobrooks dari Maryland) memilih mendukung, sementara sembilan senator Demokrat lainnya menolak. [1][2]
 
 Pencapaian ini menandai langkah signifikan dalam upaya Kongres AS untuk menciptakan kejelasan regulasi bagi perusahaan dan pasar crypto. RUU ini akan mengatur pembagian kewenangan antara **Securities and Exchange Commission (SEC)** dan **Commodity Futures Trading Commission (CFTC)** dalam mengawasi aset digital. [1][3]
 
@@ -22,7 +22,7 @@ Sebelum voting final, lebih dari **100 amandemen** diajukan oleh anggota komite,
 
 **Senator Elizabeth Warren**, yang menempati posisi sebagai *ranking member*, menjadi penentang paling vokal. Ia menyebut RUU ini "ditulis oleh industri crypto untuk industri crypto" dan memperingatkan bahwa undang-undang ini akan memungkinkan anggota parlemen Republik untuk "melumasi jalan" bagi kepentingan crypto Presiden Trump. [1]
 
-> "Tidak ada yang masuk ke dalam RUU ini yang tidak disetujui oleh industri crypto." — Senator Elizabeth Warren [1]
+> "Tidak ada yang masuk ke dalam RUU ini yang tidak disetujui oleh industri crypto.", Senator Elizabeth Warren [1]
 
 Sebaliknya, **Senator Cynthia Lummis**, salah satu pendukung utama RUU dari kubu Republik, membela CLARITY Act sebagai undang-undang yang "pro penegakan hukum" dan "pro konsumen." [1]
 
@@ -30,8 +30,8 @@ Sejumlah amandemen penting yang diperdebatkan meliputi:
 
 - **Stablecoin yield:** Larangan bagi bursa crypto menawarkan *rewards* stablecoin yang berfungsi seperti bunga tabungan tradisional
 - **Sandbox AI:** Amandemen dari Senator Tim Scott tentang sandbox untuk AI yang diadopsi
-- **Konflik kepentingan:** Amandemen dari Senator Chris Van Hollen terkait bisnis crypto keluarga Trump (World Liberty Financial) — ditolak secara partisan
-- **Larangan bailout:** Amandemen Senator Tina Smith untuk melarang bailout federal bagi perusahaan crypto — juga ditolak [1][3]
+- **Konflik kepentingan:** Amandemen dari Senator Chris Van Hollen terkait bisnis crypto keluarga Trump (World Liberty Financial), ditolak secara partisan
+- **Larangan bailout:** Amandemen Senator Tina Smith untuk melarang bailout federal bagi perusahaan crypto, juga ditolak [1][3]
 
 ## Jalan Masih Panjang: 60 Suara di Senat dan Persetujuan DPR
 
@@ -63,17 +63,17 @@ Coinbase, salah satu bursa crypto terbesar AS, juga memimpin kenaikan saham cryp
 
 ## Insight untuk Trader/Investor Indonesia
 
-**Kenapa ini penting buat market Indonesia?** Lolosnya CLARITY Act dari komite bukan sekadar berita AS — ini menentukan *playbook* regulasi global untuk dekade berikutnya. Indonesia yang saat ini mengatur crypto melalui Bappebti dan OJK perlu memperhatikan karena standar yang dibentuk AS sering kali menjadi acuan regulator regional.
+**Kenapa ini penting buat market Indonesia?** Lolosnya CLARITY Act dari komite bukan sekadar berita AS, ini menentukan *playbook* regulasi global untuk dekade berikutnya. Indonesia yang saat ini mengatur crypto melalui Bappebti dan OJK perlu memperhatikan karena standar yang dibentuk AS sering kali menjadi acuan regulator regional.
 
-**Dampak ke ekosistem lokal yang belum banyak dibahas:** Definisi jelas antara sekuritas dan komoditas di CLARITY Act akan langsung mempengaruhi bagaimana token yang listing di bursa Indonesia diklasifikasikan. Jika SEC dan CFTC akhirnya punya batas yang tegas, token yang saat ini berada di area abu-abu — termasuk sebagian besar token DeFi dan *yield farming* — bisa menghadapi tekanan listing/delisting di bursa global yang berimbas ke Indodaca, Tokocrypto, dan platform lokal lainnya.
+**Dampak ke ekosistem lokal yang belum banyak dibahas:** Definisi jelas antara sekuritas dan komoditas di CLARITY Act akan langsung mempengaruhi bagaimana token yang listing di bursa Indonesia diklasifikasikan. Jika SEC dan CFTC akhirnya punya batas yang tegas, token yang saat ini berada di area abu-abu, termasuk sebagian besar token DeFi dan *yield farming*, bisa menghadapi tekanan listing/delisting di bursa global yang berimbas ke Indodaca, Tokocrypto, dan platform lokal lainnya.
 
-**Risiko yang perlu diwaspadai:** Meskipun sentimen positif jangka pendek, probabilitas lolos di bawah 50% (menurut GSR) berarti *volatilitas politik* tetap tinggi. Trader Indonesia yang menggunakan leverage harus hati-hati — setiap kabar negatif terkait amandemen etika atau perpecahan bipartisan bisa memicu koreksi tajam. Jangan FOMO hanya karena headline positif dari komite.
+**Risiko yang perlu diwaspadai:** Meskipun sentimen positif jangka pendek, probabilitas lolos di bawah 50% (menurut GSR) berarti *volatilitas politik* tetap tinggi. Trader Indonesia yang menggunakan leverage harus hati-hati, setiap kabar negatif terkait amandemen etika atau perpecahan bipartisan bisa memicu koreksi tajam. Jangan FOMO hanya karena headline positif dari komite.
 
-**Peluang:** Jika CLARITY Act akhirnya lolos dari Senat penuh, stablecoin dan token yang terkait dengan infrastruktur kepatuhan (compliance) bisa jadi *outperformer*. Proyek-proyek yang sudah berinvestasi dalam kepatuhan regulasi AS — seperti Circle (USDC) dan Chainlink — berpotensi mendapat keuntungan kompetitif signifikan.
+**Peluang:** Jika CLARITY Act akhirnya lolos dari Senat penuh, stablecoin dan token yang terkait dengan infrastruktur kepatuhan (compliance) bisa jadi *outperformer*. Proyek-proyek yang sudah berinvestasi dalam kepatuhan regulasi AS, seperti Circle (USDC) dan Chainlink, berpotensi mendapat keuntungan kompetitif signifikan.
 
 ## Yang Perlu Diperhatikan ke Depan
 
-- **Voting lantai Senat:** Masih membutuhkan 60 suara — perlu dukungan lebih banyak senator Demokrat
+- **Voting lantai Senat:** Masih membutuhkan 60 suara, perlu dukungan lebih banyak senator Demokrat
 - **Amandemen etika:** Isu konflik kepentingan terkait pejabat pemerintah dan crypto tetap jadi hambatan bipartisan
 - **Stablecoin yield:** Larangan potensial terhadap *rewards* stablecoin bisa mempengaruhi produk yang banyak digunakan trader Indonesia
 - **Dampak ke altcoin:** Regulasi lebih jelas di AS biasanya diikuti oleh reli di token layer-1 dan DeFi
@@ -82,10 +82,10 @@ Coinbase, salah satu bursa crypto terbesar AS, juga memimpin kenaikan saham cryp
 
 **Sumber:**
 
-1. [Cointelegraph — "US Senate Banking Committee votes to advance CLARITY Act"](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act) — 14 Mei 2026
-2. [CoinDesk — "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances"](https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances) — 14 Mei 2026
-3. [Decrypt — "Democrats Split on Clarity Act as Crypto Bill Passes Key Senate Committee Vote"](https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee-vote) — 14 Mei 2026
-4. [The Block — "'Decisive turning point': Crypto industry cheers Clarity Act's progress"](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote) — 14 Mei 2026
+1. [Cointelegraph, "US Senate Banking Committee votes to advance CLARITY Act"](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act), 14 Mei 2026
+2. [CoinDesk, "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances"](https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances), 14 Mei 2026
+3. [Decrypt, "Democrats Split on Clarity Act as Crypto Bill Passes Key Senate Committee Vote"](https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee-vote), 14 Mei 2026
+4. [The Block, "'Decisive turning point': Crypto industry cheers Clarity Act's progress"](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote), 14 Mei 2026
 
 ---
 

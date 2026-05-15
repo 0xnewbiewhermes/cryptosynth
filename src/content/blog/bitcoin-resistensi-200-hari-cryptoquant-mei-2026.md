@@ -8,7 +8,7 @@ tags: ["bitcoin", "btc", "harga bitcoin hari ini", "cryptoquant", "prediksi cryp
 ---
 
 <div class="tldr-box">
-<strong>TL;DR:</strong> Bitcoin rally selama 6 minggu terhenti di zona resistensi 200-day moving average sekitar $82.000–$82.500. CryptoQuant memperingatkan bahwa pola ini mirip dengan Maret 2022, ketika BTC gagal menembus level yang sama sebelum jatuh lebih dalam. Trader sudah mulai ambil untung besar-besaran — 14.600 BTC senilai $1,2 miliar dicairkan pada 4 Mei [1].
+<strong>TL;DR:</strong> Bitcoin rally selama 6 minggu terhenti di zona resistensi 200-day moving average sekitar $82.000–$82.500. CryptoQuant memperingatkan bahwa pola ini mirip dengan Maret 2022, ketika BTC gagal menembus level yang sama sebelum jatuh lebih dalam. Trader sudah mulai ambil untung besar-besaran, 14.600 BTC senilai $1,2 miliar dicairkan pada 4 Mei [1].
 </div>
 
 ## Bitcoin Terbentur di Resistensi Historis 200-Day MA
@@ -27,7 +27,7 @@ Struktur saat ini terlihat sangat mirip. Bitcoin membentuk bottom di sekitar $60
 
 ## Trader Mulai Ambil Untung Besar-besaran
 
-Yang membuat outlook CryptoQuant semakin bearish adalah data profit-taking yang masif. Margin keuntungan unrealized trader mencapai 17,7% pada 5 Mei — level tertinggi sejak Juni tahun lalu [1]. Angka ini menunjukkan tekanan jual yang signifikan karena trader berusaha merealisasikan keuntungan.
+Yang membuat outlook CryptoQuant semakin bearish adalah data profit-taking yang masif. Margin keuntungan unrealized trader mencapai 17,7% pada 5 Mei, level tertinggi sejak Juni tahun lalu [1]. Angka ini menunjukkan tekanan jual yang signifikan karena trader berusaha merealisasikan keuntungan.
 
 "Level margin ini mencerminkan apa yang terlihat pada Maret 2022, tepat ketika Bitcoin terakhir menguji 200-day MA sebelum melanjutkan penurunan," kata CryptoQuant [1].
 
@@ -53,7 +53,7 @@ Namun, ada beberapa level support antara yang perlu diperhatikan. Menurut data C
 
 ## Faktor Makro yang Mempengaruhi
 
-Bitcoin juga semakin sensitif terhadap ekonomi AS seiring meningkatnya adopsi Wall Street. Penurunan terbaru terjadi setelah Departemen Tenaga Kerja AS melaporkan harga produsen (PPI) melonjak 1,4% di April — kenaikan terbesar dalam 4 tahun dan sinyal inflasi yang memanas [1].
+Bitcoin juga semakin sensitif terhadap ekonomi AS seiring meningkatnya adopsi Wall Street. Penurunan terbaru terjadi setelah Departemen Tenaga Kerja AS melaporkan harga produsen (PPI) melonjak 1,4% di April, kenaikan terbesar dalam 4 tahun dan sinyal inflasi yang memanas [1].
 
 Namun, tidak semua analis bearish. Michaël van de Poppe, founder MN Capital, mengatakan Bitcoin "mungkin bergerak cepat" ke $90.000 jika Senat AS mengesahkan CLARITY Act [1]. Sementara itu, Arthur Hayes dari Maelstrom memprediksi BTC kembali ke rekor tertinggi $126.000 adalah "kesimpulan yang sudah pasti," didorong oleh peningkatan suplai uang akibat konflik Iran dan kompetisi AI AS-China [1].
 
@@ -76,9 +76,9 @@ Bagi trader dan investor crypto di Indonesia, beberapa hal yang perlu diperhatik
 <div class="sources-box">
 <strong>Sumber:</strong>
 <ul>
-<li><a href="https://cointelegraph.com/news/bitcoin-at-risk-of-falling-after-hitting-major-bear-market-resistance-cryptoquant" target="_blank">[1] Cointelegraph — Bitcoin risks slump after hitting 'major bear market resistance': CryptoQuant (14 Mei 2026)</a></li>
-<li><a href="https://www.coindesk.com/markets/2026/05/13/bitcoin-faces-crucial-test-at-200-day-moving-averages-as-bulls-defend-key-support-zone" target="_blank">[2] CoinDesk — The $82,000 battle: bitcoin tests key resistance zone to form next major breakout (13 Mei 2026)</a></li>
-<li><a href="https://www.benzinga.com/crypto/cryptocurrency/26/05/52490980/bitcoin-stalls-at-key-80000-moving-average-history-tells-us-what-may-happen-next" target="_blank">[3] Benzinga — Bitcoin Stalls At Key $80,000 Moving Average: History Tells Us What May Happen Next (12 Mei 2026)</a></li>
+<li><a href="https://cointelegraph.com/news/bitcoin-at-risk-of-falling-after-hitting-major-bear-market-resistance-cryptoquant" target="_blank">[1] Cointelegraph, Bitcoin risks slump after hitting 'major bear market resistance': CryptoQuant (14 Mei 2026)</a></li>
+<li><a href="https://www.coindesk.com/markets/2026/05/13/bitcoin-faces-crucial-test-at-200-day-moving-averages-as-bulls-defend-key-support-zone" target="_blank">[2] CoinDesk, The $82,000 battle: bitcoin tests key resistance zone to form next major breakout (13 Mei 2026)</a></li>
+<li><a href="https://www.benzinga.com/crypto/cryptocurrency/26/05/52490980/bitcoin-stalls-at-key-80000-moving-average-history-tells-us-what-may-happen-next" target="_blank">[3] Benzinga, Bitcoin Stalls At Key $80,000 Moving Average: History Tells Us What May Happen Next (12 Mei 2026)</a></li>
 </ul>
 </div>
 

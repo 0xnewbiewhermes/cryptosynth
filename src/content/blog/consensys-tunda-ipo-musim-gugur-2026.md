@@ -23,15 +23,15 @@ Juru bicara Consensys hanya menyatakan: "Sebagai kebijakan, kami tidak mengoment
 
 Penundaan ini bukan tanpa alasan. Pasar crypto mengalami koreksi tajam sejak Februari 2026. Beberapa faktor utama yang memicu penurunan:
 
-- **Ketidakpastian makroekonomi** — investor menarik diri dari aset berisiko
-- **Kekhawatiran tarif** — kebijakan perdagangan global yang tidak menentu
-- **Ekspektasi penurunan suku bunga yang melambat** — The Reserve Bank tetap hawkish
-- **Outflow besar dari Bitcoin ETF** — dana keluar masif dari produk ETF Bitcoin
-- **Likuidasi leveraged** — gelombang likuidasi posisi leverage di seluruh aset digital [1]
+- **Ketidakpastian makroekonomi**, investor menarik diri dari aset berisiko
+- **Kekhawatiran tarif**, kebijakan perdagangan global yang tidak menentu
+- **Ekspektasi penurunan suku bunga yang melambat**, The Reserve Bank tetap hawkish
+- **Outflow besar dari Bitcoin ETF**, dana keluar masif dari produk ETF Bitcoin
+- **Likuidasi leveraged**, gelombang likuidasi posisi leverage di seluruh aset digital [1]
 
 Data harga saat ini menunjukkan Bitcoin berada di sekitar **$79.480** dan Ethereum di **$2.254**, keduanya masih jauh dari level tertinggi mereka [1].
 
-## Bukan Hanya Consensys — Gelombang Penundaan IPO Crypto
+## Bukan Hanya Consensys, Gelombang Penundaan IPO Crypto
 
 Consensys bukan satu-satunya perusahaan crypto yang menunda IPO. Beberapa nama besar lainnya juga memilih menunggu:
 
@@ -48,9 +48,9 @@ Kasus BitGo menjadi peringatan. Perusahaan ini adalah satu-satunya perusahaan cr
 
 Consensys bukan perusahaan kecil. Pada awal 2022, mereka mengumpulkan **$450 juta** dalam putaran Seri D yang memberikan valuasi **$7 miliar** [1]. Produk-produk mereka menjadi infrastruktur inti ekosistem Ethereum:
 
-- **MetaMask** — wallet crypto paling populer untuk DeFi dan Web3
-- **Infura** — layanan node yang mendukung jutaan aplikasi Ethereum
-- **Linea** — jaringan Layer 2 untuk skalabilitas Ethereum
+- **MetaMask**, wallet crypto paling populer untuk DeFi dan Web3
+- **Infura**, layanan node yang mendukung jutaan aplikasi Ethereum
+- **Linea**, jaringan Layer 2 untuk skalabilitas Ethereum
 
 Baru-baru ini, perusahaan yang didukung Consensys bernama **SharpLink** juga mengungkapkan rencana menempatkan $200 juta ke dalam strategi yield onchain di Linea [2].
 
@@ -58,7 +58,7 @@ Baru-baru ini, perusahaan yang didukung Consensys bernama **SharpLink** juga men
 
 Jalan menuju IPO Consensys sebenarnya sudah lebih bersih secara regulasi. SEC sebelumnya telah mencabut kasus terhadap Consensys terkait layanan staking MetaMask yang dituduhkan sebagai pialang tidak terdaftar [2]. Penghapusan kasus ini menghilangkan hambatan regulasi besar.
 
-Namun, kondisi pasar yang buruk tetap menjadi penghalang utama. Ketika sentimen investor terhadap listing crypto sangat volatile — seperti yang terlihat dari kasus BitGo — perusahaan-perusahaan memilih menunggu waktu yang lebih tepat.
+Namun, kondisi pasar yang buruk tetap menjadi penghalang utama. Ketika sentimen investor terhadap listing crypto sangat volatile, seperti yang terlihat dari kasus BitGo, perusahaan-perusahaan memilih menunggu waktu yang lebih tepat.
 
 ## Apa Artinya untuk Investor Crypto Indonesia?
 
@@ -85,8 +85,8 @@ Beberapa poin penting untuk dicermati:
 
 ## Sumber
 
-1. [CoinDesk — "Ethereum app builder Consensys has delayed its potential IPO until fall"](https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall)
-2. [Ventureburn — "Consensys Plans Historic IPO with JPMorgan and Goldman Sachs"](https://ventureburn.com/consensys-ipo-jpmorgan-goldman/)
+1. [CoinDesk, "Ethereum app builder Consensys has delayed its potential IPO until fall"](https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall)
+2. [Ventureburn, "Consensys Plans Historic IPO with JPMorgan and Goldman Sachs"](https://ventureburn.com/consensys-ipo-jpmorgan-goldman/)
 
 ---
 

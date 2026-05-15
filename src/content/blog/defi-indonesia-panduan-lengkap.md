@@ -15,25 +15,25 @@ tags: ["DeFi", "yield farming", "staking", "passive income", "blockchain", "Ethe
 
 DeFi (Decentralized Finance) adalah sistem keuangan yang berjalan di blockchain tanpa perantara bank atau institusi. Semua transaksi dilakukan langsung via smart contract.
 
-Bayangkan: pinjam uang, tabung dengan bunga tinggi, atau tukar mata uang — semuanya tanpa ke bank, tanpa izin siapapun.
+Bayangkan: pinjam uang, tabung dengan bunga tinggi, atau tukar mata uang, semuanya tanpa ke bank, tanpa izin siapapun.
 
 ## Kenapa DeFi Penting untuk Orang Indonesia?
 
-- **Bunga lebih tinggi** — staking bisa 5-20% APY, jauh di atas deposito bank (3-5%) [1]
-- **Akses global** — siapapun bisa ikut, cukup punya wallet
-- **Transparan** — semua transaksi tercatat di blockchain
-- **Tanpa minimum** — mulai dari $10 pun bisa
+- **Bunga lebih tinggi**, staking bisa 5-20% APY, jauh di atas deposito bank (3-5%) [1]
+- **Akses global**, siapapun bisa ikut, cukup punya wallet
+- **Transparan**, semua transaksi tercatat di blockchain
+- **Tanpa minimum**, mulai dari $10 pun bisa
 
 ## 3 Cara Menghasilkan Uang di DeFi
 
-### 1. Staking — Simpan dan Dapat Bunga
+### 1. Staking, Simpan dan Dapat Bunga
 
 Staking adalah mengunci token di blockchain untuk mendukung operasi jaringan. Imbalannya berupa token baru.
 
 **Platform populer:**
-- **Lido** (ETH staking) — ~4% APY [2]
-- **Marinade Finance** (SOL staking) — ~7% APY [1]
-- **Stride** (Cosmos staking) — ~15% APY [1]
+- **Lido** (ETH staking), ~4% APY [2]
+- **Marinade Finance** (SOL staking), ~7% APY [1]
+- **Stride** (Cosmos staking), ~15% APY [1]
 
 **Cara mulai:**
 1. Punya crypto (ETH, SOL, ATOM)
@@ -41,7 +41,7 @@ Staking adalah mengunci token di blockchain untuk mendukung operasi jaringan. Im
 3. Klik "Stake"
 4. Tunggu reward masuk harian/mingguan
 
-### 2. Yield Farming — Menyediakan Likuiditas
+### 2. Yield Farming, Menyediakan Likuiditas
 
 Yield farming adalah menyediakan pasangan token ke DEX (Decentralized Exchange) untuk mendapat fee trading.
 
@@ -50,16 +50,16 @@ Yield farming adalah menyediakan pasangan token ke DEX (Decentralized Exchange) 
 - **Raydium** (Solana)
 - **PancakeSwap** (BNB Chain)
 
-**Risiko:** Impermanent Loss — nilai token bisa berubah saat harga naik/turun drastis.
+**Risiko:** Impermanent Loss, nilai token bisa berubah saat harga naik/turun drastis.
 
-### 3. Lending — Pinjamkan Crypto
+### 3. Lending, Pinjamkan Crypto
 
 Lending adalah meminjamkan crypto ke orang lain dan mendapat bunga.
 
 **Platform populer:**
-- **Aave** — bunga variable
-- **Compound** — bunga stabil
-- **Morpho** — bunga optimal
+- **Aave**, bunga variable
+- **Compound**, bunga stabil
+- **Morpho**, bunga optimal
 
 **Contoh:**
 - Pinjamkan 1 ETH di Aave → dapat ~3% APY
@@ -94,12 +94,12 @@ Lending adalah meminjamkan crypto ke orang lain dan mendapat bunga.
 
 ## Cara Mulai DeFi: Step by Step
 
-1. **Install wallet** — MetaMask (EVM) atau Phantom (Solana)
-2. **Beli crypto** — ETH, SOL, atau BNB di exchange
-3. **Transfer ke wallet** — kirim dari exchange ke wallet pribadi
-4. **Pilih platform** — mulai dari staking (paling aman)
-5. **Mulai kecil** — coba dulu dengan $50-100
-6. **Pantau** — cek reward harian, sesuaikan strategi
+1. **Install wallet**, MetaMask (EVM) atau Phantom (Solana)
+2. **Beli crypto**, ETH, SOL, atau BNB di exchange
+3. **Transfer ke wallet**, kirim dari exchange ke wallet pribadi
+4. **Pilih platform**, mulai dari staking (paling aman)
+5. **Mulai kecil**, coba dulu dengan $50-100
+6. **Pantau**, cek reward harian, sesuaikan strategi
 
 ---
 

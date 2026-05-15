@@ -17,11 +17,11 @@ Kabar besar datang dari analisis on-chain. CryptoQuant, firma analitik blockchai
 
 > "Secara historis, ketika indikator ini keluar dari zona bear dan memasuki zona early bull, sering kali menunjukkan bahwa fase terburuk koreksi sudah berlalu dan struktur pasar mulai pulih," tulis Moreno [1].
 
-Indikator ini sebelumnya berubah hijau pada 2019 dan awal 2023 — keduanya diikuti oleh tren bullish yang kuat [1]. Namun, ada catatan penting: pada Maret 2022, indikator yang sama memberikan sinyal palsu sebelum pasar jatuh lebih dalam [1].
+Indikator ini sebelumnya berubah hijau pada 2019 dan awal 2023, keduanya diikuti oleh tren bullish yang kuat [1]. Namun, ada catatan penting: pada Maret 2022, indikator yang sama memberikan sinyal palsu sebelum pasar jatuh lebih dalam [1].
 
 ## Bitcoin Pulih ke $81.200 Setelah Gempuran Data CPI Panas
 
-Di pasar spot, Bitcoin (BTC) menunjukkan ketangguhan luar biasa. Setelah data Consumer Price Index (CPI) April 2026 AS dirilis lebih panas dari perkiraan di level 3,8% year-over-year — terutama didorong oleh harga bensin sejak konflik Iran — BTC sempat anjlok ke $79.879 pada Selasa malam waktu AS [2].
+Di pasar spot, Bitcoin (BTC) menunjukkan ketangguhan luar biasa. Setelah data Consumer Price Index (CPI) April 2026 AS dirilis lebih panas dari perkiraan di level 3,8% year-over-year, terutama didorong oleh harga bensin sejak konflik Iran, BTC sempat anjlok ke $79.879 pada Selasa malam waktu AS [2].
 
 Namun, aksi beli agresif langsung terjadi. BTC berhasil pulih ke $81.208 pada Rabu pagi waktu Asia, menutup sesi dengan kenaikan 0,3% dalam 24 jam [2]. Ini menunjukkan structural buyer masih aktif di bawah harga.
 
@@ -47,7 +47,7 @@ Data CoinShares menunjukkan arus masuk dana kripto global sebesar $858 juta ming
 - **Solana products**: $48 juta
 - **XRP products**: $40 juta
 
-Yang paling menarik adalah **likuidasi posisi short Bitcoin senilai $14 juta** — pelunasan short terbesar sepanjang 2026 [2]. Ini berarti uang keluar dari taruhan bearish bahkan ketika kondisi makro berubah lebih volatile. Pola positioning seperti ini biasanya mendahului pergerakan naik, bukan kapitulasi.
+Yang paling menarik adalah **likuidasi posisi short Bitcoin senilai $14 juta**, pelunasan short terbesar sepanjang 2026 [2]. Ini berarti uang keluar dari taruhan bearish bahkan ketika kondisi makro berubah lebih volatile. Pola positioning seperti ini biasanya mendahului pergerakan naik, bukan kapitulasi.
 
 ## Arthur Hayes: Bottom $60.000 Sudah Terlewati, Target $90.000-$126.000
 
@@ -57,7 +57,7 @@ Menurut Hayes, level $90.000 adalah titik di mana rally akan menjadi "eksplosif"
 
 ## Resistance Kunci: $82.000 Masih Jadi Tembok
 
-Meski sinyal bullish bermunculan, ada tantangan nyata. Bitcoin sudah enam hari berturut-turut gagal menembus resistance di $82.000 — level yang berimpit dengan 200-day moving average (DMA) [1].
+Meski sinyal bullish bermunculan, ada tantangan nyata. Bitcoin sudah enam hari berturut-turut gagal menembus resistance di $82.000, level yang berimpit dengan 200-day moving average (DMA) [1].
 
 Analis FxPro, Alex Kuptsikevich, mencatat bahwa sentimen pasar masih sedikit di bawah netral dengan indeks Fear & Greed di angka 47-49 selama tiga hari terakhir [2]. "Bitcoin kehilangan momentum naik saat mendekati 200-day moving average," katanya [2].
 
@@ -78,19 +78,19 @@ Perkembangan ini menunjukkan adopsi institusional terus berjalan meski harga ber
 
 Bagi trader dan investor crypto di Indonesia, ada beberapa poin penting:
 
-1. **Sinyal early bull** dari CryptoQuant adalah indikator makro — bukan sinyal trading harian. Gunakan sebagai konteks, bukan rekomendasi beli.
+1. **Sinyal early bull** dari CryptoQuant adalah indikator makro, bukan sinyal trading harian. Gunakan sebagai konteks, bukan rekomendasi beli.
 2. **Level kunci $82.000** harus ditembus untuk konfirmasi bullish. Selama masih di bawah, waspadai volatilitas jangka pendek.
-3. **Data CPI AS yang panas** berarti kemungkinan penundaan pemotongan suku bunga The Fed — faktor yang bisa menekan aset berisiko termasuk kripto.
+3. **Data CPI AS yang panas** berarti kemungkinan penundaan pemotongan suku bunga The Fed, faktor yang bisa menekan aset berisiko termasuk kripto.
 4. **Arah masuk institusional** tetap positif, yang memberikan lantai dukungan jangka panjang.
 
 ---
 
 <div class="sources-box">
 <strong>Sumber:</strong>
-<a href="https://www.coindesk.com/markets/2026/05/12/bitcoin-s-bull-bear-cycle-turns-green-for-first-time-since-march-2023" target="_blank" rel="noopener">[1] CoinDesk — Bitcoin's bull-bear cycle indicator turns green</a> · 
-<a href="https://www.coindesk.com/markets/2026/05/13/bitcoin-back-above-usd81-000-after-hot-cpi-print-bnb-doge-lead-majors-gains" target="_blank" rel="noopener">[2] CoinDesk — Bitcoin back above $81,000 after hot CPI print</a> · 
-<a href="https://api.coingecko.com/api/v3/coins/markets" target="_blank" rel="noopener">[3] CoinGecko — Data harga real-time</a> · 
-<a href="https://www.coindesk.com" target="_blank" rel="noopener">[4] CoinDesk — Berita institusional (JPMorgan, Kraken, Elliptic, XRP ETF)</a>
+<a href="https://www.coindesk.com/markets/2026/05/12/bitcoin-s-bull-bear-cycle-turns-green-for-first-time-since-march-2023" target="_blank" rel="noopener">[1] CoinDesk, Bitcoin's bull-bear cycle indicator turns green</a> · 
+<a href="https://www.coindesk.com/markets/2026/05/13/bitcoin-back-above-usd81-000-after-hot-cpi-print-bnb-doge-lead-majors-gains" target="_blank" rel="noopener">[2] CoinDesk, Bitcoin back above $81,000 after hot CPI print</a> · 
+<a href="https://api.coingecko.com/api/v3/coins/markets" target="_blank" rel="noopener">[3] CoinGecko, Data harga real-time</a> · 
+<a href="https://www.coindesk.com" target="_blank" rel="noopener">[4] CoinDesk, Berita institusional (JPMorgan, Kraken, Elliptic, XRP ETF)</a>
 </div>
 
 <div class="disclaimer-box">

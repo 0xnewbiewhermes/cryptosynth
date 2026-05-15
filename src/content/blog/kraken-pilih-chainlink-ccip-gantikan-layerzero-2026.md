@@ -13,7 +13,7 @@ tags: ["kraken", "chainlink", "ccip", "layerzero", "kbtc", "bridge", "defi", "ke
 
 Kraken secara resmi mengumumkan bahwa mereka akan menggantikan LayerZero dengan Chainlink's Cross-Chain Interoperability Protocol (CCIP) untuk seluruh transfer aset lintas blockchain. Keputusan ini datang setelah exploit besar senilai $292 juta yang menyerang bridge Kelp DAO yang dibangun di atas LayerZero pada April 2026 [1].
 
-Dalam pengumumannya, Kraken menyatakan bahwa CCIP akan menjadi layanan bridge tunggal dan eksklusif untuk semua token wrapped milik exchange tersebut, termasuk kBTC — produk wrapped Bitcoin yang di-backing 1:1 oleh Bitcoin native yang disimpan di Kraken Financial, lembaga special purpose depository institution (SPDI) yang bercharter di Wyoming [2].
+Dalam pengumumannya, Kraken menyatakan bahwa CCIP akan menjadi layanan bridge tunggal dan eksklusif untuk semua token wrapped milik exchange tersebut, termasuk kBTC, produk wrapped Bitcoin yang di-backing 1:1 oleh Bitcoin native yang disimpan di Kraken Financial, lembaga special purpose depository institution (SPDI) yang bercharter di Wyoming [2].
 
 ## Cakupan Migrasi dan Dampak ke Pengguna
 
@@ -31,7 +31,7 @@ Johann Eid, Chief Business Officer di Chainlink Labs, menyatakan: "Kraken's unwa
 
 Kraken setidaknya adalah produk keempat yang meninggalkan LayerZero setelah insiden Kelp DAO. Protokol lain termasuk Kelp sendiri, Solv, dan Re juga telah bermigrasi ke Chainlink CCIP. Secara total, lebih dari $2,5 miliar TVL (Total Value Locked) telah berpindah dari LayerZero ke CCIP dalam beberapa minggu terakhir [1].
 
-Pergerakan massal ini menandai pergeseran signifikan dalam lanskap infrastruktur cross-chain. Bridge dan wrapped asset telah lama menjadi salah satu titik keamanan paling rentan di ekosistem crypto — dengan kerugian miliaran dolar akibat exploit bridge dalam beberapa tahun terakhir.
+Pergerakan massal ini menandai pergeseran signifikan dalam lanskap infrastruktur cross-chain. Bridge dan wrapped asset telah lama menjadi salah satu titik keamanan paling rentan di ekosistem crypto, dengan kerugian miliaran dolar akibat exploit bridge dalam beberapa tahun terakhir.
 
 ## Harga LINK dan BTC Saat Ini
 
@@ -53,10 +53,10 @@ Keputusan Kraken ini memberikan beberapa sinyal penting bagi komunitas crypto In
 
 ## Sumber
 
-1. [CoinDesk — Kraken to replace LayerZero with Chainlink to bridge assets across blockchains](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains)
-2. [Blockonomi — Kraken Replaces LayerZero With Chainlink CCIP Bridge](https://blockonomi.com/kraken-replaces-layerzero-with-chainlink-ccip-bridge/)
-3. [CryptoBriefing — Kraken Chainlink CCIP Integration](https://cryptobriefing.com/kraken-chainlink-ccip-integration/)
-4. [The Block — Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero](https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest)
+1. [CoinDesk, Kraken to replace LayerZero with Chainlink to bridge assets across blockchains](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains)
+2. [Blockonomi, Kraken Replaces LayerZero With Chainlink CCIP Bridge](https://blockonomi.com/kraken-replaces-layerzero-with-chainlink-ccip-bridge/)
+3. [CryptoBriefing, Kraken Chainlink CCIP Integration](https://cryptobriefing.com/kraken-chainlink-ccip-integration/)
+4. [The Block, Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero](https://www.theblock.co/post/401368/chainlink-ccip-gains-over-2-5-billion-tvl-from-protocols-migrating-layerzero-kraken-bitcoin-latest)
 
 ---
 

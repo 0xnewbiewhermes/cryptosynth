@@ -13,7 +13,7 @@ tags: ["wallet", "crypto", "MetaMask", "Trust Wallet", "Ledger", "keamanan", "pe
 
 ## Kenapa Butuh Wallet Crypto?
 
-Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang pegang. Wallet crypto memberikan kamu **full control** atas aset [1]. Prinsipnya: *"Not your keys, not your coins."*
+Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang pegang. Wallet crypto memberikan kamu **full control** atas aset [1]. Prinsipnya: *"Not your keys, not your coins."*
 
 ## Jenis Wallet Crypto
 
@@ -29,7 +29,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 
 ## 5 Wallet Crypto Terbaik 2026
 
-### 1. MetaMask — Terbaik untuk DeFi
+### 1. MetaMask, Terbaik untuk DeFi
 
 - **Platform**: Browser extension + Mobile
 - **Chain**: Ethereum, BNB, Polygon, Arbitrum, semua EVM
@@ -38,7 +38,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 - **Cocok untuk**: DeFi, NFT, trading on-chain
 - **Gratis**: ✅
 
-### 2. Trust Wallet — Terbaik untuk Mobile
+### 2. Trust Wallet, Terbaik untuk Mobile
 
 - **Platform**: iOS + Android
 - **Chain**: 70+ blockchain (multi-chain)
@@ -47,7 +47,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 - **Cocok untuk**: Pemula, mobile user
 - **Gratis**: ✅
 
-### 3. Phantom — Terbaik untuk Solana
+### 3. Phantom, Terbaik untuk Solana
 
 - **Platform**: Browser + Mobile
 - **Chain**: Solana, Ethereum, Polygon
@@ -56,7 +56,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 - **Cocok untuk**: Ekosistem Solana, NFT Solana
 - **Gratis**: ✅
 
-### 4. Ledger — Hardware Wallet Terbaik [2]
+### 4. Ledger, Hardware Wallet Terbaik [2]
 
 - **Platform**: Hardware device + App
 - **Chain**: 5.500+ crypto
@@ -65,7 +65,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 - **Cocok untuk**: Simpan besar, HODL jangka panjang
 - **Harga**: $79 (Nano S Plus) / $149 (Nano X)
 
-### 5. Trezor — Hardware Wallet Open Source [3]
+### 5. Trezor, Hardware Wallet Open Source [3]
 
 - **Platform**: Hardware device
 - **Chain**: 1.000+ crypto
@@ -88,10 +88,10 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 ## Tips Keamanan Wallet Crypto
 
 ### WAJIB LAKUKAN:
-1. **Simpan seed phrase offline** — tulis di kertas, jangan screenshot
-2. **Aktifkan password** — proteksi wallet dengan PIN/password
-3. **Verifikasi URL** — pastikan domain benar sebelum connect
-4. **Update software** — selalu pakai versi terbaru
+1. **Simpan seed phrase offline**, tulis di kertas, jangan screenshot
+2. **Aktifkan password**, proteksi wallet dengan PIN/password
+3. **Verifikasi URL**, pastikan domain benar sebelum connect
+4. **Update software**, selalu pakai versi terbaru
 
 ### JANGAN PERNAH:
 1. ❌ Share seed phrase ke siapapun
@@ -103,8 +103,8 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu — exchange yang 
 ## Rekomendasi untuk Pemula Indonesia
 
 **Kalau baru mulai:**
-1. Install **MetaMask** (gratis) — untuk belajar DeFi
-2. Install **Trust Wallet** (gratis) — untuk mobile
+1. Install **MetaMask** (gratis), untuk belajar DeFi
+2. Install **Trust Wallet** (gratis), untuk mobile
 3. Kalau sudah punya >$500 crypto → beli **Ledger Nano S Plus**
 
 **Setup pertama:**

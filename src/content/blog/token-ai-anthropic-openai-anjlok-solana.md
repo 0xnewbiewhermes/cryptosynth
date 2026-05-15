@@ -17,7 +17,7 @@ Anthropic PreStocks (ANTHROPIC) turun **34% dalam tujuh hari**, sementara OpenAI
 
 ## Apa Itu PreStocks dan Bagaimana Mekanismenya?
 
-PreStocks adalah platform berbasis Solana yang menggunakan **Special Purpose Vehicle (SPV)** — entitas hukum yang dibentuk khusus untuk menyimpan sesuatu atas nama investor — untuk menyimpan saham perusahaan swasta. Platform ini kemudian menerbitkan token di Solana yang merepresentasikan eksposur ekonomi tidak langsung terhadap saham-saham tersebut. [1]
+PreStocks adalah platform berbasis Solana yang menggunakan **Special Purpose Vehicle (SPV)**, entitas hukum yang dibentuk khusus untuk menyimpan sesuatu atas nama investor, untuk menyimpan saham perusahaan swasta. Platform ini kemudian menerbitkan token di Solana yang merepresentasikan eksposur ekonomi tidak langsung terhadap saham-saham tersebut. [1]
 
 Platform ini diluncurkan pada **Agustus 2025** dengan dukungan Republic Capital dan dipimpin oleh CEO **Xavier Ekkel**. PreStocks tidak tersedia untuk penduduk AS, Singapura, Uni Eropa, dan yurisdiksi yang terkena sanksi, serta memerlukan proses KYC untuk minting dan penebusan. [1]
 
@@ -46,7 +46,7 @@ Data dari dashboard PreStocks menunjukkan gambaran yang mengkhawatirkan:
 | Total aset platform | ~$23 juta |
 | Valuasi tersirat Anthropic | >$1,3 triliun |
 
-Gap antara valuasi tersirat **$1,3 triliun** dan total aset platform hanya **$23 juta** menciptakan celah yang sangat besar — dan memberikan alasan struktural bagi Anthropic dan OpenAI untuk melakukan perlawanan. [1]
+Gap antara valuasi tersirat **$1,3 triliun** dan total aset platform hanya **$23 juta** menciptakan celah yang sangat besar, dan memberikan alasan struktural bagi Anthropic dan OpenAI untuk melakukan perlawanan. [1]
 
 Investor awal yang duduk di atas keuntungan besar mungkin **tidak dapat mencairkan seluruh posisi mereka** karena likuiditas yang sangat tipis. Ini mengekspos kesenjangan antara klaim platform dan apa yang sebenarnya bisa dikirimkan oleh SPV yang mendasari. [1]
 
@@ -71,7 +71,7 @@ Harga crypto terkini untuk konteks:
 
 Insiden ini menandai titik kritis dalam narasi tokenisasi aset dunia nyata (RWA). Meskipun konsep tokenisasi saham pre-IPO terdengar menjanjikan, implementasinya tanpa kerangka hukum yang jelas dan persetujuan dari perusahaan terkait berisiko tinggi. [2]
 
-Baik Anthropic maupun OpenAI secara tegas menyatakan bahwa pihak-pihak yang menjual eksposur ke saham mereka tanpa otorisasi berpotensi terlibat dalam penipuan. Ini bukan sekadar peringatan halus — ini adalah deklarasi resmi yang bisa berimplikasi hukum. [1][3]
+Baik Anthropic maupun OpenAI secara tegas menyatakan bahwa pihak-pihak yang menjual eksposur ke saham mereka tanpa otorisasi berpotensi terlibat dalam penipuan. Ini bukan sekadar peringatan halus, ini adalah deklarasi resmi yang bisa berimplikasi hukum. [1][3]
 
 Bagi ekosistem crypto Indonesia yang terus berkembang, kasus ini menjadi pengingat bahwa **inovasi harus diimbangi dengan kehati-hatian**. Tokenisasi aset memiliki potensi besar, tetapi hanya jika dilakukan dengan kerangka hukum yang sah dan transparansi penuh.
 
@@ -79,9 +79,9 @@ Bagi ekosistem crypto Indonesia yang terus berkembang, kasus ini menjadi penging
 
 **Sumber:**
 
-1. [CoinDesk — Anthropic, OpenAI tokens plunge as AI firms say pre-IPO share transfers are invalid](https://www.coindesk.com/markets/2026/05/13/anthropic-openai-tokens-plunge-nearly-40-as-ai-firms-warn-spv-transfers-are-invalid)
-2. [The Block — Anthropic, OpenAI tokenized PreStocks on Solana plunge after unauthorized equity transfer warnings](https://www.theblock.co/post/401088/anthropic-openai-tokenized-prestocks-plunge)
-3. [Decrypt — Anthropic and OpenAI Warn Buyers: Unauthorized AI Startup Shares May Be Worthless](https://decrypt.co/367614/anthropic-openai-warn-unauthorized-ai-startup-stock-worthless-spv)
+1. [CoinDesk, Anthropic, OpenAI tokens plunge as AI firms say pre-IPO share transfers are invalid](https://www.coindesk.com/markets/2026/05/13/anthropic-openai-tokens-plunge-nearly-40-as-ai-firms-warn-spv-transfers-are-invalid)
+2. [The Block, Anthropic, OpenAI tokenized PreStocks on Solana plunge after unauthorized equity transfer warnings](https://www.theblock.co/post/401088/anthropic-openai-tokenized-prestocks-plunge)
+3. [Decrypt, Anthropic and OpenAI Warn Buyers: Unauthorized AI Startup Shares May Be Worthless](https://decrypt.co/367614/anthropic-openai-warn-unauthorized-ai-startup-stock-worthless-spv)
 
 ---
 

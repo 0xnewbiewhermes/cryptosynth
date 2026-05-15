@@ -10,10 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Imbal hasil Treasury AS tenor 2 tahun (4,05%) dan 10 tahun (4,5%) menyentuh level tertinggi 12 bulan setelah data inflasi CPI dan PPI April yang panas. Probabilitas kenaikan Fed rate Desember melonjak ke 44%. Bitcoin tertahan di sekitar $81.000, masih di bawah rata-rata pergerakan 200 hari di $82.000.
 
-
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
+
 ## Imbal Hasil Treasury AS Melonjak, Bitcoin Gagal Tembus 200-Hari
 
 Imbal hasil obligasi pemerintah AS tenor 2 tahun dan 10 tahun naik ke level tertinggi sejak pertengahan 2025 pada Jumat (15/5), setelah data inflasi yang lebih panas dari perkiraan mendorong trader untuk memperkirakan Federal Reserve akan mempertahankan suku bunga lebih lama, bahkan mungkin menaikkannya lagi. [1]

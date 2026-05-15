@@ -10,10 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Chainlink CCIP (Cross-Chain Interoperability Protocol) berhasil menarik lebih dari $2,5 miliar dalam total value locked (TVL) dari protokol-prokol yang bermigrasi dari LayerZero. Migrasi ini dipicu oleh exploit senilai $292 juta yang terjadi di bridge berbasis LayerZero, yang membuat banyak protokol mempertimbangkan kembali keamanan infrastruktur cross-chain mereka. [1]
 
-
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 ## Exploit LayerZero: Pemicu Migrasi Besar-Besaran
 
 Industri DeFi baru saja mengalami salah satu exploit terbesar di 2026. Sebuah bridge yang dibangun di atas LayerZero, yang digunakan oleh protokol Kelp, berhasil dieksploitasi senilai $292 juta. Insiden ini mengguncang kepercayaan terhadap infrastruktur cross-chain dan memicu gelombang migrasi ke Chainlink CCIP. [1]

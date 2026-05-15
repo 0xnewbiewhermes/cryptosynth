@@ -97,6 +97,8 @@ Investasi hanya uang yang siap hilang. Jangan pakai uang kebutuhan sehari-hari.
 <a href="https://academy.binance.com" target="_blank" rel="noopener">[3] Binance Academy</a>
 </div>
 
+
+
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR sebelum investasi.</em>
 </div>

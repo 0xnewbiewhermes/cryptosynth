@@ -10,10 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Coinbase akan mengelola likuiditas USDC di Hyperliquid, salah satu platform trading DeFi dengan pertumbuhan tercepat. Langkah ini menunjukkan bahwa exchange besar semakin serius masuk ke pasar DeFi, dan volume trading DeFi terus meningkat meskipun pasar sedang koreksi. [1]
 
-
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 ## Coinbase dan Hyperliquid: Kolaborasi Besar di DeFi
 
 Coinbase, salah satu exchange crypto terbesar di dunia, baru saja mengumumkan kerjasama strategis dengan Hyperliquid. Dalam kerjasama ini, Coinbase akan mengelola likuiditas USDC di platform Hyperliquid, memastikan bahwa trader memiliki akses ke likuiditas yang dalam dan stabil. [1]

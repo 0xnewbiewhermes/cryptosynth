@@ -39,6 +39,8 @@ Level resistance berikutnya di $85.000. Jika berhasil ditembus, ada potensi rall
 <a href="https://www.theblock.co" target="_blank" rel="noopener">[2] The Block</a>
 </div>
 
+
+
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR.</em>
 </div>

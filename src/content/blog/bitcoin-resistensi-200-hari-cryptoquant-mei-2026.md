@@ -82,6 +82,8 @@ Bagi trader dan investor crypto di Indonesia, beberapa hal yang perlu diperhatik
 </ul>
 </div>
 
+
+
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan nasihat investasi. Selalu lakukan riset sendiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan cryptocurrency melibatkan risiko tinggi.
 </div>

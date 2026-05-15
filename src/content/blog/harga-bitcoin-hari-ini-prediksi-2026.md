@@ -96,6 +96,8 @@ Bitcoin bukan hanya naik dalam USD, juga naik dalam Rupiah karena pelemahan IDR.
 <a href="https://www.bloomberg.com" target="_blank" rel="noopener">[3] Bloomberg</a>
 </div>
 
+
+
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Prediksi harga tidak pasti. Selalu DYOR sebelum investasi.</em>
 </div>

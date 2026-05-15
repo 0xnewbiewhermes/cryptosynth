@@ -10,10 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Fasset, neobank berbasis stablecoin yang mematuhi prinsip syariah, berhasil mengumpulkan $51 juta dalam putaran pendanaan terbaru. Dana ini akan digunakan untuk memperluas layanan perbankan digital ke pasar berkembang di Asia Tenggara dan Afrika, menargetkan populasi yang kurang terlayani oleh bank tradisional. [1]
 
-
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 ## Fasset: Menggabungkan Stablecoin dan Perbankan Syariah
 
 Fasset adalah neobank yang berbeda dari kebanyakan fintech crypto lainnya. Perusahaan ini membangun layanan perbankan digital di atas infrastruktur stablecoin sambil memastikan semua produknya mematuhi prinsip-prinsip syariah. Dengan pendanaan $51 juta terbaru, Fasset siap memperluas jangkauannya ke lebih banyak negara di Asia dan Afrika. [1]

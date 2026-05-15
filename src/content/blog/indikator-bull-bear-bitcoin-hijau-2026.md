@@ -93,6 +93,8 @@ Bagi trader dan investor crypto di Indonesia, ada beberapa poin penting:
 <a href="https://www.coindesk.com" target="_blank" rel="noopener">[4] CoinDesk, Berita institusional (JPMorgan, Kraken, Elliptic, XRP ETF)</a>
 </div>
 
+
+
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
 </div>

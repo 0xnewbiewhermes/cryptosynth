@@ -82,6 +82,8 @@ Sumber: CoinDesk [2]
 <a href="https://rwa.xyz" target="_blank" rel="noopener">[3] rwa.xyz, Data pasar RWA tokenized</a>
 </div>
 
+
+
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
 </div>

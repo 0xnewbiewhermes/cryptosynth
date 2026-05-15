@@ -10,10 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** CEO CertiK, perusahaan audit keamanan blockchain terkemuka, memperingatkan bahwa attacker DeFi semakin menggunakan AI untuk menemukan dan mengeksploitasi kerentanan. Sementara itu, defender masih mengandalkan metode tradisional, menciptakan kesenjangan teknologi yang mengkhawatirkan. [1]
 
-
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 ## Peringatan dari CertiK: AI Mengubah Lanskap Keamanan DeFi
 
 Dalam wawancara terbaru dengan The Block, CEO CertiK mengungkapkan keprihatinan serius tentang evolusi serangan di ekosistem DeFi. Menurutnya, attacker sudah mulai menggunakan artificial intelligence untuk mengidentifikasi dan mengeksploitasi kerentanan dalam smart contract. [1]

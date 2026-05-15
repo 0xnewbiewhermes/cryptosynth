@@ -10,10 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Cerebras, perusahaan infrastruktur AI, melihat sahamnya melonjak 100% setelah IPO senilai $5,5 miliar. Euforia saham AI ini juga berdampak pada pasar crypto, terutama token-token terkait AI di blockchain. Investor mulai melihat korelasi antara boom AI dan potensi crypto AI. [1]
 
-
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 ## Cerebras IPO: Euforia AI Mencapai Puncak Baru
 
 Cerebras, perusahaan yang membangun chip AI khusus, baru saja menyelesaikan IPO yang luar biasa. Saham perusahaan melonjak 100% pada hari pertama perdagangan, membawa valuasi perusahaan ke level $5,5 miliar. Ini adalah salah satu IPO teknologi paling sukses di 2026. [1]

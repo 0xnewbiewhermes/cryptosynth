@@ -110,6 +110,8 @@ Lending adalah meminjamkan crypto ke orang lain dan mendapat bunga.
 <a href="https://aave.com" target="_blank" rel="noopener">[3] Aave</a>
 </div>
 
+
+
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. DeFi memiliki risiko tinggi. Selalu DYOR dan investasi hanya uang yang siap hilang.</em>
 </div>

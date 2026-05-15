@@ -575,13 +575,15 @@ code, pre {
 }
 
 .disclaimer-box {
-  background: rgba(124, 58, 237, 0.06);
-  border: 1px solid rgba(124, 58, 237, 0.15);
-  border-radius: var(--radius);
-  padding: 1rem 1.25rem;
-  margin-top: 1.5rem;
-  font-size: 0.8rem;
+  background: transparent;
+  border-left: 3px solid var(--border);
+  border-radius: 0;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
+  font-style: italic;
 }
 
 .ai-disclosure-box {

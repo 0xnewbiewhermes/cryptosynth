@@ -47,9 +47,6 @@ Tren ini menunjukkan bahwa industri crypto sedang matang dari fase spekulatif ke
 
 ---
 
-<div class="ai-disclosure-box">
-Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
-</div>
 
 ## Sumber
 

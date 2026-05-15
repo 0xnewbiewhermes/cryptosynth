@@ -55,9 +55,6 @@ Tren ini menunjukkan bahwa stablecoin bukan hanya alat trading, tapi juga fondas
 
 ---
 
-<div class="ai-disclosure-box">
-Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
-</div>
 
 ## Sumber
 

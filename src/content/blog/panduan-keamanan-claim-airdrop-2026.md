@@ -118,9 +118,6 @@ Selalu lakukan riset sendiri dan jangan terburu-buru dalam mengambil keputusan. 
 
 ---
 
-<div class="ai-disclosure-box">
-Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
-</div>
 
 **Sumber:**
 - [1] CoinDesk - Various security guides and reports

@@ -73,11 +73,6 @@ Yang juga menarik adalah pola rebalancing Dartmouth. Mereka mengurangi posisi Bi
 
 ---
 
-<div class="ai-disclosure-box">
-
-**🤖 Disclosure AI:** Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
-
-</div>
 
 ---
 

@@ -87,9 +87,6 @@ Coinbase, salah satu bursa crypto terbesar AS, juga memimpin kenaikan saham cryp
 
 ---
 
-<div class="ai-disclosure-box">
-<strong>🤖 Disclosure:</strong> Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
-</div>
 
 ---
 

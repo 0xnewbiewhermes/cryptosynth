@@ -78,9 +78,6 @@ Bagi Indonesia, ini adalah peluang besar. Dengan talenta AI yang berkembang pesa
 
 ---
 
-<div class="ai-disclosure-box">
-Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
-</div>
 
 ## Sumber
 

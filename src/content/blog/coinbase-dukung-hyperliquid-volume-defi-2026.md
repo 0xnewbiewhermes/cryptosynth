@@ -74,9 +74,6 @@ Namun, perlu diingat bahwa trading DeFi dengan leverage tinggi sangat berisiko. 
 
 ---
 
-<div class="ai-disclosure-box">
-Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
-</div>
 
 ## Sumber
 

@@ -8,7 +8,7 @@ tags: ["nigel farage", "crypto donation", "uk politics", "christopher harborne",
 author: "CryptoSynth Research"
 ---
 
-**TL;DR:** Nigel Farage, pemimpin Reform UK, membeli properti senilai 1,4 juta pound (sekitar Rp30 miliar) secara tunai tak lama setelah menerima "hadiah pribadi" senilai 5 juta pound (sekitar Rp89 miliar) dari miliarder crypto Christopher Harborne. Parlemen Inggris kini membuka penyelidikan resmi terkait dugaan pelanggaran aturan deklarasi kepentingan.
+> **TL;DR:** Nigel Farage, pemimpin Reform UK, membeli properti senilai 1,4 juta pound (sekitar Rp30 miliar) secara tunai tak lama setelah menerima "hadiah pribadi" senilai 5 juta pound (sekitar Rp89 miliar) dari miliarder crypto Christopher Harborne. Parlemen Inggris kini membuka penyelidikan resmi terkait dugaan pelanggaran aturan deklarasi kepentingan.
 
 
 <div class="disclaimer-box">

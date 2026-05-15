@@ -7,7 +7,7 @@ category: "Berita"
 tags: ["jpmorgan", "bitcoin etf", "ibit", "blackrock", "13f filing", "institusional", "crypto"]
 ---
 
-**TL;DR:** JPMorgan Chase meningkatkan kepemilikan saham di BlackRock iShares Bitcoin Trust (IBIT) sebesar 174% pada Q1 2026, dari sekitar 3 juta menjadi 8,3 juta saham, meskipun harga Bitcoin turun lebih dari 22% di periode yang sama.
+> **TL;DR:** JPMorgan Chase meningkatkan kepemilikan saham di BlackRock iShares Bitcoin Trust (IBIT) sebesar 174% pada Q1 2026, dari sekitar 3 juta menjadi 8,3 juta saham, meskipun harga Bitcoin turun lebih dari 22% di periode yang sama.
 
 ---
 

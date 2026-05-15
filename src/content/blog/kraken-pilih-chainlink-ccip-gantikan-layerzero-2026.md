@@ -7,7 +7,7 @@ category: "Berita"
 tags: ["kraken", "chainlink", "ccip", "layerzero", "kbtc", "bridge", "defi", "keamanan"]
 ---
 
-**TL;DR:** Kraken mengumumkan migrasi dari LayerZero ke Chainlink CCIP sebagai infrastruktur cross-chain eksklusif untuk kBTC dan semua Kraken Wrapped Assets. Keputusan ini diambil setelah exploit senilai $292 juta yang menyerang bridge Kelp DAO berbasis LayerZero pada April 2026.
+> **TL;DR:** Kraken mengumumkan migrasi dari LayerZero ke Chainlink CCIP sebagai infrastruktur cross-chain eksklusif untuk kBTC dan semua Kraken Wrapped Assets. Keputusan ini diambil setelah exploit senilai $292 juta yang menyerang bridge Kelp DAO berbasis LayerZero pada April 2026.
 
 ## Kraken Tinggalkan LayerZero Setelah Insiden Keamanan Besar
 

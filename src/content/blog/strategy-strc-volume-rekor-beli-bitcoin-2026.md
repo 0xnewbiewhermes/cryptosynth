@@ -8,7 +8,7 @@ tags: ["strategy", "strc", "bitcoin", "treasury", "perpetual-preferred", "michae
 author: "CryptoSynth Research"
 ---
 
-**TL;DR:** Saham perpetual preferred STRC milik Strategy mencatat volume perdagangan harian rekor sebesar $1,53 miliar. Dengan model dividen 11,5%, instrumen ini menjadi sumber dana utama Strategy untuk membeli Bitcoin di tengah pasar bearish 2026.
+> **TL;DR:** Saham perpetual preferred STRC milik Strategy mencatat volume perdagangan harian rekor sebesar $1,53 miliar. Dengan model dividen 11,5%, instrumen ini menjadi sumber dana utama Strategy untuk membeli Bitcoin di tengah pasar bearish 2026.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.

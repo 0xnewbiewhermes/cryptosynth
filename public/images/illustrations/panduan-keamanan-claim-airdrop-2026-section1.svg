@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="4" height="200" fill="#10B981"/>
+  
+  <g transform="translate(200, 0) scale(0.4)">
+    <rect x="140" y="140" width="120" height="120" rx="10" fill="#10B981" fill-opacity="0.15"/>
+  <rect x="155" y="155" width="90" height="90" rx="5" fill="#10B981" fill-opacity="0.2"/>
+  <rect x="185" y="130" width="30" height="140" rx="2" fill="#10B981" fill-opacity="0.3"/>
+  <rect x="130" y="185" width="140" height="30" rx="2" fill="#10B981" fill-opacity="0.3"/>
+  </g>
+  
+  <text x="60" y="105" font-family="Inter, Arial, sans-serif" font-size="12" fill="#10B981" fill-opacity="0.4">Section 1</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <rect width="1200" height="400" fill="#0F172A"/>
+  <rect x="0" y="0" width="1200" height="4" fill="#F59E0B"/>
+  
+  <!-- Grid -->
+  <line x1="200" y1="0" x2="200" y2="400" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="400" y1="0" x2="400" y2="400" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="600" y1="0" x2="600" y2="400" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="800" y1="0" x2="800" y2="400" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+  <line x1="1000" y1="0" x2="1000" y2="400" stroke="white" stroke-opacity="0.03" stroke-width="1"/>
+  
+  <!-- Illustration -->
+  <g transform="translate(850, 20) scale(0.8)">
+    <polygon points="200,120 230,200 200,250 170,200" fill="#F59E0B" fill-opacity="0.2"/>
+  <polygon points="200,140 220,190 200,230 180,190" fill="#F59E0B" fill-opacity="0.3"/>
+  <rect x="185" y="250" width="30" height="30" rx="2" fill="#F59E0B" fill-opacity="0.15"/>
+  </g>
+  
+  <!-- Branding -->
+  <text x="60" y="370" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600" fill="#F59E0B" fill-opacity="0.6">CryptoSynth.id</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <rect width="800" height="200" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="4" height="200" fill="#F59E0B"/>
+  
+  <g transform="translate(200, 0) scale(0.4)">
+    <polygon points="200,120 230,200 200,250 170,200" fill="#F59E0B" fill-opacity="0.2"/>
+  <polygon points="200,140 220,190 200,230 180,190" fill="#F59E0B" fill-opacity="0.3"/>
+  <rect x="185" y="250" width="30" height="30" rx="2" fill="#F59E0B" fill-opacity="0.15"/>
+  </g>
+  
+  <text x="60" y="105" font-family="Inter, Arial, sans-serif" font-size="12" fill="#F59E0B" fill-opacity="0.4">Section 2</text>
+</svg>

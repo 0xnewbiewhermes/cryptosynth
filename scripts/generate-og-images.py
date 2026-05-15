@@ -5,8 +5,8 @@ import os
 import subprocess
 from pathlib import Path
 
-BLOG_DIR = "/root/cryptosynth/cryptosynth-repo/src/content/blog"
-IMAGES_DIR = "/root/cryptosynth/cryptosynth-repo/public/images/og"
+BLOG_DIR = "/root/cryptosynth/src/content/blog"
+IMAGES_DIR = "/root/cryptosynth/public/images/og"
 
 CATEGORY_COLORS = {
     "Berita": "#3B82F6",

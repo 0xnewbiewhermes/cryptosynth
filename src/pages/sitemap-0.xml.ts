@@ -40,6 +40,7 @@ export async function GET(context: APIContext) {
   // Blog posts with actual pubDate as lastmod
   for (const post of posts) {
     const postDate = new Date(post.data.pubDate).toISOString().split('T')[0];
+    const postDateTime = new Date(post.data.pubDate).toISOString();
     const postUrl = `${site}blog/${post.id}/`;
 
     xml += `  <url>
@@ -52,7 +53,7 @@ export async function GET(context: APIContext) {
         <news:name>CryptoSynth.id</news:name>
         <news:language>id</news:language>
       </news:publication>
-      <news:publication_date>${postDate}</news:publication_date>
+      <news:publication_date>${postDateTime}</news:publication_date>
       <news:title>${post.data.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</news:title>
     </news:news>
   </url>

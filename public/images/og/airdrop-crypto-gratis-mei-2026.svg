@@ -19,6 +19,6 @@
     <tspan x="80" dy="28">kamu claim sekarang. Update setiap hari dari</tspan>
   </text>
   <text x="80" y="560" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700" fill="#10B981">CryptoSynth.id</text>
-  <text x="1120" y="560" font-family="Inter, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">12 Mei 2026</text>
+  <text x="1120" y="560" font-family="Inter, Arial, sans-serif" font-size="14" fill="#64748B" text-anchor="end">2026-05-12T19:45:46+07:00</text>
   <rect x="1050" y="400" width="120" height="120" rx="8" fill="#10B981" fill-opacity="0.1" transform="rotate(15 1110 460)"/>
 </svg>

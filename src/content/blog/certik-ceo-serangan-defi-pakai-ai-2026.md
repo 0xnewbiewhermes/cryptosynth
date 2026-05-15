@@ -10,6 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** CEO CertiK, perusahaan audit keamanan blockchain terkemuka, memperingatkan bahwa attacker DeFi semakin menggunakan AI untuk menemukan dan mengeksploitasi kerentanan. Sementara itu, defender masih mengandalkan metode tradisional, menciptakan kesenjangan teknologi yang mengkhawatirkan. [1]
 
+
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
 ## Peringatan dari CertiK: AI Mengubah Lanskap Keamanan DeFi
 
 Dalam wawancara terbaru dengan The Block, CEO CertiK mengungkapkan keprihatinan serius tentang evolusi serangan di ekosistem DeFi. Menurutnya, attacker sudah mulai menggunakan artificial intelligence untuk mengidentifikasi dan mengeksploitasi kerentanan dalam smart contract. [1]
@@ -74,9 +78,10 @@ Bagi Indonesia, ini adalah peluang besar. Dengan talenta AI yang berkembang pesa
 
 ---
 
-*Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.*
+<div class="ai-disclosure-box">
+Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
+</div>
 
-**Sumber:**
-- [1] The Block - "It's an unfair game: CertiK CEO says DeFi attackers using AI to outspend defenders" (https://www.theblock.co/post/401280/unfair-game-certik-ceo-defi-attackers-using-ai-outspend-defenders)
+## Sumber
 
-**Disclaimer:** Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+1. [The Block - It's an unfair game: CertiK CEO says DeFi attackers using AI to outspend defenders](https://www.theblock.co/post/401280/unfair-game-certik-ceo-defi-attackers-using-ai-outspend-defenders)

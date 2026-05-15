@@ -10,6 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Hyperliquid, platform trading DeFi dengan volume miliaran dollar, mendapat dukungan resmi dari Coinbase yang akan mengelola likuiditas USDC. Ini adalah sinyal kuat bahwa token Hyperliquid akan segera diluncurkan, dan pengguna aktif berpotensi mendapatkan airdrop besar. [1]
 
+
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
 ## Hyperliquid: Bintang Baru DeFi yang Siap Airdrop
 
 Hyperliquid adalah salah satu platform trading DeFi yang paling cepat berkembang di 2026. Dengan volume trading harian mencapai $2,2 miliar, platform ini sudah menempati posisi ketiga di antara DEX terbesar setelah Uniswap dan PancakeSwap. [1]
@@ -87,9 +91,10 @@ Hyperliquid adalah salah satu peluang airdrop terbesar di 2026. Dengan dukungan 
 
 ---
 
-*Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.*
+<div class="ai-disclosure-box">
+Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
+</div>
 
-**Sumber:**
-- [1] CoinDesk - "Coinbase backs Hyperliquid stablecoin push as DeFi trading volumes climb" (https://www.coindesk.com/markets/2026/05/13/coinbase-backs-hyperliquid-stablecoin-push-as-defi-trading-volumes-climb)
+## Sumber
 
-**Disclaimer:** Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+1. [CoinDesk - Coinbase backs Hyperliquid stablecoin push as DeFi trading volumes climb](https://www.coindesk.com/markets/2026/05/13/coinbase-backs-hyperliquid-stablecoin-push-as-defi-trading-volumes-climb)

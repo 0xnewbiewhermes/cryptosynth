@@ -10,6 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Turnkey, startup infrastruktur keamanan digital assets, berhasil mengumpulkan $12,5 juta dalam putaran pendanaan baru yang didukung oleh Circle Ventures dan Sequoia Capital. Dana ini akan digunakan untuk meluncurkan produk "Verifiable Cloud" yang memungkinkan komputasi aman untuk aset digital. [1]
 
+
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
 ## Pendanaan Baru Turnkey: Sinyal Kuat untuk Infrastruktur Crypto
 
 Di tengah pasar yang masih volatile, investor besar tetap menaruh kepercayaan pada startup infrastruktur blockchain. Turnkey, perusahaan yang berfokus pada keamanan digital assets, baru saja menyelesaikan putaran pendanaan senilai $12,5 juta yang melibatkan nama-nama besar seperti Circle Ventures dan Sequoia Capital. [1]
@@ -43,9 +47,10 @@ Tren ini menunjukkan bahwa industri crypto sedang matang dari fase spekulatif ke
 
 ---
 
-*Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.*
+<div class="ai-disclosure-box">
+Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
+</div>
 
-**Sumber:**
-- [1] CoinDesk - "Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital" (https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital)
+## Sumber
 
-**Disclaimer:** Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+1. [CoinDesk - Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital](https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital)

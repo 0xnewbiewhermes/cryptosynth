@@ -10,6 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** HashKey Research memprediksi CLARITY Act akan membuka jalan adopsi institusional crypto dan memperkuat posisi USD stablecoin secara global. Namun, jika AS membatasi stablecoin berbunga, modal bisa mengalir ke pasar Asia yang menawarkan yield lebih tinggi melalui produk "wrapped" dan protokol DeFi. [1]
 
+
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi di pasar crypto. Perdagangan aset digital memiliki risiko tinggi.
+</div>
 ## CLARITY Act dan Masa Depan USD Stablecoin di Asia
 
 Setelah Senate Banking Committee AS meloloskan CLARITY Act dengan voting 15-9 pada Kamis (14/5), diskusi bergeser dari "kapan regulasi ini disahkan" ke "siapa yang paling diuntungkan". Menurut riset terbaru HashKey Group, jawabannya tidak sesederhana yang dibayangkan. [1][2]
@@ -68,5 +72,3 @@ Satu hal yang jarang dibahas adalah efek second-order terhadap Rupiah. Jika USD 
 <div class="ai-disclosure-box">
 Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
 </div>
-
-> **Disclaimer:** Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi di pasar crypto. Perdagangan aset digital memiliki risiko tinggi.

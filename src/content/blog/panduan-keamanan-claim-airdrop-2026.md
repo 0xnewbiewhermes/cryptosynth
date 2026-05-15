@@ -10,6 +10,11 @@ author: "CryptoSynth Research"
 
 > **TL:** Airdrop crypto memang menggiurkan, tapi juga menjadi sarang scam dan phishing. Panduan ini akan membantu Anda claim airdrop dengan aman dan menghindari jebakan yang bisa menghabiskan wallet Anda.
 
+
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
 ## Mengapa Keamanan Airdrop Penting?
 
 Airdrop crypto adalah cara yang bagus untuk mendapatkan token gratis. Namun, popularitas airdrop juga menarik para scammer yang ingin mencuri dana pengguna. Setiap hari, ada ribuan upaya phishing dan scam yang menargetkan airdrop hunter. [1]
@@ -113,9 +118,9 @@ Selalu lakukan riset sendiri dan jangan terburu-buru dalam mengambil keputusan. 
 
 ---
 
-*Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.*
+<div class="ai-disclosure-box">
+Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
+</div>
 
 **Sumber:**
 - [1] CoinDesk - Various security guides and reports
-
-**Disclaimer:** Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.

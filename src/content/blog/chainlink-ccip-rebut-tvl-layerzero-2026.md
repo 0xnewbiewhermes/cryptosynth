@@ -10,6 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Chainlink CCIP (Cross-Chain Interoperability Protocol) berhasil menarik lebih dari $2,5 miliar dalam total value locked (TVL) dari protokol-prokol yang bermigrasi dari LayerZero. Migrasi ini dipicu oleh exploit senilai $292 juta yang terjadi di bridge berbasis LayerZero, yang membuat banyak protokol mempertimbangkan kembali keamanan infrastruktur cross-chain mereka. [1]
 
+
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
 ## Exploit LayerZero: Pemicu Migrasi Besar-Besaran
 
 Industri DeFi baru saja mengalami salah satu exploit terbesar di 2026. Sebuah bridge yang dibangun di atas LayerZero, yang digunakan oleh protokol Kelp, berhasil dieksploitasi senilai $292 juta. Insiden ini mengguncang kepercayaan terhadap infrastruktur cross-chain dan memicu gelombang migrasi ke Chainlink CCIP. [1]
@@ -62,10 +66,11 @@ Untuk pengguna DeFi Indonesia, ini berarti lebih banyak pilihan bridge yang aman
 
 ---
 
-*Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.*
+<div class="ai-disclosure-box">
+Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
+</div>
 
-**Sumber:**
-- [1] CoinDesk - "Kraken to replace LayerZero with Chainlink to bridge assets across blockchains" (https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains)
-- [2] The Block - "Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero" (https://www.theblock.co/post/401280)
+## Sumber
 
-**Disclaimer:** Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+1. [CoinDesk - Kraken to replace LayerZero with Chainlink to bridge assets across blockchains](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains)
+2. [The Block - Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero](https://www.theblock.co/post/401280)

@@ -10,6 +10,10 @@ author: "CryptoSynth Research"
 
 > **TL;DR:** Coinbase akan mengelola likuiditas USDC di Hyperliquid, salah satu platform trading DeFi dengan pertumbuhan tercepat. Langkah ini menunjukkan bahwa exchange besar semakin serius masuk ke pasar DeFi, dan volume trading DeFi terus meningkat meskipun pasar sedang koreksi. [1]
 
+
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
 ## Coinbase dan Hyperliquid: Kolaborasi Besar di DeFi
 
 Coinbase, salah satu exchange crypto terbesar di dunia, baru saja mengumumkan kerjasama strategis dengan Hyperliquid. Dalam kerjasama ini, Coinbase akan mengelola likuiditas USDC di platform Hyperliquid, memastikan bahwa trader memiliki akses ke likuiditas yang dalam dan stabil. [1]
@@ -70,9 +74,10 @@ Namun, perlu diingat bahwa trading DeFi dengan leverage tinggi sangat berisiko. 
 
 ---
 
-*Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.*
+<div class="ai-disclosure-box">
+Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.
+</div>
 
-**Sumber:**
-- [1] CoinDesk - "Coinbase backs Hyperliquid stablecoin push as DeFi trading volumes climb" (https://www.coindesk.com/markets/2026/05/13/coinbase-backs-hyperliquid-stablecoin-push-as-defi-trading-volumes-climb)
+## Sumber
 
-**Disclaimer:** Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+1. [CoinDesk - Coinbase backs Hyperliquid stablecoin push as DeFi trading volumes climb](https://www.coindesk.com/markets/2026/05/13/coinbase-backs-hyperliquid-stablecoin-push-as-defi-trading-volumes-climb)

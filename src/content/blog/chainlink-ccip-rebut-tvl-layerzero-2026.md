@@ -16,13 +16,13 @@ author: "CryptoSynth Research"
 
 ## Exploit LayerZero: Pemicu Migrasi Besar-Besaran
 
-Industri DeFi baru saja mengalami salah satu exploit terbesar di 2026. Sebuah bridge yang dibangun di atas LayerZero, yang digunakan oleh protokol Kelp, berhasil dieksploitasi senilai $292 juta. Insiden ini mengguncang kepercayaan terhadap infrastruktur cross-chain dan memicu gelombang migrasi ke Chainlink CCIP. [1]
+Industri DeFi baru saja mengalami salah satu exploit terbesar di 2026. Sebuah bridge yang dibangun di atas LayerZero, yang digunakan oleh protokol Kelp, berhasil dieksploitasi senilai $292 juta. Insiden ini mengguncang kepercayaan terhadap infrastruktur cross-chain dan memicu gelombang migrasi ke Chainlink CCIP.
 
-Exploit ini terjadi karena kerentanan dalam smart contract bridge yang memungkinkan attacker untuk memanipulasi verifikasi cross-chain. Meskipun LayerZero telah melakukan post-mortem dan berjanji untuk mengganti dana yang hilang, kepercayaan terhadap protokol tersebut sudah terguncang. [1]
+Exploit ini terjadi karena kerentanan dalam smart contract bridge yang memungkinkan attacker untuk memanipulasi verifikasi cross-chain. Meskipun LayerZero telah melakukan post-mortem dan berjanji untuk mengganti dana yang hilang, kepercayaan terhadap protokol tersebut sudah terguncang.
 
 ## Chainlink CCIP: Alternatif yang Lebih Aman?
 
-Chainlink CCIP (Cross-Chain Interoperability Protocol) muncul sebagai alternatif yang lebih aman. Berbeda dari LayerZero yang menggunakan ultra-light node, CCIP menggunakan jaringan oracle Chainlink yang sudah terbukti keamanannya selama bertahun-tahun. [1]
+Chainlink CCIP (Cross-Chain Interoperability Protocol) muncul sebagai alternatif yang lebih aman. Berbeda dari LayerZero yang menggunakan ultra-light node, CCIP menggunakan jaringan oracle Chainlink yang sudah terbukti keamanannya selama bertahun-tahun.
 
 Beberapa keunggulan CCIP:
 - **Security-first design**: CCIP dirancang dengan keamanan sebagai prioritas utama
@@ -30,11 +30,11 @@ Beberapa keunggulan CCIP:
 - **Battle-tested infrastructure**: Chainlink sudah digunakan oleh ribuan protokol DeFi
 - **Insurance-ready**: Ada mekanisme built-in untuk melindungi pengguna
 
-Kraken, salah satu exchange crypto terbesar, adalah salah satu yang paling awal bermigrasi. Mereka memutuskan untuk mengganti LayerZero dengan Chainlink CCIP sebagai infrastruktur bridge untuk kBTC dan semua Kraken Wrapped Assets. [1]
+Kraken, salah satu exchange crypto terbesar, adalah salah satu yang paling awal bermigrasi. Mereka memutuskan untuk mengganti LayerZero dengan Chainlink CCIP sebagai infrastruktur bridge untuk kBTC dan semua Kraken Wrapped Assets.
 
 ## Dampak ke TVL Chainlink
 
-Migrasi besar-besaran ini berdampak signifikan pada TVL Chainlink CCIP. Dalam beberapa minggu terakhir, TVL CCIP naik dari $500 juta menjadi lebih dari $3 miliar. Ini adalah kenaikan 500% yang luar biasa. [1]
+Migrasi besar-besaran ini berdampak signifikan pada TVL Chainlink CCIP. Dalam beberapa minggu terakhir, TVL CCIP naik dari $500 juta menjadi lebih dari $3 miliar. Ini adalah kenaikan 500% yang luar biasa.
 
 Beberapa protokol besar yang bermigrasi ke CCIP:
 - **Kraken**: Untuk semua wrapped assets
@@ -42,7 +42,7 @@ Beberapa protokol besar yang bermigrasi ke CCIP:
 - **Compound**: Untuk cross-chain yield
 - **MakerDAO**: Untuk cross-chain collateral
 
-Migrasi ini menunjukkan bahwa keamanan adalah faktor utama dalam pemilihan infrastruktur cross-chain. [1]
+Migrasi ini menunjukkan bahwa keamanan adalah faktor utama dalam pemilihan infrastruktur cross-chain.
 
 ## Pelajaran untuk Ekosistem DeFi Indonesia
 
@@ -60,9 +60,9 @@ Insiden LayerZero dan migrasi ke Chainlink CCIP memberikan beberapa pelajaran pe
 
 ## Masa Depan Cross-Chain
 
-Migrasi dari LayerZero ke Chainlink CCIP adalah titik balik penting dalam evolusi infrastruktur cross-chain. Ini menunjukkan bahwa pasar menghargai keamanan di atas segalanya. Ke depan, kita mungkin akan melihat standarisasi keamanan yang lebih ketat untuk bridge cross-chain. [1]
+Migrasi dari LayerZero ke Chainlink CCIP adalah titik balik penting dalam evolusi infrastruktur cross-chain. Ini menunjukkan bahwa pasar menghargai keamanan di atas segalanya. Ke depan, kita mungkin akan melihat standarisasi keamanan yang lebih ketat untuk bridge cross-chain.
 
-Untuk pengguna DeFi Indonesia, ini berarti lebih banyak pilihan bridge yang aman dan terpercaya. Namun, tetap lakukan riset sendiri sebelum menggunakan bridge apa pun. [1]
+Untuk pengguna DeFi Indonesia, ini berarti lebih banyak pilihan bridge yang aman dan terpercaya. Namun, tetap lakukan riset sendiri sebelum menggunakan bridge apa pun.
 
 ---
 

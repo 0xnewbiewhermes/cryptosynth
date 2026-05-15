@@ -16,36 +16,36 @@ author: "CryptoSynth Research"
 
 ## Imbal Hasil Treasury AS Melonjak, Bitcoin Gagal Tembus 200-Hari
 
-Imbal hasil obligasi pemerintah AS tenor 2 tahun dan 10 tahun naik ke level tertinggi sejak pertengahan 2025 pada Jumat (15/5), setelah data inflasi yang lebih panas dari perkiraan mendorong trader untuk memperkirakan Federal Reserve akan mempertahankan suku bunga lebih lama, bahkan mungkin menaikkannya lagi. [1]
+Imbal hasil obligasi pemerintah AS tenor 2 tahun dan 10 tahun naik ke level tertinggi sejak pertengahan 2025 pada Jumat (15/5), setelah data inflasi yang lebih panas dari perkiraan mendorong trader untuk memperkirakan Federal Reserve akan mempertahankan suku bunga lebih lama, bahkan mungkin menaikkannya lagi.
 
-Imbal hasil 2 tahun, yang sangat sensitif terhadap ekspektasi kebijakan Fed, naik ke **4,05%** selama sesi perdagangan Asia Jumat pagi. Level ini terakhir kali tercapai pada Juni 2025. Dalam satu minggu saja, imbal hasil ini sudah naik 13 basis poin, dan lebih dari 65 basis poin sejak Maret. [1]
+Imbal hasil 2 tahun, yang sangat sensitif terhadap ekspektasi kebijakan Fed, naik ke **4,05%** selama sesi perdagangan Asia Jumat pagi. Level ini terakhir kali tercapai pada Juni 2025. Dalam satu minggu saja, imbal hasil ini sudah naik 13 basis poin, dan lebih dari 65 basis poin sejak Maret.
 
-Sementara itu, imbal hasil acuan 10 tahun melompat ke **4,5%**, juga tertinggi sejak Mei tahun lalu. Kenaikan ini dipicu oleh laporan Consumer Price Index (CPI) dan Producer Price Index (PPI) April 2026 yang dirilis minggu ini, keduanya menunjukkan inflasi yang jauh lebih panas dari ekspektasi analis. [1][2]
+Sementara itu, imbal hasil acuan 10 tahun melompat ke **4,5%**, juga tertinggi sejak Mei tahun lalu. Kenaikan ini dipicu oleh laporan Consumer Price Index (CPI) dan Producer Price Index (PPI) April 2026 yang dirilis minggu ini, keduanya menunjukkan inflasi yang jauh lebih panas dari ekspektasi analis.
 
 ## Probabilitas Kenaikan Fed Rate Desember Melonjak
 
-Pergerakan imbal hasil ini mengirimkan sinyal kuat ke pasar. Menurut alat FedWatch dari CME Group, investor kini memberi probabilitas **lebih dari 44%** bahwa Federal Reserve akan menaikkan suku bunga sebesar 25 basis poin pada Desember 2026. Angka ini naik tajam dari hanya 22,5% seminggu lalu. [1]
+Pergerakan imbal hasil ini mengirimkan sinyal kuat ke pasar. Menurut alat FedWatch dari CME Group, investor kini memberi probabilitas **lebih dari 44%** bahwa Federal Reserve akan menaikkan suku bunga sebesar 25 basis poin pada Desember 2026. Angka ini naik tajam dari hanya 22,5% seminggu lalu.
 
-Padahal di awal tahun, trader masih memperkirakan setidaknya dua kali pemangkasan suku bunga sebelum akhir 2026. Perubahan ekspektasi yang drastis ini mencerminkan kekhawatiran bahwa inflasi bisa tetap tinggi karena harga energi yang naik dan ketegangan geopolitik terkait konflik Iran. [1]
+Padahal di awal tahun, trader masih memperkirakan setidaknya dua kali pemangkasan suku bunga sebelum akhir 2026. Perubahan ekspektasi yang drastis ini mencerminkan kekhawatiran bahwa inflasi bisa tetap tinggi karena harga energi yang naik dan ketegangan geopolitik terkait konflik Iran.
 
-Suku bunga acuan Fed saat ini berada di rentang **3,50%-3,75%**. Pergerakan imbal hasil 2 tahun menunjukkan investor mulai memperkirakan setidaknya satu kali kenaikan tambahan 25 basis poin. [1]
+Suku bunga acuan Fed saat ini berada di rentang **3,50%-3,75%**. Pergerakan imbal hasil 2 tahun menunjukkan investor mulai memperkirakan setidaknya satu kali kenaikan tambahan 25 basis poin.
 
-Kenaikan imbal hasil ini bertentangan dengan keinginan Presiden Donald Trump yang berulang kali mendesak suku bunga lebih rendah, bahkan meminta biaya pinjaman turun hingga 1% untuk mendukung pertumbuhan. Namun di bawah kepemimpinan Ketua Jerome Powell, Federal Reserve sejauh ini menolak tekanan politik dan mempertahankan suku bunga stabil di sekitar 3,5%. [1]
+Kenaikan imbal hasil ini bertentangan dengan keinginan Presiden Donald Trump yang berulang kali mendesak suku bunga lebih rendah, bahkan meminta biaya pinjaman turun hingga 1% untuk mendukung pertumbuhan. Namun di bawah kepemimpinan Ketua Jerome Powell, Federal Reserve sejauh ini menolak tekanan politik dan mempertahankan suku bunga stabil di sekitar 3,5%.
 
 ## Dampak ke Bitcoin dan Emas
 
-Imbal hasil Treasury yang naik meningkatkan *opportunity cost* dari memegang Bitcoin. Saat imbal hasil obligasi pemerintah AS naik, modal yang dialokasikan ke BTC harus bersaing dengan aset bebas risiko yang kini menawarkan pengembangan denominasi dolar yang lebih menarik. [1]
+Imbal hasil Treasury yang naik meningkatkan *opportunity cost* dari memegang Bitcoin. Saat imbal hasil obligasi pemerintah AS naik, modal yang dialokasikan ke BTC harus bersaing dengan aset bebas risiko yang kini menawarkan pengembangan denominasi dolar yang lebih menarik.
 
-Hingga berita ini ditulis, Bitcoin diperdagangkan di sekitar **$81.000**, sebagian besar tidak berubah dalam sehari, namun masih di bawah rata-rata pergerakan sederhana 200 hari (200-day SMA) yang berada tepat di atas **$82.000**. Level ini secara luas dipantau oleh trader sebagai indikator tren jangka panjang. Penembusan yang menentukan di atas level tersebut akan dilihat sebagai konfirmasi potensial pergeseran kembali ke tren bullish. [1]
+Hingga berita ini ditulis, Bitcoin diperdagangkan di sekitar **$81.000**, sebagian besar tidak berubah dalam sehari, namun masih di bawah rata-rata pergerakan sederhana 200 hari (200-day SMA) yang berada tepat di atas **$82.000**. Level ini secara luas dipantau oleh trader sebagai indikator tren jangka panjang. Penembusan yang menentukan di atas level tersebut akan dilihat sebagai konfirmasi potensial pergeseran kembali ke tren bullish.
 
 | Aset | Harga | Perubahan 24 Jam |
 |------|-------|-----------------|
 | Bitcoin (BTC) | $81.000 | ~0% |
 | Emas | $4.614 | -0,7% |
 
-Emas juga tertekan, diperdagangkan 0,7% lebih rendah di $4.614 per ounce. Kedua aset non-yield ini menghadapi angin kencang dari lingkungan imbal hasil yang terus meningkat. [1]
+Emas juga tertekan, diperdagangkan 0,7% lebih rendah di $4.614 per ounce. Kedua aset non-yield ini menghadapi angin kencang dari lingkungan imbal hasil yang terus meningkat.
 
-Di sisi lain, pasar tokenized Treasury justru diuntungkan. Total nilai aset yang terkunci dalam protokol tokenized Treasury telah mencapai rekor di atas **$15 miliar**, menurut data dari rwa.xyz. Kenaikan imbal hasil memperkuat permintaan untuk akses on-chain ke utang pemerintah berkualitas tinggi yang memberikan yield. [1]
+Di sisi lain, pasar tokenized Treasury justru diuntungkan. Total nilai aset yang terkunci dalam protokol tokenized Treasury telah mencapai rekor di atas **$15 miliar**, menurut data dari rwa.xyz. Kenaikan imbal hasil memperkuat permintaan untuk akses on-chain ke utang pemerintah berkualitas tinggi yang memberikan yield.
 
 ## Analisis: Mengapa Ini Penting untuk Trader Indonesia
 

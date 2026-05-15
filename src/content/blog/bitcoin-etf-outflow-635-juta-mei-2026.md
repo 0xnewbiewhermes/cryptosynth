@@ -11,27 +11,27 @@ tags: ["bitcoin", "etf", "outflow", "harga-bitcoin-hari-ini", "pasar-crypto", "i
 
 ## Outflow Bitcoin ETF Pecahkan Rekor Negatif Tahun Ini
 
-Pasar spot Bitcoin ETF AS mengalami hari terburuknya dalam hampir empat bulan. Pada Rabu (13/5), investor menarik **$635 juta** dari 11 dana Bitcoin ETF yang terdaftar di bursa AS, outflow harian terbesar sejak 29 Januari, menurut data dari SoSoValue [1].
+Pasar spot Bitcoin ETF AS mengalami hari terburuknya dalam hampir empat bulan. Pada Rabu (13/5), investor menarik **$635 juta** dari 11 dana Bitcoin ETF yang terdaftar di bursa AS, outflow harian terbesar sejak 29 Januari, menurut data dari SoSoValue.
 
-Ini bukan insiden terisolasi. Dalam lima hari perdagangan terakhir, total outflow mencapai **$1,26 miliar**, menarik kembali total net inflow sejak peluncuran ETF pada Januari 2024 dari $59,76 miliar menjadi **$58,5 miliar** [1]. Padahal, sepanjang Maret dan April, dana-dana ini berhasil menarik $3,29 miliar dari investor dan dianggap sebagai katalis bullish utama bagi Bitcoin.
+Ini bukan insiden terisolasi. Dalam lima hari perdagangan terakhir, total outflow mencapai **$1,26 miliar**, menarik kembali total net inflow sejak peluncuran ETF pada Januari 2024 dari $59,76 miliar menjadi **$58,5 miliar**. Padahal, sepanjang Maret dan April, dana-dana ini berhasil menarik $3,29 miliar dari investor dan dianggap sebagai katalis bullish utama bagi Bitcoin.
 
-The Block melaporkan bahwa penurunan ini terjadi bersamaan dengan melemahnya permintaan dari korporat treasury dan adanya kluster gamma senilai **$2 miliar** di sekitar level $82.000 yang berpotensi memicu volatilitas tambahan [2].
+The Block melaporkan bahwa penurunan ini terjadi bersamaan dengan melemahnya permintaan dari korporat treasury dan adanya kluster gamma senilai **$2 miliar** di sekitar level $82.000 yang berpotensi memicu volatilitas tambahan.
 
 ## Bitcoin Gagal Tembus Resistance 200-Hari
 
-Rally Bitcoin yang membawa harga dari $65.000 hingga menembus $80.000 sepanjang Maret-April kini kehilangan momentum. Sejak pekan lalu, BTC berulang kali ditolak di sekitar **simple moving average (SMA) 200 hari** yang berada tepat di atas $82.000, level yang secara teknis dianggap sebagai penentu tren jangka panjang [1].
+Rally Bitcoin yang membawa harga dari $65.000 hingga menembus $80.000 sepanjang Maret-April kini kehilangan momentum. Sejak pekan lalu, BTC berulang kali ditolak di sekitar **simple moving average (SMA) 200 hari** yang berada tepat di atas $82.000, level yang secara teknis dianggap sebagai penentu tren jangka panjang.
 
-Dalam 24 jam terakhir, Bitcoin merosot lebih dari 2% ke sekitar **$79.400** (Rp1,27 miliar). Analis mengaitkan penurunan ini dengan kekhawatiran inflasi AS yang kembali menguat, meskipun indeks ekuitas Wall Street seperti Nasdaq dan S&P 500 justru mencatat rekor tertinggi pada hari yang sama [1].
+Dalam 24 jam terakhir, Bitcoin merosot lebih dari 2% ke sekitar **$79.400** (Rp1,27 miliar). Analis mengaitkan penurunan ini dengan kekhawatiran inflasi AS yang kembali menguat, meskipun indeks ekuitas Wall Street seperti Nasdaq dan S&P 500 justru mencatat rekor tertinggi pada hari yang sama.
 
-Cointelegraph menambahkan bahwa investor juga mengantisipasi volatilitas menjelang voting markup **CLARITY Act** di Senat AS, yang bisa menentukan kerangka regulasi crypto jangka panjang di Amerika [3].
+Cointelegraph menambahkan bahwa investor juga mengantisipasi volatilitas menjelang voting markup **CLARITY Act** di Senat AS, yang bisa menentukan kerangka regulasi crypto jangka panjang di Amerika.
 
 ## Korelasi ETF-Bitcoin Melemah
 
-Menariknya, hubungan antara arus dana ETF dan harga Bitcoin tidak sekuat dulu. Studi korelasi menunjukkan bahwa **koefisien Pearson rolling 90 hari** antara return harian BTC dan perubahan net inflow kumulatif ETF saat ini hanya **0,16**, secara statistik tidak berbeda dari nol dan turun tajam dari puncak **0,68** pada Februari [1].
+Menariknya, hubungan antara arus dana ETF dan harga Bitcoin tidak sekuat dulu. Studi korelasi menunjukkan bahwa **koefisien Pearson rolling 90 hari** antara return harian BTC dan perubahan net inflow kumulatif ETF saat ini hanya **0,16**, secara statistik tidak berbeda dari nol dan turun tajam dari puncak **0,68** pada Februari.
 
 Artinya, mengetahui arah arus dana ETF pada hari tertentu belum tentu memberi sinyal tentang pergerakan harga BTC. Namun, outflow besar seperti yang terjadi Rabu tetap memiliki dampak psikologis yang signifikan terhadap sentimen pasar.
 
-Adam Haeems, Head of Asset Management di Tesseract Group (AUM >$500 juta), mengingatkan: *"CPI yang terus panas, The Fed di bawah Warsh yang dibaca pasar lebih hawkish, atau guncangan harga minyak bisa menekan Bitcoin bahkan dengan net flow yang positif. Pertanyaan yang lebih relevan bukan apakah rally berlanjut, tapi apakah kondisi makro cukup longgar untuk membiarkan arus dana bekerja."* [1]
+Adam Haeems, Head of Asset Management di Tesseract Group (AUM >$500 juta), mengingatkan: *"CPI yang terus panas, The Fed di bawah Warsh yang dibaca pasar lebih hawkish, atau guncangan harga minyak bisa menekan Bitcoin bahkan dengan net flow yang positif. Pertanyaan yang lebih relevan bukan apakah rally berlanjut, tapi apakah kondisi makro cukup longgar untuk membiarkan arus dana bekerja."*
 
 ## Harga Crypto Utama
 
@@ -42,7 +42,7 @@ Adam Haeems, Head of Asset Management di Tesseract Group (AUM >$500 juta), mengi
 | SOL | $91,24 | -1,09% |
 | XRP | $1,45 | -1,56% |
 
-*Sumber: CoinDesk, 14 Mei 2026* [1]
+*Sumber: CoinDesk, 14 Mei 2026*
 
 ## Apa Artinya untuk Investor Indonesia?
 

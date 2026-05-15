@@ -11,15 +11,15 @@ tags: ["bitcoin", "inflasi", "PPI", "fed", "harga-bitcoin-hari-ini", "makroekono
 
 ## Data Inflasi PPI April 2026 Pecahkan Ekspektasi
 
-Bitcoin (BTC) anjlok di bawah level psikologis $80.000 pada Rabu (13/5) setelah data inflasi produsen AS untuk April 2026 dirilis jauh lebih panas dari prediksi pasar. Data ini menambah tekanan pada Federal Reserve yang sedang menghadapi dilema antara memangkas suku bunga atau menahan kebijakan moneter ketat. [1]
+Bitcoin (BTC) anjlok di bawah level psikologis $80.000 pada Rabu (13/5) setelah data inflasi produsen AS untuk April 2026 dirilis jauh lebih panas dari prediksi pasar. Data ini menambah tekanan pada Federal Reserve yang sedang menghadapi dilema antara memangkas suku bunga atau menahan kebijakan moneter ketat.
 
-Menurut laporan CoinDesk, indeks harga produsen (PPI) naik **1,4% secara bulanan (month-over-month)**, hampir tiga kali lipat dari ekspektasi analis yang memperkirakan kenaikan hanya 0,5%. Secara tahunan, inflasi produsen melonjak ke **6%**, sementara PPI inti (tanpa makanan dan energi) naik 1% secara bulanan dan **5,2% year-over-year**, keduanya jauh di atas perkiraan. [1]
+Menurut laporan CoinDesk, indeks harga produsen (PPI) naik **1,4% secara bulanan (month-over-month)**, hampir tiga kali lipat dari ekspektasi analis yang memperkirakan kenaikan hanya 0,5%. Secara tahunan, inflasi produsen melonjak ke **6%**, sementara PPI inti (tanpa makanan dan energi) naik 1% secara bulanan dan **5,2% year-over-year**, keduanya jauh di atas perkiraan.
 
-Data PPI ini muncul sehari setelah laporan Consumer Price Index (CPI) menunjukkan inflasi konsumen naik ke **3,8% YoY**, rekor tertinggi dalam hampir tiga tahun. Kombinasi kedua data ini memperkuat narasi bahwa inflasi AS kembali berakselerasi. [1][2]
+Data PPI ini muncul sehari setelah laporan Consumer Price Index (CPI) menunjukkan inflasi konsumen naik ke **3,8% YoY**, rekor tertinggi dalam hampir tiga tahun. Kombinasi kedua data ini memperkuat narasi bahwa inflasi AS kembali berakselerasi.
 
 ## Dampak Langsung ke Pasar Crypto
 
-Bitcoin yang diperdagangkan di atas $81.000 sepanjang malam langsung merosot di bawah $80.000 dalam hitungan menit setelah data PPI dirilis. BTC terakhir diperdagangkan di sekitar **$80.000–$80.200**, turun sekitar 0,8% dalam 24 jam terakhir. [1]
+Bitcoin yang diperdagangkan di atas $81.000 sepanjang malam langsung merosot di bawah $80.000 dalam hitungan menit setelah data PPI dirilis. BTC terakhir diperdagangkan di sekitar **$80.000–$80.200**, turun sekitar 0,8% dalam 24 jam terakhir.
 
 Berikut harga crypto utama saat penulisan:
 
@@ -30,29 +30,29 @@ Berikut harga crypto utama saat penulisan:
 | SOL | $93,10 | -1,62% |
 | XRP | $1,43 | -0,06% |
 
-Sementara itu, saham-saham terkait crypto juga tertekan. Coinbase (COIN) dan Circle (CRCL) masing-masing turun lebih dari 6%, sementara Strategy (MSTR) dan Bitmine (BMNR) merosot hampir 7%. [3]
+Sementara itu, saham-saham terkait crypto juga tertekan. Coinbase (COIN) dan Circle (CRCL) masing-masing turun lebih dari 6%, sementara Strategy (MSTR) dan Bitmine (BMNR) merosot hampir 7%.
 
 ## Faktor Geopolitik: Iran dan Trump-Xi
 
-Inflasi yang meningkat sebagian dipicu oleh **kenaikan harga minyak** terkait konflik Iran dan risiko gangguan pasokan di Selat Hormuz. Harga energi yang lebih tinggi berpotensi memicu data inflasi yang lebih panas dalam beberapa bulan ke depan. [1]
+Inflasi yang meningkat sebagian dipicu oleh **kenaikan harga minyak** terkait konflik Iran dan risiko gangguan pasokan di Selat Hormuz. Harga energi yang lebih tinggi berpotensi memicu data inflasi yang lebih panas dalam beberapa bulan ke depan.
 
-Di sisi lain, pasar mengawasi pertemuan antara **Presiden Donald Trump dan Xi Jinping** di Beijing. Pembicaraan ini diperkirakan mencakup tarif, rantai pasokan *rare earth*, dan Timur Tengah. Hasil positif, bahkan yang bersifat simbolis, dapat meningkatkan sentimen pasar dan mendukung aset berisiko termasuk crypto. [4]
+Di sisi lain, pasar mengawasi pertemuan antara **Presiden Donald Trump dan Xi Jinping** di Beijing. Pembicaraan ini diperkirakan mencakup tarif, rantai pasokan *rare earth*, dan Timur Tengah. Hasil positif, bahkan yang bersifat simbolis, dapat meningkatkan sentimen pasar dan mendukung aset berisiko termasuk crypto.
 
 ## Analisis: "Final Flush of Weak Hands"?
 
-Matt Mena, *senior crypto research strategist* di 21Shares, memberikan perspektif menarik. Menurutnya, data inflasi ini mencerminkan tekanan makro yang meningkat, tapi kemampuan Bitcoin bertahan di atas $80.000 tetap menjadi sinyal penting bagi trader. [1]
+Matt Mena, *senior crypto research strategist* di 21Shares, memberikan perspektif menarik. Menurutnya, data inflasi ini mencerminkan tekanan makro yang meningkat, tapi kemampuan Bitcoin bertahan di atas $80.000 tetap menjadi sinyal penting bagi trader.
 
-Mena memperingatkan bahwa penembusan berkelanjutan di bawah $80.000 bisa mengirim BTC ke **$78.000**, dengan **$75.000** sebagai zona support utama berikutnya jika tekanan jual meningkat. Namun, ia berpendapat bahwa guncangan inflasi terakhir ini mungkin merupakan **"final flush of weak hands"** sebelum beberapa katalis bullish kembali menjadi fokus. [1]
+Mena memperingatkan bahwa penembusan berkelanjutan di bawah $80.000 bisa mengirim BTC ke **$78.000**, dengan **$75.000** sebagai zona support utama berikutnya jika tekanan jual meningkat. Namun, ia berpendapat bahwa guncangan inflasi terakhir ini mungkin merupakan **"final flush of weak hands"** sebelum beberapa katalis bullish kembali menjadi fokus.
 
-Dari sisi teknis, level **$82.000** menjadi resistance kunci. Jika BTC berhasil menembus level tersebut, Mena melihat potensi reli ke **$85.000–$90.000**, dengan target $100.000 masih mungkin dicapai akhir kuartal ini. [1]
+Dari sisi teknis, level **$82.000** menjadi resistance kunci. Jika BTC berhasil menembus level tersebut, Mena melihat potensi reli ke **$85.000–$90.000**, dengan target $100.000 masih mungkin dicapai akhir kuartal ini.
 
-Sementara itu, data derivatif menunjukkan posisi *bullish* yang meningkat di altcoin seperti BNB, DOGE, dan ETH, meskipun volume negatif jangka pendek mengindikasikan kehati-hatian yang masih tersisa di pasar. *Implied volatility* Bitcoin dan ETH berada di dekat level terendah tahun ini, menunjukkan trader belum mengantisipasi gejolak besar dalam waktu dekat. [4]
+Sementara itu, data derivatif menunjukkan posisi *bullish* yang meningkat di altcoin seperti BNB, DOGE, dan ETH, meskipun volume negatif jangka pendek mengindikasikan kehati-hatian yang masih tersisa di pasar. *Implied volatility* Bitcoin dan ETH berada di dekat level terendah tahun ini, menunjukkan trader belum mengantisipasi gejolak besar dalam waktu dekat.
 
 ## Kevin Warsh dan Kebijakan Fed ke Depan
 
-Latar belakang ini semakin rumit dengan konfirmasi **Kevin Warsh** ke Dewan Gubernur Fed oleh Senat AS. Warsh, yang memiliki keterpaparan terhadap investasi crypto, diharapkan bisa membawa pendekatan yang lebih ramah terhadap aset digital. Pasar bereaksi positif, BTC rebound dari $79.900 ke $80.400 setelah berita konfirmasi Warsh. [3]
+Latar belakang ini semakin rumit dengan konfirmasi **Kevin Warsh** ke Dewan Gubernur Fed oleh Senat AS. Warsh, yang memiliki keterpaparan terhadap investasi crypto, diharapkan bisa membawa pendekatan yang lebih ramah terhadap aset digital. Pasar bereaksi positif, BTC rebound dari $79.900 ke $80.400 setelah berita konfirmasi Warsh.
 
-Namun, pertanyaan besar tetap: apakah Fed perlu mempertimbangkan **pengetatan tambahan** alih-alih pemotongan suku bunga? Trump terus menekan Fed untuk menurunkan suku bunga, tapi data inflasi yang terus memanas membuat langkah tersebut semakin sulit. [1]
+Namun, pertanyaan besar tetap: apakah Fed perlu mempertimbangkan **pengetatan tambahan** alih-alih pemotongan suku bunga? Trump terus menekan Fed untuk menurunkan suku bunga, tapi data inflasi yang terus memanas membuat langkah tersebut semakin sulit.
 
 ## Apa Artinya untuk Investor Indonesia?
 

@@ -16,13 +16,13 @@ author: "CryptoSynth Research"
 
 ## Coinbase dan Hyperliquid: Kolaborasi Besar di DeFi
 
-Coinbase, salah satu exchange crypto terbesar di dunia, baru saja mengumumkan kerjasama strategis dengan Hyperliquid. Dalam kerjasama ini, Coinbase akan mengelola likuiditas USDC di platform Hyperliquid, memastikan bahwa trader memiliki akses ke likuiditas yang dalam dan stabil. [1]
+Coinbase, salah satu exchange crypto terbesar di dunia, baru saja mengumumkan kerjasama strategis dengan Hyperliquid. Dalam kerjasama ini, Coinbase akan mengelola likuiditas USDC di platform Hyperliquid, memastikan bahwa trader memiliki akses ke likuiditas yang dalam dan stabil.
 
-Hyperliquid sendiri adalah platform trading DeFi yang mengalami pertumbuhan sangat pesat dalam beberapa bulan terakhir. Platform ini menawarkan trading perpetual futures dengan leverage tinggi, langsung dari wallet tanpa perlu KYC. Volume trading harian Hyperliquid sudah mencapai miliaran dollar. [1]
+Hyperliquid sendiri adalah platform trading DeFi yang mengalami pertumbuhan sangat pesat dalam beberapa bulan terakhir. Platform ini menawarkan trading perpetual futures dengan leverage tinggi, langsung dari wallet tanpa perlu KYC. Volume trading harian Hyperliquid sudah mencapai miliaran dollar.
 
 ## Mengapa Coinbase Masuk ke DeFi?
 
-Keputusan Coinbase untuk mendukung Hyperliquid adalah sinyal penting. Selama ini, Coinbase dikenal sebagai exchange terpusat (CEX) yang sangat regulated. Namun, mereka juga melihat potensi besar di pasar DeFi. [1]
+Keputusan Coinbase untuk mendukung Hyperliquid adalah sinyal penting. Selama ini, Coinbase dikenal sebagai exchange terpusat (CEX) yang sangat regulated. Namun, mereka juga melihat potensi besar di pasar DeFi.
 
 Ada beberapa alasan mengapa Coinbase masuk ke DeFi:
 
@@ -32,7 +32,7 @@ Ada beberapa alasan mengapa Coinbase masuk ke DeFi:
 
 3. **Regulasi yang lebih jelas**: Dengan CLARITY Act yang sedang diproses di Kongres AS, regulasi untuk DeFi semakin jelas. Ini memberikan kepercayaan diri bagi Coinbase untuk masuk.
 
-4. **Stablecoin sebagai jembatan**: USDC adalah stablecoin yang diterbitkan oleh Circle, partner dekat Coinbase. Dengan mengelola likuiditas USDC di DeFi, Coinbase bisa memperkuat ekosistem stablecoin mereka. [1]
+4. **Stablecoin sebagai jembatan**: USDC adalah stablecoin yang diterbitkan oleh Circle, partner dekat Coinbase. Dengan mengelola likuiditas USDC di DeFi, Coinbase bisa memperkuat ekosistem stablecoin mereka.
 
 ## Dampak ke Ekosistem DeFi
 
@@ -44,11 +44,11 @@ Kerjasama Coinbase-Hyperliquid punya beberapa dampak penting untuk ekosistem DeF
 
 **Kompetisi yang lebih sehat**: CEX dan DEX akan bersaing lebih ketat, yang pada akhirnya menguntungkan trader.
 
-**Inovasi**: Tekanan kompetisi akan mendorong inovasi di kedua sisi. [1]
+**Inovasi**: Tekanan kompetisi akan mendorong inovasi di kedua sisi.
 
 ## Volume DeFi: Angka yang Terus Naik
 
-Data dari DefiLlama menunjukkan bahwa total volume trading DeFi dalam 24 jam terakhir mencapai $15 miliar. Angka ini naik 30% dibandingkan bulan lalu, meskipun harga crypto sedang koreksi. [1]
+Data dari DefiLlama menunjukkan bahwa total volume trading DeFi dalam 24 jam terakhir mencapai $15 miliar. Angka ini naik 30% dibandingkan bulan lalu, meskipun harga crypto sedang koreksi.
 
 Beberapa platform DeFi dengan volume tertinggi:
 - **Uniswap**: $3,5 miliar/hari
@@ -56,7 +56,7 @@ Beberapa platform DeFi dengan volume tertinggi:
 - **Hyperliquid**: $2,2 miliar/hari
 - **dYdX**: $1,5 miliar/hari
 
-Hyperliquid sudah menempati posisi ketiga, dan dengan dukungan Coinbase, volume mereka diperkirakan akan terus naik. [1]
+Hyperliquid sudah menempati posisi ketiga, dan dengan dukungan Coinbase, volume mereka diperkirakan akan terus naik.
 
 ## Apa Artinya untuk Trader Indonesia?
 
@@ -70,7 +70,7 @@ Bagi trader Indonesia, perkembangan ini membuka beberapa peluang:
 
 4. **Peluang yield**: Menyediakan likuiditas di Hyperliquid bisa memberikan yield yang menarik.
 
-Namun, perlu diingat bahwa trading DeFi dengan leverage tinggi sangat berisiko. Selalu gunakan risk management yang tepat. [1]
+Namun, perlu diingat bahwa trading DeFi dengan leverage tinggi sangat berisiko. Selalu gunakan risk management yang tepat.
 
 ---
 

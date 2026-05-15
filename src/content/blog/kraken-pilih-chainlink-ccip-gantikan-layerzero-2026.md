@@ -11,25 +11,25 @@ tags: ["kraken", "chainlink", "ccip", "layerzero", "kbtc", "bridge", "defi", "ke
 
 ## Kraken Tinggalkan LayerZero Setelah Insiden Keamanan Besar
 
-Kraken secara resmi mengumumkan bahwa mereka akan menggantikan LayerZero dengan Chainlink's Cross-Chain Interoperability Protocol (CCIP) untuk seluruh transfer aset lintas blockchain. Keputusan ini datang setelah exploit besar senilai $292 juta yang menyerang bridge Kelp DAO yang dibangun di atas LayerZero pada April 2026 [1].
+Kraken secara resmi mengumumkan bahwa mereka akan menggantikan LayerZero dengan Chainlink's Cross-Chain Interoperability Protocol (CCIP) untuk seluruh transfer aset lintas blockchain. Keputusan ini datang setelah exploit besar senilai $292 juta yang menyerang bridge Kelp DAO yang dibangun di atas LayerZero pada April 2026.
 
-Dalam pengumumannya, Kraken menyatakan bahwa CCIP akan menjadi layanan bridge tunggal dan eksklusif untuk semua token wrapped milik exchange tersebut, termasuk kBTC, produk wrapped Bitcoin yang di-backing 1:1 oleh Bitcoin native yang disimpan di Kraken Financial, lembaga special purpose depository institution (SPDI) yang bercharter di Wyoming [2].
+Dalam pengumumannya, Kraken menyatakan bahwa CCIP akan menjadi layanan bridge tunggal dan eksklusif untuk semua token wrapped milik exchange tersebut, termasuk kBTC, produk wrapped Bitcoin yang di-backing 1:1 oleh Bitcoin native yang disimpan di Kraken Financial, lembaga special purpose depository institution (SPDI) yang bercharter di Wyoming.
 
 ## Cakupan Migrasi dan Dampak ke Pengguna
 
-Migrasi ini mencakup empat jaringan blockchain utama: Ethereum, Optimism, Ink, dan Unichain, dengan rencana ekspansi ke jaringan tambahan di masa depan. Kraken menegaskan bahwa pelanggan kBTC tidak perlu mengambil tindakan apapun selama proses migrasi berlangsung [1].
+Migrasi ini mencakup empat jaringan blockchain utama: Ethereum, Optimism, Ink, dan Unichain, dengan rencana ekspansi ke jaringan tambahan di masa depan. Kraken menegaskan bahwa pelanggan kBTC tidak perlu mengambil tindakan apapun selama proses migrasi berlangsung.
 
-"The flight to safety continues," tulis Zach Rynes (@ChainLinkGod) di X, menambahkan bahwa Kraken memilih CCIP setelah melalui tinjauan keamanan menyeluruh karena protokol ini menawarkan infrastruktur kelas enterprise dengan kontrol risiko yang ketat [2].
+"The flight to safety continues," tulis Zach Rynes (@ChainLinkGod) di X, menambahkan bahwa Kraken memilih CCIP setelah melalui tinjauan keamanan menyeluruh karena protokol ini menawarkan infrastruktur kelas enterprise dengan kontrol risiko yang ketat.
 
 ## Chainlink CCIP: Standar Baru Keamanan Bridge Cross-Chain
 
-Chainlink CCIP akan mendukung pergerakan Kraken Wrapped Assets melalui standar Cross Chain Token. Infrastruktur ini mencakup operator node independen, batas rate bawaan, dan kontrol risiko yang dirancang untuk meminimalkan paparan terhadap kegagalan bridge [3].
+Chainlink CCIP akan mendukung pergerakan Kraken Wrapped Assets melalui standar Cross Chain Token. Infrastruktur ini mencakup operator node independen, batas rate bawaan, dan kontrol risiko yang dirancang untuk meminimalkan paparan terhadap kegagalan bridge.
 
-Johann Eid, Chief Business Officer di Chainlink Labs, menyatakan: "Kraken's unwavering commitment to uncompromising security aligns perfectly with principles that shaped CCIP's architecture. By deprecating its legacy infrastructure and adopting CCIP, Kraken is ensuring its assets can move across networks while maintaining the institutional-grade security that enterprises require" [3].
+Johann Eid, Chief Business Officer di Chainlink Labs, menyatakan: "Kraken's unwavering commitment to uncompromising security aligns perfectly with principles that shaped CCIP's architecture. By deprecating its legacy infrastructure and adopting CCIP, Kraken is ensuring its assets can move across networks while maintaining the institutional-grade security that enterprises require".
 
 ## Exodus dari LayerZero: Bukan Hanya Kraken
 
-Kraken setidaknya adalah produk keempat yang meninggalkan LayerZero setelah insiden Kelp DAO. Protokol lain termasuk Kelp sendiri, Solv, dan Re juga telah bermigrasi ke Chainlink CCIP. Secara total, lebih dari $2,5 miliar TVL (Total Value Locked) telah berpindah dari LayerZero ke CCIP dalam beberapa minggu terakhir [1].
+Kraken setidaknya adalah produk keempat yang meninggalkan LayerZero setelah insiden Kelp DAO. Protokol lain termasuk Kelp sendiri, Solv, dan Re juga telah bermigrasi ke Chainlink CCIP. Secara total, lebih dari $2,5 miliar TVL (Total Value Locked) telah berpindah dari LayerZero ke CCIP dalam beberapa minggu terakhir.
 
 Pergerakan massal ini menandai pergeseran signifikan dalam lanskap infrastruktur cross-chain. Bridge dan wrapped asset telah lama menjadi salah satu titik keamanan paling rentan di ekosistem crypto, dengan kerugian miliaran dolar akibat exploit bridge dalam beberapa tahun terakhir.
 

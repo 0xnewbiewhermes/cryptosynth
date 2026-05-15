@@ -16,13 +16,13 @@ author: "CryptoSynth Research"
 
 ## Hyperliquid: Bintang Baru DeFi yang Siap Airdrop
 
-Hyperliquid adalah salah satu platform trading DeFi yang paling cepat berkembang di 2026. Dengan volume trading harian mencapai $2,2 miliar, platform ini sudah menempati posisi ketiga di antara DEX terbesar setelah Uniswap dan PancakeSwap. [1]
+Hyperliquid adalah salah satu platform trading DeFi yang paling cepat berkembang di 2026. Dengan volume trading harian mencapai $2,2 miliar, platform ini sudah menempati posisi ketiga di antara DEX terbesar setelah Uniswap dan PancakeSwap.
 
-Yang membuat Hyperliquid menarik adalah belum adanya token native. Seperti banyak project DeFi sukses sebelumnya (Uniswap, dYdX, Arbitrum), Hyperliquid diperkirakan akan meluncurkan token dan memberikan airdrop kepada pengguna setia mereka. [1]
+Yang membuat Hyperliquid menarik adalah belum adanya token native. Seperti banyak project DeFi sukses sebelumnya (Uniswap, dYdX, Arbitrum), Hyperliquid diperkirakan akan meluncurkan token dan memberikan airdrop kepada pengguna setia mereka.
 
 ## Mengapa Coinbase Dukung Hyperliquid?
 
-Pengumuman bahwa Coinbase akan mengelola likuiditas USDC di Hyperliquid adalah sinyal yang sangat bullish. Coinbase jarang sekali menjalin kerjasama strategis dengan project yang belum memiliki token. [1]
+Pengumuman bahwa Coinbase akan mengelola likuiditas USDC di Hyperliquid adalah sinyal yang sangat bullish. Coinbase jarang sekali menjalin kerjasama strategis dengan project yang belum memiliki token.
 
 Dukungan Coinbase menunjukkan beberapa hal:
 1. **Kepercayaan institusional**: Coinbase melihat potensi besar di Hyperliquid
@@ -30,7 +30,7 @@ Dukungan Coinbase menunjukkan beberapa hal:
 3. **Ekspansi ke DeFi**: Coinbase ingin memperkuat posisinya di pasar DeFi
 4. **Validasi teknologi**: Teknologi Hyperliquid diakui oleh exchange terbesar
 
-Dengan dukungan Coinbase, peluang airdrop Hyperliquid semakin besar. [1]
+Dengan dukungan Coinbase, peluang airdrop Hyperliquid semakin besar.
 
 ## Cara Kualifikasi Airdrop Hyperliquid
 
@@ -62,7 +62,7 @@ Berdasarkan pengalaman airdrop sebelumnya (dYdX, GMX), estimasi reward untuk Hyp
 - **Volume tinggi**: $5.000 - $50.000
 - **Early adopter**: $10.000+
 
-Namun, ini hanya estimasi. Reward aktual tergantung pada kebijakan tim Hyperliquid. [1]
+Namun, ini hanya estimasi. Reward aktual tergantung pada kebijakan tim Hyperliquid.
 
 ## Risiko yang Perlu Diperhatikan
 
@@ -73,7 +73,7 @@ Meskipun peluang airdrop besar, ada beberapa risiko:
 3. **Tidak ada jaminan**: Airdrop belum diumumkan secara resmi
 4. **Modal yang dibutuhkan**: Perlu modal untuk trading
 
-Selalu gunakan risk management yang tepat dan jangan invest lebih dari yang bisa ditanggung. [1]
+Selalu gunakan risk management yang tepat dan jangan invest lebih dari yang bisa ditanggung.
 
 ## Tips untuk Airdrop Hunter Indonesia
 
@@ -87,7 +87,7 @@ Bagi airdrop hunter Indonesia, beberapa tips tambahan:
 
 ## Kesimpulan
 
-Hyperliquid adalah salah satu peluang airdrop terbesar di 2026. Dengan dukungan Coinbase dan volume trading yang terus naik, peluang untuk mendapatkan reward sangat besar. Namun, selalu ingat bahwa trading DeFi berisiko tinggi. Lakukan riset sendiri dan gunakan risk management yang tepat. [1]
+Hyperliquid adalah salah satu peluang airdrop terbesar di 2026. Dengan dukungan Coinbase dan volume trading yang terus naik, peluang untuk mendapatkan reward sangat besar. Namun, selalu ingat bahwa trading DeFi berisiko tinggi. Lakukan riset sendiri dan gunakan risk management yang tepat.
 
 ---
 

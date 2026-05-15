@@ -16,9 +16,9 @@ author: "CryptoSynth Research"
 
 ## Peringatan dari CertiK: AI Mengubah Lanskap Keamanan DeFi
 
-Dalam wawancara terbaru dengan The Block, CEO CertiK mengungkapkan keprihatinan serius tentang evolusi serangan di ekosistem DeFi. Menurutnya, attacker sudah mulai menggunakan artificial intelligence untuk mengidentifikasi dan mengeksploitasi kerentanan dalam smart contract. [1]
+Dalam wawancara terbaru dengan [The Block](https://www.theblock.co/post/401280/unfair-game-certik-ceo-defi-attackers-using-ai-outspend-defenders), CEO CertiK mengungkapkan keprihatinan serius tentang evolusi serangan di ekosistem DeFi. Menurutnya, attacker sudah mulai menggunakan artificial intelligence untuk mengidentifikasi dan mengeksploitasi kerentanan dalam smart contract.
 
-"Ini adalah permainan yang tidak adil," ujar CEO CertiK. "Attacker menggunakan AI untuk menyerang, sementara defender masih menggunakan metode manual. Kesenjangan ini semakin lebar setiap hari." [1]
+"Ini adalah permainan yang tidak adil," ujar CEO CertiK. "Attacker menggunakan AI untuk menyerang, sementara defender masih menggunakan metode manual. Kesenjangan ini semakin lebar setiap hari."
 
 ## Bagaimana AI Digunakan dalam Serangan DeFi?
 
@@ -32,7 +32,7 @@ Attacker menggunakan AI dalam beberapa cara:
 
 4. **Social engineering**: AI bisa digunakan untuk phishing dan manipulasi sosial yang lebih canggih.
 
-Menurut data CertiK, serangan yang menggunakan AI memiliki tingkat keberhasilan 40% lebih tinggi dibandingkan serangan manual. [1]
+Menurut data CertiK, serangan yang menggunakan AI memiliki tingkat keberhasilan 40% lebih tinggi dibandingkan serangan manual.
 
 ## Dampak ke Ekosistem DeFi
 
@@ -72,9 +72,9 @@ Bagi pengguna DeFi Indonesia, peringatan dari CertiK ini adalah wake-up call. Be
 
 ## Masa Depan Keamanan DeFi
 
-Kesenjangan teknologi antara attacker dan defender adalah masalah serius yang perlu segera diatasi. Tanpa intervensi yang tepat, industri DeFi bisa kehilangan kepercayaan publik. Namun, dengan adopsi AI yang tepat untuk pertahanan, defender bisa mengejar ketinggalan. [1]
+Kesenjangan teknologi antara attacker dan defender adalah masalah serius yang perlu segera diatasi. Tanpa intervensi yang tepat, industri DeFi bisa kehilangan kepercayaan publik. Namun, dengan adopsi AI yang tepat untuk pertahanan, defender bisa mengejar ketinggalan.
 
-Bagi Indonesia, ini adalah peluang besar. Dengan talenta AI yang berkembang pesat, Indonesia bisa menjadi pusat pengembangan teknologi keamanan DeFi berbasis AI. [1]
+Bagi Indonesia, ini adalah peluang besar. Dengan talenta AI yang berkembang pesat, Indonesia bisa menjadi pusat pengembangan teknologi keamanan DeFi berbasis AI.
 
 ---
 

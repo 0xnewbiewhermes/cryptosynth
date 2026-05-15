@@ -17,33 +17,33 @@ author: "CryptoSynth Research"
 
 ## Farage Terima Hadiah Rp89 Miliar dari Miliarder Crypto
 
-Nigel Farage, politisi Inggris sekaligus pemimpin Partai Reform UK, membeli properti senilai 1,4 juta pound (US$1,8 juta) secara tunai tak lama setelah menerima hadiah pribadi sebesar 5 juta pound (US$6,7 juta) dari miliarder crypto Christopher Harborne [1]. Pembelian properti ini terjadi pada Mei 2024, beberapa minggu sebelum Farage mengumumkan dirinya akan maju dalam pemilihan umum.
+Nigel Farage, politisi Inggris sekaligus pemimpin Partai Reform UK, membeli properti senilai 1,4 juta pound (US$1,8 juta) secara tunai tak lama setelah menerima hadiah pribadi sebesar 5 juta pound (US$6,7 juta) dari miliarder crypto Christopher Harborne. Pembelian properti ini terjadi pada Mei 2024, beberapa minggu sebelum Farage mengumumkan dirinya akan maju dalam pemilihan umum.
 
-Christopher Harborne adalah pengusaha asal Thailand yang dikenal sebagai salah satu figur penting di industri crypto dan blockchain. Harborne sebelumnya juga dikenal sebagai pendukung besar kampanye Brexit [2].
+Christopher Harborne adalah pengusaha asal Thailand yang dikenal sebagai salah satu figur penting di industri crypto dan blockchain. Harborne sebelumnya juga dikenal sebagai pendukung besar kampanye Brexit.
 
 ## Investigasi Parlemen Inggris
 
-Komisioner Standar Parlemen Inggris mengonfirmasi bahwa Farage tengah diselidiki secara resmi atas dugaan "kegagalan mendeklarasikan kepentingan" berdasarkan Aturan 5 Kode Etik anggota parlemen [3]. Aturan ini mewajibkan anggota parlemen baru untuk mendaftarkan semua kepentingan finansial mereka, termasuk manfaat yang dapat didaftarkan yang diterima dalam 12 bulan sebelum terpilih.
+Komisioner Standar Parlemen Inggris mengonfirmasi bahwa Farage tengah diselidiki secara resmi atas dugaan "kegagalan mendeklarasikan kepentingan" berdasarkan Aturan 5 Kode Etik anggota parlemen. Aturan ini mewajibkan anggota parlemen baru untuk mendaftarkan semua kepentingan finansial mereka, termasuk manfaat yang dapat didaftarkan yang diterima dalam 12 bulan sebelum terpilih.
 
-Farage dan Partai Reform UK berdalih bahwa hadiah tersebut tidak perlu dideklarasikan karena diterima sebelum ia menjabat dan dimaksudkan untuk menutupi biaya keamanan pribadi. Namun, pihak oposisi berpendapat bahwa uang tersebut tunduk pada aturan pelaporan yang berlaku [1].
+Farage dan Partai Reform UK berdalih bahwa hadiah tersebut tidak perlu dideklarasikan karena diterima sebelum ia menjabat dan dimaksudkan untuk menutupi biaya keamanan pribadi. Namun, pihak oposisi berpendapat bahwa uang tersebut tunduk pada aturan pelaporan yang berlaku.
 
-"Farage telah berulang kali menghindari pertanyaan tentang 'hadiah' senilai jutaan pound-nya. Sekarang kita bisa melihat mengapa, ini benar-benar mencurigakan," ujar Anna Turley, Ketua Partai Buruh [2].
+"Farage telah berulang kali menghindari pertanyaan tentang 'hadiah' senilai jutaan pound-nya. Sekarang kita bisa melihat mengapa, ini benar-benar mencurigakan," ujar Anna Turley, Ketua Partai Buruh.
 
 ## Ancaman Larangan Donasi Crypto untuk Politik
 
-Kasus ini muncul di tengah meningkatnya tekanan dari anggota parlemen Inggris untuk melarang atau menangguhkan donasi crypto ke partai politik. Pada Februari 2025, Matt Western, ketua Komite Gabungan Strategi Keamanan Nasional, mendesak parlemen untuk sementara melarang donasi crypto kepada partai dan figur politik [1].
+Kasus ini muncul di tengah meningkatnya tekanan dari anggota parlemen Inggris untuk melarang atau menangguhkan donasi crypto ke partai politik. Pada Februari 2025, Matt Western, ketua Komite Gabungan Strategi Keamanan Nasional, mendesak parlemen untuk sementara melarang donasi crypto kepada partai dan figur politik.
 
-Western mengkhawatirkan potensi campur tangan pemerintah asing dalam politik Inggris melalui donasi crypto. "Seiring memburuknya lingkungan keamanan dan peran militer Inggris di Eropa yang semakin besar, nilai untuk memengaruhi posisi politik Inggris kemungkinan akan meningkat," katanya [1].
+Western mengkhawatirkan potensi campur tangan pemerintah asing dalam politik Inggris melalui donasi crypto. "Seiring memburuknya lingkungan keamanan dan peran militer Inggris di Eropa yang semakin besar, nilai untuk memengaruhi posisi politik Inggris kemungkinan akan meningkat," katanya.
 
-Pada Maret 2025, pemerintah Inggris mengajukan rancangan undang-undang untuk menangguhkan donasi crypto politik, mengikuti rekomendasi dari Western dan penyelidikan independen terancam ancaman donasi politik asing [1]. Perdana Menteri Keir Starmer menyatakan: "Kami akan bertindak tegas untuk melindungi demokrasi kami" [1].
+Pada Maret 2025, pemerintah Inggris mengajukan rancangan undang-undang untuk menangguhkan donasi crypto politik, mengikuti rekomendasi dari Western dan penyelidikan independen terancam ancaman donasi politik asing. Perdana Menteri Keir Starmer menyatakan: "Kami akan bertindak tegas untuk melindungi demokrasi kami".
 
 Namun, Farage menyatakan bahwa Partai Reform UK akan melawan larangan tersebut.
 
 ## Potensi Sanksi bagi Farage
 
-Jika penyelidikan menemukan Farage melakukan pelanggaran serius terhadap aturan deklarasi parlemen, ia bisa diskors dari Dewan Perwakilan. Skorsing 10 hari atau lebih dapat memicu petisi recall, yang berpotensi memaksanya untuk mempertahankan kursi Clacton-nya dalam pemilihan ulang [2].
+Jika penyelidikan menemukan Farage melakukan pelanggaran serius terhadap aturan deklarasi parlemen, ia bisa diskors dari Dewan Perwakilan. Skorsing 10 hari atau lebih dapat memicu petisi recall, yang berpotensi memaksanya untuk mempertahankan kursi Clacton-nya dalam pemilihan ulang.
 
-Properti yang dibeli Farage adalah satu dari empat properti yang dimilikinya. Sejak pembelian, properti tersebut telah mengajukan beberapa permohonan perluasan dan pembangunan kembali, yang semuanya telah disetujui [2].
+Properti yang dibeli Farage adalah satu dari empat properti yang dimilikinya. Sejak pembelian, properti tersebut telah mengajukan beberapa permohonan perluasan dan pembangunan kembali, yang semuanya telah disetujui.
 
 Kasus Farage ini menunjukkan bahwa donasi crypto ke politisi sedang menjadi sorotan global. Di Indonesia, Bappebti dan OJK perlu memperhatikan tren ini karena regulasi donasi politik berbasis crypto belum ada. Jika Inggris berhasil melarang donasi crypto politik, negara lain kemungkinan akan mengikuti, yang berpotensi memengaruhi narasi adopsi crypto secara global.
 

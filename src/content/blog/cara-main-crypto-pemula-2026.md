@@ -13,7 +13,7 @@ tags: ["tutorial", "pemula", "crypto", "bitcoin", "trading", "exchange Indonesia
 
 ## Kenapa Harus Belajar Crypto?
 
-Crypto bukan lagi sekadar tren, ini adalah revolusi finansial. Di Indonesia, jumlah investor crypto tembus 20 juta lebih [2]. Tapi banyak yang rugi karena tidak paham dasarnya [3]. Artikel ini akan bantu kamu mulai dari nol.
+Crypto bukan lagi sekadar tren, ini adalah revolusi finansial. Di Indonesia, jumlah investor crypto tembus 20 juta lebih. Tapi banyak yang rugi karena tidak paham dasarnya. Artikel ini akan bantu kamu mulai dari nol.
 
 ## Step 1: Pilih Exchange Terpercaya
 
@@ -92,9 +92,9 @@ Investasi hanya uang yang siap hilang. Jangan pakai uang kebutuhan sehari-hari.
 
 <div class="sources-box">
 <strong>Sumber:</strong>
-<a href="https://indodax.com" target="_blank" rel="noopener">[1] Indodax</a> · 
-<a href="https://www.bappebti.go.id" target="_blank" rel="noopener">[2] Bappebti</a> · 
-<a href="https://academy.binance.com" target="_blank" rel="noopener">[3] Binance Academy</a>
+<a href="https://indodax.com" target="_blank" rel="noopener"> Indodax</a> · 
+<a href="https://www.bappebti.go.id" target="_blank" rel="noopener"> Bappebti</a> · 
+<a href="https://academy.binance.com" target="_blank" rel="noopener"> Binance Academy</a>
 </div>
 
 

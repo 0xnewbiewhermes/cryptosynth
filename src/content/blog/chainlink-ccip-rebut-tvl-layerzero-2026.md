@@ -8,7 +8,7 @@ tags: ["chainlink", "ccip", "layerzero", "bridge", "defi", "keamanan", "exploit"
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Chainlink CCIP (Cross-Chain Interoperability Protocol) berhasil menarik lebih dari $2,5 miliar dalam total value locked (TVL) dari protokol-prokol yang bermigrasi dari LayerZero. Migrasi ini dipicu oleh exploit senilai $292 juta yang terjadi di bridge berbasis LayerZero, yang membuat banyak protokol mempertimbangkan kembali keamanan infrastruktur cross-chain mereka. [1]
+> **TL;DR:** Chainlink CCIP (Cross-Chain Interoperability Protocol) berhasil menarik lebih dari $2,5 miliar dalam total value locked (TVL) dari protokol-prokol yang bermigrasi dari LayerZero. Migrasi ini dipicu oleh exploit senilai $292 juta yang terjadi di bridge berbasis LayerZero, yang membuat banyak protokol mempertimbangkan kembali keamanan infrastruktur cross-chain mereka.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
@@ -69,5 +69,5 @@ Untuk pengguna DeFi Indonesia, ini berarti lebih banyak pilihan bridge yang aman
 
 ## Sumber
 
-1. [CoinDesk - Kraken to replace LayerZero with Chainlink to bridge assets across blockchains](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains)
-2. [The Block - Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero](https://www.theblock.co/post/401280)
+1. [[CoinDesk](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains) - Kraken to replace LayerZero with Chainlink to bridge assets across blockchains](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains)
+2. [[The Block](https://www.theblock.co/post/401280) - Chainlink CCIP gains over $2.5 billion in TVL from protocols migrating from LayerZero](https://www.theblock.co/post/401280)

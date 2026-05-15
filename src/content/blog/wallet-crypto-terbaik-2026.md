@@ -13,7 +13,7 @@ tags: ["wallet", "crypto", "MetaMask", "Trust Wallet", "Ledger", "keamanan", "pe
 
 ## Kenapa Butuh Wallet Crypto?
 
-Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang pegang. Wallet crypto memberikan kamu **full control** atas aset [1]. Prinsipnya: *"Not your keys, not your coins."*
+Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang pegang. Wallet crypto memberikan kamu **full control** atas aset. Prinsipnya: *"Not your keys, not your coins."*
 
 ## Jenis Wallet Crypto
 
@@ -56,7 +56,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang peg
 - **Cocok untuk**: Ekosistem Solana, NFT Solana
 - **Gratis**: ✅
 
-### 4. Ledger, Hardware Wallet Terbaik [2]
+### 4. Ledger, Hardware Wallet Terbaik
 
 - **Platform**: Hardware device + App
 - **Chain**: 5.500+ crypto
@@ -65,7 +65,7 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang peg
 - **Cocok untuk**: Simpan besar, HODL jangka panjang
 - **Harga**: $79 (Nano S Plus) / $149 (Nano X)
 
-### 5. Trezor, Hardware Wallet Open Source [3]
+### 5. Trezor, Hardware Wallet Open Source
 
 - **Platform**: Hardware device
 - **Chain**: 1.000+ crypto
@@ -118,9 +118,9 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang peg
 
 <div class="sources-box">
 <strong>Sumber:</strong>
-<a href="https://metamask.io" target="_blank" rel="noopener">[1] MetaMask</a> · 
-<a href="https://trustwallet.com" target="_blank" rel="noopener">[2] Trust Wallet</a> · 
-<a href="https://www.ledger.com" target="_blank" rel="noopener">[3] Ledger</a>
+<a href="https://metamask.io" target="_blank" rel="noopener"> MetaMask</a> · 
+<a href="https://trustwallet.com" target="_blank" rel="noopener"> Trust Wallet</a> · 
+<a href="https://www.ledger.com" target="_blank" rel="noopener"> Ledger</a>
 </div>
 
 <div class="disclaimer-box">

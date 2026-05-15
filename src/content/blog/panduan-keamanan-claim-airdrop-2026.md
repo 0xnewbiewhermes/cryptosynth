@@ -17,7 +17,7 @@ author: "CryptoSynth Research"
 
 ## Mengapa Keamanan Airdrop Penting?
 
-Airdrop crypto adalah cara yang bagus untuk mendapatkan token gratis. Namun, popularitas airdrop juga menarik para scammer yang ingin mencuri dana pengguna. Setiap hari, ada ribuan upaya phishing dan scam yang menargetkan airdrop hunter. [1]
+Airdrop crypto adalah cara yang bagus untuk mendapatkan token gratis. Namun, popularitas airdrop juga menarik para scammer yang ingin mencuri dana pengguna. Setiap hari, ada ribuan upaya phishing dan scam yang menargetkan airdrop hunter.
 
 Beberapa jenis scam yang umum:
 - **Phishing website**: Website palsu yang meniru website resmi
@@ -112,12 +112,12 @@ Jika Anda sudah terkena scam, segera lakukan:
 
 ## Kesimpulan
 
-Airdrop crypto adalah peluang yang bagus, tapi keamanan harus selalu menjadi prioritas. Dengan mengikuti panduan ini, Anda bisa claim airdrop dengan aman dan menghindari scam. Ingat, lebih baik kehilangan satu airdrop daripada kehilangan seluruh wallet Anda. [1]
+Airdrop crypto adalah peluang yang bagus, tapi keamanan harus selalu menjadi prioritas. Dengan mengikuti panduan ini, Anda bisa claim airdrop dengan aman dan menghindari scam. Ingat, lebih baik kehilangan satu airdrop daripada kehilangan seluruh wallet Anda.
 
-Selalu lakukan riset sendiri dan jangan terburu-buru dalam mengambil keputusan. Keamanan adalah tanggung jawab Anda sendiri. [1]
+Selalu lakukan riset sendiri dan jangan terburu-buru dalam mengambil keputusan. Keamanan adalah tanggung jawab Anda sendiri.
 
 ---
 
 
 **Sumber:**
-- [1] CoinDesk - Various security guides and reports
+- CoinDesk - Various security guides and reports

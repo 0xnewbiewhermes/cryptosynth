@@ -8,7 +8,7 @@ tags: ["fasset", "neobank", "stablecoin", "funding crypto", "perbankan digital",
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Fasset, neobank berbasis stablecoin yang mematuhi prinsip syariah, berhasil mengumpulkan $51 juta dalam putaran pendanaan terbaru. Dana ini akan digunakan untuk memperluas layanan perbankan digital ke pasar berkembang di Asia Tenggara dan Afrika, menargetkan populasi yang kurang terlayani oleh bank tradisional. [1]
+> **TL;DR:** Fasset, neobank berbasis stablecoin yang mematuhi prinsip syariah, berhasil mengumpulkan $51 juta dalam putaran pendanaan terbaru. Dana ini akan digunakan untuk memperluas layanan perbankan digital ke pasar berkembang di Asia Tenggara dan Afrika, menargetkan populasi yang kurang terlayani oleh bank tradisional.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
@@ -58,4 +58,4 @@ Tren ini menunjukkan bahwa stablecoin bukan hanya alat trading, tapi juga fondas
 
 ## Sumber
 
-1. [CoinDesk - Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets](https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets)
+1. [[CoinDesk](https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets) - Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets](https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets)

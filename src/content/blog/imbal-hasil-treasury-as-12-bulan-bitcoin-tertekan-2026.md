@@ -62,9 +62,9 @@ Yang menarik, kenaikan probabilitas kenaikan Fed rate ke 44% ini sebenarnya memb
 
 ## Sumber
 
-1. [CoinDesk - The two- and ten-year Treasury yields hit a 12-month high. Bitcoin is still stuck below its 200-day average](https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average) (15 Mei 2026)
+1. [[CoinDesk](https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average) - The two- and ten-year Treasury yields hit a 12-month high. Bitcoin is still stuck below its 200-day average](https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average) (15 Mei 2026)
 2. [CoinDesk - XRP, DOGE surge 5%, bitcoin above $81,000 as CLARITY Act clears Senate banking panel](https://www.coindesk.com/markets/2026/05/15/xrp-doge-surge-5-bitcoin-above-usd81-000-as-clarity-act-clears-senate-banking-panel) (15 Mei 2026)
-3. [The Block - CME sets June 8 for Nasdaq-backed crypto index futures](https://www.theblock.co/post/401274/cme-sets-june-8-for-nasdaq-backed-crypto-index-futures-covering-seven-assets-in-first-weighted-contract) (14 Mei 2026)
+3. [[The Block](https://www.theblock.co/post/401274/cme-sets-june-8-for-nasdaq-backed-crypto-index-futures-covering-seven-assets-in-first-weighted-contract) - CME sets June 8 for Nasdaq-backed crypto index futures](https://www.theblock.co/post/401274/cme-sets-june-8-for-nasdaq-backed-crypto-index-futures-covering-seven-assets-in-first-weighted-contract) (14 Mei 2026)
 
 <div class="ai-disclosure-box">
 Artikel ini dibuat dengan bantuan AI, dikurasi dan diverifikasi oleh tim redaksi CryptoSynth.id. Data dan fakta telah diverifikasi dari sumber-sumber kredibel yang tercantum di atas.

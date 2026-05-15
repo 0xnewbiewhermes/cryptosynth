@@ -8,7 +8,7 @@ tags: ["clarity act", "stablecoin", "hashkey", "asia", "regulasi crypto", "USD s
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** HashKey Research memprediksi CLARITY Act akan membuka jalan adopsi institusional crypto dan memperkuat posisi USD stablecoin secara global. Namun, jika AS membatasi stablecoin berbunga, modal bisa mengalir ke pasar Asia yang menawarkan yield lebih tinggi melalui produk "wrapped" dan protokol DeFi. [1]
+> **TL;DR:** HashKey Research memprediksi CLARITY Act akan membuka jalan adopsi institusional crypto dan memperkuat posisi USD stablecoin secara global. Namun, jika AS membatasi stablecoin berbunga, modal bisa mengalir ke pasar Asia yang menawarkan yield lebih tinggi melalui produk "wrapped" dan protokol DeFi.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi di pasar crypto. Perdagangan aset digital memiliki risiko tinggi.
@@ -18,7 +18,7 @@ author: "CryptoSynth Research"
 
 Setelah Senate Banking Committee AS meloloskan CLARITY Act dengan voting 15-9 pada Kamis (14/5), diskusi bergeser dari "kapan regulasi ini disahkan" ke "siapa yang paling diuntungkan". Menurut riset terbaru HashKey Group, jawabannya tidak sesederhana yang dibayangkan.
 
-Tim Sun, senior researcher di HashKey Group, menjelaskan dalam wawancara dengan [CoinDesk](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research) bahwa dampak CLARITY Act melampaui pasar AS. "Setelah RUU ini disahkan, jalur kepatuhan akan terbuka penuh. Bank tradisional, lembaga manajemen aset, dan dana kekayaan negara akan punya dasar hukum yang lebih kuat untuk memasukkan aset crypto ke dalam kerangka investasi mereka," ujar Sun.
+Tim Sun, senior researcher di HashKey Group, menjelaskan dalam wawancara dengan [[[CoinDesk](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research)](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research)](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research) bahwa dampak CLARITY Act melampaui pasar AS. "Setelah RUU ini disahkan, jalur kepatuhan akan terbuka penuh. Bank tradisional, lembaga manajemen aset, dan dana kekayaan negara akan punya dasar hukum yang lebih kuat untuk memasukkan aset crypto ke dalam kerangka investasi mereka," ujar Sun.
 
 Implikasinya bagi Asia sangat besar. Banyak pasar di kawasan ini memiliki dua karakteristik umum: perdagangan lintas batas yang aktif dan mata uang lokal yang rentan terhadap tekanan eksternal. Dalam lingkungan di mana biaya pembiayaan global USD tetap tinggi, stablecoin denominasi dolar menjadi alat likuiditas yang lebih fleksibel bagi perusahaan dan investor di kawasan Asia Tenggara, termasuk Indonesia.
 
@@ -47,7 +47,7 @@ Persaingan ini bukan soal daftar token lagi, melainkan siapa yang mengendalikan 
 | XRP | $1.47 | +2.60% |
 | SOL | $91.47 | +0.69% |
 
-*Sumber: [CoinDesk](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research), 15 Mei 2026*
+*Sumber: [[[CoinDesk](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research)](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research)](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research), 15 Mei 2026*
 
 ## Mengapa Ini Penting untuk Trader dan Investor Indonesia
 
@@ -63,9 +63,9 @@ Satu hal yang jarang dibahas adalah efek second-order terhadap Rupiah. Jika USD 
 
 ## Sumber
 
-1. [CoinDesk - "CLARITY will strengthen dollar stablecoins, but Asia wins on yield: HashKey Research"](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research)
-2. [Cointelegraph - "US Senate Banking Committee votes to advance CLARITY Act"](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act)
-3. [The Block - "'Decisive turning point': Crypto industry cheers Clarity Act's progress"](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote)
+1. [[CoinDesk](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research) - "CLARITY will strengthen dollar stablecoins, but Asia wins on yield: HashKey Research"](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research)
+2. [[Cointelegraph](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act) - "US Senate Banking Committee votes to advance CLARITY Act"](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act)
+3. [[The Block](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote) - "'Decisive turning point': Crypto industry cheers Clarity Act's progress"](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote)
 
 ---
 

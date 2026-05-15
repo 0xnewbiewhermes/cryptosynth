@@ -13,21 +13,21 @@ tags: ["jpmorgan", "tokenization", "ethereum", "RWA", "stablecoin", "GENIUS Act"
 
 ## JPMorgan Ajukan Dana Tokenized Baru di Ethereum
 
-JPMorgan (JPM), salah satu bank terbesar di dunia, sedang bersiap meluncurkan dana money market tokenized. Pengajuan ke Securities and Exchange Commission (SEC) AS pada Selasa (12/5) merinci rencana dana berbasis blockchain yang berinvestasi secara eksklusif di Treasury AS jangka pendek, kas, dan perjanjian repo semalam yang didukung oleh sekuritas pemerintah [1].
+JPMorgan (JPM), salah satu bank terbesar di dunia, sedang bersiap meluncurkan dana money market tokenized. Pengajuan ke Securities and Exchange Commission (SEC) AS pada Selasa (12/5) merinci rencana dana berbasis blockchain yang berinvestasi secara eksklusif di Treasury AS jangka pendek, kas, dan perjanjian repo semalam yang didukung oleh sekuritas pemerintah.
 
-Dana yang diberi nama **JPMorgan OnChain Liquidity-Token Money Market Fund (JLTXX)** ini akan mempertahankan saldo token berbasis blockchain yang terkait dengan catatan kepemilikan investor. Pengguna yang disetujui dapat mengajukan permintaan pembelian, penebusan, dan transfer melalui Ethereum [1].
+Dana yang diberi nama **JPMorgan OnChain Liquidity-Token Money Market Fund (JLTXX)** ini akan mempertahankan saldo token berbasis blockchain yang terkait dengan catatan kepemilikan investor. Pengguna yang disetujui dapat mengajukan permintaan pembelian, penebusan, dan transfer melalui Ethereum.
 
-Infrastruktur blockchain yang mendasarinya akan dioperasikan oleh **Kinexys Digital Assets**, unit blockchain JPMorgan yang sebelumnya dikenal dengan nama Onyx [1].
+Infrastruktur blockchain yang mendasarinya akan dioperasikan oleh **Kinexys Digital Assets**, unit blockchain JPMorgan yang sebelumnya dikenal dengan nama Onyx.
 
 ## Dirancang untuk GENIUS Act
 
-Yang membuat dana ini istimewa adalah strukturnya yang dirancang untuk memenuhi persyaratan aset cadangan di bawah **GENIUS Act**, undang-undang yang bertujuan mengatur penerbit stablecoin di AS [1].
+Yang membuat dana ini istimewa adalah strukturnya yang dirancang untuk memenuhi persyaratan aset cadangan di bawah **GENIUS Act**, undang-undang yang bertujuan mengatur penerbit stablecoin di AS.
 
 Ini berposisi sebagai kendaraan cadangan yang menghasilkan yield bagi perusahaan stablecoin yang mencari eksposur Treasury yang patuh regulasi. Dengan kata lain, JPMorgan sedang membangun infrastruktur keuangan yang bisa menjadi tulang punggung ekosistem stablecoin di masa depan.
 
 ## Balapan Tokenisasi Wall Street Meningkat
 
-Langkah JPMorgan ini terjadi hanya beberapa hari setelah **BlackRock (BLK)**, manajer aset terbesar di dunia, mengajukan dokumen untuk kendela cadangan Treasury tokenized baru dan saham berbasis blockchain dari dana money market senilai $7 miliar yang sudah ada [1].
+Langkah JPMorgan ini terjadi hanya beberapa hari setelah **BlackRock (BLK)**, manajer aset terbesar di dunia, mengajukan dokumen untuk kendela cadangan Treasury tokenized baru dan saham berbasis blockchain dari dana money market senilai $7 miliar yang sudah ada.
 
 Persaingan antara dua raksasa keuangan ini menunjukkan bahwa tokenisasi bukan lagi eksperimen, ini sudah menjadi lini bisnis strategis.
 
@@ -42,11 +42,11 @@ Data dari rwa.xyz menunjukkan pertumbuhan luar biasa di sektor ini:
 | Segmen tercepat | Treasury products |
 | Pemain utama | JPMorgan, BlackRock, Franklin Templeton |
 
-Produk Treasury telah muncul sebagai salah satu segmen dengan pertumbuhan tercepat karena institusi mencari cara untuk mendapatkan yield dari kas onchain [1].
+Produk Treasury telah muncul sebagai salah satu segmen dengan pertumbuhan tercepat karena institusi mencari cara untuk mendapatkan yield dari kas onchain.
 
 ## JPMorgan Sudah Ada di Garis Depan
 
-JPMorgan bukan pemain baru di ruang ini. Pada Desember 2025, bank ini sudah meluncurkan dana money market tokenized bernama **MONY** di Ethereum, memberikan investor institusional akses berbasis blockchain ke produk kas jangka pendek [1].
+JPMorgan bukan pemain baru di ruang ini. Pada Desember 2025, bank ini sudah meluncurkan dana money market tokenized bernama **MONY** di Ethereum, memberikan investor institusional akses berbasis blockchain ke produk kas jangka pendek.
 
 Melalui Kinexys, JPMorgan juga telah memproses transaksi kolateral dan penyelesaian tokenized untuk klien institusional. Pengajuan JLTXX ini adalah perluasan natural dari strategi yang sudah berjalan.
 
@@ -71,15 +71,15 @@ Perkembangan ini memiliki beberapa implikasi penting:
 | SOL | $94,95 | +1,09% |
 | XRP | $1,46 | +0,20% |
 
-Sumber: CoinDesk [2]
+Sumber: CoinDesk
 
 ---
 
 <div class="sources-box">
 <strong>Sumber:</strong>
-<a href="https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up" target="_blank" rel="noopener">[1] CoinDesk, JPMorgan files to launch new tokenized fund</a> · 
-<a href="https://www.coindesk.com" target="_blank" rel="noopener">[2] CoinDesk, Data harga real-time</a> · 
-<a href="https://rwa.xyz" target="_blank" rel="noopener">[3] rwa.xyz, Data pasar RWA tokenized</a>
+<a href="https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund-as-wall-street-tokenization-race-heats-up" target="_blank" rel="noopener"> CoinDesk, JPMorgan files to launch new tokenized fund</a> · 
+<a href="https://www.coindesk.com" target="_blank" rel="noopener"> CoinDesk, Data harga real-time</a> · 
+<a href="https://rwa.xyz" target="_blank" rel="noopener"> rwa.xyz, Data pasar RWA tokenized</a>
 </div>
 
 

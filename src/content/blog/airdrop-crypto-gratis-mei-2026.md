@@ -13,7 +13,7 @@ tags: ["airdrop", "crypto gratis", "airdrop 2026", "blockchain", "token gratis",
 
 ## Apa Itu Airdrop Crypto?
 
-Airdrop crypto adalah distribusi token gratis dari project blockchain kepada pengguna [3]. Biasanya, project baru memberikan token gratis untuk menarik perhatian dan membangun komunitas. Ini adalah salah satu cara terbaik untuk mendapatkan crypto tanpa modal.
+Airdrop crypto adalah distribusi token gratis dari project blockchain kepada pengguna. Biasanya, project baru memberikan token gratis untuk menarik perhatian dan membangun komunitas. Ini adalah salah satu cara terbaik untuk mendapatkan crypto tanpa modal.
 
 ## 5 Airdrop Crypto Gratis Terbaru Mei 2026
 
@@ -69,7 +69,7 @@ Airdrop crypto adalah distribusi token gratis dari project blockchain kepada pen
 
 ## Kenapa Airdrop Populer di Indonesia?
 
-Indonesia adalah salah satu pasar crypto terbesar di Asia Tenggara. Menurut data Bappebti [2], jumlah investor crypto Indonesia mencapai 20+ juta orang. Airdrop menjadi cara favorit karena:
+Indonesia adalah salah satu pasar crypto terbesar di Asia Tenggara. Menurut data Bappebti, jumlah investor crypto Indonesia mencapai 20+ juta orang. Airdrop menjadi cara favorit karena:
 
 - **Tanpa modal**, cukup interaksi dengan platform
 - **Reward besar**, beberapa airdrop bernilai ribuan dollar
@@ -79,9 +79,9 @@ Indonesia adalah salah satu pasar crypto terbesar di Asia Tenggara. Menurut data
 
 <div class="sources-box">
 <strong>Sumber:</strong>
-<a href="https://www.coindesk.com" target="_blank" rel="noopener">[1] CoinDesk</a> · 
-<a href="https://www.theblock.co" target="_blank" rel="noopener">[2] The Block</a> · 
-<a href="https://airdrops.io" target="_blank" rel="noopener">[3] Airdrops.io</a>
+<a href="https://www.coindesk.com" target="_blank" rel="noopener"> CoinDesk</a> · 
+<a href="https://www.theblock.co" target="_blank" rel="noopener"> The Block</a> · 
+<a href="https://airdrops.io" target="_blank" rel="noopener"> Airdrops.io</a>
 </div>
 
 

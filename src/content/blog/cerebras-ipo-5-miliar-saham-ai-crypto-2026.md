@@ -8,7 +8,7 @@ tags: ["cerebras", "ipo", "saham ai", "token ai", "funding", "pasar crypto", "nv
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Cerebras, perusahaan infrastruktur AI, melihat sahamnya melonjak 100% setelah IPO senilai $5,5 miliar. Euforia saham AI ini juga berdampak pada pasar crypto, terutama token-token terkait AI di blockchain. Investor mulai melihat korelasi antara boom AI dan potensi crypto AI. [1]
+> **TL;DR:** Cerebras, perusahaan infrastruktur AI, melihat sahamnya melonjak 100% setelah IPO senilai $5,5 miliar. Euforia saham AI ini juga berdampak pada pasar crypto, terutama token-token terkait AI di blockchain. Investor mulai melihat korelasi antara boom AI dan potensi crypto AI.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
@@ -63,4 +63,4 @@ Namun, investor juga perlu waspada terhadap hype yang berlebihan. Tidak semua pr
 
 ## Sumber
 
-1. [CoinDesk - Cerebras shares skyrocket 100% after $5.5 billion IPO amid AI stock frenzy](https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy)
+1. [[CoinDesk](https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy) - Cerebras shares skyrocket 100% after $5.5 billion IPO amid AI stock frenzy](https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy)

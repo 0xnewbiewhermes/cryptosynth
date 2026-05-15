@@ -85,8 +85,8 @@ Beberapa poin penting untuk dicermati:
 
 ## Sumber
 
-1. [CoinDesk, "Ethereum app builder Consensys has delayed its potential IPO until fall"](https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall)
-2. [Ventureburn, "Consensys Plans Historic IPO with JPMorgan and Goldman Sachs"](https://ventureburn.com/consensys-ipo-jpmorgan-goldman/)
+1. [[CoinDesk, "Ethereum app builder Consensys has delayed its potential IPO until fall"](https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall)](https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall)
+2. [[Ventureburn, "Consensys Plans Historic IPO with JPMorgan and Goldman Sachs"](https://ventureburn.com/consensys-ipo-jpmorgan-goldman/)](https://ventureburn.com/consensys-ipo-jpmorgan-goldman/)
 
 ---
 

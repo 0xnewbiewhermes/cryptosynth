@@ -8,7 +8,7 @@ tags: ["turnkey", "funding crypto", "circle ventures", "sequoia capital", "infra
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Turnkey, startup infrastruktur keamanan digital assets, berhasil mengumpulkan $12,5 juta dalam putaran pendanaan baru yang didukung oleh Circle Ventures dan Sequoia Capital. Dana ini akan digunakan untuk meluncurkan produk "Verifiable Cloud" yang memungkinkan komputasi aman untuk aset digital. [1]
+> **TL;DR:** Turnkey, startup infrastruktur keamanan digital assets, berhasil mengumpulkan $12,5 juta dalam putaran pendanaan baru yang didukung oleh Circle Ventures dan Sequoia Capital. Dana ini akan digunakan untuk meluncurkan produk "Verifiable Cloud" yang memungkinkan komputasi aman untuk aset digital.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.

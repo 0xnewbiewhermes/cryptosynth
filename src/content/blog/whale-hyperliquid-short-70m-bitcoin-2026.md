@@ -11,13 +11,13 @@ tags: ["bitcoin", "hyperliquid", "whale", "short", "trading", "inflasi", "fed"]
 
 ## Bitcoin Turun di Bawah $80.000, Whale Hyperliquid Flip Bearish
 
-Bitcoin (BTC) gagal mempertahankan momentum bullish pada Rabu (13/5), turun di bawah level psikologis $80.000. Tekanan datang dari melonjaknya harga minyak dan data inflasi produsen AS (PPI) yang jauh di atas ekspektasi, naik 1,4% secara bulanan, hampir tiga kali lipat prediksi analis [1].
+Bitcoin (BTC) gagal mempertahankan momentum bullish pada Rabu (13/5), turun di bawah level psikologis $80.000. Tekanan datang dari melonjaknya harga minyak dan data inflasi produsen AS (PPI) yang jauh di atas ekspektasi, naik 1,4% secara bulanan, hampir tiga kali lipat prediksi analis.
 
 Di tengah kepanikan pasar, sebuah whale di ekosistem Hyperliquid membuka posisi short senilai **$70 juta** di berbagai aset crypto dan token sintetik yang terkait dengan saham teknologi besar. Langkah ini memicu kekhawatiran di kalangan trader: apakah rally terakhir Bitcoin sudah kehabisan tenaga?
 
 ## Siapa Whale di Balik Short $70 Juta?
 
-Posisi short ini dilacak ke alamat **0x8def…992dae** di Hyperliquid. Menurut data dari platform Hyperdash, alamat tersebut milik **Loracle**, kontributor awal ekosistem Hyperliquid yang mulai trading secara agresif sejak September 2025 [1].
+Posisi short ini dilacak ke alamat **0x8def…992dae** di Hyperliquid. Menurut data dari platform Hyperdash, alamat tersebut milik **Loracle**, kontributor awal ekosistem Hyperliquid yang mulai trading secara agresif sejak September 2025.
 
 Rincian posisi short yang dibuka dalam seminggu terakhir:
 
@@ -27,27 +27,27 @@ Rincian posisi short yang dibuka dalam seminggu terakhir:
 | Bitcoin (BTC) | $12,5 juta | Short BTC langsung |
 | Token sintetik SNDK & Nasdaq-100 | $8 juta | Terkait saham tech |
 
-Yang menarik, whale ini juga memegang posisi **long senilai $1,7 juta** di stablecoin yang didukung emas, menunjukkan strategi lindung nilai, bukan taruhan murni bearish [1].
+Yang menarik, whale ini juga memegang posisi **long senilai $1,7 juta** di stablecoin yang didukung emas, menunjukkan strategi lindung nilai, bukan taruhan murni bearish.
 
 ## Rekam Jejak: Profit $42 Juta dari Trading Bullish
 
-Sebelum flip ke posisi bearish, whale ini punya catatan profit yang mengesankan. Pada Senin (12/5), posisi long di Bitcoin, Zcash (ZEC), dan Toncoin (TON) ditutup dengan **profit $9,2 juta** hanya dalam dua minggu [1].
+Sebelum flip ke posisi bearish, whale ini punya catatan profit yang mengesankan. Pada Senin (12/5), posisi long di Bitcoin, Zcash (ZEC), dan Toncoin (TON) ditutup dengan **profit $9,2 juta** hanya dalam dua minggu.
 
-Sebelumnya, trading bullish di token sintetik terkait harga minyak menghasilkan **$3 juta** profit setelah ditahan selama sembilan hari. Total profit historis akun ini mencapai **$42 juta** [1].
+Sebelumnya, trading bullish di token sintetik terkait harga minyak menghasilkan **$3 juta** profit setelah ditahan selama sembilan hari. Total profit historis akun ini mencapai **$42 juta**.
 
-Data dari app.trade.xyz menunjukkan bahwa whale ini menggunakan **strategi trading algoritmik**, posisi biasanya ditahan kurang dari satu minggu. Ini menunjukkan bahwa short $70 juta kemungkinan besar adalah reaksi terhadap sinyal teknikal jangka pendek, bukan keyakinan fundamental bahwa pasar akan runtuh [1][3].
+Data dari app.trade.xyz menunjukkan bahwa whale ini menggunakan **strategi trading algoritmik**, posisi biasanya ditahan kurang dari satu minggu. Ini menunjukkan bahwa short $70 juta kemungkinan besar adalah reaksi terhadap sinyal teknikal jangka pendek, bukan keyakinan fundamental bahwa pasar akan runtuh.
 
 ## Konteks Makro: Inflasi PPI, Minyak, dan The Fed
 
 Short besar ini terjadi di tengah tekanan makro yang signifikan:
 
-- **Inflasi PPI April 2026** naik 6% year-over-year, jauh di atas ekspektasi [2]
-- **CPI** naik 3,8% YoY, pembacaan inflasi terpanas dalam hampir tiga tahun [2]
-- **Harga minyak mentah Brent** di atas $100 per barel akibat konflik di Timur Tengah [1]
-- **The Fed** mulai memperluas neraca dengan membeli obligasi dan sekuritas beragun hipotek [1]
-- **Kevin Warsh** dikonfirmasi sebagai Ketua Fed baru melalui voting Senat 54-45 [2]
+- **Inflasi PPI April 2026** naik 6% year-over-year, jauh di atas ekspektasi
+- **CPI** naik 3,8% YoY, pembacaan inflasi terpanas dalam hampir tiga tahun
+- **Harga minyak mentah Brent** di atas $100 per barel akibat konflik di Timur Tengah
+- **The Fed** mulai memperluas neraca dengan membeli obligasi dan sekuritas beragun hipotek
+- **Kevin Warsh** dikonfirmasi sebagai Ketua Fed baru melalui voting Senat 54-45
 
-Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebih banyak likuiditas di pasar, yang secara historis positif untuk Bitcoin dalam jangka menengah. Ketika imbal hasil Treasury AS naik dan kepercayaan terhadap kebijakan moneter menurun, investor cenderung mencari aset langka seperti Bitcoin [1].
+Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebih banyak likuiditas di pasar, yang secara historis positif untuk Bitcoin dalam jangka menengah. Ketika imbal hasil Treasury AS naik dan kepercayaan terhadap kebijakan moneter menurun, investor cenderung mencari aset langka seperti Bitcoin.
 
 ## Apa Artinya untuk Trader Indonesia?
 
@@ -57,9 +57,9 @@ Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebi
 
 2. **Whale yang sama tetap bullish jangka panjang.** Profit $42 juta sebagian besar datang dari taruhan bullish. Flip ke short kemungkinan reaksi terhadap level resistance teknikal.
 
-3. **Arthur Hayes sedang "buying the dips."** Pendiri BitMEX percaya Bitcoin sudah bottom di sekitar $60.000 awal tahun ini dan siap melampaui rekor tertinggi [2].
+3. **Arthur Hayes sedang "buying the dips."** Pendiri BitMEX percaya Bitcoin sudah bottom di sekitar $60.000 awal tahun ini dan siap melampaui rekor tertinggi.
 
-4. **Level kunci BTC:** Support di $78.000 dan $75.000. Resistance di $82.000, jika ditembus, bisa membuka jalan ke $85.000-$90.000 [2].
+4. **Level kunci BTC:** Support di $78.000 dan $75.000. Resistance di $82.000, jika ditembus, bisa membuka jalan ke $85.000-$90.000.
 
 5. **Harga saat ini:**
 
@@ -73,8 +73,8 @@ Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebi
 
 Kombinasi whale short dan data inflasi panas memang terlihat menakutkan. Tapi konteksnya penting:
 
-- **The Fed memperluas neraca**, ini pada akhirnya bullish untuk aset langka seperti Bitcoin [1]
-- **Bitcoin 26% undervalued dibanding emas** menurut analisis CoinDesk Indices [4]
+- **The Fed memperluas neraca**, ini pada akhirnya bullish untuk aset langka seperti Bitcoin
+- **Bitcoin 26% undervalued dibanding emas** menurut analisis CoinDesk Indices
 - **Whale short algoritmik** seringkali menjadi kontrarian indicator, ketika whale besar short, pasar justru bisa memantul
 
 Untuk trader Indonesia, ini saat yang tepat untuk:
@@ -84,12 +84,7 @@ Untuk trader Indonesia, ini saat yang tepat untuk:
 
 ---
 
-**Sumber:**
-
-[1] Cointelegraph, "Whale shorts $70M in crypto and tech: Should Bitcoin traders worry?" (13 Mei 2026)
-[2] CoinDesk, "Live markets: Bitcoin dips below $80,000 as producer price inflation surges to 6%" (13 Mei 2026)
-[3] CryptoBreaking, "Whale Shorts $70M Across Crypto and Tech, Bitcoin Traders to Watch" (14 Mei 2026)
-[4] CoinDesk, "Crypto Long & Short: Bitcoin vs. gold: 26% relative undervaluation" (13 Mei 2026)
+**Sumber:** Cointelegraph, "Whale shorts $70M in crypto and tech: Should Bitcoin traders worry?" (13 Mei 2026) CoinDesk, "Live markets: Bitcoin dips below $80,000 as producer price inflation surges to 6%" (13 Mei 2026) CryptoBreaking, "Whale Shorts $70M Across Crypto and Tech, Bitcoin Traders to Watch" (14 Mei 2026) CoinDesk, "Crypto Long & Short: Bitcoin vs. gold: 26% relative undervaluation" (13 Mei 2026)
 
 ---
 

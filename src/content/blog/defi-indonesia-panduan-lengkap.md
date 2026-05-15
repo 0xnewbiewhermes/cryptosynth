@@ -19,7 +19,7 @@ Bayangkan: pinjam uang, tabung dengan bunga tinggi, atau tukar mata uang, semuan
 
 ## Kenapa DeFi Penting untuk Orang Indonesia?
 
-- **Bunga lebih tinggi**, staking bisa 5-20% APY, jauh di atas deposito bank (3-5%) [1]
+- **Bunga lebih tinggi**, staking bisa 5-20% APY, jauh di atas deposito bank (3-5%)
 - **Akses global**, siapapun bisa ikut, cukup punya wallet
 - **Transparan**, semua transaksi tercatat di blockchain
 - **Tanpa minimum**, mulai dari $10 pun bisa
@@ -31,9 +31,9 @@ Bayangkan: pinjam uang, tabung dengan bunga tinggi, atau tukar mata uang, semuan
 Staking adalah mengunci token di blockchain untuk mendukung operasi jaringan. Imbalannya berupa token baru.
 
 **Platform populer:**
-- **Lido** (ETH staking), ~4% APY [2]
-- **Marinade Finance** (SOL staking), ~7% APY [1]
-- **Stride** (Cosmos staking), ~15% APY [1]
+- **Lido** (ETH staking), ~4% APY
+- **Marinade Finance** (SOL staking), ~7% APY
+- **Stride** (Cosmos staking), ~15% APY
 
 **Cara mulai:**
 1. Punya crypto (ETH, SOL, ATOM)
@@ -105,9 +105,9 @@ Lending adalah meminjamkan crypto ke orang lain dan mendapat bunga.
 
 <div class="sources-box">
 <strong>Sumber:</strong>
-<a href="https://defillama.com" target="_blank" rel="noopener">[1] DefiLlama</a> · 
-<a href="https://lido.fi" target="_blank" rel="noopener">[2] Lido</a> · 
-<a href="https://aave.com" target="_blank" rel="noopener">[3] Aave</a>
+<a href="https://defillama.com" target="_blank" rel="noopener"> DefiLlama</a> · 
+<a href="https://lido.fi" target="_blank" rel="noopener"> Lido</a> · 
+<a href="https://aave.com" target="_blank" rel="noopener"> Aave</a>
 </div>
 
 

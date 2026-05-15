@@ -2,7 +2,7 @@
 title: "Token AI Anthropic & OpenAI Anjlok 40% di Solana, SPV Dinyatakan Tidak Sah"
 description: "Token PreStocks Anthropic dan OpenAI di Solana anjlok hingga 40% setelah kedua perusahaan menyatakan transfer saham via SPV tanpa persetujuan dewan tidak berlaku."
 excerpt: "Anthropic dan OpenAI memperingatkan bahwa tokenized saham mereka di Solana menggunakan SPV ilegal dan mungkin tidak bernilai."
-pubDate: 2026-05-13T18:00:00+07:00
+pubDate: 2026-05-13T23:32:26+07:00
 category: "Berita"
 tags: ["anthropic", "openai", "solana", "tokenized-stock", "SPV", "prestocks", "AI"]
 ---

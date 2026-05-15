@@ -2,7 +2,7 @@
 title: "DeFi Indonesia 2026: Apa Itu dan Cara Mulai Menghasilkan"
 description: "Panduan DeFi Indonesia 2026. Pelajari cara yield farming, staking, dan lending di decentralized finance untuk passive income crypto."
 excerpt: "Panduan lengkap DeFi untuk pemula Indonesia. Cara menghasilkan passive income dari decentralized finance."
-pubDate: 2026-05-12T14:00:00+07:00
+pubDate: 2026-05-12T19:45:46+07:00
 category: "DeFi"
 tags: ["DeFi", "yield farming", "staking", "passive income", "blockchain", "Ethereum"]
 ---

@@ -2,7 +2,7 @@
 title: "Cara Main Crypto untuk Pemula 2026: Panduan Lengkap dari Nol"
 description: "Panduan lengkap cara main crypto untuk pemula 2026. Dari daftar exchange, beli Bitcoin pertama, sampai strategi trading dasar. Cocok untuk yang baru mulai."
 excerpt: "Tutorial lengkap cara main crypto untuk pemula. Dari nol sampai bisa trading sendiri."
-pubDate: 2026-05-12T12:00:00+07:00
+pubDate: 2026-05-12T19:45:46+07:00
 category: "Tutorial"
 tags: ["tutorial", "pemula", "crypto", "bitcoin", "trading", "exchange Indonesia"]
 ---

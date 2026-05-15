@@ -2,7 +2,7 @@
 title: "JPMorgan Tambah Exposure Bitcoin ETF 174%, IBIT Jadi Favorit Q1 2026"
 description: "JPMorgan Chase tingkatkan kepemilikan Bitcoin ETF BlackRock IBIT sebesar 174% di Q1 2026 meski harga BTC turun 22%. Analisis 13F filing terbaru."
 excerpt: "Bank raksasa JPMorgan Chase menambah kepemilikan Bitcoin ETF BlackRock IBIT sebesar 174% di kuartal pertama 2026, menunjukkan kepercayaan institusional meski pasar sedang koreksi."
-pubDate: 2026-05-14T18:30:00+07:00
+pubDate: 2026-05-14T23:33:43+07:00
 category: "Berita"
 tags: ["jpmorgan", "bitcoin etf", "ibit", "blackrock", "13f filing", "institusional", "crypto"]
 ---

@@ -2,7 +2,7 @@
 title: "Imbal Hasil Treasury AS Tertinggi 12 Bulan, Bitcoin Tertekan"
 description: "Imbal hasil Treasury 2 dan 10 tahun AS sentuh level tertinggi 12 bulan. Probabilitas kenaikan Fed rate melonjak 44%, Bitcoin masih di bawah rata-rata 200 hari."
 excerpt: "Imbal hasil Treasury AS melonjak ke level tertinggi setahun terakhir setelah data inflasi panas, tekan Bitcoin di bawah rata-rata 200 hari dan dorong tokenized Treasury ke rekor $15 miliar."
-pubDate: 2026-05-15T12:17:00+07:00
+pubDate: 2026-05-15T12:03:46+07:00
 category: "Berita"
 tags: ["treasury", "imbal-hasil", "bitcoin", "fed", "inflasi", "harga-bitcoin-hari-ini", "tokenized-treasury"]
 author: "CryptoSynth Research"

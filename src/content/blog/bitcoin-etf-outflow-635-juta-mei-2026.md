@@ -2,7 +2,7 @@
 title: "Bitcoin ETF Bocor $635 Juta Sehari, Terbesar Sejak Januari"
 description: "Investor tarik $635 juta dari spot Bitcoin ETF AS dalam satu hari, outflow terbesar sejak Januari. Total $1,26 miliar keluar dalam 5 hari terakhir."
 excerpt: "Spot Bitcoin ETF AS catatkan outflow $635 juta dalam satu hari, terbesar sejak 29 Januari, saat BTC gagal tembus resistance 200-hari di $82.000."
-pubDate: 2026-05-14T15:00:00+07:00
+pubDate: 2026-05-14T20:34:12+07:00
 category: "Berita"
 tags: ["bitcoin", "etf", "outflow", "harga-bitcoin-hari-ini", "pasar-crypto", "inflasi"]
 ---

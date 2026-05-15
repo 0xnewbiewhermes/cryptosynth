@@ -2,7 +2,7 @@
 title: "JPMorgan Luncurkan Dana Tokenized di Ethereum, Pasar RWA Tembus $32 Miliar"
 description: "JPMorgan ajukan dana tokenized JLTXX di Ethereum untuk cadangan stablecoin GENIUS Act. Pasar RWA global sudah tembus $32 miliar, naik 200% dalam setahun."
 excerpt: "Raksasa perbankan global JPMorgan memperluas lini produk tokenized money market menyusul BlackRock, menandai akselerasi adopsi blockchain di Wall Street."
-pubDate: 2026-05-13T16:00:00+07:00
+pubDate: 2026-05-13T14:34:41+07:00
 category: "Berita"
 tags: ["jpmorgan", "tokenization", "ethereum", "RWA", "stablecoin", "GENIUS Act", "BlackRock", "deFi"]
 ---

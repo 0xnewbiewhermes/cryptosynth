@@ -2,7 +2,7 @@
 title: "Dartmouth College Investasi $14,5 Juta di ETF Crypto, Termasuk Solana ETF"
 description: "Endowment Dartmouth College senilai $9 miliar ungkap kepemilikan ETF Solana, Ethereum, dan Bitcoin dalam laporan SEC. Sinyal institusional makin kuat."
 excerpt: "Ivy League Dartmouth College tambah eksposur crypto jadi $14,5 juta lewat ETF Solana, Ethereum, dan Bitcoin, di tengah outflow besar dari Bitcoin ETF."
-pubDate: 2026-05-15T08:00:00+07:00
+pubDate: 2026-05-15T08:32:57+07:00
 category: "Berita"
 tags: ["solana-etf", "dartmouth", "etf-crypto", "institusional", "bitcoin-etf", "ethereum-etf", "ivy-league"]
 author: "CryptoSynth Research"

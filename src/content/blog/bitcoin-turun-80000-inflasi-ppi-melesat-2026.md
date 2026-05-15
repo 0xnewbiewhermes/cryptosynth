@@ -2,7 +2,7 @@
 title: "Bitcoin Turun di Bawah $80.000, Inflasi PPI AS Melesat ke 6%"
 description: "Data inflasi PPI April 2026 jauh di atas ekspektasi, tekan Bitcoin di bawah $80.000. Analisis dampak kebijakan Fed dan level kunci BTC berikutnya."
 excerpt: "Inflasi produsen AS April 2026 melesat 1,4% secara bulanan, hampir tiga kali lipat prediksi, dan dorong Bitcoin turun di bawah support psikologis $80.000."
-pubDate: 2026-05-13T08:00:00+07:00
+pubDate: 2026-05-13T20:34:17+07:00
 category: "Berita"
 tags: ["bitcoin", "inflasi", "PPI", "fed", "harga-bitcoin-hari-ini", "makroekonomi"]
 ---

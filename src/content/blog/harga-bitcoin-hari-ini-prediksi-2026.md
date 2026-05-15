@@ -2,7 +2,7 @@
 title: "Harga Bitcoin Hari Ini dan Prediksi 2026: Analisis Terbaru"
 description: "Update harga Bitcoin hari ini dan prediksi analis untuk 2026. Analisis teknikal dan fundamental BTC terkini dari sumber kredibel global."
 excerpt: "Update harga Bitcoin terbaru dan prediksi analis untuk sisa tahun 2026."
-pubDate: 2026-05-12T16:00:00+07:00
+pubDate: 2026-05-12T19:45:46+07:00
 category: "Berita"
 tags: ["bitcoin", "btc", "harga", "prediksi", "analisis", "pasar crypto"]
 ---

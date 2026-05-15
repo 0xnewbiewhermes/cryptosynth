@@ -2,7 +2,7 @@
 title: "Charles Schwab Luncurkan Trading Spot Crypto BTC & ETH untuk Nasabah Retail"
 description: "Charles Schwab, broker raksasa dengan aset $12 triliun, resmi meluncurkan trading spot Bitcoin dan Ethereum untuk nasabah retail AS melalui platform Schwab Crypto."
 excerpt: "Charles Schwab mulai membuka akses trading spot Bitcoin dan ETH bagi gelombang pertama nasabah retail di platform Schwab Crypto."
-pubDate: 2026-05-13T10:00:00+07:00
+pubDate: 2026-05-13T17:33:55+07:00
 category: "Berita"
 tags: ["charles schwab", "crypto trading", "bitcoin", "ethereum", "adopsi crypto", "tradfi"]
 ---

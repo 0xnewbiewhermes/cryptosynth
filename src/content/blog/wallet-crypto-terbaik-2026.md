@@ -2,7 +2,7 @@
 title: "Wallet Crypto Terbaik 2026: Perbandingan Lengkap untuk Pemula"
 description: "Daftar wallet crypto terbaik 2026 untuk pemula Indonesia. Perbandingan MetaMask, Trust Wallet, Phantom, Ledger, dan Trezor. Plus tips keamanan."
 excerpt: "Perbandingan wallet crypto terbaik untuk pemula. Dari hot wallet gratis sampai hardware wallet paling aman."
-pubDate: 2026-05-12T18:00:00+07:00
+pubDate: 2026-05-12T19:45:46+07:00
 category: "Tutorial"
 tags: ["wallet", "crypto", "MetaMask", "Trust Wallet", "Ledger", "keamanan", "pemula"]
 ---

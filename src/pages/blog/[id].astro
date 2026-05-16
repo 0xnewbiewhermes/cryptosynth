@@ -26,6 +26,21 @@ const formattedDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', {
 const ogImage = `/images/og/${post.id}.png`;
 // Hero image path
 const heroImage = `/images/hero/${post.id}.png`;
+
+// Related articles: score by shared tags + same category, pick top 3
+const allPosts = await getCollection('blog');
+const currentTags = new Set(post.data.tags || []);
+const currentCategory = post.data.category;
+const relatedPosts = allPosts
+  .filter((p) => p.id !== post.id)
+  .map((p) => {
+    const sharedTags = (p.data.tags || []).filter((t) => currentTags.has(t)).length;
+    const sameCategory = p.data.category === currentCategory ? 1 : 0;
+    return { post: p, score: sharedTags * 2 + sameCategory };
+  })
+  .sort((a, b) => b.score - a.score || new Date(b.post.data.pubDate).getTime() - new Date(a.post.data.pubDate).getTime())
+  .slice(0, 3)
+  .map((r) => r.post);
 ---
 
 <BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={post.data.pubDate?.toISOString()} modifiedDate={post.data.pubDate?.toISOString()} category={post.data.category} tags={post.data.tags}>
@@ -53,6 +68,22 @@ const heroImage = `/images/hero/${post.id}.png`;
             <span class="tag">#{tag}</span>
           ))}
         </div>
+      )}
+      {relatedPosts.length > 0 && (
+        <aside class="related-articles">
+          <h2 class="related-articles-title">Artikel Terkait</h2>
+          <div class="related-articles-grid">
+            {relatedPosts.map((rp) => (
+              <a href={`/blog/${rp.id}`} class="related-article-card">
+                <img src={`/images/hero/${rp.id}.png`} alt={rp.data.title} class="related-article-img" loading="lazy" />
+                <div class="related-article-content">
+                  <span class="related-article-category">{rp.data.category || 'Berita'}</span>
+                  <h3 class="related-article-title">{rp.data.title}</h3>
+                </div>
+              </a>
+            ))}
+          </div>
+        </aside>
       )}
     </div>
   </article>

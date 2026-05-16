@@ -2,21 +2,53 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import airdropsData from '../data/airdrops.json';
 
-const statusLabels = {
-  active: { text: 'Aktif', color: 'status-active' },
-  upcoming: { text: 'Segera', color: 'status-upcoming' },
-  ended: { text: 'Berakhir', color: 'status-ended' },
-  confirmed: { text: 'Terkonfirmasi', color: 'status-confirmed' },
+const statusMap = {
+  active: { text: 'Aktif', cls: 'badge-active' },
+  upcoming: { text: 'Segera', cls: 'badge-upcoming' },
+  ended: { text: 'Berakhir', cls: 'badge-ended' },
+  confirmed: { text: 'Terkonfirmasi', cls: 'badge-confirmed' },
+};
+const riskMap = {
+  low: { text: 'Low', cls: 'risk-low' },
+  medium: { text: 'Medium', cls: 'risk-medium' },
+  high: { text: 'High', cls: 'risk-high' },
+};
+const costMap = {
+  free: { text: 'Free', cls: 'cost-free' },
+  low: { text: '<$10', cls: 'cost-low' },
+  medium: { text: '$10-50', cls: 'cost-medium' },
+  high: { text: '>$50', cls: 'cost-high' },
+};
+const diffMap = {
+  easy: { text: 'Easy', cls: 'diff-easy' },
+  medium: { text: 'Medium', cls: 'diff-medium' },
+  advanced: { text: 'Advanced', cls: 'diff-advanced' },
+};
+const sybilMap = {
+  low: { text: 'Low', cls: 'sybil-low' },
+  medium: { text: 'Medium', cls: 'sybil-medium' },
+  high: { text: 'High', cls: 'sybil-high' },
+};
+const confMap = {
+  low: { text: 'Rendah', cls: 'conf-low' },
+  medium: { text: 'Sedang', cls: 'conf-medium' },
+  high: { text: 'Tinggi', cls: 'conf-high' },
 };
 
 const categories = [...new Set(airdropsData.map(a => a.category))].sort();
+
+function formatDate(dateStr) {
+  if (!dateStr) return '-';
+  const d = new Date(dateStr);
+  return d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
+}
 ---
 
-<BaseLayout title="Airdrop Tracker - CryptoSynth" description="Daftar airdrop crypto aktif terbaru. Project, aksi yang diperlukan, deadline, dan status. Update berkala dari sumber terpercaya.">
+<BaseLayout title="Airdrop Tracker - CryptoSynth" description="Tracker airdrop crypto terlengkap. Status, risiko, biaya, kesulitan, wallet, sybil risk — semua yang kamu butuhkan untuk memburu airdrop.">
   <div class="tracker-page container">
     <div class="tracker-header">
       <h1 class="tracker-title">🪂 Airdrop Tracker</h1>
-      <p class="tracker-subtitle">Daftar airdrop crypto aktif yang sedang berlangsung. Riset mandiri (DYOR) sebelum ikut.</p>
+      <p class="tracker-subtitle">Tracker airdrop crypto paling lengkap. Klik kartu untuk melihat detail lengkap — risiko, biaya, wallet, sybil risk, dan lainnya.</p>
     </div>
 
     <div class="tracker-filters">
@@ -39,43 +71,114 @@ const categories = [...new Set(airdropsData.map(a => a.category))].sort();
       Menampilkan <strong id="visibleCount">{airdropsData.length}</strong> dari <strong>{airdropsData.length}</strong> airdrop
     </div>
 
-    <div class="tracker-table-wrap">
-      <table class="tracker-table" id="airdropTable">
-        <thead>
-          <tr>
-            <th>Project</th>
-            <th class="hide-mobile">Chain</th>
-            <th>Aksi</th>
-            <th class="hide-mobile">Deadline</th>
-            <th>Status</th>
-            <th class="hide-mobile">Estimasi</th>
-          </tr>
-        </thead>
-        <tbody>
-          {airdropsData.map((airdrop) => (
-            <tr data-category={airdrop.category} data-project={airdrop.project.toLowerCase()}>
-              <td>
-                <a href={airdrop.link} target="_blank" rel="noopener noreferrer" class="project-link">
-                  <span class="project-name">{airdrop.project}</span>
-                  {airdrop.symbol && <span class="project-symbol">{airdrop.symbol}</span>}
+    <div class="airdrop-cards" id="airdropCards">
+      {airdropsData.map((a, idx) => {
+        const st = statusMap[a.status] || statusMap.active;
+        const rk = riskMap[a.risk] || riskMap.medium;
+        const ct = costMap[a.cost] || costMap.low;
+        const df = diffMap[a.difficulty] || diffMap.medium;
+        const sy = sybilMap[a.sybil] || sybilMap.medium;
+        const cf = confMap[a.rewardConfidence] || confMap.medium;
+        return (
+          <div class="airdrop-card" data-category={a.category} data-project={a.project.toLowerCase()}>
+            {/* === SUMMARY ROW (always visible) === */}
+            <div class="card-summary" data-idx={idx}>
+              <div class="card-left">
+                <div class="card-project">
+                  <a href={a.link} target="_blank" rel="noopener noreferrer" class="card-project-link">
+                    <span class="card-project-name">{a.project}</span>
+                    {a.symbol && a.symbol !== 'TBD' && <span class="card-project-symbol">{a.symbol}</span>}
+                  </a>
+                  <span class="card-chain">{a.chain}</span>
+                </div>
+                <div class="card-badges">
+                  <span class={`badge ${st.cls}`}>{st.text}</span>
+                  <span class={`badge ${rk.cls}`}>Risk: {rk.text}</span>
+                  <span class={`badge ${ct.cls}`}>Cost: {ct.text}</span>
+                  <span class={`badge ${df.cls}`}>{df.text}</span>
+                </div>
+              </div>
+              <div class="card-right">
+                <span class="card-verified">✓ {formatDate(a.lastVerified)}</span>
+                <button class="card-expand-btn" aria-label="Lihat detail">
+                  <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+            </div>
+
+            {/* === DETAIL PANEL (expandable) === */}
+            <div class="card-detail" id={`detail-${idx}`}>
+              <div class="detail-grid">
+                <div class="detail-item">
+                  <span class="detail-label">Aksi yang Diperlukan</span>
+                  <span class="detail-value">{a.action}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Deadline</span>
+                  <span class="detail-value">{a.deadline}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Estimasi Reward</span>
+                  <span class="detail-value">{a.estimated}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Waktu yang Dibutuhkan</span>
+                  <span class="detail-value">{a.timeNeeded}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Wallet yang Dibutuhkan</span>
+                  <span class="detail-value">{a.wallet}</span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Network</span>
+                  <span class="detail-value">
+                    <span class={`badge ${a.network === 'Mainnet' ? 'net-mainnet' : 'net-testnet'}`}>{a.network}</span>
+                  </span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Sybil Risk</span>
+                  <span class="detail-value">
+                    <span class={`badge ${sy.cls}`}>Sybil: {sy.text}</span>
+                  </span>
+                </div>
+                <div class="detail-item">
+                  <span class="detail-label">Potensi Reward</span>
+                  <span class="detail-value">
+                    <span class={`badge ${cf.cls}`}>{cf.text}</span>
+                  </span>
+                </div>
+                {a.announcement && (
+                  <div class="detail-item detail-full">
+                    <span class="detail-label">Pengumuman Resmi</span>
+                    <span class="detail-value">
+                      <a href={a.announcement} target="_blank" rel="noopener noreferrer" class="detail-link">Lihat Pengumuman →</a>
+                    </span>
+                  </div>
+                )}
+                {a.tutorial && (
+                  <div class="detail-item detail-full">
+                    <span class="detail-label">Tutorial CryptoSynth</span>
+                    <span class="detail-value">
+                      <a href={a.tutorial} class="detail-link">Baca Tutorial →</a>
+                    </span>
+                  </div>
+                )}
+                {a.notes && (
+                  <div class="detail-item detail-full">
+                    <span class="detail-label">Catatan</span>
+                    <span class="detail-value detail-notes">{a.notes}</span>
+                  </div>
+                )}
+              </div>
+              <div class="detail-actions">
+                <a href={a.link} target="_blank" rel="noopener noreferrer" class="detail-btn detail-btn-primary">
+                  Kunjungi Website →
                 </a>
-              </td>
-              <td class="hide-mobile"><span class="chain-badge">{airdrop.chain}</span></td>
-              <td class="action-cell">{airdrop.action}</td>
-              <td class="hide-mobile deadline-cell">{airdrop.deadline}</td>
-              <td>
-                <span class={`status-badge ${statusLabels[airdrop.status]?.color || 'status-active'}`}>
-                  {statusLabels[airdrop.status]?.text || airdrop.status}
-                </span>
-              </td>
-              <td class="hide-mobile estimate-cell">
-                {airdrop.estimated}
-                {airdrop.notes && <span class="notes-hint" title={airdrop.notes}>ℹ️</span>}
-              </td>
-            </tr>
-          ))}
-        </tbody>
-      </table>
+              </div>
+            </div>
+          </div>
+        );
+      })}
     </div>
 
     <div class="tracker-disclaimer">
@@ -87,25 +190,25 @@ const categories = [...new Set(airdropsData.map(a => a.category))].sort();
 <script>
   // Category filter
   const pills = document.querySelectorAll('.filter-pill');
-  const rows = document.querySelectorAll('#airdropTable tbody tr');
-  const searchInput = document.getElementById('trackerSearch');
-  const countEl = document.getElementById('visibleCount');
+  const cards = document.querySelectorAll('.airdrop-card');
+  const searchInput = document.getElementById('trackerSearch') as HTMLInputElement;
+  const countEl = document.getElementById('visibleCount')!;
   let activeCategory = 'all';
 
   function updateCount() {
-    const visible = document.querySelectorAll('#airdropTable tbody tr:not([style*="display: none"])').length;
-    countEl.textContent = visible;
+    const visible = document.querySelectorAll('.airdrop-card:not([style*="display: none"])').length;
+    countEl.textContent = String(visible);
   }
 
-  function filterRows() {
+  function filterCards() {
     const query = searchInput.value.toLowerCase().trim();
-    rows.forEach(row => {
-      const cat = row.dataset.category;
-      const project = row.dataset.project;
-      const text = row.textContent.toLowerCase();
+    cards.forEach(card => {
+      const el = card as HTMLElement;
+      const cat = el.dataset.category;
+      const text = el.textContent?.toLowerCase() || '';
       const catMatch = activeCategory === 'all' || cat === activeCategory;
       const searchMatch = !query || text.includes(query);
-      row.style.display = (catMatch && searchMatch) ? '' : 'none';
+      el.style.display = (catMatch && searchMatch) ? '' : 'none';
     });
     updateCount();
   }
@@ -114,10 +217,36 @@ const categories = [...new Set(airdropsData.map(a => a.category))].sort();
     pill.addEventListener('click', () => {
       pills.forEach(p => p.classList.remove('active'));
       pill.classList.add('active');
-      activeCategory = pill.dataset.category;
-      filterRows();
+      activeCategory = (pill as HTMLElement).dataset.category || 'all';
+      filterCards();
     });
   });
 
-  searchInput.addEventListener('input', filterRows);
+  searchInput?.addEventListener('input', filterCards);
+
+  // Expandable cards
+  document.querySelectorAll('.card-summary').forEach(summary => {
+    summary.addEventListener('click', (e) => {
+      const target = e.target as HTMLElement;
+      // Don't toggle if clicking the project link
+      if (target.closest('.card-project-link')) return;
+
+      const idx = (summary as HTMLElement).dataset.idx;
+      const detail = document.getElementById('detail-' + idx);
+      const card = summary.closest('.airdrop-card');
+      const btn = summary.querySelector('.card-expand-btn');
+
+      if (detail && card) {
+        const isOpen = detail.classList.contains('open');
+        // Close all others
+        document.querySelectorAll('.card-detail.open').forEach(d => d.classList.remove('open'));
+        document.querySelectorAll('.airdrop-card.expanded').forEach(c => c.classList.remove('expanded'));
+
+        if (!isOpen) {
+          detail.classList.add('open');
+          card.classList.add('expanded');
+        }
+      }
+    });
+  });
 </script>

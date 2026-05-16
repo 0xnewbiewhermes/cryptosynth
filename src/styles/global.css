@@ -948,7 +948,7 @@ code, pre {
 
 @media (max-width: 768px) {
   .hide-mobile { display: none; }
-  .tracker-page { padding: 2rem 1rem 3rem; }
+  .tracker-page { padding: 3.5rem 1rem 3rem; }
   .tracker-title { font-size: 1.4rem; }
   .tracker-table th, .tracker-table td { padding: 0.6rem 0.75rem; }
   .tracker-search-input { width: 140px; }

@@ -5,7 +5,7 @@ export async function POST({ request }: { request: Request }) {
     const body = await request.json();
     const { password } = body;
 
-    const adminPassword = import.meta.env.ADMIN_PASSWORD;
+    const adminPassword = process.env.ADMIN_PASSWORD;
 
     if (!adminPassword) {
       return new Response(JSON.stringify({ error: 'Admin not configured' }), {

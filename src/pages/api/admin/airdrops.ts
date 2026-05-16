@@ -1,9 +1,9 @@
 export const prerender = false;
 
-const GITHUB_TOKEN = import.meta.env.GITHUB_TOKEN;
-const GITHUB_REPO = import.meta.env.GITHUB_REPO || '0xnewbiewhermes/cryptosynth';
+const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_REPO = process.env.GITHUB_REPO || '0xnewbiewhermes/cryptosynth';
 const GITHUB_FILE_PATH = 'src/data/airdrops.json';
-const ADMIN_PASSWORD = import.meta.env.ADMIN_PASSWORD;
+const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 
 function checkAuth(request: Request): boolean {
   const authHeader = request.headers.get('Authorization');

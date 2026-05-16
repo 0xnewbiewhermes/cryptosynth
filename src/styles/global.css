@@ -78,14 +78,24 @@ code, pre {
 
 /* ===== HEADER ===== */
 .header {
-  background: rgba(255, 255, 255, 0.85);
-  backdrop-filter: blur(20px) saturate(180%);
-  -webkit-backdrop-filter: blur(20px) saturate(180%);
-  border-bottom: 1px solid var(--border);
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(24px) saturate(180%);
+  -webkit-backdrop-filter: blur(24px) saturate(180%);
+  border-bottom: 1px solid rgba(0,0,0,0.06);
   position: sticky;
   top: 0;
   z-index: 100;
   height: var(--nav-height);
+}
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent 0%, rgba(99,102,241,0.15) 30%, rgba(16,185,129,0.15) 70%, transparent 100%);
+  pointer-events: none;
 }
 
 .header-inner {
@@ -106,7 +116,9 @@ code, pre {
   font-weight: 800;
   font-size: 1.2rem;
   letter-spacing: -0.03em;
+  transition: opacity 0.2s;
 }
+.logo:hover { opacity: 0.8; }
 
 .logo-icon {
   width: 36px;
@@ -119,38 +131,91 @@ code, pre {
 .logo-text { color: var(--text-primary); }
 .logo-accent { color: var(--primary); }
 
-.nav { display: flex; gap: 0.25rem; align-items: center; }
+.nav {
+  display: flex;
+  gap: 0.15rem;
+  align-items: center;
+}
 .nav a {
-  padding: 0.5rem 0.85rem;
-  border-radius: var(--radius-sm);
+  padding: 0.45rem 0.75rem;
+  border-radius: 8px;
   color: var(--text-secondary);
   font-weight: 500;
-  font-size: 0.875rem;
+  font-size: 0.84rem;
   transition: all 0.2s;
   white-space: nowrap;
+  position: relative;
+  letter-spacing: 0.01em;
 }
-.nav a:hover, .nav a.active {
-  background: var(--bg-surface);
+.nav a:hover {
+  background: rgba(99,102,241,0.06);
   color: var(--text-primary);
+}
+.nav a.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+.nav a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 16px;
+  height: 2px;
+  background: var(--primary);
+  border-radius: 2px;
+}
+
+/* Search pill button */
+.nav-search-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.4rem 0.75rem !important;
+  border: 1px solid var(--border) !important;
+  border-radius: 100px !important;
+  background: var(--bg-surface) !important;
+  color: var(--text-muted) !important;
+  font-size: 0.78rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s !important;
+  margin-right: 0.35rem;
+}
+.nav-search-link:hover {
+  border-color: var(--primary) !important;
+  color: var(--primary) !important;
+  background: rgba(99,102,241,0.04) !important;
+}
+.nav-search-link svg {
+  width: 14px;
+  height: 14px;
+  opacity: 0.6;
+}
+.nav-search-link:hover svg {
+  opacity: 1;
 }
 
 .menu-toggle {
   display: none;
   background: none;
-  border: none;
+  border: 1px solid var(--border);
   color: var(--text-primary);
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   cursor: pointer;
-  padding: 0.5rem;
-  border-radius: var(--radius-sm);
-  transition: background 0.2s;
+  padding: 0;
+  border-radius: 8px;
+  transition: all 0.2s;
   line-height: 1;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   align-items: center;
   justify-content: center;
 }
-.menu-toggle:hover { background: var(--bg-surface); }
+.menu-toggle:hover {
+  background: var(--bg-surface);
+  border-color: var(--primary);
+}
 
 /* ===== TICKER BAR ===== */
 /* ===== PROFESSIONAL TICKER ===== */
@@ -1013,20 +1078,6 @@ code, pre {
 .tag:hover {
   border-color: var(--primary);
   color: var(--primary);
-}
-
-/* ===== NAV SEARCH ICON ===== */
-.nav-search-link {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem !important;
-  color: var(--text-secondary) !important;
-  border-radius: 50% !important;
-}
-.nav-search-link:hover {
-  background: var(--bg-surface) !important;
-  color: var(--primary) !important;
 }
 
 /* ===== PAGE HERO (sub-pages) ===== */
@@ -2293,7 +2344,14 @@ code, pre {
     font-size: 0.95rem;
     width: 100%;
     text-align: left;
-    border-radius: var(--radius-sm);
+    border-radius: 8px;
+  }
+  .nav a.active::after { display: none; }
+
+  .nav-search-link {
+    margin-right: 0 !important;
+    margin-bottom: 0.25rem;
+    justify-content: flex-start;
   }
 
   /* Hero */

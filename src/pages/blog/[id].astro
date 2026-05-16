@@ -14,13 +14,17 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
-// Parse FAQ from flat string format: "Q1|A1 || Q2|A2 || Q3|A3"
+// Parse FAQ from flat string format: "Q1;;A1;;Q2;;A2;;Q3;;A3"
 function parseFaq(faqStr: string): { question: string; answer: string }[] {
-  if (!faqStr || faqStr.trim() === '') return [];
-  return faqStr.split(' || ').map((pair) => {
-    const parts = pair.split('|');
-    return { question: parts[0]?.trim() || '', answer: parts[1]?.trim() || '' };
-  }).filter((f) => f.question && f.answer);
+  if (!faqStr || faqStr.trim() === '' || faqStr === '[]') return [];
+  const parts = faqStr.split(';;');
+  const items: { question: string; answer: string }[] = [];
+  for (let i = 0; i < parts.length - 1; i += 2) {
+    const q = parts[i]?.trim();
+    const a = parts[i + 1]?.trim();
+    if (q && a) items.push({ question: q, answer: a });
+  }
+  return items;
 }
 const faqItems = parseFaq(post.data.faq || '');
 

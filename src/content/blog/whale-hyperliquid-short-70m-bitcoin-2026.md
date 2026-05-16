@@ -5,8 +5,9 @@ excerpt: "Whale Hyperliquid Loracle buka short $70 juta di crypto dan saham tech
 pubDate: 2026-05-14T08:34:16+07:00
 category: "Berita"
 tags: ["bitcoin", "hyperliquid", "whale", "short", "trading", "inflasi", "fed"]
-faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Apa yang perlu diketahui tentang Whale Hyperliquid Buka Short $70 Juta?|Whale Hyperliquid dengan profit $42 juta buka posisi short $70 juta di BTC, HYPE, dan saham tech. Analisis dampak ke trader Indonesia. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko.;;Apa yang perlu diketahui tentang Whale Hyperliquid Buka Short $70 Juta?;;Whale Hyperliquid dengan profit $42 juta buka posisi short $70 juta di BTC, HYPE, dan saham tech. Analisis dampak ke trader Indonesia.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

@@ -6,8 +6,9 @@ pubDate: 2026-05-15T15:16:37+07:00
 category: "Airdrop"
 tags: ["keamanan", "airdrop", "scam", "phishing", "wallet", "smart contract", "tutorial"]
 author: "CryptoSynth Research"
-faq: "Bagaimana cara mendapatkan airdrop crypto?|Interaksi dengan project yang belum launch token. Gunakan dApps, bridge aset, provide liquidity, dan selesaikan quests. Selalu verifikasi link resmi. || Apa yang perlu diketahui tentang Panduan Keamanan Claim Airdrop?|Panduan lengkap cara claim airdrop crypto dengan aman. Hindari scam, phishing, dan smart contract berbahaya yang bisa habiskan wallet Anda. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Bagaimana cara mendapatkan airdrop crypto?;;Interaksi dengan project yang belum launch token. Gunakan dApps, bridge aset, provide liquidity, dan selesaikan quests. Selalu verifikasi link resmi.;;Apa yang perlu diketahui tentang Panduan Keamanan Claim Airdrop?;;Panduan lengkap cara claim airdrop crypto dengan aman. Hindari scam, phishing, dan smart contract berbahaya yang bisa habiskan wallet Anda.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

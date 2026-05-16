@@ -6,8 +6,9 @@ pubDate: 2026-05-15T15:14:23+07:00
 category: "Funding"
 tags: ["fasset", "neobank", "stablecoin", "funding crypto", "perbankan digital", "pasar berkembang", "syariah"]
 author: "CryptoSynth Research"
-faq: "Apa itu funding round di crypto?|Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project. || Apa yang perlu diketahui tentang Neobank Stablecoin Fasset Raih $51 Juta untuk Ekspansi ke Pa?|Fasset, neobank berbasis stablecoin yang patuh syariah, kumpulkan $51 juta untuk memperluas layanan perbankan digital di pasar berkembang Asia dan Afrika. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project.;;Apa yang perlu diketahui tentang Neobank Stablecoin Fasset Raih $51 Juta untuk Ekspansi ke Pa?;;Fasset, neobank berbasis stablecoin yang patuh syariah, kumpulkan $51 juta untuk memperluas layanan perbankan digital di pasar berkembang Asia dan Afrika.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

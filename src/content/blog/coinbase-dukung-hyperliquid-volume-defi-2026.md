@@ -6,8 +6,9 @@ pubDate: 2026-05-15T17:30:00+07:00
 category: "DeFi"
 tags: ["coinbase", "hyperliquid", "hype", "defi", "usdc", "perpetual", "layer 1"]
 author: "CryptoSynth Research"
-faq: "Apa risiko utama DeFi?|Risiko utama DeFi termasuk smart contract exploit, impermanent loss, rug pull, dan liquidasi. Selalu DYOR dan gunakan protocol yang sudah audit. || Apa yang perlu diketahui tentang Coinbase Dukung Hyperliquid?|Coinbase resmi kelola likuiditas USDC di Hyperliquid, Layer 1 blockchain untuk perpetual futures dengan TVL $5.46 miliar dan token HYPE. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa risiko utama DeFi?;;Risiko utama DeFi termasuk smart contract exploit, impermanent loss, rug pull, dan liquidasi. Selalu DYOR dan gunakan protocol yang sudah audit.;;Apa yang perlu diketahui tentang Coinbase Dukung Hyperliquid?;;Coinbase resmi kelola likuiditas USDC di Hyperliquid, Layer 1 blockchain untuk perpetual futures dengan TVL $5.46 miliar dan token HYPE.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

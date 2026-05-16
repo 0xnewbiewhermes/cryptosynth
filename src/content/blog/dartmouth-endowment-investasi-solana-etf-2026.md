@@ -6,8 +6,9 @@ pubDate: 2026-05-15T08:32:57+07:00
 category: "Berita"
 tags: ["solana-etf", "dartmouth", "etf-crypto", "institusional", "bitcoin-etf", "ethereum-etf", "ivy-league"]
 author: "CryptoSynth Research"
-faq: "Apa itu funding round di crypto?|Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project. || Apa itu ETF crypto?|ETF crypto adalah dana yang diperdagangkan di bursa saham yang melacak harga aset crypto. Investor bisa beli melalui broker saham biasa tanpa perlu wallet. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project.;;Apa itu ETF crypto?;;ETF crypto adalah dana yang diperdagangkan di bursa saham yang melacak harga aset crypto. Investor bisa beli melalui broker saham biasa tanpa perlu wallet.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

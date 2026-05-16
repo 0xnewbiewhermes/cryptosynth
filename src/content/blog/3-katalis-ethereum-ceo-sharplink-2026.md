@@ -6,8 +6,9 @@ pubDate: 2026-05-16T20:30:15+07:00
 category: "Berita"
 tags: ["ethereum", "eth", "clarity-act", "tokenisasi", "RWA", "sharplink", "treasury", "prediksi-crypto"]
 author: "CryptoSynth Research"
-faq: "Apa perbedaan Ethereum dan Bitcoin?|Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps. || Apa dampak regulasi crypto terhadap pasar?|Regulasi yang lebih jelas umumnya positif untuk pasar crypto jangka panjang karena meningkatkan kepercayaan institusional. Namun di jangka pendek bisa menyebabkan volatilitas. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa perbedaan Ethereum dan Bitcoin?;;Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps.;;Apa dampak regulasi crypto terhadap pasar?;;Regulasi yang lebih jelas umumnya positif untuk pasar crypto jangka panjang karena meningkatkan kepercayaan institusional. Namun di jangka pendek bisa menyebabkan volatilitas.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

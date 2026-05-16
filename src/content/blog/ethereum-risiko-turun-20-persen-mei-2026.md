@@ -6,8 +6,9 @@ pubDate: 2026-05-16T02:34:02+07:00
 category: "Berita"
 tags: ["ethereum", "ETH", "analisis-harga", "ETF", "crypto-quant", "bearish", "harga-eth-hari-ini"]
 author: "CryptoSynth Research"
-faq: "Apa perbedaan Ethereum dan Bitcoin?|Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps. || Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Cadangan ETH di bursa melonjak, ETF Ethereum catatkan outflow $190 juta dalam 4 hari. Pola rising wedge targetkan penuru || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa perbedaan Ethereum dan Bitcoin?;;Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps.;;Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Cadangan ETH di bursa melonjak, ETF Ethereum catatkan outflow $190 juta dalam 4 hari. Pola rising wedge targetkan penuru;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

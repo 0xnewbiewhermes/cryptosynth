@@ -6,8 +6,9 @@ pubDate: 2026-05-16T11:30:33+07:00
 category: "Berita"
 tags: ["bitcoin depot", "crypto atm", "SEC", "regulasi", "saham crypto"]
 author: "CryptoSynth Research"
-faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Bitcoin Depot keluarkan peringatan going concern di SEC filing. Revenue turun 49%, gugatan dari negara bagian, dan peret || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko.;;Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Bitcoin Depot keluarkan peringatan going concern di SEC filing. Revenue turun 49%, gugatan dari negara bagian, dan peret;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

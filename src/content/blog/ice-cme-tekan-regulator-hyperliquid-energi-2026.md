@@ -6,8 +6,9 @@ pubDate: 2026-05-16T08:30:44+07:00
 category: "Berita"
 tags: ["hyperliquid", "hype", "ICE", "CME", "CFTC", "derivatif", "DeFi", "perpetual"]
 author: "CryptoSynth Research"
-faq: "Apa yang perlu diketahui tentang ICE dan CME Tekan Regulator AS Awasi Hyperliquid?|Bursa tradisional ICE dan CME mendesak CFTC untuk mengawasi Hyperliquid karena risiko manipulasi pasar energi. Apa dampaknya bagi holder HYPE? || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa yang perlu diketahui tentang ICE dan CME Tekan Regulator AS Awasi Hyperliquid?;;Bursa tradisional ICE dan CME mendesak CFTC untuk mengawasi Hyperliquid karena risiko manipulasi pasar energi. Apa dampaknya bagi holder HYPE?;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

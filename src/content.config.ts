@@ -11,6 +11,7 @@ const blog = defineCollection({
     category: z.string().default('Berita'),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    faq: z.string().default(''),
   }),
 });
 

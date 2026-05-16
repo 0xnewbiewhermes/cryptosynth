@@ -6,8 +6,9 @@ pubDate: 2026-05-15T15:15:30+07:00
 category: "DeFi"
 tags: ["chainlink", "ccip", "layerzero", "bridge", "defi", "keamanan", "exploit", "kraken"]
 author: "CryptoSynth Research"
-faq: "Bagaimana cara melindungi aset crypto dari exploit?|Gunakan hardware wallet, verifikasi smart contract sebelum berinteraksi, jangan approve unlimited token, dan diversifikasi di beberapa protocol. || Apa risiko utama DeFi?|Risiko utama DeFi termasuk smart contract exploit, impermanent loss, rug pull, dan liquidasi. Selalu DYOR dan gunakan protocol yang sudah audit. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Bagaimana cara melindungi aset crypto dari exploit?;;Gunakan hardware wallet, verifikasi smart contract sebelum berinteraksi, jangan approve unlimited token, dan diversifikasi di beberapa protocol.;;Apa risiko utama DeFi?;;Risiko utama DeFi termasuk smart contract exploit, impermanent loss, rug pull, dan liquidasi. Selalu DYOR dan gunakan protocol yang sudah audit.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

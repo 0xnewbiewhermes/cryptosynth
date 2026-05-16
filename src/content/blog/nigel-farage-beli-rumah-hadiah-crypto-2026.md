@@ -6,8 +6,9 @@ pubDate: 2026-05-15T11:35:05+07:00
 category: "Berita"
 tags: ["nigel farage", "crypto donation", "uk politics", "christopher harborne", "reform uk"]
 author: "CryptoSynth Research"
-faq: "Apa yang perlu diketahui tentang Nigel Farage Beli Rumah 30M Setelah Terima Hadiah Crypto 89M?|Politisi Inggris Nigel Farage beli rumah 1,4 juta pound tunai setelah terima hadiah 5 juta pound dari miliarder crypto Christopher Harborne. Parlemen Inggris selidiki. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa yang perlu diketahui tentang Nigel Farage Beli Rumah 30M Setelah Terima Hadiah Crypto 89M?;;Politisi Inggris Nigel Farage beli rumah 1,4 juta pound tunai setelah terima hadiah 5 juta pound dari miliarder crypto Christopher Harborne. Parlemen Inggris selidiki.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

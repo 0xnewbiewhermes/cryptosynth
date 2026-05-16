@@ -5,8 +5,9 @@ excerpt: "Kraken resmi menggantikan LayerZero dengan Chainlink CCIP sebagai infr
 pubDate: 2026-05-15T02:33:14+07:00
 category: "Berita"
 tags: ["kraken", "chainlink", "ccip", "layerzero", "kbtc", "bridge", "defi", "keamanan"]
-faq: "Bagaimana cara melindungi aset crypto dari exploit?|Gunakan hardware wallet, verifikasi smart contract sebelum berinteraksi, jangan approve unlimited token, dan diversifikasi di beberapa protocol. || Apa yang perlu diketahui tentang Kraken Pilih Chainlink CCIP Gantikan LayerZero Setelah Explo?|Kraken migrasi dari LayerZero ke Chainlink CCIP untuk bridge aset cross-chain kBTC setelah exploit Kelp DAO $292 juta. Apa dampaknya untuk DeFi? || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Bagaimana cara melindungi aset crypto dari exploit?;;Gunakan hardware wallet, verifikasi smart contract sebelum berinteraksi, jangan approve unlimited token, dan diversifikasi di beberapa protocol.;;Apa yang perlu diketahui tentang Kraken Pilih Chainlink CCIP Gantikan LayerZero Setelah Explo?;;Kraken migrasi dari LayerZero ke Chainlink CCIP untuk bridge aset cross-chain kBTC setelah exploit Kelp DAO $292 juta. Apa dampaknya untuk DeFi?;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

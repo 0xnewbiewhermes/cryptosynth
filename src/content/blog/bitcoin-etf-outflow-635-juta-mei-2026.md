@@ -5,8 +5,9 @@ excerpt: "Spot Bitcoin ETF AS catatkan outflow $635 juta dalam satu hari, terbes
 pubDate: 2026-05-14T20:34:12+07:00
 category: "Berita"
 tags: ["bitcoin", "etf", "outflow", "harga-bitcoin-hari-ini", "pasar-crypto", "inflasi"]
-faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Apa itu Bitcoin ETF dan mengapa penting?|Bitcoin ETF adalah produk investasi yang memungkinkan investor mendapat eksposur harga Bitcoin tanpa perlu membeli langsung. ETF spot Bitcoin disetujui SEC AS pada Januari 2024. || Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Investor tarik $635 juta dari spot Bitcoin ETF AS dalam satu hari, outflow terbesar sejak Januari. Total $1,26 miliar ke"
+faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko.;;Apa itu Bitcoin ETF dan mengapa penting?;;Bitcoin ETF adalah produk investasi yang memungkinkan investor mendapat eksposur harga Bitcoin tanpa perlu membeli langsung. ETF spot Bitcoin disetujui SEC AS pada Januari 2024.;;Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Investor tarik $635 juta dari spot Bitcoin ETF AS dalam satu hari, outflow terbesar sejak Januari. Total $1,26 miliar ke"
 ---
+
 
 
 

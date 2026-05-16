@@ -6,8 +6,9 @@ pubDate: 2026-05-15T23:32:58+07:00
 category: "Berita"
 tags: ["korea-selatan", "tokenized-securities", "fsc", "dunamu", "upbit", "hana-bank", "stablecoin", "regulasi"]
 author: "CryptoSynth Research"
-faq: "Apa yang perlu diketahui tentang Korea Selatan Atur Tokenized Securities Juli?|FSC Korea Selatan umumkan aturan tokenized securities Juli 2026. Hana Bank beli 6,55% saham Dunamu senilai $670 juta untuk stablecoin dan tokenisasi aset. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa yang perlu diketahui tentang Korea Selatan Atur Tokenized Securities Juli?;;FSC Korea Selatan umumkan aturan tokenized securities Juli 2026. Hana Bank beli 6,55% saham Dunamu senilai $670 juta untuk stablecoin dan tokenisasi aset.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

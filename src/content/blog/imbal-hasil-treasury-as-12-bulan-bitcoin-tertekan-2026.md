@@ -6,8 +6,9 @@ pubDate: 2026-05-15T12:03:46+07:00
 category: "Berita"
 tags: ["treasury", "imbal-hasil", "bitcoin", "fed", "inflasi", "harga-bitcoin-hari-ini", "tokenized-treasury"]
 author: "CryptoSynth Research"
-faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Apa yang perlu diketahui tentang Imbal Hasil Treasury AS Tertinggi 12 Bulan?|Imbal hasil Treasury 2 dan 10 tahun AS sentuh level tertinggi 12 bulan. Probabilitas kenaikan Fed rate melonjak 44%, Bitcoin masih di bawah rata-rata 200 hari. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko.;;Apa yang perlu diketahui tentang Imbal Hasil Treasury AS Tertinggi 12 Bulan?;;Imbal hasil Treasury 2 dan 10 tahun AS sentuh level tertinggi 12 bulan. Probabilitas kenaikan Fed rate melonjak 44%, Bitcoin masih di bawah rata-rata 200 hari.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

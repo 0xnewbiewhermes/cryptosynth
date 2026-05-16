@@ -5,8 +5,9 @@ excerpt: "Anthropic dan OpenAI memperingatkan bahwa tokenized saham mereka di So
 pubDate: 2026-05-13T23:32:26+07:00
 category: "Berita"
 tags: ["anthropic", "openai", "solana", "tokenized-stock", "SPV", "prestocks", "AI"]
-faq: "Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Token PreStocks Anthropic dan OpenAI di Solana anjlok hingga 40% setelah kedua perusahaan menyatakan transfer saham via  || Apa yang perlu diketahui tentang Token AI Anthropic & OpenAI Anjlok 40% di Solana?|Token PreStocks Anthropic dan OpenAI di Solana anjlok hingga 40% setelah kedua perusahaan menyatakan transfer saham via SPV tanpa persetujuan dewan tidak berlaku. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Token PreStocks Anthropic dan OpenAI di Solana anjlok hingga 40% setelah kedua perusahaan menyatakan transfer saham via;;Apa yang perlu diketahui tentang Token AI Anthropic & OpenAI Anjlok 40% di Solana?;;Token PreStocks Anthropic dan OpenAI di Solana anjlok hingga 40% setelah kedua perusahaan menyatakan transfer saham via SPV tanpa persetujuan dewan tidak berlaku.;;Di mana bisa mendapatkan informasi crypto terpercaya?;;Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 

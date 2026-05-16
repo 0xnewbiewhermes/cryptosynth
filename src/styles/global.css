@@ -594,8 +594,8 @@ code, pre {
   justify-content: center;
   min-width: 24px;
   height: 24px;
-  background: rgba(16, 185, 129, 0.3);
-  color: #3A7FEE;
+  background: linear-gradient(135deg, #1A5DE3, #23D1BE);
+  color: #fff;
   font-size: 0.7rem;
   font-weight: 700;
   border-radius: 6px;

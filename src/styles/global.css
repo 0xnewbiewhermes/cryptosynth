@@ -167,6 +167,7 @@ code, pre {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0.4rem 1.5rem;
+  flex-wrap: wrap;
 }
 
 .ticker-item {
@@ -175,6 +176,7 @@ code, pre {
   gap: 0.5rem;
   font-size: 0.8rem;
   font-weight: 500;
+  white-space: nowrap;
 }
 
 .ticker-symbol {
@@ -221,16 +223,17 @@ code, pre {
 
 @media (max-width: 640px) {
   .ticker-inner {
-    gap: 1rem;
-    padding: 0.35rem 1rem;
+    gap: 0.6rem 1.2rem;
+    padding: 0.3rem 0.75rem;
+    justify-content: space-evenly;
   }
   .ticker-item {
-    font-size: 0.72rem;
-    gap: 0.35rem;
+    font-size: 0.68rem;
+    gap: 0.3rem;
   }
-  .ticker-symbol { font-size: 0.68rem; }
-  .ticker-price { font-size: 0.72rem; }
-  .ticker-change { font-size: 0.65rem; }
+  .ticker-symbol { font-size: 0.65rem; }
+  .ticker-price { font-size: 0.68rem; }
+  .ticker-change { font-size: 0.6rem; padding: 0.08rem 0.25rem; }
 }
 
 /* ===== HERO ===== */

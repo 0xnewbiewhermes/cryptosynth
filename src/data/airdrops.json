@@ -223,5 +223,30 @@
     "notes": "",
     "verified": true,
     "lastVerified": "2026-05-16"
+  },
+  {
+    "project": "OptimAI",
+    "symbol": "TBD",
+    "chain": "EVM",
+    "category": "Infra",
+    "status": "active",
+    "risk": "medium",
+    "cost": "free",
+    "costLabel": "Free",
+    "difficulty": "medium",
+    "sybil": "medium",
+    "network": "Testnet",
+    "rewardConfidence": "medium",
+    "action": "Selesaikan misi, run CLI node, lite node, dekstop node.",
+    "deadline": "Ongoing",
+    "timeNeeded": "1-2 jam",
+    "wallet": "MetaMask, Rabby",
+    "estimated": "Belum ada token",
+    "link": "https://node.optimai.network/register?ref=5AE81A85",
+    "announcement": "https://node.optimai.network/register?ref=5AE81A85",
+    "tutorial": "",
+    "notes": "",
+    "verified": true,
+    "lastVerified": "2026-05-16"
   }
 ]

@@ -1,0 +1,451 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Admin Airdrops - CryptoSynth" description="Dashboard admin untuk manage airdrop data">
+  <div class="admin-page container">
+
+    <!-- LOGIN -->
+    <div class="admin-login" id="loginPanel">
+      <div class="login-box">
+        <h1>🔐 Admin Login</h1>
+        <p>Masukkan password admin untuk mengelola data airdrop.</p>
+        <form id="loginForm">
+          <input type="password" id="loginPassword" placeholder="Password" class="admin-input" autocomplete="current-password" />
+          <button type="submit" class="admin-btn admin-btn-primary">Login</button>
+        </form>
+        <p class="login-error" id="loginError"></p>
+      </div>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="admin-dashboard" id="dashboard" style="display:none;">
+      <div class="admin-header">
+        <h1>🪂 Airdrop Manager</h1>
+        <div class="admin-actions-top">
+          <button class="admin-btn admin-btn-success" id="btnAdd">+ Tambah Airdrop</button>
+          <button class="admin-btn admin-btn-primary" id="btnSave">💾 Simpan Semua</button>
+          <button class="admin-btn admin-btn-outline" id="btnLogout">Logout</button>
+        </div>
+      </div>
+
+      <div class="admin-status" id="statusBar"></div>
+
+      <!-- AIRDROP LIST -->
+      <div class="admin-list" id="airdropList"></div>
+
+      <!-- ADD/EDIT MODAL -->
+      <div class="admin-modal-overlay" id="modal" style="display:none;">
+        <div class="admin-modal">
+          <div class="modal-header">
+            <h2 id="modalTitle">Tambah Airdrop</h2>
+            <button class="modal-close" id="btnModalClose">&times;</button>
+          </div>
+          <div class="modal-body">
+            <form id="airdropForm">
+              <div class="form-grid">
+                <div class="form-group">
+                  <label>Project Name *</label>
+                  <input type="text" name="project" class="admin-input" required placeholder="e.g. Polymarket" />
+                </div>
+                <div class="form-group">
+                  <label>Symbol</label>
+                  <input type="text" name="symbol" class="admin-input" placeholder="e.g. TBD atau HYPE" />
+                </div>
+                <div class="form-group">
+                  <label>Chain *</label>
+                  <input type="text" name="chain" class="admin-input" required placeholder="e.g. Polygon, Solana" />
+                </div>
+                <div class="form-group">
+                  <label>Category *</label>
+                  <select name="category" class="admin-input" required>
+                    <option value="DeFi">DeFi</option>
+                    <option value="L1">L1</option>
+                    <option value="L2">L2</option>
+                    <option value="NFT">NFT</option>
+                    <option value="Gaming">Gaming</option>
+                    <option value="Infra">Infra</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Status *</label>
+                  <select name="status" class="admin-input" required>
+                    <option value="active">Aktif</option>
+                    <option value="confirmed">Terkonfirmasi</option>
+                    <option value="upcoming">Segera</option>
+                    <option value="ended">Berakhir</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Risk Level *</label>
+                  <select name="risk" class="admin-input" required>
+                    <option value="low">Low</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="high">High</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Cost Estimate *</label>
+                  <select name="cost" class="admin-input" required>
+                    <option value="free">Free</option>
+                    <option value="low" selected>&lt;$10</option>
+                    <option value="medium">$10-50</option>
+                    <option value="high">&gt;$50</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Cost Label</label>
+                  <input type="text" name="costLabel" class="admin-input" placeholder="e.g. Free, <$10, $10-50" />
+                </div>
+                <div class="form-group">
+                  <label>Difficulty *</label>
+                  <select name="difficulty" class="admin-input" required>
+                    <option value="easy">Easy</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="advanced">Advanced</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Sybil Risk</label>
+                  <select name="sybil" class="admin-input">
+                    <option value="low">Low</option>
+                    <option value="medium" selected>Medium</option>
+                    <option value="high">High</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Network</label>
+                  <select name="network" class="admin-input">
+                    <option value="Mainnet">Mainnet</option>
+                    <option value="Testnet">Testnet</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Reward Confidence</label>
+                  <select name="rewardConfidence" class="admin-input">
+                    <option value="low">Rendah</option>
+                    <option value="medium" selected>Sedang</option>
+                    <option value="high">Tinggi</option>
+                  </select>
+                </div>
+                <div class="form-group form-full">
+                  <label>Aksi yang Diperlukan *</label>
+                  <input type="text" name="action" class="admin-input" required placeholder="e.g. Trade, bridge, provide LP" />
+                </div>
+                <div class="form-group">
+                  <label>Deadline</label>
+                  <input type="text" name="deadline" class="admin-input" placeholder="e.g. Ongoing, Q2 2026" />
+                </div>
+                <div class="form-group">
+                  <label>Time Needed</label>
+                  <input type="text" name="timeNeeded" class="admin-input" placeholder="e.g. 1-2 jam, Ongoing" />
+                </div>
+                <div class="form-group form-full">
+                  <label>Wallet yang Dibutuhkan</label>
+                  <input type="text" name="wallet" class="admin-input" placeholder="e.g. MetaMask, Phantom" />
+                </div>
+                <div class="form-group form-full">
+                  <label>Estimasi Reward</label>
+                  <input type="text" name="estimated" class="admin-input" placeholder="e.g. Belum ada token" />
+                </div>
+                <div class="form-group form-full">
+                  <label>Website Link *</label>
+                  <input type="url" name="link" class="admin-input" required placeholder="https://..." />
+                </div>
+                <div class="form-group form-full">
+                  <label>Pengumuman Resmi</label>
+                  <input type="url" name="announcement" class="admin-input" placeholder="https://..." />
+                </div>
+                <div class="form-group form-full">
+                  <label>Tutorial CryptoSynth</label>
+                  <input type="url" name="tutorial" class="admin-input" placeholder="https://cryptosynth.id/blog/..." />
+                </div>
+                <div class="form-group form-full">
+                  <label>Catatan</label>
+                  <textarea name="notes" class="admin-input admin-textarea" rows="3" placeholder="Catatan tambahan..."></textarea>
+                </div>
+                <div class="form-group">
+                  <label>Verified</label>
+                  <select name="verified" class="admin-input">
+                    <option value="true">Ya</option>
+                    <option value="false">Tidak</option>
+                  </select>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="admin-btn admin-btn-outline" id="btnModalCancel">Batal</button>
+            <button class="admin-btn admin-btn-primary" id="btnModalSave">Simpan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>
+
+<script is:inline>
+(function() {
+  var TOKEN_KEY = 'cs_admin_token';
+  var data = [];
+  var sha = '';
+  var editIdx = -1; // -1 = add new
+
+  // === DOM refs ===
+  var loginPanel = document.getElementById('loginPanel');
+  var dashboard = document.getElementById('dashboard');
+  var loginForm = document.getElementById('loginForm');
+  var loginError = document.getElementById('loginError');
+  var list = document.getElementById('airdropList');
+  var statusBar = document.getElementById('statusBar');
+  var modal = document.getElementById('modal');
+  var modalTitle = document.getElementById('modalTitle');
+  var airdropForm = document.getElementById('airdropForm');
+
+  // === Auth ===
+  function getToken() { return localStorage.getItem(TOKEN_KEY); }
+  function setToken(t) { localStorage.setItem(TOKEN_KEY, t); }
+  function clearToken() { localStorage.removeItem(TOKEN_KEY); }
+
+  function showDashboard() {
+    loginPanel.style.display = 'none';
+    dashboard.style.display = 'block';
+    loadData();
+  }
+
+  function showLogin() {
+    loginPanel.style.display = 'flex';
+    dashboard.style.display = 'none';
+    clearToken();
+  }
+
+  // Check if already logged in
+  if (getToken()) showDashboard();
+
+  // Login form
+  loginForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    loginError.textContent = '';
+    var pw = document.getElementById('loginPassword').value;
+    try {
+      var res = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: pw }),
+      });
+      var json = await res.json();
+      if (res.ok && json.token) {
+        setToken(json.token);
+        showDashboard();
+      } else {
+        loginError.textContent = json.error || 'Login gagal';
+      }
+    } catch (err) {
+      loginError.textContent = 'Network error';
+    }
+  });
+
+  // === Load data ===
+  async function loadData() {
+    status('Loading data...', 'info');
+    try {
+      var res = await fetch('/api/admin/airdrops', {
+        headers: { 'Authorization': 'Bearer ' + getToken() },
+      });
+      var json = await res.json();
+      if (!res.ok) {
+        if (res.status === 401) { showLogin(); return; }
+        status('Error: ' + json.error, 'error');
+        return;
+      }
+      data = json.data;
+      sha = json.sha;
+      renderList();
+      status('Data loaded! ' + data.length + ' airdrop.', 'success');
+    } catch (err) {
+      status('Network error: ' + err.message, 'error');
+    }
+  }
+
+  // === Render list ===
+  function renderList() {
+    if (!data.length) {
+      list.innerHTML = '<div class="empty-state">Belum ada data airdrop. Klik "+ Tambah Airdrop" untuk menambah.</div>';
+      return;
+    }
+    var html = '';
+    data.forEach(function(a, i) {
+      html += '<div class="admin-card" data-idx="' + i + '">';
+      html += '  <div class="admin-card-header">';
+      html += '    <div class="admin-card-title">';
+      html += '      <strong>' + esc(a.project) + '</strong>';
+      if (a.symbol && a.symbol !== 'TBD') html += ' <span class="admin-tag">' + esc(a.symbol) + '</span>';
+      html += '      <span class="admin-tag">' + esc(a.chain) + '</span>';
+      html += '      <span class="admin-tag tag-' + esc(a.status) + '">' + esc(a.status) + '</span>';
+      html += '    </div>';
+      html += '    <div class="admin-card-btns">';
+      html += '      <button class="admin-btn-sm admin-btn-edit" data-idx="' + i + '">✏️ Edit</button>';
+      html += '      <button class="admin-btn-sm admin-btn-delete" data-idx="' + i + '">🗑️</button>';
+      html += '    </div>';
+      html += '  </div>';
+      html += '  <div class="admin-card-meta">';
+      html += '    <span>Risk: ' + esc(a.risk || '-') + '</span>';
+      html += '    <span>Cost: ' + esc(a.costLabel || a.cost || '-') + '</span>';
+      html += '    <span>Diff: ' + esc(a.difficulty || '-') + '</span>';
+      html += '    <span>Sybil: ' + esc(a.sybil || '-') + '</span>';
+      html += '    <span>Conf: ' + esc(a.rewardConfidence || '-') + '</span>';
+      html += '  </div>';
+      html += '</div>';
+    });
+    list.innerHTML = html;
+
+    // Bind edit/delete buttons
+    list.querySelectorAll('.admin-btn-edit').forEach(function(btn) {
+      btn.addEventListener('click', function() { openEdit(parseInt(this.dataset.idx)); });
+    });
+    list.querySelectorAll('.admin-btn-delete').forEach(function(btn) {
+      btn.addEventListener('click', function() { deleteAirdrop(parseInt(this.dataset.idx)); });
+    });
+  }
+
+  // === Modal ===
+  function openModal() { modal.style.display = 'flex'; }
+  function closeModal() { modal.style.display = 'none'; airdropForm.reset(); editIdx = -1; }
+
+  document.getElementById('btnAdd').addEventListener('click', function() {
+    editIdx = -1;
+    modalTitle.textContent = 'Tambah Airdrop Baru';
+    airdropForm.reset();
+    openModal();
+  });
+
+  document.getElementById('btnModalClose').addEventListener('click', closeModal);
+  document.getElementById('btnModalCancel').addEventListener('click', closeModal);
+  modal.addEventListener('click', function(e) { if (e.target === modal) closeModal(); });
+
+  function openEdit(idx) {
+    editIdx = idx;
+    var a = data[idx];
+    modalTitle.textContent = 'Edit: ' + a.project;
+    var f = airdropForm;
+    f.project.value = a.project || '';
+    f.symbol.value = a.symbol || '';
+    f.chain.value = a.chain || '';
+    f.category.value = a.category || 'DeFi';
+    f.status.value = a.status || 'active';
+    f.risk.value = a.risk || 'medium';
+    f.cost.value = a.cost || 'low';
+    f.costLabel.value = a.costLabel || '';
+    f.difficulty.value = a.difficulty || 'medium';
+    f.sybil.value = a.sybil || 'medium';
+    f.network.value = a.network || 'Mainnet';
+    f.rewardConfidence.value = a.rewardConfidence || 'medium';
+    f.action.value = a.action || '';
+    f.deadline.value = a.deadline || '';
+    f.timeNeeded.value = a.timeNeeded || '';
+    f.wallet.value = a.wallet || '';
+    f.estimated.value = a.estimated || '';
+    f.link.value = a.link || '';
+    f.announcement.value = a.announcement || '';
+    f.tutorial.value = a.tutorial || '';
+    f.notes.value = a.notes || '';
+    f.verified.value = a.verified ? 'true' : 'false';
+    openModal();
+  }
+
+  // Modal save
+  document.getElementById('btnModalSave').addEventListener('click', function() {
+    if (!airdropForm.reportValidity()) return;
+    var f = airdropForm;
+    var entry = {
+      project: f.project.value.trim(),
+      symbol: f.symbol.value.trim() || 'TBD',
+      chain: f.chain.value.trim(),
+      category: f.category.value,
+      status: f.status.value,
+      risk: f.risk.value,
+      cost: f.cost.value,
+      costLabel: f.costLabel.value.trim() || f.cost.value,
+      difficulty: f.difficulty.value,
+      sybil: f.sybil.value,
+      network: f.network.value,
+      rewardConfidence: f.rewardConfidence.value,
+      action: f.action.value.trim(),
+      deadline: f.deadline.value.trim() || 'Ongoing',
+      timeNeeded: f.timeNeeded.value.trim() || '-',
+      wallet: f.wallet.value.trim() || '-',
+      estimated: f.estimated.value.trim() || '-',
+      link: f.link.value.trim(),
+      announcement: f.announcement.value.trim() || '',
+      tutorial: f.tutorial.value.trim() || '',
+      notes: f.notes.value.trim() || '',
+      verified: f.verified.value === 'true',
+      lastVerified: new Date().toISOString().slice(0, 10),
+    };
+
+    if (editIdx >= 0) {
+      data[editIdx] = entry;
+    } else {
+      data.push(entry);
+    }
+    renderList();
+    closeModal();
+    status(editIdx >= 0 ? 'Updated: ' + entry.project : 'Added: ' + entry.project + '. Jangan lupa klik Simpan!', 'info');
+  });
+
+  // === Delete ===
+  function deleteAirdrop(idx) {
+    if (!confirm('Hapus "' + data[idx].project + '"?')) return;
+    data.splice(idx, 1);
+    renderList();
+    status('Deleted. Jangan lupa klik Simpan!', 'warning');
+  }
+
+  // === Save to GitHub ===
+  document.getElementById('btnSave').addEventListener('click', async function() {
+    if (!confirm('Simpan semua perubahan ke GitHub? Ini akan trigger auto-deploy.')) return;
+    status('Saving...', 'info');
+    try {
+      var res = await fetch('/api/admin/airdrops', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': 'Bearer ' + getToken(),
+        },
+        body: JSON.stringify({
+          data: data,
+          sha: sha,
+          message: 'admin: update airdrops (' + data.length + ' entries, ' + new Date().toISOString().slice(0, 10) + ')',
+        }),
+      });
+      var json = await res.json();
+      if (res.ok && json.success) {
+        sha = json.newFileSha;
+        status('✅ ' + json.message, 'success');
+      } else {
+        if (res.status === 401) { showLogin(); return; }
+        status('❌ Error: ' + json.error, 'error');
+      }
+    } catch (err) {
+      status('❌ Network error: ' + err.message, 'error');
+    }
+  });
+
+  // === Logout ===
+  document.getElementById('btnLogout').addEventListener('click', function() {
+    showLogin();
+    status('', 'info');
+  });
+
+  // === Helpers ===
+  function status(msg, type) {
+    statusBar.textContent = msg;
+    statusBar.className = 'admin-status status-' + type;
+  }
+
+  function esc(s) {
+    if (!s) return '';
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+})();
+</script>

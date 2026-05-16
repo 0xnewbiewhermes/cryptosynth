@@ -898,6 +898,12 @@ code, pre {
   color: var(--text-muted);
 }
 
+.notes-hint {
+  cursor: help;
+  margin-left: 0.25rem;
+  font-size: 0.7rem;
+}
+
 .status-badge {
   display: inline-block;
   padding: 0.2rem 0.6rem;

@@ -68,7 +68,10 @@ const categories = [...new Set(airdropsData.map(a => a.category))].sort();
                   {statusLabels[airdrop.status]?.text || airdrop.status}
                 </span>
               </td>
-              <td class="hide-mobile estimate-cell">{airdrop.estimated}</td>
+              <td class="hide-mobile estimate-cell">
+                {airdrop.estimated}
+                {airdrop.notes && <span class="notes-hint" title={airdrop.notes}>ℹ️</span>}
+              </td>
             </tr>
           ))}
         </tbody>

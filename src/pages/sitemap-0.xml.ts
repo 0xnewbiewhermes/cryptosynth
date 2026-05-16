@@ -40,7 +40,9 @@ export async function GET(context: APIContext) {
   // Blog posts with actual pubDate as lastmod
   for (const post of posts) {
     const postDate = new Date(post.data.pubDate).toISOString().split('T')[0];
-    const postDateTime = new Date(post.data.pubDate).toISOString();
+    // WIB timezone for Google News
+    const postDateWIB = new Date(new Date(post.data.pubDate).getTime() + 7 * 60 * 60 * 1000);
+    const postDateTime = postDateWIB.toISOString().replace('Z', '+07:00');
     const postUrl = `${site}blog/${post.id}/`;
 
     xml += `  <url>

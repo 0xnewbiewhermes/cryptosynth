@@ -22,6 +22,14 @@ const formattedDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', {
   timeZone: 'Asia/Jakarta',
 });
 
+// Date with WIB timezone offset for structured data
+function toWIB(date: Date): string {
+  const wib = new Date(date.getTime() + 7 * 60 * 60 * 1000);
+  return wib.toISOString().replace('Z', '+07:00');
+}
+const publishDateWIB = post.data.pubDate ? toWIB(new Date(post.data.pubDate)) : undefined;
+const modifiedDateWIB = post.data.updatedDate ? toWIB(new Date(post.data.updatedDate)) : publishDateWIB;
+
 // OG image path
 const ogImage = `/images/og/${post.id}.png`;
 // Hero image path
@@ -52,7 +60,7 @@ const shareUrl = `https://cryptosynth.id/blog/${post.id}`;
 const shareText = post.data.title;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={post.data.pubDate?.toISOString()} modifiedDate={post.data.pubDate?.toISOString()} category={post.data.category} tags={post.data.tags}>
+<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} category={post.data.category} tags={post.data.tags}>
   <article class="article-page">
     <!-- Article Header -->
     <div class="article-header">

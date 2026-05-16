@@ -47,7 +47,7 @@ Pendiri MN Capital, Michaël van de Poppe, tetap bullish dan menyatakan:
 
 > "Jika harga terus bergerak naik, dengan voting CLARITY Act besok, saya perkirakan kita bisa melihat pergerakan cepat ke $90.000 dalam hitungan hari untuk Bitcoin."
 
-Namun, trader crypto Zord mengingatkan bahwa Bitcoin bisa menghadapi resistance antara $83.400 dan $84.600 setelah berhasil mengambil alih level *Fibonacci retracement* 50% di sekitar $78.983. Menurut analisis chart, rentang $83.400–$84.600 adalah zona resistance Fibonacci berikutnya (0,618–0,65), di mana trader kemungkinan akan mulai ambil profit dan memperlambat rebound BTC.
+Namun, trader crypto Zord mengingatkan bahwa Bitcoin bisa menghadapi resistance antara $83.400 dan $84.600 setelah berhasil mengambil alih level *Fibonacci retracement* 50% di sekitar $78.983. Menurut analisis chart, rentang $83.400-$84.600 adalah zona resistance Fibonacci berikutnya (0,618-0,65), di mana trader kemungkinan akan mulai ambil profit dan memperlambat rebound BTC.
 
 Selain itu, lebih dari $3 miliar posisi *leveraged long* berkumpul di antara $79.000 dan $78.000. Ini menunjukkan BTC bisa saja menguji ulang range tersebut sebelum mencoba *breakout* di atas 200-day EMA yang menjadi resistance utama.
 
@@ -62,8 +62,8 @@ Coinbase CEO Brian Armstrong menyebut RUU ini "kuat" dan akan "memberi manfaat b
 ## Yang Perlu Diperhatikan
 
 - **Voting Kamis (14 Mei):** Hasil markup Senate Banking Committee akan menentukan arah jangka pendek BTC
-- **Resistance $83.400–$84.600:** Zona kunci untuk profit-taking
-- **Support $78.000–$79.000:** Level di mana posisi leveraged long bertumpuk
+- **Resistance $83.400-$84.600:** Zona kunci untuk profit-taking
+- **Support $78.000-$79.000:** Level di mana posisi leveraged long bertumpuk
 - **Amandemen etika:** Demokrat menuntut ketentuan konflik kepentingan terkait pejabat pemerintah dan crypto, ini bisa jadi hambatan jika tidak ada kesepakatan
 
 ---

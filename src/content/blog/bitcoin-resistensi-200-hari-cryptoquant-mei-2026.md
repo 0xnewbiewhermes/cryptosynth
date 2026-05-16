@@ -12,14 +12,14 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 <div class="tldr-box">
-<strong>TL;DR:</strong> Bitcoin rally selama 6 minggu terhenti di zona resistensi 200-day moving average sekitar $82.000–$82.500. CryptoQuant memperingatkan bahwa pola ini mirip dengan Maret 2022, ketika BTC gagal menembus level yang sama sebelum jatuh lebih dalam. Trader sudah mulai ambil untung besar-besaran, 14.600 BTC senilai $1,2 miliar dicairkan pada 4 Mei.
+<strong>TL;DR:</strong> Bitcoin rally selama 6 minggu terhenti di zona resistensi 200-day moving average sekitar $82.000-$82.500. CryptoQuant memperingatkan bahwa pola ini mirip dengan Maret 2022, ketika BTC gagal menembus level yang sama sebelum jatuh lebih dalam. Trader sudah mulai ambil untung besar-besaran, 14.600 BTC senilai $1,2 miliar dicairkan pada 4 Mei.
 </div>
 
 ## Bitcoin Terbentur di Resistensi Historis 200-Day MA
 
 Setelah rally selama 6 minggu sejak awal April dari level $66.000, Bitcoin kini menghadapi tembok teknis yang cukup berat. Cryptocurrency nomor satu ini mencapai zona resistensi 200-day moving average (MA) di sekitar $82.400, level yang secara historis menjadi penentu arah tren jangka panjang.
 
-Menurut data Glassnode yang dilaporkan CoinDesk, ada dua indikator kunci yang membentuk zona resistensi ini: 200-day Simple Moving Average (200SMA) di $82.455 dan 200-day Exponential Moving Average (200EMA) di $82.027. Keduanya membentuk "confluence resistance zone" di $82.000–$82.500 yang harus ditembus secara meyakinkan oleh bulls untuk mengkonfirmasi pemulihan tren naik.
+Menurut data Glassnode yang dilaporkan CoinDesk, ada dua indikator kunci yang membentuk zona resistensi ini: 200-day Simple Moving Average (200SMA) di $82.455 dan 200-day Exponential Moving Average (200EMA) di $82.027. Keduanya membentuk "confluence resistance zone" di $82.000-$82.500 yang harus ditembus secara meyakinkan oleh bulls untuk mengkonfirmasi pemulihan tren naik.
 
 "200-day MA adalah resistensi mayor di bear market 2022: harga melanjutkan tren turun setelah menyentuh level ini pada Maret tahun itu," tulis CryptoQuant dalam laporan hari Rabu. "Setup saat ini memunculkan pertanyaan apakah sejarah akan berulang".
 
@@ -27,7 +27,7 @@ Menurut data Glassnode yang dilaporkan CoinDesk, ada dua indikator kunci yang me
 
 Analis crypto Benjamin Cowen dalam podcast-nya pada 11 Mei juga membandingkan struktur pasar saat ini dengan siklus 2018 dan 2019. Pada 2018, Bitcoin membentuk low di Februari, higher low di April, lalu rally ke 200-day MA sebelum berbalik arah lebih dalam.
 
-Struktur saat ini terlihat sangat mirip. Bitcoin membentuk bottom di sekitar $60.000, membentuk higher low di $64.000–$65.000, dan kini rally ke zona resistensi 200-day MA. Cowen mencatat bahwa bahkan dalam pengecualian bullish seperti 2014 dan 2019, pergerakan Bitcoin di atas 200-day MA bersifat sementara sebelum kelemahan kembali muncul.
+Struktur saat ini terlihat sangat mirip. Bitcoin membentuk bottom di sekitar $60.000, membentuk higher low di $64.000-$65.000, dan kini rally ke zona resistensi 200-day MA. Cowen mencatat bahwa bahkan dalam pengecualian bullish seperti 2014 dan 2019, pergerakan Bitcoin di atas 200-day MA bersifat sementara sebelum kelemahan kembali muncul.
 
 ## Trader Mulai Ambil Untung Besar-besaran
 
@@ -65,8 +65,8 @@ Namun, tidak semua analis bearish. Michaël van de Poppe, founder MN Capital, me
 
 Bagi trader dan investor crypto di Indonesia, beberapa hal yang perlu diperhatikan:
 
-- **Jangan FOMO di level saat ini.** Zona $82.000–$82.500 adalah resistance kuat. Masuk di sini berisiko tinggi.
-- **Pantau volume dan price action.** Jika BTC ditolak keras di 200-day MA dengan volume tinggi, kemungkinan koreksi ke $75.000–$78.000 cukup besar.
+- **Jangan FOMO di level saat ini.** Zona $82.000-$82.500 adalah resistance kuat. Masuk di sini berisiko tinggi.
+- **Pantau volume dan price action.** Jika BTC ditolak keras di 200-day MA dengan volume tinggi, kemungkinan koreksi ke $75.000-$78.000 cukup besar.
 - **Siapkan strategi DCA di level support.** $75.700 (128-day MA) dan $78.200 (True Market Mean) bisa menjadi zona akumulasi yang menarik.
 - **Tetapkan stop-loss.** Jika Anda sudah posisi long, pertimbangkan stop-loss di bawah $75.000 untuk membatasi risiko.
 - **Perhatikan berita makro AS.** Data inflasi dan kebijakan Fed tetap menjadi penggerak utama harga Bitcoin saat ini.

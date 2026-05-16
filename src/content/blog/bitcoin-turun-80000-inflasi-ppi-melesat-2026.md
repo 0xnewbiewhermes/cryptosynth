@@ -23,7 +23,7 @@ Data PPI ini muncul sehari setelah laporan Consumer Price Index (CPI) menunjukka
 
 ## Dampak Langsung ke Pasar Crypto
 
-Bitcoin yang diperdagangkan di atas $81.000 sepanjang malam langsung merosot di bawah $80.000 dalam hitungan menit setelah data PPI dirilis. BTC terakhir diperdagangkan di sekitar **$80.000–$80.200**, turun sekitar 0,8% dalam 24 jam terakhir.
+Bitcoin yang diperdagangkan di atas $81.000 sepanjang malam langsung merosot di bawah $80.000 dalam hitungan menit setelah data PPI dirilis. BTC terakhir diperdagangkan di sekitar **$80.000-$80.200**, turun sekitar 0,8% dalam 24 jam terakhir.
 
 Berikut harga crypto utama saat penulisan:
 
@@ -48,7 +48,7 @@ Matt Mena, *senior crypto research strategist* di 21Shares, memberikan perspekti
 
 Mena memperingatkan bahwa penembusan berkelanjutan di bawah $80.000 bisa mengirim BTC ke **$78.000**, dengan **$75.000** sebagai zona support utama berikutnya jika tekanan jual meningkat. Namun, ia berpendapat bahwa guncangan inflasi terakhir ini mungkin merupakan **"final flush of weak hands"** sebelum beberapa katalis bullish kembali menjadi fokus.
 
-Dari sisi teknis, level **$82.000** menjadi resistance kunci. Jika BTC berhasil menembus level tersebut, Mena melihat potensi reli ke **$85.000–$90.000**, dengan target $100.000 masih mungkin dicapai akhir kuartal ini.
+Dari sisi teknis, level **$82.000** menjadi resistance kunci. Jika BTC berhasil menembus level tersebut, Mena melihat potensi reli ke **$85.000-$90.000**, dengan target $100.000 masih mungkin dicapai akhir kuartal ini.
 
 Sementara itu, data derivatif menunjukkan posisi *bullish* yang meningkat di altcoin seperti BNB, DOGE, dan ETH, meskipun volume negatif jangka pendek mengindikasikan kehati-hatian yang masih tersisa di pasar. *Implied volatility* Bitcoin dan ETH berada di dekat level terendah tahun ini, menunjukkan trader belum mengantisipasi gejolak besar dalam waktu dekat.
 

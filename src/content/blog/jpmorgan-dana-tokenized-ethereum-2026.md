@@ -87,3 +87,9 @@ Sumber: CoinDesk
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
 </div>
+
+
+## Sumber
+
+1. [CoinDesk - JPMorgan files to launch new tokenized fund as Wall Street tokenization race heats up](https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund) (12 Mei 2026)
+2. [RWA.xyz - Tokenized Asset Dashboard](https://rwa.xyz) (Data real-time)

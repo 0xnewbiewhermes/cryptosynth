@@ -115,3 +115,10 @@ Lending adalah meminjamkan crypto ke orang lain dan mendapat bunga.
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. DeFi memiliki risiko tinggi. Selalu DYOR dan investasi hanya uang yang siap hilang.</em>
 </div>
+
+
+## Sumber
+
+1. [DeFiLlama - DeFi Dashboard - Total Value Locked](https://defillama.com) (Data real-time)
+2. [Lido - Lido Liquid Staking](https://lido.fi) (Data real-time)
+3. [Aave - Aave DeFi Lending Protocol](https://aave.com) (Data real-time)

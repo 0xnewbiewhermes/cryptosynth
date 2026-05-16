@@ -77,3 +77,10 @@ Meskipun layanan Schwab Crypto saat ini hanya tersedia untuk nasabah retail di A
 ---
 
 *⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan merupakan nasihat investasi. Selalu lakukan riset sendiri (DYOR) sebelum membuat keputusan investasi crypto. Harga crypto sangat volatil dan Anda bisa kehilangan modal.*
+
+
+## Sumber
+
+1. [CoinDesk - Charles Schwab Begins Rollout of Spot Crypto Trading for Bitcoin and Ethereum](https://www.coindesk.com/business/2026/05/13/charles-schwab-begins-rollout-of-spot-crypto-trading) (13 Mei 2026)
+2. [The Block - Charles Schwab launches spot BTC and ETH trading](https://www.theblock.co/post/401069/charles-schwab-spot-btc-eth) (13 Mei 2026)
+3. [CNBC - SCHW Stock Quote](https://www.cnbc.com/quotes/SCHW) (13 Mei 2026)

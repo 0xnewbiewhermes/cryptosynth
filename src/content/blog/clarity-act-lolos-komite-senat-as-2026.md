@@ -80,10 +80,10 @@ Coinbase, salah satu bursa crypto terbesar AS, juga memimpin kenaikan saham cryp
 
 **Sumber:**
 
-1. [[Cointelegraph, "US Senate Banking Committee votes to advance CLARITY Act"](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act)](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act), 14 Mei 2026
-2. [[CoinDesk, "Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances"](https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances)](https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances), 14 Mei 2026
-3. [[Decrypt, "Democrats Split on Clarity Act as Crypto Bill Passes Key Senate Committee Vote"](https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee-vote)](https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee-vote), 14 Mei 2026
-4. [[The Block, "'Decisive turning point': Crypto industry cheers Clarity Act's progress"](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote)](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote), 14 Mei 2026
+1. [Cointelegraph - US Senate Banking Committee votes to advance CLARITY Act](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act), 14 Mei 2026
+2. [CoinDesk - Bitcoin hits $82,000, Coinbase leads crypto stock gains as Clarity Act advances](https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-crypto-stock-gains-as-clarity-act-advances), 14 Mei 2026
+3. [Decrypt - Democrats Split on Clarity Act as Crypto Bill Passes Key Senate Committee Vote](https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee-vote), 14 Mei 2026
+4. [The Block - 'Decisive turning point': Crypto industry cheers Clarity Act's progress](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers-clarity-act-progress-ethics-questions-linger-next-vote), 14 Mei 2026
 
 ---
 
@@ -91,3 +91,11 @@ Coinbase, salah satu bursa crypto terbesar AS, juga memimpin kenaikan saham cryp
 ---
 
 *⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan nasihat investasi. Selalu lakukan riset sendiri (DYOR) sebelum membuat keputusan investasi crypto. Harga crypto sangat volatil dan bisa berubah sewaktu-waktu.*
+
+
+## Sumber
+
+1. [Cointelegraph - US Senate Banking Committee advances CLARITY Act](https://cointelegraph.com/news/us-senate-banking-committee-advance-clarity-act) (15 Mei 2026)
+2. [CoinDesk - Bitcoin hits $82,000, Coinbase leads rally](https://www.coindesk.com/markets/2026/05/14/bitcoin-hits-usd82-000-coinbase-leads-rally) (14 Mei 2026)
+3. [Decrypt - Democrats Split on Clarity Act as Crypto Bill Passes Senate Committee](https://decrypt.co/367871/democrats-split-clarity-act-crypto-bill-passes-senate-committee) (15 Mei 2026)
+4. [The Block - Decisive turning point: Crypto industry cheers Senate committee vote](https://www.theblock.co/post/401375/decisive-turning-point-crypto-industry-cheers) (15 Mei 2026)

@@ -50,4 +50,5 @@ Tren ini menunjukkan bahwa industri crypto sedang matang dari fase spekulatif ke
 
 ## Sumber
 
-1. [CoinDesk - Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital](https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital)
+1. [CoinDesk - Turnkey raises $12.5 million in round backed by Circle Ventures and Sequoia Capital](https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital) (6 Mei 2026)
+2. [Turnkey - Turnkey Official Website](https://www.turnkey.com) (Data real-time)

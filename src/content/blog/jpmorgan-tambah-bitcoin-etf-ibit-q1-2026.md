@@ -74,3 +74,9 @@ Bagi investor ritel di Indonesia, data 13F ini bisa menjadi referensi tambahan, 
 ---
 
 *⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan nasihat keputusan investasi. Selalu lakukan riset sendiri (DYOR) sebelum berinvestasi di aset crypto. Data diambil dari sumber publik pada 14 Mei 2026.*
+
+
+## Sumber
+
+1. [Cointelegraph - JPMorgan lifts Bitcoin ETF exposure in Q1, led by BlackRock's IBIT](https://cointelegraph.com/news/jpmorgan-bitcoin-etf-buy-blackrock-ibit-q1-2026) (14 Mei 2026)
+2. [Decrypt - Bitcoin ETFs Shed $630M in Largest Daily Exit Since January](https://decrypt.co/367822/bitcoin-etfs-shed-630m-in-largest-daily-exit-since-january) (14 Mei 2026)

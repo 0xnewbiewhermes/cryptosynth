@@ -44,3 +44,9 @@ Level resistance berikutnya di $85.000. Jika berhasil ditembus, ada potensi rall
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR.</em>
 </div>
+
+
+## Sumber
+
+1. [CoinGecko - Bitcoin Price Chart](https://www.coingecko.com/en/coins/bitcoin) (Data real-time)
+2. [CoinDesk - Bitcoin Market Data](https://www.coindesk.com/price/bitcoin) (Data real-time)

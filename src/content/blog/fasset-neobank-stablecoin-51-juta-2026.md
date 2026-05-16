@@ -58,4 +58,5 @@ Tren ini menunjukkan bahwa stablecoin bukan hanya alat trading, tapi juga fondas
 
 ## Sumber
 
-1. [[CoinDesk](https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets) - Stablecoin-powered neobank Fasset raises $51 million to expand across emerging markets](https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets)
+1. [CoinDesk - Stablecoin-powered neobank Fasset raises $51 million](https://www.coindesk.com/business/2026/05/14/stablecoin-powered-neobank-fasset-raises-usd51-million-to-expand-across-emerging-markets) (14 Mei 2026)
+2. [Fasset - Fasset Official Website](https://www.fasset.com) (Data real-time)

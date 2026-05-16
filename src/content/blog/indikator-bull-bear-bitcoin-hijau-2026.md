@@ -98,3 +98,9 @@ Bagi trader dan investor crypto di Indonesia, ada beberapa poin penting:
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
 </div>
+
+
+## Sumber
+
+1. [CoinDesk - Bitcoin's bull-bear cycle turns green for first time since March 2023](https://www.coindesk.com/markets/2026/05/12/bitcoin-s-bull-bear-cycle-turns-green-for-first-time-since-march-2023) (12 Mei 2026)
+2. [CoinDesk - Bitcoin back above $81,000 after hot CPI print; BNB, DOGE lead majors' gains](https://www.coindesk.com/markets/2026/05/13/bitcoin-back-above-usd81-000-after-hot-cpi-print) (13 Mei 2026)

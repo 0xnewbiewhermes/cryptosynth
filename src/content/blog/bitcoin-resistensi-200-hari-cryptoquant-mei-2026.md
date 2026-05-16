@@ -87,3 +87,9 @@ Bagi trader dan investor crypto di Indonesia, beberapa hal yang perlu diperhatik
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan nasihat investasi. Selalu lakukan riset sendiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan cryptocurrency melibatkan risiko tinggi.
 </div>
+
+
+## Sumber
+
+1. [Cointelegraph - Bitcoin at risk of falling after hitting major bear market resistance: CryptoQuant](https://cointelegraph.com/news/bitcoin-at-risk-of-falling-after-hitting-major-bear-market-resistance-cryptoquant) (14 Mei 2026)
+2. [CoinDesk - Bitcoin faces crucial test at 200-day moving averages as bulls defend key support zone](https://www.coindesk.com/markets/2026/05/13/bitcoin-faces-crucial-test-at-200-day-moving-averages) (13 Mei 2026)

@@ -86,3 +86,10 @@ Bagi ekosistem crypto Indonesia yang terus berkembang, kasus ini menjadi penging
 ---
 
 *⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan nasihat investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Cryptocurrency dan tokenized asset memiliki risiko tinggi termasuk kehilangan seluruh modal.*
+
+
+## Sumber
+
+1. [CoinDesk - Anthropic, OpenAI tokens plunge nearly 40% on Solana](https://www.coindesk.com/markets/2026/05/13/anthropic-openai-tokens-plunge-nearly-40-on-solana) (13 Mei 2026)
+2. [The Block - Anthropic, OpenAI tokenized prestocks plunge after SPV deemed unauthorized](https://www.theblock.co/post/401088/anthropic-openai-tokenized-prestocks-plunge) (13 Mei 2026)
+3. [Decrypt - Anthropic and OpenAI Warn Buyers of Unauthorized AI Startup Stock on Solana](https://decrypt.co/367614/anthropic-openai-warn-unauthorized-ai-startup-stock-solana) (13 Mei 2026)

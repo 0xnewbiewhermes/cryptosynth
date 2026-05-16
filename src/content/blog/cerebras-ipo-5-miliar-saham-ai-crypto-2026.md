@@ -63,4 +63,5 @@ Namun, investor juga perlu waspada terhadap hype yang berlebihan. Tidak semua pr
 
 ## Sumber
 
-1. [[CoinDesk](https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy) - Cerebras shares skyrocket 100% after $5.5 billion IPO amid AI stock frenzy](https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy)
+1. [CoinDesk - Cerebras shares skyrocket 100% after $5.5 billion IPO amid AI stock frenzy](https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy) (14 Mei 2026)
+2. [SEC EDGAR - Cerebras Systems S-1 Filing](https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&company=cerebras&CIK=&type=S-1&dateb=&owner=include&count=10&search_text=&action=getcompany) (2026)

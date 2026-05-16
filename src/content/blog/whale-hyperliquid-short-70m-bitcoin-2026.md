@@ -89,3 +89,9 @@ Untuk trader Indonesia, ini saat yang tepat untuk:
 ---
 
 *⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan nasihat keputusan investasi. Lakukan riset sendiri (DYOR) sebelum mengambil keputusan trading atau investasi crypto. Pasar crypto sangat volatil dan Anda bisa kehilangan modal.*
+
+
+## Sumber
+
+1. [CoinGecko - Bitcoin Price Chart](https://www.coingecko.com/en/coins/bitcoin) (Data real-time)
+2. [Hyperliquid - Hyperliquid DEX](https://hyperliquid.xyz) (Data real-time)

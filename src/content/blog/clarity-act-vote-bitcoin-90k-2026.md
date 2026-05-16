@@ -66,10 +66,17 @@ Coinbase CEO Brian Armstrong menyebut RUU ini "kuat" dan akan "memberi manfaat b
 
 **Sumber:**
 
-1. [[Cointelegraph, "Bitcoin traders expect 'fast move' to $90K following CLARITY Act vote"](https://cointelegraph.com/markets/bitcoin-traders-expect-fast-move-90k-following-clarity-act-vote)](https://cointelegraph.com/markets/bitcoin-traders-expect-fast-move-90k-following-clarity-act-vote), 13 Mei 2026
-2. [[The Block, "More than 100 amendments filed targeting stablecoins, ethics and DeFi ahead of Senate Banking Committee Clarity Act vote"](https://www.theblock.co/post/401074/senate-banking-members-file-clarity-act-amendments)](https://www.theblock.co/post/401074/senate-banking-members-file-clarity-act-amendments), 13 Mei 2026
-3. [[CoinDesk, "Clarity Act amendments would remake key parts of crypto bill but have doubtful future"](https://www.coindesk.com/policy/2026/05/13/clarity-act-amendments-would-remake-key-parts-of-crypto-bill-but-have-doubtful-future)](https://www.coindesk.com/policy/2026/05/13/clarity-act-amendments-would-remake-key-parts-of-crypto-bill-but-have-doubtful-future), 13 Mei 2026
+1. [Cointelegraph - Bitcoin traders expect 'fast move' to $90K following CLARITY Act vote](https://cointelegraph.com/markets/bitcoin-traders-expect-fast-move-90k-following-clarity-act-vote), 13 Mei 2026
+2. [The Block - More than 100 amendments filed targeting stablecoins, ethics and DeFi ahead of Senate Banking Committee Clarity Act vote](https://www.theblock.co/post/401074/senate-banking-members-file-clarity-act-amendments), 13 Mei 2026
+3. [CoinDesk - Clarity Act amendments would remake key parts of crypto bill but have doubtful future](https://www.coindesk.com/policy/2026/05/13/clarity-act-amendments-would-remake-key-parts-of-crypto-bill-but-have-doubtful-future), 13 Mei 2026
 
 ---
 
 *⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan nasihat investasi. Selalu lakukan riset sendiri (DYOR) sebelum membuat keputusan investasi crypto. Harga crypto sangat volatil dan bisa berubah sewaktu-waktu.*
+
+
+## Sumber
+
+1. [Cointelegraph - Bitcoin traders expect fast move to $90K following Senate vote](https://cointelegraph.com/markets/bitcoin-traders-expect-fast-move-90k-following-senate-vote) (14 Mei 2026)
+2. [The Block - More than 100 amendments filed for CLARITY Act](https://www.theblock.co/post/401074/senate-banking-members-file-clarity-act-amendments) (13 Mei 2026)
+3. [CoinDesk - CLARITY Act amendments would remake crypto market structure](https://www.coindesk.com/policy/2026/05/13/clarity-act-amendments-would-remake-crypto-market-structure) (13 Mei 2026)

@@ -121,3 +121,9 @@ Selalu lakukan riset sendiri dan jangan terburu-buru dalam mengambil keputusan. 
 
 **Sumber:**
 - CoinDesk - Various security guides and reports
+
+
+## Sumber
+
+1. [CoinGecko - Cryptocurrency Market Data](https://www.coingecko.com) (Data real-time)
+2. [Revoke.cash - Token Approval Checker](https://revoke.cash) (Data real-time)

@@ -101,3 +101,10 @@ Bitcoin bukan hanya naik dalam USD, juga naik dalam Rupiah karena pelemahan IDR.
 <div class="disclaimer-box">
 <em>Artikel ini bersifat informatif dan bukan saran keuangan. Prediksi harga tidak pasti. Selalu DYOR sebelum investasi.</em>
 </div>
+
+
+## Sumber
+
+1. [CoinGecko - Bitcoin Price Chart](https://www.coingecko.com/en/coins/bitcoin) (Data real-time)
+2. [CoinDesk - Bitcoin Market Data](https://www.coindesk.com/price/bitcoin) (Data real-time)
+3. [TradingView - BTC/USD Chart](https://www.tradingview.com/symbols/BTCUSD/) (Data real-time)

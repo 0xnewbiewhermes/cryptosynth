@@ -74,3 +74,9 @@ https://www.coindesk.com/tech/2026/05/14/claude-helps-recover-usd395-000-in-bitc
 ---
 
 *⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan nasihat keuangan. Selalu lakukan riset sendiri (DYOR) sebelum mengambil keputusan investasi crypto. Harga cryptocurrency sangat fluktuatif dan bisa berubah sewaktu-waktu.*
+
+
+## Sumber
+
+1. [Cointelegraph - AI chatbot Claude helps man recover 5 Bitcoin after finding old seed phrase](https://cointelegraph.com/news/ai-chatbot-claude-helps-man-recover-5-bitcoin-after-finding-old-seed-phrase) (14 Mei 2026)
+2. [CoinDesk - Claude helps recover $395,000 in Bitcoin trapped on a computer for years](https://www.coindesk.com/tech/2026/05/14/claude-helps-recover-usd395-000-in-bitcoin-trapped-on-a-computer-for-years) (14 Mei 2026)

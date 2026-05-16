@@ -713,8 +713,7 @@ code, pre {
 
 /* ===== AIRDROP TRACKER ===== */
 .tracker-page {
-  padding-top: 5rem !important;
-  padding-bottom: 4rem;
+  padding: 5rem 0 4rem;
 }
 
 .tracker-header {
@@ -949,7 +948,7 @@ code, pre {
 
 @media (max-width: 768px) {
   .hide-mobile { display: none; }
-  .tracker-page { padding-top: 3rem !important; padding-bottom: 3rem; padding-left: 1rem; padding-right: 1rem; }
+  .tracker-page { padding: 2rem 1rem 3rem; }
   .tracker-title { font-size: 1.4rem; }
   .tracker-table th, .tracker-table td { padding: 0.6rem 0.75rem; }
   .tracker-search-input { width: 140px; }

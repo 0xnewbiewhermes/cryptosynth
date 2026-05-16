@@ -243,30 +243,33 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
 
         function updateTicker(data) {
           Object.keys(coins).forEach(function(id) {
-            var el = document.getElementById('ticker-' + coins[id]);
-            if (!el || !data[id]) return;
-            var priceEl = el.querySelector('.ticker-price');
-            var changeEl = el.querySelector('.ticker-change');
-            var volEl = el.querySelector('.ticker-vol');
+            var els = document.querySelectorAll('[data-coin="' + id + '"]');
+            if (!els.length || !data[id]) return;
             var price = data[id].usd;
             var change = data[id].usd_24h_change || 0;
             var vol = data[id].usd_24h_vol || 0;
 
-            priceEl.textContent = formatPrice(price);
+            els.forEach(function(el) {
+              var priceEl = el.querySelector('.ticker-price');
+              var changeEl = el.querySelector('.ticker-change');
+              var volEl = el.querySelector('.ticker-vol');
 
-            var arrow = change >= 0 ? '▲' : '▼';
-            changeEl.textContent = arrow + ' ' + (change >= 0 ? '+' : '') + change.toFixed(2) + '%';
-            changeEl.className = 'ticker-change ' + (change >= 0 ? 'ticker-up' : 'ticker-down');
+              priceEl.textContent = formatPrice(price);
 
-            if (volEl && vol > 0) {
-              volEl.textContent = 'Vol: ' + formatVol(vol);
-            }
+              var arrow = change >= 0 ? '▲' : '▼';
+              changeEl.textContent = arrow + ' ' + (change >= 0 ? '+' : '') + change.toFixed(2) + '%';
+              changeEl.className = 'ticker-change ' + (change >= 0 ? 'ticker-up' : 'ticker-down');
 
-            // Flash effect on price change
-            if (lastPrices[id] && lastPrices[id] !== price) {
-              priceEl.classList.add('ticker-flash');
-              setTimeout(function() { priceEl.classList.remove('ticker-flash'); }, 600);
-            }
+              if (volEl && vol > 0) {
+                volEl.textContent = 'Vol: ' + formatVol(vol);
+              }
+
+              // Flash effect on price change
+              if (lastPrices[id] && lastPrices[id] !== price) {
+                priceEl.classList.add('ticker-flash');
+                setTimeout(function() { priceEl.classList.remove('ticker-flash'); }, 600);
+              }
+            });
             lastPrices[id] = price;
           });
         }
@@ -286,8 +289,16 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
       (function initMarquee() {
         var track = document.getElementById('tickerTrack');
         if (!track) return;
-        var clone = track.innerHTML;
-        track.innerHTML = clone + clone;
+        var items = track.querySelectorAll('.ticker-item');
+        var dividers = track.querySelectorAll('.ticker-divider');
+        for (var i = 0; i < items.length; i++) {
+          var clone = items[i].cloneNode(true);
+          clone.removeAttribute('id');
+          track.appendChild(clone);
+          if (i < dividers.length) {
+            track.appendChild(dividers[i].cloneNode(true));
+          }
+        }
       })();
     </script>
   </body>

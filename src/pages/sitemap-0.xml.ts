@@ -50,6 +50,10 @@ export async function GET(context: APIContext) {
     <lastmod>${postDate}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
+    <image:image>
+      <image:loc>${site}images/og/${post.id}.png</image:loc>
+      <image:title>${post.data.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</image:title>
+    </image:image>
     <news:news>
       <news:publication>
         <news:name>CryptoSynth.id</news:name>

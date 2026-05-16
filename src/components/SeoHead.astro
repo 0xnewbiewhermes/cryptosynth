@@ -72,7 +72,9 @@ const articleSchema = type === "article" ? {
     "name": "CryptoSynth",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://cryptosynth.id/images/cryptosynth-logo.png"
+      "url": "https://cryptosynth.id/images/cryptosynth-logo.png",
+      "width": 1075,
+      "height": 724
     }
   },
   "mainEntityOfPage": {
@@ -80,6 +82,11 @@ const articleSchema = type === "article" ? {
     "@id": canonicalURL
   },
   "inLanguage": "id",
+  "isAccessibleForFree": true,
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [".article-title", ".article-excerpt"]
+  },
   ...(tags.length > 0 ? { "keywords": tags.join(', ') } : {})
 } : null;
 
@@ -118,6 +125,9 @@ const breadcrumbSchema = type === "article" && category ? {
   gtag('js', new Date());
   gtag('config', 'G-E43X19WF4V');
 </script>
+
+<!-- Google Discover: max-image-preview -->
+<meta name="robots" content="max-image-preview:large, max-snippet:-1, max-image-preview:standard" />
 
 <!-- Primary Meta -->
 <meta charset="UTF-8" />

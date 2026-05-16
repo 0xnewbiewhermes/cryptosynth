@@ -1,18 +1,5 @@
 [
   {
-    "project": "MegaETH",
-    "symbol": "TBD",
-    "chain": "MegaETH",
-    "action": "Bridge ke mainnet, interaksi dengan dApps",
-    "deadline": "Ongoing",
-    "status": "confirmed",
-    "category": "L2",
-    "link": "https://megaeth.com",
-    "estimated": "Belum ada token, airdrop dikonfirmasi",
-    "verified": true,
-    "notes": "Real-time L2, 100k TPS. Airdrops.io: 372 vote, CONFIRMED."
-  },
-  {
     "project": "Polymarket",
     "symbol": "TBD",
     "chain": "Polygon",
@@ -23,7 +10,7 @@
     "link": "https://polymarket.com",
     "estimated": "Belum ada token, airdrop dikonfirmasi",
     "verified": true,
-    "notes": "Platform prediksi terbesar. Airdrops.io: 244 vote, CONFIRMED."
+    "notes": "Platform prediksi terbesar. Airdrops.io: CONFIRMED."
   },
   {
     "project": "Ink",
@@ -36,7 +23,7 @@
     "link": "https://inkonchain.com",
     "estimated": "Belum ada token, airdrop dikonfirmasi",
     "verified": true,
-    "notes": "L2 dari Kraken. Airdrops.io: 245 vote, CONFIRMED."
+    "notes": "L2 dari Kraken. Airdrops.io: CONFIRMED."
   },
   {
     "project": "Dango",
@@ -49,20 +36,7 @@
     "link": "https://dango.xyz",
     "estimated": "Belum ada token, airdrop dikonfirmasi",
     "verified": true,
-    "notes": "Perp DEX. Airdrops.io: 210 vote, CONFIRMED."
-  },
-  {
-    "project": "Grass",
-    "symbol": "TBD",
-    "chain": "Solana",
-    "action": "Install extension, jalankan node, kumpulkan poin",
-    "deadline": "Ongoing (Epoch 3)",
-    "status": "confirmed",
-    "category": "DePIN",
-    "link": "https://getgrass.io",
-    "estimated": "Belum ada token, airdrop dikonfirmasi",
-    "verified": true,
-    "notes": "DePIN bandwidth. Airdrops.io: CONFIRMED."
+    "notes": "Perp DEX. Airdrops.io: CONFIRMED."
   },
   {
     "project": "Soneium",
@@ -76,19 +50,6 @@
     "estimated": "Belum ada token",
     "verified": true,
     "notes": "L2 dari Sony. Masih dalam fase awal."
-  },
-  {
-    "project": "Farcaster",
-    "symbol": "TBD",
-    "chain": "Farcaster Protocol",
-    "action": "Aktif di Warpcast, buat konten, bangun client",
-    "deadline": "Ongoing",
-    "status": "active",
-    "category": "Social",
-    "link": "https://farcaster.xyz",
-    "estimated": "Belum ada token",
-    "verified": true,
-    "notes": "Protocol social terdesentralisasi. Belum ada token."
   },
   {
     "project": "Eclipse",
@@ -114,20 +75,7 @@
     "link": "https://hyperliquid.xyz",
     "estimated": "Token sudah ada (HYPE), Season 2 points berjalan",
     "verified": true,
-    "notes": "Token HYPE sudah launch (rank #13, ~$42). Season 2 points/rewards ongoing, bukan airdrop baru."
-  },
-  {
-    "project": "Kinto",
-    "symbol": "TBD",
-    "chain": "Kinto (Ethereum L2)",
-    "action": "KYC, bridge, swap, lend/borrow",
-    "deadline": "Ongoing (Kinto Points)",
-    "status": "active",
-    "category": "L2",
-    "link": "https://kinto.xyz",
-    "estimated": "Belum ada token",
-    "verified": true,
-    "notes": "L2 dengan KYC built-in. Belum ada token di CoinGecko."
+    "notes": "Token HYPE sudah launch (rank #13, ~$42). Season 2 points/rewards ongoing."
   },
   {
     "project": "Juice",
@@ -140,7 +88,7 @@
     "link": "https://juice.finance",
     "estimated": "Belum ada token",
     "verified": true,
-    "notes": "DeFi lending di Solana. Belum ada token."
+    "notes": "DeFi lending di Solana. Belum ada token di CoinGecko."
   },
   {
     "project": "DogeOS",

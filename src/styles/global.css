@@ -2,13 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  --primary: #059669;
-  --primary-light: #10B981;
-  --primary-dark: #047857;
-  --accent: #7C3AED;
-  --accent-light: #A78BFA;
+  --primary: #1A5DE3;
+  --primary-light: #3A7FEE;
+  --primary-dark: #0D47A1;
+  --accent: #23D1BE;
+  --accent-light: #5EEAD4;
   --accent-pink: #EC4899;
-  --accent-blue: #0EA5E9;
+  --accent-blue: #06B6D4;
   --accent-orange: #F59E0B;
   --bg: #FAFAFA;
   --bg-elevated: #FFFFFF;
@@ -20,14 +20,14 @@
   --text-muted: #A1A1AA;
   --border: #E4E4E7;
   --border-light: #D4D4D8;
-  --gradient-hero: linear-gradient(135deg, rgba(5, 150, 105, 0.06) 0%, rgba(124, 58, 237, 0.06) 50%, rgba(14, 165, 233, 0.04) 100%);
-  --gradient-card: linear-gradient(135deg, rgba(5, 150, 105, 0.03) 0%, rgba(124, 58, 237, 0.03) 100%);
-  --gradient-accent: linear-gradient(135deg, #059669, #7C3AED);
-  --gradient-glow: radial-gradient(ellipse at 50% 0%, rgba(5, 150, 105, 0.1) 0%, transparent 60%);
+  --gradient-hero: linear-gradient(135deg, rgba(26, 93, 227, 0.06) 0%, rgba(35, 209, 190, 0.06) 50%, rgba(58, 127, 238, 0.04) 100%);
+  --gradient-card: linear-gradient(135deg, rgba(26, 93, 227, 0.03) 0%, rgba(35, 209, 190, 0.03) 100%);
+  --gradient-accent: linear-gradient(135deg, #1A5DE3, #23D1BE);
+  --gradient-glow: radial-gradient(ellipse at 50% 0%, rgba(26, 93, 227, 0.1) 0%, transparent 60%);
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.1);
-  --shadow-glow: 0 0 40px rgba(5, 150, 105, 0.06);
+  --shadow-glow: 0 0 40px rgba(26, 93, 227, 0.06);
   --radius-sm: 8px;
   --radius: 12px;
   --radius-lg: 16px;
@@ -94,7 +94,7 @@ code, pre {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent 0%, rgba(99,102,241,0.15) 30%, rgba(16,185,129,0.15) 70%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(26,93,227,0.15) 30%, rgba(35,209,190,0.15) 70%, transparent 100%);
   pointer-events: none;
 }
 
@@ -148,7 +148,7 @@ code, pre {
   letter-spacing: 0.01em;
 }
 .nav a:hover {
-  background: rgba(99,102,241,0.06);
+  background: rgba(26,93,227,0.06);
   color: var(--text-primary);
 }
 .nav a.active {
@@ -185,7 +185,7 @@ code, pre {
 .nav-search-link:hover {
   border-color: var(--primary) !important;
   color: var(--primary) !important;
-  background: rgba(99,102,241,0.04) !important;
+  background: rgba(26,93,227,0.04) !important;
 }
 .nav-search-link svg {
   width: 14px;
@@ -221,7 +221,7 @@ code, pre {
 /* ===== PROFESSIONAL TICKER ===== */
 .ticker-bar {
   background: linear-gradient(135deg, rgba(15,23,42,0.97) 0%, rgba(30,41,59,0.97) 100%);
-  border-bottom: 1px solid rgba(99,102,241,0.15);
+  border-bottom: 1px solid rgba(26,93,227,0.15);
   overflow: hidden;
   position: relative;
   backdrop-filter: blur(12px);
@@ -235,7 +235,7 @@ code, pre {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent 0%, rgba(99,102,241,0.4) 30%, rgba(16,185,129,0.4) 70%, transparent 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(26,93,227,0.4) 30%, rgba(35,209,190,0.4) 70%, transparent 100%);
 }
 
 .ticker-marquee {
@@ -330,7 +330,7 @@ code, pre {
 }
 
 .ticker-up {
-  color: #34d399;
+  color: #23D1BE;
   background: rgba(52,211,153,0.12);
 }
 
@@ -394,7 +394,7 @@ code, pre {
   position: absolute;
   inset: 0;
   background: radial-gradient(ellipse at 30% 50%, rgba(37, 99, 235, 0.15), transparent 60%),
-              radial-gradient(ellipse at 70% 80%, rgba(16, 185, 129, 0.1), transparent 50%);
+              radial-gradient(ellipse at 70% 80%, rgba(35, 209, 190, 0.1), transparent 50%);
   pointer-events: none;
 }
 
@@ -431,7 +431,7 @@ code, pre {
 .hero-badge-dot {
   width: 6px;
   height: 6px;
-  background: #10B981;
+  background: #3A7FEE;
   border-radius: 50%;
   animation: pulse 2s ease-in-out infinite;
 }
@@ -595,7 +595,7 @@ code, pre {
   min-width: 24px;
   height: 24px;
   background: rgba(16, 185, 129, 0.3);
-  color: #10B981;
+  color: #3A7FEE;
   font-size: 0.7rem;
   font-weight: 700;
   border-radius: 6px;
@@ -614,7 +614,7 @@ code, pre {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  color: #10B981;
+  color: #3A7FEE;
 }
 
 .hero-trending-name {
@@ -649,7 +649,7 @@ code, pre {
 }
 
 .btn-primary {
-  background: #10B981;
+  background: #3A7FEE;
   color: white;
 }
 .btn-primary:hover {

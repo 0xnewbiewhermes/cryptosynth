@@ -1,0 +1,134 @@
+[
+  {
+    "project": "Hyperliquid",
+    "symbol": "HYPE",
+    "chain": "Hyperliquid L1",
+    "action": "Trade perpetuals, provide liquidity, earn points",
+    "deadline": "Ongoing (Season 2)",
+    "status": "active",
+    "category": "DeFi",
+    "link": "https://hyperliquid.xyz",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Monad",
+    "symbol": "MON",
+    "chain": "Monad",
+    "action": "Deploy testnet, interact with dApps, run node",
+    "deadline": "Q2 2026 (est.)",
+    "status": "active",
+    "category": "L1",
+    "link": "https://monad.xyz",
+    "estimated": "TBD"
+  },
+  {
+    "project": "MegaETH",
+    "symbol": "TBD",
+    "chain": "MegaETH",
+    "action": "Join testnet, deploy contracts, provide feedback",
+    "deadline": "Ongoing",
+    "status": "active",
+    "category": "L2",
+    "link": "https://megaeth.com",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Linea",
+    "symbol": "LINEA",
+    "chain": "Linea (Ethereum L2)",
+    "action": "Bridge, swap, mint NFT, DeFi activities",
+    "deadline": "Ongoing (LXP-L Season 2)",
+    "status": "active",
+    "category": "L2",
+    "link": "https://linea.build",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Soneium",
+    "symbol": "TBD",
+    "chain": "Soneium (Sony L2)",
+    "action": "Bridge assets, use dApps on Soneium mainnet",
+    "deadline": "Ongoing",
+    "status": "active",
+    "category": "L2",
+    "link": "https://soneium.org",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Berachain",
+    "symbol": "BERA",
+    "chain": "Berachain",
+    "action": "Provide liquidity on BEX, use Bartio testnet",
+    "deadline": "Ongoing (Boyco vaults)",
+    "status": "active",
+    "category": "L1",
+    "link": "https://berachain.com",
+    "estimated": "Already launched, vault rewards pending"
+  },
+  {
+    "project": "Eclipse",
+    "symbol": "TBD",
+    "chain": "Eclipse (SVM L2)",
+    "action": "Bridge ETH/SOL, swap on dApps, provide LP",
+    "deadline": "Ongoing",
+    "status": "active",
+    "category": "L2",
+    "link": "https://eclipse.xyz",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Plume Network",
+    "symbol": "PLUME",
+    "chain": "Plume",
+    "action": "Bridge RWA assets, complete quests, stake",
+    "deadline": "Ongoing (Plume Passport)",
+    "status": "active",
+    "category": "RWA",
+    "link": "https://plumenetwork.xyz",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Kinto",
+    "symbol": "TBD",
+    "chain": "Kinto (Ethereum L2)",
+    "action": "KYC, bridge, swap, lend/borrow",
+    "deadline": "Ongoing (Kinto Points)",
+    "status": "active",
+    "category": "L2",
+    "link": "https://kinto.xyz",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Farcaster",
+    "symbol": "TBD",
+    "chain": "Farcaster Protocol",
+    "action": "Active on Warpcast, create content, build client",
+    "deadline": "Ongoing",
+    "status": "active",
+    "category": "Social",
+    "link": "https://farcaster.xyz",
+    "estimated": "TBD"
+  },
+  {
+    "project": "Juice",
+    "symbol": "TBD",
+    "chain": "Juice (Solana)",
+    "action": "Lend/borrow, provide liquidity on Juice",
+    "deadline": "Ongoing (Juice Season)",
+    "status": "active",
+    "category": "DeFi",
+    "link": "https://juice.finance",
+    "estimated": "TBD"
+  },
+  {
+    "project": "DogeOS",
+    "symbol": "TBD",
+    "chain": "Dogecoin",
+    "action": "Complete quests, social tasks",
+    "deadline": "Ongoing",
+    "status": "active",
+    "category": "L1",
+    "link": "https://dogeos.com",
+    "estimated": "TBD"
+  }
+]

@@ -1,0 +1,120 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import airdropsData from '../data/airdrops.json';
+
+const statusLabels = {
+  active: { text: 'Aktif', color: 'status-active' },
+  upcoming: { text: 'Segera', color: 'status-upcoming' },
+  ended: { text: 'Berakhir', color: 'status-ended' },
+  confirmed: { text: 'Terkonfirmasi', color: 'status-confirmed' },
+};
+
+const categories = [...new Set(airdropsData.map(a => a.category))].sort();
+---
+
+<BaseLayout title="Airdrop Tracker - CryptoSynth" description="Daftar airdrop crypto aktif terbaru. Project, aksi yang diperlukan, deadline, dan status. Update berkala dari sumber terpercaya.">
+  <div class="tracker-page container">
+    <div class="tracker-header">
+      <h1 class="tracker-title">🪂 Airdrop Tracker</h1>
+      <p class="tracker-subtitle">Daftar airdrop crypto aktif yang sedang berlangsung. Riset mandiri (DYOR) sebelum ikut.</p>
+    </div>
+
+    <div class="tracker-filters">
+      <div class="filter-group">
+        <label class="filter-label">Kategori:</label>
+        <div class="filter-pills" id="categoryFilters">
+          <button class="filter-pill active" data-category="all">Semua</button>
+          {categories.map(cat => (
+            <button class="filter-pill" data-category={cat}>{cat}</button>
+          ))}
+        </div>
+      </div>
+      <div class="filter-group">
+        <label class="filter-label">Cari:</label>
+        <input type="text" id="trackerSearch" class="tracker-search-input" placeholder="Nama project..." />
+      </div>
+    </div>
+
+    <div class="tracker-count">
+      Menampilkan <strong id="visibleCount">{airdropsData.length}</strong> dari <strong>{airdropsData.length}</strong> airdrop
+    </div>
+
+    <div class="tracker-table-wrap">
+      <table class="tracker-table" id="airdropTable">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th class="hide-mobile">Chain</th>
+            <th>Aksi</th>
+            <th class="hide-mobile">Deadline</th>
+            <th>Status</th>
+            <th class="hide-mobile">Estimasi</th>
+          </tr>
+        </thead>
+        <tbody>
+          {airdropsData.map((airdrop) => (
+            <tr data-category={airdrop.category} data-project={airdrop.project.toLowerCase()}>
+              <td>
+                <a href={airdrop.link} target="_blank" rel="noopener noreferrer" class="project-link">
+                  <span class="project-name">{airdrop.project}</span>
+                  {airdrop.symbol && <span class="project-symbol">{airdrop.symbol}</span>}
+                </a>
+              </td>
+              <td class="hide-mobile"><span class="chain-badge">{airdrop.chain}</span></td>
+              <td class="action-cell">{airdrop.action}</td>
+              <td class="hide-mobile deadline-cell">{airdrop.deadline}</td>
+              <td>
+                <span class={`status-badge ${statusLabels[airdrop.status]?.color || 'status-active'}`}>
+                  {statusLabels[airdrop.status]?.text || airdrop.status}
+                </span>
+              </td>
+              <td class="hide-mobile estimate-cell">{airdrop.estimated}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tracker-disclaimer">
+      <strong>Disclaimer:</strong> Informasi di halaman ini bersifat informatif dan bukan saran investasi. Selalu verifikasi dari sumber resmi project sebelum berpartisipasi. Airdrop bisa berubah sewaktu-waktu tanpa pemberitahuan.
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  // Category filter
+  const pills = document.querySelectorAll('.filter-pill');
+  const rows = document.querySelectorAll('#airdropTable tbody tr');
+  const searchInput = document.getElementById('trackerSearch');
+  const countEl = document.getElementById('visibleCount');
+  let activeCategory = 'all';
+
+  function updateCount() {
+    const visible = document.querySelectorAll('#airdropTable tbody tr:not([style*="display: none"])').length;
+    countEl.textContent = visible;
+  }
+
+  function filterRows() {
+    const query = searchInput.value.toLowerCase().trim();
+    rows.forEach(row => {
+      const cat = row.dataset.category;
+      const project = row.dataset.project;
+      const text = row.textContent.toLowerCase();
+      const catMatch = activeCategory === 'all' || cat === activeCategory;
+      const searchMatch = !query || text.includes(query);
+      row.style.display = (catMatch && searchMatch) ? '' : 'none';
+    });
+    updateCount();
+  }
+
+  pills.forEach(pill => {
+    pill.addEventListener('click', () => {
+      pills.forEach(p => p.classList.remove('active'));
+      pill.classList.add('active');
+      activeCategory = pill.dataset.category;
+      filterRows();
+    });
+  });
+
+  searchInput.addEventListener('input', filterRows);
+</script>

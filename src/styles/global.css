@@ -466,7 +466,7 @@ code, pre {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   width: fit-content;
 }
 
@@ -512,14 +512,14 @@ code, pre {
 
 /* ===== ARTICLE PAGE ===== */
 .article-header {
-  padding: 3rem 0 2rem;
+  padding: 1.5rem 0 1rem;
   text-align: center;
   border-bottom: 1px solid var(--border);
 }
 
 .article-hero {
   max-width: 900px;
-  margin: 0 auto 2rem;
+  margin: 0 auto 0.75rem;
   border-radius: var(--radius-md);
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
@@ -535,7 +535,7 @@ code, pre {
 .article-header h1 {
   font-size: 2.5rem;
   max-width: 800px;
-  margin: 0 auto 1rem;
+  margin: 0 auto 0.4rem;
   padding: 0 1rem;
   letter-spacing: -0.03em;
 }
@@ -1159,9 +1159,9 @@ code, pre {
   .card-content { padding: 1.25rem; }
   .card-title { font-size: 1.05rem; }
 
-  .article-header { padding: 2rem 0 1.5rem; }
+  .article-header { padding: 1rem 0 0.75rem; }
   .article-body { padding: 1.5rem 1rem 2.5rem; font-size: 0.95rem; }
-  .article-header { padding: 2rem 1rem 1.5rem; }
+  .article-header { padding: 1rem 1rem 0.75rem; }
   .article-header h1 { font-size: 1.6rem; padding: 0; }
   .article-body h2 { font-size: 1.3rem; }
 

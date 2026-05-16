@@ -6,7 +6,15 @@ pubDate: 2026-05-15T15:14:23+07:00
 category: "Funding"
 tags: ["cerebras", "ipo", "saham ai", "token ai", "funding", "pasar crypto", "nvidia"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Apa itu funding round di crypto?"
+    answer: "Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project."
+  - question: "Apa yang perlu diketahui tentang Cerebras IPO $5?"
+    answer: "Saham Cerebras melonjak 100% setelah IPO senilai $5,5 miliar di tengah euforia saham AI. Analisis dampaknya terhadap pasar crypto dan token AI."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Cerebras, perusahaan infrastruktur AI, melihat sahamnya melonjak 100% setelah IPO senilai $5,5 miliar. Euforia saham AI ini juga berdampak pada pasar crypto, terutama token-token terkait AI di blockchain. Investor mulai melihat korelasi antara boom AI dan potensi crypto AI.
 

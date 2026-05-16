@@ -10,15 +10,16 @@ interface Props {
   modifiedDate?: string;
   category?: string;
   tags?: string[];
+  faq?: { question: string; answer: string }[];
 }
 
-const { title, description, image, type = 'website', publishDate, modifiedDate, category, tags = [] } = Astro.props;
+const { title, description, image, type = 'website', publishDate, modifiedDate, category, tags = [], faq = [] } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="id">
   <head>
-    <SeoHead {title} {description} {image} {type} {publishDate} {modifiedDate} {category} {tags} />
+    <SeoHead {title} {description} {image} {type} {publishDate} {modifiedDate} {category} {tags} {faq} />
     <link rel="alternate" type="application/rss+xml" title="CryptoSynth.id RSS" href="/rss.xml" />
     <link rel="icon" type="image/png" href="/favicon.png" />
   </head>

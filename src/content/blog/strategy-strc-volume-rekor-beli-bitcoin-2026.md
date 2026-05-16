@@ -6,7 +6,15 @@ pubDate: 2026-05-15T17:30:34+07:00
 category: "Funding"
 tags: ["strategy", "strc", "bitcoin", "treasury", "perpetual-preferred", "michael-saylor", "institutional"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Apa itu funding round di crypto?"
+    answer: "Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Saham perpetual preferred STRC milik Strategy mencatat volume perdagangan harian rekor sebesar $1,53 miliar. Dengan model dividen 11,5%, instrumen ini menjadi sumber dana utama Strategy untuk membeli Bitcoin di tengah pasar bearish 2026.
 

@@ -6,7 +6,15 @@ pubDate: 2026-05-16T11:30:33+07:00
 category: "Berita"
 tags: ["bitcoin depot", "crypto atm", "SEC", "regulasi", "saham crypto"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Faktor apa yang mempengaruhi pergerakan harga ini?"
+    answer: "Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Bitcoin Depot keluarkan peringatan going concern di SEC filing. Revenue turun 49%, gugatan dari negara bagian, dan peret"
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Bitcoin Depot, operator ATM crypto terbesar di dunia, mengeluarkan peringatan "going concern" di SEC filing karena rugi bersih $9,5 juta di Q1 2026, revenue anjlok 49%, dan menghadapi gugatan dari beberapa negara bagian AS.
 

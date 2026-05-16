@@ -6,7 +6,15 @@ pubDate: 2026-05-15T15:14:23+07:00
 category: "Funding"
 tags: ["turnkey", "funding crypto", "circle ventures", "sequoia capital", "infrastruktur blockchain", "keamanan crypto"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Apa itu funding round di crypto?"
+    answer: "Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project."
+  - question: "Apa yang perlu diketahui tentang Turnkey Raih $12?"
+    answer: "Startup infrastruktur crypto Turnkey kumpulkan $12,5 juta dalam pendanaan baru yang dipimpin Circle Ventures dan Sequoia Capital untuk kembangkan Verifiable Cloud."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Turnkey, startup infrastruktur keamanan digital assets, berhasil mengumpulkan $12,5 juta dalam putaran pendanaan baru yang didukung oleh Circle Ventures dan Sequoia Capital. Dana ini akan digunakan untuk meluncurkan produk "Verifiable Cloud" yang memungkinkan komputasi aman untuk aset digital.
 

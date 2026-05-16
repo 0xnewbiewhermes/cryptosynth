@@ -10,6 +10,10 @@ const blog = defineCollection({
     category: z.string().default('Berita'),
     tags: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
+    faq: z.array(z.object({
+      question: z.string(),
+      answer: z.string(),
+    })).default([]),
   }),
 });
 

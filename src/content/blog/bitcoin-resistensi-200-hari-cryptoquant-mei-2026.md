@@ -5,7 +5,15 @@ excerpt: "Bitcoin rally 6 minggu terhenti di resistensi historis 200-day MA, Cry
 pubDate: 2026-05-14T17:34:14+07:00
 category: "Berita"
 tags: ["bitcoin", "btc", "harga bitcoin hari ini", "cryptoquant", "prediksi crypto", "analisis teknikal", "bear market"]
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Apa yang perlu diketahui tentang Bitcoin Hadapi Resistensi 200 Hari?"
+    answer: "Bitcoin menghadapi resistensi kuat di moving average 200 hari sekitar $82.400. CryptoQuant peringatkan pola mirip bear market 2022, trader sudah ambil untung 14.600 BTC."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 <div class="tldr-box">
 <strong>TL;DR:</strong> Bitcoin rally selama 6 minggu terhenti di zona resistensi 200-day moving average sekitar $82.000–$82.500. CryptoQuant memperingatkan bahwa pola ini mirip dengan Maret 2022, ketika BTC gagal menembus level yang sama sebelum jatuh lebih dalam. Trader sudah mulai ambil untung besar-besaran, 14.600 BTC senilai $1,2 miliar dicairkan pada 4 Mei.

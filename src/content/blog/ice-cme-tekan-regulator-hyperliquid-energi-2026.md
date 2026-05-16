@@ -6,7 +6,13 @@ pubDate: 2026-05-16T08:30:44+07:00
 category: "Berita"
 tags: ["hyperliquid", "hype", "ICE", "CME", "CFTC", "derivatif", "DeFi", "perpetual"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Apa yang perlu diketahui tentang ICE dan CME Tekan Regulator AS Awasi Hyperliquid?"
+    answer: "Bursa tradisional ICE dan CME mendesak CFTC untuk mengawasi Hyperliquid karena risiko manipulasi pasar energi. Apa dampaknya bagi holder HYPE?"
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Intercontinental Exchange (ICE) dan Chicago Mercantile Exchange (CME) mendesak regulator AS untuk mengawasi Hyperliquid karena derivatif energi onchain-nya dianggap berisiko manipulasi dan penghindaran sanksi. Token HYPE tetap bertahan di sekitar $43 meski tekanan meningkat.
 

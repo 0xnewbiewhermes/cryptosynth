@@ -5,7 +5,15 @@ excerpt: "Pengguna anonim Cprkrn menggunakan Claude AI untuk menemukan file back
 pubDate: 2026-05-14T14:33:30+07:00
 category: "Berita"
 tags: ["bitcoin", "claude ai", "anthropic", "seed phrase", "wallet recovery", "AI crypto"]
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Apa yang perlu diketahui tentang Claude AI Bantu Pulihkan 5 Bitcoin Senilai Rp6 Miliar dari W?"
+    answer: "Seorang Bitcoiner berhasil pulihkan 5 BTC senilai $395.000 setelah terkunci selama 11 tahun. Claude AI menemukan file backup wallet di komputer kuliah lama."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Seorang Bitcoiner anonim menggunakan Anthropic Claude untuk memulihkan 5 BTC senilai sekitar $395.000 (Rp6,2 miliar) yang terkunci selama lebih dari satu dekade. Claude menemukan file backup wallet lama di komputer kuliah pengguna, bukan meretas kriptografi Bitcoin.
 

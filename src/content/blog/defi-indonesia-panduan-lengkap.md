@@ -5,7 +5,15 @@ excerpt: "Panduan lengkap DeFi untuk pemula Indonesia. Cara menghasilkan passive
 pubDate: 2026-05-12T19:45:46+07:00
 category: "DeFi"
 tags: ["DeFi", "yield farming", "staking", "passive income", "blockchain", "Ethereum"]
+faq:
+  - question: "Apa risiko utama DeFi?"
+    answer: "Risiko utama DeFi termasuk smart contract exploit, impermanent loss, rug pull, dan liquidasi. Selalu DYOR dan gunakan protocol yang sudah audit."
+  - question: "Apa yang perlu diketahui tentang DeFi Indonesia 2026?"
+    answer: "Panduan DeFi Indonesia 2026. Pelajari cara yield farming, staking, dan lending di decentralized finance untuk passive income crypto."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 <div class="tldr-box">
 <strong>TL;DR:</strong> DeFi memungkinkan kamu menghasilkan passive income dari crypto tanpa perantara bank. Pelajari cara staking, yield farming, dan lending di sini.

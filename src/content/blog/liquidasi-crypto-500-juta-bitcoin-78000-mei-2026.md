@@ -6,7 +6,15 @@ pubDate: 2026-05-16T17:30:22+07:00
 category: "Berita"
 tags: ["bitcoin", "liquidasi", "koreksi", "pasar crypto", "inflasi", "obligasi"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Faktor apa yang mempengaruhi pergerakan harga ini?"
+    answer: "Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Long senilai $581 juta terliquidasi dalam 24 jam karena Bitcoin turun ke $78.000. Dipicu inflasi panas dan imbal obligas"
+  - question: "Apa itu liquidasi dalam trading crypto?"
+    answer: "Liquidasi terjadi saat posisi leverage trader ditutup paksa oleh exchange karena margin tidak mencukupi. Biasanya terjadi saat harga bergerak drastis berlawanan posisi."
 ---
+
 
 > **TL;DR:** Lebih dari $581 juta posisi crypto terliquidasi dalam 24 jam, dengan 95% di antaranya adalah posisi long. Bitcoin anjlok 3% ke $78.000, sementara SOL dan XRP masing-masing turun 5% dan 4,3%.
 

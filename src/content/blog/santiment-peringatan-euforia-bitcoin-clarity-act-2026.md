@@ -6,7 +6,15 @@ pubDate: 2026-05-16T14:33:51+07:00
 category: "Berita"
 tags: ["bitcoin", "santiment", "clarity act", "sentimen pasar", "euforia", "regulasi crypto"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Apa dampak regulasi crypto terhadap pasar?"
+    answer: "Regulasi yang lebih jelas umumnya positif untuk pasar crypto jangka panjang karena meningkatkan kepercayaan institusional. Namun di jangka pendek bisa menyebabkan volatilitas."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Santiment mendeteksi lonjakan euforia di media sosial Bitcoin setelah CLARITY Act lolos voting komite Senat AS dengan skor 15-9. Rasio komentar bullish vs bearish mencapai 1,55:1, yang menurut Santiment bisa menjadi sinyal peringatan bagi trader jangka pendek.
 

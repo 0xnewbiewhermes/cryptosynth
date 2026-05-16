@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import FaqSection from '../../components/FaqSection.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -60,7 +61,7 @@ const shareUrl = `https://cryptosynth.id/blog/${post.id}`;
 const shareText = post.data.title;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} category={post.data.category} tags={post.data.tags}>
+<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} category={post.data.category} tags={post.data.tags} faq={post.data.faq}>
   <article class="article-page">
     <!-- Article Header -->
     <div class="article-header">
@@ -113,6 +114,9 @@ const shareText = post.data.title;
             </a>
           </div>
         </div>
+
+        <!-- FAQ Section -->
+        <FaqSection items={post.data.faq || []} />
 
         <!-- Related Articles -->
         {relatedPosts.length > 0 && (

@@ -5,7 +5,15 @@ excerpt: "Bank raksasa JPMorgan Chase menambah kepemilikan Bitcoin ETF BlackRock
 pubDate: 2026-05-14T23:33:43+07:00
 category: "Berita"
 tags: ["jpmorgan", "bitcoin etf", "ibit", "blackrock", "13f filing", "institusional", "crypto"]
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Apa itu Bitcoin ETF dan mengapa penting?"
+    answer: "Bitcoin ETF adalah produk investasi yang memungkinkan investor mendapat eksposur harga Bitcoin tanpa perlu membeli langsung. ETF spot Bitcoin disetujui SEC AS pada Januari 2024."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** JPMorgan Chase meningkatkan kepemilikan saham di BlackRock iShares Bitcoin Trust (IBIT) sebesar 174% pada Q1 2026, dari sekitar 3 juta menjadi 8,3 juta saham, meskipun harga Bitcoin turun lebih dari 22% di periode yang sama.
 

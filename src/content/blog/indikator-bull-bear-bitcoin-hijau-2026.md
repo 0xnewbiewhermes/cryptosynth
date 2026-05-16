@@ -5,7 +5,15 @@ excerpt: "Sinyal bullish langka dari CryptoQuant dan pemulihan BTC ke $81.000 me
 pubDate: 2026-05-13T12:04:47+07:00
 category: "Berita"
 tags: ["bitcoin", "btc", "harga bitcoin hari ini", "prediksi crypto", "bull market", "cryptoquant"]
+faq:
+  - question: "Berapa harga Bitcoin saat ini?"
+    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
+  - question: "Apa yang perlu diketahui tentang Indikator Bull-Bear Bitcoin Hijau Pertama Sejak 2023?"
+    answer: "Indikator bull-bear CryptoQuant berwarna hijau pertama kali sejak Maret 2023. Bitcoin pulih ke $81.000 pasca data CPI panas, dana kripto masuk $858 juta."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 <div class="tldr-box">
 <strong>TL;DR:</strong> Indikator bull-bear Cycle CryptoQuant berubah hijau untuk pertama kalinya sejak Maret 2023, menandakan potensi pergeseran fase dari bearish ke pemulihan. Bitcoin sendiri pulih ke $81.200 setelah sempat turun ke $79.800 akibat data CPI AS yang lebih panas dari perkiraan, sementara dana kripto global mencatat arus masuk $858 juta dalam sepekan.

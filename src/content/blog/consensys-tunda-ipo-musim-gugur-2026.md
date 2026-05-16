@@ -5,7 +5,13 @@ excerpt: "Perusahaan yang dibangun oleh co-founder Ethereum Joe Lubin ini terpak
 pubDate: 2026-05-14T02:33:23+07:00
 category: "Berita"
 tags: ["consensys", "metamask", "IPO", "ethereum", "jpmorgan", "goldman-sachs", "crypto-ipo"]
+faq:
+  - question: "Apa yang perlu diketahui tentang Consensys Tunda IPO hingga Musim Gugur 2026?"
+    answer: "Consensys, perusahaan di balik MetaMask, tunda rencana IPO ke musim gugur 2026 karena kondisi pasar crypto yang buruk. Padahal sudah gandeng JPMorgan dan Goldman Sachs."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 <div class="tldr-box">
 <strong>TL;DR:</strong> Consensys, perusahaan di balik wallet MetaMask, menunda rencana IPO di AS hingga musim gugur 2026 karena kondisi pasar crypto yang buruk. Padahal mereka sudah menggandeng JPMorgan dan Goldman Sachs untuk memimpin proses tersebut.

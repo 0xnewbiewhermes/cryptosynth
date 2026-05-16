@@ -6,7 +6,13 @@ pubDate: 2026-05-16T05:30:32+07:00
 category: "Berita"
 tags: ["tokenisasi", "RWA", "Saudi Arabia", "droppRWA", "blockchain", "real estate"]
 author: "CryptoSynth Research"
+faq:
+  - question: "Apa yang perlu diketahui tentang Saudi Arabia Tokenisasi Ekonomi Triliunan Dolar Lewat Blockc?"
+    answer: "Saudi Arabia tokenisasi real estate senilai $12,5 miliar lewat droppRWA. Transaksi sertifikat properti pertama di dunia yang berbasis blockchain sovereign-grade."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 > **TL;DR:** Saudi Arabia menyelesaikan transaksi sertifikat properti berbasis blockchain pertama di dunia melalui droppRWA, dengan mandat senilai $12,5 miliar untuk tokenisasi real estate. Targetnya, settlement stablecoin untuk real estate sudah berjalan pada akhir 2026.
 

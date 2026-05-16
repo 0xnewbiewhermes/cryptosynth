@@ -5,7 +5,15 @@ excerpt: "Perbandingan wallet crypto terbaik untuk pemula. Dari hot wallet grati
 pubDate: 2026-05-12T19:45:46+07:00
 category: "Tutorial"
 tags: ["wallet", "crypto", "MetaMask", "Trust Wallet", "Ledger", "keamanan", "pemula"]
+faq:
+  - question: "Berapa modal minimal untuk memulai?"
+    answer: "Modal minimal tergantung platform. Untuk trading spot, mulai dari Rp100.000 di exchange Indonesia. Untuk DeFi, siapkan minimal $50-100 untuk gas fee."
+  - question: "Wallet crypto mana yang paling aman?"
+    answer: "Hardware wallet seperti Ledger atau Trezor paling aman karena private key offline. Untuk daily use, MetaMask (EVM) dan Phantom (Solana) populer."
+  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
+    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 <div class="tldr-box">
 <strong>TL;DR:</strong> Pilih wallet crypto berdasarkan kebutuhan: MetaMask untuk DeFi, Trust Wallet untuk mobile, Ledger untuk keamanan maksimal.

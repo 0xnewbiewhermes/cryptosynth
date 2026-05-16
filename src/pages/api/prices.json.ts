@@ -3,7 +3,7 @@ export const prerender = false;
 export async function GET() {
   try {
     const res = await fetch(
-      'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd&include_24hr_change=true',
+      'https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana,binancecoin,ripple,dogecoin,cardano&vs_currencies=usd&include_24hr_change=true&include_24hr_vol=true&include_market_cap=true',
       { headers: { 'Accept': 'application/json' } }
     );
     

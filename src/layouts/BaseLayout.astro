@@ -46,22 +46,93 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         </nav>
       </div>
     </header>
+    <!-- Professional Live Price Ticker -->
     <div class="ticker-bar" id="tickerBar">
-      <div class="ticker-inner">
-        <div class="ticker-item" id="ticker-btc">
-          <span class="ticker-symbol">BTC</span>
-          <span class="ticker-price">--</span>
-          <span class="ticker-change">--</span>
-        </div>
-        <div class="ticker-item" id="ticker-eth">
-          <span class="ticker-symbol">ETH</span>
-          <span class="ticker-price">--</span>
-          <span class="ticker-change">--</span>
-        </div>
-        <div class="ticker-item" id="ticker-sol">
-          <span class="ticker-symbol">SOL</span>
-          <span class="ticker-price">--</span>
-          <span class="ticker-change">--</span>
+      <div class="ticker-marquee">
+        <div class="ticker-track" id="tickerTrack">
+          <div class="ticker-item" id="ticker-btc" data-coin="bitcoin">
+            <svg class="ticker-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#F7931A"/><text x="16" y="21" text-anchor="middle" fill="#fff" font-size="14" font-weight="700">₿</text></svg>
+            <div class="ticker-info">
+              <span class="ticker-symbol">BTC</span>
+              <span class="ticker-price">--</span>
+            </div>
+            <div class="ticker-meta">
+              <span class="ticker-change">--</span>
+              <span class="ticker-vol">Vol: --</span>
+            </div>
+          </div>
+          <span class="ticker-divider"></span>
+          <div class="ticker-item" id="ticker-eth" data-coin="ethereum">
+            <svg class="ticker-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#627EEA"/><polygon points="16,4 8,16.5 16,22 24,16.5" fill="#fff" opacity="0.9"/><polygon points="16,22 8,16.5 16,28 24,16.5" fill="#fff" opacity="0.6"/></svg>
+            <div class="ticker-info">
+              <span class="ticker-symbol">ETH</span>
+              <span class="ticker-price">--</span>
+            </div>
+            <div class="ticker-meta">
+              <span class="ticker-change">--</span>
+              <span class="ticker-vol">Vol: --</span>
+            </div>
+          </div>
+          <span class="ticker-divider"></span>
+          <div class="ticker-item" id="ticker-sol" data-coin="solana">
+            <svg class="ticker-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#9945FF"/><path d="M8 20h16l-3 4H11z" fill="#fff"/><path d="M8 12h16l-3 4H11z" fill="#fff" opacity="0.8"/><path d="M8 16h16l-3 4H11z" fill="#fff" opacity="0.6"/></svg>
+            <div class="ticker-info">
+              <span class="ticker-symbol">SOL</span>
+              <span class="ticker-price">--</span>
+            </div>
+            <div class="ticker-meta">
+              <span class="ticker-change">--</span>
+              <span class="ticker-vol">Vol: --</span>
+            </div>
+          </div>
+          <span class="ticker-divider"></span>
+          <div class="ticker-item" id="ticker-bnb" data-coin="binancecoin">
+            <svg class="ticker-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#F3BA2F"/><text x="16" y="21" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">BNB</text></svg>
+            <div class="ticker-info">
+              <span class="ticker-symbol">BNB</span>
+              <span class="ticker-price">--</span>
+            </div>
+            <div class="ticker-meta">
+              <span class="ticker-change">--</span>
+              <span class="ticker-vol">Vol: --</span>
+            </div>
+          </div>
+          <span class="ticker-divider"></span>
+          <div class="ticker-item" id="ticker-xrp" data-coin="ripple">
+            <svg class="ticker-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#23292F"/><text x="16" y="21" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">X</text></svg>
+            <div class="ticker-info">
+              <span class="ticker-symbol">XRP</span>
+              <span class="ticker-price">--</span>
+            </div>
+            <div class="ticker-meta">
+              <span class="ticker-change">--</span>
+              <span class="ticker-vol">Vol: --</span>
+            </div>
+          </div>
+          <span class="ticker-divider"></span>
+          <div class="ticker-item" id="ticker-doge" data-coin="dogecoin">
+            <svg class="ticker-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#C2A633"/><text x="16" y="22" text-anchor="middle" fill="#fff" font-size="16" font-weight="700">Ð</text></svg>
+            <div class="ticker-info">
+              <span class="ticker-symbol">DOGE</span>
+              <span class="ticker-price">--</span>
+            </div>
+            <div class="ticker-meta">
+              <span class="ticker-change">--</span>
+              <span class="ticker-vol">Vol: --</span>
+            </div>
+          </div>
+          <span class="ticker-divider"></span>
+          <div class="ticker-item" id="ticker-ada" data-coin="cardano">
+            <svg class="ticker-icon" viewBox="0 0 32 32"><circle cx="16" cy="16" r="16" fill="#0033AD"/><text x="16" y="21" text-anchor="middle" fill="#fff" font-size="12" font-weight="700">₳</text></svg>
+            <div class="ticker-info">
+              <span class="ticker-symbol">ADA</span>
+              <span class="ticker-price">--</span>
+            </div>
+            <div class="ticker-meta">
+              <span class="ticker-change">--</span>
+              <span class="ticker-vol">Vol: --</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -149,10 +220,12 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         });
       })();
 
-      // Live price ticker — CoinGecko free API
+      // Professional live price ticker — CoinGecko API
       (function initTicker() {
-        var coins = { bitcoin: 'btc', ethereum: 'eth', solana: 'sol' };
-        var symbols = { bitcoin: 'BTC', ethereum: 'ETH', solana: 'SOL' };
+        var coins = {
+          bitcoin: 'btc', ethereum: 'eth', solana: 'sol',
+          binancecoin: 'bnb', ripple: 'xrp', dogecoin: 'doge', cardano: 'ada'
+        };
         var lastPrices = {};
 
         function formatPrice(price) {
@@ -161,18 +234,33 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           return '$' + price.toLocaleString('en-US', { minimumFractionDigits: 4, maximumFractionDigits: 4 });
         }
 
+        function formatVol(vol) {
+          if (vol >= 1e12) return '$' + (vol / 1e12).toFixed(1) + 'T';
+          if (vol >= 1e9) return '$' + (vol / 1e9).toFixed(1) + 'B';
+          if (vol >= 1e6) return '$' + (vol / 1e6).toFixed(1) + 'M';
+          return '$' + vol.toLocaleString('en-US', { maximumFractionDigits: 0 });
+        }
+
         function updateTicker(data) {
           Object.keys(coins).forEach(function(id) {
             var el = document.getElementById('ticker-' + coins[id]);
             if (!el || !data[id]) return;
             var priceEl = el.querySelector('.ticker-price');
             var changeEl = el.querySelector('.ticker-change');
+            var volEl = el.querySelector('.ticker-vol');
             var price = data[id].usd;
             var change = data[id].usd_24h_change || 0;
+            var vol = data[id].usd_24h_vol || 0;
 
             priceEl.textContent = formatPrice(price);
-            changeEl.textContent = (change >= 0 ? '+' : '') + change.toFixed(2) + '%';
+
+            var arrow = change >= 0 ? '▲' : '▼';
+            changeEl.textContent = arrow + ' ' + (change >= 0 ? '+' : '') + change.toFixed(2) + '%';
             changeEl.className = 'ticker-change ' + (change >= 0 ? 'ticker-up' : 'ticker-down');
+
+            if (volEl && vol > 0) {
+              volEl.textContent = 'Vol: ' + formatVol(vol);
+            }
 
             // Flash effect on price change
             if (lastPrices[id] && lastPrices[id] !== price) {
@@ -192,6 +280,14 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
 
         fetchPrices();
         setInterval(fetchPrices, 60000);
+      })();
+
+      // Duplicate ticker items for seamless marquee loop
+      (function initMarquee() {
+        var track = document.getElementById('tickerTrack');
+        if (!track) return;
+        var clone = track.innerHTML;
+        track.innerHTML = clone + clone;
       })();
     </script>
   </body>

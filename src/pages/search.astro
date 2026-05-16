@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Cari Artikel - CryptoSynth" description="Cari artikel berita crypto, DeFi, airdrop, dan tutorial di CryptoSynth.id">
+  <div class="search-page container">
+    <h1 class="search-page-title">Cari Artikel</h1>
+    <div class="search-box">
+      <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input
+        type="text"
+        id="searchInput"
+        class="search-input"
+        placeholder="Ketik judul, topik, atau tag..."
+        autocomplete="off"
+      />
+    </div>
+    <div id="searchResults" class="search-results">
+      <p class="search-hint">Mulai ketik untuk mencari artikel...</p>
+    </div>
+  </div>
+</BaseLayout>
+
+<script>
+  let searchIndex = [];
+  let loaded = false;
+
+  async function loadIndex() {
+    if (loaded) return;
+    try {
+      const res = await fetch('/search-index.json');
+      searchIndex = await res.json();
+      loaded = true;
+    } catch (e) {
+      console.error('Failed to load search index:', e);
+    }
+  }
+
+  function formatDate(isoStr) {
+    const d = new Date(isoStr);
+    return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
+  }
+
+  function search(query) {
+    const q = query.toLowerCase().trim();
+    if (!q) return [];
+
+    const terms = q.split(/\s+/);
+    return searchIndex.filter((item) => {
+      const haystack = `${item.title} ${item.description} ${item.excerpt} ${item.category} ${item.tags.join(' ')}`.toLowerCase();
+      return terms.every((t) => haystack.includes(t));
+    });
+  }
+
+  function renderResults(results, query) {
+    const container = document.getElementById('searchResults');
+    if (!query.trim()) {
+      container.innerHTML = '<p class="search-hint">Mulai ketik untuk mencari artikel...</p>';
+      return;
+    }
+    if (results.length === 0) {
+      container.innerHTML = `<p class="search-empty">Tidak ditemukan artikel untuk "<strong>${query}</strong>"</p>`;
+      return;
+    }
+    container.innerHTML = results.map((item) => `
+      <a href="/blog/${item.id}" class="search-result-card">
+        <img src="/images/hero/${item.id}.png" alt="${item.title}" class="search-result-img" loading="lazy" />
+        <div class="search-result-content">
+          <span class="search-result-category">${item.category}</span>
+          <h3 class="search-result-title">${item.title}</h3>
+          <p class="search-result-desc">${item.description}</p>
+          <span class="search-result-date">${formatDate(item.pubDate)}</span>
+        </div>
+      </a>
+    `).join('');
+  }
+
+  const input = document.getElementById('searchInput');
+  let debounceTimer;
+
+  input.addEventListener('input', async (e) => {
+    await loadIndex();
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+      const query = e.target.value;
+      const results = search(query);
+      renderResults(results, query);
+    }, 200);
+  });
+
+  // Focus input on page load
+  input.focus();
+</script>

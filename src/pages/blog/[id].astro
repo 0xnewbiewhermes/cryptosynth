@@ -14,6 +14,32 @@ export async function getStaticPaths() {
 const { post } = Astro.props;
 const { Content } = await render(post);
 
+// Parse FAQ from raw content (content collection may not pass nested arrays)
+import fs from 'node:fs';
+import path from 'node:path';
+import { fileURLToPath } from 'node:url';
+
+let faqItems: { question: string; answer: string }[] = [];
+try {
+  const __dirname = path.dirname(fileURLToPath(import.meta.url));
+  const rawPath = path.join(__dirname, '../../content/blog', `${post.id}.md`);
+  const raw = fs.readFileSync(rawPath, 'utf-8');
+  const fmMatch = raw.match(/^---\n([\s\S]*?)\n---/);
+  if (fmMatch) {
+    const fm = fmMatch[1];
+    const items = fm.match(/- question:\s*"([^"]+?)"\n\s+answer:\s*"([^"]+?)"/g);
+    if (items) {
+      faqItems = items.map((item) => {
+        const q = item.match(/question:\s*"([^"]+?)"/)?.[1] || '';
+        const a = item.match(/answer:\s*"([^"]+?)"/)?.[1] || '';
+        return { question: q, answer: a };
+      });
+    }
+  }
+} catch (e) {
+  faqItems = post.data.faq || [];
+}
+
 const formattedDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', {
   year: 'numeric',
   month: 'long',
@@ -61,7 +87,7 @@ const shareUrl = `https://cryptosynth.id/blog/${post.id}`;
 const shareText = post.data.title;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} category={post.data.category} tags={post.data.tags} faq={post.data.faq}>
+<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} category={post.data.category} tags={post.data.tags} faq={faqItems}>
   <article class="article-page">
     <!-- Article Header -->
     <div class="article-header">
@@ -116,7 +142,7 @@ const shareText = post.data.title;
         </div>
 
         <!-- FAQ Section -->
-        <FaqSection items={post.data.faq || []} />
+        <FaqSection items={faqItems} />
 
         <!-- Related Articles -->
         {relatedPosts.length > 0 && (

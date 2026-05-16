@@ -198,5 +198,30 @@
     "notes": "OS layer untuk Dogecoin. Quests ongoing. Masih testnet.",
     "verified": true,
     "lastVerified": "2026-05-16"
+  },
+  {
+    "project": "Base",
+    "symbol": "TBD",
+    "chain": "Base (Coinbase L2)",
+    "category": "L2",
+    "status": "active",
+    "risk": "medium",
+    "cost": "medium",
+    "costLabel": "$50",
+    "difficulty": "medium",
+    "sybil": "medium",
+    "network": "Mainnet",
+    "rewardConfidence": "high",
+    "action": "Interaksi dapp di Base (Bridge, trade, provide LP, buy/sell NFT, lending/borrowing)",
+    "deadline": "Ongoing",
+    "timeNeeded": "1-2 jam",
+    "wallet": "MetaMask, Rabby",
+    "estimated": "Belum ada token",
+    "link": "https://www.base.org/",
+    "announcement": "https://finance.yahoo.com/markets/crypto/articles/officially-explores-native-token-launch-183023813.html",
+    "tutorial": "",
+    "notes": "",
+    "verified": true,
+    "lastVerified": "2026-05-16"
   }
 ]

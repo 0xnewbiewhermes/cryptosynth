@@ -10,13 +10,15 @@ const posts = (await getCollection('blog')).sort(
 const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial'];
 ---
 
-<BaseLayout title="Semua Artikel — CryptoSynth">
-  <section class="container" style="padding-top: 3rem;">
-    <div class="section-header">
+<BaseLayout title="Semua Artikel — CryptoSynth.id" description="Seluruh artikel berita crypto, DeFi, airdrop, dan tutorial yang telah dipublikasikan oleh CryptoSynth.">
+  <div class="page-hero">
+    <div class="container">
       <h1>Semua Artikel</h1>
       <p>Seluruh artikel yang telah dipublikasikan oleh tim redaksi CryptoSynth.</p>
     </div>
+  </div>
 
+  <section class="container" style="padding-bottom: 4rem;">
     <!-- Category Filter -->
     <div class="category-filter" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
       {categories.map((cat) => (
@@ -27,12 +29,12 @@ const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial']
             padding: 0.4rem 1rem;
             border-radius: 999px;
             font-size: 0.85rem;
-            font-weight: 500;
+            font-weight: 600;
             text-decoration: none;
             transition: all 0.2s;
             ${cat === 'Semua'
-              ? 'background: var(--accent, #0d9488); color: #fff;'
-              : 'background: var(--card-bg, #1a1a2e); color: var(--text-muted, #888); border: 1px solid var(--border, #2a2a3e);'}
+              ? 'background: var(--primary); color: #fff;'
+              : 'background: var(--bg-surface); color: var(--text-muted); border: 1px solid var(--border);'}
           `}
         >
           {cat}
@@ -44,18 +46,26 @@ const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial']
     <div class="articles-grid">
       {posts.map((post) => (
         <article class="article-card">
+          <div class="card-image">
+            <img src={`/images/hero/${post.id}.png`} alt={post.data.title} loading="lazy" />
+          </div>
           <div class="card-content">
-            <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
-              {post.data.category || 'Berita'}
-            </a>
+            <div class="card-tags">
+              <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
+                {post.data.category || 'Berita'}
+              </a>
+              {(post.data.tags || []).slice(0, 2).map((tag) => (
+                <span class="card-tag">#{tag}</span>
+              ))}
+            </div>
             <h3 class="card-title">
               <a href={`/blog/${post.id}`}>{post.data.title}</a>
             </h3>
             <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
             <div class="card-meta">
-                <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-                <span class="card-date-sep">·</span>
-                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
+              <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+              <span class="card-date-sep">·</span>
+              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
             </div>
           </div>
         </article>
@@ -68,7 +78,7 @@ const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial']
       </div>
     )}
 
-    <div style="text-align: center; padding: 2rem 0 3rem; color: var(--text-muted); font-size: 0.85rem;">
+    <div style="text-align: center; padding: 2rem 0 0; color: var(--text-muted); font-size: 0.85rem;">
       Menampilkan {posts.length} artikel
     </div>
   </section>

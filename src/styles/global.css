@@ -612,6 +612,63 @@ code, pre {
   color: var(--primary);
 }
 
+/* ===== SHARE BUTTONS ===== */
+.share-section {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border);
+}
+
+.share-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  white-space: nowrap;
+}
+
+.share-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  color: #fff;
+}
+
+.share-x {
+  background: #000;
+}
+.share-x:hover {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+.share-telegram {
+  background: #26A5E4;
+}
+.share-telegram:hover {
+  background: #1E96D1;
+  transform: translateY(-2px);
+}
+
+.share-whatsapp {
+  background: #25D366;
+}
+.share-whatsapp:hover {
+  background: #1EB855;
+  transform: translateY(-2px);
+}
+
 /* ===== RELATED ARTICLES ===== */
 .related-articles {
   margin-top: 3rem;
@@ -707,6 +764,11 @@ code, pre {
   }
   .related-articles-title {
     font-size: 1.15rem;
+  }
+  .share-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
   }
 }
 

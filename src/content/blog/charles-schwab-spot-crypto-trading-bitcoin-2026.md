@@ -5,14 +5,9 @@ excerpt: "Charles Schwab mulai membuka akses trading spot Bitcoin dan ETH bagi g
 pubDate: 2026-05-13T17:33:55+07:00
 category: "Berita"
 tags: ["charles schwab", "crypto trading", "bitcoin", "ethereum", "adopsi crypto", "tradfi"]
-faq:
-  - question: "Berapa harga Bitcoin saat ini?"
-    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
-  - question: "Apa perbedaan Ethereum dan Bitcoin?"
-    answer: "Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps."
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Apa perbedaan Ethereum dan Bitcoin?|Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 > **TL;DR:** Charles Schwab, broker raksasa asal AS yang mengelola aset nasabah senilai ~$12 triliun, resmi meluncurkan layanan trading spot Bitcoin (BTC) dan Ethereum (ETH) untuk nasabah retail melalui platform Schwab Crypto.

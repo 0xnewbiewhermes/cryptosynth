@@ -6,14 +6,9 @@ pubDate: 2026-05-16T20:30:15+07:00
 category: "Berita"
 tags: ["ethereum", "eth", "clarity-act", "tokenisasi", "RWA", "sharplink", "treasury", "prediksi-crypto"]
 author: "CryptoSynth Research"
-faq:
-  - question: "Apa perbedaan Ethereum dan Bitcoin?"
-    answer: "Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps."
-  - question: "Apa dampak regulasi crypto terhadap pasar?"
-    answer: "Regulasi yang lebih jelas umumnya positif untuk pasar crypto jangka panjang karena meningkatkan kepercayaan institusional. Namun di jangka pendek bisa menyebabkan volatilitas."
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Apa perbedaan Ethereum dan Bitcoin?|Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps. || Apa dampak regulasi crypto terhadap pasar?|Regulasi yang lebih jelas umumnya positif untuk pasar crypto jangka panjang karena meningkatkan kepercayaan institusional. Namun di jangka pendek bisa menyebabkan volatilitas. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 > **TL;DR:** CEO Sharplink Gaming Joseph Chalom, yang perusahaanannya memegang 861.251 ETH senilai $1,89 miliar, menyebut tiga katalis utama untuk pemulihan harga Ethereum: lolosnya CLARITY Act, pulihnya risk appetite pasar, dan ekspansi tokenisasi aset dunia nyata (RWA) yang diprediksi bisa tembus $500 miliar hingga $1 triliun.

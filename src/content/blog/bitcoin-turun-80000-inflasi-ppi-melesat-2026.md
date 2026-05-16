@@ -5,14 +5,9 @@ excerpt: "Inflasi produsen AS April 2026 melesat 1,4% secara bulanan, hampir tig
 pubDate: 2026-05-13T20:34:17+07:00
 category: "Berita"
 tags: ["bitcoin", "inflasi", "PPI", "fed", "harga-bitcoin-hari-ini", "makroekonomi"]
-faq:
-  - question: "Berapa harga Bitcoin saat ini?"
-    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
-  - question: "Faktor apa yang mempengaruhi pergerakan harga ini?"
-    answer: "Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Data inflasi PPI April 2026 jauh di atas ekspektasi, tekan Bitcoin di bawah $80.000. Analisis dampak kebijakan Fed dan l"
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Data inflasi PPI April 2026 jauh di atas ekspektasi, tekan Bitcoin di bawah $80.000. Analisis dampak kebijakan Fed dan l || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 > **TL;DR:** Data Producer Price Index (PPI) April 2026 AS naik 1,4% secara bulanan, hampir tiga kali lipat dari ekspektasi 0,5%, dan mendorong Bitcoin turun di bawah $80.000. Inflasi tahunan produsen mencapai 6%, sementara CPI kemarin tercatat 3,8% YoY, tertinggi dalam hampir tiga tahun.

@@ -10,7 +10,7 @@ interface Props {
   author?: string;
   category?: string;
   tags?: string[];
-  faq?: { question: string; answer: string }[];
+  faq?: string | { question: string; answer: string }[];
 }
 
 const {
@@ -118,11 +118,23 @@ const breadcrumbSchema = type === "article" && category ? {
   ]
 } : null;
 
+// Parse FAQ - handle both string and array formats
+const parsedFaq = (() => {
+  if (Array.isArray(faq)) return faq;
+  if (typeof faq === 'string' && faq.trim()) {
+    return faq.split(' || ').map((pair) => {
+      const parts = pair.split('|');
+      return { question: parts[0]?.trim() || '', answer: parts[1]?.trim() || '' };
+    }).filter((f) => f.question && f.answer);
+  }
+  return [];
+})();
+
 // JSON-LD: FAQPage schema
-const faqSchema = faq.length > 0 ? {
+const faqSchema = parsedFaq.length > 0 ? {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "mainEntity": faq.map((item) => ({
+  "mainEntity": parsedFaq.map((item) => ({
     "@type": "Question",
     "name": item.question,
     "acceptedAnswer": {

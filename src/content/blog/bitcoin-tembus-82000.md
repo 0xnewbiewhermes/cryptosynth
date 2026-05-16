@@ -5,14 +5,9 @@ excerpt: "Bitcoin mencetak rekor baru dengan dukungan institusional dan regulasi
 pubDate: 2026-05-12T15:13:53+07:00
 category: "Berita"
 tags: ["bitcoin", "btc", "harga", "pasar"]
-faq:
-  - question: "Berapa harga Bitcoin saat ini?"
-    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
-  - question: "Faktor apa yang mempengaruhi pergerakan harga ini?"
-    answer: "Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Bitcoin mencatat rekor baru di $82.000 didorong akumulasi institusional dan sentimen positif regulasi."
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Bitcoin mencatat rekor baru di $82.000 didorong akumulasi institusional dan sentimen positif regulasi. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 <div class="tldr-box">

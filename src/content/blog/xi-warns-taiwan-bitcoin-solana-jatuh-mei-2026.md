@@ -5,14 +5,9 @@ excerpt: "Presiden China Xi Jinping memperingatkan Donald Trump tentang potensi 
 pubDate: 2026-05-14T12:04:52+07:00
 category: "Berita"
 tags: ["bitcoin", "solana", "taiwan", "geopolitik", "harga-bitcoin-hari-ini", "trump-xi"]
-faq:
-  - question: "Berapa harga Bitcoin saat ini?"
-    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
-  - question: "Faktor apa yang mempengaruhi pergerakan harga ini?"
-    answer: "Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Peringatan Xi Jinping tentang konflik Taiwan saat pertemuan dengan Trump di Beijing tekan Bitcoin di bawah $79.200 dan S"
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. Peringatan Xi Jinping tentang konflik Taiwan saat pertemuan dengan Trump di Beijing tekan Bitcoin di bawah $79.200 dan S || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 > **TL;DR:** Presiden China Xi Jinping memperingatkan Donald Trump tentang potensi "tabrakan atau bentrokan" soal Taiwan selama pertemuan di Beijing, kunjungan presiden AS pertama ke China dalam hampir satu dekade. Bitcoin merosot ke $79.200, Solana anjlok 5,6%, dan hanya Dogecoin yang bertahan di zona hijau.

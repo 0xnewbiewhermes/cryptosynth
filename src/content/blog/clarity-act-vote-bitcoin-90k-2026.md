@@ -5,14 +5,9 @@ excerpt: "Trader Bitcoin antisipasi pergerakan cepat ke $90.000 menjelang voting
 pubDate: 2026-05-14T05:33:29+07:00
 category: "Berita"
 tags: ["bitcoin", "clarity act", "regulasi crypto", "harga bitcoin", "trading bitcoin", "senat AS"]
-faq:
-  - question: "Berapa harga Bitcoin saat ini?"
-    answer: "Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko."
-  - question: "Apa dampak regulasi crypto terhadap pasar?"
-    answer: "Regulasi yang lebih jelas umumnya positif untuk pasar crypto jangka panjang karena meningkatkan kepercayaan institusional. Namun di jangka pendek bisa menyebabkan volatilitas."
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa harga Bitcoin saat ini?|Harga Bitcoin berfluktuasi setiap saat. Artikel ini membahas pergerakan harga terbaru. Pantau harga real-time di exchange terpercaya atau CoinGecko. || Apa dampak regulasi crypto terhadap pasar?|Regulasi yang lebih jelas umumnya positif untuk pasar crypto jangka panjang karena meningkatkan kepercayaan institusional. Namun di jangka pendek bisa menyebabkan volatilitas. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 > **TL;DR:** Trader Bitcoin memperkirakan pergerakan cepat menuju $90.000 dalam hitungan hari, didorong oleh voting CLARITY Act di Senate Banking Committee AS hari Kamis dan data onchain yang makin bullish. Tekanan jual dari short-term holder sudah nol persen selama lima hari berturut-turut.

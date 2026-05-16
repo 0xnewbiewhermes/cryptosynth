@@ -6,14 +6,9 @@ pubDate: 2026-05-15T15:15:30+07:00
 category: "DeFi"
 tags: ["certik", "keamanan defi", "ai", "serangan", "smart contract", "audit", "vulnerability"]
 author: "CryptoSynth Research"
-faq:
-  - question: "Bagaimana cara melindungi aset crypto dari exploit?"
-    answer: "Gunakan hardware wallet, verifikasi smart contract sebelum berinteraksi, jangan approve unlimited token, dan diversifikasi di beberapa protocol."
-  - question: "Apa risiko utama DeFi?"
-    answer: "Risiko utama DeFi termasuk smart contract exploit, impermanent loss, rug pull, dan liquidasi. Selalu DYOR dan gunakan protocol yang sudah audit."
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Bagaimana cara melindungi aset crypto dari exploit?|Gunakan hardware wallet, verifikasi smart contract sebelum berinteraksi, jangan approve unlimited token, dan diversifikasi di beberapa protocol. || Apa risiko utama DeFi?|Risiko utama DeFi termasuk smart contract exploit, impermanent loss, rug pull, dan liquidasi. Selalu DYOR dan gunakan protocol yang sudah audit. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 > **TL;DR:** CEO CertiK, perusahaan audit keamanan blockchain terkemuka, memperingatkan bahwa attacker DeFi semakin menggunakan AI untuk menemukan dan mengeksploitasi kerentanan. Sementara itu, defender masih mengandalkan metode tradisional, menciptakan kesenjangan teknologi yang mengkhawatirkan.

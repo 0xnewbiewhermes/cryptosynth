@@ -5,14 +5,9 @@ excerpt: "Raksasa perbankan global JPMorgan memperluas lini produk tokenized mon
 pubDate: 2026-05-13T14:34:41+07:00
 category: "Berita"
 tags: ["jpmorgan", "tokenization", "ethereum", "RWA", "stablecoin", "GENIUS Act", "BlackRock", "deFi"]
-faq:
-  - question: "Apa perbedaan Ethereum dan Bitcoin?"
-    answer: "Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps."
-  - question: "Apa itu funding round di crypto?"
-    answer: "Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project."
-  - question: "Faktor apa yang mempengaruhi pergerakan harga ini?"
-    answer: "Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. JPMorgan ajukan dana tokenized JLTXX di Ethereum untuk cadangan stablecoin GENIUS Act. Pasar RWA global sudah tembus $32"
+faq: "Apa perbedaan Ethereum dan Bitcoin?|Bitcoin dirancang sebagai store of value digital, sementara Ethereum adalah platform smart contract yang mendukung DeFi, NFT, dan dApps. || Apa itu funding round di crypto?|Funding round adalah tahapan penggalangan dana oleh project crypto dari investor. Funding besar dari VC ternama bisa menjadi sinyal positif untuk kualitas project. || Faktor apa yang mempengaruhi pergerakan harga ini?|Pergerakan harga crypto dipengaruhi oleh berita regulasi, sentimen pasar global, data ekonomi makro, aktivitas whale, dan adopsi institusional. JPMorgan ajukan dana tokenized JLTXX di Ethereum untuk cadangan stablecoin GENIUS Act. Pasar RWA global sudah tembus $32"
 ---
+
 
 
 <div class="tldr-box">

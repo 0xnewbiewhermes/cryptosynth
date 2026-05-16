@@ -5,14 +5,9 @@ excerpt: "Tutorial lengkap cara main crypto untuk pemula. Dari nol sampai bisa t
 pubDate: 2026-05-12T19:45:46+07:00
 category: "Tutorial"
 tags: ["tutorial", "pemula", "crypto", "bitcoin", "trading", "exchange Indonesia"]
-faq:
-  - question: "Berapa modal minimal untuk memulai?"
-    answer: "Modal minimal tergantung platform. Untuk trading spot, mulai dari Rp100.000 di exchange Indonesia. Untuk DeFi, siapkan minimal $50-100 untuk gas fee."
-  - question: "Apa yang perlu diketahui tentang Cara Main Crypto untuk Pemula 2026?"
-    answer: "Panduan lengkap cara main crypto untuk pemula 2026. Dari daftar exchange, beli Bitcoin pertama, sampai strategi trading dasar. Cocok untuk yang baru mulai."
-  - question: "Di mana bisa mendapatkan informasi crypto terpercaya?"
-    answer: "Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
+faq: "Berapa modal minimal untuk memulai?|Modal minimal tergantung platform. Untuk trading spot, mulai dari Rp100.000 di exchange Indonesia. Untuk DeFi, siapkan minimal $50-100 untuk gas fee. || Apa yang perlu diketahui tentang Cara Main Crypto untuk Pemula 2026?|Panduan lengkap cara main crypto untuk pemula 2026. Dari daftar exchange, beli Bitcoin pertama, sampai strategi trading dasar. Cocok untuk yang baru mulai. || Di mana bisa mendapatkan informasi crypto terpercaya?|Sumber terpercaya meliputi CoinDesk, The Block, CoinGecko, dan CryptoSynth.id untuk ringkasan harian dalam Bahasa Indonesia."
 ---
+
 
 
 <div class="tldr-box">

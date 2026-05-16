@@ -10,10 +10,10 @@ interface Props {
   modifiedDate?: string;
   category?: string;
   tags?: string[];
-  faq?: { question: string; answer: string }[];
+  faq?: string;
 }
 
-const { title, description, image, type = 'website', publishDate, modifiedDate, category, tags = [], faq = [] } = Astro.props;
+const { title, description, image, type = 'website', publishDate, modifiedDate, category, tags = [], faq = '' } = Astro.props;
 ---
 
 <!doctype html>

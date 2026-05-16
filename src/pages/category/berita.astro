@@ -8,13 +8,27 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
 );
 ---
 
-<BaseLayout title="Berita Harian">
-  <section class="container" style="padding-top: 3rem;">
-    <h1 style="margin-bottom: 2rem;">Berita Harian</h1>
+<BaseLayout title="Berita Harian — CryptoSynth.id" description="Ringkasan berita crypto global terpenting, diupdate setiap hari dari CoinDesk, The Block, dan sumber kredibel lainnya.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Berita Harian</h1>
+      <p>Ringkasan berita crypto global terpenting, diupdate setiap hari dari sumber kredibel.</p>
+    </div>
+  </div>
+  <section class="container" style="padding-bottom: 4rem;">
     <div class="articles-grid">
       {posts.map((post) => (
         <article class="article-card">
+          <div class="card-image">
+            <img src={`/images/hero/${post.id}.png`} alt={post.data.title} loading="lazy" />
+          </div>
           <div class="card-content">
+            <div class="card-tags">
+              <span class="card-category">{post.data.category || 'Berita'}</span>
+              {(post.data.tags || []).slice(0, 2).map((tag) => (
+                <span class="card-tag">#{tag}</span>
+              ))}
+            </div>
             <h3 class="card-title">
               <a href={`/blog/${post.id}`}>{post.data.title}</a>
             </h3>

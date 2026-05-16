@@ -8,13 +8,27 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
 );
 ---
 
-<BaseLayout title="DeFi & Token">
-  <section class="container" style="padding-top: 3rem;">
-    <h1 style="margin-bottom: 2rem;">DeFi & Token</h1>
+<BaseLayout title="DeFi & Token — CryptoSynth.id" description="Analisis protokol DeFi, yield farming, tren token, dan perkembangan decentralized finance terbaru.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>DeFi & Token</h1>
+      <p>Analisis protokol DeFi, yield farming, dan tren token terbaru.</p>
+    </div>
+  </div>
+  <section class="container" style="padding-bottom: 4rem;">
     <div class="articles-grid">
       {posts.map((post) => (
         <article class="article-card">
+          <div class="card-image">
+            <img src={`/images/hero/${post.id}.png`} alt={post.data.title} loading="lazy" />
+          </div>
           <div class="card-content">
+            <div class="card-tags">
+              <span class="card-category">{post.data.category || 'DeFi'}</span>
+              {(post.data.tags || []).slice(0, 2).map((tag) => (
+                <span class="card-tag">#{tag}</span>
+              ))}
+            </div>
             <h3 class="card-title">
               <a href={`/blog/${post.id}`}>{post.data.title}</a>
             </h3>

@@ -8,13 +8,27 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
 );
 ---
 
-<BaseLayout title="Airdrop Update">
-  <section class="container" style="padding-top: 3rem;">
-    <h1 style="margin-bottom: 2rem;">Airdrop Update</h1>
+<BaseLayout title="Airdrop Update — CryptoSynth.id" description="Peluang airdrop terbaru, tutorial klaim, dan update project web3 yang sedang bagi-bagi token.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Airdrop Update</h1>
+      <p>Peluang airdrop terbaru, tutorial klaim, dan update project web3.</p>
+    </div>
+  </div>
+  <section class="container" style="padding-bottom: 4rem;">
     <div class="articles-grid">
       {posts.map((post) => (
         <article class="article-card">
+          <div class="card-image">
+            <img src={`/images/hero/${post.id}.png`} alt={post.data.title} loading="lazy" />
+          </div>
           <div class="card-content">
+            <div class="card-tags">
+              <span class="card-category">{post.data.category || 'Airdrop'}</span>
+              {(post.data.tags || []).slice(0, 2).map((tag) => (
+                <span class="card-tag">#{tag}</span>
+              ))}
+            </div>
             <h3 class="card-title">
               <a href={`/blog/${post.id}`}>{post.data.title}</a>
             </h3>

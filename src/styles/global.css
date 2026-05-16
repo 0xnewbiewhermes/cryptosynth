@@ -654,13 +654,15 @@ code, pre {
   width: 100%;
   height: 120px;
   object-fit: cover;
+  margin: 0 !important;
+  border-radius: 0 !important;
 }
 
 .related-article-content {
-  padding: 0.6rem 0.75rem 0.75rem;
+  padding: 0.5rem 0.65rem 0.65rem;
   display: flex;
   flex-direction: column;
-  gap: 0.35rem;
+  gap: 0.25rem;
 }
 
 .related-article-category {
@@ -681,7 +683,7 @@ code, pre {
   font-weight: 600;
   line-height: 1.35;
   color: var(--text-primary);
-  margin: 0;
+  margin: 0 !important;
 }
 
 .related-article-card:hover .related-article-title {

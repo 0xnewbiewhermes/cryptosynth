@@ -183,7 +183,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         }
 
         function fetchPrices() {
-          fetch('https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,solana&vs_currencies=usd&include_24hr_change=true')
+          fetch('/api/prices.json')
             .then(function(res) { return res.json(); })
             .then(updateTicker)
             .catch(function() {});

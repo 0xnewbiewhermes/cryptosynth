@@ -11,3 +11,4 @@ dist/
 *.token
 .github-token
 vercel.json.bak
+.vercel/

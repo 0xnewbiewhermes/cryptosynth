@@ -28,6 +28,7 @@
   --radius: 8px;
   --radius-lg: 12px;
   --radius-xl: 16px;
+  --gradient-accent: linear-gradient(135deg, #1A5DE3, #23D1BE);
   --max-width: 1200px;
   --nav-height: 48px;
 }
@@ -2424,13 +2425,26 @@ code, pre {
     width: 100%;
     text-align: left;
     border-radius: 8px;
+    color: var(--text-primary);
   }
+  .nav a:hover {
+    color: var(--primary);
+    background: var(--bg-hover);
+  }
+  .nav a.active { color: var(--primary); }
   .nav a.active::after { display: none; }
 
   .nav-search-link {
     margin-right: 0 !important;
     margin-bottom: 0.25rem;
     justify-content: flex-start;
+    color: var(--text-muted) !important;
+    border-color: var(--border) !important;
+    background: var(--bg-surface) !important;
+  }
+  .nav-search-link:hover {
+    color: var(--text-primary) !important;
+    border-color: var(--primary) !important;
   }
 
   /* Hero */

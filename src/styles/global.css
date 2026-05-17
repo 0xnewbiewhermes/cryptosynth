@@ -2308,9 +2308,9 @@ code, pre {
 /* ===== FOOTER ===== */
 .footer {
   margin-top: auto;
-  border-top: 1px solid var(--border);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
   padding: 3rem 0 2rem;
-  background: var(--bg-surface);
+  background: #fff;
 }
 
 .footer-inner {
@@ -2329,6 +2329,14 @@ code, pre {
 
 .footer-brand .logo {
   margin-bottom: 0.75rem;
+}
+
+.footer-brand .logo-text {
+  color: var(--text-primary) !important;
+}
+
+.footer-brand .logo-accent {
+  color: var(--primary) !important;
 }
 
 .footer-brand p {

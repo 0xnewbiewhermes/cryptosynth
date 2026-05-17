@@ -8,9 +8,49 @@ import time
 import re
 from pathlib import Path
 
+try:
+    from PIL import Image
+    HAS_PIL = True
+except ImportError:
+    HAS_PIL = False
+
 BLOG_DIR = "/root/cryptosynth/src/content/blog"
 OG_DIR = "/root/cryptosynth/public/images/og"
 HERO_DIR = "/root/cryptosynth/public/images/hero"
+
+OG_TARGET = (1200, 630)
+HERO_TARGET = (1200, 400)
+
+
+def resize_to_target(img_path, target_w, target_h):
+    """Resize image to cover target dimensions, center-crop, save as PNG"""
+    if not HAS_PIL:
+        return False
+    try:
+        img = Image.open(img_path).convert("RGB")
+        if img.size == (target_w, target_h):
+            return True
+        orig_w, orig_h = img.size
+        scale = max(target_w / orig_w, target_h / orig_h)
+        new_w = int(orig_w * scale)
+        new_h = int(orig_h * scale)
+        img_resized = img.resize((new_w, new_h), Image.LANCZOS)
+        left = (new_w - target_w) // 2
+        top = (new_h - target_h) // 2
+        img_cropped = img_resized.crop((left, top, left + target_w, top + target_h))
+        img_cropped.save(img_path, "PNG", optimize=True)
+        return True
+    except Exception as e:
+        print(f"  Resize error: {e}")
+        return False
+
+
+def remove_svg_fallback(png_path):
+    """Remove SVG fallback file if it exists alongside the PNG"""
+    svg_path = png_path.with_suffix('.svg')
+    if svg_path.exists():
+        svg_path.unlink()
+        print(f"  Removed SVG fallback: {svg_path.name}")
 
 # Style prompt suffixes per category
 CATEGORY_STYLES = {
@@ -67,8 +107,9 @@ def download_image(prompt, output_path, max_retries=3):
             )
             
             if "200" in result.stdout:
-                # Verify file exists and has content
                 if os.path.exists(output_path) and os.path.getsize(output_path) > 10000:
+                    # Resize to correct dimensions (Pollinations may return non-standard sizes)
+                    resize_to_target(output_path, OG_TARGET[0], OG_TARGET[1])
                     return True
             
             print(f"  Retry {attempt + 1}/{max_retries}...")
@@ -105,6 +146,8 @@ def process_article(md_path):
     print(f"  Generating OG image...")
     if download_image(prompt, og_path):
         print(f"  OK OG: {slug}.png")
+        # Remove SVG fallback if present
+        remove_svg_fallback(og_path)
     else:
         print(f"  FAIL OG: {slug}.png")
         return False
@@ -112,9 +155,12 @@ def process_article(md_path):
     # Wait a bit between requests
     time.sleep(3)
     
-    # Generate hero image (same image, we reuse it)
+    # Generate hero image (resize from OG)
     hero_path = os.path.join(HERO_DIR, slug + ".png")
     subprocess.run(["cp", og_path, hero_path], check=True)
+    resize_to_target(hero_path, HERO_TARGET[0], HERO_TARGET[1])
+    # Remove SVG hero fallback
+    remove_svg_fallback(hero_path)
     print(f"  OK Hero: {slug}.png")
     
     return True

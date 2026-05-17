@@ -6,254 +6,590 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   title="🔍 Scam Checker - Cek Domain & Address Scam Crypto"
   description="Cek apakah domain atau address crypto terdaftar sebagai scam di database ScamSniffer. Gratis, instan. Lindungi diri dari phishing."
 >
-  <main class="scam-check-page">
-    <section class="check-hero">
-      <h1>🔍 Scam Checker</h1>
-      <p class="check-subtitle">Cek apakah domain atau address crypto terdaftar sebagai scam</p>
-      
-      <form class="check-form" id="checkForm">
-        <input
-          type="text"
-          id="checkInput"
-          class="check-input"
-          placeholder="Masukkan domain atau address (contoh: interest-tydro.com)"
-          autocomplete="off"
-          required
-        />
-        <button type="submit" class="check-btn" id="checkBtn">
-          <span id="btnText">Cek</span>
-          <span id="btnSpinner" class="spinner" style="display:none"></span>
-        </button>
-      </form>
-    </section>
+  <section class="scam-hero">
+    <div class="scam-hero-bg"></div>
+    <div class="container">
+      <div class="scam-hero-content">
+        <div class="scam-hero-badge">
+          <span class="scam-hero-dot"></span>
+          Keamanan Dulu, Baru Transaksi
+        </div>
+        <h1 class="scam-hero-title">🔍 Cek Scam Crypto</h1>
+        <p class="scam-hero-desc">
+          Masukkan domain atau address crypto untuk cek apakah terdaftar sebagai scam di database phishing global kami.
+        </p>
 
-    <section class="check-result" id="checkResult" style="display:none">
-      <div class="result-card" id="resultCard">
-        <div class="result-icon" id="resultIcon"></div>
-        <div class="result-content">
-          <h2 id="resultTitle"></h2>
-          <p id="resultDetail"></p>
+        <div class="scam-form-card">
+          <div class="scam-form-card-inner">
+            <form class="scam-form" id="checkForm">
+              <div class="scam-input-wrap">
+                <svg class="scam-input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+                </svg>
+                <input
+                  type="text"
+                  id="checkInput"
+                  class="scam-input"
+                  placeholder="Contoh: interest-tydro.com atau 0x..."
+                  autocomplete="off"
+                  spellcheck="false"
+                  required
+                />
+              </div>
+              <button type="submit" class="scam-btn" id="checkBtn">
+                <span id="btnText">Periksa</span>
+                <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
+              </button>
+            </form>
+            <p class="scam-form-hint">Domain, wallet address, atau kontrak token ERC-20/BEP-20</p>
+          </div>
+        </div>
+
+        <div class="scam-stats" id="scamStats">
+          <div class="scam-stat-pulse"></div>
+          <span id="statsText">Memuat database...</span>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="check-stats" id="checkStats">
-      <p>Memuat database...</p>
-    </section>
+  <section class="scam-result-section" id="checkResult" style="display:none">
+    <div class="container">
+      <div class="scam-result-card" id="resultCard">
+        <div class="scam-result-glow"></div>
+        <div class="scam-result-inner">
+          <div class="scam-result-icon-wrap" id="resultIconWrap">
+            <span class="scam-result-icon" id="resultIcon"></span>
+          </div>
+          <div class="scam-result-body">
+            <h2 class="scam-result-title" id="resultTitle"></h2>
+            <p class="scam-result-detail" id="resultDetail"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="check-info">
-      <h3>Sumber Data</h3>
-      <ul>
-        <li><a href="https://github.com/scamsniffer/scam-database" target="_blank" rel="noopener">ScamSniffer</a> — database phishing domain crypto (331rb+ domain)</li>
-        <li><em>Data tambahan dari <a href="https://github.com/jarelllama/Scam-Blocklist" target="_blank" rel="noopener">jarelllama/Scam-Blocklist</a> dan <a href="https://github.com/phishdestroy/destroylist" target="_blank" rel="noopener">phishdestroy/destroylist</a></em></li>
-      </ul>
-      <p class="check-disclaimer">Database diperbarui setiap 6 jam. Selalu verifikasi sebelum transaksi.</p>
-    </section>
-  </main>
+  <section class="scam-sources-section">
+    <div class="container">
+      <div class="scam-sources">
+        <h3 class="scam-sources-title">Sumber Data</h3>
+        <div class="scam-sources-grid">
+          <div class="scam-source-item">
+            <div class="scam-source-icon">🛡️</div>
+            <div class="scam-source-info">
+              <strong>ScamSniffer</strong>
+              <span>Database phishing domain terbesar — 330rb+ domain</span>
+            </div>
+          </div>
+          <div class="scam-source-item">
+            <div class="scam-source-icon">🚫</div>
+            <div class="scam-source-info">
+              <strong>jarelllama/Scam-Blocklist</strong>
+              <span>Blocklist scam domain dari komunitas</span>
+            </div>
+          </div>
+          <div class="scam-source-item">
+            <div class="scam-source-icon">🔥</div>
+            <div class="scam-source-info">
+              <strong>phishdestroy/destroylist</strong>
+              <span>Database domain phishing aktif</span>
+            </div>
+          </div>
+        </div>
+        <p class="scam-sources-note">Database diperbarui otomatis setiap 6 jam. Selalu verifikasi sebelum bertransaksi.</p>
+      </div>
+    </div>
+  </section>
 </BaseLayout>
 
 <style>
-  .scam-check-page {
-    max-width: 720px;
-    margin: 0 auto;
-    padding: 3rem 1rem;
+  /* ===== HERO ===== */
+  .scam-hero {
+    position: relative;
+    padding: 3rem 0 2.5rem;
+    overflow: hidden;
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 40%, #0d9488 100%);
   }
 
-  .check-hero {
+  .scam-hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse at 20% 40%, rgba(37, 99, 235, 0.2), transparent 60%),
+      radial-gradient(ellipse at 80% 60%, rgba(35, 209, 190, 0.15), transparent 50%),
+      radial-gradient(ellipse at 50% 100%, rgba(236, 72, 153, 0.08), transparent 40%);
+    pointer-events: none;
+  }
+
+  .scam-hero-content {
+    position: relative;
+    z-index: 1;
     text-align: center;
-    margin-bottom: 2rem;
+    max-width: 680px;
+    margin: 0 auto;
   }
 
-  .check-hero h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5rem;
+  .scam-hero-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.35rem 1rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 100px;
+    font-size: 0.78rem;
+    color: rgba(255, 255, 255, 0.75);
+    margin-bottom: 1.25rem;
+    backdrop-filter: blur(10px);
+    font-weight: 500;
   }
 
-  .check-subtitle {
-    color: #9CA3AF;
+  .scam-hero-dot {
+    width: 6px;
+    height: 6px;
+    background: var(--accent);
+    border-radius: 50%;
+    animation: scam-pulse 2s ease-in-out infinite;
+  }
+
+  @keyframes scam-pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.4; transform: scale(0.8); }
+  }
+
+  .scam-hero-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    letter-spacing: -0.03em;
+    line-height: 1.1;
+    color: #fff;
+    margin-bottom: 0.75rem;
+  }
+
+  .scam-hero-desc {
     font-size: 1rem;
-    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.65);
+    max-width: 480px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
   }
 
-  .check-form {
+  /* ===== FORM CARD (glass) ===== */
+  .scam-form-card {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
+  .scam-form-card-inner {
+    background: rgba(255, 255, 255, 0.06);
+    backdrop-filter: blur(20px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius-lg, 16px);
+    padding: 1.25rem 1.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .scam-form-card-inner:focus-within {
+    border-color: rgba(26, 93, 227, 0.4);
+    box-shadow: 0 0 30px rgba(26, 93, 227, 0.08);
+  }
+
+  .scam-form {
     display: flex;
     gap: 0.75rem;
-    max-width: 600px;
-    margin: 0 auto;
   }
 
-  .check-input {
+  .scam-input-wrap {
     flex: 1;
-    padding: 0.875rem 1.25rem;
-    border-radius: 12px;
-    border: 2px solid #374151;
-    background: #1F2937;
-    color: white;
-    font-size: 1rem;
-    outline: none;
-    transition: border-color 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background: rgba(0, 0, 0, 0.25);
+    border: 1.5px solid rgba(255, 255, 255, 0.1);
+    border-radius: var(--radius, 12px);
+    padding: 0 0.9rem;
+    transition: border-color 0.25s ease;
   }
 
-  .check-input:focus {
-    border-color: #3B82F6;
+  .scam-input-wrap:focus-within {
+    border-color: var(--primary-light, #3A7FEE);
   }
 
-  .check-btn {
-    padding: 0.875rem 1.75rem;
-    border-radius: 12px;
+  .scam-input-icon {
+    color: rgba(255, 255, 255, 0.35);
+    flex-shrink: 0;
+    transition: color 0.25s;
+  }
+
+  .scam-input-wrap:focus-within .scam-input-icon {
+    color: var(--primary-light, #3A7FEE);
+  }
+
+  .scam-input {
+    flex: 1;
+    background: transparent;
     border: none;
-    background: #EF4444;
-    color: white;
-    font-size: 1rem;
-    font-weight: 600;
+    outline: none;
+    padding: 0.85rem 0;
+    color: #fff;
+    font-size: 0.95rem;
+    font-family: 'JetBrains Mono', 'SF Mono', monospace;
+    font-weight: 500;
+  }
+
+  .scam-input::placeholder {
+    color: rgba(255, 255, 255, 0.3);
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+  }
+
+  .scam-btn {
+    padding: 0.85rem 1.75rem;
+    border: none;
+    border-radius: var(--radius, 12px);
+    background: linear-gradient(135deg, var(--primary, #1A5DE3), #2563eb);
+    color: #fff;
+    font-size: 0.95rem;
+    font-weight: 700;
     cursor: pointer;
-    transition: background 0.2s;
+    transition: all 0.25s ease;
     display: flex;
     align-items: center;
     gap: 0.5rem;
     white-space: nowrap;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.01em;
+    box-shadow: 0 4px 14px rgba(26, 93, 227, 0.25);
   }
 
-  .check-btn:hover {
-    background: #DC2626;
+  .scam-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 6px 20px rgba(26, 93, 227, 0.35);
   }
 
-  .check-btn:disabled {
+  .scam-btn:active {
+    transform: translateY(0);
+  }
+
+  .scam-btn:disabled {
     opacity: 0.6;
     cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
   }
 
-  .spinner {
+  .scam-spinner {
     width: 18px;
     height: 18px;
-    border: 2px solid rgba(255,255,255,0.3);
-    border-top-color: white;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: #fff;
     border-radius: 50%;
-    animation: spin 0.6s linear infinite;
+    animation: scam-spin 0.6s linear infinite;
   }
 
-  @keyframes spin {
+  @keyframes scam-spin {
     to { transform: rotate(360deg); }
   }
 
-  .check-result {
-    margin-top: 2rem;
+  .scam-form-hint {
+    text-align: left;
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 0.78rem;
+    margin-top: 0.6rem;
+    padding-left: 0.25rem;
   }
 
-  .result-card {
+  /* ===== STATS ===== */
+  .scam-stats {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.82rem;
+    font-weight: 500;
+  }
+
+  .scam-stat-pulse {
+    width: 6px;
+    height: 6px;
+    background: var(--accent, #23D1BE);
+    border-radius: 50%;
+    animation: scam-pulse 2s ease-in-out infinite;
+  }
+
+  /* ===== RESULT SECTION ===== */
+  .scam-result-section {
+    padding: 2.5rem 0 1rem;
+  }
+
+  .scam-result-card {
+    position: relative;
+    max-width: 580px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: var(--radius-lg, 16px);
+    animation: scam-result-enter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  @keyframes scam-result-enter {
+    from {
+      opacity: 0;
+      transform: translateY(12px) scale(0.97);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  .scam-result-glow {
+    position: absolute;
+    inset: 0;
+    opacity: 0.12;
+    border-radius: inherit;
+    transition: background 0.4s ease;
+    pointer-events: none;
+  }
+
+  .scam-result-inner {
+    position: relative;
     display: flex;
     align-items: center;
-    gap: 1rem;
+    gap: 1.25rem;
+    padding: 1.5rem 1.75rem;
+    border: 1.5px solid;
+    border-radius: inherit;
+    background: var(--bg-elevated, #fff);
+    transition: border-color 0.3s ease, background 0.3s ease;
+  }
+
+  .scam-result-icon-wrap {
+    flex-shrink: 0;
+    width: 52px;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+  }
+
+  .scam-result-body h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.15rem;
+    font-weight: 700;
+    transition: color 0.3s ease;
+  }
+
+  .scam-result-body p {
+    margin: 0;
+    font-size: 0.88rem;
+    line-height: 1.55;
+    color: var(--text-secondary, #52525B);
+  }
+
+  .scam-result-body strong {
+    color: var(--text-primary, #18181B);
+    font-weight: 600;
+  }
+
+  .scam-result-body small {
+    color: var(--text-muted, #A1A1AA);
+    font-size: 0.82rem;
+  }
+
+  /* --- AMAN state --- */
+  .scam-result-aman .scam-result-glow {
+    background: #10B981;
+  }
+  .scam-result-aman .scam-result-inner {
+    border-color: rgba(16, 185, 129, 0.3);
+    background: linear-gradient(135deg, rgba(16, 185, 129, 0.04), rgba(16, 185, 129, 0.01));
+  }
+  .scam-result-aman .scam-result-icon-wrap {
+    background: rgba(16, 185, 129, 0.12);
+  }
+  .scam-result-aman h2 {
+    color: #10B981;
+  }
+
+  /* --- SCAM state --- */
+  .scam-result-scam .scam-result-glow {
+    background: #EF4444;
+  }
+  .scam-result-scam .scam-result-inner {
+    border-color: rgba(239, 68, 68, 0.3);
+    background: linear-gradient(135deg, rgba(239, 68, 68, 0.04), rgba(239, 68, 68, 0.01));
+  }
+  .scam-result-scam .scam-result-icon-wrap {
+    background: rgba(239, 68, 68, 0.12);
+  }
+  .scam-result-scam h2 {
+    color: #EF4444;
+  }
+
+  /* --- WARNING state (invalid input) --- */
+  .scam-result-warning .scam-result-glow {
+    background: #F59E0B;
+  }
+  .scam-result-warning .scam-result-inner {
+    border-color: rgba(245, 158, 11, 0.3);
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.04), rgba(245, 158, 11, 0.01));
+  }
+  .scam-result-warning .scam-result-icon-wrap {
+    background: rgba(245, 158, 11, 0.12);
+  }
+  .scam-result-warning h2 {
+    color: #F59E0B;
+  }
+
+  /* ===== SOURCES SECTION ===== */
+  .scam-sources-section {
+    padding: 2rem 0 4rem;
+  }
+
+  .scam-sources {
+    max-width: 580px;
+    margin: 0 auto;
     padding: 1.5rem;
-    border-radius: 12px;
-    border: 2px solid;
+    background: var(--bg-surface, #F4F4F5);
+    border: 1px solid var(--border, #E4E4E7);
+    border-radius: var(--radius-lg, 16px);
   }
 
-  .result-aman {
-    border-color: #10B981;
-    background: #10B98110;
+  .scam-sources-title {
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    color: var(--text-secondary, #52525B);
+    font-weight: 600;
   }
 
-  .result-scam {
-    border-color: #EF4444;
-    background: #EF444410;
+  .scam-sources-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
   }
 
-  .result-icon {
-    font-size: 2rem;
+  .scam-source-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.6rem 0.9rem;
+    background: var(--bg-elevated, #fff);
+    border: 1px solid var(--border, #E4E4E7);
+    border-radius: var(--radius, 12px);
+    transition: border-color 0.2s, transform 0.2s;
+  }
+
+  .scam-source-item:hover {
+    border-color: var(--primary-light, #3A7FEE);
+    transform: translateX(3px);
+  }
+
+  .scam-source-icon {
+    font-size: 1.2rem;
     flex-shrink: 0;
   }
 
-  .result-content h2 {
-    margin: 0 0 0.5rem;
-    font-size: 1.25rem;
+  .scam-source-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
   }
 
-  .result-aman h2 { color: #10B981; }
-  .result-scam h2 { color: #EF4444; }
-
-  .result-content p {
-    margin: 0;
-    color: #D1D5DB;
-    font-size: 0.95rem;
-    line-height: 1.5;
-  }
-
-  .result-content strong {
-    color: #F3F4F6;
-  }
-
-  .result-content small {
-    color: #9CA3AF;
-  }
-
-  .check-stats {
-    text-align: center;
-    margin-top: 1.5rem;
-    color: #6B7280;
-    font-size: 0.9rem;
-  }
-
-  .check-info {
-    margin-top: 3rem;
-    padding-top: 2rem;
-    border-top: 1px solid #1F2937;
-  }
-
-  .check-info h3 {
-    margin-bottom: 0.75rem;
-    font-size: 1rem;
-  }
-
-  .check-info ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .check-info li {
-    margin-bottom: 0.5rem;
-    color: #9CA3AF;
-    font-size: 0.9rem;
-  }
-
-  .check-info a {
-    color: #3B82F6;
-  }
-
-  .check-disclaimer {
-    margin-top: 1rem;
+  .scam-source-info strong {
     font-size: 0.85rem;
-    color: #6B7280;
-    font-style: italic;
+    color: var(--text-primary, #18181B);
   }
 
-  @media (max-width: 600px) {
-    .check-form {
+  .scam-source-info span {
+    font-size: 0.78rem;
+    color: var(--text-muted, #A1A1AA);
+  }
+
+  .scam-sources-note {
+    margin-top: 1rem;
+    font-size: 0.78rem;
+    color: var(--text-muted, #A1A1AA);
+    font-style: italic;
+    text-align: center;
+  }
+
+  /* ===== RESPONSIVE ===== */
+  @media (max-width: 640px) {
+    .scam-hero {
+      padding: 2rem 0 2rem;
+    }
+
+    .scam-hero-title {
+      font-size: 1.8rem;
+    }
+
+    .scam-hero-desc {
+      font-size: 0.9rem;
+      padding: 0 0.5rem;
+    }
+
+    .scam-form-card-inner {
+      padding: 1rem;
+    }
+
+    .scam-form {
       flex-direction: column;
     }
-    .check-btn {
+
+    .scam-btn {
       justify-content: center;
+      padding: 0.8rem;
     }
-    .result-card {
+
+    .scam-result-inner {
       flex-direction: column;
       text-align: center;
+      padding: 1.25rem;
+    }
+
+    .scam-sources {
+      margin: 0 1rem;
     }
   }
 
+  /* ===== LIGHT MODE OVERRIDES ===== */
   @media (prefers-color-scheme: light) {
-    .check-input {
-      background: #F3F4F6;
-      border-color: #D1D5DB;
-      color: #111827;
+    .scam-result-inner {
+      background: #fff;
     }
-    .check-input:focus {
-      border-color: #3B82F6;
+
+    .scam-result-body p {
+      color: #52525B;
     }
-    .check-subtitle { color: #6B7280; }
-    .result-content p { color: #4B5563; }
-    .result-content strong { color: #111827; }
-    .check-info li { color: #6B7280; }
-    .check-stats { color: #9CA3AF; }
+
+    .scam-result-body strong {
+      color: #18181B;
+    }
+
+    .scam-sources {
+      background: #f4f4f5;
+      border-color: #e4e4e7;
+    }
+
+    .scam-source-item {
+      background: #fff;
+      border-color: #e4e4e7;
+    }
+
+    .scam-source-info strong {
+      color: #18181B;
+    }
+
+    .scam-source-info span {
+      color: #a1a1aa;
+    }
   }
 </style>
 
@@ -264,10 +600,12 @@ const form = document.getElementById('checkForm');
 const input = document.getElementById('checkInput');
 const result = document.getElementById('checkResult');
 const resultCard = document.getElementById('resultCard');
+const resultIconWrap = document.getElementById('resultIconWrap');
 const resultIcon = document.getElementById('resultIcon');
 const resultTitle = document.getElementById('resultTitle');
 const resultDetail = document.getElementById('resultDetail');
-const stats = document.getElementById('checkStats');
+const stats = document.getElementById('scamStats');
+const statsText = document.getElementById('statsText');
 const btnText = document.getElementById('btnText');
 const btnSpinner = document.getElementById('btnSpinner');
 const btn = document.getElementById('checkBtn');
@@ -277,10 +615,11 @@ fetch(dataUrl + '?v=' + Date.now())
   .then(r => r.json())
   .then(data => {
     scamData = data;
-    stats.innerHTML = `<p>Database: <strong>${data.length.toLocaleString('id-ID')}</strong> domain phishing dari ScamSniffer</p>`;
+    statsText.innerHTML = `<strong>${data.length.toLocaleString('id-ID')}</strong> domain & address terindeks`;
   })
   .catch(() => {
-    stats.innerHTML = `<p style="color: #EF4444;">Gagal memuat database. Refresh halaman atau coba lagi nanti.</p>`;
+    statsText.innerHTML = 'Gagal memuat database';
+    stats.style.color = '#EF4444';
   });
 
 function normalizeDomain(input) {
@@ -294,9 +633,9 @@ function normalizeDomain(input) {
 
 function checkDomain(domain) {
   if (!domain || !scamData.length) return null;
-  const matches = scamData.filter(d => 
-    d.domain === domain || 
-    d.domain.endsWith('.' + domain) || 
+  const matches = scamData.filter(d =>
+    d.domain === domain ||
+    d.domain.endsWith('.' + domain) ||
     domain.includes(d.domain)
   );
   return matches.length > 0 ? matches : null;
@@ -304,7 +643,7 @@ function checkDomain(domain) {
 
 form.addEventListener('submit', (e) => {
   e.preventDefault();
-  
+
   const raw = input.value.trim();
   if (!raw) {
     input.focus();
@@ -313,14 +652,9 @@ form.addEventListener('submit', (e) => {
 
   // Show loading
   result.style.display = 'block';
-  resultCard.style.display = 'none';  // Hide old result
-  resultCard.className = 'result-card';
-  resultCard.style.borderColor = '#6B7280';
-  resultCard.style.background = '#1F2937';
-  resultIcon.textContent = '⏳';
-  resultTitle.textContent = 'Memeriksa...';
-  resultTitle.style.color = '#9CA3AF';
-  resultDetail.textContent = '';
+  resultCard.className = 'scam-result-card';
+  resultCard.style.opacity = '0';
+
   btnText.style.display = 'none';
   btnSpinner.style.display = 'inline-block';
   btn.disabled = true;
@@ -331,16 +665,14 @@ form.addEventListener('submit', (e) => {
     btn.disabled = false;
 
     const domain = normalizeDomain(raw);
-    
+
     if (domain.length < 4) {
-      resultCard.style.display = '';
-      resultCard.className = 'result-card';
-      resultCard.style.borderColor = '#F59E0B';
-      resultCard.style.background = '#F59E0B10';
+      resultCard.className = 'scam-result-card scam-result-warning';
       resultIcon.textContent = '⚠️';
+      resultIconWrap.style.background = 'rgba(245, 158, 11, 0.12)';
       resultTitle.textContent = 'Input Tidak Valid';
-      resultTitle.style.color = '#F59E0B';
       resultDetail.textContent = 'Masukkan domain atau address yang valid.';
+      resultCard.style.opacity = '1';
       result.scrollIntoView({ behavior: 'smooth', block: 'center' });
       return;
     }
@@ -349,25 +681,29 @@ form.addEventListener('submit', (e) => {
 
     if (matches && matches.length > 0) {
       const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
-      resultCard.style.display = '';
-      resultCard.className = 'result-card result-scam';
-      resultTitle.textContent = 'SCAM TERDETEKSI';
+      resultCard.className = 'scam-result-card scam-result-scam';
+      resultIcon.textContent = '⚠️';
+      resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
+      resultTitle.textContent = '⚠️ SCAM TERDETEKSI';
       resultDetail.innerHTML = `
         Domain ini <strong>terdaftar sebagai scam</strong> di:
         <strong>${sources.join(', ')}</strong>
         ${matches.length > 1 ? `<br><small>(${matches.length} varian domain terkait)</small>` : ''}
       `;
     } else {
-      resultCard.style.display = '';
-      resultCard.className = 'result-card result-aman';
-      resultTitle.textContent = 'AMAN';
+      resultCard.className = 'scam-result-card scam-result-aman';
+      resultIcon.textContent = '✅';
+      resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
+      resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
       resultDetail.innerHTML = `
-        Tidak terdaftar sebagai scam di database <strong>ScamSniffer</strong>
+        Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.
+        <br><small>Tetap verifikasi sebelum transaksi.</small>
       `;
     }
 
+    resultCard.style.opacity = '1';
     result.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }, 200);
+  }, 250);
 });
 
 input.addEventListener('keydown', (e) => {

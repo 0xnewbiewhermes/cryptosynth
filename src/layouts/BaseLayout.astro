@@ -34,10 +34,10 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           &#9776;
         </button>
         <nav class="nav" id="mainNav">
-          <a href="/search" class="nav-search-link" aria-label="Cari artikel">
+          <button class="nav-search-link" id="searchToggle" aria-label="Cari artikel">
             <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
             <span>Cari</span>
-          </a>
+          </button>
           <a href="/">Home</a>
           <a href="/category/berita">Berita</a>
           <a href="/category/airdrop">Airdrop</a>
@@ -49,6 +49,28 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         </nav>
       </div>
     </header>
+
+    <!-- Search Overlay -->
+    <div class="search-overlay" id="searchOverlay">
+      <div class="search-overlay-backdrop" id="searchOverlayBackdrop"></div>
+      <div class="search-overlay-panel">
+        <div class="search-overlay-header">
+          <div class="search-box">
+            <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="searchOverlayInput" class="search-input" placeholder="Ketik judul, topik, atau tag..." autocomplete="off" />
+            <button class="search-close-btn" id="searchCloseBtn" aria-label="Tutup pencarian">
+              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+            </button>
+          </div>
+        </div>
+        <div class="search-overlay-body">
+          <div id="searchOverlayResults" class="search-results">
+            <p class="search-hint">Mulai ketik untuk mencari artikel...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Professional Live Price Ticker -->
     <div class="ticker-bar" id="tickerBar">
       <div class="ticker-marquee">
@@ -287,6 +309,106 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
 
         fetchPrices();
         setInterval(fetchPrices, 60000);
+      })();
+
+      // === Search Overlay ===
+      (function initSearchOverlay() {
+        var overlay = document.getElementById('searchOverlay');
+        var toggle = document.getElementById('searchToggle');
+        var input = document.getElementById('searchOverlayInput');
+        var results = document.getElementById('searchOverlayResults');
+        var closeBtn = document.getElementById('searchCloseBtn');
+        var backdrop = document.getElementById('searchOverlayBackdrop');
+        var searchIndex = [];
+        var indexLoaded = false;
+
+        function openOverlay() {
+          overlay.classList.add('open');
+          document.body.classList.add('search-open');
+          setTimeout(function() { input.focus(); }, 100);
+        }
+
+        function closeOverlay() {
+          overlay.classList.remove('open');
+          document.body.classList.remove('search-open');
+          input.value = '';
+          results.innerHTML = '<p class="search-hint">Mulai ketik untuk mencari artikel...</p>';
+        }
+
+        toggle.addEventListener('click', function(e) {
+          e.preventDefault();
+          openOverlay();
+        });
+
+        closeBtn.addEventListener('click', closeOverlay);
+        backdrop.addEventListener('click', closeOverlay);
+
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && overlay.classList.contains('open')) {
+            closeOverlay();
+          }
+          if ((e.ctrlKey || e.metaKey) && e.key === 'k' && !overlay.classList.contains('open')) {
+            e.preventDefault();
+            openOverlay();
+          }
+        });
+
+        async function loadIndex() {
+          if (indexLoaded) return;
+          try {
+            var res = await fetch('/search-index.json');
+            searchIndex = await res.json();
+            indexLoaded = true;
+          } catch (e) {
+            console.error('Search index load failed:', e);
+          }
+        }
+
+        function formatDate(isoStr) {
+          var d = new Date(isoStr);
+          return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
+        }
+
+        function doSearch(query) {
+          var q = query.toLowerCase().trim();
+          if (!q) return [];
+          var terms = q.split(/\\s+/);
+          return searchIndex.filter(function(item) {
+            var haystack = (item.title + ' ' + item.description + ' ' + item.excerpt + ' ' + item.category + ' ' + item.tags.join(' ')).toLowerCase();
+            return terms.every(function(t) { return haystack.includes(t); });
+          });
+        }
+
+        function renderSearch(query) {
+          if (!query.trim()) {
+            results.innerHTML = '<p class="search-hint">Mulai ketik untuk mencari artikel...</p>';
+            return;
+          }
+          var matches = doSearch(query);
+          if (matches.length === 0) {
+            results.innerHTML = '<p class="search-empty">Tidak ditemukan artikel untuk "<strong>' + query + '</strong>"</p>';
+            return;
+          }
+          results.innerHTML = matches.map(function(item) {
+            return '<a href="/blog/' + item.id + '" class="search-result-card" onclick="document.getElementById(\'searchOverlay\').classList.remove(\'open\');document.body.classList.remove(\'search-open\')">' +
+              '<img src="/images/hero/' + item.id + '.png" alt="' + item.title.replace(/"/g, '&quot;') + '" class="search-result-img" loading="lazy" />' +
+              '<div class="search-result-content">' +
+              '<span class="search-result-category">' + item.category + '</span>' +
+              '<h3 class="search-result-title">' + item.title + '</h3>' +
+              '<p class="search-result-desc">' + item.description + '</p>' +
+              '<span class="search-result-date">' + formatDate(item.pubDate) + '</span>' +
+              '</div></a>';
+          }).join('');
+        }
+
+        var debounceTimer;
+        input.addEventListener('input', async function(e) {
+          await loadIndex();
+          clearTimeout(debounceTimer);
+          debounceTimer = setTimeout(function() {
+            renderSearch(e.target.value);
+          }, 200);
+        });
       })();
 
       // Duplicate ticker items for seamless marquee loop

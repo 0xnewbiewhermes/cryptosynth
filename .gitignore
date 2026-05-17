@@ -14,5 +14,5 @@ vercel.json.bak
 .vercel/
 
 # Large generated data
-public/data/
+# public/data/
 

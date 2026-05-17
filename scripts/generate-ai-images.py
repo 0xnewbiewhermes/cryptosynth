@@ -47,7 +47,8 @@ def resize_to_target(img_path, target_w, target_h):
 
 def remove_svg_fallback(png_path):
     """Remove SVG fallback file if it exists alongside the PNG"""
-    svg_path = png_path.with_suffix('.svg')
+    p = Path(png_path) if isinstance(png_path, str) else png_path
+    svg_path = p.with_suffix('.svg')
     if svg_path.exists():
         svg_path.unlink()
         print(f"  Removed SVG fallback: {svg_path.name}")

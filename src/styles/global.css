@@ -2622,7 +2622,7 @@ code, pre {
 /* ===== SEARCH DROPDOWN — Apple-style ===== */
 .search-dropdown {
   display: none;
-  position: absolute;
+  position: fixed;
   top: var(--nav-height);
   left: 0;
   right: 0;

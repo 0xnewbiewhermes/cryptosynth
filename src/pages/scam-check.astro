@@ -313,6 +313,7 @@ form.addEventListener('submit', (e) => {
 
   // Show loading
   result.style.display = 'block';
+  resultCard.style.display = 'none';  // Hide old result
   resultCard.className = 'result-card';
   resultCard.style.borderColor = '#6B7280';
   resultCard.style.background = '#1F2937';
@@ -332,6 +333,7 @@ form.addEventListener('submit', (e) => {
     const domain = normalizeDomain(raw);
     
     if (domain.length < 4) {
+      resultCard.style.display = '';
       resultCard.className = 'result-card';
       resultCard.style.borderColor = '#F59E0B';
       resultCard.style.background = '#F59E0B10';
@@ -347,6 +349,7 @@ form.addEventListener('submit', (e) => {
 
     if (matches && matches.length > 0) {
       const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
+      resultCard.style.display = '';
       resultCard.className = 'result-card result-scam';
       resultTitle.textContent = 'SCAM TERDETEKSI';
       resultDetail.innerHTML = `
@@ -355,6 +358,7 @@ form.addEventListener('submit', (e) => {
         ${matches.length > 1 ? `<br><small>(${matches.length} varian domain terkait)</small>` : ''}
       `;
     } else {
+      resultCard.style.display = '';
       resultCard.className = 'result-card result-aman';
       resultTitle.textContent = 'AMAN';
       resultDetail.innerHTML = `

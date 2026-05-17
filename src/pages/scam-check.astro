@@ -30,7 +30,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                   type="text"
                   id="checkInput"
                   class="scam-input"
-                  placeholder="Contoh: interest-tydro.com atau 0x..."
+                  placeholder="Contoh: interest-tydro.com atau 0x... atau address Solana"
                   autocomplete="off"
                   spellcheck="false"
                   required
@@ -41,7 +41,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
               </button>
             </form>
-            <p class="scam-form-hint">Domain, wallet address, atau kontrak token ERC-20/BEP-20</p>
+            <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token</p>
           </div>
         </div>
 
@@ -596,6 +596,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <script>
 const dataUrl = '/data/scam-alerts.json';
 let scamData = [];
+let domainCount = 0;
+let addressCount = 0;
 const form = document.getElementById('checkForm');
 const input = document.getElementById('checkInput');
 const result = document.getElementById('checkResult');
@@ -615,14 +617,26 @@ fetch(dataUrl + '?v=' + Date.now())
   .then(r => r.json())
   .then(data => {
     scamData = data;
-    statsText.innerHTML = `<strong>${data.length.toLocaleString('id-ID')}</strong> domain & address terindeks`;
+    domainCount = data.filter(d => d.type === 'domain').length;
+    addressCount = data.filter(d => d.type === 'address').length;
+    statsText.innerHTML = `<strong>${domainCount.toLocaleString('id-ID')}</strong> domain + <strong>${addressCount.toLocaleString('id-ID')}</strong> address`;
   })
   .catch(() => {
     statsText.innerHTML = 'Gagal memuat database';
     stats.style.color = '#EF4444';
   });
 
-function normalizeDomain(input) {
+function isAddress(input) {
+  // Ethereum/BSC/Polygon: 0x + 40 hex chars
+  if (/^0x[a-f0-9]{40}$/i.test(input)) return true;
+  // Bitcoin: bc1, 1, 3...
+  if (/^(bc1|[13])[a-zA-Z0-9]{25,62}$/.test(input)) return true;
+  // Solana: base58, ~32-44 chars
+  if (/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(input) && !input.includes('.')) return true;
+  return false;
+}
+
+function normalizeInput(input) {
   let d = input.trim().toLowerCase();
   for (const prefix of ['http://', 'https://', 'www.', 'hxxp://', 'hxxps://', 'ftp://']) {
     if (d.startsWith(prefix)) d = d.slice(prefix.length);
@@ -631,12 +645,22 @@ function normalizeDomain(input) {
   return d;
 }
 
-function checkDomain(domain) {
-  if (!domain || !scamData.length) return null;
+function checkScam(input, isAddr) {
+  if (!input || !scamData.length) return null;
+
+  if (isAddr) {
+    // Address: exact match only (case-insensitive)
+    const match = scamData.find(d => d.type === 'address' && d.key === input);
+    return match ? [match] : null;
+  }
+
+  // Domain: fuzzy match
   const matches = scamData.filter(d =>
-    d.domain === domain ||
-    d.domain.endsWith('.' + domain) ||
-    domain.includes(d.domain)
+    d.type === 'domain' && (
+      d.key === input ||
+      d.key.endsWith('.' + input) ||
+      input.includes(d.key)
+    )
   );
   return matches.length > 0 ? matches : null;
 }
@@ -664,9 +688,9 @@ form.addEventListener('submit', (e) => {
     btnSpinner.style.display = 'none';
     btn.disabled = false;
 
-    const domain = normalizeDomain(raw);
+    const cleaned = normalizeInput(raw);
 
-    if (domain.length < 4) {
+    if (cleaned.length < 4) {
       resultCard.className = 'scam-result-card scam-result-warning';
       resultIcon.textContent = '⚠️';
       resultIconWrap.style.background = 'rgba(245, 158, 11, 0.12)';
@@ -677,7 +701,9 @@ form.addEventListener('submit', (e) => {
       return;
     }
 
-    const matches = checkDomain(domain);
+    const isAddr = isAddress(cleaned);
+    const labelType = isAddr ? 'Address' : 'Domain';
+    const matches = checkScam(cleaned, isAddr);
 
     if (matches && matches.length > 0) {
       const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
@@ -686,19 +712,27 @@ form.addEventListener('submit', (e) => {
       resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
       resultTitle.textContent = '⚠️ SCAM TERDETEKSI';
       resultDetail.innerHTML = `
-        Domain ini <strong>terdaftar sebagai scam</strong> di:
+        ${labelType} ini <strong>terdaftar sebagai scam</strong> di:
         <strong>${sources.join(', ')}</strong>
-        ${matches.length > 1 ? `<br><small>(${matches.length} varian domain terkait)</small>` : ''}
+        ${matches.length > 1 && !isAddr ? `<br><small>(${matches.length} varian terkait)</small>` : ''}
       `;
     } else {
       resultCard.className = 'scam-result-card scam-result-aman';
       resultIcon.textContent = '✅';
       resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
-      resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
-      resultDetail.innerHTML = `
-        Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.
-        <br><small>Tetap verifikasi sebelum transaksi.</small>
-      `;
+      if (isAddr) {
+        resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
+        resultDetail.innerHTML = `
+          Address ini <strong>tidak terdaftar</strong> sebagai scam di database ScamSniffer.
+          <br><small>Tetap verifikasi sebelum transaksi.</small>
+        `;
+      } else {
+        resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
+        resultDetail.innerHTML = `
+          Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.
+          <br><small>Tetap verifikasi sebelum transaksi.</small>
+        `;
+      }
     }
 
     resultCard.style.opacity = '1';

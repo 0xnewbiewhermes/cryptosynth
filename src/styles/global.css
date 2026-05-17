@@ -170,33 +170,39 @@ code, pre {
 }
 
 
-/* Search icon in nav — Apple-style */
-.nav-search-link {
-  display: inline-flex;
+/* Search icon in header — Apple-style */
+.search-toggle {
+  display: flex;
   align-items: center;
   justify-content: center;
   background: none !important;
   border: none !important;
-  color: rgba(255, 255, 255, 0.6) !important;
-  font-family: inherit !important;
+  color: rgba(255, 255, 255, 0.5) !important;
   cursor: pointer !important;
-  padding: 0.15rem 0.25rem !important;
-  margin-right: 0.5rem;
-  transition: color 0.2s;
+  padding: 0 !important;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  transition: all 0.2s;
 }
-.nav-search-link:hover {
+.search-toggle:hover {
   color: #fff !important;
-  background: none !important;
-  border-color: transparent !important;
+  background: rgba(255, 255, 255, 0.08) !important;
 }
-.nav-search-link svg {
+.search-toggle svg {
   width: 16px;
   height: 16px;
-  opacity: 0.7;
   transition: opacity 0.2s;
 }
-.nav-search-link:hover svg {
+.search-toggle:hover svg {
   opacity: 1;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  margin-left: auto;
 }
 
 .menu-toggle {
@@ -2434,17 +2440,13 @@ code, pre {
   .nav a.active { color: var(--primary); }
   .nav a.active::after { display: none; }
 
-  .nav-search-link {
-    margin-right: 0 !important;
-    margin-bottom: 0.25rem;
-    justify-content: flex-start;
-    color: var(--text-muted) !important;
-    border-color: var(--border) !important;
-    background: var(--bg-surface) !important;
+  .search-toggle {
+    width: 32px;
+    height: 32px;
   }
-  .nav-search-link:hover {
-    color: var(--text-primary) !important;
-    border-color: var(--primary) !important;
+  .search-toggle svg {
+    width: 14px;
+    height: 14px;
   }
 
   /* Hero */

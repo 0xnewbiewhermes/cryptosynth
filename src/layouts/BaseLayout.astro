@@ -30,13 +30,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           <img src="/images/cryptosynth-logo.png" alt="CryptoSynth" class="logo-icon" />
           <span><span class="logo-text">Crypto</span><span class="logo-accent">Synth</span></span>
         </a>
-        <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-          &#9776;
-        </button>
         <nav class="nav" id="mainNav">
-          <button class="nav-search-link" id="searchToggle" aria-label="Cari artikel">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          </button>
           <a href="/">Home</a>
           <a href="/category/berita">Berita</a>
           <a href="/category/airdrop">Airdrop</a>
@@ -46,6 +40,14 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           <a href="/category/tutorial">Tutorial</a>
           <a href="/about">Tentang</a>
         </nav>
+        <div class="header-actions">
+          <button class="search-toggle" id="searchToggle" aria-label="Cari artikel">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+            &#9776;
+          </button>
+        </div>
       </div>
 
       <!-- Search Dropdown (Apple-style) — di dalam header biar position absolute jalan -->

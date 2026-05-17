@@ -167,6 +167,12 @@ code, pre {
   border-radius: 2px;
 }
 
+.nav-alert {
+  color: #EF4444 !important;
+  font-weight: 700 !important;
+}
+
+
 /* Search pill button */
 .nav-search-link {
   display: inline-flex;

@@ -1,0 +1,374 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout
+  title="🔍 Scam Checker - Cek Domain & Address Scam Crypto"
+  description="Cek apakah domain atau address crypto terdaftar sebagai scam di ScamSniffer, jarelllama, dan phishdestroy. Gratis, instan."
+>
+  <main class="scam-check-page">
+    <section class="check-hero">
+      <h1>🔍 Scam Checker</h1>
+      <p class="check-subtitle">Cek apakah domain atau address crypto terdaftar sebagai scam</p>
+      
+      <form class="check-form" id="checkForm">
+        <input
+          type="text"
+          id="checkInput"
+          class="check-input"
+          placeholder="Masukkan domain atau address (contoh: interest-tydro.com)"
+          autocomplete="off"
+          required
+        />
+        <button type="submit" class="check-btn" id="checkBtn">
+          <span id="btnText">Cek</span>
+          <span id="btnSpinner" class="spinner" style="display:none"></span>
+        </button>
+      </form>
+    </section>
+
+    <section class="check-result" id="checkResult" style="display:none">
+      <div class="result-card" id="resultCard">
+        <div class="result-icon" id="resultIcon"></div>
+        <div class="result-content">
+          <h2 id="resultTitle"></h2>
+          <p id="resultDetail"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="check-stats" id="checkStats">
+      <p>Memuat database...</p>
+    </section>
+
+    <section class="check-info">
+      <h3>Sumber Data</h3>
+      <ul>
+        <li><a href="https://github.com/scamsniffer/scam-database" target="_blank" rel="noopener">ScamSniffer</a> — phishing domains</li>
+        <li><a href="https://github.com/jarelllama/Scam-Blocklist" target="_blank" rel="noopener">jarelllama/Scam-Blocklist</a> — scam domains</li>
+        <li><a href="https://github.com/phishdestroy/destroylist" target="_blank" rel="noopener">phishdestroy/destroylist</a> — phishing blocklist</li>
+      </ul>
+      <p class="check-disclaimer">Database diperbarui setiap 6 jam. Selalu verifikasi sebelum transaksi.</p>
+    </section>
+  </main>
+</BaseLayout>
+
+<style>
+  .scam-check-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+  }
+
+  .check-hero {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .check-hero h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .check-subtitle {
+    color: #9CA3AF;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .check-form {
+    display: flex;
+    gap: 0.75rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .check-input {
+    flex: 1;
+    padding: 0.875rem 1.25rem;
+    border-radius: 12px;
+    border: 2px solid #374151;
+    background: #1F2937;
+    color: white;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  .check-input:focus {
+    border-color: #3B82F6;
+  }
+
+  .check-btn {
+    padding: 0.875rem 1.75rem;
+    border-radius: 12px;
+    border: none;
+    background: #EF4444;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .check-btn:hover {
+    background: #DC2626;
+  }
+
+  .check-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+  }
+
+  .spinner {
+    width: 18px;
+    height: 18px;
+    border: 2px solid rgba(255,255,255,0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 0.6s linear infinite;
+  }
+
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  .check-result {
+    margin-top: 2rem;
+  }
+
+  .result-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 2px solid;
+  }
+
+  .result-aman {
+    border-color: #10B981;
+    background: #10B98110;
+  }
+
+  .result-scam {
+    border-color: #EF4444;
+    background: #EF444410;
+  }
+
+  .result-icon {
+    font-size: 2rem;
+    flex-shrink: 0;
+  }
+
+  .result-content h2 {
+    margin: 0 0 0.5rem;
+    font-size: 1.25rem;
+  }
+
+  .result-aman h2 { color: #10B981; }
+  .result-scam h2 { color: #EF4444; }
+
+  .result-content p {
+    margin: 0;
+    color: #D1D5DB;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .result-content strong {
+    color: #F3F4F6;
+  }
+
+  .result-content small {
+    color: #9CA3AF;
+  }
+
+  .check-stats {
+    text-align: center;
+    margin-top: 1.5rem;
+    color: #6B7280;
+    font-size: 0.9rem;
+  }
+
+  .check-info {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #1F2937;
+  }
+
+  .check-info h3 {
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .check-info ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .check-info li {
+    margin-bottom: 0.5rem;
+    color: #9CA3AF;
+    font-size: 0.9rem;
+  }
+
+  .check-info a {
+    color: #3B82F6;
+  }
+
+  .check-disclaimer {
+    margin-top: 1rem;
+    font-size: 0.85rem;
+    color: #6B7280;
+    font-style: italic;
+  }
+
+  @media (max-width: 600px) {
+    .check-form {
+      flex-direction: column;
+    }
+    .check-btn {
+      justify-content: center;
+    }
+    .result-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  }
+
+  @media (prefers-color-scheme: light) {
+    .check-input {
+      background: #F3F4F6;
+      border-color: #D1D5DB;
+      color: #111827;
+    }
+    .check-input:focus {
+      border-color: #3B82F6;
+    }
+    .check-subtitle { color: #6B7280; }
+    .result-content p { color: #4B5563; }
+    .result-content strong { color: #111827; }
+    .check-info li { color: #6B7280; }
+    .check-stats { color: #9CA3AF; }
+  }
+</style>
+
+<script>
+const dataUrl = '/data/scam-alerts.json';
+let scamData = [];
+const form = document.getElementById('checkForm');
+const input = document.getElementById('checkInput');
+const result = document.getElementById('checkResult');
+const resultCard = document.getElementById('resultCard');
+const resultIcon = document.getElementById('resultIcon');
+const resultTitle = document.getElementById('resultTitle');
+const resultDetail = document.getElementById('resultDetail');
+const stats = document.getElementById('checkStats');
+const btnText = document.getElementById('btnText');
+const btnSpinner = document.getElementById('btnSpinner');
+const btn = document.getElementById('checkBtn');
+
+// Load data with cache bust
+fetch(dataUrl + '?v=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    scamData = data;
+    stats.innerHTML = `<p>Database: <strong>${data.length.toLocaleString('id-ID')}</strong> domain dari 3 sumber</p>`;
+  })
+  .catch(() => {
+    stats.innerHTML = `<p style="color: #EF4444;">Gagal memuat database. Refresh halaman atau coba lagi nanti.</p>`;
+  });
+
+function normalizeDomain(input) {
+  let d = input.trim().toLowerCase();
+  for (const prefix of ['http://', 'https://', 'www.', 'hxxp://', 'hxxps://', 'ftp://']) {
+    if (d.startsWith(prefix)) d = d.slice(prefix.length);
+  }
+  d = d.replace(/\/+$/, '').replace(/\/$/, '');
+  return d;
+}
+
+function checkDomain(domain) {
+  if (!domain || !scamData.length) return null;
+  const matches = scamData.filter(d => 
+    d.domain === domain || 
+    d.domain.endsWith('.' + domain) || 
+    domain.includes(d.domain)
+  );
+  return matches.length > 0 ? matches : null;
+}
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  
+  const raw = input.value.trim();
+  if (!raw) {
+    input.focus();
+    return;
+  }
+
+  // Show loading
+  result.style.display = 'block';
+  resultCard.className = 'result-card';
+  resultCard.style.borderColor = '#6B7280';
+  resultCard.style.background = '#1F2937';
+  resultIcon.textContent = '⏳';
+  resultTitle.textContent = 'Memeriksa...';
+  resultTitle.style.color = '#9CA3AF';
+  resultDetail.textContent = '';
+  btnText.style.display = 'none';
+  btnSpinner.style.display = 'inline-block';
+  btn.disabled = true;
+
+  setTimeout(() => {
+    btnText.style.display = 'inline';
+    btnSpinner.style.display = 'none';
+    btn.disabled = false;
+
+    const domain = normalizeDomain(raw);
+    
+    if (domain.length < 4) {
+      resultCard.className = 'result-card';
+      resultCard.style.borderColor = '#F59E0B';
+      resultCard.style.background = '#F59E0B10';
+      resultIcon.textContent = '⚠️';
+      resultTitle.textContent = 'Input Tidak Valid';
+      resultTitle.style.color = '#F59E0B';
+      resultDetail.textContent = 'Masukkan domain atau address yang valid.';
+      result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      return;
+    }
+
+    const matches = checkDomain(domain);
+
+    if (matches && matches.length > 0) {
+      const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
+      resultCard.className = 'result-card result-scam';
+      resultTitle.textContent = 'SCAM TERDETEKSI';
+      resultDetail.innerHTML = `
+        Domain ini <strong>terdaftar sebagai scam</strong> di:
+        <strong>${sources.join(', ')}</strong>
+        ${matches.length > 1 ? `<br><small>(${matches.length} varian domain terkait)</small>` : ''}
+      `;
+    } else {
+      resultCard.className = 'result-card result-aman';
+      resultTitle.textContent = 'AMAN';
+      resultDetail.innerHTML = `
+        Tidak terdaftar sebagai scam di:
+        <strong>ScamSniffer, jarelllama, phishdestroy</strong>
+      `;
+    }
+
+    result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 200);
+});
+
+input.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') form.dispatchEvent(new Event('submit'));
+});
+</script>

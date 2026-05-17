@@ -41,7 +41,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
               </button>
             </form>
-            <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token</p>
+            <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token — diperiksa dari 3 database + analisis token real-time</p>
           </div>
         </div>
 
@@ -79,21 +79,28 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <div class="scam-source-icon">🛡️</div>
             <div class="scam-source-info">
               <strong>ScamSniffer</strong>
-              <span>Database phishing domain terbesar — 330rb+ domain</span>
+              <span>347rb domain + 2.530 address phishing crypto</span>
             </div>
           </div>
           <div class="scam-source-item">
             <div class="scam-source-icon">🚫</div>
             <div class="scam-source-info">
               <strong>jarelllama/Scam-Blocklist</strong>
-              <span>Blocklist scam domain dari komunitas</span>
+              <span>487rb domain scam & phishing umum</span>
             </div>
           </div>
           <div class="scam-source-item">
             <div class="scam-source-icon">🔥</div>
             <div class="scam-source-info">
               <strong>phishdestroy/destroylist</strong>
-              <span>Database domain phishing aktif</span>
+              <span>149rb domain phishing aktif</span>
+            </div>
+          </div>
+          <div class="scam-source-item">
+            <div class="scam-source-icon">⚡</div>
+            <div class="scam-source-info">
+              <strong>Go+ Security API</strong>
+              <span>Analisis token real-time — honeypot, tax, blacklist (40+ chain)</span>
             </div>
           </div>
         </div>
@@ -403,6 +410,43 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     font-size: 0.82rem;
   }
 
+  /* Source badges */
+  .src-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.5rem;
+  }
+
+  .src-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 100px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    background: rgba(239, 68, 68, 0.08);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: #EF4444;
+  }
+
+  .flag-badge {
+    display: inline-flex;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 700;
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+  }
+
+  .flag-bad {
+    background: rgba(239, 68, 68, 0.1);
+    border: 1px solid rgba(239, 68, 68, 0.25);
+    color: #EF4444;
+  }
+
   /* --- AMAN state --- */
   .scam-result-aman .scam-result-glow {
     background: #10B981;
@@ -596,8 +640,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <script>
 const dataUrl = '/data/scam-alerts.json';
 let scamData = [];
-let domainCount = 0;
-let addressCount = 0;
+let statsBreakdown = '';
 const form = document.getElementById('checkForm');
 const input = document.getElementById('checkInput');
 const result = document.getElementById('checkResult');
@@ -612,14 +655,37 @@ const btnText = document.getElementById('btnText');
 const btnSpinner = document.getElementById('btnSpinner');
 const btn = document.getElementById('checkBtn');
 
+// Go+ chain IDs
+const CHAIN_IDS = {
+  ethereum: 1, bsc: 56, polygon: 137, avalanche: 43114,
+  arbitrum: 42161, optimism: 10, base: 8453, fantom: 250,
+  cronos: 25, gnosis: 100, celo: 42220, moonbeam: 1284,
+  moonriver: 1285, metis: 1088, bttc: 199, kava: 2222,
+  linea: 59144, scroll: 534352, zksync: 324, blast: 81457
+};
+
+// Source display config
+const SOURCE_META = {
+  'ScamSniffer': { icon: '🛡️', label: 'ScamSniffer' },
+  'jarelllama': { icon: '🚫', label: 'jarelllama' },
+  'phishdestroy': { icon: '🔥', label: 'phishdestroy' }
+};
+
 // Load data with cache bust
 fetch(dataUrl + '?v=' + Date.now())
   .then(r => r.json())
   .then(data => {
     scamData = data;
-    domainCount = data.filter(d => d.type === 'domain').length;
-    addressCount = data.filter(d => d.type === 'address').length;
-    statsText.innerHTML = `<strong>${domainCount.toLocaleString('id-ID')}</strong> domain + <strong>${addressCount.toLocaleString('id-ID')}</strong> address`;
+    const counts = {};
+    data.forEach(d => {
+      d.source.split(', ').forEach(s => { counts[s] = (counts[s] || 0) + 1; });
+    });
+    const parts = [];
+    if (counts['ScamSniffer']) parts.push(`🛡️ ${(counts['ScamSniffer']).toLocaleString('id-ID')}`);
+    if (counts['jarelllama']) parts.push(`🚫 ${(counts['jarelllama']).toLocaleString('id-ID')}`);
+    if (counts['phishdestroy']) parts.push(`🔥 ${(counts['phishdestroy']).toLocaleString('id-ID')}`);
+    statsBreakdown = parts.join(' &bull; ');
+    statsText.innerHTML = statsBreakdown;
   })
   .catch(() => {
     statsText.innerHTML = 'Gagal memuat database';
@@ -627,12 +693,9 @@ fetch(dataUrl + '?v=' + Date.now())
   });
 
 function isAddress(input) {
-  // Ethereum/BSC/Polygon: 0x + 40 hex chars
-  if (/^0x[a-f0-9]{40}$/i.test(input)) return true;
-  // Bitcoin: bc1, 1, 3...
-  if (/^(bc1|[13])[a-zA-Z0-9]{25,62}$/.test(input)) return true;
-  // Solana: base58, ~32-44 chars
-  if (/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(input) && !input.includes('.')) return true;
+  if (/^0x[a-f0-9]{40}$/i.test(input)) return 'evm';
+  if (/^(bc1|[13])[a-zA-Z0-9]{25,62}$/.test(input)) return 'btc';
+  if (/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(input) && !input.includes('.')) return 'sol';
   return false;
 }
 
@@ -645,16 +708,12 @@ function normalizeInput(input) {
   return d;
 }
 
-function checkScam(input, isAddr) {
+function checkBlacklist(input, addrType) {
   if (!input || !scamData.length) return null;
-
-  if (isAddr) {
-    // Address: exact match only (case-insensitive)
+  if (addrType) {
     const match = scamData.find(d => d.type === 'address' && d.key === input);
     return match ? [match] : null;
   }
-
-  // Domain: fuzzy match
   const matches = scamData.filter(d =>
     d.type === 'domain' && (
       d.key === input ||
@@ -665,14 +724,50 @@ function checkScam(input, isAddr) {
   return matches.length > 0 ? matches : null;
 }
 
-form.addEventListener('submit', (e) => {
+// Go+ token security check
+async function checkGoPlus(address) {
+  // Try Ethereum (chain 1) first, return raw result
+  try {
+    const resp = await fetch(
+      `https://api.gopluslabs.io/api/v1/token_security/1?contract_addresses=${address}`,
+      { signal: AbortSignal.timeout(5000) }
+    );
+    const data = await resp.json();
+    const result = data.result || {};
+    const tokenData = result[address.toLowerCase()];
+    if (!tokenData) return null;
+
+    const flags = [];
+    if (tokenData.is_honeypot === '1') flags.push('Honeypot');
+    if (tokenData.is_blacklisted === '1') flags.push('Blacklist');
+    if (tokenData.cannot_buy === '1') flags.push('Cannot Buy');
+    if (tokenData.cannot_sell_all === '1') flags.push('Cannot Sell All');
+    if (tokenData.trading_cooldown === '1') flags.push('Trading Cooldown');
+    if (tokenData.anti_whale_modifiable === '1') flags.push('Anti-Whale Modifiable');
+    if (tokenData.can_take_back_ownership === '1') flags.push('Ownership Can Be Taken');
+    const buyTax = parseFloat(tokenData.buy_tax || '0');
+    const sellTax = parseFloat(tokenData.sell_tax || '0');
+    if (buyTax > 10) flags.push(`Buy Tax ${buyTax}%`);
+    if (sellTax > 10) flags.push(`Sell Tax ${sellTax}%`);
+
+    return {
+      name: tokenData.token_name || null,
+      symbol: tokenData.token_symbol || null,
+      flags,
+      holders: parseInt(tokenData.holder_count || '0'),
+      creator: tokenData.creator_address || null,
+      is_risky: flags.length > 0
+    };
+  } catch {
+    return null;
+  }
+}
+
+form.addEventListener('submit', async (e) => {
   e.preventDefault();
 
   const raw = input.value.trim();
-  if (!raw) {
-    input.focus();
-    return;
-  }
+  if (!raw) { input.focus(); return; }
 
   // Show loading
   result.style.display = 'block';
@@ -683,61 +778,103 @@ form.addEventListener('submit', (e) => {
   btnSpinner.style.display = 'inline-block';
   btn.disabled = true;
 
-  setTimeout(() => {
+  // Small delay for UI feedback
+  await new Promise(r => setTimeout(r, 200));
+
+  const cleaned = normalizeInput(raw);
+
+  if (cleaned.length < 4) {
     btnText.style.display = 'inline';
     btnSpinner.style.display = 'none';
     btn.disabled = false;
-
-    const cleaned = normalizeInput(raw);
-
-    if (cleaned.length < 4) {
-      resultCard.className = 'scam-result-card scam-result-warning';
-      resultIcon.textContent = '⚠️';
-      resultIconWrap.style.background = 'rgba(245, 158, 11, 0.12)';
-      resultTitle.textContent = 'Input Tidak Valid';
-      resultDetail.textContent = 'Masukkan domain atau address yang valid.';
-      resultCard.style.opacity = '1';
-      result.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      return;
-    }
-
-    const isAddr = isAddress(cleaned);
-    const labelType = isAddr ? 'Address' : 'Domain';
-    const matches = checkScam(cleaned, isAddr);
-
-    if (matches && matches.length > 0) {
-      const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
-      resultCard.className = 'scam-result-card scam-result-scam';
-      resultIcon.textContent = '⚠️';
-      resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
-      resultTitle.textContent = '⚠️ SCAM TERDETEKSI';
-      resultDetail.innerHTML = `
-        ${labelType} ini <strong>terdaftar sebagai scam</strong> di:
-        <strong>${sources.join(', ')}</strong>
-        ${matches.length > 1 && !isAddr ? `<br><small>(${matches.length} varian terkait)</small>` : ''}
-      `;
-    } else {
-      resultCard.className = 'scam-result-card scam-result-aman';
-      resultIcon.textContent = '✅';
-      resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
-      if (isAddr) {
-        resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
-        resultDetail.innerHTML = `
-          Address ini <strong>tidak terdaftar</strong> sebagai scam di database ScamSniffer.
-          <br><small>Tetap verifikasi sebelum transaksi.</small>
-        `;
-      } else {
-        resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
-        resultDetail.innerHTML = `
-          Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.
-          <br><small>Tetap verifikasi sebelum transaksi.</small>
-        `;
-      }
-    }
-
+    resultCard.className = 'scam-result-card scam-result-warning';
+    resultIcon.textContent = '⚠️';
+    resultIconWrap.style.background = 'rgba(245, 158, 11, 0.12)';
+    resultTitle.textContent = 'Input Tidak Valid';
+    resultDetail.textContent = 'Masukkan domain atau address yang valid.';
     resultCard.style.opacity = '1';
     result.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }, 250);
+    return;
+  }
+
+  const addrType = isAddress(cleaned);
+  const labelType = addrType ? 'Address' : 'Domain';
+
+  // Check blacklist
+  const matches = checkBlacklist(cleaned, addrType);
+
+  // If it's an EVM address (0x), also check Go+
+  let goPlusResult = null;
+  if (addrType === 'evm') {
+    goPlusResult = await checkGoPlus(cleaned);
+  }
+
+  btnText.style.display = 'inline';
+  btnSpinner.style.display = 'none';
+  btn.disabled = false;
+
+  // Build result
+  const isScam = matches && matches.length > 0;
+  const goPlusRisky = goPlusResult && goPlusResult.is_risky;
+
+  if (isScam || goPlusRisky) {
+    let html = '';
+    resultCard.className = 'scam-result-card scam-result-scam';
+
+    if (isScam) {
+      const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
+      const sourceBadges = sources.map(s => {
+        const meta = SOURCE_META[s] || { icon: '📋', label: s };
+        return `<span class="src-badge">${meta.icon} ${meta.label}</span>`;
+      }).join(' ');
+      html += `
+        <p><strong>Terdaftar sebagai scam</strong> di database kami:</p>
+        <div class="src-badges">${sourceBadges}</div>
+        ${matches.length > 1 && !addrType ? `<small>(${matches.length} varian terkait)</small>` : ''}
+      `;
+    }
+
+    if (goPlusRisky) {
+      const flagBadges = goPlusResult.flags.map(f =>
+        `<span class="flag-badge flag-bad">${f}</span>`
+      ).join(' ');
+      html += `
+        <p style="margin-top: ${isScam ? '0.75rem' : '0'}"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p>
+        <div class="src-badges">${flagBadges}</div>
+      `;
+    }
+
+    resultIcon.textContent = '⚠️';
+    resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
+    resultTitle.textContent = '⚠️ SCAM / BERBAHAYA';
+    resultDetail.innerHTML = html;
+
+  } else {
+    resultCard.className = 'scam-result-card scam-result-aman';
+    resultIcon.textContent = '✅';
+    resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
+    resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
+
+    let html = '';
+    if (labelType === 'Address') {
+      html += `Address ini <strong>tidak terdaftar</strong> sebagai scam di database kami.`;
+    } else {
+      html += `Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.`;
+    }
+
+    // Go+ clean result (optional info)
+    if (goPlusResult && !goPlusRisky) {
+      const nameInfo = goPlusResult.name ? `${goPlusResult.name}` : '';
+      const holderInfo = goPlusResult.holders > 0 ? ` | ${goPlusResult.holders.toLocaleString()} holders` : '';
+      html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} — tidak ada flag mencurigakan</small>`;
+    }
+
+    html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;
+    resultDetail.innerHTML = html;
+  }
+
+  resultCard.style.opacity = '1';
+  result.scrollIntoView({ behavior: 'smooth', block: 'center' });
 });
 
 input.addEventListener('keydown', (e) => {

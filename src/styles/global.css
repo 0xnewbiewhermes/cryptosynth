@@ -2623,7 +2623,7 @@ code, pre {
 .search-dropdown {
   display: none;
   position: absolute;
-  top: 100%;
+  top: var(--nav-height);
   left: 0;
   right: 0;
   z-index: 9999;

@@ -365,9 +365,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
 
         clearBtn.addEventListener('click', function(e) {
           e.stopPropagation();
-          input.value = '';
-          input.focus();
-          results.innerHTML = '';
+          closeSearch();
         });
 
         document.addEventListener('keydown', function(e) {

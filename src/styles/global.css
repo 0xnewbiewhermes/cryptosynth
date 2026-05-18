@@ -1646,7 +1646,11 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .tools-shortcut {
-  padding: 1.5rem 0;
+  padding: 1.5rem 0 0.75rem;
+}
+
+.tools-shortcut + .section {
+  padding-top: 0.5rem;
 }
 
 .tools-shortcut-grid {

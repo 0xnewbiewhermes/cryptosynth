@@ -968,8 +968,8 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1.5rem; }
 .footer {
-  background: #1F2937;
-  color: rgba(255, 255, 255, 0.7);
+  background: #0F172A;
+  color: rgba(255, 255, 255, 0.65);
   padding: 2rem 0 1rem;
   margin-top: auto;
 }
@@ -987,50 +987,50 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .footer-brand a {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 1.1rem;
-  color: white;
+  font-size: 1.05rem;
+  color: #fff;
 }
 
 .footer-brand p {
-  font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.82rem;
+  color: rgba(255, 255, 255, 0.45);
   margin-top: 0.35rem;
   line-height: 1.5;
 }
 
 .footer-col h4 {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 600;
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(255, 255, 255, 0.35);
   text-transform: uppercase;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
   margin-bottom: 0.5rem;
 }
 
 .footer-col a {
   display: block;
   font-size: 0.85rem;
-  color: rgba(255, 255, 255, 0.6);
-  padding: 0.15rem 0;
+  color: rgba(255, 255, 255, 0.55);
+  padding: 0.18rem 0;
   transition: color 0.2s ease;
 }
 
-.footer-col a:hover { color: white; opacity: 1; }
+.footer-col a:hover { color: #fff; opacity: 1; }
 
 .footer-bottom {
   max-width: var(--max-width);
   margin: 1.25rem auto 0;
-  padding: 1rem 1.5rem 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding: 0.85rem 1.5rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.72rem;
+  color: rgba(255, 255, 255, 0.35);
 }
 
-.footer-bottom a { color: rgba(255, 255, 255, 0.5); }
-.footer-bottom a:hover { color: white; opacity: 1; }
+.footer-bottom a { color: rgba(255, 255, 255, 0.4); }
+.footer-bottom a:hover { color: rgba(255, 255, 255, 0.7); }
 
 .footer-links { display: flex; gap: 1rem; }
 .footer-dot { display: none; }

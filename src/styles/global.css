@@ -578,6 +578,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   height: 42px;
   display: flex;
   align-items: center;
+  margin-top: var(--nav-height);
 }
 
 .ticker-marquee {

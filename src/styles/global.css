@@ -169,7 +169,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .logo-text { color: var(--text-primary); }
-.logo-accent { color: var(--primary); }
+.logo-accent { color: #2942D4; }
 
 .nav {
   display: flex;

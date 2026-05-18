@@ -1263,7 +1263,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== AIRDROP TRACKER ===== */
 .tracker-page {
-  padding: 1.5rem 0;
+  padding: 2rem 0;
 }
 
 .tracker-header {
@@ -1271,7 +1271,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   margin-bottom: 1.5rem;
 }
 
-.tracker-title { font-size: 1.5rem; margin-bottom: 0.4rem; }
+.tracker-title { font-size: 1.5rem; margin-bottom: 0.3rem; }
 .tracker-subtitle { color: var(--text-muted); font-size: 0.9rem; max-width: 560px; margin: 0 auto; }
 .tracker-count {
   font-size: 0.82rem;
@@ -1314,8 +1314,8 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 .filter-group {
   display: flex;
-  gap: 0.4rem;
-  align-items: center;
+  gap: 0.5rem;
+  align-items: flex-start;
 }
 
 .filter-label {
@@ -2145,6 +2145,9 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
     text-align: center;
     gap: 0.5rem;
   }
+
+  .tracker-page { padding: 1.25rem 0; }
+  .tracker-header { margin-bottom: 1rem; }
 
   .detail-grid { grid-template-columns: 1fr; }
   .filter-pills { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.5rem; }

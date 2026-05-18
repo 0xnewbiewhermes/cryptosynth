@@ -182,10 +182,10 @@ code, pre {
   border-radius: 2px;
 }
 
-.nav-alert {
-  color: #EF4444 !important;
-  font-weight: 700 !important;
-}
+
+
+
+
 
 
 /* Search icon in header — Apple-style */
@@ -401,15 +401,15 @@ code, pre {
   position: relative;
   padding: 5rem 0 4rem;
   overflow: hidden;
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0d9488 100%);
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8edf8 50%, #f0faf5 100%);
 }
 
 .hero-bg {
   position: absolute;
   inset: 0;
   background:
-    radial-gradient(ellipse at 25% 40%, rgba(26, 93, 227, 0.2), transparent 60%),
-    radial-gradient(ellipse at 75% 60%, rgba(35, 209, 190, 0.12), transparent 50%);
+    radial-gradient(ellipse at 25% 40%, rgba(26, 93, 227, 0.06), transparent 60%),
+    radial-gradient(ellipse at 75% 60%, rgba(35, 209, 190, 0.04), transparent 50%);
   pointer-events: none;
 }
 
@@ -426,7 +426,7 @@ code, pre {
 }
 
 .hero-main {
-  color: #fff;
+  color: var(--text-primary);
 }
 
 .hero-badge {
@@ -434,11 +434,11 @@ code, pre {
   align-items: center;
   gap: 0.4rem;
   padding: 0.3rem 0.8rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
   border-radius: 100px;
   font-size: 0.75rem;
-  color: rgba(255, 255, 255, 0.7);
+color: var(--text-muted);
   margin-bottom: 1.5rem;
   backdrop-filter: blur(10px);
   font-weight: 500;
@@ -464,12 +464,12 @@ code, pre {
   margin-bottom: 1rem;
   letter-spacing: -0.03em;
   line-height: 1.07;
-  color: #fff;
+color: var(--text-primary);
 }
 
 .hero-subtitle {
   font-size: 1.15rem;
-  color: rgba(255, 255, 255, 0.65);
+color: var(--text-secondary);
   max-width: 520px;
   margin: 0 0 1.75rem;
   line-height: 1.5;
@@ -498,13 +498,13 @@ code, pre {
 .hero-stat-value {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #fff;
+color: var(--text-primary);
   letter-spacing: -0.01em;
 }
 
 .hero-stat-label {
   font-size: 0.72rem;
-  color: rgba(255, 255, 255, 0.5);
+color: var(--text-muted);
   font-weight: 500;
   letter-spacing: 0.03em;
 }
@@ -521,8 +521,8 @@ code, pre {
   align-items: center;
   gap: 0.5rem;
   padding: 0.5rem 0.85rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
   border-radius: 10px;
   backdrop-filter: blur(10px);
 }
@@ -530,13 +530,13 @@ code, pre {
 .hero-ticker-symbol {
   font-weight: 700;
   font-size: 0.8rem;
-  color: rgba(255, 255, 255, 0.6);
+color: var(--text-muted);
 }
 
 .hero-ticker-price {
   font-weight: 700;
   font-size: 0.9rem;
-  color: #fff;
+color: var(--text-primary);
 }
 
 .hero-ticker-change {
@@ -546,8 +546,8 @@ code, pre {
 
 /* Hero Trending Sidebar */
 .hero-trending {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px solid rgba(255, 255, 255, 0.12);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 16px;
   padding: 1.25rem;
   backdrop-filter: blur(15px);
@@ -556,10 +556,10 @@ code, pre {
 .hero-trending-title {
   font-size: 0.95rem;
   font-weight: 700;
-  color: #fff;
+color: var(--text-primary);
   margin: 0 0 1rem;
   padding-bottom: 0.6rem;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid var(--border);
 }
 
 .hero-trending-list {
@@ -572,7 +572,7 @@ code, pre {
   display: flex;
   gap: 0.65rem;
   padding: 0.6rem 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid var(--border);
   text-decoration: none;
   align-items: flex-start;
   transition: background 0.2s;
@@ -602,7 +602,7 @@ code, pre {
   min-width: 24px;
   height: 24px;
   background: linear-gradient(135deg, #1A5DE3, #23D1BE);
-  color: #fff;
+color: var(--text-primary);
   font-size: 0.7rem;
   font-weight: 700;
   border-radius: 6px;
@@ -628,7 +628,7 @@ code, pre {
   font-size: 0.8rem;
   font-weight: 600;
   line-height: 1.3;
-  color: rgba(255, 255, 255, 0.9);
+color: var(--text-primary);
   margin: 0;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -637,7 +637,7 @@ code, pre {
 }
 
 .hero-trending-item:hover .hero-trending-name {
-  color: #fff;
+color: var(--text-primary);
 }
 
 /* ===== APPLE-STYLE BUTTONS ===== */
@@ -660,11 +660,11 @@ code, pre {
 
 .btn-primary {
   background: var(--primary);
-  color: #fff;
+color: var(--text-primary);
 }
 .btn-primary:hover {
   background: var(--primary-light);
-  color: #fff;
+color: var(--text-primary);
 }
 
 /* Pill-style secondary CTA (Apple "Learn more" style) */
@@ -683,33 +683,33 @@ code, pre {
 
 /* Pill on dark bg */
 .hero-buttons .btn-pill {
-  color: rgba(255, 255, 255, 0.9);
-  border-color: rgba(255, 255, 255, 0.25);
+color: var(--text-primary);
+border-color: var(--primary);
 }
 .hero-buttons .btn-pill:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.4);
-  color: #fff;
+  background: var(--bg-surface);
+border-color: var(--primary-light);
+color: var(--text-primary);
 }
 
 /* Primary CTA on dark bg */
 .hero-buttons .btn-primary {
   background: var(--primary);
-  color: #fff;
+color: var(--text-primary);
 }
 .hero-buttons .btn-primary:hover {
   background: var(--primary-light);
 }
 
 /* ===== STATS BAR ===== */
-.stats-bar {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  padding: 2rem 0;
-  border-top: 1px solid var(--border);
-  border-bottom: 1px solid var(--border);
-}
+
+
+
+
+
+
+
+
 
 .stat-item {
   text-align: center;
@@ -790,7 +790,7 @@ code, pre {
 
 .card-image {
   width: 100%;
-  height: 168px;
+  height: 200px;
   overflow: hidden;
 }
 
@@ -1068,15 +1068,15 @@ code, pre {
   font-style: italic;
 }
 
-.ai-disclosure-box {
-  background: rgba(59, 130, 246, 0.06);
-  border: 1px solid rgba(59, 130, 246, 0.15);
-  border-radius: var(--radius);
-  padding: 1rem 1.25rem;
-  margin-top: 1.5rem;
-  font-size: 0.8rem;
-  color: var(--text-muted);
-}
+
+
+
+
+
+
+
+
+
 
 /* ===== TAGS ===== */
 .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 1.5rem; }
@@ -1096,7 +1096,7 @@ code, pre {
 
 /* ===== PAGE HERO (sub-pages) ===== */
 .page-hero {
-  background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #0d9488 100%);
+  background: linear-gradient(135deg, #f0f4ff 0%, #e8edf8 50%, #f0faf5 100%);
   padding: 3.5rem 0 2.5rem;
   margin-bottom: 2.5rem;
 }
@@ -1104,7 +1104,7 @@ code, pre {
 .page-hero h1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: #fff;
+color: var(--text-primary);
   margin: 0 0 0.5rem;
   letter-spacing: -0.03em;
   line-height: 1.08;
@@ -2089,11 +2089,11 @@ code, pre {
   color: var(--text-primary);
 }
 
-.articles-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 0.85rem;
-}
+
+
+
+
+
 
 .related-article-card {
   background: var(--bg-card);
@@ -2563,11 +2563,11 @@ code, pre {
   .page-hero p { font-size: 0.85rem; }
 
   /* Articles Grid */
-.articles-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 0.85rem;
-}
+
+
+
+
+
 
 .card-image {
   width: 100%;
@@ -2598,11 +2598,11 @@ code, pre {
   .share-btn span { display: inline; }
 
   /* Related Articles */
-.articles-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.85rem;
-}
+
+
+
+
+
   .sidebar-section { padding: 1rem; }
   .sidebar-title { font-size: 0.9rem; }
   .sidebar-article-title { font-size: 0.8rem; }
@@ -2638,7 +2638,7 @@ code, pre {
   .card-title { font-size: 0.9rem; }
 .card-image {
   width: 100%;
-  height: 168px;
+  height: 200px;
   overflow: hidden;
 }
 }
@@ -2903,12 +2903,12 @@ code, pre {
 /* Premium Hero Upgrade — Apple-inspired */
 .hero {
   padding: 4.5rem 0 3.5rem;
-  background: linear-gradient(145deg, #0a1429 0%, #0f1f3d 100%);
+  background: linear-gradient(145deg, #f0f4ff 0%, #eef1f8 100%);
 }
 
 .hero-main {
-  background: rgba(255, 255, 255, 0.03);
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.04);
   border-radius: 20px;
   padding: 2.25rem 2rem;
   backdrop-filter: blur(20px);
@@ -3015,3 +3015,62 @@ code, pre {
   overflow: hidden;
 }
 /* cache-bust: 2026-05-18-v3 - pure icon logo, mobile nav color, subtraction thinking applied per Apple benchmark */
+
+
+/* ===== DARK MODE ===== */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a1429;
+    --bg-elevated: #111c36;
+    --bg-card: #1a2744;
+    --bg-surface: #111c36;
+    --bg-hover: #1e3050;
+    --text-primary: #f1f5f9;
+    --text-secondary: #94a3b8;
+    --text-muted: rgba(148, 163, 184, 0.6);
+    --border: rgba(148, 163, 184, 0.1);
+    --border-light: rgba(148, 163, 184, 0.06);
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.2);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.25);
+    --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.3);
+    --shadow-card: rgba(0, 0, 0, 0.3) 0px 4px 20px 0px;
+  }
+
+  /* Header - keep dark */
+  .header { background: rgba(10, 20, 41, 0.92); }
+
+  /* Hero - keep dark gradient in dark mode */
+  .hero {
+    background: linear-gradient(135deg, #0a1429 0%, #1e3a5f 50%, #0d9488 100%);
+  }
+  .hero-main { color: #fff; }
+  .hero h1 { color: #fff; }
+  .hero-subtitle { color: rgba(255, 255, 255, 0.65); }
+  .hero-badge { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.12); color: rgba(255,255,255,0.7); }
+  .hero-stat-value { color: #fff; }
+  .hero-stat-label { color: rgba(255,255,255,0.5); }
+  .hero-trending { background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.12); }
+  .hero-trending-title { color: #fff; border-bottom-color: rgba(255,255,255,0.1); }
+  .hero-trending-name { color: rgba(255,255,255,0.9); }
+  .hero-trending-cat { color: #3A7FEE; }
+  .hero-ticker-item { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.12); }
+  .hero-ticker-symbol { color: rgba(255,255,255,0.6); }
+  .hero-ticker-price { color: #fff; }
+  .hero-buttons .btn-pill { color: rgba(255,255,255,0.9); border-color: rgba(255,255,255,0.25); }
+  .hero-buttons .btn-pill:hover { background: rgba(255,255,255,0.1); border-color: rgba(255,255,255,0.4); color: #fff; }
+
+  /* Ticker bar - slightly different dark */
+  .ticker-bar { background: linear-gradient(135deg, #0f172af7, #1e293bf7); }
+
+  /* Page subtitle */
+  .page-hero { background: linear-gradient(135deg, #0f172a, #1e3a5f, #0d9488); }
+  .page-hero h1 { color: #fff; }
+  .page-hero p { color: rgba(255,255,255,0.65); }
+
+  /* Footer */
+  .footer { background: #0a1429; border-top-color: rgba(148,163,184,0.1); }
+  .footer-brand .logo-text { color: #f1f5f9 !important; }
+
+  /* Article cards */
+  .card-relative-time { color: var(--text, #e2e8f0); }
+}

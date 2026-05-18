@@ -32,7 +32,26 @@ const canonicalURL = canonical || Astro.url.href;
 const fullImageURL = new URL(image, Astro.site).href;
 
 // Build keywords from tags (specific per article) or category (for category pages)
-const keywords = tags.length > 0
+// Helper: truncate title for <title> tag (keep under 60 chars total with brand suffix)
+const brandSuffix = ' | CryptoSynth.id';
+const maxTitleLen = 60 - brandSuffix.length;
+
+// Truncate meta description to 155 chars (Google cuts at ~160)
+const truncateDesc = (d) => {
+  if (!d || d.length <= 155) return d;
+  const truncated = d.substring(0, 152);
+  const lastSpace = truncated.lastIndexOf(' ');
+  return (lastSpace > 100 ? truncated.substring(0, lastSpace) : truncated) + '…';
+};
+const seoDescription = truncateDesc(description);
+
+const truncateForSeo = (t) => {
+  if (t.length <= maxTitleLen) return t;
+  const truncated = t.substring(0, maxTitleLen - 1);
+  const lastSpace = truncated.lastIndexOf(' ');
+  return (lastSpace > maxTitleLen * 0.7 ? truncated.substring(0, lastSpace) : truncated) + '…';
+};
+const seoTitle = truncateForSeo(title);
   ? tags.join(', ')
   : category
     ? `${category}, crypto, web3, blockchain, DeFi, Indonesia`
@@ -163,7 +182,7 @@ const faqSchema = parsedFaq.length > 0 ? {
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta name="google-site-verification" content="SbW87xgyqwwQzLxvrgJfGuNMW1Mcw6Wt9sLPDqpxTxs" />
 <meta name="msvalidate.01" content="BEA857BF046569091CA03806980AEA5F" />
-<meta name="description" content={description} />
+<meta name="description" content={seoDescription} />
 <meta name="author" content={author} />
 <meta name="keywords" content={keywords} />
 <link rel="canonical" href={canonicalURL} />
@@ -196,4 +215,4 @@ const faqSchema = parsedFaq.length > 0 ? {
 {breadcrumbSchema && <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />}
 {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
 
-<title>{title} | CryptoSynth.id</title>
+<title>{seoTitle} | CryptoSynth.id</title>

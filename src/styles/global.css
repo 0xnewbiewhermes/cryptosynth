@@ -2296,9 +2296,19 @@ code, pre {
 @media (max-width: 768px) {
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 0.85rem;
 }
+  .card-image {
+    height: 200px;
+  }
+  .hero-layout {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  .hero-trending {
+    display: none;
+  }
   .related-article-img {
     height: 160px;
   }
@@ -2403,7 +2413,7 @@ code, pre {
 @media (max-width: 1024px) {
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.85rem;
 }
 

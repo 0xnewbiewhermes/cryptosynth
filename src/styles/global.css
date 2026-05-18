@@ -642,8 +642,18 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .ticker-up { color: #059669; }
 .ticker-down { color: #DC2626; }
 
-.ticker-meta { display: none; }
-.ticker-divider { display: none; }
+.ticker-meta {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+.ticker-divider {
+  display: inline-block;
+  width: 1px;
+  height: 20px;
+  background: var(--border);
+  flex-shrink: 0;
+}
 
 .ticker-flash {
   animation: tickerFlash 0.3s ease;

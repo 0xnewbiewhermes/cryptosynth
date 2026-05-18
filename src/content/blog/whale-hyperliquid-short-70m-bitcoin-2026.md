@@ -39,7 +39,7 @@ Sebelum flip ke posisi bearish, whale ini punya catatan profit yang mengesankan.
 
 Sebelumnya, trading bullish di token sintetik terkait harga minyak menghasilkan **$3 juta** profit setelah ditahan selama sembilan hari. Total profit historis akun ini mencapai **$42 juta**.
 
-Data dari app.trade.xyz menunjukkan bahwa whale ini menggunakan **strategi trading algoritmik**, posisi biasanya ditahan kurang dari satu minggu. Ini menunjukkan bahwa short $70 juta kemungkinan besar adalah reaksi terhadap sinyal teknikal jangka pendek, bukan keyakinan fundamental bahwa pasar akan runtuh.
+Data dari app.trade.xyz menunjukkan bahwa whale ini menggunakan **strategi trading algoritmik**, posisi biasanya ditahan kurang dari satu minggu. short $70 juta kemungkinan besar adalah reaksi terhadap sinyal teknikal jangka pendek, bukan keyakinan fundamental bahwa pasar akan runtuh.
 
 ## Konteks Makro: Inflasi PPI, Minyak, dan The Fed
 
@@ -55,7 +55,7 @@ Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebi
 
 ## Apa Artinya untuk Trader Indonesia?
 
-**Jangan panik.** Ada beberapa poin penting yang perlu dicatat:
+**Jangan panik.** Beberapa poin penting:
 
 1. **Ini manuver teknikal, bukan fundamental.** Whale ini rata-rata menahan posisi kurang dari seminggu. Short $70 juta bisa berubah menjadi long dalam hitungan hari.
 

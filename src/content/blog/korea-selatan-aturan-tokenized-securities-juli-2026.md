@@ -57,7 +57,7 @@ Upbit saat ini berperingkat ke-14 global di CoinGecko dengan volume perdagangan 
 
 Perkembangan di Korea Selatan ini punya implikasi langsung buat ekosistem crypto Indonesia. Korea Selatan adalah salah satu pasar crypto terbesar di Asia, dan langkah mereka untuk memberikan kerangka hukum yang jelas bagi tokenized securities bisa menjadi preseden bagi negara-negara Asia Tenggara termasuk Indonesia. Jika kerangka regulasi Korea terbukti efektif menarik institusi tradisional seperti Hana Bank masuk ke ruang crypto, tekanan pada Bappebti dan OJK untuk mempercepat regulasi serupa di Indonesia akan semakin besar.
 
-Masuknya bank sebesar Hana ke ekosistem exchange crypto juga menandai pergeseran pola pikir institusi tradisional. Bank dengan aset $42 miliar tidak hanya berinvestasi di exchange, tapi juga berencana mengembangkan stablecoin dan tokenized securities bersama. Ini menunjukkan bahwa tokenisasi aset bukan lagi sekadar konsep teori, melainkan arah yang diambil oleh institusi keuangan besar. Buat investor dan builder di Indonesia, ini sinyal bahwa infrastruktur tokenisasi akan menjadi standar industri dalam beberapa tahun ke depan.
+Masuknya bank sebesar Hana ke ekosistem exchange crypto juga menandai pergeseran pola pikir institusi tradisional. Bank dengan aset $42 miliar tidak hanya berinvestasi di exchange, tapi juga berencana mengembangkan stablecoin dan tokenized securities bersama. tokenisasi aset bukan lagi sekadar konsep teori, melainkan arah yang diambil oleh institusi keuangan besar. Buat investor dan builder di Indonesia, ini sinyal bahwa infrastruktur tokenisasi akan menjadi standar industri dalam beberapa tahun ke depan.
 
 ## Sumber
 

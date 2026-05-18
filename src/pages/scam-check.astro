@@ -41,7 +41,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
               </button>
             </form>
-            <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token — diperiksa dari 3 database + analisis token real-time</p>
+            <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token - diperiksa dari 3 database + analisis token real-time</p>
           </div>
         </div>
 
@@ -100,7 +100,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
             <div class="scam-source-icon">⚡</div>
             <div class="scam-source-info">
               <strong>Go+ Security API</strong>
-              <span>Analisis token real-time — honeypot, tax, blacklist (40+ chain)</span>
+              <span>Analisis token real-time - honeypot, tax, blacklist (40+ chain)</span>
             </div>
           </div>
         </div>
@@ -853,7 +853,7 @@ form.addEventListener('submit', async (e) => {
     resultCard.className = 'scam-result-card scam-result-aman';
     resultIcon.textContent = '✅';
     resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
-    resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
+    resultTitle.textContent = '✅ Aman - Tidak Terdaftar';
 
     let html = '';
     if (labelType === 'Address') {
@@ -866,7 +866,7 @@ form.addEventListener('submit', async (e) => {
     if (goPlusResult && !goPlusRisky) {
       const nameInfo = goPlusResult.name ? `${goPlusResult.name}` : '';
       const holderInfo = goPlusResult.holders > 0 ? ` | ${goPlusResult.holders.toLocaleString()} holders` : '';
-      html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} — tidak ada flag mencurigakan</small>`;
+      html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} - tidak ada flag mencurigakan</small>`;
     }
 
     html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;

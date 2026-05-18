@@ -62,7 +62,7 @@ Menteri Urusan Kota dan Pedesaan dan Perumahan, Yang Mulia Majed bin Abdullah Al
 
 ### Tren Global: JPMorgan, BlackRock, dan Wall Street
 
-Di sisi lain, Wall Street juga berlomba memimpin sektor tokenisasi. [JPMorgan](https://www.coindesk.com/business/2026/05/15/saudi-arabia-is-tokenizing-its-multi-trillion-dollar-economy-to-protect-its-wealth-from-global-shocks), BlackRock, dan institusi besar lainnya sudah berpartisipasi. Rekor tokenized Treasury AS yang mencapai $15,5 miliar di Mei 2026 menunjukkan pertumbuhan segmen ini semakin cepat.
+Sementara itu, Wall Street juga berlomba memimpin sektor tokenisasi. [JPMorgan](https://www.coindesk.com/business/2026/05/15/saudi-arabia-is-tokenizing-its-multi-trillion-dollar-economy-to-protect-its-wealth-from-global-shocks), BlackRock, dan institusi besar lainnya sudah berpartisipasi. Rekor tokenized Treasury AS yang mencapai $15,5 miliar di Mei 2026 menunjukkan pertumbuhan segmen ini semakin cepat.
 
 Monai melihat ini bukan sebagai kompetisi, melainkan validasi bahwa infrastruktur berbasis blockchain untuk aset tradisional sudah mencapai titik kritis. "Saat pasar tenang, tokenisasi meningkatkan efisiensi. Saat pasar tertekan, ini bisa menjadi lapisan keamanan," katanya.
 

@@ -27,7 +27,7 @@ Infrastruktur blockchain yang mendasarinya akan dioperasikan oleh **Kinexys Digi
 
 Yang membuat dana ini istimewa adalah strukturnya yang dirancang untuk memenuhi persyaratan aset cadangan di bawah **GENIUS Act**, undang-undang yang bertujuan mengatur penerbit stablecoin di AS.
 
-Ini berposisi sebagai kendaraan cadangan yang menghasilkan yield bagi perusahaan stablecoin yang mencari eksposur Treasury yang patuh regulasi. Dengan kata lain, JPMorgan sedang membangun infrastruktur keuangan yang bisa menjadi tulang punggung ekosistem stablecoin di masa depan.
+Ini berposisi sebagai kendaraan cadangan yang menghasilkan yield bagi perusahaan stablecoin yang mencari eksposur Treasury yang patuh regulasi. JPMorgan sedang membangun infrastruktur keuangan yang bisa menjadi tulang punggung ekosistem stablecoin di masa depan.
 
 ## Balapan Tokenisasi Wall Street Meningkat
 

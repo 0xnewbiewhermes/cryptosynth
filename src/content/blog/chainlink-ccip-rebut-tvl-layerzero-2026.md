@@ -64,7 +64,7 @@ Insiden LayerZero dan migrasi ke Chainlink CCIP memberikan beberapa pelajaran pe
 
 ## Masa Depan Cross-Chain
 
-Migrasi dari LayerZero ke Chainlink CCIP adalah titik balik penting dalam evolusi infrastruktur cross-chain. Ini menunjukkan bahwa pasar menghargai keamanan di atas segalanya. Ke depan, kita mungkin akan melihat standarisasi keamanan yang lebih ketat untuk bridge cross-chain.
+Migrasi dari LayerZero ke Chainlink CCIP adalah titik balik penting dalam evolusi infrastruktur cross-chain. pasar menghargai keamanan di atas segalanya. Ke depan, kita mungkin akan melihat standarisasi keamanan yang lebih ketat untuk bridge cross-chain.
 
 Untuk pengguna DeFi Indonesia, ini berarti lebih banyak pilihan bridge yang aman dan terpercaya. Namun, tetap lakukan riset sendiri sebelum menggunakan bridge apa pun.
 

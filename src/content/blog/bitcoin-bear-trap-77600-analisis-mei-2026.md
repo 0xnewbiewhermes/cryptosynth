@@ -27,7 +27,7 @@ Tekanan juga datang dari arus keluar institusional. [Spot Bitcoin ETF mencatat n
 
 Rabu menjadi hari terburuk dengan outflow $635 juta. Meski Kamis sempat membawa masuk $131 juta, Jumat mengembalikan tren negatif dengan outflow $290 juta. Total net asset ETF Bitcoin kini berada di $104,29 miliar dengan cumulative net inflow $58,34 miliar.
 
-Menariknya, [CLARITY Act yang lolos Komite Perbankan Senat](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) awalnya sempat mengangkat sentimen, tapi euforia itu cepat meredup di bawah tekanan makro.
+[CLARITY Act yang lolos Komite Perbankan Senat](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) awalnya sempat mengangkat sentimen, tapi euforia itu cepat meredup di bawah tekanan makro.
 
 ### Rotasi Modal ke Saham AI
 

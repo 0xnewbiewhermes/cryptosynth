@@ -39,7 +39,7 @@ Jika batas ini tidak dinaikkan sebelum mencapai ambang $28 miliar, akumulasi Bit
 
 ## Saylor: Jual Bitcoin untuk Dividen "Tidak Signifikan"
 
-Di sisi lain, Michael Saylor, Executive Chairman Strategy, memiliki pandangan berbeda. Dalam wawancara dengan [CoinDesk](https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin) di Consensus Miami (11/5), Saylor menyebut kekhawatiran tentang penjualan Bitcoin untuk membayar dividen sebagai "big nothing burger."
+Sementara itu, Michael Saylor, Executive Chairman Strategy, memiliki pandangan berbeda. Dalam wawancara dengan [CoinDesk](https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin) di Consensus Miami (11/5), Saylor menyebut kekhawatiran tentang penjualan Bitcoin untuk membayar dividen sebagai "big nothing burger."
 
 "Jika kita mendanai semua dividen secara eksklusif dengan menjual Bitcoin selama setahun ke depan, kita akan membeli 20 Bitcoin untuk setiap 1 Bitcoin yang dijual. Jadi dampaknya tidak terukur," kata Saylor.
 

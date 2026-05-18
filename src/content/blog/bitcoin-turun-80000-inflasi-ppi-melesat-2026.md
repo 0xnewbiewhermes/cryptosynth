@@ -40,7 +40,7 @@ Sementara itu, saham-saham terkait crypto juga tertekan. Coinbase (COIN) dan Cir
 
 Inflasi yang meningkat sebagian dipicu oleh **kenaikan harga minyak** terkait konflik Iran dan risiko gangguan pasokan di Selat Hormuz. Harga energi yang lebih tinggi berpotensi memicu data inflasi yang lebih panas dalam beberapa bulan ke depan.
 
-Di sisi lain, pasar mengawasi pertemuan antara **Presiden Donald Trump dan Xi Jinping** di Beijing. Pembicaraan ini diperkirakan mencakup tarif, rantai pasokan *rare earth*, dan Timur Tengah. Hasil positif, bahkan yang bersifat simbolis, dapat meningkatkan sentimen pasar dan mendukung aset berisiko termasuk crypto.
+Sementara itu, pasar mengawasi pertemuan antara **Presiden Donald Trump dan Xi Jinping** di Beijing. Pembicaraan ini diperkirakan mencakup tarif, rantai pasokan *rare earth*, dan Timur Tengah. Hasil positif, bahkan yang bersifat simbolis, dapat meningkatkan sentimen pasar dan mendukung aset berisiko termasuk crypto.
 
 ## Analisis: "Final Flush of Weak Hands"?
 

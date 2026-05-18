@@ -49,7 +49,7 @@ Hingga berita ini ditulis, Bitcoin diperdagangkan di sekitar **$81.000**, sebagi
 
 Emas juga tertekan, diperdagangkan 0,7% lebih rendah di $4.614 per ounce. Kedua aset non-yield ini menghadapi angin kencang dari lingkungan imbal hasil yang terus meningkat.
 
-Di sisi lain, pasar tokenized Treasury justru diuntungkan. Total nilai aset yang terkunci dalam protokol tokenized Treasury telah mencapai rekor di atas **$15 miliar**, menurut data dari rwa.xyz. Kenaikan imbal hasil memperkuat permintaan untuk akses on-chain ke utang pemerintah berkualitas tinggi yang memberikan yield.
+Sementara itu, pasar tokenized Treasury justru diuntungkan. Total nilai aset yang terkunci dalam protokol tokenized Treasury telah mencapai rekor di atas **$15 miliar**, menurut data dari rwa.xyz. Kenaikan imbal hasil memperkuat permintaan untuk akses on-chain ke utang pemerintah berkualitas tinggi yang memberikan yield.
 
 ## Analisis: Mengapa Ini Penting untuk Trader Indonesia
 

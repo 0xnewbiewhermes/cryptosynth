@@ -27,7 +27,7 @@ Salah satu poin penting dari versi terbaru yang bocor: bursa crypto dan platform
 
 Di sisi pasar, sinyal-sinyal onchain menunjukkan kondisi yang membaik. Peneliti Bitcoin Axel Adler Jr. melaporkan bahwa tekanan kerugian *short-term holder* (STH) tetap di nol persen selama lima hari berturut-turut. Metrik ini mengukur apakah pembeli Bitcoin baru-baru ini sedang menahan BTC di bawah harga beli mereka.
 
-Lebih lanjut, Adler Jr. mencatat bahwa porsi pasokan Bitcoin yang dipegang oleh trader jangka pendek turun ke 22,2%, level terendah dalam 90 hari. Ini menunjukkan bahwa semakin sedikit BTC yang baru dibeli yang dijual, yang bisa meningkatkan peluang *breakout*.
+Lebih lanjut, Adler Jr. mencatat bahwa porsi pasokan Bitcoin yang dipegang oleh trader jangka pendek turun ke 22,2%, level terendah dalam 90 hari. semakin sedikit BTC yang baru dibeli yang dijual, yang bisa meningkatkan peluang *breakout*.
 
 ## Harga Bitcoin Hari Ini
 

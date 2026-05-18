@@ -44,7 +44,7 @@ Bagi pasar crypto, pola ini justru bisa menjadi katalis positif dalam jangka men
 
 ## Dampak Khusus untuk Trader Indonesia
 
-Bagi trader crypto Indonesia, situasi saat ini menghadirkan dilema yang unik. Di satu sisi, pelemahan rupiah terhadap dolar AS yang biasanya menyertai ketidakpastian global membuat harga BTC dalam denominasi rupiah lebih tinggi secara relatif. Namun di sisi lain, volume perdagangan di exchange lokal cenderung menurun saat ketidakpastian makro tinggi, yang bisa memperlebar spread harga.
+Bagi trader crypto Indonesia, situasi saat ini menghadirkan dilema yang unik. Di satu sisi, pelemahan rupiah terhadap dolar AS yang biasanya menyertai ketidakpastian global membuat harga BTC dalam denominasi rupiah lebih tinggi secara relatif. Namun sementara itu, volume perdagangan di exchange lokal cenderung menurun saat ketidakpastian makro tinggi, yang bisa memperlebar spread harga.
 
 Kenaikan harga minyak Brent ke $106 per barel juga berdampak langsung ke Indonesia sebagai importir minyak: subsidi energi bisa membengkak, yang berpotensi mempengaruhi alokasi belanja pemerintah dan daya beli masyarakat. Trader Indonesia perlu mencermati data inflasi Indonesia dan kebijakan Bank Indonesia dalam beberapa pekan ke depan, karena keputusan suku bunga domestik akan mempengaruhi minat investor ritel terhadap aset crypto.
 

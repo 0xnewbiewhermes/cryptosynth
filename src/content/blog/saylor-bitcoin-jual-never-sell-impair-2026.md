@@ -9,7 +9,7 @@ faq: "Apa yang dimaksud Michael Saylor dengan never sell bisa impair Bitcoin?;;S
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Executive Chairman Strategy Michael Saylor mengatakan bahwa dogma "never sell" Bitcoin justru bisa merugikan aset perusahaan karena menghalangi akses ke likuiditas pasar BTC senilai $20-100 miliar. Strategy yang memiliki 818.869 BTC ($65 miliar) kini sedang merestrukturisasi obligasi konversi $1,5 miliar — dan penjualan Bitcoin menjadi salah satu opsinya.
+> **TL;DR:** Executive Chairman Strategy Michael Saylor mengatakan bahwa dogma "never sell" Bitcoin justru bisa merugikan aset perusahaan karena menghalangi akses ke likuiditas pasar BTC senilai $20-100 miliar. Strategy yang memiliki 818.869 BTC ($65 miliar) kini sedang merestrukturisasi obligasi konversi $1,5 miliar - dan penjualan Bitcoin menjadi salah satu opsinya.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
@@ -19,7 +19,7 @@ author: "CryptoSynth Research"
 
 Dalam wawancara dengan Scott Melker di podcast [The Wolf Of All Streets](https://cointelegraph.com/news/strategy-mstr-michael-saylor-bitcoin-sell-statement-btc) pada 10 Mei lalu, Michael Saylor mengungkapkan pandangan kontroversial yang mengguncang komunitas Bitcoin. Ia menyatakan bahwa prinsip "never sell" yang selama ini menjadi jargon utama Strategy justru bisa menjadi bumerang bagi perusahaan.
 
-Saylor menjelaskan bahwa ia mengangkat isu ini dalam earnings call Q1 Strategy baru-baru ini. Tujuannya bukan untuk menjual besar-besaran, melainkan untuk mengirim sinyal ke pasar bahwa Bitcoin yang dimiliki Strategy adalah aset yang produktif — bukan sekadar koleksi digital yang tidak bisa digunakan.
+Saylor menjelaskan bahwa ia mengangkat isu ini dalam earnings call Q1 Strategy baru-baru ini. Tujuannya bukan untuk menjual besar-besaran, melainkan untuk mengirim sinyal ke pasar bahwa Bitcoin yang dimiliki Strategy adalah aset yang produktif - bukan sekadar koleksi digital yang tidak bisa digunakan.
 
 "Kami memiliki Bitcoin senilai sekitar $65 miliar. Jika pasar menganggap kami tidak akan pernah menjualnya, agen kredit rating akan berkata, 'Kalau begitu, itu bukan aset'," ujar Saylor.
 
@@ -27,7 +27,7 @@ Saylor menjelaskan bahwa ia mengangkat isu ini dalam earnings call Q1 Strategy b
 
 CoinDesk melaporkan pada 15 Mei bahwa [Strategy (MSTR)](https://www.coindesk.com/markets/2026/05/15/strategy-to-repurchase-usd1-5-billion-of-2029-convertible-bonds-using-cash-or-bitcoin-sales) telah menyetujui pembelian kembali obligasi konversi senilai $1,5 miliar dengan diskon, hanya membayar sekitar $1,38 miliar dalam bentuk tunai. Ini adalah bagian dari restrukturisasi liabilitas perusahaan yang terkait dengan strategi treasury Bitcoin-nya.
 
-Untuk mendanai pembelian kembali ini, perusahaan akan menggunakan kas yang ada, hasil dari penjualan saham, dan **potensi penjualan Bitcoin**. Obligasi 0% dengan jatuh tempo 2029 ini awalnya diterbitkan November 2024 dengan nilai $3 miliar dan harga konversi $672,40 per saham — jauh di atas harga saham MSTR saat ini yang berada di $183.
+Untuk mendanai pembelian kembali ini, perusahaan akan menggunakan kas yang ada, hasil dari penjualan saham, dan **potensi penjualan Bitcoin**. Obligasi 0% dengan jatuh tempo 2029 ini awalnya diterbitkan November 2024 dengan nilai $3 miliar dan harga konversi $672,40 per saham - jauh di atas harga saham MSTR saat ini yang berada di $183.
 
 "Ini penting bagi kami untuk mengirim sinyal bahwa jika kami perlu, kami bisa," tegas Saylor.
 
@@ -37,7 +37,7 @@ Salah satu argumen kunci Saylor adalah bahwa pasar Bitcoin memiliki likuiditas h
 
 "Jika kami mengatakan kami tidak akan pernah memanfaatkan likuiditas itu dan tidak akan pernah menggunakan aset itu, maka kami sedang merusak aset yang 98% perusahaan kami bangun di atasnya," jelasnya.
 
-Strategy telah konsisten membeli Bitcoin sejak Agustus 2020. Perusahaan kini memegang **818.869 BTC** dengan harga beli rata-rata $75.540 per keping, berdasarkan data situs resmi perusahaan. Total nilai kepemilikan saat ini sekitar $65 miliar — masih sedikit di atas harga beli rata-rata jika menggunakan harga BTC terkini.
+Strategy telah konsisten membeli Bitcoin sejak Agustus 2020. Perusahaan kini memegang **818.869 BTC** dengan harga beli rata-rata $75.540 per keping, berdasarkan data situs resmi perusahaan. Total nilai kepemilikan saat ini sekitar $65 miliar - masih sedikit di atas harga beli rata-rata jika menggunakan harga BTC terkini.
 
 ### Perbandingan Harga BTC Strategy vs Pasar
 
@@ -57,19 +57,19 @@ Dalam wawancara dengan CoinDesk di Consensus Miami yang dilaporkan oleh [Benzing
 
 "Dari perspektif pasar, dampaknya sangat kecil karena Bitcoin memiliki likuiditas antara $20 hingga $50 miliar saat ini," kata Saylor.
 
-Jika Strategy mendanai semua dividennya dengan Bitcoin, jumlahnya hanya sekitar $3 juta — yang disebut Saylor sebagai "tidak terukur dan tidak signifikan."
+Jika Strategy mendanai semua dividennya dengan Bitcoin, jumlahnya hanya sekitar $3 juta - yang disebut Saylor sebagai "tidak terukur dan tidak signifikan."
 
 ## Dampak ke Pasar dan Trader Indonesia
 
-Ada pelajaran penting bagi trader dan investor crypto di Indonesia. Sikap Saylor yang pragmatis ini menunjukkan bahwa bahkan perusahaan dengan kepemilikan Bitcoin terbesar di dunia pun perlu fleksibilitas dalam mengelola asetnya. Dogma investasi yang kaku — seperti "never sell" — bisa menjadi bumerang ketika kondisi pasar dan kebutuhan pendanaan berubah.
+Ada pelajaran penting bagi trader dan investor crypto di Indonesia. Sikap Saylor yang pragmatis ini menunjukkan bahwa bahkan perusahaan dengan kepemilikan Bitcoin terbesar di dunia pun perlu fleksibilitas dalam mengelola asetnya. Dogma investasi yang kaku - seperti "never sell" - bisa menjadi bumerang ketika kondisi pasar dan kebutuhan pendanaan berubah.
 
-Bagi investor Indonesia yang melihat Strategy sebagai barometer adopsi institusional Bitcoin, perubahan nada ini bisa diartikan sebagai sinyal bahwa fase akumulasi tanpa henti mungkin memang tidak realistis selamanya. Namun perlu diingat bahwa Strategy tetap membeli lebih banyak Bitcoin daripada yang dijual — rasio 20:1 — sehingga arah strateginya masih bullish dalam jangka panjang.
+Bagi investor Indonesia yang melihat Strategy sebagai barometer adopsi institusional Bitcoin, perubahan nada ini bisa diartikan sebagai sinyal bahwa fase akumulasi tanpa henti mungkin memang tidak realistis selamanya. Namun perlu diingat bahwa Strategy tetap membeli lebih banyak Bitcoin daripada yang dijual - rasio 20:1 - sehingga arah strateginya masih bullish dalam jangka panjang.
 
-Di sisi lain, rencana pembelian kembali obligasi konversi Strategy dengan diskon 8% menunjukkan bahwa perusahaan cerdas dalam mengelola utangnya. Ini justru memperkuat posisi keuangan mereka, bukan melemahkannya. Trader Indonesia bisa memanfaatkan informasi ini untuk memahami sentimen institusional tanpa bereaksi berlebihan terhadap berita penjualan BTC.
+Sementara itu, rencana pembelian kembali obligasi konversi Strategy dengan diskon 8% menunjukkan bahwa perusahaan cerdas dalam mengelola utangnya. Ini justru memperkuat posisi keuangan mereka, bukan melemahkannya. Trader Indonesia bisa memanfaatkan informasi ini untuk memahami sentimen institusional tanpa bereaksi berlebihan terhadap berita penjualan BTC.
 
 ## Apa Artinya bagi Investor?
 
-Langkah Saylor membahas opsi penjualan Bitcoin — meskipun skalanya sangat kecil — membuka babak baru dalam cara perusahaan publik memandang Bitcoin sebagai aset treasury. Alih-alih "HODL forever," pendekatan yang lebih matur adalah mengelola Bitcoin sebagai aset produktif yang bisa digunakan untuk mengoptimalkan struktur modal.
+Langkah Saylor membahas opsi penjualan Bitcoin - meskipun skalanya sangat kecil - membuka babak baru dalam cara perusahaan publik memandang Bitcoin sebagai aset treasury. Alih-alih "HODL forever," pendekatan yang lebih matur adalah mengelola Bitcoin sebagai aset produktif yang bisa digunakan untuk mengoptimalkan struktur modal.
 
 Perusahaan masih akan membeli lebih banyak Bitcoin daripada yang dijual dengan rasio 20:1. Potensi penjualan hanya terjadi dalam skenario spesifik seperti buyback obligasi atau pendanaan dividen. Saylor secara eksplisit menyebut bahwa Bitcoin memiliki likuiditas harian $20-100 miliar, sehingga penjualan kecil Strategy tidak akan memengaruhi harga.
 

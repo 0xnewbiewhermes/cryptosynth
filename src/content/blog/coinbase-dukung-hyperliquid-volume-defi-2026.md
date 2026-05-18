@@ -60,7 +60,7 @@ Bagi trader Indonesia, kerjasama ini membuka beberapa peluang:
 - **Akses lebih mudah**: Coinbase bisa menjadi jembatan untuk masuk ke ekosistem Hyperliquid
 - **Peluang yield**: Menyediakan likuiditas USDC di Hyperliquid bisa memberikan yield menarik
 
-Namun, perlu dicatat bahwa perpetual trading dengan leverage tinggi sangat berisiko. Selalu gunakan risk management yang tepat.
+Namun, perpetual trading dengan leverage tinggi sangat berisiko. Selalu gunakan risk management yang tepat.
 
 ## Data Harga HYPE (15 Mei 2026)
 

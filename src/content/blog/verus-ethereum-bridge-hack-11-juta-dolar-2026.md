@@ -26,7 +26,7 @@ Alamat wallet pelaku adalah **0x65Cb8b128Bf6e690761044CCECA422bb239C25F9**. Hing
 
 Serangan ini bukan kasus terisolasi. Menurut analisis [Phemex](https://www.phemex.com/), dua kerugian terbesar tahun ini (termasuk kasus Drift dan Kelp DAO sebesar $293 juta) berasal dari infrastruktur yang menghubungkan antar chain atau mengelola pesan cross-protocol.
 
-Kelp DAO yang diretas pada April lalu juga menargetkan komponen bridge melalui sistem messaging LayerZero. Hal ini menunjukkan bahwa hacker semakin fokus pada lapisan infrastruktur daripada smart contract individu.
+Kelp DAO yang diretas pada April lalu juga menargetkan komponen bridge melalui sistem messaging LayerZero. hacker semakin fokus pada lapisan infrastruktur daripada smart contract individu.
 
 Pola historis menunjukkan bahwa bridge exploit secara konsisten menghasilkan kerugian individu terbesar setiap tahunnya. Kompleksitas kode yang diperlukan untuk menghubungkan blockchain berbeda menciptakan permukaan serangan yang luas.
 

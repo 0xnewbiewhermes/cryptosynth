@@ -57,7 +57,7 @@ Penurunan ETH tidak terjadi dalam ruang hampa. Pasar obligasi AS memberikan teka
 
 Bitcoin sendiri turun di bawah $79.000 pada Jumat (15/5) karena pasar obligasi memicu aksi jual 3%, seperti dilaporkan [CoinDesk](https://www.coindesk.com/markets/2026/05/15/bitcoin-tumbles-below-usd79-000-as-rising-bond-yields-inflation-worries-rattle-markets). ETH, yang korelasinya dengan BTC tetap tinggi, tidak terkecuali dari tekanan ini.
 
-Di sisi lain, [The Block](https://www.theblock.co/post/401420/bit-digital-reports-lower-q1-revenue) melaporkan bahwa Bit Digital, perusahaan mining dan staking ETH, mencatatkan penurunan pendapatan 14% di Q1 2026, sebagian besar disebabkan oleh imbal hasil staking ETH yang lebih rendah. Ini menunjukkan bahwa fundamental ekosistem Ethereum juga sedang menghadapi tantangan.
+Sementara itu, [The Block](https://www.theblock.co/post/401420/bit-digital-reports-lower-q1-revenue) melaporkan bahwa Bit Digital, perusahaan mining dan staking ETH, mencatatkan penurunan pendapatan 14% di Q1 2026, sebagian besar disebabkan oleh imbal hasil staking ETH yang lebih rendah. fundamental ekosistem Ethereum juga sedang menghadapi tantangan.
 
 Buat trader dan investor Indonesia, kombinasi data on-chain yang bearish, outflow ETF yang berkelanjutan, dan tekanan makro dari imbal hasil Treasury AS yang tinggi menciptakan lingkungan yang cukup riskan untuk posisi long ETH dalam jangka pendek. Level $2.280 menjadi support kritis, sementara $2.400 tetap sebagai resistance utama yang perlu ditembus untuk membatalkan skenario bearish.
 

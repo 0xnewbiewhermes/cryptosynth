@@ -31,7 +31,7 @@ Cointelegraph menambahkan bahwa investor juga mengantisipasi volatilitas menjela
 
 ## Korelasi ETF-Bitcoin Melemah
 
-Menariknya, hubungan antara arus dana ETF dan harga Bitcoin tidak sekuat dulu. Studi korelasi menunjukkan bahwa **koefisien Pearson rolling 90 hari** antara return harian BTC dan perubahan net inflow kumulatif ETF saat ini hanya **0,16**, secara statistik tidak berbeda dari nol dan turun tajam dari puncak **0,68** pada Februari.
+hubungan antara arus dana ETF dan harga Bitcoin tidak sekuat dulu. Studi korelasi menunjukkan bahwa **koefisien Pearson rolling 90 hari** antara return harian BTC dan perubahan net inflow kumulatif ETF saat ini hanya **0,16**, secara statistik tidak berbeda dari nol dan turun tajam dari puncak **0,68** pada Februari.
 
 Artinya, mengetahui arah arus dana ETF pada hari tertentu belum tentu memberi sinyal tentang pergerakan harga BTC. Namun, outflow besar seperti yang terjadi Rabu tetap memiliki dampak psikologis yang signifikan terhadap sentimen pasar.
 

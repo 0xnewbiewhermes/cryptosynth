@@ -36,9 +36,9 @@ Senator Cynthia Lummis, salah satu pendukung utama RUU ini, menyambut baik hasil
 
 ## Fear & Greed Index Masih di Zona Fear
 
-Menariknya, di tengah euforia di media sosial, indikator sentimen pasar lainnya menunjukkan gambaran yang berbeda. Crypto Fear & Greed Index, yang mengukur sentimen keseluruhan pasar crypto, mencatat skor 31 pada Sabtu (16/5), yang masuk dalam zona "Fear." Angka ini turun dari 43 pada hari sebelumnya.
+di tengah euforia di media sosial, indikator sentimen pasar lainnya menunjukkan gambaran yang berbeda. Crypto Fear & Greed Index, yang mengukur sentimen keseluruhan pasar crypto, mencatat skor 31 pada Sabtu (16/5), yang masuk dalam zona "Fear." Angka ini turun dari 43 pada hari sebelumnya.
 
-Kondisi ini menciptakan kontradiksi yang menarik. Di satu sisi, media sosial dipenuhi optimisme setelah kemajuan CLARITY Act. Di sisi lain, metrik sentimen gabungan yang lebih luas menunjukkan kehati-hatian masih mendominasi. Ketidakselarasan ini bisa menjadi petunjuk bahwa reli saat ini belum sepenuhnya didukung oleh keyakinan pasar yang merata.
+Kondisi ini menciptakan kontradiksi yang menarik. Di satu sisi, media sosial dipenuhi optimisme setelah kemajuan CLARITY Act. Sementara itu, metrik sentimen gabungan yang lebih luas menunjukkan kehati-hatian masih mendominasi. Ketidakselarasan ini bisa menjadi petunjuk bahwa reli saat ini belum sepenuhnya didukung oleh keyakinan pasar yang merata.
 
 ## Peringatan Santiment: Pasar Bergerak Berlawanan dengan Ekspektasi
 

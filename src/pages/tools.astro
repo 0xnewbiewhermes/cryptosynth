@@ -46,7 +46,7 @@ function formatDate(dateStr) {
 
 <BaseLayout
   title="Tools - CryptoSynth.id"
-  description="Airdrop tracker dan scam checker — tools crypto gratis untuk komunitas Indonesia."
+  description="Airdrop tracker dan scam checker - tools crypto gratis untuk komunitas Indonesia."
 >
   <!-- TAB NAVIGATION -->
   <div class="tools-nav">
@@ -63,7 +63,7 @@ function formatDate(dateStr) {
     <div class="page-hero">
       <div class="container">
         <h1>🪂 Airdrop Tracker</h1>
-        <p>Tracker airdrop crypto paling lengkap. Klik kartu untuk melihat detail lengkap — risiko, biaya, wallet, sybil risk, dan lainnya.</p>
+        <p>Tracker airdrop crypto paling lengkap. Klik kartu untuk melihat detail lengkap - risiko, biaya, wallet, sybil risk, dan lainnya.</p>
       </div>
     </div>
     <div class="tracker-page container">
@@ -237,7 +237,7 @@ function formatDate(dateStr) {
                   <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
                 </button>
               </form>
-              <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token — diperiksa dari 3 database + analisis token real-time</p>
+              <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token - diperiksa dari 3 database + analisis token real-time</p>
             </div>
           </div>
           <div class="scam-stats" id="scamStats">
@@ -295,7 +295,7 @@ function formatDate(dateStr) {
               <div class="scam-source-icon">⚡</div>
               <div class="scam-source-info">
                 <strong>Go+ Security API</strong>
-                <span>Analisis token real-time — honeypot, tax, blacklist (40+ chain)</span>
+                <span>Analisis token real-time - honeypot, tax, blacklist (40+ chain)</span>
               </div>
             </div>
           </div>
@@ -951,12 +951,12 @@ function formatDate(dateStr) {
         resultCard.className = 'scam-result-card scam-result-aman';
         resultIcon.textContent = '✅';
         resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
-        resultTitle.textContent = '✅ Aman — Tidak Terdaftar';
+        resultTitle.textContent = '✅ Aman - Tidak Terdaftar';
         let html = addrType ? 'Address ini <strong>tidak terdaftar</strong> sebagai scam di database kami.' : 'Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.';
         if (goPlusResult && !goPlusRisky) {
           const nameInfo = goPlusResult.name ? `${goPlusResult.name}` : '';
           const holderInfo = goPlusResult.holders > 0 ? ` | ${goPlusResult.holders.toLocaleString()} holders` : '';
-          html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} — tidak ada flag mencurigakan</small>`;
+          html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} - tidak ada flag mencurigakan</small>`;
         }
         html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;
         resultDetail.innerHTML = html;

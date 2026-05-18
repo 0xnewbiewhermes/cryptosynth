@@ -38,7 +38,7 @@ Jika Washington benar-benar mengambil pendekatan restriktif terhadap stablecoin 
 
 ## Bukan Permainan Zero-Sum
 
-Menariknya, Sun menolak narasi bahwa CLARITY Act akan melemahkan pusat crypto Asia seperti Hong Kong atau Singapura. "Kompetisi antara Asia dan AS bukan permainan zero-sum soal substitusi," jelasnya. "Fokus kompetisi ke depan bukan siapa yang menggantikan siapa, melainkan siapa yang paling efektif menghubungkan likuiditas USD, aset regional, lembaga keuangan lokal, dan jalur kepatuhan."
+Sun menolak narasi bahwa CLARITY Act akan melemahkan pusat crypto Asia seperti Hong Kong atau Singapura. "Kompetisi antara Asia dan AS bukan permainan zero-sum soal substitusi," jelasnya. "Fokus kompetisi ke depan bukan siapa yang menggantikan siapa, melainkan siapa yang paling efektif menghubungkan likuiditas USD, aset regional, lembaga keuangan lokal, dan jalur kepatuhan."
 
 Persaingan ini bukan soal daftar token lagi, melainkan siapa yang mengendalikan "rel" untuk memindahkan dolar digital ke seluruh dunia. Pusat-pusat keuangan Asia, dengan populasi besar yang kurang terlayani oleh perbankan tradisional dan tingkat adopsi mobile payment yang tinggi, punya keunggulan struktural dalam hal adopsi end-user.
 

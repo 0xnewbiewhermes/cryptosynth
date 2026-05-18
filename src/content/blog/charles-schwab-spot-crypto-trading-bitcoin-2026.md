@@ -43,7 +43,7 @@ Peluncuran ini bukan sekadar berita biasa. Ada beberapa alasan mengapa langkah S
 
 - **Skala institusi:** Dengan aset kelolaan ~$12 triliun, Schwab adalah salah satu broker terbesar di AS. Masuknya mereka ke spot trading crypto memberikan legitimasi tambahan untuk kelas aset ini.
 - **Akses yang lebih mudah:** 35 juta nasabah Schwab kini punya jalur langsung ke BTC dan ETH tanpa harus mendaftar di Coinbase, Kraken, atau exchange lainnya.
-- **Tren yang berkelanjutan:** Langkah Schwab mengikuti jejak broker tradisional lain yang sudah lebih dulu masuk ke crypto. Ini menunjukkan bahwa convergensi antara TradFi dan crypto semakin cepat.
+- **Tren yang berkelanjutan:** Langkah Schwab mengikuti jejak broker tradisional lain yang sudah lebih dulu masuk ke crypto. convergensi antara TradFi dan crypto semakin cepat.
 
 ## Analisis: Sinyal Bullish untuk Adopsi Mainstream
 

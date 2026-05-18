@@ -2,6 +2,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { relativeTime } from '../utils/relativeTime';
+import airdropsData from '../data/airdrops.json';
 
 const posts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
@@ -13,6 +14,11 @@ const trending = posts.slice(0, 5);
 // Stats
 const totalArticles = posts.length;
 const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean);
+
+const statusMap = { active: { text: 'Aktif', cls: 'badge-active' }, upcoming: { text: 'Segera', cls: 'badge-upcoming' }, ended: { text: 'Berakhir', cls: 'badge-ended' }, confirmed: { text: 'Terkonfirmasi', cls: 'badge-confirmed' } };
+const riskMap = { low: { text: 'Low', cls: 'risk-low' }, medium: { text: 'Medium', cls: 'risk-medium' }, high: { text: 'High', cls: 'risk-high' } };
+const costMap = { free: { text: 'Free', cls: 'cost-free' }, low: { text: '<$10', cls: 'cost-low' }, medium: { text: '$10-50', cls: 'cost-medium' }, high: { text: '>$50', cls: 'cost-high' } };
+const diffMap = { easy: { text: 'Easy', cls: 'diff-easy' }, medium: { text: 'Medium', cls: 'diff-medium' }, advanced: { text: 'Advanced', cls: 'diff-advanced' } };
 ---
 
 <BaseLayout title="CryptoSynth.id - Ringkasan Berita Web3 Setiap Hari">

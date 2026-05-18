@@ -1295,7 +1295,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .filter-pill {
-  padding: 0.35rem 0.85rem;
+  padding: 0.5rem 0.85rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   font-size: 0.8rem;
@@ -1323,6 +1323,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   font-size: 0.8rem;
   color: var(--text-muted);
   font-weight: 500;
+  line-height: 1;
 }
 
 .tracker-search-input {
@@ -2153,6 +2154,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
   .detail-grid { grid-template-columns: 1fr; }
   .filter-pills { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.4rem; }
+  .filter-pill { padding: 0.35rem 0.65rem; font-size: 0.75rem; }
   .tracker-filters { flex-direction: column; align-items: stretch; }
   .tracker-search-input { max-width: none; }
   .filter-group { flex-direction: column; align-items: stretch; gap: 0.25rem; }
@@ -2164,7 +2166,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   .card-project-symbol { font-size: 0.7rem; }
   .card-chain { font-size: 0.68rem; }
   .card-badges { gap: 0.25rem; }
-  .card-badges .badge { font-size: 0.65rem; padding: 0.15rem 0.5rem; }
+  .card-badges .badge { font-size: 0.65rem; padding: 0.2rem 0.5rem; }
   .card-verified { font-size: 0.65rem; }
   .card-expand-btn { width: 26px; height: 26px; }
   .card-right { gap: 0.5rem; }

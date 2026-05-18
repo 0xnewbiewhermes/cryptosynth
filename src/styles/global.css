@@ -2418,6 +2418,27 @@ color: var(--text-primary);
 }
 
 @media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .article-card {
+    border-radius: var(--radius-lg);
+  }
+
+  .card-content {
+    padding: 1.25rem;
+  }
+
+  .card-content h3 {
+    font-size: 1.125rem;
+    line-height: 1.4;
+  }
+
+  .card-image {
+    height: 220px;
+  }
+
   .container { padding: 0 1rem; }
   .header-inner { padding: 0 1rem; }
 

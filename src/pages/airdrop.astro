@@ -1,7 +1,7 @@
 ---
-import BaseLayout from '../../layouts/BaseLayout.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { relativeTime } from '../../utils/relativeTime';
+import { relativeTime } from '../utils/relativeTime';
 
 const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase() === 'airdrop')).sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
@@ -29,23 +29,14 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
                 <span class="card-tag">#{tag}</span>
               ))}
             </div>
-            <h3 class="card-title">
-              <a href={`/blog/${post.id}`}>{post.data.title}</a>
-            </h3>
-            <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
+            <h2><a href={`/blog/${post.id}`}>{post.data.title}</a></h2>
+            <p class="excerpt">{post.data.description}</p>
             <div class="card-meta">
-              <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-              <span class="card-date-sep">·</span>
-              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
+              <span>{relativeTime(post.data.pubDate)}</span>
             </div>
           </div>
         </article>
       ))}
     </div>
-    {posts.length === 0 && (
-      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-        <p>Belum ada artikel di kategori ini.</p>
-      </div>
-    )}
   </section>
 </BaseLayout>

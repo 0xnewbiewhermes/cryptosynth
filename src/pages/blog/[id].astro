@@ -81,7 +81,7 @@ const shareText = post.data.title;
     <div class="article-header">
       <div class="container">
         <div class="article-hero">
-          <img src={heroImage} alt={post.data.title} loading="lazy" />
+          <img src={heroImage} alt={post.data.title} width="1200" height="630" loading="lazy" />
         </div>
         <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
           {post.data.category || 'Berita'}

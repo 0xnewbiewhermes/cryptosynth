@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { relativeTime } from '../utils/relativeTime';
+
+const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase() === 'berita')).sort(
+  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
+);
+---
+
+<BaseLayout title="Berita Crypto Terbaru - CryptoSynth.id" description="Ringkasan berita crypto dan Web3 terbaru setiap hari.">
+  <div class="page-hero">
+    <div class="container">
+      <h1>Berita Terbaru</h1>
+      <p>Update harian berita crypto, blockchain, dan Web3.</p>
+    </div>
+  </div>
+  <section class="container" style="padding-bottom: 4rem;">
+    <div class="articles-grid">
+      {posts.map((post) => (
+        <article class="article-card">
+          <div class="card-image">
+            <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
+          </div>
+          <div class="card-content">
+            <div class="card-tags">
+              <span class="card-category">{post.data.category || 'Berita'}</span>
+              {(post.data.tags || []).slice(0, 2).map((tag) => (
+                <span class="card-tag">#{tag}</span>
+              ))}
+            </div>
+            <h2><a href={`/blog/${post.id}`}>{post.data.title}</a></h2>
+            <p class="excerpt">{post.data.description}</p>
+            <div class="card-meta">
+              <span>{relativeTime(post.data.pubDate)}</span>
+            </div>
+          </div>
+        </article>
+      ))}
+    </div>
+  </section>
+</BaseLayout>

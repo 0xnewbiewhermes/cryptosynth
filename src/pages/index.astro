@@ -29,7 +29,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
         <h1>Ringkasan Berita Web3<br/>Terbaru Setiap Hari</h1>
         <p class="hero-subtitle">TL;DR dari CoinDesk, The Block, dan sumber global lainnya - diringkas khusus untuk pembaca Indonesia.</p>
         <div class="hero-buttons">
-          <a href="/category/berita" class="btn btn-primary">Baca Berita →</a>
+          <a href="/berita" class="btn btn-primary">Baca Berita →</a>
           <a href="/about" class="btn btn-pill">Tentang Kami</a>
         </div>
         <!-- Quick Stats -->
@@ -67,6 +67,27 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
     </div>
   </section>
 
+  <!-- Quick Tools -->
+  <section class="section tools-shortcut">
+    <div class="container">
+      <div class="tools-shortcut-grid">
+        <a href="/tools" class="tool-card">
+          <div class="tool-icon">🪂</div>
+          <div class="tool-content">
+            <h4>Airdrop Tracker</h4>
+            <p>Risk, sybil, cost & detail lengkap</p>
+          </div>
+        </a>
+        <a href="/tools" class="tool-card">
+          <div class="tool-icon">🔍</div>
+          <div class="tool-content">
+            <h4>Scam Checker</h4>
+            <p>Cek proyek sebelum invest</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
   <!-- Articles Section -->
   <section class="section">
     <div class="container">
@@ -78,7 +99,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
         {posts.slice(0, 9).map((post) => (
           <article class="article-card">
             <div class="card-image">
-              <img src={`/images/hero/${post.id}.png`} alt={post.data.title} loading="lazy" />
+              <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
             </div>
             <div class="card-content">
               <div class="card-tags">

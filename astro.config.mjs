@@ -6,6 +6,9 @@ export default defineConfig({
   site: 'https://cryptosynth.id',
   integrations: [mdx()],
   adapter: vercel(),
+  image: {
+    domains: ['cryptosynth.id'],
+  },
   markdown: {
     shikiConfig: {
       theme: 'dracula',

@@ -69,11 +69,11 @@ Di balik rally yang mengesankan, pola rising wedge terbentuk di chart HYPE haria
 
 Sebaliknya, breakout decisif di atas batas atas rising wedge bisa membatalkan setup bearish dan mendorong HYPE ke kisaran $59-$60, sejajar dengan level retracement Fibonacci 1,0.
 
-Indikator RSI harian HYPE masih di bawah ambang overbought 70, yang berarti masih ada ruang untuk melanjutkan rally jangka pendek. Namun trader perlu waspada terhadap volatilitas setelah kenaikan tajam.
+Indikator RSI harian HYPE masih di bawah ambang overbought 70, yang berarti masih ada ruang untuk melanjutkan rally jangka pendek. Namun trader mesti waspada terhadap volatilitas setelah kenaikan tajam.
 
-Buat trader Indonesia yang aktif di perpetual futures, perkembangan ini punya implikasi langsung. Hyperliquid adalah salah satu DEX perp terbesar, dan integrasi Coinbase-Circle berarti likuiditas USDC di platform ini akan semakin dalam. Ini bisa menarik volume trading dari Indonesia, mengingat komunitas DeFi lokal sudah cukup aktif di perpetual DEX. Tapi perlu diingat bahwa token yang baru naik 23% dalam sehari punya risiko koreksi yang signifikan, terutama dengan pola teknikal yang terbentuk.
+Buat trader Indonesia yang aktif di perpetual futures, perkembangan ini punya implikasi langsung. Hyperliquid adalah salah satu DEX perp terbesar, dan integrasi Coinbase-Circle berarti likuiditas USDC di platform ini akan semakin dalam. Ini bisa menarik volume trading dari Indonesia, mengingat komunitas DeFi lokal sudah cukup aktif di perpetual DEX. Tapi token yang baru naik 23% dalam sehari punya risiko koreksi yang signifikan, terutama dengan pola teknikal yang terbentuk.
 
-## Yang Perlu Diperhatikan ke Depan
+## Risiko dan Peluang ke Depan
 
 - **Inflow ETF**: Apakah ETF spot HYPE bisa menarik inflow yang meaningful setelah minggu peluncuran, atau hanya hype sesaat
 - **Revenue buyback**: Realisasi proyeksi $140 juta pendapatan tahunan dari kesepakatan Coinbase-Circle

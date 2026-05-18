@@ -165,14 +165,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .logo-icon {
   width: 28px;
   height: 28px;
-  background: var(--gradient-primary);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 0.85rem;
-  font-weight: 700;
+  display: block;
 }
 
 .logo-text { color: var(--text-primary); }

@@ -46,7 +46,7 @@ Beberapa potensi dampak positif untuk Indonesia:
 3. **Investasi halal**: Alternatif investasi yang sesuai prinsip syariah
 4. **Kompetisi**: Mendorong bank tradisional untuk berinovasi
 
-Namun, regulasi Bank Indonesia tentang crypto tetap menjadi faktor yang perlu diperhatikan. Fasset perlu memastikan kepatuhan penuh terhadap peraturan setempat sebelum beroperasi di Indonesia.
+Namun, regulasi Bank Indonesia tentang crypto tetap jadi faktor yang relevan. Fasset perlu memastikan kepatuhan penuh terhadap peraturan setempat sebelum beroperasi di Indonesia.
 
 ## Tren Neobank Stablecoin Global
 

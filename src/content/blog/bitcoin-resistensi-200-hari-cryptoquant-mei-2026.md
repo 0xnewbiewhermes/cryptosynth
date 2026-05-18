@@ -43,7 +43,7 @@ Data on-chain menunjukkan trader sudah mulai bertindak. Realized profits harian 
 
 Jika Bitcoin benar-benar terjun, CryptoQuant memproyeksikan level support utama di sekitar $70.000. Ini adalah rata-rata harga di mana seluruh Bitcoin terakhir diperdagangkan, dan secara historis bertindak sebagai band resistensi-berubah-support selama bear market.
 
-Namun, ada beberapa level support antara yang perlu diperhatikan. Menurut data CheckonChain yang dilaporkan CoinDesk, 128-day Moving Average berada di $75.700, True Market Mean di $78.200, dan Short-Term Holder Cost Basis di $78.400. Bitcoin saat ini masih diperdagangkan di atas ketiga level ini, yang berarti mayoritas pembeli baru masih dalam posisi profit.
+Namun, beberapa level support antara yang jadi sorotan. Menurut data CheckonChain yang dilaporkan CoinDesk, 128-day Moving Average berada di $75.700, True Market Mean di $78.200, dan Short-Term Holder Cost Basis di $78.400. Bitcoin saat ini masih diperdagangkan di atas ketiga level ini, yang berarti mayoritas pembeli baru masih dalam posisi profit.
 
 | Indikator | Level |
 |---|---|
@@ -63,7 +63,7 @@ Namun, tidak semua analis bearish. Michaël van de Poppe, founder MN Capital, me
 
 ## Apa Artinya untuk Trader Indonesia?
 
-Bagi trader dan investor crypto di Indonesia, beberapa hal yang perlu diperhatikan:
+Bagi trader dan investor crypto di Indonesia, beberapa hal:
 
 - **Jangan FOMO di level saat ini.** Zona $82.000-$82.500 adalah resistance kuat. Masuk di sini berisiko tinggi.
 - **Pantau volume dan price action.** Jika BTC ditolak keras di 200-day MA dengan volume tinggi, kemungkinan koreksi ke $75.000-$78.000 cukup besar.

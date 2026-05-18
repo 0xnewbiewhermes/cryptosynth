@@ -63,7 +63,7 @@ Jika Strategy mendanai semua dividennya dengan Bitcoin, jumlahnya hanya sekitar 
 
 Ada pelajaran penting bagi trader dan investor crypto di Indonesia. Sikap Saylor yang pragmatis ini menunjukkan bahwa bahkan perusahaan dengan kepemilikan Bitcoin terbesar di dunia pun perlu fleksibilitas dalam mengelola asetnya. Dogma investasi yang kaku - seperti "never sell" - bisa menjadi bumerang ketika kondisi pasar dan kebutuhan pendanaan berubah.
 
-Bagi investor Indonesia yang melihat Strategy sebagai barometer adopsi institusional Bitcoin, perubahan nada ini bisa diartikan sebagai sinyal bahwa fase akumulasi tanpa henti mungkin memang tidak realistis selamanya. Namun perlu diingat bahwa Strategy tetap membeli lebih banyak Bitcoin daripada yang dijual - rasio 20:1 - sehingga arah strateginya masih bullish dalam jangka panjang.
+Bagi investor Indonesia yang melihat Strategy sebagai barometer adopsi institusional Bitcoin, perubahan nada ini bisa diartikan sebagai sinyal bahwa fase akumulasi tanpa henti mungkin memang tidak realistis selamanya. Strategy tetap membeli lebih banyak Bitcoin daripada yang dijual - rasio 20:1 - sehingga arah strateginya masih bullish dalam jangka panjang.
 
 Sementara itu, rencana pembelian kembali obligasi konversi Strategy dengan diskon 8% menunjukkan bahwa perusahaan cerdas dalam mengelola utangnya. Ini justru memperkuat posisi keuangan mereka, bukan melemahkannya. Trader Indonesia bisa memanfaatkan informasi ini untuk memahami sentimen institusional tanpa bereaksi berlebihan terhadap berita penjualan BTC.
 

@@ -1,0 +1,24 @@
+{
+  "name": "CryptoSynth.id - Web3 Insights Daily",
+  "short_name": "CryptoSynth",
+  "description": "Portal berita web3 Indonesia. Ringkasan harian dari sumber kredibel global.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAFAFA",
+  "theme_color": "#2563EB",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/images/cryptosynth-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "id-ID",
+  "categories": ["news", "cryptocurrency", "finance"]
+}

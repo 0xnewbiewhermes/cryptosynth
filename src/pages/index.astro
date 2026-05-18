@@ -55,10 +55,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
         <div class="hero-trending-list">
           {trending.map((post, i) => (
             <a href={`/blog/${post.id}`} class="hero-trending-item">
-              <div class="hero-trending-info">
-                <span class="hero-trending-cat">{post.data.category || 'Berita'}</span>
-                <h4 class="hero-trending-name">{post.data.title}</h4>
-              </div>
+              <h4 class="hero-trending-name">{post.data.title}</h4>
             </a>
           ))}
         </div>

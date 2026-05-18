@@ -811,6 +811,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .article-main {
   min-width: 0;
   max-width: 720px;
+  padding: 0 0.5rem;
 }
 
 .article-header {

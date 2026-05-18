@@ -1026,6 +1026,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 .footer-bottom a { color: rgba(255, 255, 255, 0.6); }
 .footer-bottom a:hover { color: rgba(255, 255, 255, 0.85); }
+.footer-bottom p { color: rgba(255, 255, 255, 0.55); }
 
 .footer-links { display: flex; gap: 1rem; }
 .footer-dot { display: none; }

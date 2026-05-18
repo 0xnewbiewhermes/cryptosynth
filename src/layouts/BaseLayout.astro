@@ -60,7 +60,6 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
             </button>
           </div>
           <div id="searchDropdownResults" class="search-dropdown-results">
-            <p class="search-dropdown-hint">Mulai ketik untuk mencari artikel...</p>
           </div>
         </div>
       </div>
@@ -330,7 +329,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           dropdown.classList.remove('open');
           document.removeEventListener('click', closeOnOutside);
           input.value = '';
-          results.innerHTML = '<p class="search-dropdown-hint">Mulai ketik untuk mencari artikel...</p>';
+          results.innerHTML = '';
         }
 
         function closeOnOutside(e) {
@@ -352,7 +351,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           e.stopPropagation();
           input.value = '';
           input.focus();
-          results.innerHTML = '<p class="search-dropdown-hint">Mulai ketik untuk mencari artikel...</p>';
+          results.innerHTML = '';
         });
 
         document.addEventListener('keydown', function(e) {
@@ -394,7 +393,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
 
         function renderSearch(query) {
           if (!query.trim()) {
-            results.innerHTML = '<p class="search-dropdown-hint">Mulai ketik untuk mencari artikel...</p>';
+            results.innerHTML = '';
             return;
           }
           var matches = doSearch(query);

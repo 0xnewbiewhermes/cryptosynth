@@ -1920,7 +1920,6 @@ color: var(--text-primary);
   color: var(--text-muted);
 }
 
-.search-hint,
 .search-empty {
   color: var(--text-muted);
   font-size: 0.95rem;
@@ -2760,7 +2759,6 @@ color: var(--text-primary);
   overflow-y: auto;
   margin-top: 0.5rem;
 }
-.search-dropdown-hint,
 .search-dropdown-empty {
   color: #86868b;
   font-size: 0.9rem;

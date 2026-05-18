@@ -21,7 +21,6 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       />
     </div>
     <div id="searchResults" class="search-results">
-      <p class="search-hint">Mulai ketik untuk mencari artikel...</p>
     </div>
   </div>
 </BaseLayout>
@@ -60,7 +59,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   function renderResults(results, query) {
     const container = document.getElementById('searchResults');
     if (!query.trim()) {
-      container.innerHTML = '<p class="search-hint">Mulai ketik untuk mencari artikel...</p>';
+      container.innerHTML = '';
       return;
     }
     if (results.length === 0) {

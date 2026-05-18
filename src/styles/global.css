@@ -1263,7 +1263,8 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== AIRDROP TRACKER ===== */
 .tracker-page {
-  padding: 2rem 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .tracker-header {
@@ -1540,7 +1541,8 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== SEARCH PAGE ===== */
 .search-page {
-  padding: 1.5rem 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
 }
 
 .search-page-title {
@@ -2146,7 +2148,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
     gap: 0.5rem;
   }
 
-  .tracker-page { padding: 1.25rem 0; }
+  .tracker-page { padding-top: 1.25rem; padding-bottom: 1.25rem; }
   .tracker-header { margin-bottom: 1rem; }
 
   .detail-grid { grid-template-columns: 1fr; }

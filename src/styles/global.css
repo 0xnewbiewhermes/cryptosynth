@@ -2193,45 +2193,6 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   .hero { padding: 2rem 0 1.5rem; }
 }
 
-/* ============ ARTICLE BREADCRUMB & BACK LINK ============ */
-.article-breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.78rem;
-  color: var(--text-muted);
-  margin-bottom: 0.5rem;
-  flex-wrap: wrap;
-}
-.article-breadcrumb a {
-  color: var(--text-muted);
-  text-decoration: none;
-  transition: color 0.2s ease;
-}
-.article-breadcrumb a:hover {
-  color: var(--primary);
-  opacity: 1;
-}
-.breadcrumb-sep {
-  color: var(--border);
-  font-size: 0.85rem;
-}
-.article-back-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.3rem;
-  font-size: 0.82rem;
-  font-weight: 500;
-  color: var(--primary);
-  text-decoration: none;
-  margin-bottom: 0.75rem;
-  transition: gap 0.2s ease;
-}
-.article-back-link:hover {
-  gap: 0.5rem;
-  opacity: 1;
-}
-
 /* ============ SCROLL TO TOP ============ */
 .scroll-top-btn {
   position: fixed;

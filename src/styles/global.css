@@ -1295,7 +1295,10 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .filter-pill {
-  padding: 0.5rem 0.85rem;
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+  padding: 0 0.85rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   font-size: 0.8rem;
@@ -1320,17 +1323,19 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .filter-label {
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
   font-size: 0.8rem;
   color: var(--text-muted);
   font-weight: 500;
-  line-height: 1;
-  padding: 0.5rem 0;
   white-space: nowrap;
 }
 
 .tracker-search-input {
   flex: 1;
-  padding: 0.5rem 1rem;
+  height: 34px;
+  padding: 0 1rem;
   border: 1px solid var(--border);
   border-radius: var(--radius-pill);
   font-size: 0.82rem;
@@ -2156,9 +2161,9 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
   .detail-grid { grid-template-columns: 1fr; }
   .filter-pills { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 0.4rem; }
-  .filter-pill { padding: 0.35rem 0.65rem; font-size: 0.75rem; }
+  .filter-pill { height: 30px; padding: 0 0.65rem; font-size: 0.75rem; }
   .tracker-filters { flex-direction: column; align-items: stretch; }
-  .tracker-search-input { max-width: none; }
+  .tracker-search-input { max-width: none; height: 34px; }
   .filter-group { flex-direction: column; align-items: stretch; gap: 0.25rem; }
 
   .airdrop-cards { gap: 0.6rem; }

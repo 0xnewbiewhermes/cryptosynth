@@ -52,6 +52,7 @@ const truncateForSeo = (t) => {
   return (lastSpace > maxTitleLen * 0.7 ? truncated.substring(0, lastSpace) : truncated) + '…';
 };
 const seoTitle = truncateForSeo(title);
+const keywords = tags && tags.length > 0
   ? tags.join(', ')
   : category
     ? `${category}, crypto, web3, blockchain, DeFi, Indonesia`

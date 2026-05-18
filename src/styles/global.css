@@ -381,10 +381,9 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== HERO ===== */
 .hero {
-  margin-top: calc(var(--nav-height) + 42px);
   background: var(--gradient-hero);
   color: var(--text-inverse);
-  padding: 5rem 0 4rem;
+  padding: 4rem 0 3.5rem;
   position: relative;
   overflow: hidden;
 }
@@ -673,7 +672,6 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== PAGE HERO (Sub Pages) ===== */
 .page-hero {
-  margin-top: calc(var(--nav-height) + 42px);
   background: linear-gradient(135deg, #1E3A5F, #1F2937);
   padding: 3.5rem 0;
   color: var(--text-inverse);
@@ -1243,7 +1241,6 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== AIRDROP TRACKER ===== */
 .tracker-page {
-  margin-top: calc(var(--nav-height) + 42px);
   padding: 2rem 0;
 }
 
@@ -1469,7 +1466,6 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== SEARCH PAGE ===== */
 .search-page {
-  margin-top: calc(var(--nav-height) + 42px);
   padding: 2rem 0;
 }
 
@@ -1616,7 +1612,6 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== TOOLS SHORTCUT ===== */
 .tools-nav {
-  margin-top: calc(var(--nav-height) + 42px);
   background: var(--bg-elevated);
   border-bottom: 1px solid var(--border);
   position: sticky;
@@ -1764,7 +1759,6 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== ADMIN ===== */
 .admin-page {
-  margin-top: calc(var(--nav-height) + 42px);
   padding: 2rem 0;
   max-width: 800px;
   margin-left: auto;
@@ -1956,7 +1950,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .net-testnet { color: #D97706; }
 
 /* ===== ARTICLE LIST PAGE ===== */
-.articles-page { margin-top: calc(var(--nav-height) + 42px); padding: 2rem 0; }
+.articles-page { padding: 2rem 0; }
 
 /* ===== RESPONSIVE ===== */
 
@@ -2045,7 +2039,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   }
 
   .hero {
-    padding: 3rem 0 2.5rem;
+    padding: 2.5rem 0 2rem;
   }
 
   .hero-trending { display: none; }
@@ -2087,5 +2081,5 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 /* Small phone */
 @media (max-width: 380px) {
   .card-image { height: 200px; }
-  .hero { padding: 2rem 0; }
+  .hero { padding: 2rem 0 1.5rem; }
 }

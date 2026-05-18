@@ -78,10 +78,15 @@ html {
   font-family: var(--font-body);
   background: var(--bg);
   color: var(--text-primary);
-  scroll-behavior: smooth;
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
 }
 
 body {
@@ -93,6 +98,49 @@ body {
 
 a { color: var(--primary); text-decoration: none; transition: opacity 0.2s ease; }
 a:hover { opacity: 0.8; }
+
+/* Focus indicators — keyboard accessibility */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible,
+[tabindex]:not([tabindex="-1"]):focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+/* Remove focus outline for mouse users */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Skip to content — accessible, hidden until tabbed to */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0.5rem;
+  z-index: 9999;
+  background: var(--primary);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: top 0.15s ease;
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--font-display);
@@ -384,6 +432,20 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .search-dropdown .search-result-date {
   font-size: 0.75rem;
   color: var(--text-muted);
+}
+
+/* Articles section */
+.articles-more {
+  text-align: center;
+  padding: 2.5rem 0 1rem;
+}
+
+.articles-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 2rem;
+  font-size: 0.95rem;
 }
 
 /* ===== HERO ===== */

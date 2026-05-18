@@ -26,7 +26,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
           <span class="hero-badge-dot"></span>
           Updated daily dari sumber kredibel global
         </div>
-        <h1>Ringkasan Berita Web3<br/>Terbaru Setiap Hari</h1>
+        <h1>Ringkasan Berita Web3 <br/>Terbaru Setiap Hari</h1>
         <p class="hero-subtitle">TL;DR dari CoinDesk, The Block, dan sumber global lainnya - diringkas khusus untuk pembaca Indonesia.</p>
         <div class="hero-buttons">
           <a href="/berita" class="btn btn-primary">Baca Berita →</a>
@@ -125,8 +125,8 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
       </div>
 
       {posts.length > 9 && (
-        <div style="text-align: center; padding: 2.5rem 0 1rem;">
-          <a href="/articles" class="btn btn-outline" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 2rem; font-size: 0.95rem;">
+        <div class="articles-more">
+          <a href="/articles" class="btn btn-outline articles-more-btn">
             Berita Selengkapnya &rarr;
           </a>
         </div>

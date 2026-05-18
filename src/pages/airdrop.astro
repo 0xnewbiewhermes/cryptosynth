@@ -25,13 +25,6 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
             <p>Risk, sybil, cost & detail lengkap — 11+ proyek</p>
           </div>
         </a>
-        <a href="/category/airdrop" class="tool-card" style="text-decoration: none;">
-          <div class="tool-icon">📝</div>
-          <div class="tool-content">
-            <h4>Panduan Airdrop</h4>
-            <p>Tutorial, strategi, dan tips klaim airdrop</p>
-          </div>
-        </a>
       </div>
       <div class="articles-grid">
         {posts.map((post) => (

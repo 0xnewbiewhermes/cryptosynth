@@ -771,7 +771,6 @@ code, pre {
   grid-template-columns: repeat(3, 1fr);
   gap: 0.85rem;
 }
-}
 
 .article-card {
   background: var(--bg-card);
@@ -793,7 +792,6 @@ code, pre {
   width: 100%;
   height: 168px;
   overflow: hidden;
-}
 }
 
 .card-image img {
@@ -2096,7 +2094,6 @@ code, pre {
   grid-template-columns: repeat(3, 1fr);
   gap: 0.85rem;
 }
-}
 
 .related-article-card {
   background: var(--bg-card);
@@ -2723,7 +2720,6 @@ code, pre {
   color: #1d1d1f;
 }
   opacity: 1;
-}
 .search-dropdown-clear:hover {
   background: #d2d2d7;
   color: #1d1d1f;
@@ -2755,7 +2751,6 @@ code, pre {
   background: #f5f5f7;
 }
   background: #f5f5f7;
-}
 .search-dropdown .search-result-img {
   width: 72px;
   height: 50px;

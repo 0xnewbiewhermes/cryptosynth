@@ -1316,7 +1316,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .filter-group {
   display: flex;
   gap: 0.5rem;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .filter-label {

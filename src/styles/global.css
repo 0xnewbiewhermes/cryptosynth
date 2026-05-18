@@ -838,79 +838,10 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   font-weight: 700;
   letter-spacing: -0.03em;
   line-height: 1.1;
-  margin: 0 0 0.75rem;
+  margin: 0 0 1rem;
   color: var(--text-primary);
 }
 
-.article-excerpt {
-  font-size: 1.05rem;
-  line-height: 1.5;
-  color: var(--text-secondary);
-  margin-bottom: 1.25rem;
-  max-width: 640px;
-}
-
-/* Author section */
-.article-author {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 1rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--border-light);
-}
-
-.author-avatar {
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  object-fit: cover;
-  background: var(--bg-surface);
-}
-
-.author-info {
-  display: flex;
-  flex-direction: column;
-}
-
-.author-name {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--text-primary);
-}
-
-.author-label {
-  font-size: 0.78rem;
-  color: var(--text-muted);
-}
-
-/* Copy link */
-.article-actions {
-  margin-bottom: 1.5rem;
-}
-
-.article-copy-link {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  padding: 0.4rem 0.75rem;
-  border: 1px solid var(--border);
-  border-radius: 9999px;
-  background: var(--bg-elevated);
-  font-size: 0.78rem;
-  font-weight: 500;
-  color: var(--text-secondary);
-  cursor: pointer;
-  font-family: var(--font-body);
-  transition: all 0.2s ease;
-}
-
-.article-copy-link:hover {
-  border-color: var(--primary);
-  color: var(--primary);
-}
-
-/* Hero image */
 .article-hero {
   width: 100%;
   border-radius: var(--radius);

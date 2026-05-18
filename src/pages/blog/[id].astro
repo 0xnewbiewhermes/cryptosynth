@@ -83,26 +83,6 @@ const readTime = post.data.readingTime || Math.max(3, Math.ceil((post.body?.leng
           <span class="article-read-time">{readTime} min read</span>
         </div>
         <h1 class="article-title">{post.data.title}</h1>
-        {post.data.excerpt && (
-          <p class="article-excerpt">{post.data.excerpt}</p>
-        )}
-        
-        <!-- Author -->
-        <div class="article-author">
-          <img src="/images/avatar.svg" alt="CryptoSynth" class="author-avatar" width="36" height="36" />
-          <div class="author-info">
-            <span class="author-name">CryptoSynth Research</span>
-            <span class="author-label">Staff Writer</span>
-          </div>
-        </div>
-
-        <!-- Share + Copy link -->
-        <div class="article-actions">
-          <button class="article-copy-link" onclick="navigator.clipboard.writeText('{shareUrl}');this.textContent='Copied!';setTimeout(()=>this.textContent='Copy link',2000)">
-            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
-            Copy link
-          </button>
-        </div>
 
         <div class="article-hero">
           <img src={heroImage} alt={post.data.title} width="1200" height="630" loading="eager" />

@@ -17,15 +17,6 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
   </div>
   <section class="section">
     <div class="container">
-      <div style="margin-bottom: 2rem;">
-        <a href="/tools" class="tool-card" style="max-width: 400px;">
-          <div class="tool-icon">🪂</div>
-          <div class="tool-content">
-            <h4>Airdrop Tracker</h4>
-            <p>Risk, sybil, cost & detail lengkap - 11+ proyek</p>
-          </div>
-        </a>
-      </div>
       <div class="articles-grid">
         {posts.map((post) => (
           <article class="article-card">

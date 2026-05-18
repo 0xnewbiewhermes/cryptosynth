@@ -2565,13 +2565,13 @@ code, pre {
   /* Articles Grid */
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: 1fr;
   gap: 0.85rem;
 }
 
 .card-image {
   width: 100%;
-  height: 168px;
+  height: 200px;
   overflow: hidden;
 }
 .card-content {
@@ -2600,7 +2600,7 @@ code, pre {
   /* Related Articles */
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.85rem;
 }
   .sidebar-section { padding: 1rem; }

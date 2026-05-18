@@ -2,7 +2,6 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { relativeTime } from '../utils/relativeTime';
-import airdropsData from '../data/airdrops.json';
 
 const posts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
@@ -14,11 +13,6 @@ const trending = posts.slice(0, 5);
 // Stats
 const totalArticles = posts.length;
 const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean);
-
-const statusMap = { active: { text: 'Aktif', cls: 'badge-active' }, upcoming: { text: 'Segera', cls: 'badge-upcoming' }, ended: { text: 'Berakhir', cls: 'badge-ended' }, confirmed: { text: 'Terkonfirmasi', cls: 'badge-confirmed' } };
-const riskMap = { low: { text: 'Low', cls: 'risk-low' }, medium: { text: 'Medium', cls: 'risk-medium' }, high: { text: 'High', cls: 'risk-high' } };
-const costMap = { free: { text: 'Free', cls: 'cost-free' }, low: { text: '<$10', cls: 'cost-low' }, medium: { text: '$10-50', cls: 'cost-medium' }, high: { text: '>$50', cls: 'cost-high' } };
-const diffMap = { easy: { text: 'Easy', cls: 'diff-easy' }, medium: { text: 'Medium', cls: 'diff-medium' }, advanced: { text: 'Advanced', cls: 'diff-advanced' } };
 ---
 
 <BaseLayout title="CryptoSynth.id - Ringkasan Berita Web3 Setiap Hari">
@@ -73,101 +67,28 @@ const diffMap = { easy: { text: 'Easy', cls: 'diff-easy' }, medium: { text: 'Med
     </div>
   </section>
 
-  <!-- Tools Section: Premium Airdrop Tracker -->
+  <!-- Quick Tools Premium -->
   <section class="section tools-premium">
     <div class="container">
-      <div class="section-header">
-        <div>
-          <span class="section-badge">Tools</span>
-          <h2>🪂 Airdrop Tracker</h2>
-        </div>
-        <a href="/tools" class="section-link">Buka Tracker Lengkap &rarr;</a>
-      </div>
-      <div class="airdrop-home-filters" id="homeAirdropFilters">
-        <div class="filter-pills" id="homeCatFilters">
-          <button class="filter-pill active" data-cat="all">Semua</button>
-          {[...new Set(airdropsData.map(a => a.category))].sort().map(cat => (
-            <button class="filter-pill" data-cat={cat}>{cat}</button>
-          ))}
-        </div>
-        <input type="text" id="homeAirdropSearch" class="home-airdrop-search" placeholder="Cari project..." />
-      </div>
-      <div class="airdrop-home-grid" id="homeAirdropGrid">
-        {airdropsData.slice(0, 8).map((a, idx) => {
-          const st = statusMap[a.status] || statusMap.active;
-          const rk = riskMap[a.risk] || riskMap.medium;
-          const ct = costMap[a.cost] || costMap.low;
-          const df = diffMap[a.difficulty] || diffMap.medium;
-          return (
-            <a href={a.link} target="_blank" rel="noopener noreferrer" class="airdrop-home-card" data-cat={a.category} data-project={a.project.toLowerCase()}>
-              <div class="ahc-top">
-                <div class="ahc-project">
-                  <span class="ahc-name">{a.project}</span>
-                  {a.symbol && a.symbol !== 'TBD' && <span class="ahc-symbol">{a.symbol}</span>}
-                </div>
-                <span class="ahc-chain">{a.chain}</span>
-              </div>
-              <div class="ahc-badges">
-                <span class={`badge ${st.cls}`}>{st.text}</span>
-                <span class={`badge ${rk.cls}`}>Risk: {rk.text}</span>
-                <span class={`badge ${ct.cls}`}>Cost: {ct.text}</span>
-                <span class={`badge ${df.cls}`}>{df.text}</span>
-              </div>
-              <div class="ahc-bottom">
-                <span class="ahc-action">{a.action}</span>
-                <span class="ahc-reward">{a.estimated}</span>
-              </div>
-              <div class="ahc-footer">
-                <span class="ahc-verified">✓ {a.lastVerified}</span>
-                <span class="ahc-detail-btn">Detail &rarr;</span>
-              </div>
-            </a>
-          );
-        })}
-      </div>
-    </div>
-  </section>
-
-  <!-- Tools Section: Premium Scam Checker -->
-  <section class="section scam-premium">
-    <div class="container">
-      <div class="section-header">
-        <div>
-          <span class="section-badge">Keamanan</span>
-          <h2>🔍 Scam Checker</h2>
-        </div>
-        <a href="/scam-check" class="section-link">Buka Scam Checker &rarr;</a>
-      </div>
-      <div class="scam-home-card">
-        <div class="scam-home-card-inner">
-          <p class="scam-home-desc">Cek domain atau address crypto sebelum transaksi — database phishing global + analisis token real-time.</p>
-          <form class="scam-home-form" id="homeCheckForm">
-            <div class="scam-home-input-wrap">
-              <svg class="scam-home-input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-              </svg>
-              <input type="text" id="homeCheckInput" class="scam-home-input" placeholder="Contoh: interest-tydro.com atau 0x... atau address Solana" autocomplete="off" spellcheck="false" required />
-            </div>
-            <button type="submit" class="scam-home-btn" id="homeCheckBtn">
-              <span id="homeBtnText">Periksa</span>
-              <span id="homeBtnSpinner" class="scam-home-spinner" style="display:none"></span>
-            </button>
-          </form>
-          <div class="scam-home-stats" id="homeScamStats">
-            <span id="homeStatsText">Memuat database...</span>
+      <div class="tools-premium-grid">
+        <a href="/tools" class="tool-premium-card" style="--glow: rgba(41, 66, 212, 0.15)">
+          <div class="tpc-glow"></div>
+          <div class="tpc-icon">🪂</div>
+          <div class="tpc-body">
+            <h4>Airdrop Tracker</h4>
+            <p>Risk, sybil, cost & detail lengkap</p>
           </div>
-          <div class="scam-home-result" id="homeCheckResult" style="display:none">
-            <div class="scam-home-result-card" id="homeResultCard">
-              <div class="shrc-icon-wrap" id="homeResultIconWrap">
-                <span id="homeResultIcon">✅</span>
-              </div>
-              <div class="shrc-body">
-                <div class="shrc-title" id="homeResultTitle">Aman</div>
-                <div class="shrc-detail" id="homeResultDetail"></div>
-              </div>
-            </div>
+          <span class="tpc-arrow">→</span>
+        </a>
+        <a href="/scam-check" class="tool-premium-card" style="--glow: rgba(239, 68, 68, 0.15)">
+          <div class="tpc-glow"></div>
+          <div class="tpc-icon">🔍</div>
+          <div class="tpc-body">
+            <h4>Scam Checker</h4>
+            <p>Cek proyek sebelum invest</p>
           </div>
-        </div>
+          <span class="tpc-arrow">→</span>
+        </a>
       </div>
     </div>
   </section>
@@ -224,194 +145,3 @@ const diffMap = { easy: { text: 'Easy', cls: 'diff-easy' }, medium: { text: 'Med
     </div>
   </section>
 </BaseLayout>
-
-<script>
-// Homepage Scam Checker
-const dataUrl = '/data/scam-alerts.json';
-let scamData = [];
-
-fetch(dataUrl + '?v=' + Date.now())
-  .then(r => r.json())
-  .then(data => {
-    scamData = data;
-    const counts = {};
-    data.forEach(d => {
-      d.source.split(', ').forEach(s => { counts[s] = (counts[s] || 0) + 1; });
-    });
-    const parts = [];
-    if (counts['ScamSniffer']) parts.push(`🛡️ ${(counts['ScamSniffer']).toLocaleString('id-ID')}`);
-    if (counts['jarelllama']) parts.push(`🚫 ${(counts['jarelllama']).toLocaleString('id-ID')}`);
-    if (counts['phishdestroy']) parts.push(`🔥 ${(counts['phishdestroy']).toLocaleString('id-ID')}`);
-    document.getElementById('homeStatsText').innerHTML = parts.join(' • ');
-  })
-  .catch(() => {
-    document.getElementById('homeStatsText').innerHTML = 'Gagal memuat database';
-  });
-
-function isAddress(input) {
-  if (/^0x[a-f0-9]{40}$/i.test(input)) return 'evm';
-  if (/^(bc1|[13])[a-zA-Z0-9]{25,62}$/.test(input)) return 'btc';
-  if (/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(input) && !input.includes('.')) return 'sol';
-  return false;
-}
-
-function normalizeInput(input) {
-  let d = input.trim().toLowerCase();
-  for (const prefix of ['http://', 'https://', 'www.', 'hxxp://', 'hxxps://', 'ftp://']) {
-    if (d.startsWith(prefix)) d = d.slice(prefix.length);
-  }
-  d = d.replace(/\/+$/, '').replace(/\/$/, '');
-  return d;
-}
-
-function checkBlacklist(input, addrType) {
-  if (!input || !scamData.length) return null;
-  if (addrType) {
-    const match = scamData.find(d => d.type === 'address' && d.key === input);
-    return match ? [match] : null;
-  }
-  const matches = scamData.filter(d =>
-    d.type === 'domain' && (
-      d.key === input ||
-      d.key.endsWith('.' + input) ||
-      input.includes(d.key)
-    )
-  );
-  return matches.length > 0 ? matches : null;
-}
-
-async function checkGoPlus(address) {
-  try {
-    const resp = await fetch(
-      `https://api.gopluslabs.io/api/v1/token_security/1?contract_addresses=${address}`,
-      { signal: AbortSignal.timeout(5000) }
-    );
-    const data = await resp.json();
-    const result = data.result || {};
-    const tokenData = result[address.toLowerCase()];
-    if (!tokenData) return null;
-    const flags = [];
-    if (tokenData.is_honeypot === '1') flags.push('Honeypot');
-    if (tokenData.is_blacklisted === '1') flags.push('Blacklist');
-    if (tokenData.cannot_buy === '1') flags.push('Cannot Buy');
-    if (tokenData.cannot_sell_all === '1') flags.push('Cannot Sell All');
-    if (tokenData.trading_cooldown === '1') flags.push('Trading Cooldown');
-    if (tokenData.can_take_back_ownership === '1') flags.push('Ownership Can Be Taken');
-    const buyTax = parseFloat(tokenData.buy_tax || '0');
-    const sellTax = parseFloat(tokenData.sell_tax || '0');
-    if (buyTax > 10) flags.push(`Buy Tax ${buyTax}%`);
-    if (sellTax > 10) flags.push(`Sell Tax ${sellTax}%`);
-    return { name: tokenData.token_name || null, symbol: tokenData.token_symbol || null, flags, holders: parseInt(tokenData.holder_count || '0'), is_risky: flags.length > 0 };
-  } catch { return null; }
-}
-
-document.getElementById('homeCheckForm').addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const input = document.getElementById('homeCheckInput');
-  const raw = input.value.trim();
-  if (!raw) { input.focus(); return; }
-
-  const result = document.getElementById('homeCheckResult');
-  const resultCard = document.getElementById('homeResultCard');
-  const resultIcon = document.getElementById('homeResultIcon');
-  const resultIconWrap = document.getElementById('homeResultIconWrap');
-  const resultTitle = document.getElementById('homeResultTitle');
-  const resultDetail = document.getElementById('homeResultDetail');
-  const btnText = document.getElementById('homeBtnText');
-  const btnSpinner = document.getElementById('homeBtnSpinner');
-  const btn = document.getElementById('homeCheckBtn');
-
-  result.style.display = 'block';
-  resultCard.style.opacity = '0';
-  resultCard.className = 'scam-home-result-card';
-  btnText.style.display = 'none';
-  btnSpinner.style.display = 'inline-block';
-  btn.disabled = true;
-
-  await new Promise(r => setTimeout(r, 200));
-  const cleaned = normalizeInput(raw);
-
-  if (cleaned.length < 4) {
-    btnText.style.display = 'inline';
-    btnSpinner.style.display = 'none';
-    btn.disabled = false;
-    resultCard.style.opacity = '1';
-    resultIconWrap.style.background = 'rgba(245, 158, 11, 0.12)';
-    resultIcon.textContent = '⚠️';
-    resultTitle.textContent = 'Input Tidak Valid';
-    resultDetail.textContent = 'Masukkan domain atau address yang valid.';
-    return;
-  }
-
-  const addrType = isAddress(cleaned);
-  const matches = checkBlacklist(cleaned, addrType);
-  let goPlusResult = null;
-  if (addrType === 'evm') goPlusResult = await checkGoPlus(cleaned);
-
-  btnText.style.display = 'inline';
-  btnSpinner.style.display = 'none';
-  btn.disabled = false;
-
-  const isScam = matches && matches.length > 0;
-  const goPlusRisky = goPlusResult && goPlusResult.is_risky;
-
-  if (isScam || goPlusRisky) {
-    let html = '';
-    if (isScam) {
-      const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
-      const sourceBadges = sources.map(s => {
-        const meta = { ScamSniffer: { icon: '🛡️', label: 'ScamSniffer' }, jarelllama: { icon: '🚫', label: 'jarelllama' }, phishdestroy: { icon: '🔥', label: 'phishdestroy' } }[s] || { icon: '📋', label: s };
-        return `<span class="src-badge">${meta.icon} ${meta.label}</span>`;
-      }).join(' ');
-      html += `<p><strong>Terdaftar sebagai scam</strong></p><div class="src-badges">${sourceBadges}</div>`;
-    }
-    if (goPlusRisky) {
-      const flagBadges = goPlusResult.flags.map(f => `<span class="flag-badge">${f}</span>`).join(' ');
-      html += `<p style="margin-top:${isScam?'0.5rem':'0'}"><strong>⚠️ Go+ Security:</strong> Token berbahaya</p><div>${flagBadges}</div>`;
-    }
-    resultCard.style.opacity = '1';
-    resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
-    resultIcon.textContent = '⚠️';
-    resultTitle.textContent = '⚠️ SCAM / BERBAHAYA';
-    resultDetail.innerHTML = html;
-  } else {
-    resultCard.style.opacity = '1';
-    resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
-    resultIcon.textContent = '✅';
-    resultTitle.textContent = '✅ Aman - Tidak Terdaftar';
-    resultDetail.innerHTML = `<p>Tidak ditemukan di database phishing kami${addrType ? ' dan analisis token aman' : ''}.</p>`;
-  }
-});
-</script>
-<script>
-// Homepage Airdrop Filter
-document.addEventListener('DOMContentLoaded', () => {
-  const catBtns = document.querySelectorAll('#homeCatFilters .filter-pill');
-  const searchInput = document.getElementById('homeAirdropSearch');
-  const cards = document.querySelectorAll('.airdrop-home-card');
-
-  function filterCards() {
-    const activeCat = document.querySelector('#homeCatFilters .filter-pill.active')?.dataset.cat || 'all';
-    const query = (searchInput?.value || '').toLowerCase();
-    cards.forEach(card => {
-      const cat = card.dataset.cat;
-      const project = card.dataset.project;
-      const matchCat = activeCat === 'all' || cat === activeCat;
-      const matchSearch = !query || project.includes(query);
-      card.style.display = matchCat && matchSearch ? 'flex' : 'none';
-    });
-  }
-
-  catBtns.forEach(btn => {
-    btn.addEventListener('click', () => {
-      catBtns.forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      filterCards();
-    });
-  });
-
-  if (searchInput) {
-    searchInput.addEventListener('input', filterCards);
-  }
-});
-</script>

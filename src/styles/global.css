@@ -2192,4 +2192,109 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   .card-image { height: 200px; }
   .hero { padding: 2rem 0 1.5rem; }
 }
-/* force rebuild */
+
+/* ============ ARTICLE BREADCRUMB & BACK LINK ============ */
+.article-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+  flex-wrap: wrap;
+}
+.article-breadcrumb a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.article-breadcrumb a:hover {
+  color: var(--primary);
+  opacity: 1;
+}
+.breadcrumb-sep {
+  color: var(--border);
+  font-size: 0.85rem;
+}
+.article-back-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--primary);
+  text-decoration: none;
+  margin-bottom: 0.75rem;
+  transition: gap 0.2s ease;
+}
+.article-back-link:hover {
+  gap: 0.5rem;
+  opacity: 1;
+}
+
+/* ============ SCROLL TO TOP ============ */
+.scroll-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--shadow-md);
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(12px);
+  transition: all 0.25s ease;
+  z-index: 999;
+}
+.scroll-top-btn.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+.scroll-top-btn:hover {
+  border-color: var(--primary);
+  color: var(--primary);
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-2px);
+}
+.scroll-top-btn.visible:hover {
+  transform: translateY(-2px);
+}
+
+/* ============ FILTER GROUP FIX ============ */
+.filter-group {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.filter-label {
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+@media (max-width: 768px) {
+  .filter-group {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+  .scroll-top-btn {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 36px;
+    height: 36px;
+  }
+}

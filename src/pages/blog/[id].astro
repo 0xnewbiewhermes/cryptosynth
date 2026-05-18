@@ -67,7 +67,7 @@ const relatedPosts = allPosts
 
 const shareUrl = `https://cryptosynth.id/blog/${post.id}`;
 const shareText = post.data.title;
-const shortDate = new Date(post.data.pubDate).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'Asia/Jakarta' });
+const shortDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'Asia/Jakarta' });
 const readTime = post.data.readingTime || Math.max(3, Math.ceil((post.body?.length || 1500) / 1000));
 ---
 
@@ -75,6 +75,12 @@ const readTime = post.data.readingTime || Math.max(3, Math.ceil((post.body?.leng
   <article class="article-page">
     <div class="article-header">
       <div class="article-header-inner">
+        <nav class="article-breadcrumb" aria-label="Breadcrumb">
+          <a href="/">Beranda</a>
+          <span class="breadcrumb-sep">›</span>
+          <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`}>{post.data.category || 'Berita'}</a>
+        </nav>
+        <a href="/berita" class="article-back-link">← Kembali ke Berita</a>
         <div class="article-header-top">
           <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="article-category">{post.data.category || 'Berita'}</a>
           <span class="article-header-sep">·</span>

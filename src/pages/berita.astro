@@ -15,28 +15,36 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
       <p>Update harian berita crypto, blockchain, dan Web3.</p>
     </div>
   </div>
-  <section class="container" style="padding-bottom: 4rem;">
-    <div class="articles-grid">
-      {posts.map((post) => (
-        <article class="article-card">
-          <div class="card-image">
-            <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
-          </div>
-          <div class="card-content">
-            <div class="card-tags">
-              <span class="card-category">{post.data.category || 'Berita'}</span>
-              {(post.data.tags || []).slice(0, 2).map((tag) => (
-                <span class="card-tag">#{tag}</span>
-              ))}
+  <section class="section">
+    <div class="container">
+      <div class="articles-grid">
+        {posts.map((post) => (
+          <article class="article-card">
+            <div class="card-image">
+              <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
             </div>
-            <h2><a href={`/blog/${post.id}`}>{post.data.title}</a></h2>
-            <p class="excerpt">{post.data.description}</p>
-            <div class="card-meta">
-              <span>{relativeTime(post.data.pubDate)}</span>
+            <div class="card-content">
+              <div class="card-tags">
+                <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
+                  {post.data.category || 'Berita'}
+                </a>
+                {(post.data.tags || []).slice(0, 2).map((tag) => (
+                  <span class="card-tag">#{tag}</span>
+                ))}
+              </div>
+              <h3 class="card-title">
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+              </h3>
+              <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
+              <div class="card-meta">
+                <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+                <span class="card-date-sep">·</span>
+                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
+              </div>
             </div>
-          </div>
-        </article>
-      ))}
+          </article>
+        ))}
+      </div>
     </div>
   </section>
 </BaseLayout>

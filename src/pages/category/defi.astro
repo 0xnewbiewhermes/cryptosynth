@@ -15,7 +15,8 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
       <p>Analisis protokol DeFi, yield farming, dan tren token terbaru.</p>
     </div>
   </div>
-  <section class="container" style="padding-bottom: 4rem;">
+  <section class="section">
+    <div class="container">
     <div class="articles-grid">
       {posts.map((post) => (
         <article class="article-card">
@@ -47,5 +48,6 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
         <p>Belum ada artikel di kategori ini.</p>
       </div>
     )}
+    </div>
   </section>
 </BaseLayout>

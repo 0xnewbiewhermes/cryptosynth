@@ -18,9 +18,9 @@ const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial']
     </div>
   </div>
 
-  <section class="container" style="padding-bottom: 4rem;">
-    <!-- Category Filter -->
-    <div class="category-filter" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
+  <section class="section">
+    <div class="container" style="max-width: 800px;">
+      <div class="category-filter" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
       {categories.map((cat) => (
         <a
           href={cat === 'Semua' ? '/articles' : `/category/${cat.toLowerCase()}`}
@@ -80,6 +80,7 @@ const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial']
 
     <div style="text-align: center; padding: 2rem 0 0; color: var(--text-muted); font-size: 0.85rem;">
       Menampilkan {posts.length} artikel
+    </div>
     </div>
   </section>
 </BaseLayout>

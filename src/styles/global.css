@@ -800,7 +800,6 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   display: grid;
   grid-template-columns: 1fr 300px;
   gap: 2rem;
-  padding: 1.5rem 0;
 }
 
 .article-header {
@@ -2121,7 +2120,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   .page-hero { padding: 1rem 0; }
   .section-header { flex-direction: column; align-items: flex-start; gap: 0.3rem; }
 
-  .article-layout { padding: 1rem 0; }
+  .article-layout { padding: 0; }
   .article-header h1 { font-size: 1.5rem; }
 
   .tools-shortcut-grid { grid-template-columns: 1fr; }

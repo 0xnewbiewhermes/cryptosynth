@@ -95,11 +95,14 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
         <h2>Berita Terbaru</h2>
         <a href="/articles" class="section-link">Lihat Semua &rarr;</a>
       </div>
-      <div class="articles-grid">
-        {posts.slice(0, 9).map((post) => (
-          <article class="article-card">
+      <div class="articles-grid" id="articlesGrid">
+        {posts.map((post, index) => (
+          <article class:list={['article-card', index >= 9 && 'card-hidden']}>
             <div class="card-image">
-              <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
+              <picture>
+                <source srcset={`/images/hero/${post.id}.webp`} type="image/webp" />
+                <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
+              </picture>
             </div>
             <div class="card-content">
               <div class="card-tags">
@@ -124,13 +127,12 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
         ))}
       </div>
 
-      {posts.length > 9 && (
-        <div class="articles-more">
-          <a href="/articles" class="btn btn-outline articles-more-btn">
-            Berita Selengkapnya &rarr;
-          </a>
-        </div>
-      )}
+      <div class="articles-more" id="loadMoreWrap" style={posts.length <= 9 ? 'display:none' : ''}>
+        <button type="button" class="btn btn-outline articles-more-btn" id="loadMoreBtn">
+          Muat Lebih Banyak ↓
+        </button>
+        <p class="articles-more-count" id="loadMoreCount">Menampilkan 9 dari {posts.length} artikel</p>
+      </div>
 
       {posts.length === 0 && (
         <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
@@ -141,3 +143,32 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
     </div>
   </section>
 </BaseLayout>
+
+<script>
+  (function() {
+    var grid = document.getElementById('articlesGrid');
+    var btn = document.getElementById('loadMoreBtn');
+    var count = document.getElementById('loadMoreCount');
+    if (!grid || !btn) return;
+
+    var items = grid.querySelectorAll('.card-hidden');
+    var batchSize = 6;
+    var shownCount = 9;
+
+    function showBatch() {
+      var hidden = grid.querySelectorAll('.card-hidden');
+      var toShow = Array.from(hidden).slice(0, batchSize);
+      toShow.forEach(function(el) { el.classList.remove('card-hidden'); });
+      shownCount += toShow.length;
+
+      if (count) count.textContent = 'Menampilkan ' + shownCount + ' dari ' + items.length + ' artikel';
+
+      if (grid.querySelectorAll('.card-hidden').length === 0) {
+        btn.style.display = 'none';
+        if (count) count.textContent = 'Semua ' + items.length + ' artikel ditampilkan';
+      }
+    }
+
+    btn.addEventListener('click', showBatch);
+  })();
+</script>

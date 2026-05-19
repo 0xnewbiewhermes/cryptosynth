@@ -68,7 +68,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     }
     container.innerHTML = results.map((item) => `
       <a href="/blog/${item.id}" class="search-result-card">
-        <img src="/images/hero/${item.id}.png" alt="${item.title}" class="search-result-img" loading="lazy" />
+        <picture>
+          <source srcset="/images/hero/${item.id}.webp" type="image/webp" />
+          <img src="/images/hero/${item.id}.png" alt="${item.title}" class="search-result-img" loading="lazy" />
+        </picture>
         <div class="search-result-content">
           <span class="search-result-category">${item.category}</span>
           <h3 class="search-result-title">${item.title}</h3>

@@ -454,6 +454,16 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   font-size: 0.95rem;
 }
 
+.articles-more-count {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 0.6rem;
+}
+
+.card-hidden {
+  display: none;
+}
+
 /* ===== HERO ===== */
 .hero {
   background: var(--gradient-hero);
@@ -865,6 +875,39 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   margin: 0;
 }
 
+/* Breadcrumb */
+.article-breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 1rem 1.5rem 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  flex-wrap: wrap;
+  max-width: 740px;
+  margin: 0 auto;
+}
+.article-breadcrumb a {
+  color: var(--text-muted);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+.article-breadcrumb a:hover {
+  color: var(--primary);
+}
+.breadcrumb-sep {
+  color: var(--border);
+  font-size: 0.9rem;
+  line-height: 1;
+}
+.breadcrumb-current {
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 240px;
+}
+
 .article-header-inner {
   max-width: 740px;
   margin: 0 auto;
@@ -895,6 +938,15 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .article-header-sep { color: var(--border); }
 
 .article-date, .article-read-time { color: var(--text-muted); }
+
+.article-author {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+}
+.article-author strong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
 
 .article-title {
   font-size: clamp(1.6rem, 3.5vw, 2.2rem);
@@ -930,6 +982,8 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   line-height: 1.75;
   color: var(--text-primary);
   letter-spacing: 0.01em;
+  max-width: 680px;
+  margin: 0 auto;
 }
 
 .article-body h2 {
@@ -1180,13 +1234,22 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   background: var(--bg-hover);
 }
 
-.tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+
 
 /* ===== SHARE ===== */
 .share-section {
   margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .share-label {
@@ -1270,6 +1333,9 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
+  max-width: 680px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .related-articles-title {
@@ -2258,7 +2324,53 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
     padding: 1.5rem 0 1rem;
   }
 
-  .hero-trending { display: none; }
+  .hero-trending {
+    padding: 1rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    display: block;
+    margin: 0 -1rem;
+  }
+  .hero-trending-title {
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin-bottom: 0.75rem;
+  }
+  .hero-trending-list {
+    display: flex;
+    gap: 0.65rem;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 0.25rem;
+  }
+  .hero-trending-item {
+    flex: 0 0 260px;
+    scroll-snap-align: start;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.75rem;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  .hero-trending-item:hover {
+    border-color: var(--primary);
+    box-shadow: var(--shadow-md);
+  }
+  .hero-trending-name {
+    font-size: 0.85rem;
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--text-primary);
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
 
   .hero-stat-value { font-size: 1.2rem; }
   .hero-stats { gap: 1.25rem; }

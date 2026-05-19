@@ -16,3 +16,6 @@ vercel.json.bak
 # Large generated data
 # public/data/
 
+# Nested repo copy
+cryptosynth/
+

@@ -263,7 +263,13 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   transform: scale(1.05);
 }
 
-.menu-toggle svg { display: block; }
+.menu-toggle svg {
+  display: block;
+  transition: transform 0.25s ease, opacity 0.15s ease;
+}
+.menu-toggle.open svg {
+  transform: rotate(90deg);
+}
 
 /* Search Toggle Button */
 .search-toggle {

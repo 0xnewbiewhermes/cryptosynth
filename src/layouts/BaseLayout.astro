@@ -221,21 +221,29 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
     <script>
       const toggle = document.getElementById('menuToggle');
       const nav = document.getElementById('mainNav');
-      if (toggle && nav) {
+      const menuSvg = toggle ? toggle.querySelector('svg') : null;
+      if (toggle && nav && menuSvg) {
+        // Hamburger: 3 lines — Close (X): diagonal lines
+        const hamburgerPath = '<line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/>';
+        const closePath = '<line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/>';
+
         toggle.addEventListener('click', () => {
-          nav.classList.toggle('open');
-          toggle.textContent = nav.classList.contains('open') ? '\u2715' : '\u2630';
+          const open = nav.classList.toggle('open');
+          toggle.classList.toggle('open', open);
+          menuSvg.innerHTML = open ? closePath : hamburgerPath;
         });
         nav.querySelectorAll('a').forEach(link => {
           link.addEventListener('click', () => {
             nav.classList.remove('open');
-            toggle.textContent = '\u2630';
+            toggle.classList.remove('open');
+            menuSvg.innerHTML = hamburgerPath;
           });
         });
         document.addEventListener('click', (e) => {
           if (!nav.contains(e.target) && !toggle.contains(e.target)) {
             nav.classList.remove('open');
-            toggle.textContent = '\u2630';
+            toggle.classList.remove('open');
+            menuSvg.innerHTML = hamburgerPath;
           }
         });
       }

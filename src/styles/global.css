@@ -753,7 +753,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 /* ===== PAGE HERO (Sub Pages) ===== */
 .page-hero {
-  background: var(--gradient-hero);
+  background: var(--text-primary);
   padding: 1.5rem 0;
   color: var(--text-inverse);
   text-align: center;

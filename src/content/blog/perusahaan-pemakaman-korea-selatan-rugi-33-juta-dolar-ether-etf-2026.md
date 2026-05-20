@@ -18,21 +18,21 @@ Analisis dari kasus Bumo Sarang ini mengungkap celah regulasi dana prepaid yang 
 
 ## Perusahaan Pemakaman dan Leveraged ETF Kripto
 
-Bumo Sarang, namanya berarti "Cinta Orang Tua" dalam bahasa Korea, adalah operator jasa pemakaman terbesar ketujuh di Korea Selatan. Tahun lalu, perusahaan ini menginvestasikan **59,5 miliar won (sekitar $40 juta)** dana prepaid pelanggan ke produk investasi berisiko tinggi: leveraged ETF kripto.
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/20/south-korean-funeral-company-reveals-usd33m-loss-on-leveraged-ether-etf-bet), Bumo Sarang (artinya "Cinta Orang Tua" dalam bahasa Korea) adalah operator jasa pemakaman terbesar ketujuh di Korea Selatan. Tahun lalu, perusahaan ini menginvestasikan **59,5 miliar won (sekitar $40 juta)** dana prepaid pelanggan ke produk investasi berisiko tinggi: leveraged ETF kripto.
 
 Produk yang dipilih adalah **T-REX 2X Long BMNR Daily Target ETF (ticker: BMNU)** yang dikelola Tuttle Capital Management. ETF ini dirancang untuk memberikan **eksposur 2x daily return** dari saham Bitmine Immersion Technologies (BMNR), perusahaan treasury Ethereum terbesar di dunia dengan kepemilikan 5,28 juta ETH atau 4,37% dari total pasokan Ethereum.
 
-Pada akhir 2025, nilai buku investasi Bumo Sarang merosot dari 59,5 miliar won menjadi hanya **10,2 miliar won**. Artinya, perusahaan menanggung kerugian unrealized sebesar **49,3 miliar won**, setara $32,7-35,6 juta tergantung kurs, atau sekitar **Rp530 miliar**.
+Pada akhir 2025, nilai buku investasi Bumo Sarang merosot dari 59,5 miliar won menjadi hanya **10,2 miliar won**. Artinya, perusahaan menanggung kerugian unrealized sebesar **49,3 miliar won**, setara $32,7-35,6 juta tergantung kurs, atau sekitar **Rp530 miliar**, seperti dilaporkan [TradingView/Cointelegraph](https://www.tradingview.com/news/cointelegraph:d4a058e0f094b:0-south-korean-funeral-company-records-33m-unrealized-loss-on-leveraged-eth-etfs/).
 
 ## Bukan Kasus Terisolasi
 
-Christian Funeral Family of Faith, perusahaan pemakaman lain di Korea Selatan, juga mencatat **kerugian bersih 500 juta won ($331.700)** pada 2025. Dua kasus ini memicu kekhawatiran lebih luas: menurut laporan Korea Economic Daily, **42,7% dari 75 perusahaan pemakaman** yang ditinjau memiliki total aset di bawah saldo prepaid pelanggan. Artinya, tekanan refund bisa menyebabkan insolvabilitas.
+Christian Funeral Family of Faith, perusahaan pemakaman lain di Korea Selatan, juga mencatat **kerugian bersih 500 juta won ($331.700)** pada 2025, menurut laporan [TradingView/Cointelegraph](https://www.tradingview.com/news/cointelegraph:d4a058e0f094b:0-south-korean-funeral-company-records-33m-unrealized-loss-on-leveraged-eth-etfs/). Dua kasus ini memicu kekhawatiran lebih luas: berdasarkan [Korea Economic Daily](https://www.tradingview.com/news/cointelegraph:d4a058e0f094b:0-south-korean-funeral-company-records-33m-unrealized-loss-on-leveraged-eth-etfs/), **42,7% dari 75 perusahaan pemakaman** yang ditinjau memiliki total aset di bawah saldo prepaid pelanggan. Artinya, tekanan refund bisa menyebabkan insolvabilitas.
 
 Juru bicara Bumo Sarang mengklaim kerugian ini bersifat jangka pendek dan masih terkendali dalam buffer keuangan perusahaan.
 
 > "Short-term unrealized loss due to global market volatility... sufficiently controllable within the company's financial buffer."
 
-Samson Mow, CEO JAN3, memperkirakan sekitar **$6 miliar modal ritel Korea** mengalir ke perusahaan treasury Ethereum. Ia memperingatkan banyak pembeli tidak sepenuhnya memahami risikonya.
+Samson Mow, CEO JAN3, mengatakan kepada [crypto.news](https://crypto.news/south-korea-funeral-firm-loses-33m-on-ethereum-etf/) bahwa sekitar **$6 miliar modal ritel Korea** mengalir ke perusahaan treasury Ethereum. Ia memperingatkan banyak pembeli tidak sepenuhnya memahami risikonya.
 
 ## Celah Regulasi untuk Indonesia
 
@@ -42,7 +42,7 @@ Leveraged ETF sendiri sudah berisiko tinggi untuk investor individu yang paham p
 
 Implikasi paling penting dari kasus Bumo Sarang bukan untuk investor kripto pada umumnya, tapi untuk pengawas dana publik di Indonesia. Industri dana prepaid di Indonesia mencakup dana haji (BPKH mengelola Rp172 triliun per 2025), dana pendidikan, dan berbagai skema iuran koperasi. Regulasi OJK melalui POJK 12/2023 memang sudah mengatur batasan investasi untuk lembaga keuangan, tapi sektor usaha sosial dan koperasi tidak selalu berada di bawah pengawasan langsung OJK. Bayangkan jika dana iuran koperasi simpan pinjam dialokasikan ke leveraged ETF kripto tanpa pengawasan otoritas keuangan, skenario yang sama persis dengan kasus Bumo Sarang. Inilah risiko regulasi yang belum banyak dibahas: bukan soal kriptonya, tapi soal siapa yang mengawasi pengelola dana publik di sektor non-keuangan.
 
-Bitmine sendiri, sebagai perusahaan tempat BMNU memberikan eksposur, baru saja membeli 71.672 ETH pada hari yang sama laporan kerugian Bumo Sarang dirilis. Chairman Bitmine Tom Lee menyebut level Ether di bawah $2.200 sebagai "kesempatan menarik." Ether diperdagangkan di kisaran **$2.118-2.134** pada 19-20 Mei 2026.
+Bitmine sendiri, sebagai perusahaan tempat BMNU memberikan eksposur, baru saja membeli 71.672 ETH pada hari yang sama laporan kerugian Bumo Sarang dirilis, menurut [CoinDesk](https://www.coindesk.com/markets/2026/05/20/south-korean-funeral-company-reveals-usd33m-loss-on-leveraged-ether-etf-bet). Chairman Bitmine Tom Lee menyebut level Ether di bawah $2.200 sebagai "kesempatan menarik." Ether diperdagangkan di kisaran **$2.118-2.134** pada 19-20 Mei 2026.
 
 ## Sumber
 

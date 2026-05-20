@@ -16,9 +16,9 @@ author: "CryptoSynth Research"
 
 ## MoneyGram Masuk ke Jaringan Tempo
 
-MoneyGram, raksasa pembayaran global dengan 50 juta+ pelanggan di 200+ negara, resmi mengumumkan kemitraan strategis dengan **Tempo**, sebuah Layer 1 blockchain yang dirancang khusus untuk pembayaran volume tinggi di dunia nyata. Lewat kemitraan ini, MoneyGram menjadi **anchor remittance validator** pertama di jaringan Tempo, sebuah peran yang ngasih mereka tanggung jawab langsung dalam operasi, keamanan, dan reliabilitas jaringan.
+MoneyGram, raksasa pembayaran global dengan 50 juta+ pelanggan di 200+ negara, resmi mengumumkan kemitraan strategis dengan **Tempo**, sebuah Layer 1 blockchain yang dirancang khusus untuk pembayaran volume tinggi di dunia nyata, seperti dilaporkan [PRNewswire](https://www.prnewswire.com/news-releases/moneygram-becomes-tempos-anchor-remittance-validator-in-strategic-blockchain-partnership-302776990.html). Lewat kemitraan ini, MoneyGram menjadi **anchor remittance validator** pertama di jaringan Tempo.
 
-Yang membedakan Tempo dari blockchain lain: jaringan ini di-incubate langsung oleh **Stripe** dan **Paradigm**, dua nama besar di dunia fintech dan crypto. Stripe juga terlibat langsung dalam kemitraan ini, berencana mengintegrasikan **stablecoin settlement** ke dalam aliran pembayaran mereka dengan MoneyGram menggunakan infrastruktur onchain Tempo.
+Yang membedakan Tempo dari blockchain lain: jaringan ini di-incubate langsung oleh **Stripe** dan **Paradigm**, dua nama besar di dunia fintech dan crypto. Stripe juga terlibat langsung dalam kemitraan ini, berencana mengintegrasikan **stablecoin settlement** ke dalam aliran pembayaran mereka dengan MoneyGram menggunakan infrastruktur onchain Tempo, seperti dikonfirmasi [Finextra](https://www.finextra.com/pressarticle/109907/moneygram-becomes-tempos-anchor-remittance-validator).
 
 CEO MoneyGram Anthony Soohoo bilang: *"MoneyGram udah lama jadi infrastruktur kritis buat pergerakan uang global. Dengan stablecoin dan blockchain yang makin terintegrasi ke layanan keuangan mainstream, kami aktif membangun era berikutnya dari infrastruktur pembayaran."*
 
@@ -44,7 +44,7 @@ Stripe sendiri sebelumnya udah ngeluncurin dukungan stablecoin payment di platfo
 
 ## Visa Juga Udah di Tempo, Ada Pola?
 
-**Visa** juga udah lebih dulu bergabung sebagai anchor validator di Tempo pada April 2026. Cuy Sheffield, Head of Crypto Visa, bilang: *"Kami udah bertahun-tahun membangun expertise di blockchain, dan sekarang kami memperluas dengan menjalankan infrastruktur blockchain kritis sendiri."*
+**Visa** juga udah lebih dulu bergabung sebagai anchor validator di Tempo pada April 2026, berdasarkan keterangan resmi [Visa Investor Relations](https://investor.visa.com/news/news-details/2026/Visa-Launches-Validator-Node-on-Tempo-Blockchain/default.aspx). Cuy Sheffield, Head of Crypto Visa, bilang: *"Kami udah bertahun-tahun membangun expertise di blockchain, dan sekarang kami memperluas dengan menjalankan infrastruktur blockchain kritis sendiri."*
 
 Ini pola yang menarik: Visa + Stripe + MoneyGram, tiga pilar pembayaran global, semuanya pilih Tempo sebagai infrastruktur blockchain untuk stablecoin settlement. Bukan kebetulan. Tempo dirancang dari awal buat pembayaran enterprise-scale, dengan dukungan multichain dan stablecoin-neutral (bisa pake stablecoin apapun buat transfer dan gas fees).
 

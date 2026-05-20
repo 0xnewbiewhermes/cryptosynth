@@ -1,22 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 56" width="56" height="56">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
   <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="m1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#4F46E5"/>
-      <stop offset="100%" stop-color="#818CF8"/>
-    </linearGradient>
-    <linearGradient id="g2" x1="0%" y1="100%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#3730A3" stop-opacity="0.6"/>
-      <stop offset="100%" stop-color="#6366F1" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#6366F1"/>
     </linearGradient>
   </defs>
-  <!-- Hexagon shadow -->
-  <polygon points="28 3, 51 15, 51 41, 28 53, 5 41, 5 15" fill="rgba(55,48,163,0.12)"/>
   <!-- Hexagon base -->
-  <polygon points="28 1, 52 13.5, 52 41.5, 28 54, 4 41.5, 4 13.5" fill="url(#g2)" stroke="url(#g1)" stroke-width="2.5"/>
-  <!-- Sine wave top -->
-  <path d="M10 23 Q16 13 22 23 Q28 33 34 23 Q40 13 46 23" fill="none" stroke="#818CF8" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Sine wave bottom -->
-  <path d="M10 33 Q16 43 22 33 Q28 23 34 33 Q40 43 46 33" fill="none" stroke="#4F46E5" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Center accent dot -->
-  <circle cx="28" cy="28" r="3.5" fill="#818CF8" opacity="0.4"/>
+  <polygon points="20 1, 37 10.5, 37 29.5, 20 39, 3 29.5, 3 10.5" fill="rgba(79, 70, 229, 0.08)" stroke="url(#m1)" stroke-width="2"/>
+  <!-- Dual frequency waves — synth signature -->
+  <path d="M10 16 Q15 12 20 16 Q25 20 30 16" fill="none" stroke="#4F46E5" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M10 24 Q15 20 20 24 Q25 28 30 24" fill="none" stroke="#6366F1" stroke-width="2.2" stroke-linecap="round"/>
 </svg>

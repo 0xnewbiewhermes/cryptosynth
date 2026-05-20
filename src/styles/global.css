@@ -1225,7 +1225,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 .badge-active { background: rgba(5, 150, 105, 0.1); color: #059669; }
 .badge-upcoming { background: rgba(79, 70, 229, 0.1); color: var(--primary); }
-.badge-confirmed { background: rgba(20, 184, 166, 0.1); color: #0D9488; }
+.badge-confirmed { background: rgba(79, 70, 229, 0.1); color: #4F46E5; }
 .badge-ended { background: rgba(107, 114, 128, 0.1); color: #6B7280; }
 
 /* ===== TAGS ===== */
@@ -1289,7 +1289,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 .share-btn:hover { border-color: var(--primary); color: var(--primary); opacity: 1; }
 
-.share-telegram:hover { border-color: #0088CC; color: #0088CC; }
+.share-telegram:hover { border-color: #4F46E5; color: #4F46E5; }
 .share-whatsapp:hover { border-color: #25D366; color: #25D366; }
 .share-x:hover { border-color: #1DA1F2; color: #1DA1F2; }
 

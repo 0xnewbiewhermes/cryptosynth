@@ -1289,7 +1289,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
 .share-btn:hover { border-color: var(--primary); color: var(--primary); opacity: 1; }
 
-.share-telegram:hover { border-color: #4F46E5; color: #4F46E5; }
+.share-telegram:hover { border-color: #0088CC; color: #0088CC; }
 .share-whatsapp:hover { border-color: #25D366; color: #25D366; }
 .share-x:hover { border-color: #1DA1F2; color: #1DA1F2; }
 

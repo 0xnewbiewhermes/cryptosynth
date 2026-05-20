@@ -1,5 +1,6 @@
 ---
 import SeoHead from '../components/SeoHead.astro';
+import { ViewTransitions } from 'astro:transitions';
 
 interface Props {
   title: string;
@@ -20,6 +21,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
 <html lang="id">
   <head>
     <SeoHead {title} {description} {image} {type} {publishDate} {modifiedDate} {category} {tags} {faq} />
+    <ViewTransitions />
     <link rel="alternate" type="application/rss+xml" title="CryptoSynth.id RSS" href="/rss.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="alternate icon" type="image/png" href="/favicon.png" />
@@ -172,7 +174,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         </div>
       </div>
     </div>
-    <main id="main-content">
+    <main id="main-content" transition:animate="fade">
       <slot />
     </main>
     <footer class="footer">

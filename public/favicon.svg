@@ -1,13 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <defs>
-    <linearGradient id="fg" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="m1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#4F46E5"/>
       <stop offset="100%" stop-color="#6366F1"/>
     </linearGradient>
   </defs>
-  <!-- Hexagon with subtle fill -->
-  <polygon points="16 2, 29 9.5, 29 22.5, 16 30, 3 22.5, 3 9.5" fill="rgba(79, 70, 229, 0.1)" stroke="url(#fg)" stroke-width="1.8"/>
-  <!-- Frequency waves -->
-  <path d="M6.5 14 Q10 10 14 14 Q18 18 22 14 Q25.5 10 28 13" fill="none" stroke="#818CF8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M6.5 19 Q10 23 14 19 Q18 15 22 19 Q25.5 23 28 20" fill="none" stroke="#4F46E5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <polygon points="16 0.8, 29.6 8.4, 29.6 23.6, 16 31.2, 2.4 23.6, 2.4 8.4" fill="rgba(79, 70, 229, 0.08)" stroke="url(#m1)" stroke-width="1.6"/>
+  <path d="M8 12.8 Q12 9.6 16 12.8 Q20 16 24 12.8" fill="none" stroke="#4F46E5" stroke-width="1.8" stroke-linecap="round"/>
+  <path d="M8 19.2 Q12 16 16 19.2 Q20 22.4 24 19.2" fill="none" stroke="#6366F1" stroke-width="1.8" stroke-linecap="round"/>
 </svg>

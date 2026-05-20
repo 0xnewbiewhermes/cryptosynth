@@ -253,9 +253,9 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   letter-spacing: -0.02em;
 }
 
-.logo-icon {
-  width: 28px;
-  height: 28px;
+.logo-img {
+  height: 32px;
+  width: auto;
   display: block;
 }
 

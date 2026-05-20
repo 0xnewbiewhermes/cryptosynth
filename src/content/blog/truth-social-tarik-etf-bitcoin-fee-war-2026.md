@@ -14,7 +14,7 @@ author: "CryptoSynth Research"
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto memiliki fluktuasi harga yang tinggi.
 </div>
 
-Rencana ETF Bitcoin dari Truth Social batal sebelum benar-benar lepas landas. Trump Media & Technology Group (TMTG) menarik registrasi SEC untuk Truth Social Bitcoin ETF dan Truth Social Bitcoin & Ethereum ETF, dengan alasan "struktural reset."
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/20/why-trump-s-bitcoin-etf-plans-likely-collapsed-before-even-getting-off-the-ground), rencana ETF Bitcoin dari Truth Social batal sebelum benar-benar lepas landas. Trump Media & Technology Group (TMTG) menarik registrasi SEC untuk Truth Social Bitcoin ETF dan Truth Social Bitcoin & Ethereum ETF, dengan alasan "struktural reset."
 
 Tapi analis ETF terkemuka tidak membeli alasan itu.
 

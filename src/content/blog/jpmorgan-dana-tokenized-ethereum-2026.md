@@ -17,7 +17,7 @@ faq: "Apa perbedaan Ethereum dan Bitcoin?;;Bitcoin dirancang sebagai store of va
 
 ## JPMorgan Ajukan Dana Tokenized Baru di Ethereum
 
-JPMorgan (JPM), salah satu bank terbesar di dunia, sedang bersiap meluncurkan dana money market tokenized. Pengajuan ke Securities and Exchange Commission (SEC) AS pada Selasa (12/5) merinci rencana dana berbasis blockchain yang berinvestasi secara eksklusif di Treasury AS jangka pendek, kas, dan perjanjian repo semalam yang didukung oleh sekuritas pemerintah.
+Menurut laporan [CoinDesk](https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund), jPMorgan (JPM), salah satu bank terbesar di dunia, sedang bersiap meluncurkan dana money market tokenized. Pengajuan ke Securities and Exchange Commission (SEC) AS pada Selasa (12/5) merinci rencana dana berbasis blockchain yang berinvestasi secara eksklusif di Treasury AS jangka pendek, kas, dan perjanjian repo semalam yang didukung oleh sekuritas pemerintah.
 
 Dana yang diberi nama **JPMorgan OnChain Liquidity-Token Money Market Fund (JLTXX)** ini akan mempertahankan saldo token berbasis blockchain yang terkait dengan catatan kepemilikan investor. Pengguna yang disetujui dapat mengajukan permintaan pembelian, penebusan, dan transfer melalui Ethereum.
 

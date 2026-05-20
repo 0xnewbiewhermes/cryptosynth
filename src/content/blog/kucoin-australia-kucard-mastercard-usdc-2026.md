@@ -17,7 +17,7 @@ faq: "Apa itu KuCard KuCoin?;;KuCard adalah kartu debit virtual yang memungkinka
 
 ## KuCoin Tingkatkan Investasi di Australia dengan Strategi Evolution
 
-Platform perdagangan kripto KuCoin sedang memperkuat posisinya di Australia. Managing Director KuCoin Australia James Pinch menyebut langkah ini sebagai “evolution” yang mencakup pembukaan kantor di Sydney CBD, registrasi dengan AUSTRAC pada November 2025, serta peluncuran produk baru.
+Menurut laporan [Decrypt](https://decrypt.co/367114/kucoin-australias-evolution-showcases-regulatory-focus-mastercard-launch), platform perdagangan kripto KuCoin sedang memperkuat posisinya di Australia. Managing Director KuCoin Australia James Pinch menyebut langkah ini sebagai “evolution” yang mencakup pembukaan kantor di Sydney CBD, registrasi dengan AUSTRAC pada November 2025, serta peluncuran produk baru.
 
 Menurut Pinch, Australia adalah pasar menarik karena regulasi yang semakin jelas dan pertumbuhan pasar aset digital. Riset internal KuCoin menemukan 22% penduduk Australia kini memegang kripto. Mayoritas menggunakan bank transfer (lebih dari 50%) untuk top up akun, diikuti kartu kredit/debit.
 

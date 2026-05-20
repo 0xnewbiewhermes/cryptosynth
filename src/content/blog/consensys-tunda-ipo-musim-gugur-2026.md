@@ -17,7 +17,7 @@ faq: "Apa yang perlu diketahui tentang Consensys Tunda IPO hingga Musim Gugur 20
 
 ## Consensys Tunda IPO karena Pasar Lesu
 
-Consensys, perusahaan pengembang Ethereum yang dipimpin oleh Joe Lubin, menunda rencana penawaran umum perdana (IPO) di AS hingga musim gugur 2026 paling cepat. Keputusan ini diambil karena kondisi pasar crypto yang memburuk secara signifikan.
+Menurut laporan [CoinDesk](https://www.coindesk.com/business/2026/05/13/ethereum-app-builder-consensys-has-delayed-its-potential-ipo-until-fall), consensys, perusahaan pengembang Ethereum yang dipimpin oleh Joe Lubin, menunda rencana penawaran umum perdana (IPO) di AS hingga musim gugur 2026 paling cepat. Keputusan ini diambil karena kondisi pasar crypto yang memburuk secara signifikan.
 
 Perusahaan yang membangun wallet MetaMask ini sebelumnya dilaporkan telah menggandeng bankir dari **JPMorgan** dan **Goldman Sachs** untuk memimpin proses IPO. Consensys awalnya menargetkan pengajuan draft S-1 (dokumen pendaftaran awal) ke Securities and Exchange Commission (SEC) sekitar akhir Februari 2026.
 

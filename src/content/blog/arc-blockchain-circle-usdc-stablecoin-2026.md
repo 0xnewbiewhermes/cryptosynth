@@ -15,7 +15,7 @@ faq: "Apa itu Arc dari Circle?;;Arc adalah blockchain layer-1 baru yang dikemban
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-Circle, perusahaan di balik stablecoin USDC, baru saja memperkenalkan Arc, sebuah blockchain layer-1 yang secara khusus dibangun untuk mendukung keuangan berbasis stablecoin di skala institusional. Berbeda dengan Ethereum atau Solana yang bersifat general-purpose, Arc dirancang untuk mengatasi masalah biaya yang tidak stabil, settlement yang lambat, dan kebutuhan privasi yang sesuai regulasi.
+Menurut laporan [Decrypt](https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle), circle, perusahaan di balik stablecoin USDC, baru saja memperkenalkan Arc, sebuah blockchain layer-1 yang secara khusus dibangun untuk mendukung keuangan berbasis stablecoin di skala institusional. Berbeda dengan Ethereum atau Solana yang bersifat general-purpose, Arc dirancang untuk mengatasi masalah biaya yang tidak stabil, settlement yang lambat, dan kebutuhan privasi yang sesuai regulasi.
 
 ## Mengapa Circle Membangun Arc?
 

@@ -17,7 +17,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Apa yang Terjadi?
 
-Bitcoin (BTC) kembali mencatat rekor baru setelah menembus level $82.000. Kenaikan didorong oleh akumulasi besar-besaran dari MicroStrategy dan sentimen positif dari perkembangan regulasi kripto di Amerika Serikat.
+Menurut laporan [CoinGecko](https://www.coingecko.com/en/coins/bitcoin), bitcoin (BTC) kembali mencatat rekor baru setelah menembus level $82.000. Kenaikan didorong oleh akumulasi besar-besaran dari MicroStrategy dan sentimen positif dari perkembangan regulasi kripto di Amerika Serikat.
 
 ## Detail Utama
 

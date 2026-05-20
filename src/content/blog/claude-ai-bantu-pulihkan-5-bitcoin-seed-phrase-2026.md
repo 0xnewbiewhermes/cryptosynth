@@ -15,7 +15,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Claude AI Temukan File Backup Wallet yang Terlupakan
 
-Sebuah postingan viral di X (Twitter) menghebohkan komunitas crypto pekan ini. Pengguna anonim bernama **Cprkrn** mengklaim berhasil memulihkan 5 Bitcoin yang tidak bisa diakses selama lebih dari 10 tahun, berkat bantuan chatbot AI Claude dari Anthropic.
+Menurut laporan [Cointelegraph](https://cointelegraph.com/news/ai-chatbot-claude-helps-man-recover-5-bitcoin-after-finding-old-seed-phrase), sebuah postingan viral di X (Twitter) menghebohkan komunitas crypto pekan ini. Pengguna anonim bernama **Cprkrn** mengklaim berhasil memulihkan 5 Bitcoin yang tidak bisa diakses selama lebih dari 10 tahun, berkat bantuan chatbot AI Claude dari Anthropic.
 
 Dalam wawancara dengan MTS pada Rabu (13/5), Cprkrn mengatakan bahwa ia membuat "password yang sangat rumit" di blockchain.info dan lupa satu dari tiga password setelah menggantinya beberapa tahun lalu. Selama delapan minggu terakhir, ia sudah mencoba melakukan brute force dengan bantuan AI untuk menguji "triliunan password" tanpa hasil.
 

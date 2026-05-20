@@ -15,7 +15,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Bitcoin Turun di Bawah $80.000, Whale Hyperliquid Flip Bearish
 
-Bitcoin (BTC) gagal mempertahankan momentum bullish pada Rabu (13/5), turun di bawah level psikologis $80.000. Tekanan datang dari melonjaknya harga minyak dan data inflasi produsen AS (PPI) yang jauh di atas ekspektasi, naik 1,4% secara bulanan, hampir tiga kali lipat prediksi analis.
+Menurut laporan [CoinGecko](https://www.coingecko.com/en/coins/bitcoin), bitcoin (BTC) gagal mempertahankan momentum bullish pada Rabu (13/5), turun di bawah level psikologis $80.000. Tekanan datang dari melonjaknya harga minyak dan data inflasi produsen AS (PPI) yang jauh di atas ekspektasi, naik 1,4% secara bulanan, hampir tiga kali lipat prediksi analis.
 
 Di tengah kepanikan pasar, sebuah whale di ekosistem Hyperliquid membuka posisi short senilai **$70 juta** di berbagai aset crypto dan token sintetik yang terkait dengan saham teknologi besar. Langkah ini memicu kekhawatiran di kalangan trader: apakah rally terakhir Bitcoin sudah kehabisan tenaga?
 

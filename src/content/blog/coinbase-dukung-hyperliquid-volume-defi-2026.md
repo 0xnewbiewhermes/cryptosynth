@@ -20,7 +20,7 @@ faq: "Apa risiko utama DeFi?;;Risiko utama DeFi termasuk smart contract exploit,
 
 ## Coinbase Resmi Dukung Ekosistem Hyperliquid
 
-Coinbase, salah satu exchange crypto terbesar di dunia, mengumumkan kerjasama strategis dengan Hyperliquid. Dalam kerjasama ini, Coinbase akan mengelola likuiditas USDC di Hyperliquid, memastikan trader memiliki akses ke likuiditas yang dalam dan stabil.
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/13/coinbase-backs-hyperliquid-stablecoin-push-as-defi-trading-volumes-climb), coinbase, salah satu exchange crypto terbesar di dunia, mengumumkan kerjasama strategis dengan Hyperliquid. Dalam kerjasama ini, Coinbase akan mengelola likuiditas USDC di Hyperliquid, memastikan trader memiliki akses ke likuiditas yang dalam dan stabil.
 
 Hyperliquid bukan sekadar platform trading biasa. Ini adalah Layer 1 blockchain yang dibangun khusus untuk perpetual futures dan spot trading. Berbeda dari DEX lain yang berjalan di atas Ethereum atau Solana, Hyperliquid memiliki chain sendiri yang dioptimalkan untuk performa trading tinggi.
 

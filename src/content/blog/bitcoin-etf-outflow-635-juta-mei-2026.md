@@ -15,7 +15,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Outflow Bitcoin ETF Pecahkan Rekor Negatif Tahun Ini
 
-Pasar spot Bitcoin ETF AS mengalami hari terburuknya dalam hampir empat bulan. Pada Rabu (13/5), investor menarik **$635 juta** dari 11 dana Bitcoin ETF yang terdaftar di bursa AS, outflow harian terbesar sejak 29 Januari, menurut data dari SoSoValue.
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/14/bitcoin-investors-yanked-usd635-million-from-spot-etfs-in-a-day-here-s-what-it-means-for-price), pasar spot Bitcoin ETF AS mengalami hari terburuknya dalam hampir empat bulan. Pada Rabu (13/5), investor menarik **$635 juta** dari 11 dana Bitcoin ETF yang terdaftar di bursa AS, outflow harian terbesar sejak 29 Januari, menurut data dari SoSoValue.
 
 Ini bukan insiden terisolasi. Dalam lima hari perdagangan terakhir, total outflow mencapai **$1,26 miliar**, menarik kembali total net inflow sejak peluncuran ETF pada Januari 2024 dari $59,76 miliar menjadi **$58,5 miliar**. Padahal, sepanjang Maret dan April, dana-dana ini berhasil menarik $3,29 miliar dari investor dan dianggap sebagai katalis bullish utama bagi Bitcoin.
 

@@ -17,7 +17,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Indikator Bull-Bear CryptoQuant Berubah Hijau: Sinyal Awal Bull Market?
 
-Kabar besar datang dari analisis on-chain. CryptoQuant, firma analitik blockchain ternama, mengumumkan bahwa indikator bull-bear cycle Bitcoin mereka telah berubah hijau untuk pertama kalinya sejak Maret 2023. Menurut analis on-chain CryptoQuant, Julio Moreno, ini adalah "sinyal perubahan regime yang penting".
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/12/bitcoin-s-bull-bear-cycle-turns-green-for-first-time-since-march-2023), kabar besar datang dari analisis on-chain. CryptoQuant, firma analitik blockchain ternama, mengumumkan bahwa indikator bull-bear cycle Bitcoin mereka telah berubah hijau untuk pertama kalinya sejak Maret 2023. Menurut analis on-chain CryptoQuant, Julio Moreno, ini adalah "sinyal perubahan regime yang penting".
 
 > "Secara historis, ketika indikator ini keluar dari zona bear dan memasuki zona early bull, sering kali menunjukkan bahwa fase terburuk koreksi sudah berlalu dan struktur pasar mulai pulih," tulis Moreno.
 

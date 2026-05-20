@@ -15,7 +15,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Data Inflasi PPI April 2026 Pecahkan Ekspektasi
 
-Bitcoin (BTC) anjlok di bawah level psikologis $80.000 pada Rabu (13/5) setelah data inflasi produsen AS untuk April 2026 dirilis jauh lebih panas dari prediksi pasar. Data ini menambah tekanan pada Federal Reserve yang sedang menghadapi dilema antara memangkas suku bunga atau menahan kebijakan moneter ketat.
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/13/live-markets-bitcoin-dips-below-usd80-000-as-producer-price-inflation-surges-to-6), bitcoin (BTC) anjlok di bawah level psikologis $80.000 pada Rabu (13/5) setelah data inflasi produsen AS untuk April 2026 dirilis jauh lebih panas dari prediksi pasar. Data ini menambah tekanan pada Federal Reserve yang sedang menghadapi dilema antara memangkas suku bunga atau menahan kebijakan moneter ketat.
 
 Menurut laporan CoinDesk, indeks harga produsen (PPI) naik **1,4% secara bulanan (month-over-month)**, hampir tiga kali lipat dari ekspektasi analis yang memperkirakan kenaikan hanya 0,5%. Secara tahunan, inflasi produsen melonjak ke **6%**, sementara PPI inti (tanpa makanan dan energi) naik 1% secara bulanan dan **5,2% year-over-year**, keduanya jauh di atas perkiraan.
 

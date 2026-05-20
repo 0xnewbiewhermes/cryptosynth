@@ -15,7 +15,7 @@ faq: "Bagaimana cara melindungi aset crypto dari exploit?;;Gunakan hardware wall
 
 ## Kraken Tinggalkan LayerZero Setelah Insiden Keamanan Besar
 
-Kraken secara resmi mengumumkan bahwa mereka akan menggantikan LayerZero dengan Chainlink's Cross-Chain Interoperability Protocol (CCIP) untuk seluruh transfer aset lintas blockchain. Keputusan ini datang setelah exploit besar senilai $292 juta yang menyerang bridge Kelp DAO yang dibangun di atas LayerZero pada April 2026.
+Menurut laporan [CoinDesk](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains), kraken secara resmi mengumumkan bahwa mereka akan menggantikan LayerZero dengan Chainlink's Cross-Chain Interoperability Protocol (CCIP) untuk seluruh transfer aset lintas blockchain. Keputusan ini datang setelah exploit besar senilai $292 juta yang menyerang bridge Kelp DAO yang dibangun di atas LayerZero pada April 2026.
 
 Dalam pengumumannya, Kraken menyatakan bahwa CCIP akan menjadi layanan bridge tunggal dan eksklusif untuk semua token wrapped milik exchange tersebut, termasuk kBTC, produk wrapped Bitcoin yang di-backing 1:1 oleh Bitcoin native yang disimpan di Kraken Financial, lembaga special purpose depository institution (SPDI) yang bercharter di Wyoming.
 

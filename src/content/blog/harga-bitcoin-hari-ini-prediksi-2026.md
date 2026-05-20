@@ -17,7 +17,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Harga Bitcoin Hari Ini
 
-Bitcoin (BTC) saat ini diperdagangkan di sekitar **$82.000**, mencatat rekor tertinggi baru setelah rally 15% dalam dua minggu terakhir.
+Menurut laporan [CoinGecko](https://www.coingecko.com/en/coins/bitcoin), bitcoin (BTC) saat ini diperdagangkan di sekitar **$82.000**, mencatat rekor tertinggi baru setelah rally 15% dalam dua minggu terakhir.
 
 ## Kenapa Bitcoin Naik?
 

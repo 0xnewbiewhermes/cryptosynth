@@ -429,6 +429,11 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   outline: none;
 }
 
+.search-dropdown-input:focus,
+.search-dropdown-input:focus-visible {
+  outline: none;
+}
+
 .search-dropdown-clear {
   background: none;
   border: none;

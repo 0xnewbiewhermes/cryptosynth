@@ -4,6 +4,7 @@ export async function GET({ url }: { url: URL }) {
   try {
     const chainId = url.searchParams.get('chain') || '1';
     const address = url.searchParams.get('address');
+    const isSolana = url.searchParams.get('solana') === '1';
 
     if (!address) {
       return new Response(JSON.stringify({ error: 'Missing address parameter' }), {
@@ -12,7 +13,10 @@ export async function GET({ url }: { url: URL }) {
       });
     }
 
-    const goPlusUrl = `https://api.gopluslabs.io/api/v1/token_security/${chainId}?contract_addresses=${encodeURIComponent(address)}`;
+    // Solana uses a different endpoint than EVM
+    const goPlusUrl = isSolana
+      ? `https://api.gopluslabs.io/api/v1/solana/token_security?contract_addresses=${encodeURIComponent(address)}`
+      : `https://api.gopluslabs.io/api/v1/token_security/${chainId}?contract_addresses=${encodeURIComponent(address)}`;
     
     const res = await fetch(goPlusUrl, {
       headers: { 'Accept': 'application/json' },

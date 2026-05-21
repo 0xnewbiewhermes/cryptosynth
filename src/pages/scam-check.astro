@@ -729,10 +729,11 @@ const CHAIN_MAP = {
   arbitrum: 42161, optimism: 10, base: 8453
 };
 
-async function checkGoPlus(address, chainId) {
+async function checkGoPlus(address, chainId, isSolana) {
   try {
+    const solParam = isSolana ? '&solana=1' : '';
     const resp = await fetch(
-      `/api/goplus?chain=${chainId}&address=${encodeURIComponent(address)}`,
+      `/api/goplus?chain=${chainId}&address=${encodeURIComponent(address)}${solParam}`,
       { signal: AbortSignal.timeout(10000) }
     );
     const data = await resp.json();
@@ -822,7 +823,7 @@ form.addEventListener('submit', async (e) => {
   let goPlusResult = null;
   if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
     const chainId = CHAIN_MAP[addrType] || 1;
-    goPlusResult = await checkGoPlus(cleaned, chainId);
+    goPlusResult = await checkGoPlus(cleaned, chainId, addrType === 'sol');
   }
 
   btnText.style.display = 'inline';

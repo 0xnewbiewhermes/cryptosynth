@@ -342,6 +342,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   transform: scale(0.92);
 }
 
+.search-toggle:focus,
 .search-toggle:focus-visible {
   outline: none;
 }

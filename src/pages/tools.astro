@@ -861,7 +861,7 @@ function formatDate(dateStr) {
       arbitrum: 42161, optimism: 10, base: 8453
     };
 
-    async function checkGoPlus(address, chainId, isSolana) {
+    async function checkGoPlus(address, chainId, isSolana, rawInput) {
       try {
         const solParam = isSolana ? '&solana=1' : '';
         const resp = await fetch(
@@ -870,7 +870,9 @@ function formatDate(dateStr) {
         );
         const data = await resp.json();
         const result = data.result || {};
-        const tokenData = result[address.toLowerCase()] || result[address];
+        // Solana preserves original case; try lookupKey, then lowercased, then raw input
+        const lookupKey = isSolana ? rawInput : address.toLowerCase();
+        const tokenData = result[lookupKey] || result[address.toLowerCase()] || result[address];
         if (!tokenData) return null;
         const flags = [];
         if (tokenData.is_honeypot === '1') flags.push('Honeypot');
@@ -941,7 +943,7 @@ function formatDate(dateStr) {
       let goPlusResult = null;
       if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
         const chainId = CHAIN_MAP[addrType] || 1;
-        goPlusResult = await checkGoPlus(cleaned, chainId, addrType === 'sol');
+        goPlusResult = await checkGoPlus(cleaned, chainId, addrType === 'sol', raw.trim());
       }
 
       btnText.style.display = 'inline';

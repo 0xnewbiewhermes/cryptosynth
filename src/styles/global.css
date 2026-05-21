@@ -987,7 +987,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   line-height: 1.75;
   color: var(--text-primary);
   letter-spacing: 0.01em;
-  max-width: 680px;
+  max-width: 720px;
   margin: 0 auto;
 }
 
@@ -1289,7 +1289,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
-  max-width: 680px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -1375,7 +1375,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   margin-top: 2.5rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
-  max-width: 680px;
+  max-width: 720px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2301,7 +2301,7 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   .hero-trending { max-width: 480px; margin: 0 auto; }
 
   .articles-grid {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .footer-inner {

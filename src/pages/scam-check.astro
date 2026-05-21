@@ -724,16 +724,20 @@ function checkBlacklist(input, addrType) {
 }
 
 // Go+ token security check (via server proxy to avoid CORS)
-async function checkGoPlus(address) {
-  // Try Ethereum (chain 1) first, return raw result
+const CHAIN_MAP = {
+  evm: 1, bsc: 56, sol: 101, polygon: 137, avalanche: 43114,
+  arbitrum: 42161, optimism: 10, base: 8453
+};
+
+async function checkGoPlus(address, chainId) {
   try {
     const resp = await fetch(
-      `/api/goplus?chain=1&address=${encodeURIComponent(address)}`,
-      { signal: AbortSignal.timeout(8000) }
+      `/api/goplus?chain=${chainId}&address=${encodeURIComponent(address)}`,
+      { signal: AbortSignal.timeout(10000) }
     );
     const data = await resp.json();
     const result = data.result || {};
-    const tokenData = result[address.toLowerCase()];
+    const tokenData = result[address.toLowerCase()] || result[address];
     if (!tokenData) return null;
 
     const flags = [];
@@ -744,6 +748,12 @@ async function checkGoPlus(address) {
     if (tokenData.trading_cooldown === '1') flags.push('Trading Cooldown');
     if (tokenData.anti_whale_modifiable === '1') flags.push('Anti-Whale Modifiable');
     if (tokenData.can_take_back_ownership === '1') flags.push('Ownership Can Be Taken');
+    if (tokenData.owner_change_balance === '1') flags.push('Owner Can Change Balance');
+    if (tokenData.hidden_owner === '1') flags.push('Hidden Owner');
+    if (tokenData.selfdestruct === '1') flags.push('Self-Destruct');
+    if (tokenData.external_call === '1') flags.push('External Call');
+    if (tokenData.is_airdrop_scam === '1') flags.push('Airdrop Scam');
+    if (tokenData.trust_list === '0' && tokenData.is_blacklisted !== '1') flags.push('Not on Trust List');
     const buyTax = parseFloat(tokenData.buy_tax || '0');
     const sellTax = parseFloat(tokenData.sell_tax || '0');
     if (buyTax > 10) flags.push(`Buy Tax ${buyTax}%`);
@@ -754,8 +764,14 @@ async function checkGoPlus(address) {
       symbol: tokenData.token_symbol || null,
       flags,
       holders: parseInt(tokenData.holder_count || '0'),
+      totalSupply: tokenData.total_supply || null,
       creator: tokenData.creator_address || null,
-      is_risky: flags.length > 0
+      owner: tokenData.owner_address || null,
+      decimals: tokenData.decimals || null,
+      buyTax: buyTax,
+      sellTax: sellTax,
+      is_risky: flags.length > 0,
+      raw: tokenData
     };
   } catch {
     return null;
@@ -802,10 +818,11 @@ form.addEventListener('submit', async (e) => {
   // Check blacklist
   const matches = checkBlacklist(cleaned, addrType);
 
-  // If it's an EVM address (0x), also check Go+
+  // Check Go+ for EVM, Solana, BSC
   let goPlusResult = null;
-  if (addrType === 'evm') {
-    goPlusResult = await checkGoPlus(cleaned);
+  if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
+    const chainId = CHAIN_MAP[addrType] || 1;
+    goPlusResult = await checkGoPlus(cleaned, chainId);
   }
 
   btnText.style.display = 'inline';
@@ -823,7 +840,7 @@ form.addEventListener('submit', async (e) => {
     if (isScam) {
       const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
       const sourceBadges = sources.map(s => {
-        const meta = SOURCE_META[s] || { icon: '📋', label: s };
+        const meta = SOURCE_META[s] || { icon: '\uD83D\uDCCB', label: s };
         return `<span class="src-badge">${meta.icon} ${meta.label}</span>`;
       }).join(' ');
       html += `
@@ -838,7 +855,7 @@ form.addEventListener('submit', async (e) => {
         `<span class="flag-badge flag-bad">${f}</span>`
       ).join(' ');
       html += `
-        <p style="margin-top: ${isScam ? '0.75rem' : '0'}"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p>
+        <p style="margin-top: ${isScam ? '0.75rem' : '0'}; margin-bottom: 0;"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p>
         <div class="src-badges">${flagBadges}</div>
       `;
     }
@@ -862,10 +879,14 @@ form.addEventListener('submit', async (e) => {
     }
 
     // Go+ clean result (optional info)
-    if (goPlusResult && !goPlusRisky) {
-      const nameInfo = goPlusResult.name ? `${goPlusResult.name}` : '';
-      const holderInfo = goPlusResult.holders > 0 ? ` | ${goPlusResult.holders.toLocaleString()} holders` : '';
-      html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} - tidak ada flag mencurigakan</small>`;
+    if (goPlusResult) {
+      const r = goPlusResult;
+      const nameInfo = r.name ? `<strong>${r.name}</strong>${r.symbol ? ` ($${r.symbol})` : ''}` : '';
+      const holderInfo = r.holders > 0 ? ` | ${r.holders.toLocaleString()} holders` : '';
+      const supplyInfo = r.totalSupply ? ` | Supply: ${r.totalSupply}` : '';
+      const taxInfo = (r.buyTax > 0 || r.sellTax > 0) ? ` | Buy Tax: ${r.buyTax}% Sell Tax: ${r.sellTax}%` : '';
+      const flagCount = r.flags.length > 0 ? ` (${r.flags.length} flags)` : '';
+      html += `<br><small>⚡ Go+: ${nameInfo}${holderInfo}${supplyInfo}${taxInfo}${flagCount}</small>`;
     }
 
     html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;

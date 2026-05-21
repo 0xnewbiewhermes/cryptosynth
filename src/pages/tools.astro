@@ -856,15 +856,20 @@ function formatDate(dateStr) {
       return matches.length > 0 ? matches : null;
     }
 
-    async function checkGoPlus(address) {
+    const CHAIN_MAP = {
+      evm: 1, bsc: 56, sol: 101, polygon: 137, avalanche: 43114,
+      arbitrum: 42161, optimism: 10, base: 8453
+    };
+
+    async function checkGoPlus(address, chainId) {
       try {
         const resp = await fetch(
-          `/api/goplus?chain=1&address=${encodeURIComponent(address)}`,
-          { signal: AbortSignal.timeout(8000) }
+          `/api/goplus?chain=${chainId}&address=${encodeURIComponent(address)}`,
+          { signal: AbortSignal.timeout(10000) }
         );
         const data = await resp.json();
         const result = data.result || {};
-        const tokenData = result[address.toLowerCase()];
+        const tokenData = result[address.toLowerCase()] || result[address];
         if (!tokenData) return null;
         const flags = [];
         if (tokenData.is_honeypot === '1') flags.push('Honeypot');
@@ -874,14 +879,29 @@ function formatDate(dateStr) {
         if (tokenData.trading_cooldown === '1') flags.push('Trading Cooldown');
         if (tokenData.anti_whale_modifiable === '1') flags.push('Anti-Whale Modifiable');
         if (tokenData.can_take_back_ownership === '1') flags.push('Ownership Can Be Taken');
+        if (tokenData.owner_change_balance === '1') flags.push('Owner Can Change Balance');
+        if (tokenData.hidden_owner === '1') flags.push('Hidden Owner');
+        if (tokenData.selfdestruct === '1') flags.push('Self-Destruct');
+        if (tokenData.external_call === '1') flags.push('External Call');
+        if (tokenData.is_airdrop_scam === '1') flags.push('Airdrop Scam');
+        if (tokenData.trust_list === '0' && tokenData.is_blacklisted !== '1') flags.push('Not on Trust List');
         const buyTax = parseFloat(tokenData.buy_tax || '0');
         const sellTax = parseFloat(tokenData.sell_tax || '0');
         if (buyTax > 10) flags.push(`Buy Tax ${buyTax}%`);
         if (sellTax > 10) flags.push(`Sell Tax ${sellTax}%`);
         return {
-          name: tokenData.token_name || null, symbol: tokenData.token_symbol || null,
-          flags, holders: parseInt(tokenData.holder_count || '0'),
-          creator: tokenData.creator_address || null, is_risky: flags.length > 0
+          name: tokenData.token_name || null,
+          symbol: tokenData.token_symbol || null,
+          flags,
+          holders: parseInt(tokenData.holder_count || '0'),
+          totalSupply: tokenData.total_supply || null,
+          creator: tokenData.creator_address || null,
+          owner: tokenData.owner_address || null,
+          decimals: tokenData.decimals || null,
+          buyTax: buyTax,
+          sellTax: sellTax,
+          is_risky: flags.length > 0,
+          raw: tokenData
         };
       } catch { return null; }
     }
@@ -918,7 +938,10 @@ function formatDate(dateStr) {
       const addrType = isAddress(cleaned);
       const matches = checkBlacklist(cleaned, addrType);
       let goPlusResult = null;
-      if (addrType === 'evm') goPlusResult = await checkGoPlus(cleaned);
+      if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
+        const chainId = CHAIN_MAP[addrType] || 1;
+        goPlusResult = await checkGoPlus(cleaned, chainId);
+      }
 
       btnText.style.display = 'inline';
       btnSpinner.style.display = 'none';
@@ -933,14 +956,14 @@ function formatDate(dateStr) {
         if (isScam) {
           const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
           const sourceBadges = sources.map(s => {
-            const meta = SOURCE_META[s] || { icon: '📋', label: s };
+            const meta = SOURCE_META[s] || { icon: '\uD83D\uDCCB', label: s };
             return `<span class="src-badge">${meta.icon} ${meta.label}</span>`;
           }).join(' ');
           html += `<p><strong>Terdaftar sebagai scam</strong> di database kami:</p><div class="src-badges">${sourceBadges}</div>${matches.length > 1 && !addrType ? `<small>(${matches.length} varian terkait)</small>` : ''}`;
         }
         if (goPlusRisky) {
           const flagBadges = goPlusResult.flags.map(f => `<span class="flag-badge flag-bad">${f}</span>`).join(' ');
-          html += `<p style="margin-top: ${isScam ? '0.75rem' : '0'}"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p><div class="src-badges">${flagBadges}</div>`;
+          html += `<p style="margin-top: ${isScam ? '0.75rem' : '0'}; margin-bottom: 0;"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p><div class="src-badges">${flagBadges}</div>`;
         }
         resultIcon.textContent = '⚠️';
         resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
@@ -952,10 +975,14 @@ function formatDate(dateStr) {
         resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
         resultTitle.textContent = '✅ Aman - Tidak Terdaftar';
         let html = addrType ? 'Address ini <strong>tidak terdaftar</strong> sebagai scam di database kami.' : 'Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.';
-        if (goPlusResult && !goPlusRisky) {
-          const nameInfo = goPlusResult.name ? `${goPlusResult.name}` : '';
-          const holderInfo = goPlusResult.holders > 0 ? ` | ${goPlusResult.holders.toLocaleString()} holders` : '';
-          html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} - tidak ada flag mencurigakan</small>`;
+        if (goPlusResult) {
+          const r = goPlusResult;
+          const nameInfo = r.name ? `<strong>${r.name}</strong>${r.symbol ? ` ($${r.symbol})` : ''}` : '';
+          const holderInfo = r.holders > 0 ? ` | ${r.holders.toLocaleString()} holders` : '';
+          const supplyInfo = r.totalSupply ? ` | Supply: ${r.totalSupply}` : '';
+          const taxInfo = (r.buyTax > 0 || r.sellTax > 0) ? ` | Buy Tax: ${r.buyTax}% Sell Tax: ${r.sellTax}%` : '';
+          const flagCount = r.flags.length > 0 ? ` (${r.flags.length} flags)` : '';
+          html += `<br><small>⚡ Go+: ${nameInfo}${holderInfo}${supplyInfo}${taxInfo}${flagCount}</small>`;
         }
         html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;
         resultDetail.innerHTML = html;

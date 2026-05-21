@@ -6,8 +6,8 @@
     "category": "DeFi",
     "status": "confirmed",
     "risk": "medium",
-    "cost": "free",
-    "costLabel": "Free",
+    "cost": "medium",
+    "costLabel": ">$10",
     "difficulty": "easy",
     "sybil": "low",
     "network": "Mainnet",
@@ -22,7 +22,7 @@
     "tutorial": "",
     "notes": "Platform prediksi terbesar. KYC untuk fitur penuh. Airdrop : CONFIRMED.",
     "verified": true,
-    "lastVerified": "2026-05-16"
+    "lastVerified": "2026-05-21"
   },
   {
     "project": "Ink",

@@ -71,12 +71,12 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         <div class="search-dropdown-inner">
           <div class="search-dropdown-input-wrap">
             <svg class="search-dropdown-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="text" id="searchDropdownInput" class="search-dropdown-input" placeholder="Cari artikel..." autocomplete="off" />
-            <button type="button" class="search-dropdown-clear" id="searchDropdownClear" aria-label="Hapus">
+            <input type="text" id="searchDropdownInput" class="search-dropdown-input" placeholder="Cari artikel..." autocomplete="off" aria-label="Cari artikel" />
+            <button type="button" class="search-dropdown-clear" id="searchDropdownClear" aria-label="Tutup pencarian">
               <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
             </button>
           </div>
-          <div id="searchDropdownResults" class="search-dropdown-results">
+          <div id="searchDropdownResults" class="search-dropdown-results" aria-live="polite" role="region" aria-label="Hasil pencarian">
           </div>
         </div>
       </div>
@@ -427,7 +427,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           if (!q) return [];
           var terms = q.split(/\\s+/);
           return searchIndex.filter(function(item) {
-            var haystack = (item.title + ' ' + item.description + ' ' + item.excerpt + ' ' + item.category + ' ' + item.tags.join(' ')).toLowerCase();
+            var haystack = (item.title + ' ' + item.description + ' ' + item.excerpt + ' ' + (item.content || '') + ' ' + item.category + ' ' + item.tags.join(' ')).toLowerCase();
             return terms.every(function(t) { return haystack.includes(t); });
           });
         }

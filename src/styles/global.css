@@ -1769,6 +1769,12 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 }
 
 .search-results { max-width: 700px; margin: 0 auto; }
+.search-info {
+  max-width: 700px;
+  margin: 0 auto 0.5rem;
+  font-size: 0.85rem;
+  color: var(--text-muted);
+}
 .search-empty {
   color: var(--text-muted);
   font-size: 0.95rem;
@@ -1828,6 +1834,18 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
   font-size: 0.85rem;
   color: var(--text-secondary);
   line-height: 1.4;
+}
+
+.search-result-active {
+  background: var(--bg-hover);
+  border-color: var(--primary);
+}
+
+.search-result-card mark {
+  background: rgba(79, 70, 229, 0.15);
+  color: var(--text-primary);
+  border-radius: 2px;
+  padding: 0 2px;
 }
 
 /* ===== SCAM CHECKER ===== */
@@ -2430,6 +2448,20 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 
   .page-hero { padding: 2.5rem 0; }
   .page-hero h1 { font-size: 1.5rem; }
+
+  /* Search page mobile */
+  .search-page { padding: 0 0.5rem; }
+  .search-result-card { flex-direction: column; gap: 0.5rem; }
+  .search-result-img { width: 100%; height: 180px; }
+
+  /* Search dropdown mobile */
+  .search-dropdown { padding: 0.5rem; }
+  .search-dropdown-inner { margin-top: 1rem; }
+  .search-dropdown-input { font-size: 0.9rem; padding: 0.65rem 0.6rem; }
+  .search-dropdown .search-result-card { gap: 0.5rem; padding: 0.5rem; }
+  .search-dropdown .search-result-img { width: 48px; height: 48px; }
+  .search-dropdown .search-result-title { font-size: 0.82rem; }
+  .search-dropdown .search-result-desc { display: none; }
 }
 
 /* Small phone */

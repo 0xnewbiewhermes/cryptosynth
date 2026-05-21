@@ -248,5 +248,30 @@
     "notes": "",
     "verified": true,
     "lastVerified": "2026-05-16"
+  },
+  {
+    "project": "Quip Network",
+    "symbol": "TBD",
+    "chain": "TBA",
+    "category": "Infra",
+    "status": "active",
+    "risk": "medium",
+    "cost": "free",
+    "costLabel": "Free",
+    "difficulty": "easy",
+    "sybil": "medium",
+    "network": "Testnet",
+    "rewardConfidence": "medium",
+    "action": "Selesaikan quest.",
+    "deadline": "Ongoing",
+    "timeNeeded": "1-2 jam",
+    "wallet": "MetaMask, Rabby",
+    "estimated": "Belum ada token",
+    "link": "https://quest.quip.network/airdrop?referral_code=TWQ10JYN",
+    "announcement": "https://quest.quip.network/airdrop?referral_code=TWQ10JYN",
+    "tutorial": "",
+    "notes": "",
+    "verified": true,
+    "lastVerified": "2026-05-21"
   }
 ]

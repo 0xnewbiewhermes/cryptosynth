@@ -15,6 +15,12 @@ export async function GET(context: APIContext) {
     { url: '/category/funding/', changefreq: 'weekly', priority: '0.7' },
     { url: '/category/defi/', changefreq: 'weekly', priority: '0.7' },
     { url: '/category/tutorial/', changefreq: 'weekly', priority: '0.7' },
+    { url: '/airdrop/', changefreq: 'daily', priority: '0.8' },
+    { url: '/airdrop-tracker/', changefreq: 'daily', priority: '0.8' },
+    { url: '/articles/', changefreq: 'daily', priority: '0.8' },
+    { url: '/berita/', changefreq: 'daily', priority: '0.8' },
+    { url: '/scam-check/', changefreq: 'daily', priority: '0.8' },
+    { url: '/tools/', changefreq: 'weekly', priority: '0.7' },
   ];
 
   const today = new Date().toISOString().split('T')[0];

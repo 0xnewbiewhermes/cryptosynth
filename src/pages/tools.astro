@@ -363,24 +363,33 @@ function formatDate(dateStr) {
     <section class="wallet-result-section" id="walletResult" style="display:none">
       <div class="container">
         <div class="wallet-summary" id="walletSummary">
-          <div class="wallet-summary-header">
+          <div class="wallet-summary-main">
             <div class="wallet-summary-icon">
-              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M16 12h.01M12 12h.01M8 12h.01"/></svg>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M16 12h.01M12 12h.01M8 12h.01"/></svg>
             </div>
             <div class="wallet-summary-info">
               <div class="wallet-summary-address" id="walletSummaryAddress"></div>
-              <div class="wallet-summary-chain" id="walletSummaryChain"></div>
+              <div class="wallet-summary-meta" id="walletSummaryMeta"></div>
             </div>
           </div>
-          <div class="wallet-summary-total" id="walletSummaryTotal"></div>
+          <div class="wallet-summary-total-group">
+            <div class="wallet-summary-total" id="walletSummaryTotal"></div>
+            <div class="wallet-summary-change" id="walletSummaryChange"></div>
+          </div>
         </div>
 
-        <div class="wallet-token-list" id="walletTokenList">
-          <div class="wallet-token-header">
+        <div class="wallet-table-wrap" id="walletTableWrap">
+          <div class="wallet-table-subhead">
             <h3>Token Holdings</h3>
-            <span class="wallet-token-count" id="walletTokenCount"></span>
+            <span class="wallet-table-count" id="walletTokenCount"></span>
           </div>
-          <div class="wallet-tokens" id="walletTokens"></div>
+          <div class="wallet-table-header">
+            <span>Token</span>
+            <span>Balance</span>
+            <span>Price</span>
+            <span>Value / 24h</span>
+          </div>
+          <div class="wallet-table-body" id="walletTokens"></div>
         </div>
 
         <div class="wallet-actions">
@@ -1048,8 +1057,8 @@ function formatDate(dateStr) {
     padding-left: 0.25rem;
   }
 
-  /* ===== RESULT ===== */
-  .wallet-result-section { padding: 2rem 0 1.5rem; }
+  /* ===== RESULT: BIRDEYE-STYLE ===== */
+  .wallet-result-section { padding: 2rem 0 1rem; }
 
   .wallet-summary {
     display: flex;
@@ -1060,18 +1069,18 @@ function formatDate(dateStr) {
     background: var(--bg-elevated, #fff);
     border: 1px solid var(--border, #E4E4E7);
     border-radius: var(--radius-lg, 14px);
+    margin-bottom: 1.25rem;
   }
 
-  .wallet-summary-header {
+  .wallet-summary-main {
     display: flex;
     align-items: center;
     gap: 0.75rem;
     min-width: 0;
-    flex: 1;
   }
 
   .wallet-summary-icon {
-    width: 40px; height: 40px;
+    width: 38px; height: 38px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1081,9 +1090,9 @@ function formatDate(dateStr) {
     flex-shrink: 0;
   }
 
-  .wallet-summary-icon svg { width: 20px; height: 20px; }
+  .wallet-summary-icon svg { width: 18px; height: 18px; }
 
-  .wallet-summary-info { min-width: 0; flex: 1; }
+  .wallet-summary-info { min-width: 0; }
 
   .wallet-summary-address {
     font-family: 'JetBrains Mono', monospace;
@@ -1095,110 +1104,141 @@ function formatDate(dateStr) {
     text-overflow: ellipsis;
   }
 
-  .wallet-summary-chain {
+  .wallet-summary-meta {
     display: flex;
     align-items: center;
-    gap: 0.4rem;
-    margin-top: 0.2rem;
+    gap: 0.35rem;
+    margin-top: 0.25rem;
     flex-wrap: wrap;
   }
 
-  .wallet-summary-chain-badge {
+  .chain-pill {
     display: inline-flex;
     align-items: center;
-    gap: 0.25rem;
+    gap: 0.2rem;
     padding: 0.1rem 0.5rem;
-    font-size: 0.68rem;
-    font-weight: 600;
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     background: var(--primary-glow);
     color: var(--primary);
     border-radius: 100px;
   }
 
-  .wallet-summary-meta-text {
+  .meta-dot {
+    width: 3px; height: 3px;
+    background: var(--text-muted);
+    border-radius: 50%;
+    opacity: 0.5;
+  }
+
+  .meta-text {
     font-size: 0.72rem;
     color: var(--text-muted);
+    font-weight: 500;
+  }
+
+  .wallet-summary-total-group {
+    text-align: right;
+    flex-shrink: 0;
   }
 
   .wallet-summary-total {
     font-size: 1.6rem;
     font-weight: 800;
     letter-spacing: -0.02em;
-    color: var(--primary);
-    white-space: nowrap;
-    flex-shrink: 0;
+    color: var(--text-primary);
+    line-height: 1.1;
   }
 
-  /* ===== TOKEN LIST ===== */
-  .wallet-token-list {
-    margin-top: 1rem;
+  .wallet-summary-change {
+    font-size: 0.78rem;
+    font-weight: 600;
+    margin-top: 0.2rem;
   }
 
-  .wallet-token-header {
+  .wallet-summary-change.positive { color: #10B981; }
+  .wallet-summary-change.negative { color: #EF4444; }
+
+  /* ===== TOKEN TABLE ===== */
+  .wallet-table-wrap {
+    background: var(--bg-elevated, #fff);
+    border: 1px solid var(--border, #E4E4E7);
+    border-radius: var(--radius-lg, 14px);
+    overflow: hidden;
+  }
+
+  .wallet-table-header {
+    display: none;
+  }
+
+  .wallet-table-subhead {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.75rem 0.25rem 0.5rem;
+    padding: 0.75rem 1rem;
     border-bottom: 1px solid var(--border);
   }
 
-  .wallet-token-header h3 {
-    font-size: 0.82rem;
+  .wallet-table-subhead h3 {
+    font-size: 0.75rem;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.04em;
-    color: var(--text-secondary);
+    color: var(--text-muted);
   }
 
-  .wallet-token-count {
-    font-size: 0.75rem;
+  .wallet-table-count {
+    font-size: 0.72rem;
     color: var(--text-muted);
     font-weight: 500;
   }
 
-  .wallet-tokens { display: flex; flex-direction: column; gap: 0; }
+  .wallet-table-body { display: flex; flex-direction: column; }
 
-  .wallet-token-row {
+  .wallet-row {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto;
+    gap: 0.75rem;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border-bottom: 1px solid var(--border-light);
+    min-width: 0;
+    transition: background 0.1s;
+  }
+
+  .wallet-row:last-child { border-bottom: none; }
+  .wallet-row:hover { background: var(--bg-hover); }
+
+  /* Token column */
+  .wallet-row-token {
     display: flex;
     align-items: center;
-    gap: 0.75rem;
-    padding: 0.75rem 0;
-    border-bottom: 1px solid var(--border-light);
-    transition: background 0.15s;
+    gap: 0.6rem;
     min-width: 0;
   }
 
-  .wallet-token-row:last-child { border-bottom: none; }
-
-  .wallet-token-avatar {
-    width: 32px;
-    height: 32px;
+  .wallet-avatar {
+    width: 30px;
+    height: 30px;
     border-radius: 8px;
     flex-shrink: 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
   }
 
-  .wallet-token-avatar.native-avatar {
+  .wallet-avatar.native {
     background: linear-gradient(135deg, #6366F1, #4F46E5);
   }
 
-  .wallet-token-info { flex: 1; min-width: 0; }
-
-  .wallet-token-name-line {
-    display: flex;
-    align-items: center;
-    gap: 0.35rem;
-    min-width: 0;
-  }
-
-  .wallet-token-name {
-    font-size: 0.88rem;
+  .wallet-row-name {
+    font-size: 0.82rem;
     font-weight: 600;
     color: var(--text-primary);
     white-space: nowrap;
@@ -1206,61 +1246,59 @@ function formatDate(dateStr) {
     text-overflow: ellipsis;
   }
 
-  .wallet-token-sym {
-    font-size: 0.75rem;
+  .wallet-row-sym {
+    font-size: 0.7rem;
     color: var(--text-muted);
-    font-weight: 500;
-    flex-shrink: 0;
-  }
-
-  .wallet-token-balance-line {
-    font-size: 0.78rem;
-    color: var(--text-muted);
-    margin-top: 0.1rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    margin-top: 0.05rem;
   }
 
-  .wallet-token-balance-line .rate {
-    color: var(--text-muted);
-    opacity: 0.6;
-  }
-
-  .wallet-token-value {
+  /* Numeric columns */
+  .wallet-row-num {
     text-align: right;
-    flex-shrink: 0;
-    min-width: 0;
-    margin-left: auto;
-    padding-left: 0.5rem;
-  }
-
-  .wallet-token-usd {
-    font-size: 0.82rem;
-    font-weight: 700;
+    font-size: 0.8rem;
+    font-weight: 600;
     color: var(--text-primary);
+    white-space: nowrap;
+    min-width: 0;
   }
 
-  .wallet-token-pct {
+  .wallet-row-num.sub {
     font-size: 0.7rem;
+    font-weight: 500;
     color: var(--text-muted);
-    margin-top: 0.1rem;
+    margin-top: 0.05rem;
+  }
+
+  .wallet-row-num.change-positive { color: #10B981; }
+  .wallet-row-num.change-negative { color: #EF4444; }
+
+  .wallet-row-col-label {
+    display: block;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--text-muted);
+    margin-bottom: 0.2rem;
   }
 
   .wallet-more-row {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.75rem 0;
-    gap: 0.4rem;
-    font-size: 0.78rem;
+    gap: 0.35rem;
+    padding: 0.75rem;
+    font-size: 0.75rem;
     color: var(--text-muted);
     font-weight: 500;
+    border-top: 1px solid var(--border-light);
   }
 
   .wallet-more-row svg {
-    width: 14px;
-    height: 14px;
+    width: 14px; height: 14px;
     stroke: currentColor;
     stroke-width: 2;
     fill: none;
@@ -1268,17 +1306,17 @@ function formatDate(dateStr) {
 
   /* ===== ACTIONS ===== */
   .wallet-actions {
-    margin-top: 1rem;
     display: flex;
     justify-content: center;
+    margin-top: 1rem;
   }
 
   .wallet-actions-link {
     display: inline-flex;
     align-items: center;
     gap: 0.35rem;
-    padding: 0.45rem 1rem;
-    font-size: 0.8rem;
+    padding: 0.4rem 0.9rem;
+    font-size: 0.78rem;
     font-weight: 600;
     color: var(--primary);
     background: var(--primary-glow);
@@ -1286,90 +1324,112 @@ function formatDate(dateStr) {
     transition: all 0.2s;
   }
 
-  .wallet-actions-link:hover {
-    background: var(--primary);
-    color: #fff;
-    opacity: 1;
-  }
+  .wallet-actions-link:hover { background: var(--primary); color: #fff; opacity: 1; }
 
   /* ===== ERROR ===== */
-  .wallet-error-section { padding: 2.5rem 0; }
+  .wallet-error-section { padding: 2rem 0; }
 
   .wallet-error-card {
-    max-width: 440px;
+    max-width: 400px;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    gap: 0.85rem;
-    padding: 1.1rem 1.25rem;
+    gap: 0.75rem;
+    padding: 1rem 1.15rem;
     background: var(--bg-elevated, #fff);
-    border: 1px solid rgba(239, 68, 68, 0.15);
+    border: 1px solid rgba(239, 68, 68, 0.12);
     border-radius: var(--radius-lg, 14px);
   }
 
-  .wallet-error-icon { font-size: 1.3rem; flex-shrink: 0; }
+  .wallet-error-icon { font-size: 1.2rem; flex-shrink: 0; }
 
   .wallet-error-body h3 {
-    font-size: 0.88rem;
+    font-size: 0.85rem;
     font-weight: 700;
     color: #EF4444;
-    margin-bottom: 0.15rem;
+    margin-bottom: 0.1rem;
   }
 
   .wallet-error-body p {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
     color: var(--text-secondary);
     line-height: 1.5;
   }
 
   /* ===== INFO SECTION ===== */
-  .wallet-info-section { padding: 1.5rem 0 2.5rem; }
+  .wallet-info-section { padding: 1.25rem 0 2rem; }
 
   .wallet-info-card {
-    max-width: 600px;
+    max-width: 560px;
     margin: 0 auto;
-    padding: 1.25rem;
+    padding: 1.1rem;
     background: var(--bg-surface);
     border: 1px solid var(--border);
     border-radius: var(--radius-lg, 14px);
   }
 
   .wallet-info-title {
-    font-size: 0.82rem;
-    margin-bottom: 0.85rem;
-    color: var(--text-secondary);
-    font-weight: 600;
+    font-size: 0.72rem;
+    margin-bottom: 0.75rem;
+    color: var(--text-muted);
+    font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.05em;
   }
 
   .wallet-info-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.6rem;
+    gap: 0.5rem;
   }
 
   .wallet-info-item {
     display: flex;
     align-items: flex-start;
-    gap: 0.5rem;
-    padding: 0.5rem 0.65rem;
+    gap: 0.45rem;
+    padding: 0.45rem 0.55rem;
     background: var(--bg-elevated, #fff);
     border: 1px solid var(--border, #E4E4E7);
-    border-radius: var(--radius, 10px);
+    border-radius: var(--radius, 8px);
   }
 
-  .wallet-info-icon { font-size: 1rem; flex-shrink: 0; margin-top: 0.1rem; }
+  .wallet-info-icon { font-size: 0.9rem; flex-shrink: 0; margin-top: 0.05rem; }
   .wallet-info-text { display: flex; flex-direction: column; gap: 0.05rem; min-width: 0; }
-  .wallet-info-text strong { font-size: 0.78rem; color: var(--text-primary); }
-  .wallet-info-text span { font-size: 0.72rem; color: var(--text-muted); line-height: 1.4; }
+  .wallet-info-text strong { font-size: 0.75rem; color: var(--text-primary); }
+  .wallet-info-text span { font-size: 0.7rem; color: var(--text-muted); line-height: 1.35; }
 
   .wallet-info-note {
-    margin-top: 0.85rem;
-    font-size: 0.75rem;
+    margin-top: 0.75rem;
+    font-size: 0.72rem;
     color: var(--text-muted);
     font-style: italic;
     text-align: center;
+  }
+
+  @media (min-width: 641px) {
+    .wallet-table-header {
+      display: grid;
+      grid-template-columns: 1fr auto auto auto;
+      gap: 0.75rem;
+      align-items: center;
+      padding: 0.55rem 1rem;
+      border-bottom: 1px solid var(--border);
+      background: var(--bg-surface);
+    }
+
+    .wallet-table-header span {
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      color: var(--text-muted);
+    }
+
+    .wallet-table-header span:not(:first-child) {
+      text-align: right;
+    }
+
+    .wallet-row-col-label { display: none; }
   }
 
   @media (max-width: 640px) {
@@ -1379,17 +1439,28 @@ function formatDate(dateStr) {
     .wallet-form-card-inner { padding: 1rem; }
     .wallet-form { flex-direction: column; }
     .wallet-btn { justify-content: center; padding: 0.8rem; }
-    .wallet-summary { flex-direction: column; text-align: left; padding: 1rem 1.1rem; align-items: stretch; }
-    .wallet-summary-total { font-size: 1.35rem; }
-    .wallet-info-grid { grid-template-columns: 1fr; }
-    .wallet-token-row { padding: 0.65rem 0; gap: 0.65rem; }
-    .wallet-token-avatar { width: 28px; height: 28px; font-size: 0.65rem; border-radius: 6px; }
-    .wallet-token-name { font-size: 0.82rem; }
-    .wallet-token-sym { font-size: 0.72rem; }
-    .wallet-token-usd { font-size: 0.8rem; }
-    .wallet-token-pct { font-size: 0.68rem; }
     .wallet-chain-select { min-width: 0; }
     .wallet-select { font-size: 0.8rem; min-width: 60px; }
+
+    .wallet-summary { padding: 1rem; }
+    .wallet-summary-total { font-size: 1.35rem; }
+    .wallet-summary-change { font-size: 0.72rem; }
+
+    .wallet-row {
+      grid-template-columns: 1fr auto;
+      gap: 0.5rem;
+      padding: 0.6rem 0.85rem;
+    }
+
+    .wallet-row-num.hide-mobile { display: none; }
+    .wallet-avatar { width: 26px; height: 26px; font-size: 0.62rem; border-radius: 6px; }
+    .wallet-row-name { font-size: 0.78rem; }
+    .wallet-row-sym { font-size: 0.65rem; }
+    .wallet-row-num { font-size: 0.75rem; }
+    .wallet-row-num.sub { font-size: 0.65rem; }
+    .wallet-table-wrap { border-radius: var(--radius, 10px); }
+    .wallet-table-subhead { padding: 0.6rem 0.85rem; }
+    .wallet-table-subhead h3 { font-size: 0.7rem; }
   }
 </style>
 
@@ -1710,8 +1781,9 @@ function formatDate(dateStr) {
     const result = document.getElementById('walletResult');
     const error = document.getElementById('walletError');
     const summaryAddress = document.getElementById('walletSummaryAddress');
-    const summaryChain = document.getElementById('walletSummaryChain');
+    const summaryMeta = document.getElementById('walletSummaryMeta');
     const summaryTotal = document.getElementById('walletSummaryTotal');
+    const summaryChange = document.getElementById('walletSummaryChange');
     const tokenList = document.getElementById('walletTokens');
     const tokenCount = document.getElementById('walletTokenCount');
     const explorerLink = document.getElementById('walletExplorerLink');
@@ -1803,15 +1875,23 @@ function formatDate(dateStr) {
           return;
         }
 
-        // Render result
+        // Render summary
         summaryAddress.textContent = isENS ? address : shortenAddress(address);
-        summaryChain.innerHTML = '<span class="wallet-summary-chain-badge">' + data.chain_label + '</span><span class="wallet-summary-meta-text">' + data.items.length + ' token' + (data.updated_at ? ' • ' + new Date(data.updated_at).toLocaleTimeString('id-ID') : '') + '</span>';
+        summaryMeta.innerHTML = '<span class="chain-pill">' + data.chain_label + '</span><span class="meta-dot"></span><span class="meta-text">' + data.items.length + ' token' + '</span><span class="meta-dot"></span><span class="meta-text">' + (data.updated_at ? new Date(data.updated_at).toLocaleTimeString('id-ID') : '') + '</span>';
         summaryTotal.textContent = data.pretty_total || formatUSD(data.total_value);
+
+        // Calculate 24h change
+        const totalNow = data.items.reduce(function(sum, i) { return sum + (i.quote || 0); }, 0);
+        const total24h = data.items.reduce(function(sum, i) { return sum + (i.quote_24h || 0); }, 0);
+        const changeVal = totalNow - total24h;
+        const changePct = total24h > 0 ? ((changeVal / total24h) * 100) : 0;
+        summaryChange.textContent = (changeVal >= 0 ? '+' : '') + formatUSD(changeVal) + ' (' + (changePct >= 0 ? '+' : '') + changePct.toFixed(2) + '%)';
+        summaryChange.className = 'wallet-summary-change' + (changeVal >= 0 ? ' positive' : ' negative');
 
         explorerLink.href = data.explorer_base + '/address/' + address;
         explorerLink.textContent = 'Lihat di ' + data.chain_label + ' Explorer →';
 
-        // Render tokens
+        // Render token table
         let html = '';
         let count = 0;
         const maxVisible = 50;
@@ -1823,29 +1903,42 @@ function formatDate(dateStr) {
           count++;
           const balance = formatBalance(item.balance, item.contract_decimals);
           const usdValue = item.quote || 0;
+          const usd24h = item.quote_24h || 0;
+          const itemChange = usdValue - usd24h;
+          const itemPct = usd24h > 0 ? ((itemChange / usd24h) * 100) : 0;
           const pct = data.total_value > 0 ? ((usdValue / data.total_value) * 100).toFixed(1) : '0.0';
           const sym = item.contract_ticker_symbol;
           const initials = sym.replace(/[^a-zA-Z0-9]/g, '').slice(0, 2).toUpperCase() || '?';
-          const avatarCls = item.is_native_token ? ' native-avatar' : '';
-          const avatarColor = item.is_native_token ? '' : 'style="background:' + stringToColor(sym) + '"';
+          const isNative = item.is_native_token;
+          const avatarCls = isNative ? ' native' : '';
+          const avatarColor = isNative ? '' : ' style="background:' + stringToColor(sym) + '"';
 
-          html += '<div class="wallet-token-row">';
-          html += '<div class="wallet-token-avatar' + avatarCls + '"' + avatarColor + '>' + initials + '</div>';
+          html += '<div class="wallet-row">';
 
-          html += '<div class="wallet-token-info">';
-          html += '<div class="wallet-token-name-line">';
-          html += '<span class="wallet-token-name">' + item.contract_name + '</span>';
-          html += '<span class="wallet-token-sym">' + sym + '</span>';
+          // Column 1: Token (avatar + name + sym)
+          html += '<div class="wallet-row-token">';
+          html += '<div class="wallet-avatar' + avatarCls + '"' + avatarColor + '>' + initials + '</div>';
+          html += '<div class="wallet-row-token-info" style="min-width:0">';
+          html += '<div class="wallet-row-name" style="display:flex;align-items:center;gap:0.3rem">' + item.contract_name;
+          if (isNative) html += '<span style="font-size:0.55rem;font-weight:700;text-transform:uppercase;padding:0.05rem 0.3rem;border-radius:3px;background:var(--primary);color:#fff;letter-spacing:0.03em;flex-shrink:0">Native</span>';
           html += '</div>';
-          html += '<div class="wallet-token-balance-line">' + balance + ' ' + sym;
-          if (item.quote_rate) html += ' <span class="rate">@ ' + formatUSD(item.quote_rate) + '</span>';
-          html += '</div>';
-          html += '</div>';
+          html += '<div class="wallet-row-sym">' + sym + '</div>';
+          html += '</div></div>';
 
-          html += '<div class="wallet-token-value">';
-          html += '<div class="wallet-token-usd">' + (item.pretty_quote || formatUSD(usdValue)) + '</div>';
-          html += '<div class="wallet-token-pct">' + pct + '%</div>';
-          html += '</div>';
+          // Column 2: Balance (hidden on mobile)
+          html += '<div class="wallet-row-num hide-mobile">' + balance + '<div class="wallet-row-num sub">' + (item.quote_rate ? formatUSD(item.quote_rate) : '—') + '</div></div>';
+
+          // Column 3: Price (hidden on mobile)
+          html += '<div class="wallet-row-num hide-mobile">' + (item.quote_rate ? formatUSD(item.quote_rate) : '—') + '</div>';
+
+          // Column 4: Value / 24h change
+          html += '<div class="wallet-row-num">';
+          html += '<span class="wallet-row-col-label">Value</span>';
+          html += (item.pretty_quote || formatUSD(usdValue));
+          html += '<div class="wallet-row-num sub ' + (itemChange >= 0 ? 'change-positive' : 'change-negative') + '">';
+          html += (itemChange >= 0 ? '+' : '') + formatUSD(itemChange) + ' (' + (itemPct >= 0 ? '+' : '') + itemPct.toFixed(2) + '%)';
+          html += '</div></div>';
+
           html += '</div>';
         });
 

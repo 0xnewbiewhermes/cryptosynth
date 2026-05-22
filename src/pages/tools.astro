@@ -1762,7 +1762,12 @@ function formatDate(dateStr) {
         // Render tokens
         let html = '';
         let count = 0;
-        data.items.forEach(function(item) {
+        const maxVisible = 50;
+        const hasMore = data.items.length > maxVisible;
+        const displayItems = data.items.slice(0, maxVisible);
+        const hiddenCount = data.items.length - maxVisible;
+
+        displayItems.forEach(function(item) {
           count++;
           const balance = formatBalance(item.balance, item.contract_decimals);
           const usdValue = item.quote || 0;
@@ -1800,8 +1805,14 @@ function formatDate(dateStr) {
           html += '</div>';
         });
 
+        if (hasMore) {
+          html += '<div class="wallet-token-row" style="justify-content:center;color:var(--text-muted);font-size:0.82rem;font-weight:500;border-bottom:none">';
+          html += '+ ' + hiddenCount + ' token lainnya (tampil 50 teratas)';
+          html += '</div>';
+        }
+
         tokenList.innerHTML = html;
-        tokenCount.textContent = count + ' token' + (count > 1 ? 's' : '');
+        tokenCount.textContent = data.items.length + ' token' + (data.items.length > 1 ? 's' : '') + (hasMore ? ' (menampilkan 50)' : '');
 
         result.style.display = 'block';
         result.scrollIntoView({ behavior: 'smooth', block: 'start' });

@@ -577,15 +577,20 @@ code, pre { font-family: 'JetBrains Mono', monospace; }
 .hero-badge {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 0.3rem 0.8rem;
+  gap: 0.5rem;
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(255, 255, 255, 0.12);
+  padding: 0.4rem 1rem 0.4rem 0.8rem;
   border-radius: var(--radius-pill);
-  font-size: 0.8rem;
-  margin-bottom: 1.25rem;
-  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Playfair Display', 'Georgia', serif;
+  font-size: 0.82rem;
+  font-style: italic;
+  letter-spacing: 0.02em;
+  margin-bottom: 1.5rem;
+  color: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 2px 20px rgba(30, 64, 175, 0.08);
 }
 
 .hero-badge-dot {

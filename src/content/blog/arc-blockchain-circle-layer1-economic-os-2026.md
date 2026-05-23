@@ -71,8 +71,10 @@ Resiko: mainnet belum launch, tokenomics belum final, kompetisi L1 ketat Ethereu
 
 ## Sumber
 
-1. [ARC Network Official - arc.network](https://www.arc.network/)
-2. [Circle Official - @circle](https://x.com/circle)
-3. [ARC Official X - @arc](https://x.com/arc)
-4. [ARC Docs - Gas and Fees](https://docs.arc.io/arc/references/gas-and-fees.md)
-5. [ARC Docs - Agentic Economy](https://docs.arc.io/build/agentic-economy.md)
+1. [Circle Blog - "Introducing Arc: An Open Layer-1 Blockchain Purpose-Built for Stablecoin Finance"](https://www.circle.com/blog/introducing-arc-an-open-layer-1-blockchain-purpose-built-for-stablecoin-finance) (12 Agustus 2025)
+2. [Circle/X - "Introducing Arc, the home for stablecoin finance"](https://x.com/circle/status/1955246636223135976) (12 Agustus 2025)
+3. [Arc Network Official Website](https://www.arc.io/) — Testimoni Goldman Sachs oleh Mathew McDermott, Global Head of Digital Assets
+4. [Arc Docs - Gas and Fees](https://docs.arc.io/arc/references/gas-and-fees.md)
+5. [Arc Docs - Agentic Economy & AI Agents](https://docs.arc.io/build/agentic-economy.md)
+6. [Arc Public Testnet Launch via Arc/X](https://x.com/arc) (Oktober 2025)
+7. [Circle/X - "Arc Public Testnet is live"](https://x.com/circle/status/2057446320185704807) (Oktober 2025)

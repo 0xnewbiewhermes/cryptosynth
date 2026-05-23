@@ -47,25 +47,19 @@ Integrasi Circle stack. USDC, CCTP cross-chain transfer, Gateway on/off ramp sem
 
 ARC Terminal + ANIMA. ARC gak cuma L1, mereka juga bangun AI OS di browser. ANIMA persistent memory yang inget konteks, goals, research threads lo antar sesi. Ada ZKURT receipts verifiable compute tanpa expose data privat dan intelligence layer buat prediksi dan backtest.
 
-## $ARC Token
-
-Token $ARC confirmed sebagai gas token. Detail tokenomics masih coming soon. Dari aktivitas testnet: testnet points, leaderboards, NFT multipliers buat akselerasi points, $150K creator rewards pool, program Architects buat early contributor.
-
-Aktivitas testnet bisa jadi indikasi alokasi $ARC pas mainnet.
-
 ## Use Case
 
 ARC ngelayanin startup sampe enterprise. Agentic economy buat AI agents transaksi settlement otonom. Stablecoin FX buat tukar USDC QCAD settlement instan. P2P payments biaya nyaris nol. Treasury management onchain. Prediction markets finalitas cepet. Lending borrowing stablecoin sebagai kolateral.
 
 ## Timeline
 
-Akhir 2025 public testnet live. Q1-Q2 2026 developer expansion, grant programs, ARC Terminal. Summer 2026 mainnet launch target. Post mainnet $ARC launch, ecosystem expansion.
+Akhir 2025 public testnet live. Q1-Q2 2026 developer expansion, grant programs, ARC Terminal. Summer 2026 mainnet launch target.
 
 Metrik testnet udah lampaui banyak chain post-launch. Mainnet ARC bakal jadi event besar di 2026.
 
 ## Cara Ikutan
 
-Tambah ARC RPC ke wallet, claim faucet di faucet.circle.com. Coba ANIMA dan AI agents di arcterminal.ai. Developer bisa deploy kontrak dan testing DeFi apps. Ikut leaderboards dan Architects program buat potensi $ARC. Gabung komunitas di X @arc.
+Tambah ARC RPC ke wallet, claim faucet di faucet.circle.com. Coba ANIMA dan AI agents di arcterminal.ai. Developer bisa deploy kontrak dan testing DeFi apps. Ikut leaderboards dan program Architects. Gabung komunitas di X @arc.
 
 ## Insight untuk Pasar Indonesia
 

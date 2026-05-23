@@ -4,14 +4,14 @@ description: "ARC adalah layer-1 blockchain oleh Circle (penerbit USDC) yang dir
 excerpt: "Circle luncurkan ARC, layer-1 blockchain stablecoin-native dengan 418M+ transaksi testnet, finalitas sub-detik, biaya USDC yang prediktif, dan integrasi penuh dengan CCTP dan Gateway."
 pubDate: 2026-05-23T13:30:00+07:00
 category: "Berita"
-tags: ["arc", "circle", "usdc", "layer1", "blockchain", "stablecoin", "rwa", "ai", "economic-os", "mainnet"]
+tags: ["arc", "circle", "usdc", "layer1", "blockchain", "stablecoin", "rwa", "ai", "economic-os"]
 author: "CryptoSynth Research"
 heroImage: "/images/hero/arc-blockchain-circle-layer1-economic-os-2026.png"
 ogImage: "/images/og/arc-blockchain-circle-layer1-economic-os-2026.png"
 faq: "Apa itu ARC Blockchain?;;ARC adalah layer-1 blockchain oleh Circle (penerbit USDC) yang dirancang sebagai Economic OS untuk stablecoin, RWA, dan AI agents. Testnet sudah aktif dengan 418M+ transaksi dan mainnet ditargetkan Summer 2026.;;Apa keunggulan ARC dibanding L1 lain?;;ARC pakai USDC sebagai gas token bukan token volatil, finalitas sub-detik, opt-in privacy, dan integrasi native USDC CCTP Gateway.;;Kapan mainnet ARC?;;Target Summer 2026. Testnet publik sudah berjalan sejak akhir 2025."
 ---
 
-> **TL;DR:** Circle bangun ARC layer-1 blockchain khusus stablecoin. USDC sebagai gas, finalitas sub-detik, biaya prediktif, AI layer lewat ARC Terminal. Testnet 418M transaksi, 29,8M alamat unik, 0,5 detik block. Mainnet target Summer 2026.
+> **TL;DR:** Circle bangun ARC layer-1 blockchain khusus stablecoin. USDC sebagai gas, finalitas sub-detik, biaya prediktif, integrasi CCTP Gateway. Testnet 418M transaksi, 29,8M alamat unik, 0,5 detik block. Mainnet target Summer 2026.
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
@@ -21,7 +21,7 @@ faq: "Apa itu ARC Blockchain?;;ARC adalah layer-1 blockchain oleh Circle (penerb
 
 Circle perusahaan di balik USDC gak cuma jadi penerbit stablecoin. Mereka bangun ARC layer-1 blockchain dari scratch yang dioptimalkan buat stablecoin, RWA, dan AI agents. ARC diposisikan sebagai Economic OS buat internet, infrastruktur settlement global dengan biaya stabil dalam USDC, bukan token spekulatif.
 
-Use case: stablecoin FX, peer-to-peer payments, treasury management, sampe agentic economy oleh AI agents. Goldman Sachs udah kasih testimoni resmi. Mathew McDermott Global Head Digital Assets bilang mereka tertarik testing programmable settlement pake ARC.
+Use case: stablecoin FX, peer-to-peer payments, treasury management, agentic economy via AI agents. Goldman Sachs udah kasih testimoni resmi. Mathew McDermott Global Head Digital Assets bilang mereka tertarik testing programmable settlement pake ARC.
 
 ## Angka Testnet
 
@@ -45,7 +45,7 @@ Privacy opt-in buat institusi. Bisnis bisa shield detail transaksi sensitif seca
 
 Integrasi Circle stack. USDC, CCTP cross-chain transfer, Gateway on/off ramp semuanya native.
 
-ARC Terminal + ANIMA. ARC gak cuma L1, mereka juga bangun AI OS di browser. ANIMA persistent memory yang inget konteks, goals, research threads lo antar sesi. Ada ZKURT receipts verifiable compute tanpa expose data privat dan intelligence layer buat prediksi dan backtest.
+Dukungan AI agents native. ARC punya standar ERC-8004 buat onchain identitas dan reputasi AI agents, plus ERC-8183 buat escrow job settlement. Ada juga Arc MCP Server buat koneksi AI tools ke dokumentasi.
 
 ## Use Case
 
@@ -53,13 +53,13 @@ ARC ngelayanin startup sampe enterprise. Agentic economy buat AI agents transaks
 
 ## Timeline
 
-Akhir 2025 public testnet live. Q1-Q2 2026 developer expansion, grant programs, ARC Terminal. Summer 2026 mainnet launch target.
+Akhir 2025 public testnet live. Q1-Q2 2026 developer expansion, grant programs, MCP Server, tools. Summer 2026 mainnet launch target.
 
 Metrik testnet udah lampaui banyak chain post-launch. Mainnet ARC bakal jadi event besar di 2026.
 
 ## Cara Ikutan
 
-Tambah ARC RPC ke wallet, claim faucet di faucet.circle.com. Coba ANIMA dan AI agents di arcterminal.ai. Developer bisa deploy kontrak dan testing DeFi apps. Ikut leaderboards dan program Architects. Gabung komunitas di X @arc.
+Tambah ARC RPC ke wallet, claim faucet di faucet.circle.com. Developer bisa deploy kontrak dan testing DeFi apps pake Hardhat atau Foundry. Ikut leaderboards dan program Architects. Gabung komunitas di X @arc.
 
 ## Insight untuk Pasar Indonesia
 
@@ -74,5 +74,5 @@ Resiko: mainnet belum launch, tokenomics belum final, kompetisi L1 ketat Ethereu
 1. [ARC Network Official - arc.network](https://www.arc.network/)
 2. [Circle Official - @circle](https://x.com/circle)
 3. [ARC Official X - @arc](https://x.com/arc)
-4. [ARC Terminal - arcterminal.ai](https://arcterminal.ai/)
-5. [CoinMarketCap - ARC Token](https://coinmarketcap.com/currencies/arc/)
+4. [ARC Docs - Gas and Fees](https://docs.arc.io/arc/references/gas-and-fees.md)
+5. [ARC Docs - Agentic Economy](https://docs.arc.io/build/agentic-economy.md)

@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Color Variants</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    background: #111;
+    color: #fff;
+    padding: 40px 32px;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 24px;
+    margin-bottom: 8px;
+    color: #fff;
+  }
+  .subtitle {
+    color: #888;
+    font-size: 14px;
+    margin-bottom: 32px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  .card {
+    border-radius: 16px;
+    overflow: hidden;
+    background: #1a1a1a;
+    border: 1px solid #2a2a2a;
+    transition: transform .2s;
+  }
+  .card:hover { transform: translateY(-4px); }
+  .card-header {
+    padding: 12px 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+  }
+  .preview {
+    padding: 28px 24px 36px;
+    min-height: 420px;
+    display: flex;
+    flex-direction: column;
+  }
+  /* --- Variant A: INDIGO (current) --- */
+  .var-a .card-header { background: #4F46E5; color: #fff; }
+  .var-a .preview { background: #F8F7F4; color: #1A1A2E; }
+  .var-a .accent { color: #4F46E5; }
+  .var-a .accent-bg { background: #4F46E5; }
+  .var-a .badge { background: rgba(79,70,229,.1); color: #4F46E5; }
+  .var-a .hero-tag { color: #4F46E5; }
+
+  /* --- Variant B: NAVY + GOLD --- */
+  .var-b .card-header { background: #D4A853; color: #0B1120; }
+  .var-b .preview { background: #0B1120; color: #F1F0EA; }
+  .var-b .accent { color: #D4A853; }
+  .var-b .accent-bg { background: #D4A853; }
+  .var-b .badge { background: rgba(212,168,83,.15); color: #D4A853; }
+  .var-b .hero-tag { color: #D4A853; }
+
+  /* --- Variant C: DEEP TEAL + CREAM --- */
+  .var-c .card-header { background: #0F766E; color: #fff; }
+  .var-c .preview { background: #F8F7F4; color: #1A1A2E; }
+  .var-c .accent { color: #0F766E; }
+  .var-c .accent-bg { background: #0F766E; }
+  .var-c .badge { background: rgba(15,118,110,.1); color: #0F766E; }
+  .var-c .hero-tag { color: #0F766E; }
+
+  /* --- Variant D: DARK MODE TOTAL --- */
+  .var-d .card-header { background: #6EE7B7; color: #0D0D0D; }
+  .var-d .preview { background: #0D0D0D; color: #E5E7EB; }
+  .var-d .accent { color: #6EE7B7; }
+  .var-d .accent-bg { background: #6EE7B7; }
+  .var-d .badge { background: rgba(110,231,183,.12); color: #6EE7B7; }
+  .var-d .hero-tag { color: #6EE7B7; }
+
+  /* Shared components */
+  .hero-tag {
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+  .preview h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 8px;
+  }
+  .preview .desc {
+    font-size: 12px;
+    line-height: 1.5;
+    opacity: .7;
+    margin-bottom: 16px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 18px;
+    border-radius: 999px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: opacity .15s;
+  }
+  .btn:hover { opacity: .85; }
+  .btn-primary { color: #fff; }
+  .btn-ghost {
+    border: 1.5px solid;
+    background: transparent;
+  }
+  .hero-actions { display: flex; gap: 8px; margin-bottom: 20px; }
+  .stats { display: flex; gap: 16px; margin-bottom: 16px; }
+  .stat { text-align: center; }
+  .stat-val {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  .stat-label { font-size: 10px; opacity: .5; text-transform: uppercase; letter-spacing: .5px; }
+  .divider { height: 1px; opacity: .08; background: currentColor; margin: 12px 0; }
+  .trending-header {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    opacity: .5;
+    margin-bottom: 8px;
+  }
+  .trending-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 0;
+    font-size: 11px;
+    font-weight: 500;
+    opacity: .8;
+    cursor: default;
+  }
+  .trending-item:hover { opacity: 1; }
+  .trending-num {
+    width: 16px;
+    font-size: 10px;
+    font-weight: 700;
+    opacity: .4;
+    text-align: right;
+  }
+  .trending-dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 9px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+  }
+
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: repeat(2, 1fr); }
+    body { padding: 20px 16px; }
+  }
+  @media (max-width: 500px) {
+    .grid { grid-template-columns: 1fr; }
+  }
+
+  .tagline {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 13px;
+    color: #666;
+  }
+  .tagline strong { color: #aaa; }
+</style>
+</head>
+<body>
+
+<h1>🎨 CryptoSynth — Color Scheme Variants</h1>
+<p class="subtitle">4 opsi warna buat cryptosynth.id. Hover tiap card buat liat efek angkat.</p>
+
+<div class="grid">
+
+  <!-- A: Current Indigo -->
+  <div class="card var-a">
+    <div class="card-header">❶ Current: Indigo</div>
+    <div class="preview">
+      <div class="hero-tag">Updated daily</div>
+      <h2>Ringkasan Berita<br>Web3 Setiap Hari</h2>
+      <p class="desc">TL;DR dari CoinDesk, The Block — diringkas khusus pembaca Indonesia.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary accent-bg">Baca Berita →</a>
+        <a class="btn btn-ghost" style="color:inherit">Tentang</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="stat-val">109+</div><div class="stat-label">Artikel</div></div>
+        <div class="stat"><div class="stat-val">5</div><div class="stat-label">Kategori</div></div>
+        <div class="stat"><div class="stat-val">Harian</div><div class="stat-label">Update</div></div>
+      </div>
+      <div class="divider"></div>
+      <div class="trending-header">🔥 Trending</div>
+      <div class="trending-item">
+        <span class="trending-num">1</span>
+        <span class="trending-dot accent-bg"></span>
+        Outflow ETF Bitcoin $1,26 M
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">2</span>
+        <span class="trending-dot accent-bg"></span>
+        ARC Blockchain Circle L1
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">3</span>
+        <span class="trending-dot accent-bg"></span>
+        SEC Setujui Nasdaq Index Options
+      </div>
+    </div>
+  </div>
+
+  <!-- B: Navy + Gold -->
+  <div class="card var-b">
+    <div class="card-header">❷ Navy + Gold</div>
+    <div class="preview">
+      <div class="hero-tag">Updated daily</div>
+      <h2>Ringkasan Berita<br>Web3 Setiap Hari</h2>
+      <p class="desc">TL;DR dari CoinDesk, The Block — diringkas khusus pembaca Indonesia.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary accent-bg" style="color:#0B1120">Baca Berita →</a>
+        <a class="btn btn-ghost" style="color:#F1F0EA">Tentang</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="stat-val">109+</div><div class="stat-label">Artikel</div></div>
+        <div class="stat"><div class="stat-val">5</div><div class="stat-label">Kategori</div></div>
+        <div class="stat"><div class="stat-val">Harian</div><div class="stat-label">Update</div></div>
+      </div>
+      <div class="divider"></div>
+      <div class="trending-header">🔥 Trending</div>
+      <div class="trending-item">
+        <span class="trending-num">1</span>
+        <span class="trending-dot accent-bg"></span>
+        Outflow ETF Bitcoin $1,26 M
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">2</span>
+        <span class="trending-dot accent-bg"></span>
+        ARC Blockchain Circle L1
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">3</span>
+        <span class="trending-dot accent-bg"></span>
+        SEC Setujui Nasdaq Index Options
+      </div>
+    </div>
+  </div>
+
+  <!-- C: Deep Teal + Cream -->
+  <div class="card var-c">
+    <div class="card-header">❸ Deep Teal</div>
+    <div class="preview">
+      <div class="hero-tag">Updated daily</div>
+      <h2>Ringkasan Berita<br>Web3 Setiap Hari</h2>
+      <p class="desc">TL;DR dari CoinDesk, The Block — diringkas khusus pembaca Indonesia.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary accent-bg">Baca Berita →</a>
+        <a class="btn btn-ghost" style="color:inherit">Tentang</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="stat-val">109+</div><div class="stat-label">Artikel</div></div>
+        <div class="stat"><div class="stat-val">5</div><div class="stat-label">Kategori</div></div>
+        <div class="stat"><div class="stat-val">Harian</div><div class="stat-label">Update</div></div>
+      </div>
+      <div class="divider"></div>
+      <div class="trending-header">🔥 Trending</div>
+      <div class="trending-item">
+        <span class="trending-num">1</span>
+        <span class="trending-dot accent-bg"></span>
+        Outflow ETF Bitcoin $1,26 M
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">2</span>
+        <span class="trending-dot accent-bg"></span>
+        ARC Blockchain Circle L1
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">3</span>
+        <span class="trending-dot accent-bg"></span>
+        SEC Setujui Nasdaq Index Options
+      </div>
+    </div>
+  </div>
+
+  <!-- D: Dark Mode Emerald -->
+  <div class="card var-d">
+    <div class="card-header">❹ Dark Mode</div>
+    <div class="preview">
+      <div class="hero-tag">Updated daily</div>
+      <h2>Ringkasan Berita<br>Web3 Setiap Hari</h2>
+      <p class="desc">TL;DR dari CoinDesk, The Block — diringkas khusus pembaca Indonesia.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary accent-bg" style="color:#0D0D0D">Baca Berita →</a>
+        <a class="btn btn-ghost" style="color:#E5E7EB">Tentang</a>
+      </div>
+      <div class="stats">
+        <div class="stat"><div class="stat-val">109+</div><div class="stat-label">Artikel</div></div>
+        <div class="stat"><div class="stat-val">5</div><div class="stat-label">Kategori</div></div>
+        <div class="stat"><div class="stat-val">Harian</div><div class="stat-label">Update</div></div>
+      </div>
+      <div class="divider"></div>
+      <div class="trending-header">🔥 Trending</div>
+      <div class="trending-item">
+        <span class="trending-num">1</span>
+        <span class="trending-dot accent-bg"></span>
+        Outflow ETF Bitcoin $1,26 M
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">2</span>
+        <span class="trending-dot accent-bg"></span>
+        ARC Blockchain Circle L1
+      </div>
+      <div class="trending-item">
+        <span class="trending-num">3</span>
+        <span class="trending-dot accent-bg"></span>
+        SEC Setujui Nasdaq Index Options
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div class="tagline">
+  <strong>❶ Indigo</strong> (saat ini) &nbsp;·&nbsp;
+  <strong>❷ Navy + Gold</strong> &nbsp;·&nbsp;
+  <strong>❸ Deep Teal</strong> &nbsp;·&nbsp;
+  <strong>❹ Dark Mode + Emerald</strong>
+</div>
+
+</body>
+</html>

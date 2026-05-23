@@ -2,7 +2,7 @@
 title: "ARC Blockchain Circle Rilis Layer-1 Stablecoin-Native untuk Ekonomi AI & RWA"
 description: "ARC adalah layer-1 blockchain oleh Circle (penerbit USDC) yang dirancang sebagai Economic OS untuk stablecoin, RWA, dan AI agents. Testnet sudah 418M+ transaksi, mainnet target Summer 2026."
 excerpt: "Circle luncurkan ARC, layer-1 blockchain stablecoin-native dengan 418M+ transaksi testnet, finalitas sub-detik, biaya USDC yang prediktif, dan integrasi penuh dengan CCTP dan Gateway."
-pubDate: 2026-05-23T13:30:00+07:00
+pubDate: 2026-05-23T16:10:00+07:00
 category: "Berita"
 tags: ["arc", "circle", "usdc", "layer1", "blockchain", "stablecoin", "rwa", "ai", "economic-os"]
 author: "CryptoSynth Research"

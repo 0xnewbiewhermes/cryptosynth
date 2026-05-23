@@ -19,13 +19,13 @@ faq: "Apa itu ARC Blockchain?;;ARC adalah layer-1 blockchain oleh Circle (penerb
 
 ## Circle Rambah Layer-1
 
-Circle perusahaan di balik USDC gak cuma jadi penerbit stablecoin. Mereka bangun ARC layer-1 blockchain dari scratch yang dioptimalkan buat stablecoin, RWA, dan AI agents. ARC diposisikan sebagai Economic OS buat internet, infrastruktur settlement global dengan biaya stabil dalam USDC, bukan token spekulatif.
+[Circle](https://www.circle.com/blog/introducing-arc-an-open-layer-1-blockchain-purpose-built-for-stablecoin-finance) perusahaan di balik USDC gak cuma jadi penerbit stablecoin. Mereka bangun [ARC layer-1 blockchain](https://www.arc.io/) dari scratch yang dioptimalkan buat stablecoin, RWA, dan AI agents. ARC diposisikan sebagai Economic OS buat internet, infrastruktur settlement global dengan biaya stabil dalam USDC, bukan token spekulatif.
 
-Use case: stablecoin FX, peer-to-peer payments, treasury management, agentic economy via AI agents. Goldman Sachs udah kasih testimoni resmi. Mathew McDermott Global Head Digital Assets bilang mereka tertarik testing programmable settlement pake ARC.
+Use case: stablecoin FX, peer-to-peer payments, treasury management, agentic economy via AI agents. [Goldman Sachs udah kasih testimoni resmi](https://www.arc.io/). Mathew McDermott Global Head Digital Assets bilang mereka tertarik testing programmable settlement pake ARC.
 
 ## Angka Testnet
 
-ARC masih testnet publik, aktivitasnya tinggi:
+ARC masih [testnet publik](https://x.com/circle/status/2057446320185704807), aktivitasnya tinggi:
 
 - 418 juta total transaksi
 - 29,8 juta unique addresses
@@ -33,7 +33,7 @@ ARC masih testnet publik, aktivitasnya tinggi:
 - ~0,5 detik block time
 - Biaya ~$0.000 stabil dalam USDC
 
-Banyak L1 yang udah mainnet gak capai metrik segini. Ribuan kontrak udah terdeploy: DEX, lending, NFT marketplace, AI agents. Circle jalanin developer grants, hackathon, dan ARC House di Nigeria, India, Singapura, Brasil.
+Banyak L1 yang udah mainnet gak capai metrik segini. Ribuan kontrak udah terdeploy: DEX, lending, NFT marketplace, AI agents. Circle jalanin developer grants, hackathon, dan [ARC House](https://community.arc.io/) di Nigeria, India, Singapura, Brasil.
 
 ## Yang Bikin ARC Beda
 
@@ -43,9 +43,9 @@ Finalitas deterministik sub-detik. Settlement final dalam kurang dari 1 detik. G
 
 Privacy opt-in buat institusi. Bisnis bisa shield detail transaksi sensitif secara selektif tapi tetap audit-compliant.
 
-Integrasi Circle stack. USDC, CCTP cross-chain transfer, Gateway on/off ramp semuanya native.
+Integrasi Circle stack. [USDC](https://www.circle.com/usdc), [CCTP](https://www.circle.com/cctp) cross-chain transfer, [Gateway](https://www.circle.com/gateway) on/off ramp semuanya native.
 
-Dukungan AI agents native. ARC punya standar ERC-8004 buat onchain identitas dan reputasi AI agents, plus ERC-8183 buat escrow job settlement. Ada juga Arc MCP Server buat koneksi AI tools ke dokumentasi.
+Dukungan AI agents native. ARC punya standar ERC-8004 buat onchain identitas dan reputasi AI agents, plus ERC-8183 buat escrow job settlement. Ada juga [Arc MCP Server](https://docs.arc.io/build/agentic-economy.md) buat koneksi AI tools ke dokumentasi.
 
 ## Use Case
 
@@ -59,7 +59,7 @@ Metrik testnet udah lampaui banyak chain post-launch. Mainnet ARC bakal jadi eve
 
 ## Cara Ikutan
 
-Tambah ARC RPC ke wallet, claim faucet di faucet.circle.com. Developer bisa deploy kontrak dan testing DeFi apps pake Hardhat atau Foundry. Ikut leaderboards dan program Architects. Gabung komunitas di X @arc.
+Tambah ARC RPC ke wallet, claim faucet di [faucet.circle.com](https://faucet.circle.com). Developer bisa deploy kontrak dan testing DeFi apps pake Hardhat atau Foundry. Ikut leaderboards dan program Architects. Gabung komunitas di X [@arc](https://x.com/arc).
 
 ## Insight untuk Pasar Indonesia
 

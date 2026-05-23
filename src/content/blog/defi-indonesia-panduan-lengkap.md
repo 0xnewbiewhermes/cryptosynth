@@ -17,7 +17,7 @@ faq: "Apa risiko utama DeFi?;;Risiko utama DeFi termasuk smart contract exploit,
 
 ## Apa Itu DeFi?
 
-DeFi (Decentralized Finance) adalah sistem keuangan yang berjalan di blockchain tanpa perantara bank atau institusi. Semua transaksi dilakukan langsung via smart contract.
+Menurut laporan [DeFiLlama](https://defillama.com), deFi (Decentralized Finance) adalah sistem keuangan yang berjalan di blockchain tanpa perantara bank atau institusi. Semua transaksi dilakukan langsung via smart contract.
 
 Bayangkan: pinjam uang, tabung dengan bunga tinggi, atau tukar mata uang, semuanya tanpa ke bank, tanpa izin siapapun.
 

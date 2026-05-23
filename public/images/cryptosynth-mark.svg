@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40" height="40">
+  <defs>
+    <linearGradient id="m1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#6366F1"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagon base -->
+  <polygon points="20 1, 37 10.5, 37 29.5, 20 39, 3 29.5, 3 10.5" fill="rgba(79, 70, 229, 0.08)" stroke="url(#m1)" stroke-width="2"/>
+  <!-- Dual frequency waves — synth signature -->
+  <path d="M10 16 Q15 12 20 16 Q25 20 30 16" fill="none" stroke="#4F46E5" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M10 24 Q15 20 20 24 Q25 28 30 24" fill="none" stroke="#6366F1" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

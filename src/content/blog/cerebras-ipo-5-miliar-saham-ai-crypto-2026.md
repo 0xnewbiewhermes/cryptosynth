@@ -20,7 +20,7 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 ## Cerebras IPO: Euforia AI Mencapai Puncak Baru
 
-Cerebras, perusahaan yang membangun chip AI khusus, baru saja menyelesaikan IPO yang luar biasa. Saham perusahaan melonjak 100% pada hari pertama perdagangan, membawa valuasi perusahaan ke level $5,5 miliar. Ini adalah salah satu IPO teknologi paling sukses di 2026.
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/14/cerebras-shares-skyrocket-100-after-usd5-5b-ipo-amid-ai-stock-frenzy), cerebras, perusahaan yang membangun chip AI khusus, baru saja menyelesaikan IPO yang luar biasa. Saham perusahaan melonjak 100% pada hari pertama perdagangan, membawa valuasi perusahaan ke level $5,5 miliar. Ini adalah salah satu IPO teknologi paling sukses di 2026.
 
 Lonjakan ini terjadi di tengah euforia pasar terhadap segala hal yang berhubungan dengan AI. Investor institusional dan ritel berlomba-lomba untuk mendapatkan eksposur ke perusahaan AI, menciptakan demand yang sangat tinggi.
 

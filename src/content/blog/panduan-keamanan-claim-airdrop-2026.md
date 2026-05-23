@@ -21,7 +21,7 @@ faq: "Bagaimana cara mendapatkan airdrop crypto?;;Interaksi dengan project yang 
 
 ## Mengapa Keamanan Airdrop Penting?
 
-Airdrop crypto adalah cara yang bagus untuk mendapatkan token gratis. Namun, popularitas airdrop juga menarik para scammer yang ingin mencuri dana pengguna. Setiap hari, ada ribuan upaya phishing dan scam yang menargetkan airdrop hunter.
+Menurut laporan [CoinGecko](https://www.coingecko.com), airdrop crypto adalah cara yang bagus untuk mendapatkan token gratis. Namun, popularitas airdrop juga menarik para scammer yang ingin mencuri dana pengguna. Setiap hari, ada ribuan upaya phishing dan scam yang menargetkan airdrop hunter.
 
 Beberapa jenis scam yang umum:
 - **Phishing website**: Website palsu yang meniru website resmi

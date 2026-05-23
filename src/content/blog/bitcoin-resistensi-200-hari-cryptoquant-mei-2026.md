@@ -17,7 +17,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Bitcoin Terbentur di Resistensi Historis 200-Day MA
 
-Setelah rally selama 6 minggu sejak awal April dari level $66.000, Bitcoin kini menghadapi tembok teknis yang cukup berat. Cryptocurrency nomor satu ini mencapai zona resistensi 200-day moving average (MA) di sekitar $82.400, level yang secara historis menjadi penentu arah tren jangka panjang.
+Menurut laporan [Cointelegraph](https://cointelegraph.com/news/bitcoin-at-risk-of-falling-after-hitting-major-bear-market-resistance-cryptoquant), setelah rally selama 6 minggu sejak awal April dari level $66.000, Bitcoin kini menghadapi tembok teknis yang cukup berat. Cryptocurrency nomor satu ini mencapai zona resistensi 200-day moving average (MA) di sekitar $82.400, level yang secara historis menjadi penentu arah tren jangka panjang.
 
 Menurut data Glassnode yang dilaporkan CoinDesk, ada dua indikator kunci yang membentuk zona resistensi ini: 200-day Simple Moving Average (200SMA) di $82.455 dan 200-day Exponential Moving Average (200EMA) di $82.027. Keduanya membentuk "confluence resistance zone" di $82.000-$82.500 yang harus ditembus secara meyakinkan oleh bulls untuk mengkonfirmasi pemulihan tren naik.
 

@@ -20,7 +20,7 @@ faq: "Bagaimana cara melindungi aset crypto dari exploit?;;Gunakan hardware wall
 
 ## Exploit LayerZero: Pemicu Migrasi Besar-Besaran
 
-Industri DeFi baru saja mengalami salah satu exploit terbesar di 2026. Sebuah bridge yang dibangun di atas LayerZero, yang digunakan oleh protokol Kelp, berhasil dieksploitasi senilai $292 juta. Insiden ini mengguncang kepercayaan terhadap infrastruktur cross-chain dan memicu gelombang migrasi ke Chainlink CCIP.
+Menurut laporan [[CoinDesk](https://www.coindesk.com/business/2026/05/14/kraken-to-replace-layerzero-with-chainlink-to-bridge-assets-across-blockchains), industri DeFi baru saja mengalami salah satu exploit terbesar di 2026. Sebuah bridge yang dibangun di atas LayerZero, yang digunakan oleh protokol Kelp, berhasil dieksploitasi senilai $292 juta. Insiden ini mengguncang kepercayaan terhadap infrastruktur cross-chain dan memicu gelombang migrasi ke Chainlink CCIP.
 
 Exploit ini terjadi karena kerentanan dalam smart contract bridge yang memungkinkan attacker untuk memanipulasi verifikasi cross-chain. Meskipun LayerZero telah melakukan post-mortem dan berjanji untuk mengganti dana yang hilang, kepercayaan terhadap protokol tersebut sudah terguncang.
 

@@ -15,7 +15,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Pertemuan Trump-Xi di Beijing Guncang Pasar Crypto
 
-Pasar crypto mengalami tekanan jual signifikan pada Kamis (14/5) setelah peringatan geopolitik dari Presiden China Xi Jinping mengguncang sentimen investor global. Bitcoin (BTC) diperdagangkan di sekitar **$79.200** pada sesi Asia, turun **2,3% dalam 24 jam** dan **2,2% dalam tujuh hari**, setelah jatuh di bawah level $80.000 yang telah menjadi lantai harga sepanjang minggu lalu.
+Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/14/solana-drops-5-bitcoin-below-usd80-000-as-xi-warns-trump-on-taiwan-conflict), pasar crypto mengalami tekanan jual signifikan pada Kamis (14/5) setelah peringatan geopolitik dari Presiden China Xi Jinping mengguncang sentimen investor global. Bitcoin (BTC) diperdagangkan di sekitar **$79.200** pada sesi Asia, turun **2,3% dalam 24 jam** dan **2,2% dalam tujuh hari**, setelah jatuh di bawah level $80.000 yang telah menjadi lantai harga sepanjang minggu lalu.
 
 Penyebab utama: pertemuan antara Presiden Donald Trump dan Xi Jinping di **Great Hall of the People, Beijing**, kunjungan pertama presiden AS yang sedang menjabat ke China dalam hampir satu dekade. Dalam pertemuan tersebut, Xi secara langsung memperingatkan Trump bahwa penanganan masalah Taiwan yang salah bisa menyebabkan **"tabrakan atau bahkan bentrokan"** (*collision or even clashes*).
 

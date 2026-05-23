@@ -9,6 +9,7 @@ export async function GET() {
       title: post.data.title,
       description: post.data.description || '',
       excerpt: post.data.excerpt || '',
+      content: (post.body || '').replace(/<[^>]*>/g, '').substring(0, 300),
       category: post.data.category || 'Berita',
       tags: post.data.tags || [],
       pubDate: new Date(post.data.pubDate).toISOString(),

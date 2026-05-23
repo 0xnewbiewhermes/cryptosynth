@@ -73,10 +73,19 @@ const readTime = post.data.readingTime || Math.max(3, Math.ceil((post.body?.leng
 
 <BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} category={post.data.category} tags={post.data.tags} faq={faqItems}>
   <article class="article-page">
+    <nav class="article-breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Beranda</a>
+      <span class="breadcrumb-sep">›</span>
+      <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`}>{post.data.category || 'Berita'}</a>
+      <span class="breadcrumb-sep">›</span>
+      <span class="breadcrumb-current">{post.data.title}</span>
+    </nav>
     <div class="article-header">
       <div class="article-header-inner">
         <div class="article-header-top">
           <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="article-category">{post.data.category || 'Berita'}</a>
+          <span class="article-header-sep">·</span>
+          <span class="article-author">Oleh <strong>{post.data.author || 'CryptoSynth'}</strong></span>
           <span class="article-header-sep">·</span>
           <span class="article-date">{shortDate}</span>
           <span class="article-header-sep">·</span>
@@ -85,7 +94,10 @@ const readTime = post.data.readingTime || Math.max(3, Math.ceil((post.body?.leng
         <h1 class="article-title">{post.data.title}</h1>
 
         <div class="article-hero">
-          <img src={heroImage} alt={post.data.title} width="1200" height="630" loading="eager" />
+          <picture>
+            <source srcset={heroImage.replace('.png', '.webp')} type="image/webp" />
+            <img src={heroImage} alt={post.data.title} width="1200" height="630" loading="eager" />
+          </picture>
         </div>
       </div>
     </div>
@@ -132,7 +144,10 @@ const readTime = post.data.readingTime || Math.max(3, Math.ceil((post.body?.leng
           <div class="related-articles-grid">
             {relatedPosts.map((rp) => (
               <a href={`/blog/${rp.id}`} class="related-article-card">
-                <img src={`/images/hero/${rp.id}.png`} alt={rp.data.title} class="related-article-img" loading="lazy" />
+                <picture>
+                  <source srcset={`/images/hero/${rp.id}.webp`} type="image/webp" />
+                  <img src={`/images/hero/${rp.id}.png`} alt={rp.data.title} class="related-article-img" loading="lazy" />
+                </picture>
                 <div class="related-article-content">
                   <span class="related-article-category">{rp.data.category || 'Berita'}</span>
                   <h3 class="related-article-title">{rp.data.title}</h3>

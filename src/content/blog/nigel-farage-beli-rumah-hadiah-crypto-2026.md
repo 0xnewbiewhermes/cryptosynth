@@ -21,7 +21,7 @@ faq: "Apa yang perlu diketahui tentang Nigel Farage Beli Rumah 30M Setelah Terim
 
 ## Farage Terima Hadiah Rp89 Miliar dari Miliarder Crypto
 
-Nigel Farage, politisi Inggris sekaligus pemimpin Partai Reform UK, membeli properti senilai 1,4 juta pound (US$1,8 juta) secara tunai tak lama setelah menerima hadiah pribadi sebesar 5 juta pound (US$6,7 juta) dari miliarder crypto Christopher Harborne. Pembelian properti ini terjadi pada Mei 2024, beberapa minggu sebelum Farage mengumumkan dirinya akan maju dalam pemilihan umum.
+Menurut laporan [Cointelegraph](https://cointelegraph.com/news/nigel-farage-house-crypto-gift), nigel Farage, politisi Inggris sekaligus pemimpin Partai Reform UK, membeli properti senilai 1,4 juta pound (US$1,8 juta) secara tunai tak lama setelah menerima hadiah pribadi sebesar 5 juta pound (US$6,7 juta) dari miliarder crypto Christopher Harborne. Pembelian properti ini terjadi pada Mei 2024, beberapa minggu sebelum Farage mengumumkan dirinya akan maju dalam pemilihan umum.
 
 Christopher Harborne adalah pengusaha asal Thailand yang dikenal sebagai salah satu figur penting di industri crypto dan blockchain. Harborne sebelumnya juga dikenal sebagai pendukung besar kampanye Brexit.
 

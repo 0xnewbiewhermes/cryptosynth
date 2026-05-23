@@ -52,8 +52,8 @@ function formatDate(dateStr) {
   <div class="tools-nav">
     <div class="container">
       <div class="tools-tabs" id="toolsTabs">
-        <button class="tools-tab active" data-tab="tracker">🪂 Airdrop Tracker</button>
-        <button class="tools-tab" data-tab="scam">🔍 Scam Checker</button>
+        <button class="tools-tab active" data-tab="tracker"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg> Airdrop Tracker</button>
+        <button class="tools-tab" data-tab="scam"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> Scam Checker</button>
       </div>
     </div>
   </div>
@@ -62,7 +62,7 @@ function formatDate(dateStr) {
   <div class="tools-panel active" id="panel-tracker">
     <div class="page-hero">
       <div class="container">
-        <h1>🪂 Airdrop Tracker</h1>
+        <h1><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>Airdrop Tracker</h1>
         <p>Tracker airdrop crypto paling lengkap. Klik kartu untuk melihat detail lengkap - risiko, biaya, wallet, sybil risk, dan lainnya.</p>
       </div>
     </div>
@@ -211,7 +211,7 @@ function formatDate(dateStr) {
             <span class="scam-hero-dot"></span>
             Keamanan Dulu, Baru Transaksi
           </div>
-          <h2 class="scam-hero-title">🔍 Cek Scam Crypto</h2>
+          <h2 class="scam-hero-title"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>Cek Scam Crypto</h2>
           <p class="scam-hero-desc">
             Masukkan domain atau address crypto untuk cek apakah terdaftar sebagai scam di database phishing global kami.
           </p>
@@ -304,6 +304,7 @@ function formatDate(dateStr) {
       </div>
     </section>
   </div>
+
 </BaseLayout>
 
 <style>
@@ -346,8 +347,8 @@ function formatDate(dateStr) {
   }
 
   .tools-tab.active {
-    color: var(--primary, #1A5DE3);
-    border-bottom-color: var(--primary, #1A5DE3);
+    color: var(--primary, #4F46E5);
+    border-bottom-color: var(--primary, #4F46E5);
   }
 
   .tools-panel {
@@ -363,16 +364,15 @@ function formatDate(dateStr) {
     position: relative;
     padding: 2.5rem 0 1.5rem;
     overflow: hidden;
-    background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 40%, #0d9488 100%);
+    background: var(--text-primary, #1A1A2E);
   }
 
   .scam-hero-bg {
     position: absolute;
     inset: 0;
     background:
-      radial-gradient(ellipse at 20% 40%, rgba(37, 99, 235, 0.2), transparent 60%),
-      radial-gradient(ellipse at 80% 60%, rgba(35, 209, 190, 0.15), transparent 50%),
-      radial-gradient(ellipse at 50% 100%, rgba(236, 72, 153, 0.08), transparent 40%);
+      radial-gradient(ellipse at 20% 40%, rgba(99, 102, 241, 0.12), transparent 60%),
+      radial-gradient(ellipse at 80% 60%, rgba(79, 70, 229, 0.08), transparent 50%);
     pointer-events: none;
   }
 
@@ -503,7 +503,7 @@ function formatDate(dateStr) {
     padding: 0.85rem 1.75rem;
     border: none;
     border-radius: var(--radius, 12px);
-    background: linear-gradient(135deg, var(--primary, #1A5DE3), #2563eb);
+    background: var(--primary);
     color: #fff;
     font-size: 0.95rem;
     font-weight: 700;
@@ -552,7 +552,7 @@ function formatDate(dateStr) {
 
   .scam-stat-pulse {
     width: 6px; height: 6px;
-    background: var(--accent, #23D1BE);
+    background: var(--accent, #4F46E5);
     border-radius: 50%;
     animation: scam-pulse 2s ease-in-out infinite;
   }
@@ -693,6 +693,7 @@ function formatDate(dateStr) {
     .scam-result-inner { flex-direction: column; text-align: center; padding: 1.25rem; }
     .scam-sources { margin: 0 1rem; }
   }
+
 </style>
 
 <script>
@@ -857,15 +858,23 @@ function formatDate(dateStr) {
       return matches.length > 0 ? matches : null;
     }
 
-    async function checkGoPlus(address) {
+    const CHAIN_MAP = {
+      evm: 1, bsc: 56, sol: 101, polygon: 137, avalanche: 43114,
+      arbitrum: 42161, optimism: 10, base: 8453
+    };
+
+    async function checkGoPlus(address, chainId, isSolana, rawInput) {
       try {
+        const solParam = isSolana ? '&solana=1' : '';
         const resp = await fetch(
-          `https://api.gopluslabs.io/api/v1/token_security/1?contract_addresses=${address}`,
-          { signal: AbortSignal.timeout(5000) }
+          `/api/goplus?chain=${chainId}&address=${encodeURIComponent(address)}${solParam}`,
+          { signal: AbortSignal.timeout(10000) }
         );
         const data = await resp.json();
         const result = data.result || {};
-        const tokenData = result[address.toLowerCase()];
+        // Solana preserves original case; try lookupKey, then lowercased, then raw input
+        const lookupKey = isSolana ? rawInput : address.toLowerCase();
+        const tokenData = result[lookupKey] || result[address.toLowerCase()] || result[address];
         if (!tokenData) return null;
         const flags = [];
         if (tokenData.is_honeypot === '1') flags.push('Honeypot');
@@ -875,14 +884,29 @@ function formatDate(dateStr) {
         if (tokenData.trading_cooldown === '1') flags.push('Trading Cooldown');
         if (tokenData.anti_whale_modifiable === '1') flags.push('Anti-Whale Modifiable');
         if (tokenData.can_take_back_ownership === '1') flags.push('Ownership Can Be Taken');
+        if (tokenData.owner_change_balance === '1') flags.push('Owner Can Change Balance');
+        if (tokenData.hidden_owner === '1') flags.push('Hidden Owner');
+        if (tokenData.selfdestruct === '1') flags.push('Self-Destruct');
+        if (tokenData.external_call === '1') flags.push('External Call');
+        if (tokenData.is_airdrop_scam === '1') flags.push('Airdrop Scam');
+        if (tokenData.trust_list === '0' && tokenData.is_blacklisted !== '1') flags.push('Not on Trust List');
         const buyTax = parseFloat(tokenData.buy_tax || '0');
         const sellTax = parseFloat(tokenData.sell_tax || '0');
         if (buyTax > 10) flags.push(`Buy Tax ${buyTax}%`);
         if (sellTax > 10) flags.push(`Sell Tax ${sellTax}%`);
         return {
-          name: tokenData.token_name || null, symbol: tokenData.token_symbol || null,
-          flags, holders: parseInt(tokenData.holder_count || '0'),
-          creator: tokenData.creator_address || null, is_risky: flags.length > 0
+          name: tokenData.token_name || null,
+          symbol: tokenData.token_symbol || null,
+          flags,
+          holders: parseInt(tokenData.holder_count || '0'),
+          totalSupply: tokenData.total_supply || null,
+          creator: tokenData.creator_address || null,
+          owner: tokenData.owner_address || null,
+          decimals: tokenData.decimals || null,
+          buyTax: buyTax,
+          sellTax: sellTax,
+          is_risky: flags.length > 0,
+          raw: tokenData
         };
       } catch { return null; }
     }
@@ -919,7 +943,10 @@ function formatDate(dateStr) {
       const addrType = isAddress(cleaned);
       const matches = checkBlacklist(cleaned, addrType);
       let goPlusResult = null;
-      if (addrType === 'evm') goPlusResult = await checkGoPlus(cleaned);
+      if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
+        const chainId = CHAIN_MAP[addrType] || 1;
+        goPlusResult = await checkGoPlus(cleaned, chainId, addrType === 'sol', raw.trim());
+      }
 
       btnText.style.display = 'inline';
       btnSpinner.style.display = 'none';
@@ -934,14 +961,14 @@ function formatDate(dateStr) {
         if (isScam) {
           const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
           const sourceBadges = sources.map(s => {
-            const meta = SOURCE_META[s] || { icon: '📋', label: s };
+            const meta = SOURCE_META[s] || { icon: '\uD83D\uDCCB', label: s };
             return `<span class="src-badge">${meta.icon} ${meta.label}</span>`;
           }).join(' ');
           html += `<p><strong>Terdaftar sebagai scam</strong> di database kami:</p><div class="src-badges">${sourceBadges}</div>${matches.length > 1 && !addrType ? `<small>(${matches.length} varian terkait)</small>` : ''}`;
         }
         if (goPlusRisky) {
           const flagBadges = goPlusResult.flags.map(f => `<span class="flag-badge flag-bad">${f}</span>`).join(' ');
-          html += `<p style="margin-top: ${isScam ? '0.75rem' : '0'}"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p><div class="src-badges">${flagBadges}</div>`;
+          html += `<p style="margin-top: ${isScam ? '0.75rem' : '0'}; margin-bottom: 0;"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p><div class="src-badges">${flagBadges}</div>`;
         }
         resultIcon.textContent = '⚠️';
         resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
@@ -953,10 +980,14 @@ function formatDate(dateStr) {
         resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
         resultTitle.textContent = '✅ Aman - Tidak Terdaftar';
         let html = addrType ? 'Address ini <strong>tidak terdaftar</strong> sebagai scam di database kami.' : 'Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.';
-        if (goPlusResult && !goPlusRisky) {
-          const nameInfo = goPlusResult.name ? `${goPlusResult.name}` : '';
-          const holderInfo = goPlusResult.holders > 0 ? ` | ${goPlusResult.holders.toLocaleString()} holders` : '';
-          html += `<br><small>⚡ Go+: Token ${nameInfo}${holderInfo} - tidak ada flag mencurigakan</small>`;
+        if (goPlusResult) {
+          const r = goPlusResult;
+          const nameInfo = r.name ? `<strong>${r.name}</strong>${r.symbol ? ` ($${r.symbol})` : ''}` : '';
+          const holderInfo = r.holders > 0 ? ` | ${r.holders.toLocaleString()} holders` : '';
+          const supplyInfo = r.totalSupply ? ` | Supply: ${r.totalSupply}` : '';
+          const taxInfo = (r.buyTax > 0 || r.sellTax > 0) ? ` | Buy Tax: ${r.buyTax}% Sell Tax: ${r.sellTax}%` : '';
+          const flagCount = r.flags.length > 0 ? ` (${r.flags.length} flags)` : '';
+          html += `<br><small>⚡ Go+: ${nameInfo}${holderInfo}${supplyInfo}${taxInfo}${flagCount}</small>`;
         }
         html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;
         resultDetail.innerHTML = html;
@@ -969,4 +1000,4 @@ function formatDate(dateStr) {
       if (e.key === 'Enter') form.dispatchEvent(new Event('submit'));
     });
   })();
-</script>
+

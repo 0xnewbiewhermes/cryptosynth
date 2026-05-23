@@ -16,7 +16,7 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 ## Dartmouth Resmi Tambah Eksposur Crypto Lewat ETF
 
-Dartmouth College, salah satu universitas Ivy League tertua di Amerika Serikat, resmi mengungkapkan kepemilikan aset crypto senilai sekitar **$14,5 juta** dalam laporan terbaru mereka ke Securities and Exchange Commission (SEC). Pengajuan ini dilakukan oleh para trustee Dartmouth pada hari Kamis (14/5).
+Menurut laporan [Cointelegraph](https://cointelegraph.com/news/dartmouth-endowment-crypto-investments-sec), dartmouth College, salah satu universitas Ivy League tertua di Amerika Serikat, resmi mengungkapkan kepemilikan aset crypto senilai sekitar **$14,5 juta** dalam laporan terbaru mereka ke Securities and Exchange Commission (SEC). Pengajuan ini dilakukan oleh para trustee Dartmouth pada hari Kamis (14/5).
 
 Dokumen SEC menunjukkan bahwa endowment Dartmouth, yang dikelola dengan total aset sekitar **$9 miliar**, memegang posisi di tiga produk ETF crypto berbeda:
 

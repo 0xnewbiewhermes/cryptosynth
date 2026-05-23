@@ -20,7 +20,7 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 ## Pendanaan Baru Turnkey: Sinyal Kuat untuk Infrastruktur Crypto
 
-Di tengah pasar yang masih volatile, investor besar tetap menaruh kepercayaan pada startup infrastruktur blockchain. Turnkey, perusahaan yang berfokus pada keamanan digital assets, baru saja menyelesaikan putaran pendanaan senilai $12,5 juta yang melibatkan nama-nama besar seperti Circle Ventures dan Sequoia Capital.
+Menurut laporan [CoinDesk](https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital), di tengah pasar yang masih volatile, investor besar tetap menaruh kepercayaan pada startup infrastruktur blockchain. Turnkey, perusahaan yang berfokus pada keamanan digital assets, baru saja menyelesaikan putaran pendanaan senilai $12,5 juta yang melibatkan nama-nama besar seperti Circle Ventures dan Sequoia Capital.
 
 Putaran ini menunjukkan bahwa meskipun harga crypto sedang koreksi, minat institusional terhadap infrastruktur fundamental blockchain tetap tinggi. Circle Ventures, lengan investasi dari penerbit USDC, dan Sequoia Capital, salah satu venture capital paling berpengaruh di Silicon Valley, keduanya melihat potensi besar di teknologi keamanan yang dibangun Turnkey.
 

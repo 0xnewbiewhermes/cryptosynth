@@ -20,7 +20,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Volume STRC Pecah Rekor, Saylor Klaim Likuiditas $1,53 Miliar
 
-Saham Variable Rate Series A Perpetual Stretch Preferred Stock (STRC) milik Strategy mencatat volume perdagangan harian tertinggi sepanjang sejarah pada Kamis (15/5). Ketua Strategy Michael Saylor mengkonfirmasi pencapaian ini melalui akun X-nya.
+Menurut laporan [Cointelegraph](https://cointelegraph.com/news/strategys-strc-attracts-record-1b-liquidity), saham Variable Rate Series A Perpetual Stretch Preferred Stock (STRC) milik Strategy mencatat volume perdagangan harian tertinggi sepanjang sejarah pada Kamis (15/5). Ketua Strategy Michael Saylor mengkonfirmasi pencapaian ini melalui akun X-nya.
 
 Menurut pelacak STRC.live, volume sebesar itu secara teori bisa menghasilkan sekitar $735,4 juta dana segar yang berpotensi digunakan untuk membeli 9.066 Bitcoin. Namun, tidak ada jaminan bahwa Strategy akan langsung menggunakan seluruh dana tersebut untuk akumulasi BTC.
 

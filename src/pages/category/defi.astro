@@ -21,7 +21,10 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
       {posts.map((post) => (
         <article class="article-card">
           <div class="card-image">
-            <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
+            <picture>
+              <source srcset={`/images/hero/${post.id}.webp`} type="image/webp" />
+              <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
+            </picture>
           </div>
           <div class="card-content">
             <div class="card-tags">

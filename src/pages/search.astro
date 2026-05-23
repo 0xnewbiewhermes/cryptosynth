@@ -11,16 +11,18 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   </div>
   <div class="search-page container">
     <div class="search-box">
-      <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <svg class="search-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
       <input
         type="text"
         id="searchInput"
         class="search-input"
         placeholder="Ketik judul, topik, atau tag..."
         autocomplete="off"
+        aria-label="Cari artikel"
       />
     </div>
-    <div id="searchResults" class="search-results">
+    <div id="searchInfo" class="search-info" aria-live="polite" aria-atomic="true"></div>
+    <div id="searchResults" class="search-results" aria-live="polite" role="region" aria-label="Hasil pencarian">
     </div>
   </div>
 </BaseLayout>
@@ -28,6 +30,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 <script>
   let searchIndex = [];
   let loaded = false;
+  let activeIndex = -1;
 
   async function loadIndex() {
     if (loaded) return;
@@ -45,41 +48,67 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
   }
 
+  function highlightText(text, terms) {
+    let result = text;
+    terms.forEach((t) => {
+      const regex = new RegExp(`(${t.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')})`, 'gi');
+      result = result.replace(regex, '<mark>$1</mark>');
+    });
+    return result;
+  }
+
   function search(query) {
     const q = query.toLowerCase().trim();
     if (!q) return [];
 
     const terms = q.split(/\s+/);
     return searchIndex.filter((item) => {
-      const haystack = `${item.title} ${item.description} ${item.excerpt} ${item.category} ${item.tags.join(' ')}`.toLowerCase();
+      const haystack = `${item.title} ${item.description} ${item.excerpt} ${item.content || ''} ${item.category} ${item.tags.join(' ')}`.toLowerCase();
       return terms.every((t) => haystack.includes(t));
     });
   }
 
   function renderResults(results, query) {
     const container = document.getElementById('searchResults');
-    if (!query.trim()) {
+    const info = document.getElementById('searchInfo');
+    const q = query.trim();
+
+    if (!q) {
       container.innerHTML = '';
+      info.textContent = '';
+      activeIndex = -1;
       return;
     }
+
     if (results.length === 0) {
       container.innerHTML = `<p class="search-empty">Tidak ditemukan artikel untuk "<strong>${query}</strong>"</p>`;
+      info.textContent = 'Tidak ada hasil';
+      activeIndex = -1;
       return;
     }
-    container.innerHTML = results.map((item) => `
-      <a href="/blog/${item.id}" class="search-result-card">
-        <img src="/images/hero/${item.id}.png" alt="${item.title}" class="search-result-img" loading="lazy" />
+
+    const terms = q.split(/\s+/);
+    info.textContent = `Menampilkan ${results.length} hasil untuk "${query}"`;
+
+    container.innerHTML = results.map((item, i) => `
+      <a href="/blog/${item.id}" class="search-result-card" data-index="${i}" tabindex="0">
+        <picture>
+          <source srcset="/images/hero/${item.id}.webp" type="image/webp" />
+          <img src="/images/hero/${item.id}.png" alt="${item.title}" class="search-result-img" loading="lazy" />
+        </picture>
         <div class="search-result-content">
           <span class="search-result-category">${item.category}</span>
-          <h3 class="search-result-title">${item.title}</h3>
-          <p class="search-result-desc">${item.description}</p>
+          <h3 class="search-result-title">${highlightText(item.title, terms)}</h3>
+          <p class="search-result-desc">${highlightText(item.description || item.excerpt || '', terms)}</p>
           <span class="search-result-date">${formatDate(item.pubDate)}</span>
         </div>
       </a>
     `).join('');
+    activeIndex = -1;
   }
 
   const input = document.getElementById('searchInput');
+  const container = document.getElementById('searchResults');
   let debounceTimer;
 
   input.addEventListener('input', async (e) => {
@@ -90,6 +119,39 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       const results = search(query);
       renderResults(results, query);
     }, 200);
+  });
+
+  // Keyboard navigation: ArrowDown/ArrowUp + Enter
+  input.addEventListener('keydown', (e) => {
+    const cards = container.querySelectorAll('.search-result-card');
+    if (!cards.length) return;
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      activeIndex = Math.min(activeIndex + 1, cards.length - 1);
+      cards[activeIndex]?.focus();
+      cards.forEach((c, i) => c.classList.toggle('search-result-active', i === activeIndex));
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      activeIndex = Math.max(activeIndex - 1, 0);
+      cards[activeIndex]?.focus();
+      cards.forEach((c, i) => c.classList.toggle('search-result-active', i === activeIndex));
+    } else if (e.key === 'Enter' && activeIndex >= 0) {
+      e.preventDefault();
+      cards[activeIndex]?.click();
+    }
+  });
+
+  // Reset active on mouse hover
+  container.addEventListener('mouseover', (e) => {
+    const card = e.target.closest('.search-result-card');
+    if (card) {
+      const idx = parseInt(card.dataset.index);
+      activeIndex = idx;
+      container.querySelectorAll('.search-result-card').forEach((c, i) => {
+        c.classList.toggle('search-result-active', i === activeIndex);
+      });
+    }
   });
 
   // Focus input on page load

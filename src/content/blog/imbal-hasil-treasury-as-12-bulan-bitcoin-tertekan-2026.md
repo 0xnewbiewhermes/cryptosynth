@@ -20,7 +20,7 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 ## Imbal Hasil Treasury AS Melonjak, Bitcoin Gagal Tembus 200-Hari
 
-Imbal hasil obligasi pemerintah AS tenor 2 tahun dan 10 tahun naik ke level tertinggi sejak pertengahan 2025 pada Jumat (15/5), setelah data inflasi yang lebih panas dari perkiraan mendorong trader untuk memperkirakan Federal Reserve akan mempertahankan suku bunga lebih lama, bahkan mungkin menaikkannya lagi.
+Menurut laporan [[CoinDesk](https://www.coindesk.com/markets/2026/05/15/the-two-and-ten-year-treasury-yields-hit-a-12-month-high-bitcoin-is-still-stuck-below-its-200-day-average), imbal hasil obligasi pemerintah AS tenor 2 tahun dan 10 tahun naik ke level tertinggi sejak pertengahan 2025 pada Jumat (15/5), setelah data inflasi yang lebih panas dari perkiraan mendorong trader untuk memperkirakan Federal Reserve akan mempertahankan suku bunga lebih lama, bahkan mungkin menaikkannya lagi.
 
 Imbal hasil 2 tahun, yang sangat sensitif terhadap ekspektasi kebijakan Fed, naik ke **4,05%** selama sesi perdagangan Asia Jumat pagi. Level ini terakhir kali tercapai pada Juni 2025. Dalam satu minggu saja, imbal hasil ini sudah naik 13 basis poin, dan lebih dari 65 basis poin sejak Maret.
 

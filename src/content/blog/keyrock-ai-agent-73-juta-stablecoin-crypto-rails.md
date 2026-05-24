@@ -3,7 +3,7 @@ title: "Laporan Keyrock: AI Agent Udah Transaksi $73 Juta Pake Stablecoin, Crypt
 slug: keyrock-ai-agent-73-juta-stablecoin-crypto-rails
 category: "Berita"
 description: "Keyrock report 'Who Pays the Agent?' ungkap AI agent udah settle $73 juta di 176 juta transaksi on-chain. Coinbase x402, Stripe MPP, dan Visa saling sikut bangun infrastruktur pembayaran mesin."
-date: 2026-05-24T22:32:36+07:00
+pubDate: 2026-05-24T22:32:36+07:00
 author: "CryptoSynth Research"
 tags:
   - ai-agent

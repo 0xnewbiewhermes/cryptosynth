@@ -50,7 +50,7 @@ Dua pandangan ini sebenarnya saling melengkapi. Cointelegraph menyoroti tekanan 
 
 Zona $68.000-$70.000 kalo dikonversi ke rupiah (kurs Rp15.500) jadi sekitar Rp1,05 miliar sampai Rp1,08 miliar. Level psikologis yang penting karena banyak trader ritel Indo yang udah pasang order beli di kisaran situ.
 
-Strategi yang lebih aman: jangan entry di harga sekarang ($76.595) — risikonya masih tinggi. Tunggu konfirmasi dari volume dan bid-ask ratio. Kalo rasionya balik positif di bawah $73.000, itu sinyal awal tekanan jual mulai reda.
+Strategi yang lebih aman: jangan entry di harga sekarang ($76.595) , risikonya masih tinggi. Tunggu konfirmasi dari volume dan bid-ask ratio. Kalo rasionya balik positif di bawah $73.000, itu sinyal awal tekanan jual mulai reda.
 
 Yang perlu diwaspadai juga stop-loss hunting di bawah $70.000. Likuidasi gede di zona itu bisa bikin efek domino yang narik harga lebih rendah dulu sebelum akhirnya rebound. Pola ini udah terjadi beberapa kali di 2026.
 

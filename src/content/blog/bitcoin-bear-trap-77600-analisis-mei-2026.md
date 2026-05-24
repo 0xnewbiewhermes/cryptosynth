@@ -15,17 +15,17 @@ faq: "Apa itu bear trap dalam trading crypto?;;Bear trap adalah situasi di mana 
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-Gw liat Bitcoin (BTC) terperosok ke $77.614 pada Sabtu, 16 Mei 2026 — level terendah sejak 1 Mei. Penurunan ini hapus sebagian besar reli Mei yang sebelumnya bawa BTC mendekati $82.000. Tapi lucunya, banyak trader justru liat pola [bear trap](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) yang bisa picu rebound.
+Gw liat Bitcoin (BTC) terperosok ke $77.614 pada Sabtu, 16 Mei 2026 , level terendah sejak 1 Mei. Penurunan ini hapus sebagian besar reli Mei yang sebelumnya bawa BTC mendekati $82.000. Tapi lucunya, banyak trader justru liat pola [bear trap](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) yang bisa picu rebound.
 
-Tekanan jual datang dari beberapa arah. Ketegangan AS-Iran makin panas, Iran dilaporin terapkan sistem tol untuk transit di Selat Hormuz — pusat pasokan minyak global. [Harga minyak WTI](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) tembus di atas $100 per barel.
+Tekanan jual datang dari beberapa arah. Ketegangan AS-Iran makin panas, Iran dilaporin terapkan sistem tol untuk transit di Selat Hormuz , pusat pasokan minyak global. [Harga minyak WTI](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) tembus di atas $100 per barel.
 
 **ETF Bitcoin kehilangan $1 miliar dalam seminggu.** [Spot Bitcoin ETF catat net outflow $1 miliar](https://cointelegraph.com/news/spot-bitcoin-etfs-bleed-1b-in-a-week-snapping-six-week-inflow-run) dalam satu minggu, mengakhiri rekor enam minggu inflow berturut-turut yang sebelumnya narik $3,4 miliar. Rabu jadi hari terburuk dengan outflow $635 juta. Kamis sempat inflow $131 juta, tapi Jumat balik negatif $290 juta. Total net asset ETF Bitcoin sekarang $104,29 miliar dengan cumulative inflow $58,34 miliar.
 
 [CLARITY Act yang lolos Komite Perbankan Senat](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) sempat angkat sentimen, tapi euforia cepat meredup di bawah tekanan makro.
 
-**Rotasi modal ke saham AI:** Analis Bitunix nyatet modal berputar agresif ke saham AI — NVIDIA, Google, Apple mendekati ATH, Cerebras (chipmaker AI) melonjak 70%+ di hari pertama IPO. Ini ngepres crypto secara keseluruhan.
+**Rotasi modal ke saham AI:** Analis Bitunix nyatet modal berputar agresif ke saham AI , NVIDIA, Google, Apple mendekati ATH, Cerebras (chipmaker AI) melonjak 70%+ di hari pertama IPO. Ini ngepres crypto secara keseluruhan.
 
-**Kenapa trader liat bear trap?** Sinyalnya dari kombinasi data on-chain dan derivatif. Akun [Cryptic Trades di X](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) ngeliatin: harga turun pelan-pelan tapi open interest malah naik. Dikorelasikan sama funding rate yang flip negatif — artinya bear lagi "gandain taruhan" dan short seolah breakdown udah terjadi. "Ini umumnya gimana bear trap terbentuk," tulisnya. Struktur pasar secara keseluruhan masih utuh, tapi bear bertaruh seolah udah hancur.
+**Kenapa trader liat bear trap?** Sinyalnya dari kombinasi data on-chain dan derivatif. Akun [Cryptic Trades di X](https://cointelegraph.com/markets/bitcoin-analysis-bear-trap-btc-price-passes-two-week-lows-under-78k) ngeliatin: harga turun pelan-pelan tapi open interest malah naik. Dikorelasikan sama funding rate yang flip negatif , artinya bear lagi "gandain taruhan" dan short seolah breakdown udah terjadi. "Ini umumnya gimana bear trap terbentuk," tulisnya. Struktur pasar secara keseluruhan masih utuh, tapi bear bertaruh seolah udah hancur.
 
 | Aset | Harga (USD) | Perubahan 24 jam |
 |------|-------------|-----------------|
@@ -40,9 +40,9 @@ Tekanan jual datang dari beberapa arah. Ketegangan AS-Iran makin panas, Iran dil
 
 Dari order book, short liquidity berat bergerombol antara $82.400-$82.600, dengan $80.000 sebagai support kunci. Buat lo yang pantau BTC/IDR, penurunan ini setara diskon ~5% dari level tertinggi Mei.
 
-**Yang perlu lo pikirin:** Kombinasi funding rate negatif + open interest tinggi memang resep klasik short squeeze. Tapi konteks makro sekarang beda dari pola bear trap biasanya — inflasi AS gelombang baru, minyak di atas $100, tensi geopolitik belum reda. Ini bukan sekadar koreksi teknikal, tapi juga cerminan ketidakpastian makro yang lebih dalam.
+**Yang perlu lo pikirin:** Kombinasi funding rate negatif + open interest tinggi memang resep klasik short squeeze. Tapi konteks makro sekarang beda dari pola bear trap biasanya , inflasi AS gelombang baru, minyak di atas $100, tensi geopolitik belum reda. Ini bukan sekadar koreksi teknikal, tapi juga cerminan ketidakpastian makro yang lebih dalam.
 
-Buat trader ritel di Indo, jangan terjebak euforia "bear trap pasti terjadi." Data nunjukin $71.000 adalah zona likuiditas gede berikutnya — masih ada ruang turun signifikan sebelum rebound nyata. Strategi DCA dengan porsi kecil di $75.000-$78.000 lebih masuk akal daripada all-in di satu level.
+Buat trader ritel di Indo, jangan terjebak euforia "bear trap pasti terjadi." Data nunjukin $71.000 adalah zona likuiditas gede berikutnya , masih ada ruang turun signifikan sebelum rebound nyata. Strategi DCA dengan porsi kecil di $75.000-$78.000 lebih masuk akal daripada all-in di satu level.
 
 ## Sumber
 

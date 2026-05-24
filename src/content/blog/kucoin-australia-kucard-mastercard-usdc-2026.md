@@ -51,9 +51,9 @@ Dengan pengawasan AUSTRAC yang semakin ketat, pendekatan KuCoin yang nimble dan 
 
 (Data diambil dari header Decrypt dan Cointelegraph. Harga dapat berubah cepat.)
 
-Peluncuran KuCard nunjukin pergeseran penting: kripto bukan cuma buat spekulasi atau investasi — alat pembayaran fungsional di kehidupan sehari-hari. Di Indo, di mana adopsi kripto tinggi tapi utilitas sehari-hari masih terbatas, model kayak gini patut diperhatiin.
+Peluncuran KuCard nunjukin pergeseran penting: kripto bukan cuma buat spekulasi atau investasi , alat pembayaran fungsional di kehidupan sehari-hari. Di Indo, di mana adopsi kripto tinggi tapi utilitas sehari-hari masih terbatas, model kayak gini patut diperhatiin.
 
-Regulator Bappebti lagi perkuat kerangka aturan. Pengalaman Australia dengan AUSTRAC dan produk compliant kayak stablecoin card bisa jadi referensi berharga. Potensi kolaborasi antara exchange lokal, bank, dan fintech buat produk serupa juga gede banget — terutama buat remitansi dan pembayaran ritel yang lebih efisien. Risiko tetep ada (volatilitas, meski USDC stabil, biaya, kepatuhan pajak), tapi peluang buat ningkatin inklusi keuangan lewat crypto utility jelas terbuka.
+Regulator Bappebti lagi perkuat kerangka aturan. Pengalaman Australia dengan AUSTRAC dan produk compliant kayak stablecoin card bisa jadi referensi berharga. Potensi kolaborasi antara exchange lokal, bank, dan fintech buat produk serupa juga gede banget , terutama buat remitansi dan pembayaran ritel yang lebih efisien. Risiko tetep ada (volatilitas, meski USDC stabil, biaya, kepatuhan pajak), tapi peluang buat ningkatin inklusi keuangan lewat crypto utility jelas terbuka.
 
 ## Sumber
 

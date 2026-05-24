@@ -39,13 +39,13 @@ Sejumlah analis mencatat bahwa Bitcoin pasca-ETF justru memiliki korelasi lebih 
 
 Di sisi positif, penjualan dari figur yang sebelumnya bullish seperti Cuban sering dianggap sinyal kontrarian oleh komunitas Bitcoin. "Koin berpindah dari tangan lemah ke tangan kuat," demikian narasi yang beredar di X (Twitter) menanggapi berita ini.
 
-Kasus Cuban ini relevan buat investor ritel Indo karena nyentuh fondasi argumen paling umum yang dipake buat beli Bitcoin. Banyak investor crypto Indo beli BTC dengan ekspektasi aset ini bakal berperilaku kayak emas digital — naik pas ketidakpastian global atau pas rupiah melemah.
+Kasus Cuban ini relevan buat investor ritel Indo karena nyentuh fondasi argumen paling umum yang dipake buat beli Bitcoin. Banyak investor crypto Indo beli BTC dengan ekspektasi aset ini bakal berperilaku kayak emas digital , naik pas ketidakpastian global atau pas rupiah melemah.
 
 Kenyataannya? Data nunjukin pola beda. Bitcoin sering bergerak bareng indeks saham teknologi AS (NASDAQ) dalam siklus jangka pendek. Pas konflik Iran, aset berisiko global kena aksi jual massal dan Bitcoin ikut. Inilah yang disebut Cuban sebagai kegagalan narasi hedge.
 
-Pelajaran utama: narasi jangka panjang Bitcoin sebagai hard money (uang keras dengan pasokan terbatas) tetep valid. Tapi jangan harap perilakunya kayak emas dalam jangka pendek. Volatilitas tinggi dan korelasi sama pasar saham global bikin Bitcoin lebih cocok sebagai alokasi portofolio dengan pemahaman risiko yang matang — bukan sekadar "beli dan lupakan."
+Pelajaran utama: narasi jangka panjang Bitcoin sebagai hard money (uang keras dengan pasokan terbatas) tetep valid. Tapi jangan harap perilakunya kayak emas dalam jangka pendek. Volatilitas tinggi dan korelasi sama pasar saham global bikin Bitcoin lebih cocok sebagai alokasi portofolio dengan pemahaman risiko yang matang , bukan sekadar "beli dan lupakan."
 
-Mark Cuban sendiri tetep optimis sama Ethereum dan teknologi blockchain secara umum. Kekecewaannya lebih ke Bitcoin dibanding Ethereum dan lainnya — nunjukin perbedaan fundamental antara Bitcoin sebagai aset moneter dan Ethereum sebagai platform aplikasi. Perbedaan yang penting dipahami pas nyusun strategi diversifikasi.
+Mark Cuban sendiri tetep optimis sama Ethereum dan teknologi blockchain secara umum. Kekecewaannya lebih ke Bitcoin dibanding Ethereum dan lainnya , nunjukin perbedaan fundamental antara Bitcoin sebagai aset moneter dan Ethereum sebagai platform aplikasi. Perbedaan yang penting dipahami pas nyusun strategi diversifikasi.
 
 ## Sumber
 

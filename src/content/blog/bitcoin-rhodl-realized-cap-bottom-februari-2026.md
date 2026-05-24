@@ -50,7 +50,7 @@ Analis dari FxPro, Alex Kuptsikevich, menjelaskan bahwa konvergensi dua MA ini m
 
 Dari sisi makro, Naeem Aslam dari Zaye Capital Markets mengatakan bahwa tekanan jangka pendek masih ada karena arus keluar ETF dan sikap hati-hati terhadap makroekonomi. Namun, dalam jangka panjang, regulasi yang mendukung, akses institusional, dan narasi aset cadangan terus memperkuat fundamental Bitcoin.
 
-Realized cap stabil di $1,08T — artinya harga di bawah $65.000 kemungkinan zona diskon, bukan awal kehancuran. RHODL ratio di atas 5 — itu level yang cuma terjadi 2 kali sebelumnya: bottom 2015 dan 2022. LTH supply naik 400.000 BTC sejak Februari — smart money accumulate. Funding rate negatif berbulan-bulan — historically selalu diikuti rebound. Tapi risiko makro tetap: yield Treasury naik, potensi perang dagang. Kuncinya: jangan over-leverage, DCA aja di area $73.000-$76.000.
+Realized cap stabil di $1,08T , artinya harga di bawah $65.000 kemungkinan zona diskon, bukan awal kehancuran. RHODL ratio di atas 5 , itu level yang cuma terjadi 2 kali sebelumnya: bottom 2015 dan 2022. LTH supply naik 400.000 BTC sejak Februari , smart money accumulate. Funding rate negatif berbulan-bulan , historically selalu diikuti rebound. Tapi risiko makro tetap: yield Treasury naik, potensi perang dagang. Kuncinya: jangan over-leverage, DCA aja di area $73.000-$76.000.
 
 ## Sumber
 

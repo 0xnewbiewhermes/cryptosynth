@@ -54,7 +54,7 @@ Gap antara valuasi tersirat **$1,3 triliun** dan total aset platform hanya **$23
 
 Investor awal yang duduk di atas keuntungan besar mungkin **tidak dapat mencairkan seluruh posisi mereka** karena likuiditas yang sangat tipis. Ini mengekspos kesenjangan antara klaim platform dan apa yang sebenarnya bisa dikirimkan oleh SPV yang mendasari.
 
-Gw liat kasus ini jadi pelajaran buat investor crypto di Indo. Tokenized stock bukan saham asli — lo beli token yang ngaku ngewakilin saham perusahaan swasta, tapi gak sama dengan punya saham secara langsung. Verifikasi legalitas struktur investasi itu penting: pastiin platform yang lo pake punya izin resmi dari perusahaan yang sahamnya ditokenisasi. Kasus Anthropic-OpenAI nunjukin kalo valuasi tersirat token ($1,3 triliun) jauh di atas aset aktual platform ($23 juta), itu red flag gede. Likuiditas juga kunci — token tanpa likuiditas yang memadai artinya lo bisa kejebak dan gak bisa jual. Untuk ekosistem crypto Indo, kasus ini ngingetin: inovasi harus diimbangi kehati-hatian.
+Gw liat kasus ini jadi pelajaran buat investor crypto di Indo. Tokenized stock bukan saham asli , lo beli token yang ngaku ngewakilin saham perusahaan swasta, tapi gak sama dengan punya saham secara langsung. Verifikasi legalitas struktur investasi itu penting: pastiin platform yang lo pake punya izin resmi dari perusahaan yang sahamnya ditokenisasi. Kasus Anthropic-OpenAI nunjukin kalo valuasi tersirat token ($1,3 triliun) jauh di atas aset aktual platform ($23 juta), itu red flag gede. Likuiditas juga kunci , token tanpa likuiditas yang memadai artinya lo bisa kejebak dan gak bisa jual. Untuk ekosistem crypto Indo, kasus ini ngingetin: inovasi harus diimbangi kehati-hatian.
 
 Harga crypto terkini untuk konteks:
 

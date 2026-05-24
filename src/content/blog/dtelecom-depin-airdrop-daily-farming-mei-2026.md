@@ -44,7 +44,7 @@ TGE token DTEL ditargetkan pada Q3-Q4 2026, sedikit mundur dari perkiraan awal Q
 
 Dari sisi tokenomics, dari total 1 miliar DTEL, alokasi komunitas mencapai 50%, founders/team/investor 35%, dan ecosystem fund atau treasury 15%. Pada TGE nanti, 5% dari FDV (sekitar $2,5 juta dari notional FDV $50 juta) akan didistribusikan ke komunitas, dilanjutkan dengan 0,75% FDV per bulan setelah TGE.
 
-Yang menarik, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL buat biaya transaksi, lo udah bisa ikut daily check-in dan make aplikasi dMeet atau FROGY. DePIN adalah narasi yang lagi naik daun di 2026, dengan proyeksi pasar global $3,5 triliun di 2028. Proyek kayak Helium, Filecoin, dan Render sebelumnya catet kenaikan signifikan pasca-TGE — meskipun masa lalu bukan jaminan, sih.
+Yang menarik, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL buat biaya transaksi, lo udah bisa ikut daily check-in dan make aplikasi dMeet atau FROGY. DePIN adalah narasi yang lagi naik daun di 2026, dengan proyeksi pasar global $3,5 triliun di 2028. Proyek kayak Helium, Filecoin, dan Render sebelumnya catet kenaikan signifikan pasca-TGE , meskipun masa lalu bukan jaminan, sih.
 
 Hati-hati dengan situs phishing yang mengaku sebagai portal airdrop dTelecom. Hanya gunakan [rewards.dtelecom.org](https://rewards.dtelecom.org/) dan [www.dtelecom.org/airdrop](https://www.dtelecom.org/airdrop) untuk berpartisipasi. Jangan pernah memberikan seed phrase atau private key ke situs manapun.
 
@@ -62,7 +62,7 @@ Kalo lo udah punya posisi di Superform, cek eligibility di portal klaim resmi se
 
 Dua peluang airdrop yang masih aktif per 20 Mei 2026: dTelecom dengan points farming DePIN buat token DTEL yang belum launching (TGE Q3-Q4 2026), dan Superform dengan final klaim token UP yang udah diperdagangkan. Keduanya punya profil risiko beda: dTelecom nawarin potensi upside dari token baru dengan risiko ketidakpastian TGE dan harga listing, sementara Superform ngasih kepastian nilai di $0.128 dengan batas waktu klaim yang jelas.
 
-Buat yang baru mulai, dTelecom mungkin lebih menarik karena barrier to entry rendah — cukup wallet Solana dan koneksi internet — plus potensi dari narasi DePIN yang lagi berkembang. Yang penting: selalu verifikasi info dari sumber resmi dan jangan pernah bagi data wallet ke situs yang nggak jelas.
+Buat yang baru mulai, dTelecom mungkin lebih menarik karena barrier to entry rendah , cukup wallet Solana dan koneksi internet , plus potensi dari narasi DePIN yang lagi berkembang. Yang penting: selalu verifikasi info dari sumber resmi dan jangan pernah bagi data wallet ke situs yang nggak jelas.
 
 ## Sumber
 

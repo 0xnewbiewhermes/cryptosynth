@@ -42,7 +42,7 @@ Paradoks yang menarik terjadi di pasar fixed-income. Ketika imbal hasil obligasi
 
 Bagi pasar crypto, pola ini justru bisa menjadi katalis positif dalam jangka menengah. Modal yang keluar dari pasar obligasi mencari rumah baru, dan Bitcoin sebagai aset dengan likuiditas tinggi dan korelasi rendah terhadap obligasi pemerintah menjadi salah satu tujuan potensial. Ini berbeda dengan narasi umum yang selalu mengaitkan kenaikan imbal hasil obligasi dengan pelemahan crypto.
 
-Buat trader Indo, dilemanya: rupiah lagi lemah. Jadi harga BTC dalam IDR turunnya lebih tajam dari USD — tambahan loss 2-3% buat yang beli di $80.000. Tapi di sisi lain, harga minyak Brent di $106 per barel langsung kena ke Indonesia sebagai importir minyak. Subsidi energi bisa bengkak, alokasi belanja pemerintah bergeser. Keputusan BI soal suku bunga dalam beberapa pekan ke depan bakal nentuin minat investor ritel ke crypto. Funding rate masih negatif, spot premium tipis — ini sinyal pasar belum percaya diri.
+Buat trader Indo, dilemanya: rupiah lagi lemah. Jadi harga BTC dalam IDR turunnya lebih tajam dari USD , tambahan loss 2-3% buat yang beli di $80.000. Tapi di sisi lain, harga minyak Brent di $106 per barel langsung kena ke Indonesia sebagai importir minyak. Subsidi energi bisa bengkak, alokasi belanja pemerintah bergeser. Keputusan BI soal suku bunga dalam beberapa pekan ke depan bakal nentuin minat investor ritel ke crypto. Funding rate masih negatif, spot premium tipis , ini sinyal pasar belum percaya diri.
 
 ## Level Kunci yang Perlu Dipantau
 

@@ -44,7 +44,7 @@ Pasar crypto juga menghadapi tekanan makroekonomi di saat yang bersamaan. Data d
 
 Dari level all-time tinggi $126.198 yang tercatat pada Oktober 2025, BTC telah terkoreksi sekitar 40%.
 
-Santiment bilang outflow masif ini contrarian buy signal. Pola yang sama terjadi Q3 2025 — outflow gede, beberapa bulan kemudian BTC cetak ATH baru. Kalo lo trader Indo, periode outflow kayak gini historisnya ngasih entry point lebih menarik daripada pas euforia. Tapi risikonya: makro masih uncertainty — suku bunga AS, perang Iran, minyak naik. Kombinasi outflow masif + tekanan makro itu jarang, jadi sinyal kontrarian Santiment perlu diimbangi sama kewaspadaan kalo inflasi pekan depan gak membaik.
+Santiment bilang outflow masif ini contrarian buy signal. Pola yang sama terjadi Q3 2025 , outflow gede, beberapa bulan kemudian BTC cetak ATH baru. Kalo lo trader Indo, periode outflow kayak gini historisnya ngasih entry point lebih menarik daripada pas euforia. Tapi risikonya: makro masih uncertainty , suku bunga AS, perang Iran, minyak naik. Kombinasi outflow masif + tekanan makro itu jarang, jadi sinyal kontrarian Santiment perlu diimbangi sama kewaspadaan kalo inflasi pekan depan gak membaik.
 
 ## Sumber
 

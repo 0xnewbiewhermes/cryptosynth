@@ -49,9 +49,9 @@ Pendiri MN Capital, Michaël van de Poppe, tetap bullish dan menyatakan:
 
 Namun, trader crypto Zord mengingatkan bahwa Bitcoin bisa menghadapi resistance antara $83.400 dan $84.600 setelah berhasil mengambil alih level *Fibonacci retracement* 50% di sekitar $78.983. Menurut analisis chart, rentang $83.400-$84.600 adalah zona resistance Fibonacci berikutnya (0,618-0,65), di mana trader kemungkinan akan mulai ambil profit dan memperlambat rebound BTC.
 
-Selain itu, lebih dari $3 miliar posisi *leveraged long* berkumpul di antara $79.000 dan $78.000. Ini menunjukkan BTC bisa saja menguji ulang range tersebut sebelum mencoba *breakout* di atas 200-day EMA yang menjadi resistance utama.
+Lebih dari $3 miliar posisi *leveraged long* ngumpul di $79.000-$78.000 — tanda BTC mungkin test ulang range itu dulu sebelum *breakout* 200-day EMA.
 
-Voting Clarity Act ini bukan sekadar berita AS. Regulasi yang lebih jelas di Paman Sam sering jadi leading indicator buat pasar global — termasuk Indo. Kalo RUU ini lolos dari komite, sentimen positif biasanya ngerembet ke altcoin dan token DeFi yang banyak diperdagangkan di exchange lokal.
+Voting Clarity Act ini bukan sekadar berita AS. Regulasi yang lebih jelas di Paman Sam sering jadi leading indicator buat pasar global , termasuk Indo. Kalo RUU ini lolos dari komite, sentimen positif biasanya ngerembet ke altcoin dan token DeFi yang banyak diperdagangkan di exchange lokal.
 
 Stablecoin tetep jadi sumber utama pergerakan uang di pasar crypto. Aktivitas alamat stablecoin ERC-20 nunjukin pertumbuhan parabolik dalam beberapa tahun terakhir. Adopsi yang lebih luas bakal support investasi jangka panjang di Bitcoin.
 

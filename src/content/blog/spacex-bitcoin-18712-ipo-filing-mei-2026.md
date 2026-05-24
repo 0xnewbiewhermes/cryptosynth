@@ -16,7 +16,7 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-Pengungkapan ini buka perspektif baru soal adopsi Bitcoin korporat — terutama karena IPO SpaceX bakal ngasih akses langsung ke salah satu treasury Bitcoin terbesar di dunia lewat bursa Nasdaq.
+Pengungkapan ini buka perspektif baru soal adopsi Bitcoin korporat , terutama karena IPO SpaceX bakal ngasih akses langsung ke salah satu treasury Bitcoin terbesar di dunia lewat bursa Nasdaq.
 
 ## SpaceX Buka Laporan Keuangan untuk IPO Terbesar
 
@@ -40,7 +40,7 @@ Dengan 18.712 BTC, SpaceX menempati peringkat ke-11 secara global sebagai entita
 
 Namun, jumlah ini masih jauh di bawah MicroStrategy yang memiliki lebih dari 840.000 BTC. Perbedaan pendekatan ini masuk akal: MicroStrategy adalah perusahaan treasury Bitcoin murni, sementara SpaceX adalah perusahaan antariksa dengan proyek ambisius seperti Starship, satelit Starlink, dan pusat data orbital yang membutuhkan investasi modal besar.
 
-Gw liat pengungkapan SpaceX ini punya implikasi yang jarang dibahas media lain. Filing S-1 ke SEC adalah dokumen hukum yang diaudit — 18.712 BTC bukan spekulasi, ini data yang diverifikasi auditor independen. Sinyal kuat soal legitimasi Bitcoin sebagai aset treasury korporat di mata regulator AS. Yang bikin menarik: perbedaan gede antara perkiraan on-chain (8.285 BTC) dan jumlah asli (18.712 BTC) nunjukin analitik on-chain masih punya blind spot signifikan. Banyak whale dan institusi mungkin nyimpen BTC di kustodian pihak ketiga dengan alamat gak terpublikasi — artinya total kepemilikan institusi terhadap Bitcoin selama ini kemungkinan understated. Buat investor Indo yang tertarik: IPO SpaceX listing di Nasdaq 12 Juni, setelah itu lo bisa beli sahamnya via sekuritas yang nyediain akses pasar AS. Tapi valuasi $1,75 triliun dan struktur dual-class yang ngasih kendali mutlak ke Musk berarti pemegang saham minoritas gak punya pengaruh berarti — termasuk soal strategi Bitcoin mereka.
+Gw liat pengungkapan SpaceX ini punya implikasi yang jarang dibahas media lain. Filing S-1 ke SEC adalah dokumen hukum yang diaudit , 18.712 BTC bukan spekulasi, ini data yang diverifikasi auditor independen. Sinyal kuat soal legitimasi Bitcoin sebagai aset treasury korporat di mata regulator AS. Yang bikin menarik: perbedaan gede antara perkiraan on-chain (8.285 BTC) dan jumlah asli (18.712 BTC) nunjukin analitik on-chain masih punya blind spot signifikan. Banyak whale dan institusi mungkin nyimpen BTC di kustodian pihak ketiga dengan alamat gak terpublikasi , artinya total kepemilikan institusi terhadap Bitcoin selama ini kemungkinan understated. Buat investor Indo yang tertarik: IPO SpaceX listing di Nasdaq 12 Juni, setelah itu lo bisa beli sahamnya via sekuritas yang nyediain akses pasar AS. Tapi valuasi $1,75 triliun dan struktur dual-class yang ngasih kendali mutlak ke Musk berarti pemegang saham minoritas gak punya pengaruh berarti , termasuk soal strategi Bitcoin mereka.
 
 Starlink yang sudah beroperasi di Indonesia juga menjadi konteks tambahan. Pendapatan dari ekspansi Starlink di Asia Tenggara turut berkontribusi pada keuangan SpaceX yang memungkinkan perusahaan mempertahankan posisi Bitcoin yang besar. Bagi pengguna Starlink di Indonesia, IPO ini secara tidak langsung menghubungkan langganan internet satelit mereka dengan salah satu treasury Bitcoin korporat terbesar di dunia.
 

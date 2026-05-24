@@ -28,7 +28,7 @@ Total likuidasi posisi long kripto mencapai $607 juta dalam 24 jam terakhir, den
 
 Dua faktor utama menjadi pemicu koreksi ini. Pertama, arus keluar bersih ETF Bitcoin spot mencapai lebih dari $1 miliar pekan lalu, menurut data [Farside Investors](https://cointelegraph.com/markets/bitcoin-price-hits-76k-lowest-since-april-after-1b-etf-net-outflow). Analis Bitfinex mencatat bahwa meskipun arus masuk modal bulanan masih positif di $2,8 miliar, angkanya jauh di bawah level $10 miliar yang biasanya menyertai fase bull market yang kuat.
 
-Kedua, meningkatnya kembali ketegangan AS-Iran setelah Presiden Trump memberi peringatan bahwa "waktu terus berjalan" untuk negosiasi damai. Minyak mentah Brent melonjak ke $113 per barel, naik lebih dari 50% sejak akhir Februari ketika AS dan Israel melancarkan serangan ke Iran. Harga minyak WTI juga sempat menembus $104 per barel sebelum koreksi ke $101.
+Faktor lainnya: ketegangan AS-Iran makin panas setelah Presiden Trump peringatin bahwa "waktu terus berjalan" untuk negosiasi damai. Minyak mentah Brent melonjak ke $113 per barel, naik lebih dari 50% sejak akhir Februari ketika AS dan Israel melancarkan serangan ke Iran. Harga minyak WTI juga sempat menembus $104 per barel sebelum koreksi ke $101.
 
 Data dari [TradingView](https://cointelegraph.com/markets/bitcoin-lost-its-hold-on-80k-but-three-events-may-send-it-back-sooner-than-markets-expect) menunjukkan BTC turun nyaris 7% dalam tiga hari perdagangan, level yang sama dengan koreksi tajam setelah penolakan oleh moving average 200 hari pada April 2025.
 
@@ -62,7 +62,7 @@ Trader Daan Crypto Trades menyoroti celah (gap) di pasar futures CME. Celah $78K
 
 Trader Mikybull Crypto menambahkan bahwa arus keluar ETF besar biasanya diikuti oleh "local bottom", yang berarti titik terendah dalam waktu dekat mungkin sudah mendekat.
 
-Yang menarik buat trader Indo: $677 juta likuidasi global ini pasti kena juga trader lokal yang main leverage 10x-25x di Indodax atau Binance. Korelasi BTC sama small-cap AS sama minyak lagi erat banget sekarang — jadi gak cukup pantau chart doang, yield Treasury sama harga komoditas juga determine arah.
+Yang menarik buat trader Indo: $677 juta likuidasi global ini pasti kena juga trader lokal yang main leverage 10x-25x di Indodax atau Binance. Korelasi BTC sama small-cap AS sama minyak lagi erat banget sekarang , jadi gak cukup pantau chart doang, yield Treasury sama harga komoditas juga determine arah.
 
 Strategi beli $2 miliard pas koreksi? Klasik Saylor. Buat lo yang horizon panjang, fase koreksi gini emang biasanya window buat akumulasi. Tapi kalo lo trading jangka pendek, yang perlu di-track minggu ini: negosiasi AS-Iran sama data ETF flow. Kalo salah satu katalis di atas kejadian, rebound ke $80K bisa lebih cepet dari yang market expect.
 

@@ -44,7 +44,7 @@ IRS Amerika Serikat memperkirakan kesenjangan pajak tahunan mencapai sekitar $60
 
 Buat investor kripto di Indo, kasus ini relevan karena aturan perpajakan kripto di sini udah cukup jelas. Berdasarkan PMK 68/PMK.03/2022, transaksi aset kripto kena PPh Pasal 22 sebesar 0,1% dari nilai transaksi buat pembeli dan PPN Dalam Negeri 0,11% buat penjual. DJP juga makin aktif ngumpulin data transaksi dari exchange yang teregulasi Bappebti dan OJK.
 
-Yang beda dari kasus Italia sama Indo adalah tingkat kompleksitas aset yang dipake. Di Italia, tersangka make Bitcoin Ordinals dan BRC-20 tokens — aset yang relatif baru dan gak keliatan di blockchain explorer biasa. Di Indo, mayoritas transaksi masih pake aset mainstream kayak BTC, ETH, dan token ERC-20 yang gampang dilacak. Tapi tren adopsi Ordinals dan BRC-20 juga mulai ngerambah Asia, termasuk potensi pemakaiannya di Indo.
+Yang beda dari kasus Italia sama Indo adalah tingkat kompleksitas aset yang dipake. Di Italia, tersangka make Bitcoin Ordinals dan BRC-20 tokens , aset yang relatif baru dan gak keliatan di blockchain explorer biasa. Di Indo, mayoritas transaksi masih pake aset mainstream kayak BTC, ETH, dan token ERC-20 yang gampang dilacak. Tapi tren adopsi Ordinals dan BRC-20 juga mulai ngerambah Asia, termasuk potensi pemakaiannya di Indo.
 
 Kasus ini juga nunjukin bahwa make teknologi kripto baru buat nyembunyiin kekayaan bukan strategi yang aman. Chainalysis ngecek: technical novelty of crypto does not equal anonymity. Setiap transaksi ninggalin jejak permanen di blockchain. Alat kayak Chainalysis Reactor terus berkembang buat ngikutin inovasi teknis baru, dan platform blockchain intelligence sekarang jadi infrastruktur penting buat investigasi keuangan modern di seluruh dunia.
 

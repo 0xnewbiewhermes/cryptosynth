@@ -27,15 +27,15 @@ Bedanya perpetual preferred stock sama obligasi biasa: gak ada tanggal jatuh tem
 
 Kalo lo pegang STRC dan mau cairin dana, satu-satunya cara adalah jual di pasar sekunder. Ini ngekspos lo ke dua risiko permanen: kontraksi likuiditas dan risiko suku bunga. Karena gak ada tanggal jatuh tempo, risiko ini gak pernah berakhir.
 
-STRC diperdagangkan di ~$99 per saham dengan [dividen rate 11,5%](https://www.strategy.com/strc/learn) yang bersifat variabel — yield bisa berubah tiap bulan tergantung kondisi pasar.
+STRC diperdagangkan di ~$99 per saham dengan [dividen rate 11,5%](https://www.strategy.com/strc/learn) yang bersifat variabel , yield bisa berubah tiap bulan tergantung kondisi pasar.
 
-**Batas penerbitan $28 miliar — bisa jadi tembok.** Riset [Delphi Digital](https://members.delphidigital.io/reports) bilang Strategy punya authorized issuance cap ~$28 miliar. Saat ini total notional face value STRC yang beredar udah $8,5 miliar. Kalo batas ini gak dinaikin sebelum nyentuh $28 miliar, akumulasi Bitcoin Strategy bisa melambat. Ini penting karena Strategy ngandelin STRC sebagai senjata utama pendanaan buat beli BTC di tengah kondisi pasar 2026 yang kurang menguntungkan.
+**Batas penerbitan $28 miliar , bisa jadi tembok.** Riset [Delphi Digital](https://members.delphidigital.io/reports) bilang Strategy punya authorized issuance cap ~$28 miliar. Saat ini total notional face value STRC yang beredar udah $8,5 miliar. Kalo batas ini gak dinaikin sebelum nyentuh $28 miliar, akumulasi Bitcoin Strategy bisa melambat. Ini penting karena Strategy ngandelin STRC sebagai senjata utama pendanaan buat beli BTC di tengah kondisi pasar 2026 yang kurang menguntungkan.
 
 **Saylor bilang gini:** Michael Saylor, Executive Chairman Strategy, ke [CoinDesk](https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin) di Consensus Miami, nyebut kekhawatiran soal penjualan Bitcoin buat bayar dividen sebagai "big nothing burger." "Kalo kita danai semua dividen secara eksklusif dengan jual Bitcoin selama setahun ke depan, kita bakal beli 20 Bitcoin buat setiap 1 Bitcoin yang dijual. Dampaknya gak terukur," katanya. Saylor juga negasin STRC punya growth rate 400%, jadi mesin modal yang tetap berfungsi bahkan di pasar bearish.
 
 **Yang menarik** dari situasi ini adalah kontras antara narasi bullish dan peringatan risiko. Volume STRC emang rekor, tapi instrumen perpetual preferred bukan tanpa cela. Buat lo investor Indo yang mungkin tertarik sama yield 11,5%, penting buat paham: yield tinggi selalu datang sama risiko tinggi. Instrumen ini gak punya "exit" alami selain jual di pasar sekunder. Kalo terjadi gejolak likuiditas atau kenaikan suku bunga obligasi pemerintah, harga STRC bisa turun tajam tanpa jaminan penerbit bakal balikin pokok.
 
-Dampaknya juga gak cuma buat pemegang STRC. Kalo Strategy kehabisan ruang penerbitan atau kena tekanan dividen, laju akumulasi BTC mereka bisa melambat — dan itu pengaruh ke dinamika pasar Bitcoin secara lebih luas. Strategy adalah pembeli Bitcoin institusional terbesar di dunia, jadi perlambatan di sisi demand mereka punya implikasi harga buat BTC secara keseluruhan.
+Dampaknya juga gak cuma buat pemegang STRC. Kalo Strategy kehabisan ruang penerbitan atau kena tekanan dividen, laju akumulasi BTC mereka bisa melambat , dan itu pengaruh ke dinamika pasar Bitcoin secara lebih luas. Strategy adalah pembeli Bitcoin institusional terbesar di dunia, jadi perlambatan di sisi demand mereka punya implikasi harga buat BTC secara keseluruhan.
 
 **Harga terkini (17 Mei 2026):**
 - BTC: $78.076 (-1,22%)

@@ -56,9 +56,9 @@ Kepergian para peneliti ini menambah sentimen negatif di tengah pasar yang sudah
 
 Gelombang kepergian ini momen yang perlu dicermati. Ethereum masih jadi blockchain terbesar buat ekosistem DeFi dan NFT yang banyak dipake komunitas Indo. Setiap perubahan di tim inti developer bisa berdampak langsung ke timeline upgrade protokol.
 
-Berita ini datang di saat yang kurang pas — ETH udah turun cukup dalem dan volume trading pair ETH/IDR di exchange Indo cenderung menurun. Kepergian talenta kunci bisa memperpanjang fase konsolidasi ETH, apalagi kalo pasar nafsirin ini sebagai sinyal ketidakstabilan internal.
+Berita ini datang di saat yang kurang pas , ETH udah turun cukup dalem dan volume trading pair ETH/IDR di exchange Indo cenderung menurun. Kepergian talenta kunci bisa memperpanjang fase konsolidasi ETH, apalagi kalo pasar nafsirin ini sebagai sinyal ketidakstabilan internal.
 
-Tapi ada sisi positifnya. Buterin udah bilang restrukturisasi ini sengaja dilakukan buat bawa perspektif baru. Kalo EF berhasil narik talenta yang lebih segar dan agresif, ini bisa jadi katalis positif buat jangka panjang. Investor yang punya horizon panjang bisa liat momen ini sebagai titik entry yang lebih rasional — Ethereum masih punya jaringan developer terbesar di kripto.
+Tapi ada sisi positifnya. Buterin udah bilang restrukturisasi ini sengaja dilakukan buat bawa perspektif baru. Kalo EF berhasil narik talenta yang lebih segar dan agresif, ini bisa jadi katalis positif buat jangka panjang. Investor yang punya horizon panjang bisa liat momen ini sebagai titik entry yang lebih rasional , Ethereum masih punya jaringan developer terbesar di kripto.
 
 ## Intinya
 

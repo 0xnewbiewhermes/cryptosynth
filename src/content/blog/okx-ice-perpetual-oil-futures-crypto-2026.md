@@ -42,7 +42,7 @@ Namun di saat yang sama, kedua exchange tradisional ini juga mendorong regulator
 
 Dalam konteks itu, kemitraan OKX-ICE lebih terlihat seperti uji coba hidup untuk struktur pasar hybrid. ICE memasok benchmark teregulasi dan tata kelola, sementara OKX menyumbangkan mesin perpetual, antarmuka pengguna, dan pengalaman menjalankan derivatif leverage tinggi, hingga 125x leverage di beberapa pasar.
 
-Gw liat ini menarik buat Indo — kita net importir minyak, fluktuasi harga langsung ngaruh ke inflasi. Sekarang trader lokal bisa dapet eksposur harga minyak dari akun OKX tanpa ribet buka akun bursa berjangka. Tapi leverage 125x? Bukan mainan. Funding rate di perpetual bisa ngeludesin posisi lo dalam hitungan jam, apalagi minyak itu barang paling sensitif sama geopolitik. Yang lebih serem, tren konvergensi TradFi-DeFi ini makin nyata — ICE dan OKX udah tanda tangan Maret buat bangun blockchain bareng, dan oil futures ini eksekusi pertama dari cetak biru pasar hybrid. Kalo regulator di luar AS tolerir, ini bisa jadi blueprint buat komoditas lain masuk ke crypto.
+Gw liat ini menarik buat Indo , kita net importir minyak, fluktuasi harga langsung ngaruh ke inflasi. Sekarang trader lokal bisa dapet eksposur harga minyak dari akun OKX tanpa ribet buka akun bursa berjangka. Tapi leverage 125x? Bukan mainan. Funding rate di perpetual bisa ngeludesin posisi lo dalam hitungan jam, apalagi minyak itu barang paling sensitif sama geopolitik. Yang lebih serem, tren konvergensi TradFi-DeFi ini makin nyata , ICE dan OKX udah tanda tangan Maret buat bangun blockchain bareng, dan oil futures ini eksekusi pertama dari cetak biru pasar hybrid. Kalo regulator di luar AS tolerir, ini bisa jadi blueprint buat komoditas lain masuk ke crypto.
 
 ## Sumber
 

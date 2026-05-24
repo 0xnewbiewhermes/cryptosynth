@@ -46,13 +46,13 @@ Kraken, exchange kripto terkemuka yang beroperasi sebagai Wyoming SPDI (special-
 
 Namun, selama masa proposal ini, Fed meminta bank regional untuk menghentikan sementara keputusan atas aplikasi serupa demi memastikan implementasi yang konsisten. Ripple, Anchorage Digital, dan Wise (fintech transfer uang) disebut-sebut sebagai perusahaan yang juga mengejar akses serupa.
 
-Kalo aturan ini final, implikasinya luas. Akses langsung ke sistem pembayaran Fed artinya perusahaan kripto bisa kliring dan settlement tanpa bank koresponden — yang selama ini jadi bottleneck dan sumber biaya tinggi, apalagi buat transfer lintas batas.
+Kalo aturan ini final, implikasinya luas. Akses langsung ke sistem pembayaran Fed artinya perusahaan kripto bisa kliring dan settlement tanpa bank koresponden , yang selama ini jadi bottleneck dan sumber biaya tinggi, apalagi buat transfer lintas batas.
 
 Buat pasar Indo, efek dominonya menarik. USDT dan USDC, yang banyak dipake trader Indo buat on/off ramp, bisa alamin efisiensi biaya kalo Tether dan Circle bisa akses sistem pembayaran AS langsung. Saat ini kliring stablecoin masih tergantung bank mitra yang kadang nerapin biaya tinggi buat transaksi Indo. Turunnya biaya infrastruktur di level AS bakal ngepress biaya yang dirasakan pengguna akhir di Indo.
 
-Yang juga menarik, Gubernur Fed Chris Waller sebelumnya bilang Fed bakal "embrace disruption" — merangkul disrupsi fintech dan kripto. Sikap ini kontras sama era sebelumnya di mana Fed cenderung defensif. Buat Indo yang lagi nyusun regulasi crypto lebih matang (OJK ambil alih pengawasan aset digital), pendekatan AS ini bisa jadi referensi berharga.
+Yang juga menarik, Gubernur Fed Chris Waller sebelumnya bilang Fed bakal "embrace disruption" , merangkul disrupsi fintech dan kripto. Sikap ini kontras sama era sebelumnya di mana Fed cenderung defensif. Buat Indo yang lagi nyusun regulasi crypto lebih matang (OJK ambil alih pengawasan aset digital), pendekatan AS ini bisa jadi referensi berharga.
 
-Tapi ada satu risiko: Gubernur Fed Michael Barr dissenting — nolak proposal ini karena kurangnya safeguards terhadap illicit finance. Kalo Barr dan pendukungnya berhasil perkuat aturan anti pencucian uang, perusahaan kripto mungkin tetep hadapi hambatan kepatuhan yang mahal, yang ujungnya bisa ngurangin efisiensi biaya yang diharapkan.
+Tapi ada satu risiko: Gubernur Fed Michael Barr dissenting , nolak proposal ini karena kurangnya safeguards terhadap illicit finance. Kalo Barr dan pendukungnya berhasil perkuat aturan anti pencucian uang, perusahaan kripto mungkin tetep hadapi hambatan kepatuhan yang mahal, yang ujungnya bisa ngurangin efisiensi biaya yang diharapkan.
 
 ## Apa Selanjutnya?
 

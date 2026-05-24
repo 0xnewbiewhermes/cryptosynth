@@ -62,7 +62,7 @@ Ujian berikutnya bagi Bitcoin berada di level **$78.000**, yang menandai posisi 
 
 Namun, jika BTC mampu bertahan di atas $78.000, kasus pembeli struktural tetap utuh menjelang data makro berikutnya dan babak akhir pembicaraan Trump-Xi.
 
-Buat trader Indo — waspadai volatilitas jangka pendek. Kombinasi inflasi panas dan ketegangan geopolitik bisa terus ngepush harga crypto turun dalam beberapa hari ke depan. Pantau level $78.000 BTC — ini support teknis kunci. Kalo tembus di bawah sini, bisa trigger aksi jual lebih lanjut. SOL dan altcoin lebih volatil — penurunan 5,6% nunjukin altcoin lebih sensitif ke sentimen negatif. Tapi catet: data on-chain tetep bullish. Pembeli jangka panjang Bitcoin naik 300% sejak akhir 2025, hampir 4 juta BTC ditahan sama conviction buyers. Jadi jangan panik — tekanan jual jangka pendek emang ada, tapi struktur pemegang jangka panjang makin kuat.
+Buat trader Indo , waspadai volatilitas jangka pendek. Kombinasi inflasi panas dan ketegangan geopolitik bisa terus ngepush harga crypto turun dalam beberapa hari ke depan. Pantau level $78.000 BTC , ini support teknis kunci. Kalo tembus di bawah sini, bisa trigger aksi jual lebih lanjut. SOL dan altcoin lebih volatil , penurunan 5,6% nunjukin altcoin lebih sensitif ke sentimen negatif. Tapi catet: data on-chain tetep bullish. Pembeli jangka panjang Bitcoin naik 300% sejak akhir 2025, hampir 4 juta BTC ditahan sama conviction buyers. Jadi jangan panik , tekanan jual jangka pendek emang ada, tapi struktur pemegang jangka panjang makin kuat.
 
 ## Sumber
 

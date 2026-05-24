@@ -15,23 +15,23 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-Tiga hari setelah ngeluarin peringatan "going concern" di laporan SEC, Bitcoin Depot — operator ATM Bitcoin terbesar di Amerika Utara — resmi ajukan Chapter 11 bankruptcy ke Pengadilan Kebangkrutan AS. Perusahaan Nasdaq (ticker: BTM) ini udah mematikan seluruh jaringan ATM-nya.
+Tiga hari setelah ngeluarin peringatan "going concern" di laporan SEC, Bitcoin Depot , operator ATM Bitcoin terbesar di Amerika Utara , resmi ajukan Chapter 11 bankruptcy ke Pengadilan Kebangkrutan AS. Perusahaan Nasdaq (ticker: BTM) ini udah mematikan seluruh jaringan ATM-nya.
 
 CEO Alex Holmes ngaku perusahaan udah kehabisan opsi. "Setelah evaluasi semua opsi, kami mutusin buat mulai proses yang diawasi pengadilan ini buat fasilitasi penghentian operasi yang tertib dan penjualan aset Perusahaan," katanya, [via Decrypt](https://decrypt.co/368146/crypto-atm-operator-bitcoin-depot-files-for-chapter-11-bankruptcy).
 
-**Angkanya brutal:** Pendapatan Q1 2026 [turun 49% YoY](https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy), gross profit cuma ~$4,5 juta — anjlok 85%. Rugi bersih $9,5 juta, padahal Q1 2025 masih laba $12,2 juta. Saham BTM ambles 79,48% dalam enam bulan. Di puncaknya tahun lalu, mereka operasikan 9.276 kiosk di AS, Kanada, dan Australia.
+**Angkanya brutal:** Pendapatan Q1 2026 [turun 49% YoY](https://www.coindesk.com/markets/2026/05/18/bitcoin-depot-once-north-america-s-largest-bitcoin-atm-operator-files-for-bankruptcy), gross profit cuma ~$4,5 juta , anjlok 85%. Rugi bersih $9,5 juta, padahal Q1 2025 masih laba $12,2 juta. Saham BTM ambles 79,48% dalam enam bulan. Di puncaknya tahun lalu, mereka operasikan 9.276 kiosk di AS, Kanada, dan Australia.
 
-**Penyebabnya?** Holmes blak-blakan salahin regulasi. "Negara-negara bagian udah berlakukan kewajiban kepatuhan yang makin ketat — batas transaksi baru, pembatasan, bahkan larangan langsung operasi BTM di beberapa yurisdiksi," katanya. Bitcoin Depot juga kena gugatan dari jaksa agung Massachusetts dan Iowa atas dugaan fasilitasi penipuan crypto. Data FTC: kerugian akibat penipuan ATM crypto nyentuh rekor $389 juta di 2025, naik 58% dari 2024.
+**Penyebabnya?** Holmes blak-blakan salahin regulasi. "Negara-negara bagian udah berlakukan kewajiban kepatuhan yang makin ketat , batas transaksi baru, pembatasan, bahkan larangan langsung operasi BTM di beberapa yurisdiksi," katanya. Bitcoin Depot juga kena gugatan dari jaksa agung Massachusetts dan Iowa atas dugaan fasilitasi penipuan crypto. Data FTC: kerugian akibat penipuan ATM crypto nyentuh rekor $389 juta di 2025, naik 58% dari 2024.
 
 Tennessee baru jadi negara bagian kedua yang larang Bitcoin ATM setelah Indiana (April). Kanada juga usul larangan serupa.
 
-**Kronologi runtuhnya:** Maret 2026 —rombak kepemimpinan, tunjuk Holmes sebagai CEO setelah Connecticut bekukan izin pengiriman uangnya. April — peretas bobol sistem IT, curi $3,7 juta dari dompet crypto perusahaan. Meskipun sempat dapet suntikan dana dari penjualan saham, tekanan dari regulasi + litigasi + penurunan revenue + insiden keamanan akhirnya bikin perusahaan tumbang.
+**Kronologi runtuhnya:** Maret 2026 ,rombak kepemimpinan, tunjuk Holmes sebagai CEO setelah Connecticut bekukan izin pengiriman uangnya. April , peretas bobol sistem IT, curi $3,7 juta dari dompet crypto perusahaan. Meskipun sempat dapet suntikan dana dari penjualan saham, tekanan dari regulasi + litigasi + penurunan revenue + insiden keamanan akhirnya bikin perusahaan tumbang.
 
 **Harga BTC saat ini:** $77.177 (-1,27%), ETH $2.136 (-2,49%), SOL $84,86 (-1,74%).
 
-Kebangkrutan Bitcoin Depot nambahin daftar perusahaan crypto yang tumbang di tengah musim regulasi ketat AS. Ironisnya, di sisi lain Strategy (sebelumnya MicroStrategy) baru aja beli 24.869 BTC senilai $2 miliar pekan lalu — dua kutub yang sangat beda dalam industri yang sama.
+Kebangkrutan Bitcoin Depot nambahin daftar perusahaan crypto yang tumbang di tengah musim regulasi ketat AS. Ironisnya, di sisi lain Strategy (sebelumnya MicroStrategy) baru aja beli 24.869 BTC senilai $2 miliar pekan lalu , dua kutub yang sangat beda dalam industri yang sama.
 
-Buat lo di Indo, ini jadi pengingat: regulasi longgar di satu negara bukan jaminan keberlangsungan bisnis global. Platform ATM crypto atau layanan jual-beli crypto dengan margin tipis sangat rentan terhadap perubahan regulasi di yurisdiksi utama. Pembatasan BTM di AS dan Kanada bisa jadi preseden buat negara lain — termasuk kemungkinan regulator Asia Tenggara buat nge-review izin operasi layanan serupa. Kalo lo nyimpen aset di platform dengan model bisnis yang bergantung sama regulasi longgar, waspada.
+Buat lo di Indo, ini jadi pengingat: regulasi longgar di satu negara bukan jaminan keberlangsungan bisnis global. Platform ATM crypto atau layanan jual-beli crypto dengan margin tipis sangat rentan terhadap perubahan regulasi di yurisdiksi utama. Pembatasan BTM di AS dan Kanada bisa jadi preseden buat negara lain , termasuk kemungkinan regulator Asia Tenggara buat nge-review izin operasi layanan serupa. Kalo lo nyimpen aset di platform dengan model bisnis yang bergantung sama regulasi longgar, waspada.
 
 ## Sumber
 

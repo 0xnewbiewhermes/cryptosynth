@@ -53,9 +53,9 @@ Upbit saat ini berperingkat ke-14 global di CoinGecko dengan volume perdagangan 
 | SOL | $94,64 | +0,66% | Cointelegraph |
 | XRP | $1,44 | +0,71% | Cointelegraph |
 
-Perkembangan Korea Selatan ini implikasinya langsung ke ekosistem crypto Indo. Korea adalah salah satu pasar crypto terbesar di Asia. Langkah mereka kasih kerangka hukum jelas buat tokenized securities bisa jadi preseden buat negara Asia Tenggara — termasuk Indo. Kalo kerangka regulasi Korea terbukti efektif narik institusi tradisional kayak Hana Bank masuk ke crypto, tekanan ke Bappebti dan OJK buat mempercepat regulasi serupa di Indo bakal makin gede.
+Perkembangan Korea Selatan ini implikasinya langsung ke ekosistem crypto Indo. Korea adalah salah satu pasar crypto terbesar di Asia. Langkah mereka kasih kerangka hukum jelas buat tokenized securities bisa jadi preseden buat negara Asia Tenggara , termasuk Indo. Kalo kerangka regulasi Korea terbukti efektif narik institusi tradisional kayak Hana Bank masuk ke crypto, tekanan ke Bappebti dan OJK buat mempercepat regulasi serupa di Indo bakal makin gede.
 
-Masuknya bank sebesar Hana ke ekosistem exchange crypto — ini pergeseran pola pikir institusi tradisional. Bank dengan aset $42 miliar bukan cuma investasi di exchange, tapi juga berencana ngembangin stablecoin dan tokenized securities. Tokenisasi aset bukan lagi konsep teori — ini arah yang diambil institusi keuangan besar. Buat investor dan builder di Indo, ini sinyal: infrastruktur tokenisasi bakal jadi standar industri dalam beberapa tahun ke depan.
+Masuknya bank sebesar Hana ke ekosistem exchange crypto , ini pergeseran pola pikir institusi tradisional. Bank dengan aset $42 miliar bukan cuma investasi di exchange, tapi juga berencana ngembangin stablecoin dan tokenized securities. Tokenisasi aset bukan lagi konsep teori , ini arah yang diambil institusi keuangan besar. Buat investor dan builder di Indo, ini sinyal: infrastruktur tokenisasi bakal jadi standar industri dalam beberapa tahun ke depan.
 
 ## Sumber
 

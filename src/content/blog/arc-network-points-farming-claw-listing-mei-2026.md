@@ -75,9 +75,9 @@ Beredar banyak link phishing yang mengklaim memberikan "free $CLAW airdrop" atau
 - Situs PancakeSwap resmi setelah listing
 - Link dari akun X resmi [@spacey2025](https://x.com/spacey2025)
 
-Dua proyek ini beda banget pendekatannya. Arc Network farming — gratis, daily check-in doang, potensi airdrop dari proyek backed institusi. Cuma butuh koneksi internet dan browser. Model points farming kayak gini mirip loyalty program, cocok buat yang konsisten. Tapi gak ada jaminan token $ARC bakal rilis, dan timeline masih abu-abu.
+Dua proyek ini beda banget pendekatannya. Arc Network farming , gratis, daily check-in doang, potensi airdrop dari proyek backed institusi. Cuma butuh koneksi internet dan browser. Model points farming kayak gini mirip loyalty program, cocok buat yang konsisten. Tapi gak ada jaminan token $ARC bakal rilis, dan timeline masih abu-abu.
 
-$CLAW sebaliknya — udah fix tanggal listing. Tapi IDO udah tutup. Listing di PancakeSwap 26 Mei, tapi unlock 20% di TGE plus vesting linear 6 bulan, artinya selling pressure di hari pertama bakal gede. AI x Crypto lagi narasi panas, tapi likuiditas awal tipis. Gw liat yang menarik: listing timing-nya pas pas pasar lagi bearish, jadi entry bisa lebih rendah dari yang diekspektasi.
+$CLAW sebaliknya , udah fix tanggal listing. Tapi IDO udah tutup. Listing di PancakeSwap 26 Mei, tapi unlock 20% di TGE plus vesting linear 6 bulan, artinya selling pressure di hari pertama bakal gede. AI x Crypto lagi narasi panas, tapi likuiditas awal tipis. Gw liat yang menarik: listing timing-nya pas pas pasar lagi bearish, jadi entry bisa lebih rendah dari yang diekspektasi.
 
 ## Sumber
 

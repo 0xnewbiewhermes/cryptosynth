@@ -51,7 +51,7 @@ Menurut Nakamoto, serangan biasanya diatur oleh kriminal yang tinggal di luar ne
 
 Vanessa Perree, jaksa nasional Prancis untuk kejahatan terorganisir, mengkonfirmasi bahwa setidaknya 88 orang telah ditangkap sehubungan dengan serangan ini.
 
-Gw liat pola yang sama rawan terjadi di Indo. KYC di exchange lokal ngumpulin data pengguna dalam jumlah gede — database terpusat, satu tembus, semua kena. Prancis buktiin: Ledger leak 2020 aja masih dipake sampe sekarang, 6 tahun kemudian. Buat lo yang punya aset lebih dari 5 digit USD di wallet, siapin wallet umpan dengan saldo kecil. Kalo ada apa-apa, lo kasih itu. Minimalisir footprint digital: jangan pernah post screenshot portfolio di sosmed, jangan pamer address publik. Lo kira gak ada yang ngeliat? Data dari breach Ledger masih diperjualbelikan sampe detik ini.
+Gw liat pola yang sama rawan terjadi di Indo. KYC di exchange lokal ngumpulin data pengguna dalam jumlah gede , database terpusat, satu tembus, semua kena. Prancis buktiin: Ledger leak 2020 aja masih dipake sampe sekarang, 6 tahun kemudian. Buat lo yang punya aset lebih dari 5 digit USD di wallet, siapin wallet umpan dengan saldo kecil. Kalo ada apa-apa, lo kasih itu. Minimalisir footprint digital: jangan pernah post screenshot portfolio di sosmed, jangan pamer address publik. Lo kira gak ada yang ngeliat? Data dari breach Ledger masih diperjualbelikan sampe detik ini.
 
 ## Sumber
 

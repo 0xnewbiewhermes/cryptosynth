@@ -78,7 +78,7 @@ Gunakan **burner wallet** khusus untuk farming. Jangan connect wallet utama ke s
 
 Untuk pengguna di Indonesia, mayoritas airdrop tidak memiliki geo-restriction, tapi selalu baca syarat dan ketentuan di halaman official sebelum claim.
 
-Gw liat tiga airdrop ini beda-beda risikonya buat trader Indo. Phi XYZ shutdown — proyek udah jalan 4 tahun tetep bisa tutup. Ini lesson: jangan kunci semua dana di satu platform tanpa ngitung risiko shutdown. Zest Protocol — protokol lending Bitcoin dengan TVL $100 juta, listing di 5+ exchange, kasih yield buat holder BTC tanpa harus jual. Lumayan. Superform — final unlock, tenggat sampe Agustus, tapi phishing makin gencar. Minggu ini aja udah 3+ situs phishing ngatasnamain Superform. Total distribusi dari tiga proyek ini di atas $50 juta. Prioritas lo: verifikasi link langsung dari akun X resmi sebelum connect wallet.
+Gw liat tiga airdrop ini beda-beda risikonya buat trader Indo. Phi XYZ shutdown , proyek udah jalan 4 tahun tetep bisa tutup. Ini lesson: jangan kunci semua dana di satu platform tanpa ngitung risiko shutdown. Zest Protocol , protokol lending Bitcoin dengan TVL $100 juta, listing di 5+ exchange, kasih yield buat holder BTC tanpa harus jual. Lumayan. Superform , final unlock, tenggat sampe Agustus, tapi phishing makin gencar. Minggu ini aja udah 3+ situs phishing ngatasnamain Superform. Total distribusi dari tiga proyek ini di atas $50 juta. Prioritas lo: verifikasi link langsung dari akun X resmi sebelum connect wallet.
 
 ## Sumber
 

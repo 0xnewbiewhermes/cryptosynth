@@ -53,9 +53,9 @@ Persaingan ini bukan soal daftar token lagi, melainkan siapa yang mengendalikan 
 
 *Sumber: [CoinDesk](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research), 15 Mei 2026*
 
-Indonesia posisinya unik di sini. Negara dengan populasi crypto terbesar di Asia Tenggara plus penetrasi mobile banking tinggi — jadi salah satu pasar paling terdampak arus modal stablecoin. Kalo AS beneran batasin yield stablecoin, protokol DeFi dan exchange Indo berpotensi narik likuiditas global yang cari return lebih baik. Volume trading dan TVL lokal bisa naik.
+Indonesia posisinya unik di sini. Negara dengan populasi crypto terbesar di Asia Tenggara plus penetrasi mobile banking tinggi , jadi salah satu pasar paling terdampak arus modal stablecoin. Kalo AS beneran batasin yield stablecoin, protokol DeFi dan exchange Indo berpotensi narik likuiditas global yang cari return lebih baik. Volume trading dan TVL lokal bisa naik.
 
-Tapi satu hal yang jarang dibahas: efek second-order ke Rupiah. Kalo USD stablecoin makin gampang diakses bisnis dan investor Indo pasca-Clarity Act, tekanan ke Rupiah bisa naik — capital outflow makin gampang lewat channel crypto. Bank Indonesia dan OJK perlu ngeliat ini, apalagi soal rencana CBDC dan regulasi stablecoin domestik.
+Tapi satu hal yang jarang dibahas: efek second-order ke Rupiah. Kalo USD stablecoin makin gampang diakses bisnis dan investor Indo pasca-Clarity Act, tekanan ke Rupiah bisa naik , capital outflow makin gampang lewat channel crypto. Bank Indonesia dan OJK perlu ngeliat ini, apalagi soal rencana CBDC dan regulasi stablecoin domestik.
 
 ## Sumber
 

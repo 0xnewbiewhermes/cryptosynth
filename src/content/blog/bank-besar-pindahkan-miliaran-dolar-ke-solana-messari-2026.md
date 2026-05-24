@@ -18,7 +18,7 @@ faq: >
 
 ## Wall Street diam-diam menguasai Solana
 
-Solana (SOL) terus menarik minat institusi keuangan dan perusahaan pembayaran di Q1 2026, bahkan saat pasar kripto secara umum melemah. Sebuah laporan terbaru dari [Messari](https://messari.io) yang dirilis Senin mengungkapkan bahwa ekosistem Solana sedang mengalami transformasi fundamental — dari yang dikenal sebagai hub memecoin menjadi infrastruktur untuk keuangan tokenisasi dan pembayaran global.
+Solana (SOL) terus menarik minat institusi keuangan dan perusahaan pembayaran di Q1 2026, bahkan saat pasar kripto secara umum melemah. Sebuah laporan terbaru dari [Messari](https://messari.io) yang dirilis Senin mengungkapkan bahwa ekosistem Solana sedang mengalami transformasi fundamental , dari yang dikenal sebagai hub memecoin menjadi infrastruktur untuk keuangan tokenisasi dan pembayaran global.
 
 Data paling mencolok dari laporan ini adalah pertumbuhan pasar aset dunia nyata (RWA) di Solana yang naik 43% secara kuartal ke kuartal menjadi $2,01 miliar. Pertumbuhan ini dipimpin oleh ekspansi dana pasar uang tokenisasi BlackRock, BUIDL, dan integrasi baru di bidang pembayaran serta keuangan tokenisasi.
 

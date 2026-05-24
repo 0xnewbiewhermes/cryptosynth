@@ -80,7 +80,7 @@ Perkembangan ini menunjukkan adopsi institusional terus berjalan meski harga ber
 
 Sinyal early bull dari CryptoQuant itu indikator makro, bukan sinyal trading harian. Gunain sebagai konteks, bukan rekomendasi trading. Level kunci $82.000 harus ditembus buat konfirmasi bullish. Selama masih di bawah, volatilitas jangka pendek masih tinggi.
 
-Data CPI AS yang panas berarti kemungkinan penundaan pemotongan suku bunga Fed — faktor yang bisa ngepress aset berisiko termasuk kripto. Tapi arah masuk institusional tetep positif, yang kasih lantai support jangka panjang.
+Data CPI AS yang panas berarti kemungkinan penundaan pemotongan suku bunga Fed , faktor yang bisa ngepress aset berisiko termasuk kripto. Tapi arah masuk institusional tetep positif, yang kasih lantai support jangka panjang.
 
 ---
 

@@ -73,7 +73,7 @@ Coinbase, salah satu bursa crypto terbesar AS, juga memimpin kenaikan saham cryp
 
 **Peluang:** Jika CLARITY Act akhirnya lolos dari Senat penuh, stablecoin dan token yang terkait dengan infrastruktur kepatuhan (compliance) bisa jadi *outperformer*. Proyek-proyek yang sudah berinvestasi dalam kepatuhan regulasi AS, seperti Circle (USDC) dan Chainlink, berpotensi mendapat keuntungan kompetitif signifikan.
 
-## Yang Perlu Diperhatikan ke Depan
+## Intinya
 
 - **Voting lantai Senat:** Masih membutuhkan 60 suara, perlu dukungan lebih banyak senator Demokrat
 - **Amandemen etika:** Isu konflik kepentingan terkait pejabat pemerintah dan crypto tetap jadi hambatan bipartisan

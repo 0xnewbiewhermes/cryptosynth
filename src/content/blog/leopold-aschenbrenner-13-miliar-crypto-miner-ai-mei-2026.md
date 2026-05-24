@@ -55,7 +55,7 @@ Ini menarik untuk pasar Indonesia. Dengan biaya listrik yang relatif kompetitif 
 
 Bedanya, miner di Indonesia mungkin memiliki tantangan akses ke investasi institusional dan infrastruktur internet yang memadai. Tapi tren global menunjukkan bahwa pasar mulai menghargai miner bukan dari hash rate semata, melainkan dari kapasitas energi dan fleksibilitas infrastruktur yang mereka miliki.
 
-### Yang Perlu Diperhatikan ke Depan
+### Intinya
 
 Perkembangan ini mengirim sinyal kuat bahwa gelombang investasi AI berikutnya tidak hanya bergantung pada perusahaan teknologi besar seperti Nvidia atau Microsoft. Infrastruktur energi dan komputasi yang dimiliki bitcoin miner menjadi komoditas langka yang mulai diakui pasar. Strategi Aschenbrenner juga menunjukkan bahwa rotasi modal dari saham semikonduktor ke infrastruktur fisik akan menjadi tema investasi utama dalam 12-18 bulan ke depan.
 

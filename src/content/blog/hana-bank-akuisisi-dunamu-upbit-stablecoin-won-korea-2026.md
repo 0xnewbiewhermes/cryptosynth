@@ -55,7 +55,7 @@ Langkah Hana Bank menjadi sinyal kuat bahwa institusi keuangan tradisional di As
 
 Dengan pasar remitansi Indonesia yang mencapai miliaran dolar per tahun dari pekerja migran, model remitansi blockchain berbasis stablecoin yang dikembangkan Hana Bank-Dunamu bisa menjadi cetak biru yang diadopsi di Indonesia. Bank-bank Indonesia seperti BCA, Mandiri, atau BRI mungkin perlu mulai mempertimbangkan strategi serupa untuk tetap kompetitif.
 
-Selain itu, munculnya stablecoin won berlisensi bank berpotensi mendorong bank sentral di kawasan ASEAN untuk mempercepat pengembangan CBDC atau memberikan ruang bagi stablecoin berbasis mata uang lokal. Indonesia dengan proyek Garuda (CBDC digital rupiah) bisa mengambil pelajaran dari pendekatan Hana Bank yang menggabungkan stablecoin bank dengan infrastruktur blockchain publik.
+Munculnya stablecoin won berlisensi bank bisa dorong bank sentral ASEAN buat ngebut CBDC atau kasih ruang buat stablecoin mata uang lokal. Indonesia dengan proyek Garuda (CBDC digital rupiah) bisa mengambil pelajaran dari pendekatan Hana Bank yang menggabungkan stablecoin bank dengan infrastruktur blockchain publik.
 
 **Tabel Perbandingan Harga Kripto (17 Mei 2026)**
 

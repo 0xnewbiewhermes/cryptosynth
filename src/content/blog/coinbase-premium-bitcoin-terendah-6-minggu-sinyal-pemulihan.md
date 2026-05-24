@@ -40,7 +40,7 @@ Seperti dilaporkan [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/histo
 
 Di sisi futures, analis CryptoOnChain melaporkan net taker volume 30-day moving average turun ke $58 juta pada 18 Mei dari $243 juta di April. Tapi metrik ini tetap positif selama koreksi terakhir, artinya pembeli futures terus menyerap tekanan jual di harga saat ini.
 
-Buat trader Indo, kondisi ini menarik sih. Coinbase Premium emang nunjukin weak demand dari AS, tapi struktur pasar keseluruhan masih bullish. BTC bertahan di atas $76.000 setelah rally ke $82.000 minggu lalu. Indikator on-chain kayak net taker volume yang positif — artinya koreksi ini lebih ke profit-taking daripada sell-off panik.
+Buat trader Indo, kondisi ini menarik sih. Coinbase Premium emang nunjukin weak demand dari AS, tapi struktur pasar keseluruhan masih bullish. BTC bertahan di atas $76.000 setelah rally ke $82.000 minggu lalu. Indikator on-chain kayak net taker volume yang positif , artinya koreksi ini lebih ke profit-taking daripada sell-off panik.
 
 Yang menarik, perbedaan jam trading antara AS dan Asia juga jadi faktor. Pas premium Coinbase negatif di jam AS, harga sering pulih pas pasar Asia aktif. Buat lo yang trading di jam Asia, momentum pagi hari bisa kasih entry yang lebih oke.
 

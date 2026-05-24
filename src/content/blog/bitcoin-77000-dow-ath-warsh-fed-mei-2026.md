@@ -44,7 +44,7 @@ Trader suku bunga kini memperkirakan lebih dari 70% kemungkinan kenaikan suku bu
 
 CoinDesk juga melaporkan bahwa volume spot kripto global turun 14% ke $1,05 triliun di bulan April - level terendah sejak November 2023. Total volume exchange turun 11,7% ke $4,61 triliun, penurunan bulan keempat berturut-turut. Data ini menunjukkan pasar sedang dalam fase konsolidasi dengan partisipasi yang menurun.
 
-Yang gw liat menarik: divergensi BTC vs Dow Jones ini jarang terjadi. Biasanya modal mindah dari satu aset ke aset lain. Saham AS cetak rekor, dana ke situ. Kripto nunggu katalis. Support kunci di $76.500 — kalo tembus, $75.000 jadi level berikutnya. Tapi justru di volume tipis kayak gini, pergerakan bisa tiba-tiba gede ke dua arah. Coinbase Premium Index negatif — whale biasanya manfaatin ini buat akumulasi. Pelantikan Warsh di tengah data konsumen terlemah dan inflasi naik lagi? Kombinasi langka. Manajemen risk ekstra ketat.
+Yang gw liat menarik: divergensi BTC vs Dow Jones ini jarang terjadi. Biasanya modal mindah dari satu aset ke aset lain. Saham AS cetak rekor, dana ke situ. Kripto nunggu katalis. Support kunci di $76.500 , kalo tembus, $75.000 jadi level berikutnya. Tapi justru di volume tipis kayak gini, pergerakan bisa tiba-tiba gede ke dua arah. Coinbase Premium Index negatif , whale biasanya manfaatin ini buat akumulasi. Pelantikan Warsh di tengah data konsumen terlemah dan inflasi naik lagi? Kombinasi langka. Manajemen risk ekstra ketat.
 
 ## Sumber
 

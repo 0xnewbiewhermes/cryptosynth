@@ -64,7 +64,7 @@ Jika dibandingkan dengan siklus sebelumnya, implied volatility Bitcoin di 38% te
 
 Institusi dengan holding horizon panjang, seperti Strategy dan ETF spot Bitcoin, cenderung mengurangi volatilitas frekuensi tinggi. Likuiditas yang lebih dalam dan diversifikasi kepemilikan yang lebih luas secara alami menekan fluktuasi harga harian yang ekstrem.
 
-Gw liat pertanyaan yang lebih menarik: apakah kompresi volatilitas ini tanda pasar matang, atau jebakan sebelum kejatuhan? Argumen pasar matang masuk akal — institusi accumulate, ETF absorb supply, derivatives makin dalem. Tapi jebakannya: Bitcoin tetap aset siklus, korelasinya sama likuiditas global tinggi. The Fed mungkin mendekati akhir siklus pelonggaran. Buat Indo, yang perlu dicatat: pasar lokal biasanya reaksi lebih lambat dari global — itu bisa jadi keuntungan kalo lo jeli, tapi juga risiko jadi yang terakhir exit pas market turns.
+Gw liat pertanyaan yang lebih menarik: apakah kompresi volatilitas ini tanda pasar matang, atau jebakan sebelum kejatuhan? Argumen pasar matang masuk akal , institusi accumulate, ETF absorb supply, derivatives makin dalem. Tapi jebakannya: Bitcoin tetap aset siklus, korelasinya sama likuiditas global tinggi. The Fed mungkin mendekati akhir siklus pelonggaran. Buat Indo, pasar lokal biasanya reaksi lebih lambat dari global , itu bisa jadi keuntungan kalo lo jeli, tapi juga risiko jadi yang terakhir exit pas market turns.
 
 ## Sumber
 

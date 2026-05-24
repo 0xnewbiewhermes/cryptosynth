@@ -46,9 +46,9 @@ Ada beberapa alasan mengapa boom AI di pasar tradisional juga menguntungkan cryp
 
 4. **Monetisasi Model**: Creator AI bisa memonetisasi model mereka melalui token dan smart contract.
 
-Buat lo trader Indo, korelasi antara saham AI tradisional sama token AI di blockchain makin keliatan sekarang. FET naik 15% pasca IPO Cerebras, RNDR 10% — bukan kebetulan. Tapi volatilitas di sektor ini gila-gilaan.
+Buat lo trader Indo, korelasi antara saham AI tradisional sama token AI di blockchain makin keliatan sekarang. FET naik 15% pasca IPO Cerebras, RNDR 10% , bukan kebetulan. Tapi volatilitas di sektor ini gila-gilaan.
 
-Yang gw liat: IPO Cerebras ini sinyal AI boom masih panjang. Tapi gak semua token AI bakal bertahan dalam setahun ke depan. Seleksi alam lagi jalan — yang punya use case jelas dan teknologi beneran yang lolos, sisanya bakal mati. Jadi kalo lo positioning di sini, pilih yang fundamentalnya kuat, jangan cuma ikut hype ticker.
+Yang gw liat: IPO Cerebras ini sinyal AI boom masih panjang. Tapi gak semua token AI bakal bertahan dalam setahun ke depan. Seleksi alam lagi jalan , yang punya use case jelas dan teknologi beneran yang lolos, sisanya bakal mati. Jadi kalo lo positioning di sini, pilih yang fundamentalnya kuat, jangan cuma ikut hype ticker.
 
 ---
 

@@ -54,7 +54,7 @@ USDC adalah stablecoin utama yang digunakan di Hyperliquid. Dengan mengelola lik
 
 Buat trader Indo, kerjasama ini dampaknya lumayan konkret.
 
-Likuiditas lebih dalam — Coinbase manage USDC langsung di Hyperliquid, spread bakal makin ketat. Akses juga lebih gampang: Coinbase bisa jadi jembatan buat masuk ekosistem Hyperliquid. Terus ada peluang yield: provide liquidity USDC di Hyperliquid kasih return yang lumayan.
+Likuiditas lebih dalam , Coinbase manage USDC langsung di Hyperliquid, spread bakal makin ketat. Akses juga lebih gampang: Coinbase bisa jadi jembatan buat masuk ekosistem Hyperliquid. Terus ada peluang yield: provide liquidity USDC di Hyperliquid kasih return yang lumayan.
 
 Tapi ya.. perpetual trading dengan leverage tinggi tetaplah judi. Risk management jangan sampe kendor.
 

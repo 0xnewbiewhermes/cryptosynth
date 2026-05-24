@@ -30,7 +30,7 @@ Produk utama yang akan didanai dari putaran ini adalah "Turnkey Verifiable Cloud
 
 Teknologi ini sangat penting untuk ekosistem DeFi dan institusi yang membutuhkan tingkat keamanan tinggi. Dengan Verifiable Cloud, Turnkey menawarkan solusi yang menggabungkan keamanan hardware wallet dengan fleksibilitas cloud computing.
 
-Gw liat pendanaan Turnkey jadi sinyal buat ekosistem crypto Indo. Pertama, startup infrastruktur dapet pendanaan gede nunjukin industri crypto bukan cuma soal trading dan spekulasi — fondasi teknologi juga dibangun. Kedua, teknologi kayak Verifiable Cloud bisa jadi dasar buat exchange dan wallet lokal ningkatin keamanan. Dengan adopsi crypto yang terus tumbuh di Indo, kebutuhan infrastruktur keamanan yang robust makin mendesak. Ketiga, Circle Ventures terlibat — ini menarik karena USDC banyak dipake di Asia Tenggara. Bisa jadi sinyal Circle makin serius ngembangin ekosistem di kawasan ini.
+Gw liat pendanaan Turnkey jadi sinyal buat ekosistem crypto Indo. Pertama, startup infrastruktur dapet pendanaan gede nunjukin industri crypto bukan cuma soal trading dan spekulasi , fondasi teknologi juga dibangun. Kedua, teknologi kayak Verifiable Cloud bisa jadi dasar buat exchange dan wallet lokal ningkatin keamanan. Dengan adopsi crypto yang terus tumbuh di Indo, kebutuhan infrastruktur keamanan yang robust makin mendesak. Ketiga, Circle Ventures terlibat , ini menarik karena USDC banyak dipake di Asia Tenggara. Bisa jadi sinyal Circle makin serius ngembangin ekosistem di kawasan ini.
 
 ## Tren Pendanaan Infrastruktur Crypto 2026
 
@@ -41,7 +41,7 @@ Beberapa pendanaan besar lainnya di sektor infrastruktur tahun ini termasuk:
 - Chainalysis: $170 juta untuk analytics dan compliance
 - Alchemy: $250 juta untuk developer tools
 
-Tren ini menunjukkan bahwa industri crypto sedang matang dari fase spekulatif ke fase pembangunan infrastruktur yang berkelanjutan.
+Industri crypto lagi mateng dari fase spekulatif ke fase bangun infrastruktur beneran.
 
 ---
 

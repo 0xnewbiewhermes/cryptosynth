@@ -16,17 +16,17 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-Gw liat AI Financial Corporation — perusahaan treasury publik milik World Liberty Financial (WLF) yang terafiliasi sama Trump — baru aja keluar peringatan "going concern" di filing SEC. Artinya? Ada keraguan serius apakah perusahaan ini bisa bertahan 12 bulan ke depan.
+Gw liat AI Financial Corporation , perusahaan treasury publik milik World Liberty Financial (WLF) yang terafiliasi sama Trump , baru aja keluar peringatan "going concern" di filing SEC. Artinya? Ada keraguan serius apakah perusahaan ini bisa bertahan 12 bulan ke depan.
 
 Berdasarkan laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/19/world-liberty-financial-wlfi-treasury-company-ai-financial-warns-in-sec-filing-that-it-may-not-survive-the-year), AI Financial (ticker NASDAQ: AIFC) catat rugi bersih **$271,5 juta** ($2,14 per saham) di Q1 2026. Mayoritas dari unrealized loss **$348,3 juta** dari kepemilikan 7,28 miliar token WLFI.
 
 **Posisi WLFI-nya gimana?** Mereka beli token WLFI dengan basis biaya ~$1,46 miliar. Per akhir Maret, nilai tercatat udah anjlok ke $706 juta. Token WLFI sendiri ambles **~87% dari ATH**. Yang bikin makin runyam: token ini masih dalam masa lock-up. Perusahaan cuma punya **$10,5 juta kas** dengan defisit modal kerja yang gede banget. Gak bisa jual token untuk cairin dana.
 
-Auditor ngasih peringatan "keraguan substansial" soal going concern — ngeliat dari kerugian berulang, arus kas negatif, defisit modal kerja, dan likuiditas yang super tipis. Perusahaan masih ngarep bisa dapet modal tambahan lewat saham atau utang, tapi belum ada kepastian pendanaan. Dan token WLFI yang terkunci? Gak bisa dijual atau dijadikan agunan.
+Auditor ngasih peringatan "keraguan substansial" soal going concern , ngeliat dari kerugian berulang, arus kas negatif, defisit modal kerja, dan likuiditas yang super tipis. Perusahaan masih ngarep bisa dapet modal tambahan lewat saham atau utang, tapi belum ada kepastian pendanaan. Dan token WLFI yang terkunci? Gak bisa dijual atau dijadikan agunan.
 
-Ini kasus yang langka — entitas treasury publik proyek DeFi ngaku secara terbuka risikonya. Bedanya sama Strategy/MSTR di Bitcoin: mereka bisa jual BTC kapan aja buat likuiditas. Token WLFI yang terkunci bikin AI Financial nggak punya fleksibilitas itu.
+Ini kasus yang langka , entitas treasury publik proyek DeFi ngaku secara terbuka risikonya. Bedanya sama Strategy/MSTR di Bitcoin: mereka bisa jual BTC kapan aja buat likuiditas. Token WLFI yang terkunci bikin AI Financial nggak punya fleksibilitas itu.
 
-Buat lo investor Indo, ini jadi contoh nyata: proyek DeFi dengan political branding tinggi punya risiko unik. Token yang terkunci di treasury perusahaan publik bisa jadi bom waktu likuiditas waktu harga ambles. Di Indonesia emang belum banyak proyek DeFi berbau politis, tapi trennya mulai kelihatan. Model di mana treasury perusahaan publik cuma bergantung ke satu aset yang gak likuid — ini struktur berisiko tinggi yang sebaiknya lo hindari.
+Buat lo investor Indo, ini jadi contoh nyata: proyek DeFi dengan political branding tinggi punya risiko unik. Token yang terkunci di treasury perusahaan publik bisa jadi bom waktu likuiditas waktu harga ambles. Di Indonesia emang belum banyak proyek DeFi berbau politis, tapi trennya mulai kelihatan. Model di mana treasury perusahaan publik cuma bergantung ke satu aset yang gak likuid , ini struktur berisiko tinggi yang sebaiknya lo hindari.
 
 **Ke depannya gimana?** Semua tergantung tiga hal: bisa gak mereka kumpulin modal baru, ada potensi unlock token WLFI atau nggak, atau harga WLFI balik naik signifikan. Sayangnya gak ada yang terjamin dalam waktu dekat.
 

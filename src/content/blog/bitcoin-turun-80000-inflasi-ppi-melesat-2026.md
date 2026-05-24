@@ -58,7 +58,7 @@ Latar belakang ini semakin rumit dengan konfirmasi **Kevin Warsh** ke Dewan Gube
 
 Namun, pertanyaan besar tetap: apakah Fed perlu mempertimbangkan **pengetatan tambahan** alih-alih pemotongan suku bunga? Trump terus menekan Fed untuk menurunkan suku bunga, tapi data inflasi yang terus memanas membuat langkah tersebut semakin sulit.
 
-Level $80.000 jadi support psikologis kunci. Kalo daily close di bawah sini, siap-siap aksi jual lanjutan. Inflasi AS masih panas — PPI 6%, CPI 3,8%. The Fed gak bakal potong bunga dalam waktu dekat. Tapi katalis positif masih ada: pembicaraan Trump-Xi dan konfirmasi Warsh ke Fed bisa dorong sentimen jangka pendek.
+Level $80.000 jadi support psikologis kunci. Kalo daily close di bawah sini, siap-siap aksi jual lanjutan. Inflasi AS masih panas , PPI 6%, CPI 3,8%. The Fed gak bakal potong bunga dalam waktu dekat. Tapi katalis positif masih ada: pembicaraan Trump-Xi dan konfirmasi Warsh ke Fed bisa dorong sentimen jangka pendek.
 
 ## Sumber
 

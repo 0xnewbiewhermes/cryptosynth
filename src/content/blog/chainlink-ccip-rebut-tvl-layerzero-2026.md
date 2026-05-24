@@ -46,7 +46,7 @@ Beberapa protokol besar yang bermigrasi ke CCIP:
 - **Compound**: Untuk cross-chain yield
 - **MakerDAO**: Untuk cross-chain collateral
 
-Migrasi ini menunjukkan bahwa keamanan adalah faktor utama dalam pemilihan infrastruktur cross-chain.
+Keamanan jadi faktor utama dalam milih infrastruktur cross-chain — ini yang dorong migrasi.
 
 Buat lo yang main DeFi di Indo, insiden LayerZero ini ngasih gambaran jelas: keamanan infrastruktur itu nomor satu. Jangan tergiur yield gede kalo bridgenya belum teruji. Beberapa catatan gw:
 
@@ -55,7 +55,7 @@ Buat lo yang main DeFi di Indo, insiden LayerZero ini ngasih gambaran jelas: kea
 - **Pantau berita**: Keamanan DeFi berubah cepet, exploit bisa datang dari mana aja.
 - **Insurance**: Udah mulai banyak protokol DeFi yang nawarin asuransi, patut dipertimbangin.
 
-Gw liat migrasi dari LayerZero ke Chainlink CCIP ini titik balik buat infrastruktur cross-chain. Pasar kasih sinyal jelas: keamanan di atas segalanya. Ke depannya, bakal ada standarisasi keamanan yang lebih ketat buat bridge. Buat kita di Indo, artinya lebih banyak pilihan bridge yang aman — tapi tetep, riset sendiri sebelum make bridge apa pun.
+Gw liat migrasi dari LayerZero ke Chainlink CCIP ini titik balik buat infrastruktur cross-chain. Pasar kasih sinyal jelas: keamanan di atas segalanya. Ke depannya, bakal ada standarisasi keamanan yang lebih ketat buat bridge. Buat kita di Indo, artinya lebih banyak pilihan bridge yang aman , tapi tetep, riset sendiri sebelum make bridge apa pun.
 
 ---
 

@@ -72,7 +72,7 @@ Buat lo yang main DeFi, peringatan CertiK ini wake-up call. Beberapa hal yang gw
 - **Pantau berita**: Keamanan DeFi berubah cepat, lo ketinggalan dikit bisa kena imbasnya.
 - **Hardware wallet**: Masih cara paling aman buat nyimpen aset utama.
 
-Soal masa depan, gw liat kesenjangan teknologi antara attacker dan defender ini masalah serius. Tapi buat Indonesia, celah ini sebenernya peluang. Talenta AI di Indo berkembang pesat, dan potensi jadi pusat pengembangan keamanan DeFi berbasis AI itu nyata. Bukan cuma soal ngelindungin aset, tapi juga soal siapa yang bisa bikin solusi pertahanan yang lebih cerdas dari serangan AI — dan itu pasar yang gede banget.
+Soal masa depan, gw liat kesenjangan teknologi antara attacker dan defender ini masalah serius. Tapi buat Indonesia, celah ini sebenernya peluang. Talenta AI di Indo berkembang pesat, dan potensi jadi pusat pengembangan keamanan DeFi berbasis AI itu nyata. Bukan cuma soal ngelindungin aset, tapi juga soal siapa yang bisa bikin solusi pertahanan yang lebih cerdas dari serangan AI , dan itu pasar yang gede banget.
 
 ---
 

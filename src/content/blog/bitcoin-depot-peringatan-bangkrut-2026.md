@@ -24,7 +24,7 @@ CFO David Gray ([via Cointelegraph](https://cointelegraph.com/news/bitcoin-depot
 
 "Hasil dari faktor-faktor ini, manajemen menyimpulkan bahwa keraguan substansial ada tentang kemampuan perusahaan untuk melanjutkan sebagai going concern," bunyi laporannya.
 
-**Penurunan revenue 49%, rugi bersih $9,5 juta.** Revenue Q1 2026 turun 49% YoY ke ~$83,5 juta ([Decrypt](https://decrypt.co/368035/bitcoin-depot-bankruptcy-warning-atm-revenue-falls-regulatory-scrutiny)). Penyebabnya: volume transaksi berkurang akibat regulasi plus penerapan kontrol kepatuhan yang lebih ketat — mereka mulai mewajibkan ID pribadi buat setiap transaksi. Rugi bersih $9,5 juta, berbanding terbalik sama laba $12,2 juta di periode sama tahun lalu. Kas dan setara kas turun $21,6 juta, sisa $44 juta.
+**Penurunan revenue 49%, rugi bersih $9,5 juta.** Revenue Q1 2026 turun 49% YoY ke ~$83,5 juta ([Decrypt](https://decrypt.co/368035/bitcoin-depot-bankruptcy-warning-atm-revenue-falls-regulatory-scrutiny)). Penyebabnya: volume transaksi berkurang akibat regulasi plus penerapan kontrol kepatuhan yang lebih ketat , mereka mulai mewajibkan ID pribadi buat setiap transaksi. Rugi bersih $9,5 juta, berbanding terbalik sama laba $12,2 juta di periode sama tahun lalu. Kas dan setara kas turun $21,6 juta, sisa $44 juta.
 
 **Gugatan dari beberapa negara bagian AS.** Maine's Consumer Credit Protection Bureau udah kantongin $1,5 juta pada Januari 2026. Massachusetts dan Iowa juga gugat perusahaan. Tuduhannya: harga Bitcoin Depot menyesatkan, sadar memfasilitasi penipuan crypto, dan kebijakan refund predator. Meski Mahkamah Agung Iowa mutusin tahun lalu bahwa perusahaan berhak nyimpen kas yang udah didepositkan.
 
@@ -34,11 +34,11 @@ Ini cerminan tren regulasi makin ketat terhadap ATM crypto di AS. FBI laporin pe
 
 **Saham BTM anjlok 80%** dalam setahun. Dalam 5 hari sebelum pengumuman, saham turun 40%+ dari $5,01 ke $2,93. Perdagangan terakhir di $2,86, sempat nyentuh $2,56.
 
-Bitcoin Depot tunjuk Alex Holmes (ex-CEO MoneyGram 2016-2024) sebagai CEO baru di Maret, gantiin Scott Buchanan yang cuma menjabat 3 bulan — sinyal fokus ke kepatuhan regulasi global.
+Bitcoin Depot tunjuk Alex Holmes (ex-CEO MoneyGram 2016-2024) sebagai CEO baru di Maret, gantiin Scott Buchanan yang cuma menjabat 3 bulan , sinyal fokus ke kepatuhan regulasi global.
 
 **Kanada juga usul larangan ATM crypto.** Spring Economic Update 2026 usul larangan ATM crypto sebagai respons terhadap penipuan dan pencucian uang. Bitcoin Depot punya ~220 mesin di Kanada.
 
-Kasus Bitcoin Depot nunjukin: infrastruktur crypto yang berhubungan langsung sama konsumen ritel kena tekanan regulasi jauh lebih berat dibanding platform trading online. ATM crypto jadi sasaran empuk karena sifatnya yang anonim dan sering dipake penipu buat nargetin kelompok rentan — terutama lansia.
+Kasus Bitcoin Depot nunjukin: infrastruktur crypto yang berhubungan langsung sama konsumen ritel kena tekanan regulasi jauh lebih berat dibanding platform trading online. ATM crypto jadi sasaran empuk karena sifatnya yang anonim dan sering dipake penipu buat nargetin kelompok rentan , terutama lansia.
 
 Buat lo investor Indo yang pantau saham-saham terkait crypto: exposure ke perusahaan crypto yang beroperasi di banyak yurisdiksi artinya lo harus siap hadapin risiko regulasi yang beda-beda di setiap negara. Model bisnis yang bergantung pada volume transaksi fisik super rentan terhadap perubahan kebijakan lokal.
 

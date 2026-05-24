@@ -49,7 +49,7 @@ Pergerakan massal ini menandai pergeseran signifikan dalam lanskap infrastruktur
 
 Keputusan Kraken ini kasih sinyal jelas buat komunitas crypto Indo:
 
-Keamanan bridge jadi prioritas utama. Buat lo yang pake wrapped asset (wBTC, kBTC, dll.), perhatiin infrastruktur bridge yang dipake platform pilihan lo. Chainlink CCIP mulai jadi standar industri — makin banyak protokol besar migrasi ke CCIP. Tapi exploit Kelp DAO $292 juta ngingetin: dana di bridge cross-chain selalu punya risiko tambahan dibanding aset native.
+Keamanan bridge jadi prioritas utama. Buat lo yang pake wrapped asset (wBTC, kBTC, dll.), perhatiin infrastruktur bridge yang dipake platform pilihan lo. Chainlink CCIP mulai jadi standar industri , makin banyak protokol besar migrasi ke CCIP. Tapi exploit Kelp DAO $292 juta ngingetin: dana di bridge cross-chain selalu punya risiko tambahan dibanding aset native.
 
 ## Sumber
 

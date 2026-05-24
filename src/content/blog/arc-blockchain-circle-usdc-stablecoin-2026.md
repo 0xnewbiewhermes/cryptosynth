@@ -41,7 +41,7 @@ Public testnet Arc diluncurkan pada Oktober 2025. Mainnet beta diharapkan hadir 
 
 “Arc's fast finality and native gas coupled with Circle's CCTP and Gateway interoperability service-as-a-stablecoin liquidity hub, enable USDC to move across the blockchain ecosystem freely,” ujar Mayer.
 
-Buat pasar Indo, ARC ini menarik karena ngasih solusi ke masalah lama: biaya transaksi yang unpredictable pas congestion. Dengan USDC sebagai gas, lo tau exact fee sebelum execute transaksi. Gak ada lagi drama gas war pas mint NFT. Compliance-friendly-nya juga buka peluang buat institusi lokal — bank atau fintech Indo yang mau eksperimen tokenisasi aset atau settlement on-chain punya infrastruktur yang lebih jelas. Tapi ini masih testnet, jadi semua masih spekulasi. Yang jelas, Circle punya track record — USDC udah beredar luas banget, bukan proyek anonim.
+Buat pasar Indo, ARC ini menarik karena ngasih solusi ke masalah lama: biaya transaksi yang unpredictable pas congestion. Dengan USDC sebagai gas, lo tau exact fee sebelum execute transaksi. Gak ada lagi drama gas war pas mint NFT. Compliance-friendly-nya juga buka peluang buat institusi lokal , bank atau fintech Indo yang mau eksperimen tokenisasi aset atau settlement on-chain punya infrastruktur yang lebih jelas. Tapi ini masih testnet, jadi semua masih spekulasi. Yang jelas, Circle punya track record , USDC udah beredar luas banget, bukan proyek anonim.
 
 ## Sumber
 

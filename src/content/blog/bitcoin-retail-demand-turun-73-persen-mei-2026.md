@@ -58,7 +58,7 @@ Wintermute dalam risetnya menjelaskan bahwa Bitcoin "gagal di 200-day MA pada ma
 
 Fenomena menarik lainnya adalah perubahan pangsa pasar futures. Binance sebelumnya menguasai 40%-44% volume futures global berbasis USDT dari Oktober 2024 hingga Maret 2026. Namun pada Mei 2026, pangsa Binance turun ke 21,1% sementara OKX naik ke 26,3%, menandai pertama kalinya terjadi pembalikan kepemimpinan exchange dalam siklus ini.
 
-Yang gw tangkap: permintaan ritel turun 73%, futures selling tembus $2 miliar, spot demand negatif 65 hari berturut-turut. Tapi futures demand positif +193.000 BTC dalam 30 hari. Divergensi spot vs futures ini yang bahaya — momentum kenaikan rapuh, bisa balik kapan aja kalo tekanan jual di derivatif naik. BTC di $76.700, ilang semua gain Mei. Dengan makro masih uncertainty — suku bunga, Iran, yield obligasi — pemulihan bakal butuh waktu.
+Yang gw tangkap: permintaan ritel turun 73%, futures selling tembus $2 miliar, spot demand negatif 65 hari berturut-turut. Tapi futures demand positif +193.000 BTC dalam 30 hari. Divergensi spot vs futures ini yang bahaya , momentum kenaikan rapuh, bisa balik kapan aja kalo tekanan jual di derivatif naik. BTC di $76.700, ilang semua gain Mei. Dengan makro masih uncertainty , suku bunga, Iran, yield obligasi , pemulihan bakal butuh waktu.
 
 ## Sumber
 

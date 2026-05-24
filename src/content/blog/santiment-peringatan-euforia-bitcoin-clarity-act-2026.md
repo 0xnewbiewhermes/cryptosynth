@@ -62,7 +62,7 @@ Buat trader Indo, ini dilema klasik. Sentimen global lagi panas setelah berita p
 
 *Sumber: Cointelegraph, 16 Mei 2026*
 
-## Yang Perlu Diperhatikan ke Depan
+## Intinya
 
 - CLARITY Act selanjutnya akan dibawa ke voting di lantai Senat penuh, yang waktunya belum ditentukan
 - TD Cowen menaikkan probabilitas RUU ini lolos dari 33% menjadi 40%, sementara Benchmark menilai RUU ini masih butuh lebih banyak dukungan dari kubu Demokrat

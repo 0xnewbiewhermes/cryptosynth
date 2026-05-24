@@ -75,11 +75,11 @@ Mei 2026 menjadi bulan yang berat bagi keamanan DeFi. Setidaknya 12 protokol tel
 - KelpDAO - [eksploitasi $293 juta](https://www.cryptosynth.id/blog/kelpdao-hack-293-juta-defi-matu-2026/)
 - TrustedVolumes dan Ekubo
 
-Ini menunjukkan tren yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Buat lo yang main di Indo, makin selektif milih protokol buat nyimpen atau minjemin aset — apalagi yang related sama BTC.
+Ini menunjukkan tren yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Buat lo yang main di Indo, makin selektif milih protokol buat nyimpen atau minjemin aset , apalagi yang related sama BTC.
 
 ### Yang bisa dipelajari
 
-Ukuran TVL atau popularitas protokol bukan jaminan aman. Echo Protocol adalah protokol BTCFi yang lagi naik daun, tapi kelemahan fundamental di admin key-nya bikin rentan. Prinsip "not your keys, not your crypto" berlaku juga di level smart contract — protokol dengan single point of failure di admin key risikonya sama kayak exchange terpusat.
+Ukuran TVL atau popularitas protokol bukan jaminan aman. Echo Protocol adalah protokol BTCFi yang lagi naik daun, tapi kelemahan fundamental di admin key-nya bikin rentan. Prinsip "not your keys, not your crypto" berlaku juga di level smart contract , protokol dengan single point of failure di admin key risikonya sama kayak exchange terpusat.
 
 Yang menarik, pemulihan 955 eBTC ($73 juta) oleh tim Echo termasuk langka di insiden peretasan DeFi. Biasanya dana yang dicuri gak balik lagi. Keberhasilan ini nunjukin respons cepet dan koordinasi sama mitra kayak Curvance bisa bikin perbedaan signifikan dalam batasin kerugian.
 

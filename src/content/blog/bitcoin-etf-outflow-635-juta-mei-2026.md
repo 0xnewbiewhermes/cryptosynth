@@ -49,7 +49,7 @@ Adam Haeems, Head of Asset Management di Tesseract Group (AUM >$500 juta), mengi
 *Sumber: CoinDesk, 14 Mei 2026*
 
 Gw breakdown aja:
-- Outflow $635 juta dalam sehari — terbesar sejak Januari. Tapi korelasi ETF flow sama harga BTC udah melemah, koefisiennya tinggal 0,16. Jadi outflow gak otomatis bearish.
+- Outflow $635 juta dalam sehari , terbesar sejak Januari. Tapi korelasi ETF flow sama harga BTC udah melemah, koefisiennya tinggal 0,16. Jadi outflow gak otomatis bearish.
 - Resistance kunci di $82.000 (200-day SMA). Selama gak tembus situ, rally bakal terbatas.
 - Inflasi AS masih panas. PPI 6%, CPI 3,8%. The Fed gak bakal potong bunga dalam waktu dekat. Ini tekanan buat semua aset risk-on.
 - Daripada panic selling, mending DCA di level under $80.000. Volatilitas gini sering jadi momen entry yang lebih baik daripada pas euforia.

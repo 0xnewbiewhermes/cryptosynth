@@ -50,15 +50,7 @@ Analis dari FxPro, Alex Kuptsikevich, menjelaskan bahwa konvergensi dua MA ini m
 
 Dari sisi makro, Naeem Aslam dari Zaye Capital Markets mengatakan bahwa tekanan jangka pendek masih ada karena arus keluar ETF dan sikap hati-hati terhadap makroekonomi. Namun, dalam jangka panjang, regulasi yang mendukung, akses institusional, dan narasi aset cadangan terus memperkuat fundamental Bitcoin.
 
-## Implikasi buat Trader Indonesia
-
-Kombinasi tiga metrik on-chain ini punya arti khusus buat trader Indonesia. Stabilisasi realized cap di $1,08 triliun menunjukkan bahwa harga di bawah $65.000 kemungkinan besar adalah zona diskon, bukan awal kehancuran baru. Buat investor yang punya perspektif jangka panjang, area $73.000-$76.000 bisa jadi zona akumulasi yang menarik.
-
-Lonjakan pasokan long-term holder sebesar 400.000 BTC sejak Februari juga menjadi sinyal kuat bahwa smart money sedang mengumpulkan Bitcoin. Ini pola yang sama yang terjadi sebelum reli 2023 dan 2024. Trader ritel di Indonesia bisa memanfaatkan momen koreksi untuk masuk secara bertahap (DCA) daripada mencoba timing market.
-
-Risiko makro tetap ada. Imbal hasil Treasury AS yang melonjak dan potensi perang dagang bisa memicu koreksi lebih dalam. Kuncinya adalah manajemen risiko: gunakan ukuran posisi yang wajar dan jangan over-leverage di saat volatilitas tinggi.
-
-Yang paling penting dari semua analisis ini: meskipun metrik on-chain optimistis, pasar kripto tetap sangat tidak terduga dalam jangka pendek. Pantau terus level $76.000 sebagai support kunci dan $82.500 sebagai resistance. Breakout di atas $82.500 akan menjadi konfirmasi teknis yang lebih kuat bahwa bottom benar-benar sudah terbentuk.
+Realized cap stabil di $1,08T — artinya harga di bawah $65.000 kemungkinan zona diskon, bukan awal kehancuran. RHODL ratio di atas 5 — itu level yang cuma terjadi 2 kali sebelumnya: bottom 2015 dan 2022. LTH supply naik 400.000 BTC sejak Februari — smart money accumulate. Funding rate negatif berbulan-bulan — historically selalu diikuti rebound. Tapi risiko makro tetap: yield Treasury naik, potensi perang dagang. Kuncinya: jangan over-leverage, DCA aja di area $73.000-$76.000.
 
 ## Sumber
 

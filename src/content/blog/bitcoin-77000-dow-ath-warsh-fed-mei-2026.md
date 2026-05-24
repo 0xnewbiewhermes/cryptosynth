@@ -44,15 +44,7 @@ Trader suku bunga kini memperkirakan lebih dari 70% kemungkinan kenaikan suku bu
 
 CoinDesk juga melaporkan bahwa volume spot kripto global turun 14% ke $1,05 triliun di bulan April - level terendah sejak November 2023. Total volume exchange turun 11,7% ke $4,61 triliun, penurunan bulan keempat berturut-turut. Data ini menunjukkan pasar sedang dalam fase konsolidasi dengan partisipasi yang menurun.
 
-## Strategi untuk Trader Indonesia
-
-Divergensi antara BTC dan Dow Jones mengirim sinyal penting untuk pasar Indonesia. Biasanya, likuiditas mengalir dari satu aset ke aset lain dalam situasi seperti ini. Saham AS menarik modal karena mencapai rekor, sementara kripto masih menunggu katalis baru untuk keluar dari rentang sempit.
-
-Level support kunci BTC ada di $76.500 (intraday low Jumat). Jika tembus, $75.000 menjadi level berikutnya. Resistensi di $78.000 dan $80.000. Dengan volume yang tipis (terendah sejak November 2023), pergerakan harga bisa tiba-tiba membesar - baik ke atas maupun ke bawah.
-
-Analisis dari data on-chain juga menarik: Coinbase Premium Index yang negatif biasanya dimanfaatkan whale untuk akumulasi, seperti dicatat analis CW. Trader Indonesia yang punya perspektif jangka menengah bisa memanfaatkan momen pelemahan permintaan AS ini, tapi tetap harus waspada dengan risiko stagflasi yang dihadapi kebijakan Fed ke depan.
-
-Pelantikan Kevin Warsh sebagai Gubernur The Fed di tengah data konsumen terlemah dalam sejarah dan inflasi yang kembali naik menciptakan ketidakpastian unik. Untuk investor kripto Indonesia, kombinasi volume rendah, divergensi pasar, dan perubahan kepemimpinan Fed adalah kondisi yang membutuhkan manajemen risiko ekstra ketat.
+Yang gw liat menarik: divergensi BTC vs Dow Jones ini jarang terjadi. Biasanya modal mindah dari satu aset ke aset lain. Saham AS cetak rekor, dana ke situ. Kripto nunggu katalis. Support kunci di $76.500 — kalo tembus, $75.000 jadi level berikutnya. Tapi justru di volume tipis kayak gini, pergerakan bisa tiba-tiba gede ke dua arah. Coinbase Premium Index negatif — whale biasanya manfaatin ini buat akumulasi. Pelantikan Warsh di tengah data konsumen terlemah dan inflasi naik lagi? Kombinasi langka. Manajemen risk ekstra ketat.
 
 ## Sumber
 

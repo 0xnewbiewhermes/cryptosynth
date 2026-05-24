@@ -75,15 +75,9 @@ Beredar banyak link phishing yang mengklaim memberikan "free $CLAW airdrop" atau
 - Situs PancakeSwap resmi setelah listing
 - Link dari akun X resmi [@spacey2025](https://x.com/spacey2025)
 
-## Strategi untuk Pasar Indonesia
+Dua proyek ini beda banget pendekatannya. Arc Network farming — gratis, daily check-in doang, potensi airdrop dari proyek backed institusi. Cuma butuh koneksi internet dan browser. Model points farming kayak gini mirip loyalty program, cocok buat yang konsisten. Tapi gak ada jaminan token $ARC bakal rilis, dan timeline masih abu-abu.
 
-Dua proyek ini menawarkan pendekatan yang berbeda. Arc Network adalah farming jangka panjang dengan biaya operasional nol, cocok untuk pengguna yang bisa konsisten daily check-in. $CLAW memberikan kesempatan entry di hari pertama listing dengan risiko volatilitas tinggi. Keduanya relevan untuk pemburu airdrop di Indonesia.
-
-Arc Network menawarkan farming berbiaya rendah (gratis, cukup koneksi internet dan browser) untuk potensi airdrop dari proyek yang didukung institusi besar. Model points farming seperti ini mirip dengan program loyalitas yang sudah sukses di proyek-proyek sebelumnya. Karena masih awal (testnet), pengguna Indonesia yang mulai sekarang punya kesempatan membangun posisi yang baik sebelum mainnet rilis. Kelemahannya, tidak ada jaminan token dan timeline masih belum pasti.
-
-$CLAW memberikan opsi berbeda: token yang sudah punya tanggal pasti. Walaupun kesempatan untuk mendapatkan free airdrop sudah lewat (IDO telah selesai), listing di PancakeSwap pada 26 Mei memberikan kesempatan bagi trader Indonesia untuk masuk di hari pertama. Risiko utamanya adalah potensi tekanan jual dari peserta IDO karena unlock 20% di TGE yang bisa menekan harga di awal.
-
-Analisis risiko untuk investor Indonesia: proyek AI x Crypto seperti $CLAW memang sedang naik daun, tapi likuiditas di awal listing sering tipis dan volatilitas tinggi. Jika ingin berpartisipasi, gunakan strategi position sizing yang ketat dan jangan all-in.
+$CLAW sebaliknya — udah fix tanggal listing. Tapi IDO udah tutup. Listing di PancakeSwap 26 Mei, tapi unlock 20% di TGE plus vesting linear 6 bulan, artinya selling pressure di hari pertama bakal gede. AI x Crypto lagi narasi panas, tapi likuiditas awal tipis. Gw liat yang menarik: listing timing-nya pas pas pasar lagi bearish, jadi entry bisa lebih rendah dari yang diekspektasi.
 
 ## Sumber
 

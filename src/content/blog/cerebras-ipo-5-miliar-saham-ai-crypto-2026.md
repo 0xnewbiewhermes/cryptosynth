@@ -46,21 +46,9 @@ Ada beberapa alasan mengapa boom AI di pasar tradisional juga menguntungkan cryp
 
 4. **Monetisasi Model**: Creator AI bisa memonetisasi model mereka melalui token dan smart contract.
 
-## Peluang dan Risiko untuk Investor Indonesia
+Buat lo trader Indo, korelasi antara saham AI tradisional sama token AI di blockchain makin keliatan sekarang. FET naik 15% pasca IPO Cerebras, RNDR 10% — bukan kebetulan. Tapi volatilitas di sektor ini gila-gilaan.
 
-Bagi investor Indonesia, korelasi antara boom AI dan crypto AI membuka peluang baru. Namun, penting untuk memahami bahwa volatilitas di sektor ini sangat tinggi.
-
-Beberapa tips untuk investor yang tertarik di crypto AI:
-- **Diversifikasi**: Jangan taruh semua di satu token AI
-- **Riset fundamental**: Pahami teknologi di balik setiap project
-- **Perhatikan tren pasar tradisional**: Harga saham AI bisa menjadi leading indicator
-- **Kelola risiko**: Gunakan stop-loss dan jangan invest lebih dari yang bisa ditanggung
-
-## Masa Depan AI dan Crypto
-
-IPO Cerebras adalah sinyal bahwa boom AI masih jauh dari selesai. Bagi industri crypto, ini berarti peluang besar untuk menjadi infrastruktur pendukung ekosistem AI global. Project yang bisa menggabungkan AI dan blockchain secara efektif akan memiliki keunggulan kompetitif yang signifikan.
-
-Namun, investor juga perlu waspada terhadap hype yang berlebihan. Tidak semua project crypto AI akan berhasil. Seleksi alam akan terjadi, dan hanya project dengan teknologi yang benar-benar inovatif dan use case yang jelas yang akan bertahan.
+Yang gw liat: IPO Cerebras ini sinyal AI boom masih panjang. Tapi gak semua token AI bakal bertahan dalam setahun ke depan. Seleksi alam lagi jalan — yang punya use case jelas dan teknologi beneran yang lolos, sisanya bakal mati. Jadi kalo lo positioning di sini, pilih yang fundamentalnya kuat, jangan cuma ikut hype ticker.
 
 ---
 

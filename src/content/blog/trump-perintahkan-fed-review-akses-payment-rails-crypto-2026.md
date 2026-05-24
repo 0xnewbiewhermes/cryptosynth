@@ -16,59 +16,27 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-## Trump Teken Executive Order: Crypto Bisa Akses Langsung ke Sistem Pembayaran Federal Reserve
+Gw liat Presiden Trump baru aja teken executive order pada 19 Mei 2026 yang langsung perintahkan Federal Reserve dan regulator AS buat nge-review aturan akses perusahaan fintech dan crypto ke sistem pembayaran AS — alias master account. [Laporannya dari CoinDesk](https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails).
 
-Pada 19 Mei 2026, Presiden Donald Trump menandatangani executive order berjudul "Integrating financial technology innovation into regulatory frameworks". Perintah ini secara langsung memerintahkan Federal Reserve dan regulator keuangan AS untuk mengevaluasi aturan yang selama ini menghambat akses perusahaan fintech dan crypto ke sistem pembayaran AS, atau yang dikenal sebagai master account, [seperti dilaporkan CoinDesk](https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails).
+Executive order ini tegas: "sudah menjadi kebijakan Amerika Serikat untuk menyederhanakan proses regulasi, mengurangi hambatan masuk yang tidak perlu, dan mendorong kolaborasi antara perusahaan fintech, lembaga keuangan yang diatur federal, dan regulator keuangan federal."
 
-Executive order ini menegaskan bahwa "sudah menjadi kebijakan Amerika Serikat untuk menyederhanakan proses regulasi, mengurangi hambatan masuk yang tidak perlu, dan mendorong kolaborasi antara perusahaan fintech, lembaga keuangan yang diatur federal, dan regulator keuangan federal."
+**Perintah ke Federal Reserve: review akses master account dalam 120 hari.** Poin paling penting: Fed Board of Governors diminta nge-review kerangka regulasi akses ke rekening pembayaran dan layanan sistem pembayaran Federal Reserve. Fed juga diminta klarifikasi apakah 12 bank Federal Reserve punya kewenangan hukum independen buat ngasih atau nolak akses ([The Block](https://www.theblock.co/post/401953/trump-orders-fed-master-account)). Laporan harus diserahkan ke presiden dalam 120 hari.
 
-### Perintah ke Federal Reserve: Review Akses Master Account dalam 120 Hari
+Executive order ini definisiin perusahaan fintech termasuk non-bank yang jalanin layanan berbasis aset digital dan blockchain.
 
-Salah satu poin paling penting dari executive order ini adalah instruksi langsung ke Federal Reserve Board of Governors untuk meninjau kerangka regulasi yang mengatur akses ke rekening pembayaran dan layanan sistem pembayaran Federal Reserve. Menurut laporan [The Block](https://www.theblock.co/post/401953/trump-orders-fed-master-account), Fed juga diminta untuk mengklarifikasi apakah 12 bank Federal Reserve memiliki kewenangan hukum independen untuk memberikan atau menolak akses ke rekening dan layanan pembayaran.
+**Kraken jadi pilot — master account terbatas udah disetujui Maret 2026.** Ini bukan tanpa preseden. Maret 2026, Kraken Financial (Wyoming SPDI) dapet persetujuan master account terbatas dari Federal Reserve Bank of Kansas City — pertama kalinya perusahaan aset digital dapet akses langsung ke sistem pembayaran Fed. Co-CEO Kraken Arjun Sethi bilang ini "konvergensi infrastruktur crypto dengan jalur keuangan negara." Akun terbatas ini kasi Kraken akses ke Fedwire (sistem penyelesaian dolar bernilai tinggi) tapi gak termasuk bunga cadangan atau diskon window. [Reuters](https://www.reuters.com/world/trump-tells-fed-consider-fintech-access-payment-accounts-2026-05-19/) lapor Ripple dan Anchorage Digital juga berharap dapet master account serupa.
 
-Laporan hasil review harus diserahkan ke presiden dalam waktu 120 hari. Selain itu, dalam 3 bulan regulator keuangan harus mengidentifikasi hambatan regulasi yang menghalangi kemitraan fintech dengan lembaga keuangan yang diatur federal, dan dalam 6 bulan harus mengambil langkah untuk mendorong inovasi.
+**Perlawanan dari industri perbankan tradisional.** Bank Policy Institute nyatak "kekhawatiran mendalam" bahwa persetujuan Kraken datang sebelum Fed selesaiin kerangka kebijakan. ICBA (Independent Community Bankers of America) melalui CEO Rebecca Romero Rainey peringatin soal "kesenjangan signifikan dalam regulasi antara bank dan entitas non-bank."
 
-Executive order ini mendefinisikan perusahaan fintech sebagai perusahaan non-bank, termasuk yang menjalankan layanan berbasis aset digital dan blockchain.
+Tapi Fed sendiri udah mulai buka pintu sejak Desember 2025, pas minta masukan publik soal jenis akun pembayaran baru.
 
-### Kraken Jadi Pilot: Master Account Terbatas Sudah Disetujui Maret 2026
+**Hubungan dengan PACE Act.** Sebelum executive order, April 2026 anggota DPR Sam Liccardo (D-CA) dan Young Kim (R-CA) perkenalin PACE Act — RUU bipartisan yang tujuannya ngasih akses layanan pembayaran Fed bagi penyedia tertentu. Executive order Trump melangkah lebih jauh karena bersifat langsung dan punya batas waktu jelas tanpa perlu nunggu Kongres.
 
-Langkah ini bukan tanpa preseden. Pada Maret 2026, Kraken Financial, sebuah Wyoming Special Purpose Depository Institution (SPDI), berhasil mendapatkan persetujuan master account terbatas dari Federal Reserve Bank of Kansas City. Ini adalah pertama kalinya dalam sejarah sebuah perusahaan aset digital mendapatkan akses langsung ke sistem pembayaran Federal Reserve.
+**Dampak ke harga Bitcoin dan pasar crypto.** Pas artikel ini ditulis, Bitcoin di $77.301 (naik 0,29%), Ethereum ~$2.110. Pasar masih wait-and-see karena executive order masih bersifat review, bukan implementasi langsung. Tapi arahnya jelas positif buat sentimen jangka panjang. Akses langsung ke sistem pembayaran Fed artinya perusahaan crypto gak perlu lagi bergantung ke bank perantara — bisa tekan biaya transaksi, percepat settlement, dan yang paling penting: kasi legitimasi institusional yang lebih kuat.
 
-Co-CEO Kraken, Arjun Sethi, menyebut langkah ini sebagai "konvergensi infrastruktur crypto dengan jalur keuangan negara." Akun terbatas ini memberi Kraken akses ke sistem penyelesaian dolar bernilai tinggi (Fedwire) tetapi tidak mencakup fitur seperti bunga atas cadangan atau akses ke diskon window.
+**Buat pasar Indonesia:** Kalo perusahaan crypto di AS bisa akses master account Fed, tekanan regulasi serupa bisa dorong Bank Indonesia dan regulator lain buat pertimbangin langkah serupa. Indonesia lagi di proses penyusunan regulasi crypto yang lebih komprehensif pasca pengalihan pengawasan ke OJK. Akses lebih mudah ke sistem pembayaran AS berarti stablecoin kayak USDC dan USDT bakal punya on-ramp dan off-ramp yang lebih efisien — penting banget karena mayoritas transaksi crypto di Indonesia pake stablecoin.
 
-[Reuters](https://www.reuters.com/world/trump-tells-fed-consider-fintech-access-payment-accounts-2026-05-19/) melaporkan bahwa Ripple dan Anchorage Digital juga berharap bisa mendapatkan master account serupa. Namun, langkah ini memicu reaksi keras dari kelompok perbankan tradisional.
-
-### Perlawanan dari Industri Perbankan Tradisional
-
-Bank Policy Institute, yang mewakili banyak bank besar AS, menyatakan "kekhawatiran mendalam" bahwa persetujuan Kraken datang sebelum Fed menyelesaikan kerangka kebijakan untuk "limited purpose" atau "skinny" master accounts. Mereka menilai keputusan ini terlalu prematur.
-
-Sementara itu, Independent Community Bankers of America (ICBA) melalui CEO/Presiden Rebecca Romero Rainey memperingatkan adanya "kesenjangan signifikan dalam regulasi antara bank dan entitas non-bank." ICBA mendesak agar aktivitas yang sama harus tunduk pada regulasi yang sama.
-
-Fed sendiri sudah mulai membuka pintu sejak Desember 2025 ketika meminta masukan publik tentang jenis akun pembayaran baru dengan pembatasan serupa yang dikenakan pada akun Kraken. Fed sudah bergerak ke arah ini bahkan sebelum executive order dikeluarkan.
-
-### Hubungan dengan PACE Act dan Arah Kebijakan Crypto AS
-
-Sebelum executive order ini, pada April 2026, anggota DPR Sam Liccardo (D-CA) dan Young Kim (R-CA) memperkenalkan PACE Act, sebuah RUU bipartisan yang bertujuan memberikan akses ke layanan pembayaran Fed bagi penyedia tertentu. Executive order Trump melangkah lebih jauh karena bersifat langsung dan memiliki batas waktu yang jelas tanpa perlu menunggu persetujuan Kongres.
-
-Gelombang dukungan untuk integrasi crypto ke dalam sistem keuangan tradisional AS terus menguat, baik dari sisi eksekutif maupun legislatif.
-
-### Dampak ke Harga Bitcoin dan Pasar Crypto
-
-Pada saat penulisan, Bitcoin diperdagangkan di harga $77.301, naik tipis 0,29% dalam 24 jam terakhir dengan kisaran harian $76.082 hingga $77.388. Ethereum berada di sekitar $2.110. Pasar masih wait-and-see karena executive order baru bersifat review, bukan implementasi langsung.
-
-Namun, arah kebijakan ini jelas positif untuk sentimen jangka panjang. Akses langsung ke sistem pembayaran Fed berarti perusahaan crypto tidak perlu lagi bergantung pada bank perantara yang sering kali enggan melayani mereka karena risiko regulasi. Ini bisa menekan biaya transaksi, mempercepat settlement, dan yang paling penting, memberikan legitimasi institusional yang lebih kuat bagi industri crypto.
-
-### Implikasi untuk Pasar Indonesia
-
-Bagi investor dan pelaku industri crypto di Indonesia, perkembangan ini penting untuk dicermati. Jika perusahaan crypto di AS bisa mengakses master account Fed, tekanan regulasi serupa bisa mendorong Bank Indonesia dan regulator lain untuk mempertimbangkan langkah serupa. Indonesia sendiri sedang dalam proses penyusunan regulasi crypto yang lebih komprehensif pasca pengalihan pengawasan ke OJK.
-
-Akses yang lebih mudah ke sistem pembayaran AS berarti stablecoin seperti USDC dan USDT akan memiliki jalur on-ramp dan off-ramp yang lebih efisien. Ini penting karena mayoritas transaksi crypto di Indonesia menggunakan stablecoin sebagai medium pertukaran.
-
-### Apa yang Harus Diperhatikan dalam 120 Hari ke Depan
-
-Dalam 120 hari ke depan, ada beberapa hal yang perlu dipantau: laporan Fed soal kewenangan 12 bank regional untuk memberikan master account secara independen, sikap Fed terhadap stablecoin issuer, dan reaksi Kongres yang bisa mempercepat atau memperlambat implementasi melalui PACE Act atau regulasi baru.
-
-Bagi trader Indonesia, momen ini bisa menjadi katalis jangka menengah untuk altcoin yang terkait dengan ekosistem pembayaran dan stablecoin. Tapi tetap, seperti biasa, lakukan riset mandiri dan jangan FOMO.
+**Apa yang perlu lo pantau dalam 120 hari ke depan:** Laporan Fed soal kewenangan 12 bank regional buat ngasih master account secara independen, sikap Fed terhadap stablecoin issuer, dan reaksi Kongres yang bisa percepat atau perlambat implementasi lewat PACE Act. Buat lo trader Indo, momen ini bisa jadi katalis jangka menengah buat altcoin yang terkait ekosistem pembayaran dan stablecoin. Tapi kayak biasa, lakukan riset sendiri dan jangan FOMO.
 
 ## Sumber
 

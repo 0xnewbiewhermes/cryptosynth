@@ -38,13 +38,7 @@ Blockchain.com bukan pendatang baru di industri kripto. Didirikan pada 2011 oleh
 
 Yang membedakan Blockchain.com dari bursa lain adalah usia dan rekam jejaknya, perusahaan ini telah bertahan melalui bull market dan bear market selama 15 tahun terakhir. Filing IPO ini menjadi ujian apakah pasar publik menghargai ketahanan tersebut di tengah kondisi industri yang sedang lesu.
 
-## Perspektif Pasar Indonesia dan Relevansi bagi Investor Kripto
-
-Berita IPO Blockchain.com punya implikasi khusus bagi ekosistem kripto Indonesia. IPO exchange kripto di AS membuka jalur baru bagi investor ritel Indonesia untuk terekspos ke sektor ini lewat pasar saham tradisional. Saat ini investor Indonesia sudah bisa membeli saham perusahaan seperti MicroStrategy (MSTR) yang menjadi proxy Bitcoin, dan kehadiran Blockchain.com di bursa akan menambah opsi serupa.
-
-Langkah Blockchain.com juga muncul di saat bursa kripto di Indonesia sendiri masih berkutat dengan regulasi dan pengawasan dari Bappebti dan OJK. IPO di SEC memberikan sinyal legitimasi tambahan bagi industri kripto secara global, yang secara tidak langsung bisa memperkuat kepercayaan investor Indonesia terhadap exchange-exchanged kripto di dalam negeri.
-
-Analisis risiko utama dari skenario ini adalah timing. Sejarah menunjukkan bahwa IPO di puncak siklus pasar sering kali menghasilkan return yang mengecewakan, BitGo adalah contoh terdekat. Jika Blockchain.com akhirnya listing di saat sentimen makro masih tertekan dengan yield tinggi, geopolitik Iran, dan inflasi yang belum mereda, valuasinya bisa terdiskon. Namun bagi investor jangka panjang yang percaya pada adopsi kripto, entry di saat pasar lesu justru bisa menjadi peluang untuk mendapatkan eksposur ke salah satu perusahaan kripto paling mapan dengan valuasi yang lebih realistis.
+Gw liat IPO Blockchain.com ini menarik buat Indo karena nambah opsi proxy crypto di pasar saham tradisional — selain MSTR, nanti ada Blockchain.com juga. IPO di SEC juga ngasih sinyal legitimasi tambahan yang secara gak langsung nguatin kepercayaan ke exchange lokal. Tapi timing-nya yang perlu dicermati: IPO di puncak siklus sering mengecewakan — BitGo contoh terdekat. Kalo Blockchain.com listing pas makro masih tertekan (yield tinggi, Iran, inflasi), valuasinya bisa diskon. Ironisnya, buat yang percaya adopsi jangka panjang, entry pas market lesu bisa jadi peluang dapet eksposur ke perusahaan mature dengan valuasi realistis.
 
 ## Sumber
 

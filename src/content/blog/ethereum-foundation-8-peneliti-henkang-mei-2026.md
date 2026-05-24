@@ -52,17 +52,17 @@ Bitcoin (BTC) juga tertekan di **$76.650**, mendekati level support kritis $75.0
 
 Kepergian para peneliti ini menambah sentimen negatif di tengah pasar yang sudah rapuh. Apalagi di saat Ethereum sedang bersaing dengan Solana dan layer-1 lain yang terus menunjukkan pertumbuhan ekosistem yang lebih agresif.
 
-### Implikasi Buat Pemegang ETH di Indonesia
+### Artinya buat holder ETH di Indo
 
-Bagi investor kripto Indonesia, gelombang kepergian ini penting untuk dicermati. Ethereum masih menjadi blockchain terbesar untuk ekosistem DeFi dan NFT yang banyak digunakan oleh komunitas Indonesia. Setiap perubahan di tim inti pengembangan bisa berdampak langsung pada timeline upgrade protokol.
+Gelombang kepergian ini momen yang perlu dicermati. Ethereum masih jadi blockchain terbesar buat ekosistem DeFi dan NFT yang banyak dipake komunitas Indo. Setiap perubahan di tim inti developer bisa berdampak langsung ke timeline upgrade protokol.
 
-Berita ini datang di saat yang tidak menguntungkan karena ETH sudah turun cukup dalam dan volume perdagangan di exchange Indonesia untuk pair ETH/IDR cenderung menurun. Kepergian talenta kunci bisa memperpanjang fase konsolidasi ETH, terutama jika pasar menafsirkannya sebagai sinyal ketidakstabilan internal.
+Berita ini datang di saat yang kurang pas — ETH udah turun cukup dalem dan volume trading pair ETH/IDR di exchange Indo cenderung menurun. Kepergian talenta kunci bisa memperpanjang fase konsolidasi ETH, apalagi kalo pasar nafsirin ini sebagai sinyal ketidakstabilan internal.
 
-Namun ada sisi positifnya. Buterin sudah menyatakan bahwa restrukturisasi ini sengaja dilakukan untuk membawa perspektif baru. Jika EF berhasil menarik talenta yang lebih segar dan agresif, kebijakan ini bisa menjadi katalis positif untuk pengembangan jangka panjang Ethereum. Investor yang punya horizon investasi jangka panjang bisa melihat momen ini sebagai titik entry yang lebih rasional, mengingat Ethereum masih memiliki jaringan developer terbesar di kripto.
+Tapi ada sisi positifnya. Buterin udah bilang restrukturisasi ini sengaja dilakukan buat bawa perspektif baru. Kalo EF berhasil narik talenta yang lebih segar dan agresif, ini bisa jadi katalis positif buat jangka panjang. Investor yang punya horizon panjang bisa liat momen ini sebagai titik entry yang lebih rasional — Ethereum masih punya jaringan developer terbesar di kripto.
 
-## Kesimpulan
+## Intinya
 
-Gelombang kepergian di EF memang mengkhawatirkan, tetapi ini bukan pertama kalinya organisasi ini menghadapi tantangan serupa. Ke depannya, yang perlu dicermati adalah siapa yang akan mengisi posisi-posisi kosong tersebut dan apakah roadmap Ethereum pasca-Merge akan tetap berjalan sesuai jadwal. Untuk saat ini, trader ETH disarankan untuk memperhatikan level support $2.000 dan resistensi $2.300.
+Gelombang kepergian di EF emang bikin waswas, tapi ini bukan pertama kalinya organisasi ini ngadepin tantangan begini. Yang perlu dipantau ke depannya: siapa yang bakal ngisi posisi kosong dan apakah roadmap Ethereum pasca-Merge bakal jalan sesuai jadwal. Buat sekarang, pantau level support $2.000 dan resistensi $2.300.
 
 ## Sumber
 

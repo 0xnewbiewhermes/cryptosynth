@@ -34,7 +34,7 @@ Pilar ketiga adalah akuntabilitas: RUU mewajibkan laporan proof-of-reserve trans
 
 "Administrasi selama ini melelang atau menyimpan aset kripto sesuai keinginan cabang eksekutif," kata Golden seperti dikutip dari Decrypt. "Dengan ARMA, cadangan ini mendapat kekuatan hukum."
 
-Bagi investor di Indonesia, langkah ini penting karena menunjukkan bahwa AS serius membangun kerangka hukum permanen untuk Bitcoin sebagai aset cadangan, bukan sekadar kebijakan temporer yang bisa berubah setiap pergantian presiden. Stabilitas regulasi semacam ini secara historis mendorong partisipasi institusional yang lebih luas, yang ujungnya berdampak pada likuiditas global.
+Buat yang ngikutin dari Indo, langkah ini penting karena nunjukin AS serius bangun kerangka hukum permanen buat Bitcoin sebagai aset cadangan — bukan cuma kebijakan temporer yang bisa berubah tiap ganti presiden. Stabilitas regulasi kayak gini secara historis dorong partisipasi institusional yang lebih luas, yang ujungnya ngaruh ke likuiditas global.
 
 ### Dukungan Bipartisan dan Urgensi Politik
 
@@ -52,15 +52,7 @@ Bitfinex Blog mencatat bahwa proposal awal BITCOIN Act menargetkan pembelian **2
 
 Namun, Menteri Keuangan Bessent telah menolak opsi revaluasi emas (gold certificate revaluation) yang sebelumnya diusulkan sebagai mekanisme pendanaan. Ini menimbulkan pertanyaan tentang bagaimana akumulasi skala besar akan dibiayai tanpa menambah beban pajak atau utang.
 
-### Perspektif Pasar Indonesia
-
-Pengaruh RUU ARMA terhadap ekosistem crypto Indonesia mungkin tidak langsung terlihat, tetapi ada tiga implikasi spesifik yang patut dicermati oleh investor dan regulator di Indonesia. Pasalnya, setiap perubahan kebijakan AS terhadap crypto selalu berdampak pada sentimen pasar global yang memengaruhi harga aset digital yang diperdagangkan di bursa lokal seperti Indodax dan Rekeningku.
-
-Dari sisi preseden global, kodifikasi Bitcoin sebagai aset cadangan AS menciptakan efek domino yang jarang dibahas. Negara-negara seperti Jepang, Uni Emirat Arab, dan Swiss sedang mengamati perkembangan ini dengan saksama. Untuk Indonesia, di mana regulasi crypto masih berada di bawah Bappebti dan OJK dengan pajak crypto yang sudah diterapkan sejak 2022, preseden dari ekonomi terbesar dunia bisa mempercepat kerangka regulasi yang lebih matang dan memberikan kepastian hukum bagi investor domestik, termasuk mengenai status kepemilikan dan pelaporan aset digital.
-
-Jika ARMA mendorong aksi beli institusional masif oleh AS, tekanan supply bisa mendorong harga Bitcoin naik dalam jangka panjang. Investor ritel Indonesia yang hold Bitcoin jangka panjang berpotensi menjadi salah satu yang diuntungkan, mengingat data menunjukkan adopsi crypto ritel Indonesia termasuk yang tertinggi di Asia Tenggara.
-
-Sifat bipartisan dari RUU ini juga memberi sinyal positif untuk stabilitas kebijakan. Dengan pemilu paruh waktu AS yang semakin dekat, dukungan lintas partai mengurangi risiko kebijakan crypto dibatalkan setelah pergantian kekuasaan. Stabilitas regulasi AS secara historis menjadi katalis utama masuknya modal institusional ke pasar crypto, yang pada akhirnya berdampak positif ke likuiditas dan berpotensi menekan volatilitas di bursa lokal Indonesia.
+Gw liat RUU ARMA ini penting buat Indo, meskipun dampaknya gak langsung. Setiap perubahan kebijakan AS soal crypto selalu ngaruh ke sentimen global, yang ujungnya ke harga di Indodax dan Rekeningku. Tiga hal yang gw catet: Pertama, kodifikasi Bitcoin sebagai aset cadangan AS efek dominonya gede. Negara kayak Jepang, UAE, Swiss ngeliatin ini. Buat Indo yang regulasinya masih di bawah Bappebti dan OJK, preseden ini bisa percepat kerangka regulasi yang lebih matang. Kedua, kalo ARMA dorong aksi beli institusional masif, tekanan supply bisa dorong harga BTC naik jangka panjang. Investor ritel Indo yang hold BTC — dan adopsi crypto ritel Indo termasuk tertinggi di Asia Tenggara — potensial diuntungin. Ketiga, sifat bipartisan dari RUU ini sinyal positif buat stabilitas kebijakan. Dukungan lintas partai ngurangin risiko kebijakan crypto dibatalkan pas ganti presiden. Stabilitas AS itu katalis masuknya modal institusional, yang ujungnya nambah likuiditas dan berpotensi ngekang volatilitas di bursa lokal.
 
 ## Sumber
 

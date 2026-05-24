@@ -48,13 +48,7 @@ Namun, Santiment juga mengakui bahwa pergerakan menuju pengesahan CLARITY Act "b
 
 Analis crypto Michael van de Poppe dari MN Trading Capital tetap optimistis, menyebut legislasi ini sebagai "RUU terbesar dan bersejarah bagi seluruh industri yang bisa menjadi pemicu kuat untuk bull market berikutnya."
 
-## Implikasi untuk Trader Indonesia
-
-Dari perspektif trader Indonesia, situasi ini menghadirkan dilema yang cukup khas. Ketika sentimen global memanas setelah berita regulasi positif dari AS, trader retail di Indonesia cenderung mengikuti arus euforia tersebut. Namun data Santiment menunjukkan bahwa momen seperti ini justru sering menjadi titik masuk yang kurang ideal untuk posisi jangka pendek.
-
-Perbedaan antara euforia di media sosial dan Fear & Greed Index yang masih di zona Fear juga mengingatkan bahwa sentimen retail dan sentimen institusional tidak selalu sejalan. Bagi trader Indonesia yang aktif di pasar spot dan futures, penting untuk tidak terjebak dalam FOMO hanya karena berita regulasi terlihat positif.
-
-Santiment juga memperingatkan bahwa harga crypto dengan kapitalisasi besar mungkin sudah "baked in" sebelum CLARITY Act resmi disahkan. Ini berarti potensi koreksi setelah berita positif bisa terjadi jika hasil akhir tidak sesuai harapan pasar.
+Buat trader Indo, ini dilema klasik. Sentimen global lagi panas setelah berita positif CLARITY Act, trader retail di Indo biasanya ikut arus euforia. Tapi data Santiment nunjukin momen kayak gini sering jadi entry point yang jelek buat jangka pendek. Yang menarik: euforia di medsos vs Fear & Greed Index yang masih di 31 (Fear) - sentimen retail dan institusional gak sejalan. Santiment juga bilang harga crypto kapitalisasi besar mungkin udah baked-in sebelum CLARITY resmi disahkan. Artinya potensi koreksi abis berita positif itu real kalo hasil akhir gak sesuai ekspektasi pasar. Jangan FOMO cuma karena berita regulasi keliatan positif.
 
 ## Harga Crypto Hari Ini
 

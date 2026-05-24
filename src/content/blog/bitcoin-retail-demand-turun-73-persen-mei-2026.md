@@ -58,19 +58,7 @@ Wintermute dalam risetnya menjelaskan bahwa Bitcoin "gagal di 200-day MA pada ma
 
 Fenomena menarik lainnya adalah perubahan pangsa pasar futures. Binance sebelumnya menguasai 40%-44% volume futures global berbasis USDT dari Oktober 2024 hingga Maret 2026. Namun pada Mei 2026, pangsa Binance turun ke 21,1% sementara OKX naik ke 26,3%, menandai pertama kalinya terjadi pembalikan kepemimpinan exchange dalam siklus ini.
 
-## Implikasi untuk Trader Indonesia
-
-Penurunan permintaan ritel dan divergensi antara pasar spot dan futures ini punya arti khusus bagi trader Indonesia. Sebagian besar trader ritel Indonesia masih aktif di exchange terpusat, dan data menunjukkan bahwa minat beli langsung di pasar spot belum pulih meskipun futures menunjukkan optimisme. Artinya, momentum kenaikan yang terjadi saat ini bersifat rapuh dan bisa berbalik sewaktu-waktu jika tekanan jual di pasar derivatif meningkat.
-
-Tren peralihan investor global ke spot Bitcoin ETF bisa menjadi katalis jangka panjang yang positif. Meskipun saat ini ETF mengalami net outflow besar (lebih dari $1 miliar pekan lalu), struktur pasar yang semakin matang dengan hadirnya produk institusional seperti ini memberikan fondasi yang lebih stabil untuk pemulihan ke depan.
-
-Untuk trader Indonesia, strategi yang bijak saat ini adalah menghindari leverage berlebihan di pasar futures dan memantau data on-chain seperti CryptoQuant secara rutin. Indikator spot demand yang masih negatif selama 65 hari menandakan bahwa kita belum keluar dari zona koreksi.
-
-## Kesimpulan
-
-Penurunan 73% permintaan investor ritel Bitcoin di Binance dan lonjakan futures selling di atas $2 miliar menandakan tekanan jual yang masih dominan di pasar. BTC saat ini diperdagangkan di kisaran $76.700, kehilangan seluruh keuntungan bulan Mei. Dengan kondisi makro yang masih penuh ketidakpastian -- spekulasi kenaikan suku bunga Fed, perang di Iran, dan imbal hasil obligasi yang tinggi -- pemulihan harga mungkin membutuhkan waktu lebih lama dari yang diperkirakan.
-
-Trader Indonesia disarankan untuk tetap waspada, mengelola risiko dengan baik, dan tidak terburu-buru mengambil posisi beli sebelum ada konfirmasi pemulihan permintaan spot yang signifikan.
+Yang gw tangkap: permintaan ritel turun 73%, futures selling tembus $2 miliar, spot demand negatif 65 hari berturut-turut. Tapi futures demand positif +193.000 BTC dalam 30 hari. Divergensi spot vs futures ini yang bahaya — momentum kenaikan rapuh, bisa balik kapan aja kalo tekanan jual di derivatif naik. BTC di $76.700, ilang semua gain Mei. Dengan makro masih uncertainty — suku bunga, Iran, yield obligasi — pemulihan bakal butuh waktu.
 
 ## Sumber
 

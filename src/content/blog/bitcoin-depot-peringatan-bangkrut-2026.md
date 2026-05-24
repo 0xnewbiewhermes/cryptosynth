@@ -18,61 +18,36 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-## Bitcoin Depot Ragu Bisa Bertahan, Peringatan Going Concern di SEC Filing
+Bitcoin Depot, operator ATM crypto terbesar di dunia dengan 9.000 kiosk, ngeluarin peringatan serius di laporan 10-Q ke SEC. Perusahaan nyatak ada "keraguan substansial" soal kemampuannya buat bertahan 12 bulan ke depan.
 
-Bitcoin Depot, operator ATM crypto terbesar di dunia dengan 9.000 kiosk global, mengeluarkan peringatan serius dalam laporan 10-Q ke Securities and Exchange Commission (SEC) pada Selasa (15/5). Perusahaan menyatakan ada "keraguan substansial" tentang kemampuannya untuk terus beroperasi dalam 12 bulan ke depan.
+CFO David Gray ([via Cointelegraph](https://cointelegraph.com/news/bitcoin-depot-future-legal-judgments-litigation)) ngungkapin perusahaan udah catat lebih dari $20 juta dalam putusan hukum di Q4 2025. Revenue juga turun drastis karena regulasi makin ketat di berbagai negara bagian dan kota AS.
 
-Dilaporkan oleh [Cointelegraph](https://cointelegraph.com/news/bitcoin-depot-future-legal-judgments-litigation), CFO Bitcoin Depot David Gray mengungkapkan bahwa perusahaan telah mencatatkan lebih dari $20 juta dalam putusan hukum di Q4 2025. Perusahaan juga melaporkan penurunan revenue yang signifikan akibat regulasi yang semakin ketat di berbagai negara bagian dan kota di AS.
+"Hasil dari faktor-faktor ini, manajemen menyimpulkan bahwa keraguan substansial ada tentang kemampuan perusahaan untuk melanjutkan sebagai going concern," bunyi laporannya.
 
-"Sebagai hasil dari faktor-faktor ini, manajemen menyimpulkan bahwa keraguan substansial ada tentang kemampuan Perusahaan untuk melanjutkan sebagai going concern," bunyi laporan tersebut.
+**Penurunan revenue 49%, rugi bersih $9,5 juta.** Revenue Q1 2026 turun 49% YoY ke ~$83,5 juta ([Decrypt](https://decrypt.co/368035/bitcoin-depot-bankruptcy-warning-atm-revenue-falls-regulatory-scrutiny)). Penyebabnya: volume transaksi berkurang akibat regulasi plus penerapan kontrol kepatuhan yang lebih ketat — mereka mulai mewajibkan ID pribadi buat setiap transaksi. Rugi bersih $9,5 juta, berbanding terbalik sama laba $12,2 juta di periode sama tahun lalu. Kas dan setara kas turun $21,6 juta, sisa $44 juta.
 
-## Penurunan Revenue 49% dan Rugi Bersih $9,5 Juta
+**Gugatan dari beberapa negara bagian AS.** Maine's Consumer Credit Protection Bureau udah kantongin $1,5 juta pada Januari 2026. Massachusetts dan Iowa juga gugat perusahaan. Tuduhannya: harga Bitcoin Depot menyesatkan, sadar memfasilitasi penipuan crypto, dan kebijakan refund predator. Meski Mahkamah Agung Iowa mutusin tahun lalu bahwa perusahaan berhak nyimpen kas yang udah didepositkan.
 
-Data keuangan Q1 2026 menunjukkan betapa beratnya tekanan yang dihadapi Bitcoin Depot. Revenue perusahaan turun 49% year-over-year menjadi sekitar $83,5 juta untuk kuartal yang berakhir 31 Maret 2026, seperti dilaporkan [Decrypt](https://decrypt.co/368035/bitcoin-depot-bankruptcy-warning-atm-revenue-falls-regulatory-scrutiny).
+Ini cerminan tren regulasi makin ketat terhadap ATM crypto di AS. FBI laporin penipuan via ATM crypto nyentuh rekor $389 juta di 2025, naik 58% dari tahun sebelumnya.
 
-Penurunan ini terutama disebabkan oleh berkurangnya volume transaksi akibat perubahan regulasi dan penerapan kontrol kepatuhan yang lebih ketat. Bitcoin Depot mulai mewajibkan ID pribadi untuk setiap transaksi di kiosk mereka, sebuah langkah yang berdampak pada volume pengguna.
+**Peretas curi 50,9 BTC.** Dalam SEC filing terpisah, perusahaan ngaku peretas curi ~50,9 BTC (senilai $3,665 juta) dari dompet perusahaan pada 23 Maret 2026. Penyerang dapet akses ke sistem IT dan kredensial akun settlement aset digital.
 
-Lebih parah lagi, perusahaan mencatatkan rugi bersih $9,5 juta di Q1 2026, berbanding terbalik dengan laba $12,2 juta di periode yang sama tahun sebelumnya. Kas dan setara kas juga turun $21,6 juta, menyisakan $44 juta di kas perusahaan.
+**Saham BTM anjlok 80%** dalam setahun. Dalam 5 hari sebelum pengumuman, saham turun 40%+ dari $5,01 ke $2,93. Perdagangan terakhir di $2,86, sempat nyentuh $2,56.
 
-## Gugatan dari Beberapa Negara Bagian AS
+Bitcoin Depot tunjuk Alex Holmes (ex-CEO MoneyGram 2016-2024) sebagai CEO baru di Maret, gantiin Scott Buchanan yang cuma menjabat 3 bulan — sinyal fokus ke kepatuhan regulasi global.
 
-Bitcoin Depot menghadapi gelombang gugatan dari jaksa agung negara bagian. Maine's Consumer Credit Protection Bureau sudah mendapatkan pembayaran $1,5 juta pada Januari 2026. Massachusetts dan Iowa juga mengajukan gugatan terhadap perusahaan.
+**Kanada juga usul larangan ATM crypto.** Spring Economic Update 2026 usul larangan ATM crypto sebagai respons terhadap penipuan dan pencucian uang. Bitcoin Depot punya ~220 mesin di Kanada.
 
-Argumen utama negara-negara bagian meliputi tuduhan bahwa harga Bitcoin Depot menyesatkan, perusahaan secara sadar memfasilitasi penipuan crypto, dan kebijakan pengembalian dana mereka bersifat predator. Meskipun demikian, Mahkamah Agung Iowa memutuskan tahun lalu bahwa perusahaan berhak menyimpan kas yang telah didepositkan.
+Kasus Bitcoin Depot nunjukin: infrastruktur crypto yang berhubungan langsung sama konsumen ritel kena tekanan regulasi jauh lebih berat dibanding platform trading online. ATM crypto jadi sasaran empuk karena sifatnya yang anonim dan sering dipake penipu buat nargetin kelompok rentan — terutama lansia.
 
-Kasus ini mencerminkan tren regulasi yang semakin ketat terhadap ATM crypto di AS. FBI melaporkan bahwa penipuan melibatkan ATM crypto mencapai rekor tertinggi $389 juta pada 2025, naik 58% dari tahun sebelumnya.
+Buat lo investor Indo yang pantau saham-saham terkait crypto: exposure ke perusahaan crypto yang beroperasi di banyak yurisdiksi artinya lo harus siap hadapin risiko regulasi yang beda-beda di setiap negara. Model bisnis yang bergantung pada volume transaksi fisik super rentan terhadap perubahan kebijakan lokal.
 
-## Peretas Curi 50,9 BTC dari Dompet Perusahaan
-
-Masalah Bitcoin Depot tidak berhenti di situ. Dalam SEC filing terpisah, perusahaan mengungkapkan bahwa peretas mencuri sekitar 50,9 BTC senilai $3,665 juta dari dompet yang dikendalikan perusahaan dalam insiden keamanan pada 23 Maret 2026.
-
-Penyerang berhasil mendapatkan akses ke sistem IT perusahaan dan kredensial akun penyelesaian aset digital, memungkinkan mereka mentransfer cryptocurrency tanpa otorisasi. Setelah penemuan pelanggaran, Bitcoin Depot mengaktifkan protokol respons insiden.
-
-## Saham BTM Anjlok 80% dalam Setahun
-
-Saham Bitcoin Depot di Nasdaq dengan ticker BTM telah kehilangan 80% nilainya selama setahun terakhir. Dalam lima hari sebelum pengumuman, saham turun lebih dari 40% dari $5,01 ke $2,93. Pada perdagangan terakhir, BTM berada di sekitar $2,86, sempat menyentuh serendah $2,56.
-
-Pada Maret 2026, Bitcoin Depot menunjuk Alex Holmes sebagai CEO baru, menggantikan Scott Buchanan yang hanya menjabat selama tiga bulan. Holmes sebelumnya menjabat CEO MoneyGram dari 2016 hingga 2024, dikenal karena keahlian dalam kepatuhan regulasi global.
-
-## Kanada Usulkan Larangan ATM Crypto
-
-Tidak hanya di AS, tekanan regulasi juga datang dari Kanada. Pemerintah Kanada dalam Spring Economic Update 2026 mengusulkan larangan ATM crypto sebagai respons terhadap penipu dan penjahat yang menggunakan mesin ini untuk pencucian uang. Bitcoin Depot dilaporkan memiliki sekitar 220 mesin yang beroperasi di Kanada.
-
-Kasus Bitcoin Depot ini menunjukkan bahwa infrastruktur crypto yang berhubungan langsung dengan konsumen ritel menghadapi tekanan regulasi yang jauh lebih berat dibandingkan platform trading online. ATM crypto menjadi sasaran empuk karena sifatnya yang anonim dan sering digunakan oleh penipu untuk menargetkan kelompok rentan, terutama lansia.
-
-Bagi investor Indonesia yang memantau saham-saham terkait crypto, kasus ini menjadi pengingat bahwa exposure ke perusahaan crypto yang beroperasi di banyak yurisdiksi berarti harus siap menghadapi risiko regulasi yang berbeda-beda di setiap negara. Model bisnis yang bergantung pada volume transaksi fisik juga sangat rentan terhadap perubahan kebijakan lokal.
-
-## Harga Crypto Hari Ini
-
-| Aset | Harga (USD) | Perubahan 24j |
-|------|------------|---------------|
-| BTC | $79,044 | -2.33% |
-| ETH | $2,225 | -1.89% |
-| SOL | $88.77 | -3.21% |
-| BNB | $662.71 | -2.49% |
-| XRP | $1.43 | -3.51% |
-
-*Sumber: Cointelegraph, 16 Mei 2026*
+**Harga crypto hari ini (16 Mei 2026):**
+- BTC: $79,044 (-2.33%)
+- ETH: $2,225 (-1.89%)
+- SOL: $88.77 (-3.21%)
+- BNB: $662.71 (-2.49%)
+- XRP: $1.43 (-3.51%)
 
 ## Sumber
 

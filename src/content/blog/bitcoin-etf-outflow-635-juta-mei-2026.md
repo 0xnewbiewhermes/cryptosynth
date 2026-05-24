@@ -48,14 +48,11 @@ Adam Haeems, Head of Asset Management di Tesseract Group (AUM >$500 juta), mengi
 
 *Sumber: CoinDesk, 14 Mei 2026*
 
-## Apa Artinya untuk Investor Indonesia?
-
-Beberapa poin yang perlu dicermati:
-
-- **Outflow besar bukan akhir dunia.** Korelasi antara ETF flow dan harga BTC sudah melemah, artinya penurunan ini tidak otomatis berarti bearish jangka panjang.
-- **Level $82.000 adalah resistance kunci.** Selama BTC gagal menembus SMA 200-hari, momentum rally akan terbatas. Pantau level ini sebagai konfirmasi tren.
-- **Inflasi AS tetap faktor utama.** Dengan PPI April yang melesat dan CPI di 3,8%, The Fed kemungkinan besar tidak akan memangkas suku bunga dalam waktu dekat, ini menekan aset berisiko termasuk crypto.
-- **Strategi DCA tetap relevan.** Volatilitas seperti ini justru menjadi momen yang tepat untuk Dollar Cost Averaging, bukan panic selling.
+Gw breakdown aja:
+- Outflow $635 juta dalam sehari — terbesar sejak Januari. Tapi korelasi ETF flow sama harga BTC udah melemah, koefisiennya tinggal 0,16. Jadi outflow gak otomatis bearish.
+- Resistance kunci di $82.000 (200-day SMA). Selama gak tembus situ, rally bakal terbatas.
+- Inflasi AS masih panas. PPI 6%, CPI 3,8%. The Fed gak bakal potong bunga dalam waktu dekat. Ini tekanan buat semua aset risk-on.
+- Daripada panic selling, mending DCA di level under $80.000. Volatilitas gini sering jadi momen entry yang lebih baik daripada pas euforia.
 
 ## Sumber
 

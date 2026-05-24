@@ -41,13 +41,7 @@ Public testnet Arc diluncurkan pada Oktober 2025. Mainnet beta diharapkan hadir 
 
 “Arc's fast finality and native gas coupled with Circle's CCTP and Gateway interoperability service-as-a-stablecoin liquidity hub, enable USDC to move across the blockchain ecosystem freely,” ujar Mayer.
 
-## Dampak bagi Ekosistem Indonesia dan Stablecoin
-
-Bagi pasar Indonesia yang semakin aktif dalam adopsi stablecoin untuk remittance dan trading, kehadiran Arc berpotensi membawa efisiensi baru. Biaya transaksi yang stabil dalam USDC bisa mengurangi ketidakpastian biaya yang sering dialami di chain lain saat congestion.
-
-Selain itu, fitur compliance-friendly membuka peluang lebih besar bagi institusi keuangan lokal yang ingin bereksperimen dengan tokenisasi aset atau settlement on-chain. Meski masih tahap testnet, perkembangan ini patut dipantau karena Circle sudah memiliki track record kuat dengan USDC yang beredar luas.
-
-Kenaikan minat institusi terhadap stablecoin pasca regulasi AS juga bisa mempercepat integrasi Arc dengan ekosistem DeFi Indonesia di masa mendatang.
+Buat pasar Indo, ARC ini menarik karena ngasih solusi ke masalah lama: biaya transaksi yang unpredictable pas congestion. Dengan USDC sebagai gas, lo tau exact fee sebelum execute transaksi. Gak ada lagi drama gas war pas mint NFT. Compliance-friendly-nya juga buka peluang buat institusi lokal — bank atau fintech Indo yang mau eksperimen tokenisasi aset atau settlement on-chain punya infrastruktur yang lebih jelas. Tapi ini masih testnet, jadi semua masih spekulasi. Yang jelas, Circle punya track record — USDC udah beredar luas banget, bukan proyek anonim.
 
 ## Sumber
 

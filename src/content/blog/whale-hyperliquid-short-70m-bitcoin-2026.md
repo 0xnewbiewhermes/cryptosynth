@@ -53,19 +53,7 @@ Short besar ini terjadi di tengah tekanan makro yang signifikan:
 
 Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebih banyak likuiditas di pasar, yang secara historis positif untuk Bitcoin dalam jangka menengah. Ketika imbal hasil Treasury AS naik dan kepercayaan terhadap kebijakan moneter menurun, investor cenderung mencari aset langka seperti Bitcoin.
 
-## Apa Artinya untuk Trader Indonesia?
-
-**Jangan panik.** Beberapa poin penting:
-
-1. **Ini manuver teknikal, bukan fundamental.** Whale ini rata-rata menahan posisi kurang dari seminggu. Short $70 juta bisa berubah menjadi long dalam hitungan hari.
-
-2. **Whale yang sama tetap bullish jangka panjang.** Profit $42 juta sebagian besar datang dari taruhan bullish. Flip ke short kemungkinan reaksi terhadap level resistance teknikal.
-
-3. **Arthur Hayes sedang "buying the dips."** Pendiri BitMEX percaya Bitcoin sudah bottom di sekitar $60.000 awal tahun ini dan siap melampaui rekor tertinggi.
-
-4. **Level kunci BTC:** Support di $78.000 dan $75.000. Resistance di $82.000, jika ditembus, bisa membuka jalan ke $85.000-$90.000.
-
-5. **Harga saat ini:**
+Buat trader Indo — jangan panik. Beberapa catatan: ini manuver teknikal, bukan fundamental. Whale ini rata-rata nahan posisi kurang dari seminggu. Short $70 juta bisa berubah jadi long dalam hitungan hari. Whale yang sama tetep bullish jangka panjang — profit $42 juta sebagian besar dari taruhan bullish. Flip ke short kemungkinan reaksi ke level resistance teknikal. Support BTC di $78.000 dan $75.000, resistance di $82.000. Kombinasi whale short dan data inflasi panas emang keliatan serem. Tapi The Fed lagi expand neraca — ini bullish buat aset langka kayak Bitcoin. Whale short algoritmik sering jadi contrarian indicator — pas whale gede short, pasar justru bisa mantul.
 
 | Aset | Harga (USD) | Perubahan 24h |
 |------|-------------|---------------|
@@ -73,26 +61,7 @@ Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebi
 | ETH | $2.281 | +2,33% |
 | HYPE | $40,63 | +2,21% |
 
-## Analisis: Koreksi Sehat atau Awal Downtrend?
 
-Kombinasi whale short dan data inflasi panas memang terlihat menakutkan. Tapi konteksnya penting:
-
-- **The Fed memperluas neraca**, ini pada akhirnya bullish untuk aset langka seperti Bitcoin
-- **Bitcoin 26% undervalued dibanding emas** menurut analisis CoinDesk Indices
-- **Whale short algoritmik** seringkali menjadi kontrarian indicator, ketika whale besar short, pasar justru bisa memantul
-
-Untuk trader Indonesia, ini saat yang tepat untuk:
-- **DCA (Dollar Cost Averaging)** di level $78.000-$80.000
-- **Hindari leverage tinggi** di tengah volatilitas makro
-- **Pantau data inflasi AS berikutnya** sebagai sinyal arah pasar
-
----
-
-**Sumber:** Cointelegraph, "Whale shorts $70M in crypto and tech: Should Bitcoin traders worry?" (13 Mei 2026) CoinDesk, "Live markets: Bitcoin dips below $80,000 as producer price inflation surges to 6%" (13 Mei 2026) CryptoBreaking, "Whale Shorts $70M Across Crypto and Tech, Bitcoin Traders to Watch" (14 Mei 2026) CoinDesk, "Crypto Long & Short: Bitcoin vs. gold: 26% relative undervaluation" (13 Mei 2026)
-
----
-
-*⚠️ Disclaimer: Artikel ini bersifat informatif dan bukan nasihat keputusan investasi. Lakukan riset sendiri (DYOR) sebelum mengambil keputusan trading atau investasi crypto. Pasar crypto sangat volatil dan Anda bisa kehilangan modal.*
 
 
 ## Sumber

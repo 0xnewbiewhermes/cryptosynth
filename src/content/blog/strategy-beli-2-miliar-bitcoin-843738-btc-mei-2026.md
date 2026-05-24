@@ -34,13 +34,11 @@ Dengan pembelian ini, Strategy kini menjadi pemegang Bitcoin institusional terbe
 
 Ini adalah akuisisi mingguan terbesar keenam dalam sejarah Strategy dan yang terbesar kedua di tahun 2026, setelah pembelian 34.164 BTC pada April lalu. Perusahaan masih memiliki kapasitas besar untuk pembelian lanjutan, dengan $26,27 miliar saham MSTR dan $17,51 miliar saham STRC yang masih tersedia untuk dijual, menurut [Cointelegraph](https://cointelegraph.com/news/strategy-2-billion-bitcoin-holdings-reach-843-738-btc).
 
-## Makna pembelian besar Strategy untuk pasar Indonesia
+Aktivitas Strategy borong Bitcoin di kisaran $80.000 per keping punya dampak langsung. Institutional buying kayak gini nge-create support level psikologis di area $75.000-80.000. Pas perusahaan segede Strategy terus akumulasi di level itu, risiko penurunan lebih dalem jadi lebih terbatas karena ada pembeli institusional yang siap nyerap tekanan jual.
 
-Aktivitas Strategy membeli Bitcoin di kisaran $80.000 per keping punya implikasi langsung bagi investor kripto Indonesia. Aksi institutional buying seperti ini menciptakan support level psikologis di area $75.000-80.000. Ketika perusahaan sebesar Strategy terus mengakumulasi di level tersebut, risiko penurunan lebih dalam menjadi lebih terbatas karena ada pembeli institusional yang siap menyerap tekanan jual.
+Dominasi STRC sebagai sumber dana juga nunjukin pasar modal tradisional mulai terintegrasi sama ekosistem kripto. Buat yang punya akses ke pasar saham AS, instrumen kayak STRC bisa jadi alternatif eksposur ke Bitcoin tanpa harus beli BTC langsung di exchange. Meski aksesnya masih terbatas, tren ini patut dipantau karena bisa nyiptain jalur investasi baru buat institusi keuangan di Asia Tenggara.
 
-Dominasi STRC sebagai sumber dana juga menunjukkan bahwa pasar modal tradisional mulai terintegrasi dengan ekosistem kripto. Untuk investor Indonesia yang punya akses ke pasar saham AS, instrumen seperti STRC bisa menjadi alternatif eksposur ke Bitcoin tanpa harus membeli BTC langsung di exchange. Meski aksesnya masih terbatas, tren ini patut dicermati karena bisa menciptakan jalur investasi baru bagi institusi keuangan di Asia Tenggara.
-
-Strategy masih memiliki kapasitas pendanaan lebih dari $43 miliar untuk pembelian Bitcoin ke depan. Ini adalah bullish signal jangka menengah, tapi tetap ada risiko jika harga Bitcoin turun signifikan di bawah $75.700 (harga rata-rata mereka), yang bisa memicu tekanan pada harga saham MSTR dan STRC di pasar modal AS.
+Strategy masih punya kapasitas pendanaan lebih dari $43 miliar buat pembelian Bitcoin ke depan. Ini bullish signal jangka menengah, tapi tetep ada risiko kalo harga BTC turun signifikan di bawah $75.700 (harga rata-rata mereka), yang bisa picu tekanan di harga saham MSTR dan STRC di pasar modal AS.
 
 ### Harga acuan
 

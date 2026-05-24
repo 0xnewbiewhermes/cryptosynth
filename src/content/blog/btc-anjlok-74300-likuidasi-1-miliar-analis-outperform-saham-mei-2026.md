@@ -37,12 +37,6 @@ Setelah BTC rebound ke $77.000, terjadi tambahan likuidasi posisi short senilai 
 
 Hal ini mengingatkan pada pola yang sering terjadi di pasar kripto: **long squeeze** diikuti **short squeeze**. Trader yang panik buy di puncak terlikuidasi saat harga jatuh, lalu trader yang FOMO short di dasar terlikuidasi saat harga rebound. Siklus ini memperkuat volatilitas jangka pendek.
 
-### Catatan untuk Trader Indonesia
-
-Bagi trader Indonesia yang aktif di bursa lokal (Indodax, Pintu, Tokocrypto), volatilitas seperti ini punya risiko ganda. Selisih harga (premium) di bursa Indonesia bisa melebar karena likuiditas lebih tipis dibanding Binance atau Bybit sehingga saat BTC global turun ke $74.300, harga di bursa lokal bisa lebih rendah lagi. Banyak juga trader ritel Indonesia menggunakan leverage tinggi (10x-25x) di platform internasional yang membuat posisi mereka rentan terhadap fluktuasi $1.000-$2.000 seperti yang terjadi semalam.
-
-Strategi yang bisa dipertimbangkan: mengurangi ukuran posisi di saat volatilitas tinggi, menggunakan stop loss yang lebih ketat, dan menghindari open interest tinggi di kedua arah karena pasar cenderung whip-saw (bergerak liar dua arah).
-
 ## Di Balik Berita Buruk: Analis Lihat Fase Underperformance Berakhir
 
 Meskipun harga Bitcoin turun, ada sinyal menarik dari kalangan analis institusional. Mark Connors, mantan global head of portfolio management Credit Suisse yang kini menjabat CIO Risk Dimensions, mengatakan kepada [CoinDesk](https://www.coindesk.com/markets/2026/05/23/bitcoin-is-ready-to-beat-stocks-and-bonds-again-after-underperformance-against-wall-street) bahwa fase underperformance Bitcoin selama **142 hari** terhadap S&P 500 sudah berakhir pada awal Mei.
@@ -59,11 +53,7 @@ Connors juga melihat keterkaitan antara AI dan blockchain semakin erat seiring p
 
 Data dari X/@boggyagent mengonfirmasi bahwa penurunan ini terjadi saat market cap Bitcoin sempat tertinggal dari Meta (sekitar $1,55 triliun). Namun, narasi Connors tentang fase konsolidasi yang berakhir didukung oleh fakta bahwa rasio BTC terhadap S&P 500 mulai menunjukkan pemulihan sejak awal Mei setelah tren turun selama 142 hari.
 
-## Strategi untuk Trader Indonesia di Tengah Volatilitas Ekstrim
-
-Dengan ETF outflow yang masih berlangsung dan imbal hasil Treasury yang terus naik, tekanan jual jangka pendek belum sepenuhnya reda. Likuidasi sudah mencapai level yang biasanya menandakan capitulation jangka pendek sehingga dalam siklus sebelumnya angka di atas $800 juta sering diikuti rebound 5-10% dalam 3-7 hari. Level $74.000-$75.000 juga merupakan zona akumulasi institusional yang signifikan di mana MicroStrategy dan berbagai perusahaan publik terus menambah posisi BTC.
-
-Ke depan, katalis yang perlu dipantau meliputi data inflasi AS (PCE) pekan depan, kelanjutan arus ETF, dan potensi pengumuman kebijakan dari pertemuan The Fed. Trader Indonesia bisa memanfaatkan momen ini untuk menyiapkan strategi akumulasi bertahap jika BTC menguji ulang level $74.000, sambil tetap waspada terhadap potensi penurunan lebih lanjut menuju $70.000 jika outflow ETF memburuk.
+Buat trader Indo yang pake Indodax, Pintu, Tokocrypto: premium di bursa lokal bisa melebar karena likuiditas lebih tipis. Pas BTC global turun ke $74.300, harga di Indo bisa lebih rendah lagi. Banyak yang pake leverage 10x-25x — fluktuasi $1.000-$2.000 kayak tadi malem bisa liquidate posisi lo kalo gak siap. Likuidasi $917 juta, $827 juta dari posisi long — ini udah level capitulation jangka pendek. Historically, angka di atas $800 juta sering diikuti rebound 5-10% dalam 3-7 hari. Level $74.000-$75.000 juga zona akumulasi institusi. Katalis yang perlu dipantau: data PCE AS pekan depan, arus ETF, dan pertemuan The Fed.
 
 ## Sumber
 

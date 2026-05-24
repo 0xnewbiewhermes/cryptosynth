@@ -46,9 +46,7 @@ EURC dari Circle mendominasi pasar non-dollar dengan lebih dari 90% volume trans
 
 Di Asia, JPYC di Jepang dan XSGD di Singapura juga mencatat pertumbuhan. StraitsX memproses lebih dari $18 miliar volume on-chain di 2025 melalui XSGD dan XUSD. Sementara BRLA di Brasil tumbuh 8x year-over-year dengan volume transfer $400 juta per bulan.
 
-### Implikasi untuk Pasar Indonesia
-
-Bagi Indonesia, data ini memberikan perspektif penting soal adopsi stablecoin di negara berkembang. Rupiah masih belum memiliki stablecoin yang terdaftar dan likuid secara global. Beberapa proyek mencoba membangun stablecoin berbasis rupiah (IDRT, IDK), tapi likuiditasnya masih sangat kecil jika dibandingkan dengan USDT atau USDC yang mendominasi transaksi di exchange-exchange lokal.
+Data ini kasih insight buat Indonesia: rupiah sampe sekarang belum punya stablecoin yang terdaftar dan likuid secara global. IDRT, IDK udah ada tapi likuiditasnya masih kecil banget dibanding USDT/USDC yang dominasi exchange lokal.
 
 Tantangan yang sama akan dihadapi oleh stablecoin rupiah: tanpa likuiditas awal yang cukup, sulit memulai liquidity flywheel. Namun, keberhasilan JPYC di Jepang dan XSGD di Singapura menunjukkan bahwa regulasi yang mendukung dan kemitraan dengan institusi keuangan lokal bisa menjadi jalan masuk yang efektif.
 

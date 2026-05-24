@@ -48,18 +48,15 @@ Stripe sendiri sebelumnya udah ngeluncurin dukungan stablecoin payment di platfo
 
 Ini pola yang menarik: Visa + Stripe + MoneyGram, tiga pilar pembayaran global, semuanya pilih Tempo sebagai infrastruktur blockchain untuk stablecoin settlement. Bukan kebetulan. Tempo dirancang dari awal buat pembayaran enterprise-scale, dengan dukungan multichain dan stablecoin-neutral (bisa pake stablecoin apapun buat transfer dan gas fees).
 
-## Dampak Buat Indonesia
+Indonesia salah satu pasar remittance terbesar di dunia. Bank Indonesia catat pengiriman uang dari Pekerja Migran Indonesia tembus $9-11 miliar per tahun — negara asal utama Malaysia, Taiwan, Arab Saudi, Hong Kong, Korea Selatan. Biaya kirim via MoneyGram/Western Union masih di kisaran 5-7% per transaksi.
 
-**Indonesia adalah salah satu pasar remittance terbesar di dunia.** Menurut data Bank Indonesia, pengiriman uang dari Pekerja Migran Indonesia (PMI) mencapai **$9-11 miliar per tahun** dalam beberapa tahun terakhir, dengan negara asal utama Malaysia, Taiwan, Arab Saudi, Hong Kong, dan Korea Selatan. Biaya kirim via MoneyGram/Western Union masih di kisaran 5-7% per transaksi.
+Dengan MoneyGram yang ngadopsi stablecoin settlement via Tempo, potensinya langsung kerasa buat PMI:
 
-Dengan MoneyGram yang mengadopsi stablecoin settlement via Tempo, ada potensi langsung buat PMI:
-1. **Biaya kirim lebih murah**, stablecoin settlement hampir tanpa biaya dibanding SWIFT atau koresponden bank
-2. **Waktu lebih cepat**, dari 1-3 hari jadi hitungan menit
-3. **Lebih inklusif**, TKI tanpa rekening bank tetap bisa terima uang lewat jaringan MoneyGram yang punya 500.000 lokasi ritel
+Biaya kirim lebih murah — stablecoin settlement hampir tanpa biaya dibanding SWIFT atau koresponden bank. Waktu lebih cepet — dari 1-3 hari jadi hitungan menit. Lebih inklusif — TKI tanpa rekening bank tetep bisa terima uang lewat jaringan MoneyGram yang punya 500.000 lokasi ritel.
 
-Tentu ini masih awal. Tapi langkah MoneyGram + Stripe + Visa masuk ke Tempo adalah **sinyal paling kuat** bahwa stablecoin settlement untuk remittance bukan lagi teori, ini udah diimplementasikan oleh pemain terbesar di dunia.
+Tentu ini masih awal. Tapi langkah MoneyGram + Stripe + Visa masuk ke Tempo adalah sinyal paling kuat kalo stablecoin settlement buat remittance bukan lagi teori — ini udah diimplementasiin oleh pemain terbesar di dunia.
 
-Yang perlu diwatch: kapan integrasi ini mulai berdampak ke harga kirim uang ke Indonesia, dan apakah regulator Indonesia (Bank Indonesia, Kominfo) akan ngeluarin panduan spesifik buat stablecoin settlement lintas batas.
+Yang perlu diwatch: kapan integrasi ini mulai berdampak ke harga kirim uang ke Indonesia, dan apakah regulator Indo (BI, Kominfo) bakal ngeluarin panduan spesifik buat stablecoin settlement lintas batas.
 
 ## Sumber
 

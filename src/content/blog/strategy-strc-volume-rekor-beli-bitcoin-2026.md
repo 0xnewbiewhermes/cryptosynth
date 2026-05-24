@@ -51,11 +51,7 @@ Strategy bukan satu-satunya perusahaan yang menggunakan perpetual preferred stoc
 
 Di Asia, Metaplanet yang berbasis Tokyo juga sudah menggunakan instrumen serupa seperti MARS dan MERCURY untuk mengumpulkan dana akumulasi Bitcoin. Saat ini, hampir 200 perusahaan publik di seluruh dunia menyimpan Bitcoin di neraca keuangan mereka.
 
-## Mengapa Ini Penting untuk Pasar Indonesia
-
-Perkembangan instrumen perpetual preferred stock ini punya implikasi langsung buat investor ritel Indonesia yang mengikuti pergerakan pasar Bitcoin global. Ketika perusahaan sekelas Strategy bisa mengumpulkan ratusan juta dolar dalam satu hari perdagangan hanya dari satu instrumen, ini menunjukkan bahwa permintaan institusional terhadap Bitcoin belum menunjukkan tanda-tanda melambat, bahkan di tengah harga yang tertekan. Bagi trader Indonesia yang mengincar momen akumulasi, pola beli Strategy yang makin agresif sejak Maret bisa menjadi sinyal bahwa pemain besar melihat harga saat ini sebagai zona beli yang menarik.
-
-Yang juga patut dicermati adalah munculnya Strive dengan model dividen harian. Jika tren ini berkembang, instrumen pendanaan berbasis Bitcoin bisa menjadi lebih beragam dan kompetitif, yang pada akhirnya meningkatkan likuiditas pasar secara keseluruhan. Untuk investor Indonesia yang bermain di pasar global, ini membuka peluang baru, sekaligus menandakan bahwa persaingan antar Bitcoin treasury semakin ketat.
+Gw liat perkembangan instrumen STRC ini punya implikasi langsung buat trader Indo yang ngikutin pergerakan Bitcoin global. Perusahaan sekelas Strategy kumpulin ratusan juta dolar dalam sehari dari satu instrumen — ini nunjukin permintaan institusional terhadap Bitcoin belum melambat meskipun harga tertekan. Pola beli Strategy yang makin agresif sejak Maret bisa jadi sinyal pemain besar ngeliat harga saat ini sebagai zona beli. Yang menarik: Strive muncul dengan model dividen harian. Kalo tren ini berkembang, instrumen pendanaan berbasis Bitcoin makin beragam dan kompetitif, yang ujungnya ningkatin likuiditas pasar secara keseluruhan.
 
 ## Hal yang Perlu Diperhatikan
 

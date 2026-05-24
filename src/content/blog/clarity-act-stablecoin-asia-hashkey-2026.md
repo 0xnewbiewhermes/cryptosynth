@@ -53,17 +53,9 @@ Persaingan ini bukan soal daftar token lagi, melainkan siapa yang mengendalikan 
 
 *Sumber: [CoinDesk](https://www.coindesk.com/policy/2026/05/15/clarity-will-strengthen-dollar-stablecoins-but-asia-wins-on-yield-hashkey-research), 15 Mei 2026*
 
-## Mengapa Ini Penting untuk Trader dan Investor Indonesia
+Indonesia posisinya unik di sini. Negara dengan populasi crypto terbesar di Asia Tenggara plus penetrasi mobile banking tinggi — jadi salah satu pasar paling terdampak arus modal stablecoin. Kalo AS beneran batasin yield stablecoin, protokol DeFi dan exchange Indo berpotensi narik likuiditas global yang cari return lebih baik. Volume trading dan TVL lokal bisa naik.
 
-Indonesia berada di posisi yang unik dalam dinamika ini. Sebagai negara dengan populasi crypto terbesar di Asia Tenggara dan penetrasi mobile banking yang tinggi, Indonesia bisa menjadi salah satu pasar yang paling terdampak oleh arus modal stablecoin ke kawasan ini. Jika AS benar-benar membatasi yield stablecoin, protokol DeFi dan exchange yang beroperasi di Indonesia berpotensi menarik likuiditas global yang mencari return lebih baik. Ini bisa meningkatkan volume trading dan TVL di ekosistem lokal, tetapi juga membawa risiko regulasi yang perlu diwaspadai.
-
-Satu hal yang jarang dibahas adalah efek second-order terhadap Rupiah. Jika USD stablecoin menjadi lebih mudah diakses oleh bisnis dan investor Indonesia pasca-CLARITY Act, tekanan terhadap Rupiah bisa meningkat di saat capital outflow melalui channel crypto semakin mudah. Bank Indonesia dan OJK perlu memperhatikan tren ini, terutama terkait rencana mereka sendiri soal CBDC dan regulasi stablecoin domestik.
-
-## Langkah Selanjutnya
-
-- **Trader:** Pantau perkembangan voting CLARITY Act di lantai Senat. Butuh 60 suara untuk lolos, dan proses ini bisa memakan waktu berminggu-minggu.
-- **Investor jangka panjang:** Perhatikan stablecoin yang menawarkan yield on-chain. Jika regulasi AS ketat, yield di platform Asia bisa naik karena permintaan meningkat.
-- **Pelaku industri Indonesia:** Ini saatnya mempersiapkan infrastruktur untuk menangkap aliran modal stablecoin yang lebih besar ke kawasan ini.
+Tapi satu hal yang jarang dibahas: efek second-order ke Rupiah. Kalo USD stablecoin makin gampang diakses bisnis dan investor Indo pasca-Clarity Act, tekanan ke Rupiah bisa naik — capital outflow makin gampang lewat channel crypto. Bank Indonesia dan OJK perlu ngeliat ini, apalagi soal rencana CBDC dan regulasi stablecoin domestik.
 
 ## Sumber
 

@@ -62,13 +62,11 @@ Aurora, solusi scaling kompatibel Ethereum di NEAR, juga mengumumkan pembaruan A
 
 Sektor AI crypto masih sangat dipengaruhi oleh sentimen pasar saham Nvidia. Jika saham Nvidia mengalami koreksi, risiko koreksi ikut membayangi token AI seperti NEAR. Trader Indonesia disarankan tidak hanya memantau chart NEAR tapi juga pergerakan saham NVDA di pasar tradisional sebagai indikator awal.
 
-## Perspektif Pasar Indonesia
+Rally NEAR ini relevan buat komunitas kripto Indo karena beberapa alasan. NEAR punya basis developer yang cukup aktif di Asia Tenggara, termasuk Indo. Upgrade skalabilitas kayak dynamic resharding bisa narik lebih banyak project DeFi dan game asal Indo yang selama ini terkendala biaya tinggi di chain lain.
 
-Rally NEAR ini relevan bagi komunitas kripto Indonesia karena beberapa alasan. NEAR memiliki basis developer yang cukup aktif di Asia Tenggara, termasuk Indonesia. Upgrade skalabilitas seperti dynamic resharding bisa menarik lebih banyak project DeFi dan game asal Indonesia yang selama ini terkendala biaya tinggi di chain lain.
+Pola korelasi antara saham Nvidia dan token AI kayak NEAR juga buka peluang hedging lintas pasar yang jarang dibahas. Pas Nvidia lapor pendapatan positif, token AI cenderung ikut naik dalam 6-12 jam setelah rilis. Tapi koreksi Nvidia biasanya diikuti penurunan token AI dalam 24-48 jam dengan korelasi yang lebih lemah di arah sebaliknya.
 
-Pola korelasi antara saham Nvidia dan token AI seperti NEAR juga membuka peluang hedging lintas pasar yang jarang dibahas. Saat Nvidia melaporkan pendapatan positif, token AI cenderung ikut naik dalam 6-12 jam setelah rilis. Trader bisa memanfaatkan siklus ini, tapi koreksi Nvidia biasanya diikuti penurunan token AI dalam 24-48 jam dengan korelasi yang lebih lemah di arah sebaliknya.
-
-Analisis risiko utama untuk investor Indonesia: volume perdagangan NEAR di exchange Asia masih lebih rendah dibanding exchange Amerika dan Eropa. Ini bisa menyebabkan perbedaan harga (spread) yang lebih lebar, terutama saat volatilitas tinggi seperti sekarang. Selalu gunakan limit order, bukan market order, saat trading NEAR di kondisi pasar saat ini.
+Satu analisis risiko: volume perdagangan NEAR di exchange Asia masih lebih rendah dibanding exchange Amerika dan Eropa. Ini bisa menyebabkan perbedaan harga (spread) yang lebih lebar, apalagi pas volatilitas tinggi kayak sekarang. Pake limit order, jangan market order, pas trading NEAR di kondisi pasar saat ini.
 
 ## FAQ
 

@@ -57,18 +57,9 @@ Akar masalahnya adalah inflasi. Data CPI dan PPI yang terus-menerus panas dikomb
 
 Crypto, yang sebelumnya memperkirakan pelonggaran likuiditas sepanjang 2026, kini sedang menghitung ulang skenario yang berlawanan.
 
-## Analisis: Apa Artinya untuk Trader Indonesia
+Koreksi ini punya implikasi khusus buat trader Indo. Pasar lokal yang mayoritas retail dengan posisi leverage tinggi — rentan banget sama kaskade liquidasi kayak gini. 95% liquidasi ngehantam posisi long, artinya banyak trader pake margin gede tanpa stop-loss yang memadai. Buat lo yang trading di exchange lokal maupun internasional, momen ini jadi pengingat: leverage di atas 10x dalam kondisi makro kayak gini — resep bencana.
 
-Koreksi ini punya implikasi khusus buat trader Indonesia. Pasar lokal yang mayoritas berisi retail investor dengan posisi leverage tinggi sangat rentan terhadap kaskade liquidasi seperti ini. Ketika 95% liquidasi menghantam posisi long, itu berarti banyak trader yang menggunakan margin besar tanpa perlindungan stop-loss yang memadai. Bagi yang trading di exchange lokal maupun internasional, momen ini menjadi pengingat bahwa leverage di atas 10x dalam kondisi makro seperti ini adalah resep bencana.
-
-Yang juga perlu dicermati adalah pergeseran ekspektasi pasar terhadap kebijakan Fed. Selama berbulan-bulan, narasi bullish crypto berputar di sekitar pemotongan suku bunga dan pelonggaran likuiditas. Ketika pasar berbalik arah dan mulai memperhitungkan kenaikan suku bunga, seluruh thesis investasi crypto untuk paruh kedua 2026 perlu dievaluasi ulang. Trader Indonesia yang mengandalkan momentum bull cycle harus mulai mempertimbangkan skenario di mana koreksi berlanjut lebih dalam.
-
-## Langkah yang Perlu Diperhatikan
-
-- **Pantau data inflasi AS berikutnya.** Jika CPI dan PPI berikutnya tetap panas, tekanan jual pada crypto kemungkinan berlanjut
-- **Perhatikan level support BTC $75.000.** Beberapa analis memperkirakan target downside bisa mencapai pertengahan $70.000
-- **Kurangi leverage.** Dalam lingkungan makro saat ini, posisi leveraged tinggi sangat berisiko
-- **Diversifikasi dan jaga likuiditas.** Simpan sebagian aset dalam stablecoin untuk memanfaatkan peluang beli jika koreksi berlanjut
+Yang juga perlu dicermati: pergeseran ekspektasi pasar terhadap kebijakan Fed. Selama berbulan-bulan, narasi bullish crypto berputar di sekitar pemotongan suku bunga dan pelonggaran likuiditas. Pas pasar berbalik arah dan mulai memperhitungkan kenaikan suku bunga, seluruh thesis investasi crypto buat paruh kedua 2026 perlu dievaluasi ulang.
 
 ## Sumber
 

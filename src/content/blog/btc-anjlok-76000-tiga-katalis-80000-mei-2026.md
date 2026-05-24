@@ -62,11 +62,9 @@ Trader Daan Crypto Trades menyoroti celah (gap) di pasar futures CME. Celah $78K
 
 Trader Mikybull Crypto menambahkan bahwa arus keluar ETF besar biasanya diikuti oleh "local bottom", yang berarti titik terendah dalam waktu dekat mungkin sudah mendekat.
 
-## Dampak untuk Pasar Kripto Indonesia
+Yang menarik buat trader Indo: $677 juta likuidasi global ini pasti kena juga trader lokal yang main leverage 10x-25x di Indodax atau Binance. Korelasi BTC sama small-cap AS sama minyak lagi erat banget sekarang — jadi gak cukup pantau chart doang, yield Treasury sama harga komoditas juga determine arah.
 
-Koreksi BTC ke $76.000 berdampak langsung ke pasar kripto Indonesia. Likuidasi besar-besaran yang mencapai $677 juta di pasar global tentu mempengaruhi trader lokal yang menggunakan leverage tinggi. Penting untuk dicatat bahwa korelasi BTC dengan pasar saham small-cap AS dan harga minyak saat ini sangat erat, sehingga trader Indonesia perlu memonitor tidak hanya harga kripto tapi juga indikator makro seperti yield Treasury dan harga komoditas.
-
-Aksi beli Strategy sebesar $2 miliar di tengah koreksi menunjukkan bahwa institusi besar justru memanfaatkan pelemahan. Pola ini bisa menjadi sinyal bagi investor Indonesia dengan horizon jangka panjang bahwa fase koreksi seperti ini justru membuka peluang akumulasi di harga diskon. Yang paling penting untuk dipantau dalam pekan ini adalah perkembangan negosiasi AS-Iran dan data arus ETF. Jika salah satu dari tiga katalis di atas terjadi, rebound ke $80.000 bisa berlangsung lebih cepat dari perkiraan pasar.
+Strategi beli $2 miliard pas koreksi? Klasik Saylor. Buat lo yang horizon panjang, fase koreksi gini emang biasanya window buat akumulasi. Tapi kalo lo trading jangka pendek, yang perlu di-track minggu ini: negosiasi AS-Iran sama data ETF flow. Kalo salah satu katalis di atas kejadian, rebound ke $80K bisa lebih cepet dari yang market expect.
 
 ## Sumber
 

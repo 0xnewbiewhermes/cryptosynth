@@ -15,46 +15,34 @@ faq: "Apa yang terjadi dengan Aave dan WETH?;;Aave telah memulihkan rasio loan-t
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-## Aave Pulihkan Rasio LTV WETH di Enam Jaringan
+Gw liat Aave baru aja pulihin rasio LTV WETH di enam jaringan besar setelah eksploitasi rsETH bulan lalu. Buat lo yang main pinjaman di Aave, kabar ini artinya fungsi WETH sebagai agunan udah balik normal.
 
-Protokol pinjaman DeFi terbesar, [Aave](https://www.coindesk.com/markets/2026/05/18/aave-restores-weth-collateral-limits-as-rseth-crisis-enters-recovery-phase), secara resmi memulihkan rasio loan-to-value (LTV) untuk Wrapped Ether (WETH) di enam jaringan Aave V3. Langkah ini membalikkan pembatasan darurat yang diberlakukan setelah eksploitasi rsETH pada April 2026 yang menyebabkan kerugian lebih dari $230 juta dalam bentuk ETH.
+Protokol pinjaman DeFi terbesar, [Aave](https://www.coindesk.com/markets/2026/05/18/aave-restores-weth-collateral-limits-as-rseth-crisis-enters-recovery-phase), resmi mengembalikan rasio loan-to-value (LTV) untuk Wrapped Ether (WETH) di enam jaringan Aave V3. Ini membalikkan pembatasan darurat setelah eksploitasi rsETH April 2026 yang bikin kerugian $230 juta+ dalam bentuk ETH.
 
-Pendiri Aave, Stani Kulechov, mengonfirmasi melalui X bahwa LTV WETH telah dikembalikan ke level sebelum insiden di semua jaringan yang terdampak. "Tahap selanjutnya dari rencana pemulihan teknis rsETH telah selesai dengan pemulihan LTV WETH ke level sebelum insiden di semua jaringan yang terdampak. Pengguna kini dapat kembali meminjam menggunakan WETH di Aave," kata Kulechov seperti [dilaporkan](https://cointelegraph.com/news/aave-restores-weth-borrowing-after-kelp-dao-rseth-exploit) oleh Cointelegraph.
+Pendiri Aave, Stani Kulechov, konfirmasi lewat X: "Tahap selanjutnya dari rencana pemulihan teknis rsETH telah selesai — LTV WETH udah balik ke level sebelum insiden di semua jaringan yang terdampak." Artinya pengguna bisa pinjam lagi pake WETH di Aave.
 
-### Detail Pemulihan LTV
+**Detail pemulihan LTV:**
 
-Berdasarkan dokumen tata kelola Aave, rasio LTV yang dipulihkan adalah sebagai berikut:
+- Ethereum Core: 80,5%
+- Ethereum Prime: 84%
+- Arbitrum: 80%
+- Base: 80%
+- Mantle: 80,5%
+- Linea: 80%
 
-| Jaringan | LTV WETH |
-|----------|----------|
-| Ethereum Core | 80,5% |
-| Ethereum Prime | 84% |
-| Arbitrum | 80% |
-| Base | 80% |
-| Mantle | 80,5% |
-| Linea | 80% |
+Sebelumnya LTV WETH diset ke 0%, bikin WETH gak bisa dipake sebagai agunan di enam jaringan itu — langkah darurat setelah eksploitasi buat cegah kerugian lebih lanjut.
 
-Pembatasan darurat sebelumnya menetapkan LTV WETH menjadi 0%, yang secara efektif melumpuhkan fungsi WETH sebagai agunan pinjaman di keenam jaringan tersebut. Langkah pengamanan ini diberlakukan segera setelah eksploitasi untuk mencegah kerugian lebih lanjut.
+**Kejadiannya gini:** 18 April 2026, peretas (diduga terkait Korea Utara) exploit bridge LayerZone milik Kelp DAO. Mereka ciptain 112.103 token rsETH tanpa jaminan, lalu pake itu buat minjam WETH dari Aave V3. Sekitar $230 juta berhasil dikuras sebelum likuidasi besar-besaran dimulai. Tapi lebih dari 95% rsETH tanpa jaminan berhasil dipulihin: 89.567 lewat likuidasi internal Aave, 17.426 lewat Compound. Sisanya ~5.200 rsETH bakal ditutup koalisi DeFi United (Mantle, EtherFi Foundation, Golem Foundation, Lido DAO, dll).
 
-### Latar Belakang Eksploitasi Kelp DAO
+**Dampak ke TVL?** Cukup brutal. TVL Aave turun $8 miliar lebih — dari $23,5 miliar di Maret ke $14,8 miliar. Tapi pemulihan LTV WETH jadi sinyal risiko sistemik udah terkendali. Tom Wan dari Entropy Advisors nyatet utilisasi ETH udah turun di bawah 90% dengan suku bunga pinjaman cuma 1,9% setahun. Ini bisa narik trader yang incar strategi yield ETH pake leverage.
 
-Insiden ini bermula pada 18 April 2026, ketika peretas yang diduga terkait dengan aktor negara Korea Utara mengeksploitasi bridge LayerZero milik [Kelp DAO](https://cointelegraph.com/news/aave-restores-weth-borrowing-after-kelp-dao-rseth-exploit). Mereka berhasil menciptakan sekitar 112.103 token rsETH tanpa jaminan, kemudian menggunakannya sebagai agunan di Aave V3 untuk meminjam WETH.
+WETH itu aset agunan paling vital di DeFi — trader pake buat minjam, leverage, dan danai strategi likuiditas. Waktu WETH dibekuin, leverage di seluruh ekosistem langsung terbatas, efisiensi likuiditas anjlok, modal pada terjebak.
 
-Dari total tersebut, sekitar $230 juta berhasil dikuras dari Aave sebelum likuidasi besar-besaran dan aksi pemulihan terkoordinasi dimulai. Lebih dari 95% rsETH yang tidak memiliki jaminan berhasil dipulihkan: 89.567 melalui likuidasi internal Aave dan 17.426 melalui Compound. Sisa kekurangan sekitar 5.200 rsETH diperkirakan akan ditutupi oleh koalisi industri DeFi United, yang terdiri dari berbagai protokol besar seperti Mantle, EtherFi Foundation, Golem Foundation, Lido DAO, dan lainnya.
+Buat lo trader Indo yang main farming dan leverage di Aave, kabar ini jelas penting. Fungsi WETH udah balik, artinya strategi yield farming dan leverage trading bisa jalan lagi tanpa hambatan. Plus suku bunga pinjaman cuma 1,9% setahun — modal murah buat yang paham risiko.
 
-### Dampak ke Total Value Locked Aave
+Yang menarik, tingkat pemulihan 95% dalam kurang dari sebulan nunjukin resiliensi DeFi udah jauh lebih matang dibanding era 2022. Dulu eksploitasi kayak Ronin Bridge ($620 juta) butuh berbulan-bulan buat pulih parsial. Sekarang koalisi kompetitor langsung — Compound, Lido, Mantle — bisa gercep koordinasi darurat. Buat lo yang aktif di ekosistem Ethereum, pullback ETH ke $2.115 (-3,55% hari ini) bisa jadi entry point menarik, apalagi dengan biaya pinjaman minimal.
 
-Eksploitasi ini berdampak signifikan terhadap total value locked (TVL) Aave. Menurut data DefiLlama, TVL Aave turun lebih dari $8 miliar, dari $23,5 miliar pada Maret menjadi sekitar $14,8 miliar saat ini. Penurunan ini mencerminkan hilangnya kepercayaan sementara dan penarikan likuiditas oleh pengguna yang khawatir dengan risiko kontagion.
-
-Namun, pemulihan LTV WETH menjadi sinyal penting bahwa risiko sistemik telah terkendali. Tom Wan, kepala data konsultan Entropy Advisors, mencatat bahwa utilisasi ETH telah turun kembali di bawah 90% dengan suku bunga pinjaman tahunan hanya 1,9%. Kondisi ini bisa menarik kembali trader yang tertarik dengan strategi yield ETH berleverage.
-
-Pemulihan LTV WETH memiliki implikasi lebih luas dari sekadar berita teknis. WETH adalah aset agunan paling penting di DeFi, digunakan oleh trader untuk meminjam melawan kepemilikan ether, menerapkan leverage, dan mendanai strategi likuiditas. Ketika WETH tidak bisa digunakan sebagai agunan, leverage di seluruh ekosistem terbatas, efisiensi likuiditas menurun, dan modal terjebak di berbagai protokol.
-
-Bagi pengguna DeFi di Indonesia, kabar ini penting karena Aave adalah salah satu protokol yang paling banyak digunakan oleh komunitas kripto Indonesia untuk farming dan leverage. Dengan kembalinya fungsi WETH, akses ke pinjaman berbasis ETH kembali normal, yang berarti strategi yield farming dan leverage trading bisa dijalankan lagi tanpa hambatan.
-
-Yang menarik, tingkat pemulihan 95% dalam waktu kurang dari sebulan menunjukkan resiliensi ekosistem DeFi yang lebih matang dibandingkan era sebelumnya. Koalisi DeFi United yang terdiri dari kompetitor langsung seperti Compound, Lido, dan Mantle menunjukkan bahwa protokol DeFi kini memiliki mekanisme darurat yang lebih solid. Ini berbeda dengan era 2022 ketika eksploitasi seperti Ronin Bridge ($620 juta) membutuhkan waktu berbulan-bulan untuk pemulihan parsial. Untuk trader Indonesia yang aktif di ekosistem Ethereum, pullback ETH ke $2.115 setelah penurunan 3,55% hari ini bisa menjadi titik entry yang menarik bagi mereka yang paham risiko, terutama dengan suku bunga pinjaman yang rendah (1,9% APY) yang memungkinkan strategi leverage dengan biaya modal minimal.
-
-Meski pemulihan teknis berjalan baik, masih ada pertanyaan hukum yang belum terjawab. Sengketa atas aset yang dibekukan dan pertanyaan tentang tanggung jawab akhir masih berlangsung. Sidang pengadilan New York untuk gugatan Aave membuka $71 juta ETH yang dibekukan masih tertunda. Pengguna DeFi Indonesia disarankan untuk tetap waspada dan tidak menganggap krisis ini sepenuhnya selesai.
+Tapi jangan geer dulu. Masih ada pertanyaan hukum yang belum beres — sengketa aset beku, tanggung jawab final, dan sidang pengadilan New York buat gugatan Aave soal $71 juta ETH yang dibekuin masih pending. Belum sepenuhnya kelar.
 
 ## Sumber
 

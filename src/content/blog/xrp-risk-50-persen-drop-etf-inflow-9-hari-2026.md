@@ -51,7 +51,7 @@ Ini menunjukkan rotasi modal institusional dari BTC dan ETH ke XRP dan SOL. Tron
 
 Divergensi antara tekanan teknikal dan sentimen institusional ini menarik perhatian. Biasanya aliran ETF yang kuat cukup untuk mendorong harga naik. Tapi pola bear pennant di timeframe tinggi (3 hari) adalah sinyal yang jarang gagal.
 
-Untuk trader Indonesia yang memiliki posisi XRP, ini berarti situasi yang perlu dicermati. Support $1.27 adalah level kunci yang harus dipertahankan. Jika XRP bertahan di atas $1.27 dalam beberapa hari ke depan, tekanan bearish bisa mereda. Tapi jika break di bawahnya, target ke $1.00 dan bahkan $0.65 menjadi probabilitas yang nyata.
+Buat yang punya posisi XRP, ini situasi yang perlu dicermati bener. Support $1.27 adalah level kunci. Kalo XRP bertahan di atasnya beberapa hari ke depan, tekanan bearish bisa mereda. Tapi kalo break di bawahnya, target ke $1.00 dan bahkan $0.65 jadi probabilitas yang nyata.
 
 Di sisi positif, pengesahan CLARITY Act di AS dan pemulihan aktivitas jaringan XRP bisa menjadi katalis yang mengubah sentimen pasar. Beberapa analis bahkan memperkirakan XRP bisa menuju $15 dalam skenario akumulasi jangka panjang. Tapi dalam jangka pendek, sinyal teknikal bearish sulit diabaikan.
 

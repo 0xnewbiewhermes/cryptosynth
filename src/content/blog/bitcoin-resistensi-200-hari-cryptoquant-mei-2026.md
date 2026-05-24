@@ -61,21 +61,7 @@ Bitcoin juga semakin sensitif terhadap ekonomi AS seiring meningkatnya adopsi Wa
 
 Namun, tidak semua analis bearish. Michaël van de Poppe, founder MN Capital, mengatakan Bitcoin "mungkin bergerak cepat" ke $90.000 jika Senat AS mengesahkan CLARITY Act. Sementara itu, Arthur Hayes dari Maelstrom memprediksi BTC kembali ke rekor tertinggi $126.000 adalah "kesimpulan yang sudah pasti," didorong oleh peningkatan suplai uang akibat konflik Iran dan kompetisi AI AS-China.
 
-## Apa Artinya untuk Trader Indonesia?
-
-Bagi trader dan investor crypto di Indonesia, beberapa hal:
-
-- **Jangan FOMO di level saat ini.** Zona $82.000-$82.500 adalah resistance kuat. Masuk di sini berisiko tinggi.
-- **Pantau volume dan price action.** Jika BTC ditolak keras di 200-day MA dengan volume tinggi, kemungkinan koreksi ke $75.000-$78.000 cukup besar.
-- **Siapkan strategi DCA di level support.** $75.700 (128-day MA) dan $78.200 (True Market Mean) bisa menjadi zona akumulasi yang menarik.
-- **Tetapkan stop-loss.** Jika Anda sudah posisi long, pertimbangkan stop-loss di bawah $75.000 untuk membatasi risiko.
-- **Perhatikan berita makro AS.** Data inflasi dan kebijakan Fed tetap menjadi penggerak utama harga Bitcoin saat ini.
-
-**Ringkasan:**
-- **Judul:** Bitcoin Hadapi Resistensi 200 Hari, CryptoQuant Peringatkan Risiko Koreksi
-- **Keyword SEO:** harga bitcoin hari ini, resistensi 200 hari bitcoin, cryptoquant bear market, prediksi bitcoin
-- **Sumber:** Cointelegraph, CoinDesk, Benzinga
-- **Preview:** https://cryptosynth.id/blog/bitcoin-resistensi-200-hari-cryptoquant-mei-2026
+Gw breakdown: zona $82.000-$82.500 resistance kuat. Kalo lo FOMO masuk di sini, risikonya gede. Kalo BTC ditolak keras di 200-day MA dengan volume tinggi, koreksi ke $75.000-$78.000 cukup mungkin. Support di $75.700 (128-day MA) dan $78.200 (True Market Mean) jadi zona yang menarik buat DCA. Kalo lo udah long, stop-loss di bawah $75.000. Tapi intinya: inflasi AS dan kebijakan Fed tetap jadi penggerak utama.
 
 <div class="sources-box">
 <strong>Sumber:</strong>

@@ -64,21 +64,15 @@ CertiK merekomendasikan beberapa langkah untuk mengejar ketinggalan:
 
 5. **Collaboration**: Berbagi informasi tentang vulnerability antar protokol.
 
-## Apa yang Harus Dilakukan Pengguna DeFi?
+Buat lo yang main DeFi, peringatan CertiK ini wake-up call. Beberapa hal yang gw terapin sendiri:
 
-Bagi pengguna DeFi Indonesia, peringatan dari CertiK ini adalah wake-up call. Beberapa langkah yang bisa diambil:
+- **Cek audit dulu**: Jangan asal deposit di protokol yang belum diaudit.
+- **Sebar aset**: Jangan taro semua di satu protokol.
+- **Asuransi DeFi**: Mulai jadi pertimbangan penting.
+- **Pantau berita**: Keamanan DeFi berubah cepat, lo ketinggalan dikit bisa kena imbasnya.
+- **Hardware wallet**: Masih cara paling aman buat nyimpen aset utama.
 
-- **Hanya gunakan protokol yang sudah diaudit**: Periksa status audit sebelum menggunakan protokol DeFi.
-- **Diversifikasi**: Jangan taruh semua aset di satu protokol.
-- **Asuransi DeFi**: Pertimbangkan untuk menggunakan asuransi DeFi.
-- **Update berita**: Ikuti perkembangan terbaru tentang keamanan DeFi.
-- **Hardware wallet**: Gunakan hardware wallet untuk menyimpan aset utama.
-
-## Masa Depan Keamanan DeFi
-
-Kesenjangan teknologi antara attacker dan defender adalah masalah serius yang perlu segera diatasi. Tanpa intervensi yang tepat, industri DeFi bisa kehilangan kepercayaan publik. Namun, dengan adopsi AI yang tepat untuk pertahanan, defender bisa mengejar ketinggalan.
-
-Bagi Indonesia, ini adalah peluang besar. Dengan talenta AI yang berkembang pesat, Indonesia bisa menjadi pusat pengembangan teknologi keamanan DeFi berbasis AI.
+Soal masa depan, gw liat kesenjangan teknologi antara attacker dan defender ini masalah serius. Tapi buat Indonesia, celah ini sebenernya peluang. Talenta AI di Indo berkembang pesat, dan potensi jadi pusat pengembangan keamanan DeFi berbasis AI itu nyata. Bukan cuma soal ngelindungin aset, tapi juga soal siapa yang bisa bikin solusi pertahanan yang lebih cerdas dari serangan AI — dan itu pasar yang gede banget.
 
 ---
 

@@ -44,15 +44,11 @@ Volume pasar prediksi global mencapai USD 51 miliar tahun lalu. Menurut laporan 
 
 Kalshi merespons tekanan ini dengan meluncurkan **Americans for Fair Markets (AFM)**, grup advokasi yang didanai dengan baik untuk melobi Kongres. Mereka merekrut Taylor Budowich, mantan staf senior Gedung Putih dan figur Super PAC pro-Trump, sebagai penasihat strategis.
 
-## Strategi untuk Pasar Indonesia
+Polymarket volume global udah $51 miliar tahun lalu, proyeksi $240 miliar di 2026. Trader Asia Tenggara — termasuk Indo — kemungkinan kontribusinya signifikan. Kalo Kongres makin perketat KYC dan geofencing, akses dari Indo bisa terbatas, dana trader lokal beresiko terjebak.
 
-Polymarket mencatat volume perdagangan global USD 51 miliar tahun lalu dan proyeksi USD 240 miliar di 2026. Dari angka itu, kontribusi trader Asia Tenggara termasuk Indonesia diperkirakan signifikan mengingat penetrasi kripto yang tinggi di kawasan ini. Jika Kongres memperketat regulasi KYC dan geofencing, akses dari Indonesia bisa terbatas dan dana trader lokal berisiko terjebak.
+Gelombang regulasi juga udah kelihatan di Asia. India baru blokir penuh Polymarket dan siap blokir Kalshi. Skenario serupa bisa terjadi di Indo kalo regulator ambil sikap yang sama. Bedanya, Indo belum punya kerangka regulasi spesifik buat pasar prediksi berbasis kripto. Artinya masih ada ruang buat edukasi dan dialog sama regulator sebelum aturan ketat diterapkan.
 
-Gelombang regulasi global juga terlihat jelas di Asia. India baru saja memblokir penuh Polymarket dan bersiap memblokir Kalshi berdasarkan Promotion and Regulation of Online Gaming Act 2025, seperti dilaporkan [CoinDesk](https://www.coindesk.com/markets/2026/05/22/india-cracks-down-on-prediction-markets-polymarket-goes-dark-kalshi-could-be-next). Pemerintah India menggunakan strategi "shadow ban" dengan pajak 30% dan TDS 1% pada transaksi kripto.
-
-Skenario serupa bisa terjadi di Indonesia jika regulator mengambil sikap yang sama. Perbedaan utama: Indonesia belum memiliki kerangka regulasi spesifik untuk pasar prediksi berbasis kripto. Ini memberi ruang bagi edukasi dan dialog dengan regulator sebelum aturan ketat diterapkan.
-
-Risiko bagi trader Indonesia yang aktif di Polymarket adalah kemungkinan dana terjebak jika platform menerapkan pembatasan geografis mendadak. Ini pelajaran untuk tidak menaruh dana signifikan di platform yang berisiko kena regulasi lintas batas.
+Risiko buat trader Indo yang aktif di Polymarket: kemungkinan dana terjebak kalo platform terapin pembatasan geografis mendadak. Jangan taroh dana signifikan di platform yang berisiko kena regulasi lintas batas.
 
 ## Sumber
 

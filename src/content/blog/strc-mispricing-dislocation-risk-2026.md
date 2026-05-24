@@ -15,50 +15,33 @@ faq: "Apa itu saham perpetual preferred STRC?;;STRC adalah instrumen perpetual p
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-## Investor Salah Harga Risiko STRC, Kata Analis
+Gw liat saham perpetual preferred STRC milik Strategy lagi naik daun. Volume perdagangan harian baru cetak rekor $1,5 miliar pada Kamis (15/5), total nilai pasar saham beredar nyentuh $8,4 miliar. Tapi di balik angka impresif itu, ada peringatan penting yang belum banyak dipertimbangkan investor.
 
-Saham perpetual preferred STRC milik Strategy sedang naik daun. Volume perdagangan harian baru saja mencetak rekor $1,5 miliar pada Kamis (15/5), dan total nilai pasar saham yang beredar mencapai $8,4 miliar. Tapi di balik angka-angka impresif itu, ada peringatan penting yang belum banyak dipertimbangkan investor.
+Matt Dines, CIO Build Markets, bilang ke [Truth for the Commoner](https://www.youtube.com/watch?v=TFTC) kalo investor lagi salah harga risiko di instrumen perpetual preferred kayak STRC. Masalah utamanya di struktur dasar instrumen ini.
 
-Matt Dines, Chief Investment Officer dari perusahaan manajemen kredit Build Markets, mengatakan kepada media [Truth for the Commoner (TFTC)](https://www.youtube.com/watch?v=TFTC) bahwa investor sedang salah harga risiko pada instrumen perpetual preferred seperti STRC. Menurutnya, masalah utamanya terletak pada struktur dasar instrumen ini.
+"Kalo spread mulai naik dan pasar nuntut yield lebih tinggi dari peminjam korporat, lo juga harus kaitin itu dengan durasi perpetual yang tak terbatas. Jadi kalo dislokasi ini terjadi di likuiditas, itu bakal datang dari sisi fiat," kata Dines ([Cointelegraph](https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation)).
 
-"Jika spread mulai naik dan pasar menuntut yield lebih tinggi dari peminjam korporat, kamu juga harus mengaitkannya dengan durasi perpetual yang tak terbatas. Jadi, jika dislokasi ini terjadi di likuiditas, itu akan datang dari sisi fiat," ujar Dines, seperti [dilaporkan Cointelegraph](https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation) (16/5/2026).
+**Kenapa perpetual preferred berisiko?**
 
-## Mengapa Perpetual Preferred Berisiko?
+Bedanya perpetual preferred stock sama obligasi biasa: gak ada tanggal jatuh tempo. Penerbit (Strategy) gak pernah harus balikin pokok investasi ke pemegang saham. Mereka cuma perlu bayar dividen terus-menerus tanpa perlu negosiasi ulang syarat.
 
-Perbedaan mendasar antara perpetual preferred stock dan obligasi biasa adalah ketiadaan tanggal jatuh tempo. Penerbit seperti Strategy tidak pernah harus mengembalikan pokok investasi kepada pemegang saham. Mereka cukup membayar dividen secara terus-menerus tanpa perlu menegosiasi ulang syarat investasi.
+Kalo lo pegang STRC dan mau cairin dana, satu-satunya cara adalah jual di pasar sekunder. Ini ngekspos lo ke dua risiko permanen: kontraksi likuiditas dan risiko suku bunga. Karena gak ada tanggal jatuh tempo, risiko ini gak pernah berakhir.
 
-Jika pemegang STRC ingin mencairkan dana, satu-satunya cara adalah menjual saham di pasar sekunder. Kondisi ini mengekspos investor pada dua risiko permanen: kontraksi likuiditas dan risiko suku bunga. Karena tidak ada tanggal jatuh tempo, risiko ini tidak pernah berakhir.
+STRC diperdagangkan di ~$99 per saham dengan [dividen rate 11,5%](https://www.strategy.com/strc/learn) yang bersifat variabel — yield bisa berubah tiap bulan tergantung kondisi pasar.
 
-STRC saat ini diperdagangkan di sekitar $99 per saham dengan [dividen rate 11,5%](https://www.strategy.com/strc/learn) yang bersifat variabel, artinya yield yang ditawarkan bisa berubah setiap bulan tergantung kondisi pasar.
+**Batas penerbitan $28 miliar — bisa jadi tembok.** Riset [Delphi Digital](https://members.delphidigital.io/reports) bilang Strategy punya authorized issuance cap ~$28 miliar. Saat ini total notional face value STRC yang beredar udah $8,5 miliar. Kalo batas ini gak dinaikin sebelum nyentuh $28 miliar, akumulasi Bitcoin Strategy bisa melambat. Ini penting karena Strategy ngandelin STRC sebagai senjata utama pendanaan buat beli BTC di tengah kondisi pasar 2026 yang kurang menguntungkan.
 
-## Batas Penerbitan $28 Miliar Bisa Jadi Tembok
+**Saylor bilang gini:** Michael Saylor, Executive Chairman Strategy, ke [CoinDesk](https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin) di Consensus Miami, nyebut kekhawatiran soal penjualan Bitcoin buat bayar dividen sebagai "big nothing burger." "Kalo kita danai semua dividen secara eksklusif dengan jual Bitcoin selama setahun ke depan, kita bakal beli 20 Bitcoin buat setiap 1 Bitcoin yang dijual. Dampaknya gak terukur," katanya. Saylor juga negasin STRC punya growth rate 400%, jadi mesin modal yang tetap berfungsi bahkan di pasar bearish.
 
-Masalah lain yang perlu dicermati adalah batas penerbitan STRC. Menurut riset [Delphi Digital](https://members.delphidigital.io/reports), Strategy memiliki authorized issuance cap sekitar $28 miliar. Saat ini, total notional face value saham STRC yang sudah beredar mencapai $8,5 miliar.
+**Yang menarik** dari situasi ini adalah kontras antara narasi bullish dan peringatan risiko. Volume STRC emang rekor, tapi instrumen perpetual preferred bukan tanpa cela. Buat lo investor Indo yang mungkin tertarik sama yield 11,5%, penting buat paham: yield tinggi selalu datang sama risiko tinggi. Instrumen ini gak punya "exit" alami selain jual di pasar sekunder. Kalo terjadi gejolak likuiditas atau kenaikan suku bunga obligasi pemerintah, harga STRC bisa turun tajam tanpa jaminan penerbit bakal balikin pokok.
 
-Jika batas ini tidak dinaikkan sebelum mencapai ambang $28 miliar, akumulasi Bitcoin oleh Strategy bisa melambat. Ini menjadi pertimbangan penting mengingat Strategy mengandalkan STRC sebagai senjata utama pendanaan untuk membeli BTC di tengah kondisi pasar 2026 yang kurang menguntungkan.
+Dampaknya juga gak cuma buat pemegang STRC. Kalo Strategy kehabisan ruang penerbitan atau kena tekanan dividen, laju akumulasi BTC mereka bisa melambat — dan itu pengaruh ke dinamika pasar Bitcoin secara lebih luas. Strategy adalah pembeli Bitcoin institusional terbesar di dunia, jadi perlambatan di sisi demand mereka punya implikasi harga buat BTC secara keseluruhan.
 
-## Saylor: Jual Bitcoin untuk Dividen "Tidak Signifikan"
-
-Sementara itu, Michael Saylor, Executive Chairman Strategy, memiliki pandangan berbeda. Dalam wawancara dengan [CoinDesk](https://www.coindesk.com/markets/2026/05/11/a-big-nothing-burger-a-q-and-a-with-strategy-s-michael-saylor-on-selling-bitcoin) di Consensus Miami (11/5), Saylor menyebut kekhawatiran tentang penjualan Bitcoin untuk membayar dividen sebagai "big nothing burger."
-
-"Jika kita mendanai semua dividen secara eksklusif dengan menjual Bitcoin selama setahun ke depan, kita akan membeli 20 Bitcoin untuk setiap 1 Bitcoin yang dijual. Jadi dampaknya tidak terukur," kata Saylor.
-
-Saylor juga menekankan bahwa STRC memiliki growth rate 400%, menjadikannya mesin modal yang tetap berfungsi bahkan di pasar bearish, sesuatu yang tidak bisa dilakukan obligasi konversi Strategy sebelumnya.
-
-## Data Harga Terkini
-
-| Aset | Harga (USD) | Perubahan 24h |
-|------|-------------|---------------|
-| BTC | $78.076 | -1,22% |
-| ETH | $2.185 | -1,80% |
-| SOL | $86,78 | -2,30% |
-| XRP | $1,41 | -0,96% |
-
-*Sumber: Cointelegraph, 17 Mei 2026*
-
-Yang menarik dari situasi ini adalah kontras antara narasi bullish dan peringatan risiko. Volume STRC memang rekor, tapi instrumen perpetual preferred bukan tanpa cela. Bagi investor Indonesia yang mungkin tertarik dengan yield 11,5% yang ditawarkan STRC, penting untuk memahami bahwa yield tinggi selalu datang dengan risiko tinggi. Instrumen ini tidak memiliki "exit" alami selain menjual di pasar sekunder, dan jika terjadi gejolak likuiditas atau kenaikan suku bunga obligasi pemerintah, harga STRC bisa turun tajam tanpa ada jaminan penerbit akan mengembalikan pokok.
-
-Dampaknya bukan hanya untuk pemegang STRC. Jika Strategy kehabisan ruang penerbitan atau menghadapi tekanan dividen, laju akumulasi BTC mereka bisa melambat, yang berpotensi mempengaruhi dinamika pasar Bitcoin secara lebih luas. Strategy saat ini adalah pembeli Bitcoin institusional terbesar di dunia, jadi setiap perlambatan di sisi demand mereka punya implikasi untuk harga BTC secara keseluruhan.
+**Harga terkini (17 Mei 2026):**
+- BTC: $78.076 (-1,22%)
+- ETH: $2.185 (-1,80%)
+- SOL: $86,78 (-2,30%)
+- XRP: $1,41 (-0,96%)
 
 ## Sumber
 

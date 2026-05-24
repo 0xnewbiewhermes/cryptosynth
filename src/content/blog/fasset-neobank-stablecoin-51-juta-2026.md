@@ -36,17 +36,11 @@ Stablecoin menjadi jembatan yang sempurna untuk pasar ini karena:
 
 Dengan membangun di atas stablecoin, Fasset bisa menawarkan layanan perbankan yang lebih inklusif dan terjangkau.
 
-## Dampak untuk Indonesia
+Indonesia salah satu target utama Fasset. Populasi Muslim terbesar di dunia, penetrasi smartphone tinggi — pasar ideal buat neobank syariah berbasis stablecoin. Potensi dampaknya:
 
-Indonesia adalah salah satu pasar target utama Fasset. Dengan populasi Muslim terbesar di dunia dan penetrasi smartphone yang tinggi, Indonesia adalah pasar ideal untuk neobank syariah berbasis stablecoin.
+Inklusi keuangan — jutaan orang yang belum punya rekening bank bisa akses layanan perbankan digital. Transfer internasional — pekerja migran Indonesia bisa kirim uang dengan biaya lebih rendah. Investasi halal — alternatif investasi yang sesuai prinsip syariah. Plus kompetisi yang mendorong bank tradisional buat berinovasi.
 
-Beberapa potensi dampak positif untuk Indonesia:
-1. **Inklusi keuangan**: Jutaan orang yang belum punya rekening bank bisa mengakses layanan perbankan digital
-2. **Transfer internasional**: Pekerja migran Indonesia bisa mengirim uang dengan biaya lebih rendah
-3. **Investasi halal**: Alternatif investasi yang sesuai prinsip syariah
-4. **Kompetisi**: Mendorong bank tradisional untuk berinovasi
-
-Namun, regulasi Bank Indonesia tentang crypto tetap jadi faktor yang relevan. Fasset perlu memastikan kepatuhan penuh terhadap peraturan setempat sebelum beroperasi di Indonesia.
+Tapi ya, regulasi Bank Indonesia tentang crypto tetep jadi faktor. Fasset harus mastiin kepatuhan penuh sama peraturan setempat sebelum beroperasi di Indo.
 
 ## Tren Neobank Stablecoin Global
 

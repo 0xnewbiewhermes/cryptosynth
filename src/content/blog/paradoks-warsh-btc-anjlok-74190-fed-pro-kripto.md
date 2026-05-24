@@ -45,11 +45,7 @@ CoinDesk melaporkan [ETF Bitcoin spot AS](https://www.coindesk.com/markets/2026/
 
 Buat investor Indonesia, angka $2,26 miliar mungkin terdengar abstrak. Dalam konteks lokal, itu setara dengan lebih dari Rp36 triliun, hampir separuh market cap Indodax. Jadi bukan pergerakan biasa, ini arus keluar institusional yang serius.
 
-## 3 Dampak Langsung buat Trader Indonesia
-
-Bitcoin jatuh hari Sabtu, yang artinya terjadi pas jam trader Indonesia lagi tidur atau liburan. Fenomena khas: pergerakan besar terjadi di pasar AS dan Eropa, trader Indo bangun udah ketinggalan. Biasanya volume lonjakan terjadi jam 7-9 pagi WIB pas orang siapin aktivitas, dan di jam itulah spread di Indodax sering melebar karena permintaan mendadak.
-
-Support kunci BTC sekarang di $73.500 dan $72.000. Kalau dua level ini tembus, $70.000 jadi psychological barrier berikutnya. Sementara beberapa analis melihat outflow ETF yang masif ini sebagai sinyal capitulation, fase di mana penjual terakhir keluar, tinggal pembeli bertahan. Dalam siklus Bitcoin sebelumnya, titik-titik outflow ekstrem justru sering jadi awal pemulihan.
+Buat trader Indo, klasik banget — BTC jatuh pas weekend, artinya kejadian pas lo lagi tidur atau santai. Pergerakan besar terjadi di AS-Eropa, lo bangun udah ketinggalan. Biasanya volume lonjakan jam 7-9 pagi WIB pas orang siap-siap, dan di jam itulah spread Indodax bisa melebar 1-1,5% karena permintaan mendadak. Support kunci di $73.500 dan $72.000. Kalo dua level ini tembus, $70.000 jadi psychological barrier. Yang menarik: outflow ETF $2,26 miliar ini — setara Rp36 triliun, hampir separuh market cap Indodax. Dalam siklus sebelumnya, titik-titik outflow ekstrem kayak gini justru sering jadi awal pemulihan.
 
 ## Paradoks yang Perlu Dicerna
 

@@ -40,13 +40,11 @@ Seperti dilaporkan [Yahoo Finance](https://finance.yahoo.com/quote/BTC-USD/histo
 
 Di sisi futures, analis CryptoOnChain melaporkan net taker volume 30-day moving average turun ke $58 juta pada 18 Mei dari $243 juta di April. Tapi metrik ini tetap positif selama koreksi terakhir, artinya pembeli futures terus menyerap tekanan jual di harga saat ini.
 
-## Apa Artinya Buat Trader Indonesia?
+Buat trader Indo, kondisi ini menarik sih. Coinbase Premium emang nunjukin weak demand dari AS, tapi struktur pasar keseluruhan masih bullish. BTC bertahan di atas $76.000 setelah rally ke $82.000 minggu lalu. Indikator on-chain kayak net taker volume yang positif — artinya koreksi ini lebih ke profit-taking daripada sell-off panik.
 
-Buat trader Indonesia, kondisi ini punya implikasi yang cukup menarik. Meskipun Coinbase Premium menunjukkan weak demand dari AS, struktur pasar secara keseluruhan masih bullish. BTC bertahan di atas $76.000 setelah rally ke $82.000 minggu lalu, dan indikator on-chain seperti net taker volume yang positif menandakan bahwa koreksi ini lebih merupakan profit-taking daripada sell-off panik.
+Yang menarik, perbedaan jam trading antara AS dan Asia juga jadi faktor. Pas premium Coinbase negatif di jam AS, harga sering pulih pas pasar Asia aktif. Buat lo yang trading di jam Asia, momentum pagi hari bisa kasih entry yang lebih oke.
 
-Perbedaan waktu antara perdagangan AS dan Asia juga jadi faktor. Ketika premium Coinbase negatif di jam trading AS, seringkali harga pulih saat pasar Asia aktif. Buat trader Indonesia yang sering trading di jam Asia, momentum pagi hari bisa memberi peluang entry yang lebih baik.
-
-Satu hal yang perlu diwaspadai adalah level support $74.800. Jika BTC break di bawah ini, struktur bullish bisa berubah dan bearish momentum bisa mendorong harga ke $70.000. Tapi selama BTC bertahan di atas $76.000 dengan volume yang wajar, koreksi ini adalah bagian dari siklus normal pasar bull.
+Satu hal yang perlu diwatch: level support $74.800. Kalo BTC break di bawah sini, struktur bullish bisa berubah dan bearish momentum bisa dorong harga ke $70.000. Tapi selama BTC bertahan di atas $76.000 dengan volume wajar, koreksi ini masih bagian dari siklus normal bull market.
 
 ## Ringkasan Indikator
 

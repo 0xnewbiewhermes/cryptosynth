@@ -16,43 +16,29 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-Dalam tujuh hari perdagangan terakhir, investor menarik **$2 miliar** dari spot Bitcoin ETF AS, menurut data dari SoSoValue dan CoinGlass. Angka ini adalah outflow mingguan terbesar dalam sejarah ETF Bitcoin. Tapi harga BTC justru memantul dari level terendah mingguan $76.679 ke $77.416, dan akhirnya stabil di sekitar $77.000 setelah Nvidia merilis laba Q1 yang beat ekspektasi. Fenomena ini penting untuk trader Indonesia karena biasanya outflow institusi sebesar ini langsung diikuti koreksi harga, tapi sekarang terjadi divergensi yang belum pernah terlihat sebelumnya.
+Gw liat sesuatu yang agak aneh minggu ini: investor narik **$2 miliar** dari spot Bitcoin ETF AS dalam 7 hari — outflow mingguan terbesar dalam sejarah ETF Bitcoin. Tapi harga BTC? Malah mantul dari $76.679 ke $77.416, stabil di sekitar $77.000 setelah Nvidia rilis laba Q1 yang beat ekspektasi.
 
-Bagi trader yang hanya melihat headline ETF outflow, situasi ini bisa membingungkan. Tapi data dari [Cointelegraph](https://cointelegraph.com/markets/bitcoin-rallies-through-77k-despite-spot-btc-etf-outflows-topping-2b) mengkonfirmasi bahwa dana yang keluar dari ETF tidak langsung mendorong harga turun secara proporsional.
+Buat lo yang cuma liat headline ETF outflow, situasi ini pasti bikin bingung. Tapi data dari [Cointelegraph](https://cointelegraph.com/markets/bitcoin-rallies-through-77k-despite-spot-btc-etf-outflows-topping-2b) konfirmasi: dana yang keluar dari ETF gak langsung dorong harga turun secara proporsional. Ada divergensi langka di sini.
 
-## Tiga Faktor yang Bikin BTC Tidak Jatuh
+**Tiga faktor yang bikin BTC gak jatuh:**
 
-**Pertama, Iran peace talks.** Pada Rabu waktu AS, Presiden Trump menyatakan bahwa AS berada di "tahap akhir" negosiasi damai dengan Iran. Pasar langsung bereaksi positif. Data dari CoinDesk mencatat WTI crude turun 5,2% ke $98,88 per barel, sementara US 10-year Treasury yield turun 9 basis poin ke 4,58%. BTC naik 1,6% ke $77.700 dalam beberapa jam setelah pernyataan tersebut.
+**Pertama, Iran peace talks.** Rabu waktu AS, Trump nyatak bahwa AS di "tahap akhir" negosiasi damai sama Iran. Pasar langsung reaksi positif. WTI crude turun 5,2% ke $98,88/barel, US 10-year Treasury yield turun 9 bp ke 4,58%. BTC naik 1,6% ke $77.700 dalam beberapa jam.
 
-Korelasi antara harga minyak dan Bitcoin memang tidak langsung, tapi transmisinya sederhana. Minyak turun berarti tekanan inflasi berkurang, yang mengurangi ekspektasi kenaikan suku bunga Fed, yang bikin aset berisiko seperti BTC lebih menarik.
+Korelasinya gini: minyak turun = tekanan inflasi berkurang = ekspektasi kenaikan suku bunga Fed turun = aset berisiko kayak BTC makin menarik.
 
-**Kedua, Nvidia earnings yang beat.** Seperti dilaporkan CoinDesk dalam live markets coverage-nya, Nvidia mencetak pendapatan $81,6 miliar (di atas estimasi $78,9 miliar) dan EPS adjusted $1,87 (vs $1,75 estimasi). Data center revenue mencapai $73,1 miliar dengan pertumbuhan 92% year-over-year.
+**Kedua, Nvidia earnings beat.** Nvidia catat pendapatan $81,6 miliar (di atas estimasi $78,9 miliar), EPS adjusted $1,87 (vs $1,75 estimasi). Data center revenue $73,1 miliar, tumbuh 92% YoY. Saham NVDA naik 1,3% ke $223,47. Ini katalis positif buat risk assets secara umum, termasuk BTC.
 
-Setelah penutupan pasar, saham NVDA diperdagangkan mixed, tapi secara umum ekspektasi pasar bahwa AI boom masih berlanjut memberikan katalis positif untuk risk assets. Dalam konteks Bitcoin, saham perusahaan yang terkait AI mining seperti IREN, HIVE, dan HUT juga ikut naik.
+**Ketiga, data outflow ETF itu backward-looking.** Data $2 miliar mencakup 7 hari perdagangan sampe Selasa. Tapi sejak Rabu kondisinya udah berubah — Iran peace talks, Nvidia beat, bond yield mulai turun. Options trader di Deribit ngeliat ini: volume put options cuma 42% lebih tinggi dari calls pada Selasa, turun drastis dari minggu lalu (56% lebih banyak calls waktu BTC di $82.000).
 
-Yang ketiga, data outflow ETF bersifat backward-looking. Data outflow $2 miliar mencakup 7 hari perdagangan hingga Selasa. Tapi sejak Rabu, kondisinya sudah berubah. Iran peace talks, Nvidia beat, dan bond yields yang mulai turun menciptakan lingkungan yang lebih kondusif untuk rebound. Options trader di Deribit melihat ini, volume put options hanya 42% lebih tinggi dari calls pada Selasa, turun signifikan dari minggu lalu ketika perbandingannya 56% lebih banyak calls di saat BTC mendekati $82.000.
+**Tapi ada satu data yang perlu diwaspadai:** stablecoin discount di China. Stablecoin diperdagangkan dengan diskon **0,4%** terhadap nilai tukar yuan-dollar AS resmi. Normalnya stablecoin di China diperdagangkan dengan premi 0,3-0,8% karena kontrol modal ketat. Diskon ini nunjukin capital flight dari pasar kripto masih berlangsung.
 
-## Stablecoin China: Capital Flight Masih Berlangsung
+**Di sisi makro:** Moody's potong peringkat kredit AS dari Aaa ke Aa1, dorong yield 30 tahun ke level tertinggi sejak Juli 2007. FOMC minutes konfirmasi sikap hawkish — mayoritas anggota Fed nyatak pengetatan akan tepat kalo inflasi tetap di atas 2%. Tapi pasar udah antisipasi ini, reaksi BTC relatif datar.
 
-Satu data yang perlu diwaspadai adalah stablecoin discount di China. Seperti dilaporkan Cointelegraph, stablecoin diperdagangkan dengan diskon **0,4%** terhadap nilai tukar yuan-dollar AS resmi. Dalam kondisi normal, stablecoin di China diperdagangkan dengan premi 0,3% sampai 0,8% karena kontrol modal ketat. Diskon ini menandakan bahwa masih ada capital flight dari pasar kripto, terutama dari regulator China.
+**Volatilitas lagi menyempit.** Bitcoin terperangkap di range **$75.000-$80.000**. Bollinger Band Width menyempit tajam, ATR menurun — biasanya ini tanda pergerakan besar bakal datang.
 
-Data ini tidak spesifik untuk Bitcoin. Capital flight bisa terjadi ke aset lain seperti emas, obligasi, atau mata uang safe haven, bukan berarti BTC bakal langsung dijual besar-besaran.
+Buat lo trader Indo, range ini nawarin peluang entry yang jelas: support $76.500 (kritis), terus $75.000. Resistensi $78.000 dan $80.000. Pasar nunggu katalis berikutnya — entah kelanjutan Iran peace talks, data inflasi baru, atau sinyal dari Fed yang baru dipimpin Kevin Warsh (dilantik Jumat ini).
 
-## Moody's Downgrade dan FOMC Minutes
-
-Di sisi makro, Moody's memangkas peringkat kredit AS dari Aaa ke Aa1, yang mendorong yield 30 tahun ke level tertinggi sejak Juli 2007. Analis Akshat Siddhant dari Mudrex mengatakan kepada [Economic Times](https://m.economictimes.com/markets/cryptocurrency/bitcoin-consolidates-near-77000-while-us-credit-downgrade-and-648-million-etf-outflows-weigh-on-sentiment/articleshow/131217480.cms) bahwa yield yang tinggi mengurangi appetite untuk aset berisiko.
-
-Rilis FOMC minutes juga mengkonfirmasi sikap hawkish. CoinDesk melaporkan bahwa mayoritas anggota Fed menyatakan bahwa pengetatan kebijakan akan menjadi tepat jika inflasi tetap di atas 2%. Bahkan ada 4 dissents dalam voting: 1 ingin rate cut (Miran), 3 mendorong penghapusan easing bias.
-
-Tapi pasar sudah mengantisipasi ini. Reaksi BTC terhadap minutes relatif datar, BTC tetap di $77.400 dengan kenaikan 1% dalam 24 jam.
-
-## Volatilitas Menyempit, Pergerakan Besar Mengintai
-
-Data teknikal menunjukkan bahwa Bitcoin saat ini terperangkap dalam range **$75.000-$80.000**. Analis Riya Sehgal dari Delta Exchange mengatakan ke Economic Times bahwa Bollinger Band Width menyempit tajam dan ATR (Average True Range) menurun.
-
-Bagi trader Indonesia, range ini menawarkan peluang entry yang jelas dengan spread yang terukur. Support di $76.500 adalah level kritis, dengan support berikutnya di $75.000. Resistensi di $78.000 dan $80.000. Pasar sedang menunggu katalis berikutnya, apakah itu kelanjutan Iran peace talks, data inflasi baru, atau sinyal dari Fed yang baru dipimpin Kevin Warsh yang akan dilantik Jumat ini.
-
-Yang unik dari divergensi ETF outflow vs harga ini adalah implikasinya langsung terasa di pasar Asia termasuk Indonesia. Trader di Binance yang jadi exchange utama Indonesia melihat harga BTC lebih stabil dibanding Coinbase, artinya tekanan jual dari institusi AS belum sepenuhnya merembet ke pasar Asia. Tapi kalau Iran peace talks gagal, efeknya bisa lebih besar ke IDR karena rupiah termasuk emerging market currency yang rentan terhadap gejolak yield obligasi AS. Divergensi ini juga perlu diwaspadai oleh investor yang punya eksposur besar di ETF Bitcoin, karena outflow yang berlanjut bisa memicu aksi jual paksa (forced selling) jika harga bergerak di bawah $75.000 dalam waktu dekat.
+Yang unik dari divergensi ini: dampaknya langsung kerasa di pasar Asia, termasuk Indonesia. Trader di Binance — exchange utama Indonesia — liat harga BTC lebih stabil dibanding Coinbase. Artinya tekanan jual institusi AS belum sepenuhnya ngerembet ke Asia. Tapi kalo Iran peace talks gagal, efeknya bisa lebih gede ke IDR karena rupiah termasuk emerging market currency yang rentan terhadap gejolak yield obligasi AS. Buat yang punya eksposur gede di ETF Bitcoin, outflow yang berlanjut bisa picu forced selling kalo harga bergerak di bawah $75.000.
 
 ## Sumber
 

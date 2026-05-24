@@ -44,7 +44,7 @@ TGE token DTEL ditargetkan pada Q3-Q4 2026, sedikit mundur dari perkiraan awal Q
 
 Dari sisi tokenomics, dari total 1 miliar DTEL, alokasi komunitas mencapai 50%, founders/team/investor 35%, dan ecosystem fund atau treasury 15%. Pada TGE nanti, 5% dari FDV (sekitar $2,5 juta dari notional FDV $50 juta) akan didistribusikan ke komunitas, dilanjutkan dengan 0,75% FDV per bulan setelah TGE.
 
-Yang menarik buat pasar Indonesia, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL untuk biaya transaksi, pengguna Indonesia bisa ikut daily check-in dan menggunakan aplikasi dMeet atau FROGY. DePIN adalah narasi yang sedang naik daun di 2026, dengan proyeksi pasar global mencapai $3,5 triliun pada 2028 menurut laporan industri. Proyek DePIN seperti Helium, Filecoin, dan Render sebelumnya mencatat kenaikan signifikan pasca-TGE, meskipun performa masa lalu bukan jaminan.
+Yang menarik, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL buat biaya transaksi, lo udah bisa ikut daily check-in dan make aplikasi dMeet atau FROGY. DePIN adalah narasi yang lagi naik daun di 2026, dengan proyeksi pasar global $3,5 triliun di 2028. Proyek kayak Helium, Filecoin, dan Render sebelumnya catet kenaikan signifikan pasca-TGE — meskipun masa lalu bukan jaminan, sih.
 
 Hati-hati dengan situs phishing yang mengaku sebagai portal airdrop dTelecom. Hanya gunakan [rewards.dtelecom.org](https://rewards.dtelecom.org/) dan [www.dtelecom.org/airdrop](https://www.dtelecom.org/airdrop) untuk berpartisipasi. Jangan pernah memberikan seed phrase atau private key ke situs manapun.
 
@@ -56,13 +56,13 @@ Token UP sudah diperdagangkan di berbagai exchange dengan harga sekitar $0.128 p
 
 Airdrop Superform mencakup 3,6% dari total suplai UP (1 miliar token), dengan vesting 3 bulan: 25% tersedia saat launch dan 75% sisanya dirilis dalam klaim bulanan. Pengguna yang memenuhi syarat adalah mereka yang sudah mendaftar sebelum 6 Februari 2025 dan memiliki XP dari Superform Safari Season 1, CRED dari Superform Exploration Season 2, POINTS dari Rewards Epoch 0 dan 1, serta PIGGY holdings atau kontribusi DAO.
 
-Bagi pengguna Indonesia yang sudah memiliki posisi di Superform, pastikan untuk mengecek eligibility di portal klaim resmi sebelum 10 Agustus 2026. Token yang tidak diklaim akan hangus.
+Kalo lo udah punya posisi di Superform, cek eligibility di portal klaim resmi sebelum 10 Agustus 2026. Token yang nggak diklaim bakal hangus.
 
-## Ringkasan
+## Intinya
 
-Dua peluang airdrop yang masih aktif per 20 Mei 2026: dTelecom dengan points farming DePIN untuk token DTEL yang belum launching (TGE Q3-Q4 2026), dan Superform dengan final klaim token UP yang sudah diperdagangkan. Keduanya punya profil risiko berbeda: dTelecom menawarkan potensi upside dari token baru dengan risiko ketidakpastian TGE dan harga listing, sementara Superform memberikan kepastian nilai di harga $0.128 dengan batas waktu klaim yang jelas.
+Dua peluang airdrop yang masih aktif per 20 Mei 2026: dTelecom dengan points farming DePIN buat token DTEL yang belum launching (TGE Q3-Q4 2026), dan Superform dengan final klaim token UP yang udah diperdagangkan. Keduanya punya profil risiko beda: dTelecom nawarin potensi upside dari token baru dengan risiko ketidakpastian TGE dan harga listing, sementara Superform ngasih kepastian nilai di $0.128 dengan batas waktu klaim yang jelas.
 
-Untuk pengguna Indonesia, dTelecom mungkin lebih menarik karena barrier to entry yang rendah (cukup wallet Solana dan koneksi internet) dan potensi dari narasi DePIN yang sedang berkembang. Yang terpenting, selalu verifikasi informasi dari sumber resmi dan jangan pernah membagikan data wallet pribadi ke situs yang tidak terpercaya.
+Buat yang baru mulai, dTelecom mungkin lebih menarik karena barrier to entry rendah — cukup wallet Solana dan koneksi internet — plus potensi dari narasi DePIN yang lagi berkembang. Yang penting: selalu verifikasi info dari sumber resmi dan jangan pernah bagi data wallet ke situs yang nggak jelas.
 
 ## Sumber
 

@@ -48,25 +48,14 @@ Beberapa protokol besar yang bermigrasi ke CCIP:
 
 Migrasi ini menunjukkan bahwa keamanan adalah faktor utama dalam pemilihan infrastruktur cross-chain.
 
-## Pelajaran untuk Ekosistem DeFi Indonesia
+Buat lo yang main DeFi di Indo, insiden LayerZero ini ngasih gambaran jelas: keamanan infrastruktur itu nomor satu. Jangan tergiur yield gede kalo bridgenya belum teruji. Beberapa catatan gw:
 
-Insiden LayerZero dan migrasi ke Chainlink CCIP memberikan beberapa pelajaran penting untuk ekosistem DeFi Indonesia:
+- **Diversifikasi bridge**: Jangan taro semua aset di satu bridge.
+- **Cek audit**: Selalu verifikasi status audit bridge sebelum make.
+- **Pantau berita**: Keamanan DeFi berubah cepet, exploit bisa datang dari mana aja.
+- **Insurance**: Udah mulai banyak protokol DeFi yang nawarin asuransi, patut dipertimbangin.
 
-1. **Keamanan adalah prioritas**: Jangan tergiur oleh yield tinggi jika infrastrukturnya belum terbukti aman.
-
-2. **Diversifikasi bridge**: Jangan hanya mengandalkan satu bridge untuk semua aset.
-
-3. **Audit dan verifikasi**: Selalu periksa status audit dan keamanan bridge sebelum menggunakannya.
-
-4. **Update berita**: Ikuti perkembangan terbaru tentang keamanan DeFi untuk menghindari exploit.
-
-5. **Insurance**: Pertimbangkan untuk menggunakan asuransi DeFi untuk melindungi aset Anda.
-
-## Masa Depan Cross-Chain
-
-Migrasi dari LayerZero ke Chainlink CCIP adalah titik balik penting dalam evolusi infrastruktur cross-chain. pasar menghargai keamanan di atas segalanya. Ke depan, kita mungkin akan melihat standarisasi keamanan yang lebih ketat untuk bridge cross-chain.
-
-Untuk pengguna DeFi Indonesia, ini berarti lebih banyak pilihan bridge yang aman dan terpercaya. Namun, tetap lakukan riset sendiri sebelum menggunakan bridge apa pun.
+Gw liat migrasi dari LayerZero ke Chainlink CCIP ini titik balik buat infrastruktur cross-chain. Pasar kasih sinyal jelas: keamanan di atas segalanya. Ke depannya, bakal ada standarisasi keamanan yang lebih ketat buat bridge. Buat kita di Indo, artinya lebih banyak pilihan bridge yang aman — tapi tetep, riset sendiri sebelum make bridge apa pun.
 
 ---
 

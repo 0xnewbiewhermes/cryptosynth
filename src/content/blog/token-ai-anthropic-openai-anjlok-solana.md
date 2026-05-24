@@ -54,14 +54,7 @@ Gap antara valuasi tersirat **$1,3 triliun** dan total aset platform hanya **$23
 
 Investor awal yang duduk di atas keuntungan besar mungkin **tidak dapat mencairkan seluruh posisi mereka** karena likuiditas yang sangat tipis. Ini mengekspos kesenjangan antara klaim platform dan apa yang sebenarnya bisa dikirimkan oleh SPV yang mendasari.
 
-## Dampak Pasar dan Implikasi untuk Investor Indonesia
-
-Kasus ini memberikan beberapa pelajaran penting bagi investor crypto di Indonesia:
-
-- **Tokenized stock bukan saham asli.** Membeli token yang mengklaim merepresentasikan saham perusahaan swasta tidak sama dengan memiliki saham tersebut secara langsung.
-- **Verifikasi legalitas struktur investasi.** Pastikan bahwa platform yang digunakan memiliki izin dan persetujuan resmi dari perusahaan yang sahamnya ditokenisasi.
-- **Waspada terhadap gap valuasi.** Jika valuasi tersirat suatu token jauh melampaui aset aktual yang mendasarinya, itu adalah tanda bahaya besar.
-- **Likuiditas adalah kunci.** Token tanpa likuiditas yang memadai berarti Anda mungkin terjebak dan tidak bisa menjual.
+Gw liat kasus ini jadi pelajaran buat investor crypto di Indo. Tokenized stock bukan saham asli — lo beli token yang ngaku ngewakilin saham perusahaan swasta, tapi gak sama dengan punya saham secara langsung. Verifikasi legalitas struktur investasi itu penting: pastiin platform yang lo pake punya izin resmi dari perusahaan yang sahamnya ditokenisasi. Kasus Anthropic-OpenAI nunjukin kalo valuasi tersirat token ($1,3 triliun) jauh di atas aset aktual platform ($23 juta), itu red flag gede. Likuiditas juga kunci — token tanpa likuiditas yang memadai artinya lo bisa kejebak dan gak bisa jual. Untuk ekosistem crypto Indo, kasus ini ngingetin: inovasi harus diimbangi kehati-hatian.
 
 Harga crypto terkini untuk konteks:
 
@@ -77,7 +70,7 @@ Insiden ini menandai titik kritis dalam narasi tokenisasi aset dunia nyata (RWA)
 
 Baik Anthropic maupun OpenAI secara tegas menyatakan bahwa pihak-pihak yang menjual eksposur ke saham mereka tanpa otorisasi berpotensi terlibat dalam penipuan. Ini bukan sekadar peringatan halus, ini adalah deklarasi resmi yang bisa berimplikasi hukum.
 
-Bagi ekosistem crypto Indonesia yang terus berkembang, kasus ini menjadi pengingat bahwa **inovasi harus diimbangi dengan kehati-hatian**. Tokenisasi aset memiliki potensi besar, tetapi hanya jika dilakukan dengan kerangka hukum yang sah dan transparansi penuh.
+Buat crypto Indo yang lagi liat token AI anjlok: ini contoh klasik kenapa tokenisasi aset tradisional tanpa kerangka hukum yang jelas itu high risk. Inovasi boleh, tapi kalo legal umbrella-nya gak jelas, lo bisa pegang token yang literally gak ada harganya besok pagi.
 
 ---
 

@@ -61,11 +61,9 @@ Metrik testnet udah lampaui banyak chain post-launch. Mainnet ARC bakal jadi eve
 
 Tambah ARC RPC ke wallet, claim faucet di [faucet.circle.com](https://faucet.circle.com). Developer bisa deploy kontrak dan testing DeFi apps pake Hardhat atau Foundry. Ikut leaderboards dan program Architects. Gabung komunitas di X [@arc](https://x.com/arc).
 
-## Insight untuk Pasar Indonesia
-
-ARC masih testnet jadi belum ada dampak langsung ke pasar Indonesia. USDC sebagai gas token ngilangin barrier masuk buat user Indonesia yang biasa pegang stablecoin, gak perlu ribet beli token native khusus buat fee. Integrasi CCTP dan Gateway potensial bikin remittance via stablecoin makin murah, Circle udah punya partner on off ramp di Asia Tenggara. Mainnet Summer 2026 timing pas sama proyeksi adopsi stablecoin pasca GENIUS Act Juli 2025 tapi tetep tunggu konfirmasi, delay L1 itu biasa.
-
 Resiko: mainnet belum launch, tokenomics belum final, kompetisi L1 ketat Ethereum Solana Sui Aptos.
+
+ARC masih testnet, jadi dampak ke Indo masih nol. Yang gw liat menarik: USDC sebagai gas token ngilangin satu barrier utama buat user Indo — gak perlu beli token native khusus buat fee. Lo pegang USDC, lo bayar pake itu juga. Integrasi CCTP dan Gateway juga potensial bikin remittance makin murah — Circle udah punya on/off ramp partner di Asia Tenggara. Tapi inget, ini masih testnet. Mainnet Summer 2026 bisa molor, delay L1 itu udah jadi tradisi industri.
 
 ---
 

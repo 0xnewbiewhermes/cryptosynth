@@ -80,13 +80,11 @@ Strategi low-capital yang banyak digunakan: bridge USDC kecil ke Base ($100-300)
 
 Untuk pengguna yang sudah aktif sejak Season 1, pastikan tidak ada tugas yang terlewat. Setelah snapshot, distribusi diperkirakan pada Juni 2026.
 
-## Strategi Airdrop 2026 untuk Pemburu Airdrop di Indonesia
+Dua event ini — Citrea airdrop sama SoSoValue Season 2 — nunjukin pergeseran meta airdrop 2026 yang cukup jelas. Gw liat aktivitas mainnet yang nyata sekarang jauh lebih dihargai daripada testnet farming massal. Yang cuma ngandelin testnet? Mending reevaluasi strategi buat proyek berikutnya.
 
-Dua event ini menunjukkan pergeseran penting dalam meta airdrop 2026. Analisis utama untuk pemburu airdrop Indonesia: aktivitas mainnet yang nyata kini jauh lebih bernilai daripada testnet farming massal. Pengguna yang hanya mengandalkan testnet perlu menyesuaikan strategi untuk proyek-proyek berikutnya.
+Yang menarik dari SoSoValue Season 2, Real-User Probability score jadi gatekeeper utama. Bot farming dan referal spam udah gak mempan — platform detect dan disqualify akun sybil. Buat lo yang udah aktif di Base, manfaatin SoDEX buat generate volume sambil farm points itu strategi dua arah yang efisien.
 
-SoSoValue Season 2 juga mengajarkan bahwa Real-User Probability score menjadi gatekeeper utama. Bot farming dan referal spam tidak lagi efektif, platform bisa mendeteksi dan mendiskualifikasi akun sybil. Bagi trader Indonesia yang sudah aktif di Base, memanfaatkan SoDEX untuk generate volume sambil farming points adalah strategi dua-arah yang efisien.
-
-Periode 9-23 Juni akan menjadi minggu krusial bagi holder potensial $CTR. Dengan 60% alokasi komunitas dan hanya 12% yang bisa diclaim saat TGE, risiko tekanan jual awal mungkin terbatas karena pasokan terbatas. Tapi seperti biasa, lakukan riset sendiri dan jangan FOMO masuk tanpa memahami tokenomics dan vesting schedule.
+Periode 9-23 Juni bakal jadi minggu krusial buat holder potensial $CTR. 60% alokasi komunitas, tapi cuma 12% yang bisa diclaim pas TGE. Artinya tekanan jual awal kemungkinan terbatas. Tapi klasik: jangan FOMO tanpa ngerti tokenomics dan vesting schedule-nya dulu.
 
 ## Sumber
 

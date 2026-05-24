@@ -48,7 +48,7 @@ Meski risikonya nyata, Citi tetap optimistis terhadap kemampuan jangka panjang k
 
 Tim pengembang inti Bitcoin sudah mulai mendiskusikan langkah migrasi ke sistem kriptografi yang tahan serangan kuantum. Langkah ini mirip dengan apa yang dibahas Adam Back dalam berbagai kesempatan, di mana ia menekankan pentingnya membangun opsi upgrade sebelum teknologi kuantum benar-benar siap.
 
-Bagi komunitas kripto Indonesia, perkembangan ini menegaskan pentingnya memilih dompet dan exchange yang mendukung standar keamanan terkini. Exchange yang proaktif mengadopsi post-quantum cryptography akan memberikan perlindungan lebih baik bagi aset pengguna di masa depan. Investor juga perlu memperhatikan kebijakan keamanan platform yang mereka gunakan, terutama untuk penyimpanan Bitcoin jangka panjang. Risiko kuantum bukan ancaman besok pagi, tapi timeline yang memendek berarti keputusan yang diambil sekarang soal infrastruktur keamanan akan berdampak besar dalam 5-10 tahun ke depan.
+Buat crypto Indo, implikasinya jelas: pilih exchange dan dompet yang udah mikirin post-quantum security dari sekarang. Bukan ancaman besok, tapi timeline-nya makin pendek — keputusan infrastruktur yang lo ambil sekarang bakal nentuin 5-10 tahun ke depan. Exchange yang proaktif adopsi PQ crypto bakal jadi standar baru.
 
 ### Harga Bitcoin dan Ethereum Tertekan
 
@@ -59,9 +59,9 @@ Bagi komunitas kripto Indonesia, perkembangan ini menegaskan pentingnya memilih 
 
 Bitcoin saat ini berada di level terendah sejak awal April 2026, tertekan oleh ketegangan geopolitik Iran dan arus keluar ETF yang menembus $1 miliar. Meski ancaman kuantum tidak secara langsung mempengaruhi pergerakan harga hari ini, sentimen risiko makro yang meluas membuat aset kripto rentan terhadap aksi jual tambahan.
 
-### Yang Bisa Dilakukan Investor Indonesia
+Selain ancaman kuantum, faktor yang lebih langsung ngaruh ke harga hari ini: ketegangan geopolitik Iran sama arus keluar ETF $1 miliar. BTC di $76.224, ETH di $2.092 — level terendah sejak awal April. Sentimen risk-off lagi dominan.
 
-Beberapa langkah yang bisa dipertimbangkan untuk mengantisipasi risiko kuantum: pilih dompet yang mendukung alamat SegWit atau Taproot karena lebih efisien dan lebih mudah di-upgrade di masa depan, pantau perkembangan BIP-360 dan BIP-361 sebagai indikator kesiapan protokol Bitcoin menghadapi era kuantum, serta diversifikasi penyimpanan aset dengan kombinasi hardware wallet dan layanan kustodian yang memiliki rencana post-quantum yang jelas.
+Yang perlu lo siapin kalo peduli soal quantum risk: (1) pake dompet SegWit/Taproot — lebih gampang di-upgrade pas migrasi nanti, (2) pantau BIP-360 dan BIP-361, itu indikator kesiapan BTC, (3) jangan taruh semua aset di satu kustodian — kombinasi hardware wallet + cold storage + qualified custodian yang punya post-quantum roadmap.
 
 ## Sumber
 

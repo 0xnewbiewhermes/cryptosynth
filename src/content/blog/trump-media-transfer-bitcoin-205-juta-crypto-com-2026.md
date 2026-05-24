@@ -42,13 +42,7 @@ Tapi hasilnya berbeda. Laporan keuangan kuartal pertama 2026 menunjukkan Trump M
 
 Sebelum transfer ini, Trump Media juga menarik kembali aplikasi ETF bitcoin spot mereka. Analis ETF mengatakan keputusan itu lebih disebabkan oleh persaingan biaya yang ketat di sektor ETF bitcoin spot daripada masalah regulasi.
 
-## Pelajaran dari Trump Media untuk Pasar Indonesia
-
-Risiko utama dari strategi bitcoin treasury perusahaan publik terlihat jelas dari kasus Trump Media. Untuk investor Indonesia, kisah ini jadi pelajaran penting soal timing dan diversifikasi. Perusahaan yang membeli BTC di harga tinggi menghadapi tekanan ganda: kerugian portofolio dan kritik dari pemegang saham.
-
-Situasi Trump Media juga mempengaruhi persepsi pasar terhadap saham-saham yang terkait bitcoin. Jika DJT terus menjual BTC untuk menutup kerugian operasional, tekanan jual tambahan bisa mempengaruhi harga BTC dalam jangka pendek. Ini relevan buat trader Indonesia yang memantau support BTC di level $75.000-$77.000.
-
-Analis on-chain mencatat bahwa transfer besar ke exchange biasanya mendahului aksi jual, tapi belum tentu terjadi segera. Trader Indonesia perlu memonitor pergerakan lebih lanjut dari wallet Trump Media yang masih memegang hampir 7.000 BTC.
+Kasus Trump Media nunjukin risiko utama strategi bitcoin treasury perusahaan publik: timing. Perusahaan yang beli BTC di harga tinggi ($118.522) kena tekanan ganda — kerugian portofolio $455 juta dan kritik pemegang saham. Buat trader Indo yang pantau support BTC di $75.000-$77.000: kalo DJT terus jual BTC buat nutup kerugian operasional, tekanan jual tambahan bisa ngefek harga jangka pendek. Tapi catet: transfer ke exchange gak selalu berarti langsung jual. Bisa jadi cuma dipindahin buat keperluan treasury lain kayak jaminan pinjaman atau rebalancing. Yang jelas, wallet Trump Media masih megang hampir 7.000 BTC — pergerakan selanjutnya worth to watch.
 
 ## Sumber
 

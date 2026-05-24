@@ -43,13 +43,7 @@ Pada April 2026, Iran mengumumkan bahwa kapal minyak yang melintasi Selat Hormuz
 
 Sementara itu, undang-undang tentang cadangan strategis Bitcoin kembali diperjuangkan di AS melalui RUU ARMA yang diajukan kembali oleh anggota Kongres.
 
-## Refleksi untuk Pasar Indonesia
-
-Analisis utama dari peringatan Pizza Day ke-16 ini lebih dari sekadar nostalgia. Dalam 16 tahun, Bitcoin telah membuktikan diri sebagai aset dengan apresiasi nilai yang sulit ditandingi instrumen tradisional. Dari $41 menjadi $770 juta per 10.000 BTC, return investasi yang belum pernah terjadi di kelas aset manapun.
-
-Risiko terbesar bagi investor bukanlah volatilitas harga yang terkenal, melainkan keluar terlalu cepat sebelum apresiasi jangka panjang terjadi. Pizza Day mengajarkan bahwa utility dan adopsi adalah fondasi nilai jangka panjang dan bahwa fase awal adopsi selalu terlihat konyol di mata orang banyak, sampai data berbicara satu dekade kemudian. Bagi investor Indonesia yang baru masuk ke kripto, ini adalah pengingat untuk fokus pada fundamental proyek, bukan sekadar spekulasi harga harian.
-
-Komunitas domestis juga menantikan momen serupa: kapan regulasi dan adopsi Bitcoin di Indonesia mencapai titik tipping seperti yang dialami Bitcoin secara global dalam 16 tahun terakhir.
+Gw liat Pizza Day ke-16 ini ngasih perspektif yang jarang dibahas: dari $41 ke $770 juta per 10.000 BTC dalam 16 tahun — return yang gak ada tandingannya di kelas aset manapun. Risiko terbesar bukan volatilitas, tapi keluar terlalu cepet sebelum apresiasi jangka panjang. Pizza Day ngajarin: fase awal adopsi selalu keliatan konyol — sampe data berbicara satu dekade kemudian. Buat Indo, pertanyaannya: kapan tipping point adopsi Bitcoin di sini nyampe?
 
 ## Sumber
 

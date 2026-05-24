@@ -72,11 +72,9 @@ Implikasinya semakin sulit diabaikan: keamanan di DeFi semakin bergantung bukan 
 
 *Sumber: CoinDesk, 16 Mei 2026*
 
-## Apa Artinya bagi Ekosistem DeFi Indonesia
+Buat komunitas DeFi di Indo, insiden KelpDAO ini jadi wake-up call yang serius. Protokol yang nawarin yield tinggi lewat bridge dan infrastruktur pihak ketiga — makin diwaspadai. Ketergantungan ke satu infrastruktur bridge bisa jadi bom waktu.
 
-Bagi komunitas DeFi di Indonesia, insiden KelpDAO memberikan pelajaran penting. Protokol yang menawarkan yield tinggi melalui bridge dan infrastruktur pihak ketiga perlu diwaspadai lebih ketat. Ketergantungan pada satu infrastruktur bridge bisa menjadi bom waktu yang menunggu ledakan.
-
-Fakta bahwa LayerZero, salah satu infrastruktur bridge terbesar di crypto, menjadi titik kegagalan dalam insiden ini mengkhawatirkan. Banyak protokol populer di kalangan trader Indonesia, termasuk yang beroperasi di Arbitrum dan berbagai chain lainnya, bergantung pada infrastruktur yang sama. Ini bukan masalah yang bisa diselesaikan dengan audit kode semata, karena kerentanannya ada di lapisan operasional dan ketergantungan infrastruktur.
+Fakta bahwa LayerZero, salah satu bridge terbesar di crypto, yang jadi titik kegagalan — agak meresahkan. Banyak protokol populer di kalangan trader Indo, termasuk yang operasi di Arbitrum dan chain lain, bergantung pada infrastruktur yang sama. Masalahnya bukan di audit kode doang — kerentanannya ada di lapisan operasional dan ketergantungan infrastruktur.
 
 Meskipun rangkaian eksploitasi terus berlanjut, baik Mamin maupun MacPherson tidak percaya bahwa insiden-insiden ini membatalkan DeFi sama sekali. Dalam beberapa hal, mereka berpendapat, industri akhirnya memasuki fase yang lebih berkelanjutan. MacPherson melihat keunggulan jangka panjang DeFi bukan pada menghilangkan risiko, tetapi membuat risiko terlihat.
 

@@ -15,47 +15,30 @@ faq: "Kenapa Bitcoin turun ke $77.000?;Bitcoin turun ke $77.000 akibat kombinasi
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-## Bitcoin Terjebak Risk-Off di Tengah Oil Shock dan Ketegangan Iran
+Gw liat Bitcoin (BTC) kena pressure jual gede akhir pekan ini — jatuh dari $82.000 ke bawah $77.000 dalam waktu kurang dari 48 jam. Penyebabnya? Oil shock dari ketegangan AS-Iran plus imbal hasil Treasury AS yang naik drastis, bikin risk-off di semua lini.
 
-Bitcoin (BTC) mengalami tekanan jual signifikan pada akhir pekan ini, jatuh dari level $82.000 ke bawah $77.000 dalam waktu kurang dari 48 jam. Pemicu utamanya adalah lonjakan harga minyak akibat ketegangan baru antara AS dan Iran, serta kenaikan imbal hasil Treasury AS tenor panjang yang memicu aksi risk-off di seluruh pasar keuangan.
+Data dari [Cointelegraph](https://cointelegraph.com/markets/bitcoin-slides-below-79k-macro-fears-can-fixed-income-outflows-save-it) nunjukin korelasi erat antara pergerakan Bitcoin sama indeks Russell 2000 (saham kapitalisasi kecil AS) dalam beberapa hari terakhir. Konfirmasi: Bitcoin saat ini diperdagangkan sebagai risk-on asset, BUKAN safe haven.
 
-Data dari [Cointelegraph](https://cointelegraph.com/markets/bitcoin-slides-below-79k-macro-fears-can-fixed-income-outflows-save-it) menunjukkan korelasi yang sangat erat antara pergerakan Bitcoin dengan indeks Russell 2000 (saham kapitalisasi kecil AS) dalam beberapa hari terakhir. Pola ini mengonfirmasi bahwa Bitcoin belum diperdagangkan sebagai safe haven atau hedge terhadap inflasi - melainkan sebagai risk-on asset yang sangat sensitif terhadap sentimen makroekonomi.
+**Apa pemicunya?** Ancaman baru Trump ke Iran bikin harga minyak WTI menembus $100/barel. Sementara imbal hasil Treasury AS tenor 10 tahun dan 30 tahun naik tajam setelah data tenaga kerja AS lebih kuat dari ekspektasi. Dua duanya pukul aset berisiko.
 
-### Harga Minyak Rp Jadi Pemicu, Imbal Hasil Treasury Memperparah
+Data Binance Research (via [CoinDesk](https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-under-usd77-000-as-oil-shock-and-treasury-yields-hit-risk-assets)) nunjukin saldo Bitcoin di exchange ada di level terendah 6 tahun — artinya long-term holder belum goyang. Tapi short-term holder yang beli BTC di atas $80.000? Lagi merah semua.
 
-Laporan dari [The Block](https://www.theblock.co/rss.xml) menyebutkan ancaman baru dari pemerintahan Trump terhadap Iran menjadi katalis yang mendorong harga minyak mentah dunia semakin meninggi. Sementara itu, imbal hasil Treasury AS tenor 10 tahun dan 30 tahun naik tajam setelah data tenaga kerja AS yang lebih kuat dari ekspektasi.
+**Funding rate:** Analis Marcel Pechman dari Cointelegraph nyatet funding rate futures Bitcoin berbalik negatif sejak Kamis dan bertahan mendekati 0%. Udah dua minggu di bawah ambang netral 6%. "Ini beda sama koreksi sebelumnya di mana trader biasanya manfaatin diskon buat akumulasi. Sekarang minat beli pake leverage super rendah," kata Pechman.
 
-Kombinasi ini memukul aset berisiko di semua lini. Saham teknologi AS juga terkoreksi, sementara sektor energi justru menikmati inflow modal terbesar. Dalam lingkungan seperti ini, Bitcoin yang masih dianggap sebagai aset spekulatif korban pertama aksi risk-off oleh investor institusional.
+Tapi ada sisi lain: aksi jual di pasar obligasi (fixed-income outflow) bisa jadi pedang bermata dua. Outflow dari obligasi bisa dorong likuiditas segar balik ke aset berisiko kayak BTC dalam jangka menengah.
 
-Data terbaru dari Binance Research (dikutip oleh [CoinDesk](https://www.coindesk.com/markets/2026/05/18/bitcoin-slides-under-usd77-000-as-oil-shock-and-treasury-yields-hit-risk-assets)) menunjukkan saldo Bitcoin di exchange berada di level terendah dalam 6 tahun - sinyal bahwa long-term holder belum terguncang. Namun, short-term holder yang membeli BTC di atas $80.000 saat ini dalam posisi unrealized loss yang cukup dalam.
+**Posisi harga (18 Mei 2026):**
+- BTC: $76.992 (-1,47%)
+- ETH: $2.121 (-3,06%)
+- SOL: $84,86 (-2,48%)
+- BNB: $641,68 (-2,08%)
+- XRP: $1,38 (-2,32%)
 
-### Funding Rate Negatif Konfirmasi Lemahnya Permintaan Leverage
+**Buat lo trader Indo:** Pelemahan BTC di bawah $77.000 buka peluang scalping jangka pendek, tapi risiko likuidasi juga lebih tinggi. Data Coinglass nunjukin $500 juta+ posisi long udah ke-likuidasi dalam 48 jam.
 
-Analis Marcel Pechman dari Cointelegraph mencatat bahwa Bitcoin perpetual futures funding rate berbalik negatif pada Kamis lalu dan bertahan mendekati 0% pada Jumat. Indikator ini sudah berada di bawah ambang netral 6% selama dua pekan terakhir, menandakan bahwa trader tidak optimis terhadap kenaikan harga BTC dalam waktu dekat.
+Pantau support psikologis di $75.000 dan $71.000 — ini zona akumulasi whale selama Q1 2026. Kalo BTC bertahan di atas $75.000, struktur pasar masih bullish jangka menengah. Tapi kalo tembus $71.000, potensi koreksi ke $65.000 terbuka lebar.
 
-"Ini berbeda dengan koreksi sebelumnya di mana trader biasanya memanfaatkan diskon untuk akumulasi. Saat ini minat beli pakai leverage sangat rendah," jelas Pechman.
-
-Meskipun begitu, aksi jual di pasar obligasi (fixed-income outflow) bisa menjadi pedang bermata dua. Di satu sisi, ini adalah respons terhadap ketidakpastian makro. Sementara itu, outflow dari obligasi bisa mendorong likuiditas segar kembali ke aset berisiko seperti Bitcoin dalam jangka menengah.
-
-### Harga Terkini Aset Kripto Utama (18 Mei 2026)
-
-| Aset | Harga | Perubahan 24 Jam |
-|------|------|-----------------|
-| Bitcoin (BTC) | $76.992 | -1,47% |
-| Ethereum (ETH) | $2.121 | -3,06% |
-| Solana (SOL) | $84,86 | -2,48% |
-| BNB | $641,68 | -2,08% |
-| XRP | $1,38 | -2,32% |
-
-*Sumber: Cointelegraph price ticker*
-
-### Implikasi untuk Trader Indonesia
-
-Bagi trader crypto Indonesia, pelemahan Bitcoin di bawah $77.000 membuka peluang scalping jangka pendek namun juga risiko likuidasi yang lebih tinggi. Data dari Coinglass menunjukkan lebih dari $500 juta posisi long telah terliquidasi di seluruh exchange dalam 48 jam terakhir.
-
-Trader Indonesia perlu mencermati level support psikologis di $75.000 dan $71.000 yang merupakan zona akumulasi whale selama kuartal pertama 2026. Jika BTC berhasil bertahan di atas $75.000, struktur pasar masih bullish dalam jangka menengah. Sebaliknya, jika tembus ke bawah $71.000, potensi koreksi lebih dalam menuju $65.000 terbuka lebar.
-
-Siklus pelemahan berbasis makro seperti saat ini biasanya bersifat sementara. Setelah data Treasury dan harga minyak stabil, modal institusional cenderung kembali ke kripto - terutama jika ada katalis positif seperti perkembangan ETF BNB atau CLARITY Act yang terus bergulir di Senat AS.
+Siklus pelemahan makro kayak gini biasanya sementara. Begitu data Treasury dan harga minyak stabil, modal institusional biasanya balik ke kripto — apalagi kalo ada katalis positif kayak perkembangan ETF BNB atau CLARITY Act yang masih jalan di Senat AS.
 
 ## Sumber
 

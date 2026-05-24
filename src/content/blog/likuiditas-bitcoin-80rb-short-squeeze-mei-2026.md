@@ -56,15 +56,11 @@ Arus keluar ETF spot Bitcoin AS mencatat net outflow $2,07 miliar sejak 12 Mei. 
 
 Open interest Bitcoin juga turun dari 120.000 BTC menjadi 116.800 BTC, mengindikasikan trader mulai menutup eksposur leverage mereka. Spot cumulative volume delta (CVD) masih negatif di -$483 juta, sementara futures CVD hanya positif tipis di $34 juta. Artinya, kenaikan saat ini lebih didorong oleh leveraged traders, bukan permintaan spot organik.
 
-## Perspektif Pasar Indonesia
+Buat trader Indo, setup risk-reward saat ini cukup jelas dengan data terukur: support $76.000 udah teruji empat kali dalam seminggu dan bertahan, sementara akumulasi $4 miliar short di atas $80.000 nyiptain potensi short squeeze. Yang unik, ekspirasi opsi $6,25 miliar Jumat depan (29 Mei) jadi katalis temporal terdekat — CoinDesk konfirmasi akumulasi call option di strike $82.000, institusi global berekspektasi naik.
 
-Bagi trader Indonesia, setup risiko-imbalan saat ini cukup jelas dengan data terukur: support $76.000 sudah teruji empat kali dalam sepekan dan bertahan, sementara akumulasi $4 miliar short di atas $80.000 menciptakan potensi short squeeze terukur. Yang unik dari situasi ini adalah ekspirasi opsi $6,25 miliar pada Jumat depan (29 Mei) yang menjadi katalis temporal terdekat data dari CoinDesk mengonfirmasi akumulasi call option di strike $82.000, menunjukkan institusi global berekspektasi kenaikan.
+Dua faktor yang sering kelewat buat investor Indo. Pertama, volume perdagangan Bitcoin di exchange Asia kayak Binance dan OKX nunjukin pemulihan long-to-short ratio lebih cepet dibanding exchange AS kayak Coinbase. Artinya sentimen bullish di Asia terbentuk lebih dulu sebelum institusi AS ikut. Kedua, dengan kurs rupiah yang tertekan ekspektasi suku bunga Fed, Bitcoin bisa jadi alat lindung nilai alternatif — risiko yang jarang dibahas media kripto global.
 
-Untuk investor Indonesia, ada dua faktor yang sering terlewat. Pertama, volume perdagangan Bitcoin di exchange Asia seperti Binance dan OKX justru menunjukkan pemulihan long-to-short ratio lebih cepat dibanding exchange AS seperti Coinbase. Artinya, sentimen bullish di kawasan Asia terbentuk lebih dulu sebelum institusi AS ikut masuk. Kedua, dengan kurs rupiah yang tertekan oleh ekspektasi suku bunga The Fed, Bitcoin bisa menjadi alat lindung nilai alternatif bagi investor Indonesia yang khawatir depresiasi IDR risiko ini jarang dibahas media kripto global.
-
-Namun open interest yang menurun dari 120.000 ke 116.800 BTC dan spot demand yang lemah (CVD -$483 juta) menunjukkan kenaikan menuju $80.000 lebih bersifat teknis daripada fundamental. Jika BTC gagal menembus resistance dan likuidasi short tidak terjadi, risiko koreksi balik ke $75.000 masih terbuka lebar. Ekspirasi opsi 29 Mei menjadi titik penentu: max pain di $75.000 vs call wall di $80.000 pertarungan antara market maker dan bull institutional.
-
-Bagi investor jangka panjang Indonesia, berita positif dari long-term holder supply yang mendekati rekor tertinggi menandakan keyakinan pemegang lama masih kuat. Investor dengan horizon 6-12 bulan bisa memanfaatkan volatilitas ini untuk akumulasi bertahap di area support $76.000 tanpa terjebak FOMO jika breakout gagal.
+Tapi open interest yang turun dari 120.000 ke 116.800 BTC dan spot demand yang lemah (CVD -$483 juta) nunjukin kenaikan ke $80.000 lebih bersifat teknis daripada fundamental. Kalo BTC gagal tembus resistance dan likuidasi short gak terjadi, risiko koreksi balik ke $75.000 masih terbuka lebar. Ekspirasi opsi 29 Mei jadi titik penentu: max pain di $75.000 vs call wall di $80.000 — pertarungan market maker sama bull institutional.
 
 ## Sumber
 

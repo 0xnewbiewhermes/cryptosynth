@@ -58,12 +58,7 @@ Latar belakang ini semakin rumit dengan konfirmasi **Kevin Warsh** ke Dewan Gube
 
 Namun, pertanyaan besar tetap: apakah Fed perlu mempertimbangkan **pengetatan tambahan** alih-alih pemotongan suku bunga? Trump terus menekan Fed untuk menurunkan suku bunga, tapi data inflasi yang terus memanas membuat langkah tersebut semakin sulit.
 
-## Apa Artinya untuk Investor Indonesia?
-
-- **Pantau level $80.000:** Ini adalah support psikologis kunci. Penutupan harian di bawah level ini bisa memicu aksi jual lebih lanjut.
-- **Inflasi AS tetap faktor utama:** Data PPI dan CPI yang panas menunjukkan The Fed kemungkinan besar tidak akan buru-buru memangkas suku bunga, yang bisa menekan aset berisiko termasuk crypto.
-- **Katalis positif masih ada:** Pembicaraan Trump-Xi dan konfirmasi Warsh ke Fed bisa memberikan dorongan sentimen dalam jangka pendek.
-- **Diversifikasi dan kelola risiko:** Dalam lingkungan inflasi tinggi, pastikan portofolio crypto tidak terlalu terkonsentrasi pada satu aset.
+Level $80.000 jadi support psikologis kunci. Kalo daily close di bawah sini, siap-siap aksi jual lanjutan. Inflasi AS masih panas — PPI 6%, CPI 3,8%. The Fed gak bakal potong bunga dalam waktu dekat. Tapi katalis positif masih ada: pembicaraan Trump-Xi dan konfirmasi Warsh ke Fed bisa dorong sentimen jangka pendek.
 
 ## Sumber
 

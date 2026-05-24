@@ -51,20 +51,11 @@ Namun, trader crypto Zord mengingatkan bahwa Bitcoin bisa menghadapi resistance 
 
 Selain itu, lebih dari $3 miliar posisi *leveraged long* berkumpul di antara $79.000 dan $78.000. Ini menunjukkan BTC bisa saja menguji ulang range tersebut sebelum mencoba *breakout* di atas 200-day EMA yang menjadi resistance utama.
 
-## Dampak untuk Pasar Crypto Indonesia
+Voting Clarity Act ini bukan sekadar berita AS. Regulasi yang lebih jelas di Paman Sam sering jadi leading indicator buat pasar global — termasuk Indo. Kalo RUU ini lolos dari komite, sentimen positif biasanya ngerembet ke altcoin dan token DeFi yang banyak diperdagangkan di exchange lokal.
 
-Voting CLARITY Act bukan hanya berita AS, regulasi yang lebih jelas di Negeri Paman Sam sering kali menjadi sinyal positif untuk pasar global, termasuk Indonesia. Jika RUU ini lolos dari komite, sentimen positif bisa merembet ke altcoin dan token DeFi yang banyak diperdagangkan di bursa lokal.
-
-Stablecoin juga tetap menjadi sumber utama pergerakan uang di pasar crypto. Aktivitas alamat stablecoin ERC-20 terus menunjukkan pertumbuhan parabolik dalam beberapa tahun terakhir, dan adopsi yang lebih luas bisa mendukung investasi jangka panjang di Bitcoin.
+Stablecoin tetep jadi sumber utama pergerakan uang di pasar crypto. Aktivitas alamat stablecoin ERC-20 nunjukin pertumbuhan parabolik dalam beberapa tahun terakhir. Adopsi yang lebih luas bakal support investasi jangka panjang di Bitcoin.
 
 Coinbase CEO Brian Armstrong menyebut RUU ini "kuat" dan akan "memberi manfaat bagi rakyat Amerika dengan membuat sistem keuangan AS lebih cepat, lebih murah, dan lebih mudah diakses."
-
-## Yang Perlu Diperhatikan
-
-- **Voting Kamis (14 Mei):** Hasil markup Senate Banking Committee akan menentukan arah jangka pendek BTC
-- **Resistance $83.400-$84.600:** Zona kunci untuk profit-taking
-- **Support $78.000-$79.000:** Level di mana posisi leveraged long bertumpuk
-- **Amandemen etika:** Demokrat menuntut ketentuan konflik kepentingan terkait pejabat pemerintah dan crypto, ini bisa jadi hambatan jika tidak ada kesepakatan
 
 ---
 

@@ -51,16 +51,7 @@ Menurut Nakamoto, serangan biasanya diatur oleh kriminal yang tinggal di luar ne
 
 Vanessa Perree, jaksa nasional Prancis untuk kejahatan terorganisir, mengkonfirmasi bahwa setidaknya 88 orang telah ditangkap sehubungan dengan serangan ini.
 
-## Strategi untuk Pengguna Crypto di Indonesia
-
-Meski kasus terkonsentrasi di Prancis, ada pelajaran penting untuk komunitas crypto Indonesia. Penerapan aturan KYC yang ketat di Indonesia melalui exchange lokal menciptakan database terpusat dengan data identitas dan aktivitas trading pengguna. Meski tidak ada laporan serangan fisik serupa di Indonesia, risiko kebocoran data tetap ada. Pengalaman Prancis menunjukkan bahwa data yang terkumpul di satu tempat menjadi incaran empuk, entah melalui peretasan eksternal atau kebocoran internal.
-
-Dari sisi perlindungan, beberapa langkah praktis yang relevan untuk pemilik crypto di Indonesia:
-
-- **Gunakan wallet dengan fitur darurat** seperti layanan kustodi yang mendukung kata sandi khusus untuk situasi terpaksa -- sebuah frasa yang sudah disepakati sebelumnya yang memberi tahu penyedia bahwa pemilik sedang dalam tekanan
-- **Siapkan wallet umpan** dengan saldo kecil yang bisa diserahkan jika terjadi pemerasan, agar aset utama tetap aman
-- **Minimalisir jejak digital** dengan tidak menghubungkan identitas asli ke alamat wallet secara publik, menghindari posting screenshot portofolio, dan tidak menyebut kepemilikan crypto di media sosial
-- **Audit data pribadi secara berkala** menggunakan layanan seperti Have I Been Pwned untuk mengetahui apakah email atau data lain pernah bocor
+Gw liat pola yang sama rawan terjadi di Indo. KYC di exchange lokal ngumpulin data pengguna dalam jumlah gede — database terpusat, satu tembus, semua kena. Prancis buktiin: Ledger leak 2020 aja masih dipake sampe sekarang, 6 tahun kemudian. Buat lo yang punya aset lebih dari 5 digit USD di wallet, siapin wallet umpan dengan saldo kecil. Kalo ada apa-apa, lo kasih itu. Minimalisir footprint digital: jangan pernah post screenshot portfolio di sosmed, jangan pamer address publik. Lo kira gak ada yang ngeliat? Data dari breach Ledger masih diperjualbelikan sampe detik ini.
 
 ## Sumber
 

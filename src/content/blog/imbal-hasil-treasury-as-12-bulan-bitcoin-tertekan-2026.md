@@ -51,18 +51,11 @@ Emas juga tertekan, diperdagangkan 0,7% lebih rendah di $4.614 per ounce. Kedua 
 
 Sementara itu, pasar tokenized Treasury justru diuntungkan. Total nilai aset yang terkunci dalam protokol tokenized Treasury telah mencapai rekor di atas **$15 miliar**, menurut data dari rwa.xyz. Kenaikan imbal hasil memperkuat permintaan untuk akses on-chain ke utang pemerintah berkualitas tinggi yang memberikan yield.
 
-## Analisis: Mengapa Ini Penting untuk Trader Indonesia
+Kombinasi imbal hasil Treasury yang melonjak plus Bitcoin yang mentok di bawah 200-day SMA — lingkungan yang ribet buat posisi long crypto. Buat trader Indo yang mayoritas transaksi dalam Rupiah, tekanan ganda dari penguatan dolar dan kenaikan imbal hasil AS bisa ngelebarin spread antara harga spot BTC/USD dan biaya Rupiah yang diperlukan buat entry. Intinya: meskipun Bitcoin flat di $81.000 secara dolar, biaya riil dalam Rupiah bisa terus naik.
 
-Kombinasi imbal hasil Treasury yang melonjak dan Bitcoin yang tertahan di bawah 200-day SMA menciptakan lingkungan yang cukup rumit untuk posisi long crypto. Bagi trader Indonesia yang mayoritas bertransaksi dalam Rupiah, tekanan ganda dari penguatan dolar dan kenaikan imbal hasil AS bisa memperlebar spread antara harga spot BTC/USD dan biaya Rupiah yang dibutuhkan untuk masuk. Ini artinya, meskipun Bitcoin flat di $81.000 secara dolar, biaya riil dalam Rupiah bisa terus merayap naik.
+Yang menarik, kenaikan probabilitas Fed rate ke 44% ini sebenernya buka peluang di segmen tokenized Treasury. Protokol kayak Ondo Finance dan BlackRock BUIDL yang nawarin akses on-chain ke Treasury AS bisa jadi alternatif menarik buat investor Indo yang mau dapet yield dolar tanpa broker tradisional. Volume on-chain Treasury yang tembus $15 miliar nunjukin pasar ini bukan lagi eksperimen DeFi — infrastruktur keuangan yang mulai matang.
 
-Yang menarik, kenaikan probabilitas kenaikan Fed rate ke 44% ini sebenarnya membuka peluang di segmen tokenized Treasury. Protokol seperti Ondo Finance dan BlackRock BUIDL yang menawarkan akses on-chain ke Treasury AS bisa menjadi alternatif menarik bagi investor Indonesia yang ingin mendapatkan yield dolar tanpa harus melalui broker tradisional. Volume on-chain Treasury yang tembus $15 miliar menunjukkan bahwa pasar ini bukan lagi sekadar eksperimen DeFi, melainkan infrastruktur keuangan yang mulai matang.
-
-## Yang Perlu Diperhatikan Minggu Depan
-
-- **Pidato pejabat Fed**: Perhatikan komentar dari pejabat Federal Reserve tentang prospek suku bunga. Retorika hawkish tambahan bisa mendorong imbal hasil lebih tinggi.
-- **Level kunci BTC $82.000**: 200-day SMA tetap menjadi resistance kritis. Gagal tembus dalam beberapa hari ke depan bisa memicu aksi jual lanjutan.
-- **Data ekonomi AS**: Rilis data penjualan ritel dan klaim pengangguran minggu depan akan memberikan gambaran lebih jelas tentang kondisi ekonomi.
-- **Tokenized Treasury**: Pantau pertumbuhan TVL di protokol tokenized Treasury sebagai indikator perpindahan modal dari crypto volatil ke aset yield stabil.
+Yang perlu diwatch: pidato pejabat Fed — retorika hawkish tambahan bisa dorong imbal hasil lebih tinggi. Level kunci BTC $82.000 — 200-day SMA tetap resistance kritis. Data ekonomi AS — rilis penjualan ritel dan klaim pengangguran minggu depan. Tokenized Treasury — pantau pertumbuhan TVL sebagai indikator perpindahan modal dari crypto volatil ke aset yield stabil.
 
 ## Sumber
 

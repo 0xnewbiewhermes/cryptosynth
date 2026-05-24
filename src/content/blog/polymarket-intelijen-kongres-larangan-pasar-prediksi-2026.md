@@ -52,9 +52,7 @@ Kasus yang paling mencengangkan terjadi pada 23 Maret 2026, saat seseorang memas
 
 Untuk konteks: pasar komoditas tradisional seperti minyak bumi jauh lebih besar dari pasar prediksi kripto. Jika informasi dari platform seperti Polymarket bisa mempengaruhi perdagangan komoditas senilai ratusan miliar dolar setiap hari, implikasinya bagi stabilitas pasar global sangat serius.
 
-## Perspektif Pasar Indonesia
-
-Bagi pasar Indonesia, ada dua risiko yang jarang dibahas. Pertama, banyak exchange lokal seperti Indodax dan Tokocrypto menyediakan akses ke token yang terafiliasi dengan ekosistem prediksi. Jika tekanan regulasi AS berujung pada pemblokiran platform atau pengetatan stablecoin yang jadi alat transaksi utama di Polymarket, dampaknya bisa merembet ke likuiditas di bursa Indonesia. Kedua, investor Indonesia yang menggunakan Polymarket lewat VPN untuk arbitrase atau hedging otomatis terekspos risiko legal karena status hukum pasar prediksi di Indonesia masih abu-abu, tidak diatur secara eksplisit di UU P2SK maupun UU ITE.
+Buat pasar Indo, ada dua risiko yang jarang dibahas. Pertama, exchange lokal kayak Indodax dan Tokocrypto nyediain akses ke token yang terafiliasi sama ekosistem prediksi. Kalo tekanan regulasi AS berujung pemblokiran platform atau pengetatan stablecoin yang jadi alat transaksi utama di Polymarket, dampaknya bisa ngerembet ke likuiditas di bursa Indo. Kedua, investor Indo yang pake Polymarket lewat VPN buat arbitrase atau hedging — lo otomatis terekspos risiko legal karena status pasar prediksi di sini masih abu-abu. Gak diatur eksplisit di UU P2SK maupun UU ITE. Gw liat tekanan hukum ke Polymarket dateng dari tiga arah: federal (Kongres), negara bagian, dan sektoral (CFTC). Mirip pendekatan bertahap yang dipake buat menekan platform judi online ilegal di AS dulu.
 
 ## Apa Selanjutnya untuk Polymarket dan Pasar Prediksi?
 
@@ -62,7 +60,7 @@ DEATH BETS Act hanyalah satu dari serangkaian RUU yang diajukan di Kongres. Data
 
 Polymarket sendiri menegaskan bahwa mereka memiliki "infrastruktur integritas pasar paling komprehensif." Tapi CEO Bubblemaps, Nicolas Vaiman, memberikan perspektif yang lebih jujur: "Siapa pun bisa menggunakan VPN murah atau membeli akun terverifikasi. Ini bukan hanya masalah Polymarket. Ini masalah seluruh internet."
 
-Bagi pengguna kripto di Indonesia, perkembangan ini menjadi pengingat penting. Pasar prediksi menawarkan peluang unik, tapi juga membawa risiko regulasi yang signifikan, terutama jika platform besar seperti Polymarket menghadapi tekanan hukum berlapis dari Kongres, CFTC, dan negara bagian secara bersamaan.
+Buat pengguna kripto di Indo: pasar prediksi emang nawarin peluang unik, tapi risiko regulasinya gede banget — apalagi kalo platform kayak Polymarket kena tekanan hukum berlapis dari Kongres, CFTC, dan negara bagian sekaligus.
 
 ## Sumber
 

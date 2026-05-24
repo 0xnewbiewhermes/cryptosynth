@@ -52,15 +52,13 @@ Kenaikan ini juga didukung oleh institutional inflow yang solid. **Bitwise NEAR 
 
 Secara lebih luas, NEAR telah naik sekitar 150% sejak awal Februari 2026. Kombinasi antara selesainya unlock VC besar, adopsi confidential transactions, pilot dunia nyata, dan momentum AI agent berkontribusi pada tren positif ini.
 
-## Perspektif Pasar Indonesia
+Near Protocol bukan nama asing di ekosistem developer Indo. Dengan dynamic resharding, Near nawarin solusi skalabilitas yang gak perlu konfigurasi ribet dari sisi developer — beda sama pendekatan chain lain yang ngandelin app-chain atau L2 terpisah.
 
-Near Protocol bukan nama asing di ekosistem developer Indonesia. Dengan dynamic resharding, Near menawarkan solusi skalabilitas yang tidak memerlukan konfigurasi rumit dari sisi developer. Ini berbeda dengan pendekatan chain lain yang mengandalkan app-chain atau L2 terpisah.
+Dynamic resharding bisa jadi nilai jual kuat buat developer lokal yang ngalamin kongesti di chain lain. Biaya transaksi yang stabil meskipun traffic melonjak — fitur yang sering dicari project DeFi dan game blockchain yang nargetin basis pengguna Indo.
 
-Analisis untuk pasar Indonesia: dynamic resharding bisa menjadi nilai jual kuat bagi developer lokal yang mengalami kongesti di chain lain. Biaya transaksi yang tetap stabil meskipun traffic melonjak adalah fitur yang sering dicari oleh project DeFi dan game blockchain yang menargetkan basis pengguna Indonesia.
+Risiko utama ada di eksekusi teknis. Upgrade sebesar ini di mainnet butuh bukti kalo sistem beneran kerja tanpa celah keamanan. Developer Indo sebaiknya pantau testnet dan audit keamanan sebelum migrasikan dApp ke skala penuh di Near.
 
-Risiko utamanya ada di eksekusi teknis. Upgrade sebesar ini di mainnet butuh bukti bahwa sistem benar-benar bekerja tanpa celah keamanan. Developer Indonesia sebaiknya memantau testnet dan audit keamanan sebelum memigrasikan dApp ke skala penuh di Near.
-
-Dari sisi investor, inflow Bitwise NEAR Staking ETP menunjukkan bahwa institusi Eropa mulai melirik Near sebagai aset staking. Ini bisa membuka pintu bagi produk serupa di Asia, termasuk kemungkinan produk kripto institutional di Indonesia seiring berkembangnya regulasi.
+Dari sisi investor, inflow Bitwise NEAR Staking ETP nunjukin institusi Eropa mulai melirik Near sebagai aset staking. Ini bisa buka pintu buat produk serupa di Asia — termasuk kemungkinan produk kripto institutional di Indo seiring berkembangnya regulasi.
 
 ## FAQ
 

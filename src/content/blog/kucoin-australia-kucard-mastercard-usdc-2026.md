@@ -51,18 +51,9 @@ Dengan pengawasan AUSTRAC yang semakin ketat, pendekatan KuCoin yang nimble dan 
 
 (Data diambil dari header Decrypt dan Cointelegraph. Harga dapat berubah cepat.)
 
-## Insight untuk Pasar Indonesia
+Peluncuran KuCard nunjukin pergeseran penting: kripto bukan cuma buat spekulasi atau investasi — alat pembayaran fungsional di kehidupan sehari-hari. Di Indo, di mana adopsi kripto tinggi tapi utilitas sehari-hari masih terbatas, model kayak gini patut diperhatiin.
 
-Peluncuran KuCard menandakan pergeseran penting: kripto bukan hanya untuk spekulasi atau investasi, melainkan alat pembayaran fungsional di kehidupan sehari-hari. Di Indonesia, di mana adopsi kripto tinggi namun utilitas sehari-hari masih terbatas, model seperti ini patut diperhatikan.
-
-Regulator Bappebti sedang memperkuat kerangka aturan. Pengalaman Australia dengan AUSTRAC dan produk compliant seperti stablecoin card bisa menjadi referensi berharga. Potensi kolaborasi antara exchange lokal, bank, dan fintech untuk produk serupa sangat besar, terutama untuk remitansi dan pembayaran ritel yang lebih efisien.
-
-Risiko tetap ada, termasuk volatilitas (meski USDC stabil), biaya, dan kepatuhan pajak. Namun peluang untuk meningkatkan inklusi keuangan melalui crypto utility jelas terbuka.
-
-## Takeaway Actionable
-- Bagi pengguna Australia: Cek eligibility KuCard di app KuCoin dan aktifkan untuk spending harian.
-- Bagi investor Indonesia: Pantau perkembangan regulasi regional. Produk serupa mungkin segera hadir di pasar lokal.
-- Selalu prioritaskan platform berizin resmi dan lakukan DYOR sebelum mencoba fitur kartu kripto.
+Regulator Bappebti lagi perkuat kerangka aturan. Pengalaman Australia dengan AUSTRAC dan produk compliant kayak stablecoin card bisa jadi referensi berharga. Potensi kolaborasi antara exchange lokal, bank, dan fintech buat produk serupa juga gede banget — terutama buat remitansi dan pembayaran ritel yang lebih efisien. Risiko tetep ada (volatilitas, meski USDC stabil, biaya, kepatuhan pajak), tapi peluang buat ningkatin inklusi keuangan lewat crypto utility jelas terbuka.
 
 ## Sumber
 

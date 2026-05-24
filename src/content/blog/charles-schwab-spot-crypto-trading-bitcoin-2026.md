@@ -63,13 +63,7 @@ Ini juga sejalan dengan meningkatnya kepercayaan institusi terhadap crypto sebag
 
 *Sumber: CoinDesk, Decrypt, 13 Mei 2026*
 
-## Apa Artinya untuk Investor Indonesia?
-
-Meskipun layanan Schwab Crypto saat ini hanya tersedia untuk nasabah retail di AS, perkembangan ini punya implikasi global:
-
-1. **Validasi pasar:** Ketika broker sebesar Schwab masuk ke spot trading, ini menunjukkan bahwa crypto sudah bukan lagi niche market.
-2. **Tekanan kompetisi:** Broker di negara lain, termasuk Indonesia, mungkin akan terdorong untuk memperluas layanan crypto mereka.
-3. **Likuiditas:** Masuknya pemain besar berpotensi meningkatkan likuiditas pasar secara keseluruhan.
+Yang menarik, layanan ini sekarang cuma buat nasabah AS. Tapi efeknya ke global — apalagi Indo — lumayan jelas. Broker sebesar Schwab masuk ke spot trading, artinya crypto udah bukan niche lagi. Gw liat tekanan kompetisi mulai kerasa: broker di negara lain, termasuk kemungkinan Indo, bakal ikut-ikutan. Likuiditas global juga naik, yang artinya spread di Indo bisa makin tipis buat pair-pair besar.
 
 ---
 

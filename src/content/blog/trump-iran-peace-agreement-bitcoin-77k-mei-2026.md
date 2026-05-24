@@ -34,11 +34,7 @@ Dampak paling langsung terasa di pasar energi. Minyak mentah WTI turun sekitar 6
 
 Analis dari [Token Metrics](https://x.com/tokenmetricsinc/status/2058296573160038562) mencatat bahwa pengumuman ini secara langsung mengurangi premi risiko geopolitik dan mengalihkan fokus kembali ke risk-on sentiment. Sektor yang diuntungkan antara lain saham maskapai, pelayaran, dan risk assets secara umum.
 
-## 3 Dampak ke Pasar Indonesia: Lensa Lokal
-
-Bagi trader Indonesia, penurunan premi risiko geopolitik global punya efek langsung ke cara pandang terhadap aset kripto. Ketika tensi Iran mereda, risk appetite biasanya naik dan modal institusi bisa kembali mengalir ke BTC dan altcoin, termasuk dari exchange lokal yang volumenya cukup sensitif terhadap sentimen makro.
-
-Namun Iran langsung membantah klaim Trump, menyebutnya sebagai "propaganda domestik" dan menegaskan Selat Hormuz tetap di bawah kendali mereka. Gap narasi ini khas dalam diplomasi Timur Tengah dan bisa memicu pembalikan harga cepat jika negosiasi mentok di 30-60 hari ke depan. Trader Indonesia yang terbiasa dengan volatilitas tinggi perlu mencermati dua sinyal: pergerakan minyak WTI (korelasi terbalik dengan BTC dalam skenario geopolitik) dan pernyataan resmi dari Teheran yang bisa muncul kapan saja.
+Buat trader Indo, penurunan premi risiko geopolitik global efeknya langsung. Kalo tensi Iran mereda, risk appetite naik dan modal institusi bisa balik ke BTC dan altcoin — termasuk dari exchange lokal yang volumenya sensitif sama sentimen makro. Tapi catet: Iran langsung bantah klaim Trump, bilang itu propaganda domestik dan Selat Hormuz tetep di bawah kendali mereka. Gap narasi kayak gini klasik di diplomasi Timur Tengah dan bisa trigger pembalikan harga cepet kalo negosiasi mentok. Buat yang udah biasa sama volatilitas tinggi, pantau dua sinyal: pergerakan minyak WTI (korelasi terbalik sama BTC di skenario geopolitik) dan pernyataan resmi Teheran yang bisa muncul kapan aja.
 
 ## Prospek: Negosiasi Masih Berlanjut
 

@@ -42,13 +42,9 @@ Analis ETF Bloomberg, James Seyffart, memberikan pandangan yang lebih optimis da
 
 Pasar crypto juga menghadapi tekanan makroekonomi di saat yang bersamaan. Data dari [CoinDesk](https://www.coindesk.com/tech/2026/05/22/live-markets-bitcoin-continues-holding-pattern-near-usd77-000-ahead-of-holiday-weekend) menunjukkan Bitcoin turun 2,4% dalam 24 jam terakhir ke level terendah di bulan Mei, di tengah pelantikan Kevin Warsh sebagai Ketua Federal Reserve yang baru. Indeks Sentimen Konsumen Universitas Michigan juga jatuh ke rekor terendah 44,8, menandakan stagflasi yang mengkhawatirkan.
 
-## Pasar untuk Trader Indonesia
+Dari level all-time tinggi $126.198 yang tercatat pada Oktober 2025, BTC telah terkoreksi sekitar 40%.
 
-Berdasarkan data CoinMarketCap, harga Bitcoin saat ini bergerak di kisaran sempit dengan support utama di level **$74.255** (24 jam terendah) dan resistance di $77.494 (24 jam tertinggi). Dari level all-time tinggi $126.198 yang tercatat pada Oktober 2025, BTC telah terkoreksi sekitar 40%.
-
-Data on-chain dari Santiment menunjukkan bahwa outflow ETF yang masif justru bisa menjadi katalis untuk akumulasi jangka panjang. Pola serupa terjadi pada kuartal ketiga 2025 ketika outflow besar-besaran justru diikuti oleh reli BTC ke all-time high beberapa bulan kemudian.
-
-Untuk trader Indonesia, periode outflow seperti ini sering kali memberikan entry point yang lebih menarik dibandingkan saat euforia pasar. Namun risikonya tetap tinggi mengingat ketidakpastian makro dari kebijakan suku bunga AS dan dampak perang Iran yang mendorong harga minyak naik, yang bisa memicu kenaikan inflasi lebih lanjut. Kombinasi antara outflow ETF yang masif dan tekanan makro ini menciptakan situasi yang jarang terjadi, di mana sinyal kontrarian Santiment perlu diimbangi dengan kewaspadaan terhadap potensi koreksi lebih dalam jika data inflasi pekan depan tidak membaik.
+Santiment bilang outflow masif ini contrarian buy signal. Pola yang sama terjadi Q3 2025 — outflow gede, beberapa bulan kemudian BTC cetak ATH baru. Kalo lo trader Indo, periode outflow kayak gini historisnya ngasih entry point lebih menarik daripada pas euforia. Tapi risikonya: makro masih uncertainty — suku bunga AS, perang Iran, minyak naik. Kombinasi outflow masif + tekanan makro itu jarang, jadi sinyal kontrarian Santiment perlu diimbangi sama kewaspadaan kalo inflasi pekan depan gak membaik.
 
 ## Sumber
 

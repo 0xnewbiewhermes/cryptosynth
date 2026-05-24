@@ -49,15 +49,7 @@ Pola ini menunjukkan bahwa setelah kesuksesan spot Bitcoin dan Ethereum ETF yang
 
 BNB saat ini berada di peringkat ke-4 berdasarkan kapitalisasi pasar dengan valuasi $88.2 miliar. Dengan harga $654.39, BNB masih 52.25% di bawah all-time high $1,370.55 yang dicapai Oktober 2025. Jika ETF disetujui, analis memproyeksikan target harga jangka pendek di sekitar $700, mengacu pada pola re-rating harga yang terjadi setelah peluncuran Bitcoin dan Ethereum ETF.
 
-## Mengapa Ini Penting untuk Investor Indonesia
-
-BNB memiliki basis pengguna yang sangat besar di Asia Tenggara, termasuk Indonesia. BNB Chain (sebelumnya Binance Smart Chain) adalah salah satu blockchain paling aktif untuk DeFi dan trading di kawasan ini. Persetujuan BNB ETF di AS bisa membuka akses institusional yang lebih luas terhadap BNB, yang pada gilirannya dapat meningkatkan likuiditas dan stabilitas harga.
-
-Namun, investor Indonesia perlu memahami bahwa proses SEC bisa memakan waktu berbulan-bulan dan tidak ada jaminan persetujuan. SEC masih perlu menyetujui perubahan aturan 19b-4 yang diajukan Nasdaq sebelum produk bisa mulai diperdagangkan. Setiap tahap bisa memerlukan beberapa putaran amandemen lagi.
-
-## Langkah Selanjutnya
-
-Keputusan SEC terhadap BNB ETF Grayscale dan VanEck akan menjadi tolok ukur penting apakah regulator AS siap membuka pintu lebih lebar untuk spot altcoin ETF. Jika disetujui, ini akan menjadi preseden yang mempengaruhi pengajuan ETF untuk altcoin lain seperti Solana, XRP, dan Avalanche.
+Yang gw catet: BNB punya basis gede di Asia Tenggara, termasuk Indo. BNB Chain salah satu blockchain paling aktif buat DeFi di sini. Kalo BNB ETF disetujui, akses institusional ke BNB makin luas — likuiditas naik, stabilitas harga potensi lebih baik. Tapi lo harus sabar, proses SEC bisa berbulan-bulan, gak ada jaminan. Tiap stage butuh amandemen baru. Keputusan BNB ETF ini bakal jadi tolok ukur buat ETF altcoin lain kayak Solana, XRP, Avalanche.
 
 Sementara itu, investor bisa memantau perkembangan melalui situs resmi SEC dan mengikuti analisis dari pakar ETF seperti James Seyffart dari Bloomberg Intelligence yang secara aktif melacak filing-filing ini.
 

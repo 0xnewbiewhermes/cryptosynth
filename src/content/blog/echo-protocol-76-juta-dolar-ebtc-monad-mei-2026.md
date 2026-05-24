@@ -75,15 +75,13 @@ Mei 2026 menjadi bulan yang berat bagi keamanan DeFi. Setidaknya 12 protokol tel
 - KelpDAO - [eksploitasi $293 juta](https://www.cryptosynth.id/blog/kelpdao-hack-293-juta-defi-matu-2026/)
 - TrustedVolumes dan Ekubo
 
-Ini menunjukkan tren yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Pelaku pasar Indonesia perlu lebih selektif dalam memilih protokol untuk menyimpan atau meminjamkan aset, terutama yang berkaitan dengan BTC.
+Ini menunjukkan tren yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Buat lo yang main di Indo, makin selektif milih protokol buat nyimpen atau minjemin aset — apalagi yang related sama BTC.
 
-### Implikasi untuk Pengguna Indonesia
+### Yang bisa dipelajari
 
-Bagi pengguna crypto di Indonesia, insiden ini memberikan beberapa pelajaran penting. Ukuran total value locked (TVL) atau popularitas sebuah protokol bukan jaminan keamanan. Echo Protocol adalah protokol BTCFi yang sedang naik daun, tetapi kelemahan fundamental pada admin key-nya membuat protokol ini rentan.
+Ukuran TVL atau popularitas protokol bukan jaminan aman. Echo Protocol adalah protokol BTCFi yang lagi naik daun, tapi kelemahan fundamental di admin key-nya bikin rentan. Prinsip "not your keys, not your crypto" berlaku juga di level smart contract — protokol dengan single point of failure di admin key risikonya sama kayak exchange terpusat.
 
-Insiden ini kembali menegaskan pentingnya prinsip "not your keys, not your crypto", bahkan di level smart contract. Protokol dengan single point of failure pada admin key membawa risiko yang sama dengan exchange terpusat.
-
-Pemulihan dana sebesar 955 eBTC ($73 juta) oleh tim Echo adalah kabar baik yang langka dalam insiden peretasan DeFi. Biasanya dana yang dicuri tidak pernah kembali. Keberhasilan ini menunjukkan bahwa respons cepat dan koordinasi dengan mitra (seperti Curvance) bisa membuat perbedaan signifikan dalam membatasi kerugian.
+Yang menarik, pemulihan 955 eBTC ($73 juta) oleh tim Echo termasuk langka di insiden peretasan DeFi. Biasanya dana yang dicuri gak balik lagi. Keberhasilan ini nunjukin respons cepet dan koordinasi sama mitra kayak Curvance bisa bikin perbedaan signifikan dalam batasin kerugian.
 
 ## Sumber
 

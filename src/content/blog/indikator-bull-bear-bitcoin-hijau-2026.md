@@ -78,14 +78,9 @@ Di luar harga, momentum institusional terus membangun:
 
 Perkembangan ini menunjukkan adopsi institusional terus berjalan meski harga berfluktuasi.
 
-## Apa Artinya untuk Pasar Indonesia?
+Sinyal early bull dari CryptoQuant itu indikator makro, bukan sinyal trading harian. Gunain sebagai konteks, bukan rekomendasi trading. Level kunci $82.000 harus ditembus buat konfirmasi bullish. Selama masih di bawah, volatilitas jangka pendek masih tinggi.
 
-Bagi trader dan investor crypto di Indonesia, ada beberapa poin penting:
-
-1. **Sinyal early bull** dari CryptoQuant adalah indikator makro, bukan sinyal trading harian. Gunakan sebagai konteks, bukan rekomendasi beli.
-2. **Level kunci $82.000** harus ditembus untuk konfirmasi bullish. Selama masih di bawah, waspadai volatilitas jangka pendek.
-3. **Data CPI AS yang panas** berarti kemungkinan penundaan pemotongan suku bunga The Fed, faktor yang bisa menekan aset berisiko termasuk kripto.
-4. **Arah masuk institusional** tetap positif, yang memberikan lantai dukungan jangka panjang.
+Data CPI AS yang panas berarti kemungkinan penundaan pemotongan suku bunga Fed — faktor yang bisa ngepress aset berisiko termasuk kripto. Tapi arah masuk institusional tetep positif, yang kasih lantai support jangka panjang.
 
 ---
 

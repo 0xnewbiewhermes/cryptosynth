@@ -56,13 +56,9 @@ Perkembangan terbaru mendukung optimisme ini. [JPMorgan mengajukan dana tokenize
 
 *Sumber: Cointelegraph, 16 Mei 2026*
 
-## Mengapa Ini Penting untuk Pasar Indonesia
-
-Bagi investor dan trader di Indonesia, ketiga katalis ini punya implikasi langsung. Indonesia adalah salah satu pasar crypto terbesar di Asia Tenggara, dan perubahan regulasi di AS sering kali menjadi sinyal yang diikuti oleh regulator lokal. Kalau CLARITY Act benar-benar lolos Kongres, tekanan untuk menciptakan kerangka regulasi yang setara di Indonesia dan negara-negara ASEAN lainnya akan semakin kuat.
-
-Peluang di tokenisasi RWA juga relevan. Dengan populasi muda yang melek digital dan penetrasi smartphone tinggi, Indonesia berpotensi jadi salah satu pasar terdepan untuk produk investasi tokenized. Tapi ini juga berarti investor Indonesia perlu mulai memahami perbedaan antara token utility dan sekuritas tokenized, karena keduanya punya profil risiko yang sangat berbeda.
-
 Yang perlu diwaspadai adalah ketergantungan Chalom pada "meredanya AI thesis" sebagai syarat pemulihan crypto. Kalau saham AI terus menarik modal, ETH bisa tertekan lebih lama dari yang diharapkan. Treasury sebesar 861.251 ETH milik Sharplink sendiri jadi pedang bermata dua, naiknya menguntungkan besar, tapi turunnya bisa memaksa likuidasi.
+
+Gw liat korelasi menarik buat Indo: Indonesia salah satu pasar crypto terbesar di Asia Tenggara. CLARITY Act lolos di Senat, tekanan ke regulator lokal buat bikin kerangka setara makin gede. Tokenisasi RWA? Populasi muda Indo yang melek digital jadi pasar potensial. Tapi yang belum banyak dibahas: bedanya token utility sama sekuritas tokenized itu fundamental. Lo salah beli, lo kena implikasi hukum yang beda.
 
 ## Sumber
 

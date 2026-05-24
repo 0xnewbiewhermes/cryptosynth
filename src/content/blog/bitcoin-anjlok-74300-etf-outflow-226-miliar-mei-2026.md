@@ -40,13 +40,7 @@ Imbal hasil obligasi pemerintah yang lebih tinggi membuat aset berisiko seperti 
 
 CoinDesk juga menyoroti satu faktor unik: sebagian modal spekulatif diduga bergeser ke antisipasi IPO SpaceX. Beberapa platform derivatif on-chain berbasis blockchain sudah mencatat volume perdagangan jutaan dolar untuk produk pra-IPO SpaceX. Pasar kripto kini tidak hanya bersaing dengan aset tradisional, tapi juga dengan ekspektasi IPO perusahaan teknologi besar.
 
-## Pasar Indonesia di Tengah Tekanan Global
-
-Pergerakan Bitcoin di bawah $75.000 membuka dilema menarik bagi investor Indonesia. Harga yang lebih rendah bisa menjadi peluang akumulasi, namun data on-chain menunjukkan realized price Bitcoin saat ini di kisaran $70.000, artinya selama harga bertahan di atas level tersebut, struktur pasar masih bullish jangka panjang.
-
-Tapi yang lebih relevan untuk konteks Indonesia adalah faktor nilai tukar. Rupiah yang melemah terhadap dolar AS dalam beberapa pekan terakhir membuat koreksi Bitcoin dalam denominasi IDR lebih tajam dari yang terlihat di harga USD. Investor Indonesia yang membeli BTC di level $80.000 (sekitar Rp1,28 miliar) kini melihat harga dalam rupiah turun ke kisaran Rp1,19 miliar. Kerugian dalam rupiah lebih besar 2-3% dari kerugian dalam dolar karena efek kurs.
-
-Sisi positifnya, koreksi seperti ini biasanya tidak bertahan lama jika tidak ada katalis negatif baru. Near Protocol (NEAR) justru naik 25% dalam 24 jam terakhir setelah mengumumkan upgrade scaling dan quantum resilience. Artinya, narasi spesifik proyek masih bisa mendorong harga terlepas dari tekanan makro. Data dari CoinDesk Daybook juga mencatat bahwa on-chain perpetuals dan token quantum-resistant menunjukkan kekuatan di tengah tekanan pasar, mengindikasikan rotasi modal intra-kripto yang bisa dimanfaatkan investor Indonesia untuk memilih sektor dengan katalis independen.
+Yang gw tangkap: koreksi ke $74.300 ini bikin dilema. Realized price BTC di $70.000 — selama di atas itu, struktur pasar masih bullish jangka panjang. Tapi buat Indo ada faktor kurs: rupiah melemah, jadi loss di IDR lebih gede 2-3% dari yang keliatan di USD. Yang menarik, NEAR justru naik 25% pas pasar merah — artinya narasi spesifik proyek masih bisa gerak terlepas dari makro. Rotasi modal intra-kripto masih terjadi. Sekarang tinggal pilih sektor yang punya katalis independen.
 
 ## Sumber
 

@@ -44,13 +44,7 @@ Hyperliquid, DEX perpetual terbesar, mencatat open interest RWA mencapai rekor t
 
 MoonPay, perusahaan pembayaran kripto, juga baru saja meluncurkan MoonPay Trade, platform yang menghubungkan bank dan fintech ke aset tokenized, protokol DeFi, dan likuiditas stablecoin di lebih dari 200 blockchain. Dipimpin oleh mantan Plt. Ketua CFTC Caroline Pham, langkah ini menandakan adopsi institusional yang semakin serius.
 
-## Strategi untuk Pasar Indonesia
-
-Bagi investor Indonesia, perkembangan ini punya implikasi ganda. Tokenized stocks membuka akses ke saham-saham AS tanpa perlu rekening sekuritas luar negeri atau melalui broker lokal yang mungkin punya keterbatasan produk. Tapi risiko fragmentasi likuiditas yang diidentifikasi Tiger Research berarti harga tokenized stocks di satu platform bisa berbeda signifikan dengan harga di bursa utama.
-
-Di pasar Indonesia yang aksesnya sangat bergantung pada Binance dan exchange lokal, tracking error antara harga saham AS di onchain dengan harga NYSE perlu jadi perhatian. Seperti diingatkan Vujinovic, dalam kondisi pasar yang volatil, ketidakcocokan harga ini bisa menciptakan peluang arbitrase sekaligus risiko likuidasi mendadak bagi investor yang menggunakan leverage.
-
-Yang lebih penting, pendekatan ketat Peirce sebenarnya menguntungkan pasar emerging seperti Indonesia. Dengan aturan yang jelas dan terbatas, risiko penawaran tokenized stocks abal-abal atau tanpa underlying asset yang valid bisa diminimalkan. Ini krusial mengingat volume perdagangan kripto Indonesia masih didominasi investor retail yang rentan terhadap skema tanpa izin.
+Buat investor Indo, perkembangan tokenized stocks punya sisi ganda. Akses ke saham AS tanpa perlu rekening sekuritas luar negeri — itu enak. Tapi risiko fragmentasi likuiditas yang diidentifikasi Tiger Research bikin harga tokenized stock di satu platform bisa beda signifikan sama harga di bursa utama. Di pasar Indo yang aksesnya sangat bergantung ke Binance dan exchange lokal, tracking error antara harga saham AS di onchain dan harga NYSE perlu jadi perhatian. Seperti yang dibilang Vujinovic, dalam kondisi volatil, ketidakcocokan harga ini bisa ngeciptain peluang arbitrase sekaligus risiko likuidasi mendadak buat yang pake leverage. Gw liat pendekatan ketat Peirce sebenarnya nguntungin pasar emerging kayak Indo — dengan aturan yang jelas, risiko penawaran tokenized stocks abal-abal atau tanpa underlying valid bisa diminimalisir. Krusial banget karena volume trading kripto Indo masih didominasi investor retail yang rentan sama skema tanpa izin.
 
 ## Sumber
 

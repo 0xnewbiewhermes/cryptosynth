@@ -47,13 +47,7 @@ Dua peristiwa ini terjadi di waktu yang hampir bersamaan dan saling menguatkan. 
 
 **Kedua, partisipasi Bank of America menandakan pergeseran sikap bank besar.** Dengan $53 juta di ETF Bitcoin, BofA bergabung dengan Morgan Stanley, Goldman Sachs, dan JPMorgan yang sebelumnya sudah mengungkap eksposur kripto lewat filing 13F. Angka ini memang kecil dibanding total aset BofA yang triliunan dolar, tapi sinyalnya jelas: bank tradisional mulai serius dengan kripto sebagai kelas aset.
 
-## Strategi untuk Pasar Indonesia di Era Institusional
-
-Bagi investor kripto Indonesia, perkembangan ini membawa implikasi jangka panjang yang positif. Saat institusi global punya akses ke alat hedging yang lebih canggih, tekanan jual panik (sell-off) cenderung berkurang karena posisi besar bisa dilindungi tanpa likuidasi paksa. Ini artinya volatilitas Bitcoin ke depan bisa lebih terkendali.
-
-Regulasi di Indonesia memang belum mengakomodasi produk derivatif kripto setara Bitcoin Index Options. Bursa berjangka dan OJK masih dalam tahap kajian untuk instrumen derivatif aset kripto. Tapi tren global seperti ini bisa mempercepat pembahasan, mengingat likuiditas dan stabilitas pasar adalah kepentingan bersama.
-
-Satu analisis tambahan: rotasi dana dari ETF Bitcoin ke altcoin yang sedang terjadi saat ini (NEAR naik 19,4% dalam CoinDesk 20) mengindikasikan pasar sedang phase "risk-on selektif". Investor institusi tidak kabur dari kripto, mereka hanya mencari return lebih tinggi di lapis kedua sambil tetap memegang Bitcoin lewat produk baru seperti index options. Ini pola yang positif untuk kesehatan ekosistem jangka panjang.
+Buat investor kripto Indo, perkembangan ini positif jangka panjang. Institusi global punya akses alat hedging yang lebih canggih, tekanan jual panik biasanya berkurang karena posisi besar bisa dilindungi tanpa likuidasi paksa. Artinya volatilitas BTC ke depan bisa lebih terkendali. Regulasi di Indo emang belum ngakomodasi derivatif setara Bitcoin Index Options, tapi tren global kayak gini bisa percepat pembahasan. Yang menarik: rotasi dana dari ETF Bitcoin ke altcoin (NEAR naik 19,4% di CoinDesk 20) nunjukin pasar lagi fase risk-on selektif. Institusi gak kabur dari kripto, mereka cari return lebih tinggi di lapis kedua sambil tetep megang Bitcoin lewat produk baru kayak index options. Pola yang sehat buat ekosistem jangka panjang.
 
 ## Harga Bitcoin Hari Ini
 

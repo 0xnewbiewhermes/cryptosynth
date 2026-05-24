@@ -46,15 +46,13 @@ Kraken, exchange kripto terkemuka yang beroperasi sebagai Wyoming SPDI (special-
 
 Namun, selama masa proposal ini, Fed meminta bank regional untuk menghentikan sementara keputusan atas aplikasi serupa demi memastikan implementasi yang konsisten. Ripple, Anchorage Digital, dan Wise (fintech transfer uang) disebut-sebut sebagai perusahaan yang juga mengejar akses serupa.
 
-## Dampak Buat Ekosistem Kripto Global dan Indonesia
+Kalo aturan ini final, implikasinya luas. Akses langsung ke sistem pembayaran Fed artinya perusahaan kripto bisa kliring dan settlement tanpa bank koresponden — yang selama ini jadi bottleneck dan sumber biaya tinggi, apalagi buat transfer lintas batas.
 
-Jika aturan ini final, implikasinya bisa sangat luas. Akses langsung ke sistem pembayaran Fed berarti perusahaan kripto bisa melakukan kliring dan settlement tanpa melalui bank koresponden, yang selama ini menjadi bottleneck dan sumber biaya tinggi, terutama untuk transfer lintas batas.
+Buat pasar Indo, efek dominonya menarik. USDT dan USDC, yang banyak dipake trader Indo buat on/off ramp, bisa alamin efisiensi biaya kalo Tether dan Circle bisa akses sistem pembayaran AS langsung. Saat ini kliring stablecoin masih tergantung bank mitra yang kadang nerapin biaya tinggi buat transaksi Indo. Turunnya biaya infrastruktur di level AS bakal ngepress biaya yang dirasakan pengguna akhir di Indo.
 
-Bagi pasar Indonesia, perkembangan ini punya efek domino yang menarik. Stablecoin USDT dan USDC, yang banyak digunakan trader Indonesia untuk on/off ramp, bisa mengalami efisiensi biaya yang lebih baik jika penerbitnya (Tether dan Circle) bisa mengakses sistem pembayaran AS secara langsung. Saat ini, kliring stablecoin masih bergantung pada bank mitra yang kadang menerapkan biaya tinggi untuk transaksi Indonesia. Penurunan biaya infrastruktur di level AS bisa menekan biaya yang dirasakan pengguna akhir di Indonesia.
+Yang juga menarik, Gubernur Fed Chris Waller sebelumnya bilang Fed bakal "embrace disruption" — merangkul disrupsi fintech dan kripto. Sikap ini kontras sama era sebelumnya di mana Fed cenderung defensif. Buat Indo yang lagi nyusun regulasi crypto lebih matang (OJK ambil alih pengawasan aset digital), pendekatan AS ini bisa jadi referensi berharga.
 
-Yang juga menarik, Gubernur Fed Chris Waller sebelumnya mengatakan Fed akan "embrace disruption" alias merangkul disrupsi dari fintech dan kripto. Sikap ini kontras dengan era sebelumnya di mana Fed cenderung defensif terhadap akses non-bank. Bagi Indonesia yang juga sedang menyusun regulasi crypto lebih matang (OJK mengambil alih pengawasan aset digital), pendekatan AS ini bisa menjadi referensi berharga.
-
-Namun, ada satu risiko: Gubernur Fed Michael Barr justru dissenting atau menolak proposal ini dengan alasan kurangnya safeguards terhadap illicit finance. Jika Barr dan pendukungnya berhasil memperkuat aturan anti pencucian uang, perusahaan kripto mungkin tetap menghadapi hambatan kepatuhan yang mahal, yang pada akhirnya bisa mengurangi efisiensi biaya yang diharapkan.
+Tapi ada satu risiko: Gubernur Fed Michael Barr dissenting — nolak proposal ini karena kurangnya safeguards terhadap illicit finance. Kalo Barr dan pendukungnya berhasil perkuat aturan anti pencucian uang, perusahaan kripto mungkin tetep hadapi hambatan kepatuhan yang mahal, yang ujungnya bisa ngurangin efisiensi biaya yang diharapkan.
 
 ## Apa Selanjutnya?
 

@@ -46,15 +46,7 @@ Puell Multiple, yang mengukur pendapatan miner relatif terhadap rata-rata tahuna
 
 Berdasarkan data [CoinMarketCap](https://coinmarketcap.com/currencies/bitcoin/), Bitcoin diperdagangkan di sekitar $77.456 pada saat penulisan. Angka ini turun sekitar 38% dari all-time high $126.198 yang tercatat pada Oktober 2025. Kapitalisasi pasar Bitcoin saat ini berada di $1,55 triliun dengan volume perdagangan 24 jam mencapai $26,87 miliar.
 
-## Perspektif Pasar Indonesia
-
-Perbedaan definisi LTH antara CoinDesk (155+ hari, 16,3M BTC) dan CryptoQuant (1+ tahun, 15,04M BTC) sebenarnya tidak mengurangi validitas sinyal yang sama: akumulasi terjadi di semua kelompok holder. Kedua metrik menunjukkan tren yang sama, yaitu pemegang jangka panjang sedang memperkuat posisi mereka di tengah harga tertekan.
-
-Bagi investor Indonesia, data ini memberikan perspektif berharga. Long-term holder biasanya menjadi indikator kontrasiklikal yang andal mereka membeli saat harga turun dan menjual saat euforia. Pola ini terlihat jelas pada 2024, ketika LTH mendistribusikan hampir 2 juta BTC saat harga mendekati $126.000. Sekarang, dengan harga di $77.000, mereka kembali mengakumulasi.
-
-Namun, pasar Indonesia perlu mencermati satu risiko: tekanan jual dari miner yang masih berlangsung. Meski MPI tidak menunjukkan kepanikan, penurunan cadangan Binance Pool Miner Reserve sejak awal Mei mengindikasikan bahwa tekanan jual jangka pendek masih ada. Jika harga Bitcoin kembali menguji support $75.000, tekanan dari miner bisa mempercepat penurunan.
-
-Korelasi dengan faktor makro juga penting. Bitcoin saat ini berada di bawah tekanan dari kebijakan Federal Reserve, ketegangan geopolitik Iran, dan outflow ETF yang masih terjadi. Sinyal LTH yang bullish tidak otomatis membatalkan risiko-risiko ini. Kombinasi antara akumulasi LTH dan kehati-hatian miner menciptakan kondisi yang mirip dengan bottom pasar 2019, di mana harga bergerak sideways selama berminggu-minggu sebelum akhirnya breakout.
+Gw simplify: dua metrik LTH beda definisi (155+ hari vs 1+ tahun) tapi dua-duanya nunjukin hal yang sama — akumulasi massal. LTH biasanya kontrasiklikal: beli waktu turun, jual pas euphoria. Pola 2024 jelas: mereka distribusi hampir 2 juta BTC pas harga di $126.000. Sekarang di $77.000, mereka accumulate lagi. Tapi yang perlu diwaspadai: miner masih tekanan jual. Cadangan Binance Pool Miner Reserve turun sejak awal Mei. Kalo BTC test $75.000 lagi, tekanan miner bisa percepat penurunan. Mirip bottom 2019 — sideways berminggu-minggu sebelum breakout.
 
 ## Sumber
 

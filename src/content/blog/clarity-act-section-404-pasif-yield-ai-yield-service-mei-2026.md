@@ -50,15 +50,11 @@ Vollono, yang menghabiskan lebih dari tujuh tahun di Morgan Stanley dan menjabat
 
 Tech stack yang diperlukan untuk model ini sebenarnya sudah ada. Smart contracts, oracle, DeFi rails, dan API-based infrastructure tinggal diadaptasi ke kerangka regulasi.
 
-## Strategi untuk Pasar Indonesia
+Meskipun Clarity Act ini regulasi AS, dampaknya ke Indo jelas kerasa. Mayoritas protokol DeFi dan stablecoin yang dipake di Indo operasi di bawah yurisdiksi AS. Gw liat model yield farming pasif bakal berkurang drastis kalo mereka milih patuh. Pengguna Indo mungkin kudu beralih ke strategi yield lebih aktif: provide liquidity di DEX, farming berbasis aktivitas trading, atau manfaatin protokol di luar yurisdiksi AS.
 
-Meskipun Clarity Act adalah regulasi AS, dampaknya akan terasa hingga ke Indonesia karena mayoritas protokol DeFi dan stablecoin yang digunakan masyarakat Indonesia beroperasi di bawah yurisdiksi AS.
+Produk kayak "USDC yield account" yang mulai populer di exchange Indo juga perlu restrukturisasi. Platform lokal yang kerja sama mitra AS harus cari model komplian yang tetep ngasih imbalan ke user.
 
-Dari sisi model yield farming pasif, protokol stablecoin bisa berkurang drastis jika memilih patuh pada regulasi AS. Pengguna Indonesia mungkin perlu beralih ke strategi yield yang lebih aktif seperti providing liquidity di DEX, farming berbasis aktivitas trading, atau memanfaatkan protokol di luar yurisdiksi AS.
-
-Produk-produk seperti "USDC yield account" yang mulai populer di exchange terpusat Indonesia juga perlu direstrukturisasi. Platform lokal yang bekerja sama dengan mitra AS harus mencari model komplian yang tetap memberikan imbalan ke pengguna.
-
-Yang menarik, ada **peluang untuk inovasi** di sini. Dengan regulator AS mendorong model use-to-earn, protokol DeFi yang berbasis yield aktif seperti perpetual DEX, option vaults, dan automated market makers bisa mendapatkan keunggulan kompetitif. Indonesia, dengan basis pengguna crypto yang besar dan aktif, bisa menjadi pasar adopsi awal untuk model-model baru ini.
+Ironisnya, ada celah inovasi di sini. Regulator AS dorong model use-to-earn, artinya protokol DeFi berbasis yield aktif kayak perpetual DEX, option vaults, sama automated market makers bisa dapet keunggulan kompetitif. Indo, dengan basis user crypto yang gede dan aktif, bisa jadi pasar adopsi awal buat model-model baru ini.
 
 ## Kapan Clarity Act Mulai Berlaku?
 

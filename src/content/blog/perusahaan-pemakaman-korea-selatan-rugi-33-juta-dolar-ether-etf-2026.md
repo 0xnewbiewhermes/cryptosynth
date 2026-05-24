@@ -14,7 +14,7 @@ author: "CryptoSynth Research"
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto memiliki fluktuasi harga yang tinggi.
 </div>
 
-Analisis dari kasus Bumo Sarang ini mengungkap celah regulasi dana prepaid yang relevan untuk Indonesia, khususnya di sektor koperasi dan dana sosial yang tidak diawasi langsung OJK.
+Yang bikin kasus Bumo Sarang ini menarik bukan cuma nominalnya, tapi celah regulasi yang kebuka — dan ini sebenernya relevan juga buat Indonesia. Gw bahas di bawah.
 
 ## Perusahaan Pemakaman dan Leveraged ETF Kripto
 
@@ -34,13 +34,13 @@ Juru bicara Bumo Sarang mengklaim kerugian ini bersifat jangka pendek dan masih 
 
 Samson Mow, CEO JAN3, mengatakan kepada [crypto.news](https://crypto.news/south-korea-funeral-firm-loses-33m-on-ethereum-etf/) bahwa sekitar **$6 miliar modal ritel Korea** mengalir ke perusahaan treasury Ethereum. Ia memperingatkan banyak pembeli tidak sepenuhnya memahami risikonya.
 
-## Celah Regulasi untuk Indonesia
+## Yang Paling Krusial: Bukan Soal Kripto, tapi Soal Regulasi
 
-Masalah paling krusial dari kasus ini bukan soal kripto, tapi soal regulasi. Industri dana pemakaman di Korea Selatan berada di bawah pengawasan **Fair Trade Commission (FTC)**, bukan otoritas jasa keuangan. Padahal, perusahaan-perusahaan ini mengelola dana prepaid pelanggan dalam jumlah besar. Dana prepaid adalah uang yang dibayarkan konsumen di muka untuk layanan pemakaman di masa depan, mirip dengan dana pendidikan atau dana pensiun. Karena tidak diawasi oleh regulator keuangan, tidak ada batasan ketat soal di mana dana tersebut bisa diinvestasikan.
+Masalah paling krusial dari kasus ini bukan soal kripto, tapi soal regulasi. Industri dana pemakaman di Korea Selatan diawasi Fair Trade Commission (FTC), bukan otoritas jasa keuangan. Padahal perusahaan-perusahaan ini ngelola dana prepaid pelanggan dalam jumlah gede — dana yang dibayar konsumen di muka buat layanan pemakaman masa depan, mirip dana pendidikan atau pensiun. Karena gak diawasi regulator keuangan, gak ada batasan ketat soal di mana dana itu bisa diinvestasikan.
 
-Leveraged ETF sendiri sudah berisiko tinggi untuk investor individu yang paham produknya. Tapi ketika dana prepaid pelanggan, yang seharusnya aman, digunakan untuk membeli leveraged ETF yang di-reset setiap hari, risikonya jadi berlipat ganda. BMNU memberikan eksposur 2x harian ke BMNR, yang pergerakannya sangat tergantung pada sentimen harga Ether. Sepanjang 2026, Ether turun **28% year-to-date**, sementara saham BMNR ambles **hampir 40%** ke level $18,7.
+Leveraged ETF sendiri udah risiko tinggi buat investor individu yang paham produknya. Tapi kalo dana prepaid pelanggan — yang seharusnya aman — dipake beli leveraged ETF yang di-reset tiap hari, risikonya jadi berlipat. BMNU ngasih eksposur 2x harian ke BMNR, yang pergerakannya tergantung sentimen harga Ether. Sepanjang 2026, Ether turun **28% year-to-date**, sementara saham BMNR ambles **hampir 40%** ke $18,7.
 
-Implikasi paling penting dari kasus Bumo Sarang bukan untuk investor kripto pada umumnya, tapi untuk pengawas dana publik di Indonesia. Industri dana prepaid di Indonesia mencakup dana haji (BPKH mengelola Rp172 triliun per 2025), dana pendidikan, dan berbagai skema iuran koperasi. Regulasi OJK melalui POJK 12/2023 memang sudah mengatur batasan investasi untuk lembaga keuangan, tapi sektor usaha sosial dan koperasi tidak selalu berada di bawah pengawasan langsung OJK. Bayangkan jika dana iuran koperasi simpan pinjam dialokasikan ke leveraged ETF kripto tanpa pengawasan otoritas keuangan, skenario yang sama persis dengan kasus Bumo Sarang. Inilah risiko regulasi yang belum banyak dibahas: bukan soal kriptonya, tapi soal siapa yang mengawasi pengelola dana publik di sektor non-keuangan.
+Nah, yang paling relevan buat Indo: implikasinya bukan buat investor kripto pada umumnya, tapi buat pengawas dana publik di sini. Industri dana prepaid di Indonesia mencakup dana haji (BPKH ngelola Rp172 triliun per 2025), dana pendidikan, dan berbagai skema iuran koperasi. Regulasi OJK lewat POJK 12/2023 emang udah ngatur batasan investasi buat lembaga keuangan, tapi sektor sosial dan koperasi gak selalu di bawah pengawasan langsung OJK. Coba bayangin kalo dana iuran koperasi simpan pinjam dialokasikan ke leveraged ETF kripto tanpa pengawasan otoritas keuangan — skenario yang sama persis kayak kasus Bumo Sarang. Inilah risiko regulasi yang jarang dibahas: bukan soal kriptonya, tapi soal siapa yang ngawasin pengelola dana publik di sektor non-keuangan.
 
 Bitmine sendiri, sebagai perusahaan tempat BMNU memberikan eksposur, baru saja membeli 71.672 ETH pada hari yang sama laporan kerugian Bumo Sarang dirilis, menurut [CoinDesk](https://www.coindesk.com/markets/2026/05/20/south-korean-funeral-company-reveals-usd33m-loss-on-leveraged-ether-etf-bet). Chairman Bitmine Tom Lee menyebut level Ether di bawah $2.200 sebagai "kesempatan menarik." Ether diperdagangkan di kisaran **$2.118-2.134** pada 19-20 Mei 2026.
 

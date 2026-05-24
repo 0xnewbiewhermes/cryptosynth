@@ -34,13 +34,7 @@ Bankr memungkinkan pengguna untuk memerintahkan AI melakukan trading, transfer, 
 
 Austen Allred, pengusaha teknologi, mengatakan bahwa wallet Bankr yang terhubung dengan proyek asisten AI Kelly Claude miliknya termasuk yang dikompromikan. Peretas mencuri Ether (ETH), tetapi tidak menyentuh stash memecoin proyek tersebut. "Tidak ada bukti bahwa orang lain selain saya pernah login ke akun Bankr; mereka pasti mengakses kunci dengan cara lain," kata Allred.
 
-## Dampak untuk Pengguna Indonesia
-
-Insiden Bankr ini menjadi pengingat penting bagi pengguna kripto Indonesia yang mulai beralih ke platform trading berbasis AI. Semakin populer AI agent untuk trading, semakin besar pula permukaan serangan yang bisa dimanfaatkan peretas. Kasus ini unik karena peretas tidak mengeksploitasi kerentanan teknis di smart contract, melainkan celah di lapisan interaksi antara dua AI agent yang berbeda.
-
-Bagi pengguna Indonesia yang menggunakan platform serupa, ada risiko tambahan karena wallet yang terhubung dengan AI agent melibatkan otorisasi otomatis. Social engineering juga tidak hanya menargetkan manusia, tapi juga AI agent lewat teknik prompt injection. Ancaman ini relatif baru dan belum banyak dipahami oleh rata-rata pengguna kripto.
-
-Bankr merekomendasikan pengguna yang wallet-nya terkena dampak untuk segera membuat wallet baru, generate seed phrase baru di perangkat bersih, pindahkan sisa aset ke alamat baru, dan revoke semua approval yang sudah diberikan. "Peretas sering menggunakan approval yang sudah ada untuk menguras dana. Periksa perangkat Anda, scan komputer dan ponsel untuk malware atau ekstensi browser mencurigakan," tambah Bankr.
+Gw liat pola yang sama udah mulai terjadi di platform AI trading yang dipake trader Indo. Masalahnya bukan di smart contract — celahnya ada di layer interaksi antara AI agent yang berbeda. Prompt injection, teknik social engineering yang nargetin Grok atau AI bot lain, itu frontier keamanan baru yang rata-rata trader Indo belum paham. Bankr recommend wallet baru, seed phrase baru di device bersih, revoke semua approval. Tapi yang lebih penting: kalo lo pake platform AI trading, pastiin lo tau persis permission apa yang lo kasih ke bot. Approval gak terbatas (unlimited) itu red flag.
 
 **Sumber:**
 

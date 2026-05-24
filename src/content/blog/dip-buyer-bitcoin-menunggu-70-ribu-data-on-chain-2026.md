@@ -46,21 +46,21 @@ Menurut K33, posisi defensif trader membuat pasar lebih stabil meskipun harga tu
 
 Dua pandangan ini sebenarnya saling melengkapi. Cointelegraph menyoroti tekanan jual jangka pendek, sementara K33 memberikan perspektif makro bahwa risikonya lebih terkendali.
 
-### Implikasi Buat Trader Indonesia
+### Catatan buat trader Indo
 
-Bagi trader Indonesia, momen ini punya arti khusus. Zona $68.000-$70.000 dalam rupiah setara dengan kisaran Rp1,05 miliar hingga Rp1,08 miliar (asumsi kurs Rp15.500). Level psikologis ini penting karena banyak trader ritel Indonesia yang memasang order beli di kisaran tersebut.
+Zona $68.000-$70.000 kalo dikonversi ke rupiah (kurs Rp15.500) jadi sekitar Rp1,05 miliar sampai Rp1,08 miliar. Level psikologis yang penting karena banyak trader ritel Indo yang udah pasang order beli di kisaran situ.
 
-Strategi yang lebih bijak: jangan langsung entry di harga saat ini ($76.595) karena risiko masih tinggi. Tunggu konfirmasi dari data volume dan bid-ask ratio. Jika rasio berbalik positif di bawah $73.000, itu sinyal awal bahwa tekanan jual mulai mereda.
+Strategi yang lebih aman: jangan entry di harga sekarang ($76.595) — risikonya masih tinggi. Tunggu konfirmasi dari volume dan bid-ask ratio. Kalo rasionya balik positif di bawah $73.000, itu sinyal awal tekanan jual mulai reda.
 
-Trader juga perlu waspada dengan potensi stop-loss hunting di bawah $70.000. Likuidasi besar di zona itu bisa menciptakan efek domino yang menarik harga lebih rendah sebelum akhirnya rebound. Ini pola yang sudah beberapa kali terjadi di 2026.
+Yang perlu diwaspadai juga stop-loss hunting di bawah $70.000. Likuidasi gede di zona itu bisa bikin efek domino yang narik harga lebih rendah dulu sebelum akhirnya rebound. Pola ini udah terjadi beberapa kali di 2026.
 
-## Ringkasan
+## Intinya
 
-Bitcoin saat ini berada di persimpangan. Data menunjukkan tekanan jual masih dominan dengan bid-ask ratio negatif, tapi ada tembok permintaan besar di $68.000-$70.000. Lebih dari $3,4 miliar long position terancam di $74.700.
+Bitcoin lagi di persimpangan. Tekanan jual masih dominan (bid-ask ratio negatif), tapi ada tembok permintaan gede di $68.000-$70.000. Lebih dari $3,4 miliar long position terancam di $74.700.
 
-K33 menawarkan perspektif menenangkan bahwa pasar bear ini berbeda karena trader sudah defensif. Namun dalam jangka pendek, risiko koreksi ke $70.000 atau lebih rendah tetap nyata.
+K33 ngasih perspektif yang agak menenangkan: pasar bear ini beda karena trader udah defensif dari awal. Tapi dalam jangka pendek, risiko koreksi ke $70.000 atau lebih rendah tetep nyata.
 
-Yang perlu dilakukan sekarang: pantau level $73.000 sebagai indikator awal. Jika BTC bertahan di atasnya dalam 2-3 hari ke depan, tekanan jual mungkin mulai mereda. Jika tembus, siapkan strategi untuk entry di zona $68.000-$70.000.
+Yang gw pantau sekarang: level $73.000. Kalo BTC bertahan di atasnya 2-3 hari ke depan, tekanan jual mungkin mulai mereda. Kalo tembus, siap-siap entry di zona $68.000-$70.000.
 
 ## Sumber
 

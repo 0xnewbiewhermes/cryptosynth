@@ -52,15 +52,11 @@ Binance sudah lebih dulu masuk ke DeFi melalui BNB Chain. Coinbase perlu memperk
 **4. Stablecoin sebagai Jembatan**
 USDC adalah stablecoin utama yang digunakan di Hyperliquid. Dengan mengelola likuiditas USDC, Coinbase bisa memperkuat ekosistem stablecoin mereka.
 
-## Dampak ke Trader Indonesia
+Buat trader Indo, kerjasama ini dampaknya lumayan konkret.
 
-Bagi trader Indonesia, kerjasama ini membuka beberapa peluang:
+Likuiditas lebih dalam — Coinbase manage USDC langsung di Hyperliquid, spread bakal makin ketat. Akses juga lebih gampang: Coinbase bisa jadi jembatan buat masuk ekosistem Hyperliquid. Terus ada peluang yield: provide liquidity USDC di Hyperliquid kasih return yang lumayan.
 
-- **Likuiditas lebih dalam**: Dengan Coinbase menyediakan likuiditas, spread di Hyperliquid akan semakin ketat
-- **Akses lebih mudah**: Coinbase bisa menjadi jembatan untuk masuk ke ekosistem Hyperliquid
-- **Peluang yield**: Menyediakan likuiditas USDC di Hyperliquid bisa memberikan yield menarik
-
-Namun, perpetual trading dengan leverage tinggi sangat berisiko. Selalu gunakan risk management yang tepat.
+Tapi ya.. perpetual trading dengan leverage tinggi tetaplah judi. Risk management jangan sampe kendor.
 
 ## Data Harga HYPE (15 Mei 2026)
 

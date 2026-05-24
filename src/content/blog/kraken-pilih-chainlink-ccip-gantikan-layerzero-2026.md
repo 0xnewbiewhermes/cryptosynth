@@ -47,13 +47,9 @@ Pergerakan massal ini menandai pergeseran signifikan dalam lanskap infrastruktur
 
 *Sumber: Cointelegraph, 14 Mei 2026*
 
-## Apa Artinya untuk Ekosistem DeFi Indonesia?
+Keputusan Kraken ini kasih sinyal jelas buat komunitas crypto Indo:
 
-Keputusan Kraken ini memberikan beberapa sinyal penting bagi komunitas crypto Indonesia:
-
-- **Keamanan bridge jadi prioritas utama.** Pengguna DeFi Indonesia yang menggunakan wrapped asset (wBTC, kBTC, dll.) perlu memperhatikan infrastruktur bridge yang digunakan platform pilihan mereka.
-- **Chainlink CCIP menjadi standar industri.** Dengan semakin banyak protokol besar bermigrasi ke CCIP, protokol ini mulai menjadi pilihan default untuk keamanan cross-chain.
-- **Risiko bridge masih nyata.** Exploit Kelp DAO senilai $292 juta menjadi pengingat bahwa dana di bridge cross-chain selalu memiliki risiko tambahan dibandingkan aset native.
+Keamanan bridge jadi prioritas utama. Buat lo yang pake wrapped asset (wBTC, kBTC, dll.), perhatiin infrastruktur bridge yang dipake platform pilihan lo. Chainlink CCIP mulai jadi standar industri — makin banyak protokol besar migrasi ke CCIP. Tapi exploit Kelp DAO $292 juta ngingetin: dana di bridge cross-chain selalu punya risiko tambahan dibanding aset native.
 
 ## Sumber
 

@@ -42,11 +42,7 @@ Paradoks yang menarik terjadi di pasar fixed-income. Ketika imbal hasil obligasi
 
 Bagi pasar crypto, pola ini justru bisa menjadi katalis positif dalam jangka menengah. Modal yang keluar dari pasar obligasi mencari rumah baru, dan Bitcoin sebagai aset dengan likuiditas tinggi dan korelasi rendah terhadap obligasi pemerintah menjadi salah satu tujuan potensial. Ini berbeda dengan narasi umum yang selalu mengaitkan kenaikan imbal hasil obligasi dengan pelemahan crypto.
 
-## Dampak Khusus untuk Trader Indonesia
-
-Bagi trader crypto Indonesia, situasi saat ini menghadirkan dilema yang unik. Di satu sisi, pelemahan rupiah terhadap dolar AS yang biasanya menyertai ketidakpastian global membuat harga BTC dalam denominasi rupiah lebih tinggi secara relatif. Namun sementara itu, volume perdagangan di exchange lokal cenderung menurun saat ketidakpastian makro tinggi, yang bisa memperlebar spread harga.
-
-Kenaikan harga minyak Brent ke $106 per barel juga berdampak langsung ke Indonesia sebagai importir minyak: subsidi energi bisa membengkak, yang berpotensi mempengaruhi alokasi belanja pemerintah dan daya beli masyarakat. Trader Indonesia perlu mencermati data inflasi Indonesia dan kebijakan Bank Indonesia dalam beberapa pekan ke depan, karena keputusan suku bunga domestik akan mempengaruhi minat investor ritel terhadap aset crypto.
+Buat trader Indo, dilemanya: rupiah lagi lemah. Jadi harga BTC dalam IDR turunnya lebih tajam dari USD — tambahan loss 2-3% buat yang beli di $80.000. Tapi di sisi lain, harga minyak Brent di $106 per barel langsung kena ke Indonesia sebagai importir minyak. Subsidi energi bisa bengkak, alokasi belanja pemerintah bergeser. Keputusan BI soal suku bunga dalam beberapa pekan ke depan bakal nentuin minat investor ritel ke crypto. Funding rate masih negatif, spot premium tipis — ini sinyal pasar belum percaya diri.
 
 ## Level Kunci yang Perlu Dipantau
 

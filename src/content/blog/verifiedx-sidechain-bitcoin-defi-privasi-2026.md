@@ -45,11 +45,7 @@ Minat terhadap privasi kembali meningkat, terlihat dari performa token seperti Z
 
 “Jika saya institusi, saya tidak berusaha menyembunyikan dana. Saya ingin bisa memindahkan aset secara private ketika melakukan sesuatu yang strategis dengan dana saya,” jelas Pollak.
 
-## Implikasi untuk Pasar Indonesia
-
-Kehadiran VerifiedX membuka peluang menarik bagi holder Bitcoin di Indonesia. Selama ini, partisipasi dalam DeFi Bitcoin sering terhambat oleh risiko bridge yang rawan hack dan ketergantungan pada wrapped asset. Dengan pendekatan native dan self-custodial, trader lokal bisa mengeksplorasi yield generation atau utility BTC tanpa harus memindahkan aset ke chain lain yang berisiko tinggi.
-
-Selain itu, fitur privasi opsional memberikan keuntungan kompetitif bagi investor institusional atau whale yang ingin menjaga strategi perdagangan tetap rahasia. Di tengah regulasi yang semakin matang di Indonesia, proyek seperti ini bisa menjadi jembatan menuju adopsi DeFi Bitcoin yang lebih luas dan aman.
+VerifiedX buka peluang menarik buat holder BTC di Indo. Selama ini partisipasi di DeFi Bitcoin sering terhambat risiko bridge yang rawan hack dan ketergantungan wrapped asset. Dengan pendekatan native dan self-custodial, trader lokal bisa ngeksplor yield generation atau utility BTC tanpa mindahin aset ke chain lain yang berisiko tinggi. Fitur privasi opsional juga kasih keuntungan kompetitif buat whale atau investor institusional yang pengen jaga strategi dagang tetap rahasia. Di tengah regulasi yang makin matang di Indo, proyek kayak gini bisa jadi jembatan menuju adopsi DeFi Bitcoin yang lebih luas.
 
 ## Kesimpulan dan Langkah Selanjutnya
 

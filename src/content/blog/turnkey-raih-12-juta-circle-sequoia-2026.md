@@ -30,13 +30,7 @@ Produk utama yang akan didanai dari putaran ini adalah "Turnkey Verifiable Cloud
 
 Teknologi ini sangat penting untuk ekosistem DeFi dan institusi yang membutuhkan tingkat keamanan tinggi. Dengan Verifiable Cloud, Turnkey menawarkan solusi yang menggabungkan keamanan hardware wallet dengan fleksibilitas cloud computing.
 
-## Implikasi untuk Ekosistem Crypto Indonesia
-
-Bagi ekosistem crypto Indonesia, perkembangan ini punya beberapa implikasi penting. Pertama, semakin banyaknya startup infrastruktur yang mendapat pendanaan besar menunjukkan bahwa industri crypto bukan hanya soal trading dan spekulasi, tapi juga tentang membangun fondasi teknologi yang kuat.
-
-Kedua, teknologi seperti Verifiable Cloud bisa menjadi dasar bagi exchange dan wallet lokal untuk meningkatkan keamanan mereka. Dengan adopsi crypto yang terus tumbuh di Indonesia, kebutuhan akan infrastruktur keamanan yang robust semakin mendesak.
-
-Ketiga, keterlibatan Circle Ventures sangat menarik karena USDC adalah stablecoin yang banyak digunakan di pasar Asia Tenggara. Ini bisa menjadi sinyal bahwa Circle semakin serius memperluas ekosistemnya di kawasan ini.
+Gw liat pendanaan Turnkey jadi sinyal buat ekosistem crypto Indo. Pertama, startup infrastruktur dapet pendanaan gede nunjukin industri crypto bukan cuma soal trading dan spekulasi — fondasi teknologi juga dibangun. Kedua, teknologi kayak Verifiable Cloud bisa jadi dasar buat exchange dan wallet lokal ningkatin keamanan. Dengan adopsi crypto yang terus tumbuh di Indo, kebutuhan infrastruktur keamanan yang robust makin mendesak. Ketiga, Circle Ventures terlibat — ini menarik karena USDC banyak dipake di Asia Tenggara. Bisa jadi sinyal Circle makin serius ngembangin ekosistem di kawasan ini.
 
 ## Tren Pendanaan Infrastruktur Crypto 2026
 

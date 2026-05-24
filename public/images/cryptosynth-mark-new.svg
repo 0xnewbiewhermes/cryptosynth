@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60" width="60" height="60">
+  <defs>
+    <linearGradient id="sg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E40AF"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+    <linearGradient id="sgl" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#60A5FA"/>
+    </linearGradient>
+  </defs>
+  <!-- Outer hexagon subtle -->
+  <polygon points="30,2 54,12 54,38 30,48 6,38 6,12" fill="none" stroke="url(#sg)" stroke-width="1.8" opacity="0.25"/>
+  <!-- Diamond core -->
+  <polygon points="30,6 50,24 30,42 10,24" fill="url(#sg)" opacity="0.95"/>
+  <!-- Inner facet -->
+  <polygon points="30,12 42,24 30,36 18,24" fill="url(#sgl)" opacity="0.45"/>
+  <!-- Sparkle -->
+  <circle cx="23" cy="18" r="1.5" fill="#FFF" opacity="0.8"/>
+  <circle cx="37" cy="18" r="1" fill="#FFF" opacity="0.5"/>
+</svg>

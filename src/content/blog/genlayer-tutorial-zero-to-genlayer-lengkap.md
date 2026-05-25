@@ -858,6 +858,4 @@ GenLayer buka era baru blockchain: **Trustless Adjudication**. Lo sekarang udah 
 
 ---
 
-<div class="tldr-box">
-<strong>Ringkasan Final:</strong> Tutorial ini ngeliput semua perjalanan dari nol sampe jadi GenLayer Builder. Dari ngerti Optimistic Democracy & Equivalence Principle, nulis Intelligent Contract Python buat dispute resolution, deploy di Studio, bikin frontend React pake genlayer-js, sampe deploy ke Bradbury Testnet. GenLayer adalah masa depan trustless adjudication, dan lo udah jadi bagian dari ecosystem ini.
-</div>
+**Ringkasan Final:** Tutorial ini ngeliput semua perjalanan dari nol sampe jadi GenLayer Builder. Dari ngerti Optimistic Democracy & Equivalence Principle, nulis Intelligent Contract Python buat dispute resolution, deploy di Studio, bikin frontend React pake genlayer-js, sampe deploy ke Bradbury Testnet. GenLayer adalah masa depan trustless adjudication, dan lo udah jadi bagian dari ecosystem ini.

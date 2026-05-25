@@ -19,31 +19,29 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
     <div class="container">
     <div class="articles-grid">
       {posts.map((post) => (
-        <article class="article-card">
-          <div class="card-image">
-            <picture>
-              <source srcset={`/images/hero/${post.id}.webp`} type="image/webp" />
-              <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
-            </picture>
-          </div>
-          <div class="card-content">
-            <div class="card-tags">
-              <span class="card-category">{post.data.category || 'Funding'}</span>
-              {(post.data.tags || []).slice(0, 2).map((tag) => (
-                <span class="card-tag">#{tag}</span>
-              ))}
+        <article class="card-v2">
+            <div class="card-v2-body">
+              <div class="card-v2-top">
+                <a href={`/category/${post.data.category?.toLowerCase() || 'funding'}`} class="card-v2-cat">
+                  {post.data.category || 'Funding'}
+                </a>
+                <div class="card-v2-tags">
+                  {(post.data.tags || []).slice(0, 2).map((tag) => (
+                    <span class="card-v2-tag">#{tag}</span>
+                  ))}
+                </div>
+              </div>
+              <h3 class="card-v2-title">
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+              </h3>
+              <p class="card-v2-excerpt">{post.data.excerpt || post.data.description}</p>
+              <div class="card-v2-meta">
+                <span class="card-v2-relative" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+                <span class="card-v2-sep">·</span>
+                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
+              </div>
             </div>
-            <h3 class="card-title">
-              <a href={`/blog/${post.id}`}>{post.data.title}</a>
-            </h3>
-            <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
-            <div class="card-meta">
-              <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-              <span class="card-date-sep">·</span>
-              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
-            </div>
-          </div>
-        </article>
+          </article>
       ))}
     </div>
     {posts.length === 0 && (

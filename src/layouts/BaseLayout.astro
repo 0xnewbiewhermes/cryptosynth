@@ -43,7 +43,6 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
     <header class="header">
       <div class="header-inner">
         <a href="/" class="logo">
-          <img src="/images/cryptosynth-mark.svg" alt="CryptoSynth" class="logo-icon" />
           <span class="logo-text">Crypto<span class="logo-accent">Synth</span></span>
         </a>
         <nav class="nav" id="mainNav">
@@ -57,8 +56,9 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           <a href="/about">Tentang</a>
         </nav>
         <div class="header-actions">
-          <button type="button" class="search-toggle" id="searchToggle" aria-label="Cari artikel">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <button type="button" class="search-pill" id="searchToggle" aria-label="Cari artikel">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            Cari artikel
           </button>
           <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
             <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
@@ -179,47 +179,35 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
       <div class="footer-inner">
         <div class="footer-brand">
           <a href="/" class="logo footer-logo">
-            <img src="/images/cryptosynth-mark.svg" alt="" class="logo-icon" />
             <span class="logo-text">Crypto<span class="logo-accent">Synth</span></span>
           </a>
           <p>Portal berita web3 Indonesia. Ringkasan harian dari sumber kredibel global untuk pembaca Indonesia.</p>
-          <div class="footer-social">
-            <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener" aria-label="X (Twitter)">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            </a>
-            <a href="mailto:hello@cryptosynth.id" aria-label="Email">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-            </a>
-            <a href="/rss.xml" aria-label="RSS Feed">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor"><circle cx="4" cy="20" r="2"/><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/></svg>
-            </a>
-          </div>
         </div>
-        <div class="footer-links">
-          <div class="footer-col">
-            <h4>Konten</h4>
-            <a href="/berita">Berita</a>
-            <a href="/airdrop">Airdrop</a>
-            <a href="/category/funding">Funding</a>
-            <a href="/category/defi">DeFi</a>
-            <a href="/category/tutorial">Tutorial</a>
-            <a href="/tools">Tools</a>
-          </div>
-          <div class="footer-col">
-            <h4>Perusahaan</h4>
-            <a href="/about">Tentang</a>
-            <a href="/disclaimer">Disclaimer</a>
-            <a href="/privacy">Privacy</a>
-          </div>
+        <div class="footer-col">
+          <h4>Konten</h4>
+          <a href="/berita">Berita</a>
+          <a href="/airdrop">Airdrop</a>
+          <a href="/category/funding">Funding</a>
+          <a href="/category/defi">DeFi</a>
+          <a href="/category/tutorial">Tutorial</a>
+          <a href="/tools">Tools</a>
+        </div>
+        <div class="footer-col">
+          <h4>Perusahaan</h4>
+          <a href="/about">Tentang</a>
+          <a href="/disclaimer">Disclaimer</a>
+          <a href="/privacy">Privacy</a>
+        </div>
+        <div class="footer-col">
+          <h4>Ikuti</h4>
+          <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener">X (Twitter)</a>
+          <a href="mailto:hello@cryptosynth.id">Email</a>
+          <a href="/rss.xml">RSS Feed</a>
         </div>
       </div>
       <div class="footer-bottom">
-        <div class="footer-trust">
-          <span id="footerUpdateWrap">Update terakhir: <span id="footerUpdateDate"></span></span>
-          <span class="footer-dot">·</span>
-          <span>Built with Astro + Vercel</span>
-        </div>
-        <p>&copy; 2026 CryptoSynth.id — Bukan saran keuangan.</p>
+        <span>&copy; 2026 CryptoSynth</span>
+        <span>Update terakhir: <span id="footerUpdateDate"></span></span>
       </div>
     </footer>
 

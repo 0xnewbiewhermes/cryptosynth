@@ -7,7 +7,7 @@ const posts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
 
-// Trending: most recent 5 for sidebar
+// Trending: most recent 5
 const trending = posts.slice(0, 5);
 
 // Stats
@@ -16,54 +16,47 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
 ---
 
 <BaseLayout title="CryptoSynth.id - Ringkasan Berita Web3 Setiap Hari" description="CryptoSynth.id - Portal berita Web3 Indonesia. Ringkasan harian berita crypto, airdrop, DeFi, dan analisis blockchain dari sumber global.">
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="container hero-layout">
-      <!-- Hero Main -->
-      <div class="hero-main">
-        <div class="hero-badge">
-          <span class="hero-badge-dot"></span>
-          Updated daily dari sumber kredibel global
-        </div>
-        <h1>Ringkasan Berita Web3 <br/>Terbaru Setiap Hari</h1>
-        <p class="hero-subtitle">TL;DR dari CoinDesk, The Block, dan sumber global lainnya - diringkas khusus untuk pembaca Indonesia.</p>
-        <div class="hero-buttons">
-          <a href="/berita" class="btn btn-primary">Baca Berita →</a>
-          <a href="/about" class="btn btn-pill">Tentang Kami</a>
-        </div>
-        <!-- Quick Stats -->
-        <div class="hero-stats">
-          <div class="hero-stat">
-            <span class="hero-stat-value">{totalArticles}+</span>
-            <span class="hero-stat-label">Artikel</span>
-          </div>
-          <div class="hero-stat">
-            <span class="hero-stat-value">{categories.length}</span>
-            <span class="hero-stat-label">Kategori</span>
-          </div>
-          <div class="hero-stat">
-            <span class="hero-stat-value">Harian</span>
-            <span class="hero-stat-label">Update</span>
-          </div>
-        </div>
+  <!-- Hero -->
+  <section class="hero-v2">
+    <div class="container hero-v2-layout">
+      <div class="hero-v2-text">
+        <div class="hero-v2-badge">✦ Updated daily</div>
+        <h1>Ringkasan Berita Web3 Terbaru Setiap Hari</h1>
+        <p class="hero-v2-subtitle">TL;DR dari CoinDesk, The Block, dan sumber global lainnya — diringkas khusus untuk pembaca Indonesia.</p>
       </div>
-
-      <!-- Trending Sidebar -->
-      <div class="hero-trending">
-        <h3 class="hero-trending-title">Trending Hari Ini</h3>
-        <div class="hero-trending-list">
-          {trending.map((post, i) => (
-            <a href={`/blog/${post.id}`} class="hero-trending-item">
-              <h4 class="hero-trending-name">{post.data.title}</h4>
-            </a>
-          ))}
+      <div class="hero-v2-stats">
+        <div class="hero-v2-stat">
+          <span class="hero-v2-stat-num">{totalArticles}+</span>
+          <span class="hero-v2-stat-label">Artikel</span>
+        </div>
+        <div class="hero-v2-stat">
+          <span class="hero-v2-stat-num">{categories.length}</span>
+          <span class="hero-v2-stat-label">Kategori</span>
+        </div>
+        <div class="hero-v2-stat">
+          <span class="hero-v2-stat-num">Harian</span>
+          <span class="hero-v2-stat-label">Update</span>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Quick Tools (removed) -->
-  <!-- Articles Section -->
+  <!-- Trending -->
+  <section class="trending-v2">
+    <div class="container">
+      <div class="trending-v2-label">🔥 Trending Hari Ini</div>
+      <div class="trending-v2-list">
+        {trending.map((post, i) => (
+          <a href={`/blog/${post.id}`} class="trending-v2-item">
+            <span class="trending-v2-rank">#{i + 1}</span>
+            <span class="trending-v2-title">{post.data.title}</span>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Articles -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -72,23 +65,25 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
       </div>
       <div class="articles-grid" id="articlesGrid">
         {posts.map((post, index) => (
-          <article class:list={['article-card', index >= 9 && 'card-hidden']}>
-            <div class="card-content">
-              <div class="card-tags">
-                <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">
+          <article class:list={['card-v2', index >= 9 && 'card-v2-hidden']}>
+            <div class="card-v2-body">
+              <div class="card-v2-top">
+                <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-v2-cat">
                   {post.data.category || 'Berita'}
                 </a>
-                {(post.data.tags || []).slice(0, 2).map((tag) => (
-                  <span class="card-tag">#{tag}</span>
-                ))}
+                <div class="card-v2-tags">
+                  {(post.data.tags || []).slice(0, 2).map((tag) => (
+                    <span class="card-v2-tag">#{tag}</span>
+                  ))}
+                </div>
               </div>
-              <h3 class="card-title">
+              <h3 class="card-v2-title">
                 <a href={`/blog/${post.id}`}>{post.data.title}</a>
               </h3>
-              <p class="card-excerpt">{post.data.excerpt || post.data.description}</p>
-              <div class="card-meta">
-                <span class="card-relative-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-                <span class="card-date-sep">·</span>
+              <p class="card-v2-excerpt">{post.data.excerpt || post.data.description}</p>
+              <div class="card-v2-meta">
+                <span class="card-v2-relative" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+                <span class="card-v2-sep">·</span>
                 <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
               </div>
             </div>
@@ -113,6 +108,282 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
   </section>
 </BaseLayout>
 
+<style>
+  /* ===== HERO V2 ===== */
+  .hero-v2 {
+    padding: 2rem 0 1.5rem;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-elevated);
+  }
+
+  .hero-v2-layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 3rem;
+  }
+
+  .hero-v2-badge {
+    font-size: 0.85rem;
+    color: var(--primary);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    letter-spacing: 0.02em;
+  }
+
+  .hero-v2-text h1 {
+    font-family: var(--font-display);
+    font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.12;
+    color: var(--text-primary);
+    margin-bottom: 0.65rem;
+    max-width: 520px;
+  }
+
+  .hero-v2-subtitle {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+    max-width: 420px;
+  }
+
+  .hero-v2-stats {
+    display: flex;
+    gap: 2rem;
+    flex-shrink: 0;
+  }
+
+  .hero-v2-stat {
+    text-align: center;
+  }
+
+  .hero-v2-stat-num {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1;
+    display: block;
+    margin-bottom: 0.15rem;
+  }
+
+  .hero-v2-stat-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  @media (max-width: 768px) {
+    .hero-v2-layout {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1.5rem;
+    }
+    .hero-v2-text h1 {
+      max-width: 100%;
+    }
+    .hero-v2-stats {
+      gap: 1.5rem;
+    }
+    .hero-v2-stat-num {
+      font-size: 1.4rem;
+    }
+  }
+
+  /* ===== TRENDING V2 ===== */
+  .trending-v2 {
+    padding: 1.25rem 0;
+    background: var(--bg-elevated);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .trending-v2-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+  }
+
+  .trending-v2-list {
+    display: flex;
+    gap: 0.65rem;
+    overflow-x: auto;
+    padding-bottom: 0.25rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .trending-v2-list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .trending-v2-item {
+    flex-shrink: 0;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 0.6rem 1rem;
+    max-width: 240px;
+    text-decoration: none;
+    transition: box-shadow 0.15s, border-color 0.15s;
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .trending-v2-item:hover {
+    box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+    border-color: var(--text-muted);
+  }
+
+  .trending-v2-rank {
+    font-size: 0.65rem;
+    font-weight: 600;
+    color: var(--primary);
+    letter-spacing: 0.03em;
+  }
+
+  .trending-v2-title {
+    font-size: 0.78rem;
+    line-height: 1.35;
+    color: var(--text-primary);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  @media (max-width: 768px) {
+    .trending-v2-item {
+      max-width: 200px;
+      padding: 0.5rem 0.8rem;
+    }
+    .trending-v2-title {
+      font-size: 0.73rem;
+    }
+  }
+
+  /* ===== CARD V2 — No Images ===== */
+  .card-v2 {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    transition: box-shadow 0.2s, border-color 0.2s;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-v2:hover {
+    box-shadow: 0 4px 16px rgba(28, 24, 18, 0.05);
+    border-color: var(--text-muted);
+  }
+
+  .card-v2-body {
+    padding: 1.15rem 1.2rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .card-v2-top {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .card-v2-cat {
+    display: inline-block;
+    font-size: 0.68rem;
+    padding: 0.2rem 0.55rem;
+    border-radius: 999px;
+    background: rgba(30, 64, 175, 0.08);
+    color: var(--primary);
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 0.02em;
+    transition: background 0.15s;
+  }
+
+  .card-v2-cat:hover {
+    opacity: 1;
+    background: rgba(30, 64, 175, 0.14);
+  }
+
+  .card-v2-tags {
+    display: flex;
+    gap: 0.35rem;
+    flex-wrap: wrap;
+  }
+
+  .card-v2-tag {
+    font-size: 0.65rem;
+    color: var(--text-muted);
+  }
+
+  .card-v2-title {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.3;
+    margin: 0;
+  }
+
+  .card-v2-title a {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.15s;
+  }
+
+  .card-v2-title a:hover {
+    opacity: 1;
+    color: var(--primary);
+  }
+
+  .card-v2-excerpt {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.45;
+    flex: 1;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .card-v2-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-size: 0.7rem;
+    color: var(--text-muted);
+    margin-top: auto;
+    padding-top: 0.45rem;
+  }
+
+  .card-v2-relative {
+    color: var(--text-muted);
+  }
+
+  .card-v2-sep {
+    color: var(--border);
+  }
+
+  .card-v2-hidden {
+    display: none;
+  }
+
+  /* Override section-header for cleaner spacing */
+  .section-header {
+    margin-bottom: 1.25rem;
+  }
+</style>
+
 <script>
   (function() {
     var grid = document.getElementById('articlesGrid');
@@ -120,19 +391,19 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
     var count = document.getElementById('loadMoreCount');
     if (!grid || !btn) return;
 
-    var items = grid.querySelectorAll('.card-hidden');
+    var items = grid.querySelectorAll('.card-v2-hidden');
     var batchSize = 6;
     var shownCount = 9;
 
     function showBatch() {
-      var hidden = grid.querySelectorAll('.card-hidden');
+      var hidden = grid.querySelectorAll('.card-v2-hidden');
       var toShow = Array.from(hidden).slice(0, batchSize);
-      toShow.forEach(function(el) { el.classList.remove('card-hidden'); });
+      toShow.forEach(function(el) { el.classList.remove('card-v2-hidden'); });
       shownCount += toShow.length;
 
       if (count) count.textContent = 'Menampilkan ' + shownCount + ' dari ' + items.length + ' artikel';
 
-      if (grid.querySelectorAll('.card-hidden').length === 0) {
+      if (grid.querySelectorAll('.card-v2-hidden').length === 0) {
         btn.style.display = 'none';
         if (count) count.textContent = 'Semua ' + items.length + ' artikel ditampilkan';
       }

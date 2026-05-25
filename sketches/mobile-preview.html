@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=375">
+<title>CryptoSynth Mobile Preview</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: #e0dcd5; display: flex; justify-content: center; padding: 20px; }
+  .phone-frame {
+    width: 375px;
+    background: #F7F5F0;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+    border: 3px solid #1C1812;
+  }
+  .phone-notch {
+    height: 30px;
+    background: #1C1812;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .phone-notch-bar {
+    width: 120px;
+    height: 6px;
+    background: #2a2620;
+    border-radius: 3px;
+  }
+  .phone-content {
+    height: 80vh;
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+  .phone-content::-webkit-scrollbar { width: 3px; }
+  .phone-content::-webkit-scrollbar-thumb { background: #ccc; border-radius: 2px; }
+  iframe {
+    width: 375px;
+    height: 80vh;
+    border: none;
+    display: block;
+  }
+  .label {
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+    color: #6b6560;
+    padding: 12px 0 4px;
+  }
+</style>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div>
+    <div class="label">📱 CryptoSynth Mobile — 375px</div>
+    <div class="phone-frame">
+      <div class="phone-notch"><div class="phone-notch-bar"></div></div>
+      <iframe id="preview" src="http://localhost:4321" loading="lazy"></iframe>
+    </div>
+  </div>
+</body>
+</html>

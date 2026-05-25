@@ -264,6 +264,10 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           var now = new Date();
           var d = new Date(dateStr);
           var diffMs = now.getTime() - d.getTime();
+          // Jika artikel di masa depan (diff negatif), tampilkan tanggal saja
+          if (diffMs < 0) {
+            return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', timeZone: 'Asia/Jakarta' });
+          }
           var diffSec = Math.floor(diffMs / 1000);
           var diffMin = Math.floor(diffSec / 60);
           var diffHour = Math.floor(diffMin / 60);

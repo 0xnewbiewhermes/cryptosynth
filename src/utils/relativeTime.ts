@@ -2,6 +2,19 @@ export function relativeTime(date: Date | string): string {
   const now = new Date();
   const d = typeof date === 'string' ? new Date(date) : date;
   const diffMs = now.getTime() - d.getTime();
+
+  // Jika artikel di masa depan (diff negatif), tampilkan tanggal saja
+  if (diffMs < 0) {
+    return d.toLocaleDateString('id-ID', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric',
+      hour: '2-digit',
+      minute: '2-digit',
+      timeZone: 'Asia/Jakarta',
+    });
+  }
+
   const diffSec = Math.floor(diffMs / 1000);
   const diffMin = Math.floor(diffSec / 60);
   const diffHour = Math.floor(diffMin / 60);

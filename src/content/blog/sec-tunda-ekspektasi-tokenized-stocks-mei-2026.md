@@ -2,7 +2,7 @@
 title: "SEC Tunda Rencana Inovasi Exemption Tokenized Stocks, Pasar RWA Terkoreksi 20%"
 description: "SEC menunda inovasi exemption untuk tokenized stocks setelah masukan dari bursa saham tradisional. BTC-ETH terkoreksi, ONDO ambles 20%. CEO Securitize: 'Better delay it than get it wrong.'"
 excerpt: "SEC tunda rencana inovasi exemption tokenized stocks setelah kekhawatiran fragmentasi pasar. ONDO turun 20%, BTC-ETH terkoreksi. Industri dukung keputusan: lebih baik tunda daripada salah."
-pubDate: 2026-05-25T16:30:00+07:00
+pubDate: 2026-05-25T13:36:00+07:00
 category: "Berita"
 tags: ["SEC", "tokenized stocks", "RWA", "tokenisasi", "regulasi", "ONDO", "inovasi exemption", "pasar kripto"]
 author: "CryptoSynth Research"

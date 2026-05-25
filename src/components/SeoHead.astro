@@ -28,7 +28,9 @@ const {
   faq = []
 } = Astro.props;
 
-const canonicalURL = canonical || Astro.url.href;
+// Normalize canonical: always use base site URL, strip www, trailing slash, and query params
+const rawPath = Astro.url.pathname.replace(/\/+$/, '') || '/';
+const canonicalURL = canonical || new URL(rawPath, Astro.site).href;
 const fullImageURL = new URL(image, Astro.site).href;
 
 // Build keywords from tags (specific per article) or category (for category pages)

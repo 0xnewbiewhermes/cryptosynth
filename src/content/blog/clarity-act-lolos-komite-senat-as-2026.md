@@ -15,6 +15,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Senate Banking Committee AS resmi meloloskan CLARITY Act dengan voting 15-9. Dua senator Demokrat (Gallego dan Alsobrooks) membelot mendukung RUU ini bersama seluruh anggota Republik. Bitcoin merespons positif dan sempat menyentuh $82.000.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## CLARITY Act Lolos: Tonggak Baru Regulasi Crypto AS
 

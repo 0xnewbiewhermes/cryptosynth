@@ -14,8 +14,9 @@ faq: "Apa itu KelpDAO dan apa yang terjadi?;;KelpDAO adalah protokol restaking d
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Eksploitasi $293 Juta yang Mengubah Cara Pandang DeFi
 
@@ -74,9 +75,9 @@ Implikasinya semakin sulit diabaikan: keamanan di DeFi semakin bergantung bukan 
 
 *Sumber: CoinDesk, 16 Mei 2026*
 
-Buat komunitas DeFi di Indo, insiden KelpDAO ini jadi wake-up call yang serius. Protokol yang nawarin yield tinggi lewat bridge dan infrastruktur pihak ketiga , makin diwaspadai. Ketergantungan ke satu infrastruktur bridge bisa jadi bom waktu.
+Buat komunitas DeFi di Indonesia, insiden KelpDAO ini jadi wake-up call yang serius. Protokol yang nawarin yield tinggi lewat bridge dan infrastruktur pihak ketiga, makin diwaspadai. Ketergantungan ke satu infrastruktur bridge bisa jadi bom waktu.
 
-Fakta bahwa LayerZero, salah satu bridge terbesar di crypto, yang jadi titik kegagalan , agak meresahkan. Banyak protokol populer di kalangan trader Indo, termasuk yang operasi di Arbitrum dan chain lain, bergantung pada infrastruktur yang sama. Masalahnya bukan di audit kode doang , kerentanannya ada di lapisan operasional dan ketergantungan infrastruktur.
+Fakta bahwa LayerZero, salah satu bridge terbesar di crypto, yang jadi titik kegagalan, agak meresahkan. Banyak protokol populer di kalangan trader Indonesia, termasuk yang operasi di Arbitrum dan chain lain, bergantung pada infrastruktur yang sama. Masalahnya bukan di audit kode doang, kerentanannya ada di lapisan operasional dan ketergantungan infrastruktur.
 
 Meskipun rangkaian eksploitasi terus berlanjut, baik Mamin maupun MacPherson tidak percaya bahwa insiden-insiden ini membatalkan DeFi sama sekali. Dalam beberapa hal, mereka berpendapat, industri akhirnya memasuki fase yang lebih berkelanjutan. MacPherson melihat keunggulan jangka panjang DeFi bukan pada menghilangkan risiko, tetapi membuat risiko terlihat.
 

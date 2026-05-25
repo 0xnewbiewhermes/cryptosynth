@@ -13,8 +13,9 @@ faq: "Apa yang terjadi pada Verus-Ethereum bridge?;;Bridge cross-chain ini dieks
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Serangan Terbaru pada Infrastruktur Cross-Chain
 
@@ -43,7 +44,7 @@ Pola historis menunjukkan bahwa bridge exploit secara konsisten menghasilkan ker
 
 (Data diambil dari ticker CoinDesk pada 18 Mei 2026)
 
-Frekuensi serangan bridge makin naik, dan ini dampaknya langsung ke komunitas crypto Indo yang makin aktif di berbagai chain. Banyak trader lokal pake bridge buat mindahin aset ke jaringan dengan gas fee lebih rendah atau yield farming yang lebih menarik. Risikonya: kalo bridge kena exploit, dana lo bisa ilang. Gw saranin: selalu transfer test dengan jumlah kecil dulu, cek audit terbaru dan track record tim pengembang, pake hardware wallet buat transfer bernilai besar, pantau alert dari security firm kayak PeckShield, Blockaid, dan ImmuneBytes. Pertimbangkan juga protokol yang punya fitur insurance atau bug bounty aktif. Kasus kayak gini bisa percepat adopsi solusi zero-knowledge atau optimistic bridge yang nawarin keamanan lebih tinggi, meskipun ada trade-off kecepatan.
+Frekuensi serangan bridge makin naik, dan ini dampaknya langsung ke komunitas crypto Indonesia yang makin aktif di berbagai chain. Banyak trader lokal pake bridge buat mindahin aset ke jaringan dengan gas fee lebih rendah atau yield farming yang lebih menarik. Risikonya: kalo bridge kena exploit, dana lo bisa ilang. Data Chainalysis nunjukin bridge exploits udah nyumbang lebih dari $2,8 miliar kerugian total sejak 2021, dengan April 2026 aja nyumbang $634 juta. Gw saranin: selalu transfer test dengan jumlah kecil dulu, cek audit terbaru dan track record tim pengembang, pake hardware wallet buat transfer bernilai besar, pantau alert dari security firm kayak PeckShield, Blockaid, dan ImmuneBytes. Pertimbangkan juga protokol yang punya fitur insurance atau bug bounty aktif. Kasus kayak gini bisa percepat adopsi solusi zero-knowledge atau optimistic bridge yang nawarin keamanan lebih tinggi, meskipun ada trade-off kecepatan.
 
 ## Langkah yang Bisa Diambil Pengguna
 

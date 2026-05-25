@@ -24,8 +24,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini berdasarkan laporan publik Keyrock dan sumber X/berita. Bukan saran investasi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Bayangin lo punya AI trading agent yang beli data pasar, sewa cloud compute, dan bayar API analisis, semuanya otomatis, tanpa lo approval satu-satu. Kedengeran futuristik? Ternyata udah happening sekarang.
 

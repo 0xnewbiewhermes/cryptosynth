@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Gw liat pasar Bitcoin masuk pekan kritis menjelang expiry options terbesar bulan ini. Deribit bakal settle 80.535 kontrak BTC options senilai total **$6,25 miliar** pada Jumat, 29 Mei 2026 ([CoinDesk](https://www.coindesk.com/markets/2026/05/21/bitcoin-caught-between-usd75-000-max-pain-and-usd80-000-call-wall-ahead-of-usd6-25-billion-expiry)).
 

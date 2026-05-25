@@ -15,6 +15,10 @@ faq: "Apa perbedaan Ethereum dan Bitcoin?;;Bitcoin dirancang sebagai store of va
 <strong>TL;DR:</strong> JPMorgan mengajukan dana tokenized baru bernama JLTXX ke SEC, berinvestasi di Treasury AS jangka pendek dan berjalan di Ethereum. Dana ini dirancang untuk memenuhi persyaratan cadangan stablecoin di bawah GENIUS Act. Langkah ini menyusul pengajuan serupa dari BlackRock beberapa hari sebelumnya.
 </div>
 
+<div class="disclaimer-box">
+<em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
+</div>
+
 ## JPMorgan Ajukan Dana Tokenized Baru di Ethereum
 
 Menurut laporan [CoinDesk](https://www.coindesk.com/business/2026/05/12/jpmorgan-files-to-launch-new-tokenized-fund), jPMorgan (JPM), salah satu bank terbesar di dunia, sedang bersiap meluncurkan dana money market tokenized. Pengajuan ke Securities and Exchange Commission (SEC) AS pada Selasa (12/5) merinci rencana dana berbasis blockchain yang berinvestasi secara eksklusif di Treasury AS jangka pendek, kas, dan perjanjian repo semalam yang didukung oleh sekuritas pemerintah.
@@ -33,7 +37,7 @@ Ini berposisi sebagai kendaraan cadangan yang menghasilkan yield bagi perusahaan
 
 Langkah JPMorgan ini terjadi hanya beberapa hari setelah **BlackRock (BLK)**, manajer aset terbesar di dunia, mengajukan dokumen untuk kendela cadangan Treasury tokenized baru dan saham berbasis blockchain dari dana money market senilai $7 miliar yang sudah ada.
 
-Persaingan JPMorgan sama BlackRock di tokenisasi nunjukin ini bukan eksperimen lagi, udah jadi lini bisnis strategis.
+Persaingan JPMorgan sama BlackRock di tokenisasi nunjukin ini bukan eksperimen lagi, udah jadi lini bisnis strategis. Buat ekosistem blockchain Indonesia, dua raksasa Wall Street milih Ethereum sebagai infrastruktur tokenisasi jadi sinyal kuat: Ethereum Layer 1 masih jadi pilihan utama buat RWA, yang berarti permintaan jangka panjang buat ETH tetap solid. Kalo RWA market tumbuh ke $50 miliar tahun depan, Ethereum bakal jadi settlement layer utama, termasuk produk yang relevan buat investor Indonesia lewat platform kayak Indodax dan Reku.
 
 ### Pasar Aset Dunia Nyata (RWA) Terus Tumbuh
 
@@ -88,9 +92,7 @@ Sumber: CoinDesk
 
 
 
-<div class="disclaimer-box">
-<em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
-</div>
+
 
 
 ## Sumber

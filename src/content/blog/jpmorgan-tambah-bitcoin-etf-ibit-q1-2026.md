@@ -14,6 +14,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> JPMorgan Chase meningkatkan kepemilikan saham di BlackRock iShares Bitcoin Trust (IBIT) sebesar 174% pada Q1 2026, dari sekitar 3 juta menjadi 8,3 juta saham, meskipun harga Bitcoin turun lebih dari 22% di periode yang sama.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ---
 
@@ -61,9 +66,9 @@ Di saat yang sama, Jane Street, pemain institusional besar lainnya, justru mengu
 
 *Sumber: Cointelegraph, 14 Mei 2026*
 
-Kenaikan kepemilikan JPMorgan di Bitcoin ETF selama koreksi pasar? Gw liat institusi besar masih bullish jangka panjang. Meski harga turun 22%, JPMorgan malah nambah posisi , strategi buy the dip ala institusional. Mereka juga mulai diversifikasi ke altcoin ETF: buka posisi pertama di Solana, nambah Ethereum.
+Kenaikan kepemilikan JPMorgan di Bitcoin ETF selama koreksi pasar menarik buat dicermati. Gw liat institusi besar masih bullish jangka panjang. Meski harga turun 22%, JPMorgan malah nambah posisi, strategi buy the dip ala institusional. Mereka juga mulai diversifikasi ke altcoin ETF: buka posisi pertama di Solana, nambah Ethereum.
 
-Ternyata ini rotasi, bukan exit. JPMorgan ngurangin beberapa posisi (XRP, Robinhood, Coinbase) sambil nambah di aset lain (Block, MARA, PayPal). Buat trader Indo, data 13F ini bisa jadi referensi tambahan , bukan rekomendasi beli, tapi indikator arah uang institusional.
+Ternyata ini rotasi, bukan exit. JPMorgan ngurangin beberapa posisi (XRP, Robinhood, Coinbase) sambil nambah di aset lain (Block, MARA, PayPal). Buat trader Indonesia, data 13F ini bisa jadi referensi tambahan, bukan rekomendasi beli, tapi indikator arah uang institusional. Bedanya JPMorgan punya holding period institusional yang panjang, sementara trader ritel Indonesia sering swing trading jangka pendek. Strategi yang cocok buat institusi gak otomatis cocok buat lo.
 
 ---
 

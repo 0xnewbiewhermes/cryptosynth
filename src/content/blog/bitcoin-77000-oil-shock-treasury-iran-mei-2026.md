@@ -14,8 +14,9 @@ faq: "Kenapa Bitcoin turun ke $77.000?;Bitcoin turun ke $77.000 akibat kombinasi
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Gw liat Bitcoin (BTC) kena pressure jual gede akhir pekan ini , jatuh dari $82.000 ke bawah $77.000 dalam waktu kurang dari 48 jam. Penyebabnya? Oil shock dari ketegangan AS-Iran plus imbal hasil Treasury AS yang naik drastis, bikin risk-off di semua lini.
 
@@ -36,7 +37,7 @@ Tapi ada sisi lain: aksi jual di pasar obligasi (fixed-income outflow) bisa jadi
 - BNB: $641,68 (-2,08%)
 - XRP: $1,38 (-2,32%)
 
-**Buat lo trader Indo:** Pelemahan BTC di bawah $77.000 buka peluang scalping jangka pendek, tapi risiko likuidasi juga lebih tinggi. Data Coinglass nunjukin $500 juta+ posisi long udah ke-likuidasi dalam 48 jam.
+**Buat lo trader Indonesia:** Pelemahan BTC di bawah $77.000 buka peluang scalping jangka pendek, tapi risiko likuidasi juga lebih tinggi. Data Coinglass nunjukin $500 juta+ posisi long udah ke-likuidasi dalam 48 jam.
 
 Pantau support psikologis di $75.000 dan $71.000 , ini zona akumulasi whale selama Q1 2026. Kalo BTC bertahan di atas $75.000, struktur pasar masih bullish jangka menengah. Tapi kalo tembus $71.000, potensi koreksi ke $65.000 terbuka lebar.
 

@@ -18,8 +18,9 @@ faq: "Apa yang perlu diketahui tentang Nigel Farage Beli Rumah 30M Setelah Terim
 
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi atau rekomendasi keuangan. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi di pasar crypto.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Farage Terima Hadiah Rp89 Miliar dari Miliarder Crypto
 

@@ -21,8 +21,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Misi Mars Dipimpin Seorang Bitcoin Billionaire
 
@@ -54,7 +55,7 @@ Presiden Donald Trump dalam pidato pelantikan keduanya menyebut misi ke Mars seb
 
 Pengumuman ini datang di saat yang menarik bagi SpaceX dan Bitcoin. Perusahaan milik Elon Musk baru saja mengungkapkan kepemilikan 8.285 BTC dalam filing IPO rahasianya, angka yang lebih rendah dari estimasi on-chain sebelumnya yang menyebut 18.712 BTC. SpaceX juga menargetkan valuasi IPO hingga $1,75 triliun, yang akan menjadi IPO terbesar dalam sejarah.
 
-Analisis untuk pasar Indonesia, kisah Chun Wang memiliki resonansi khusus. F2Pool adalah salah satu mining pool terbesar yang melayani penambang Asia, termasuk dari Indonesia. Sentralisasi hashrate di satu entitas, apalagi yang akan absen dua tahun, adalah pengingat bahwa jaringan Bitcoin sangat bergantung pada segelintir pool besar.
+Analisis untuk pasar Indonesia, kisah Chun Wang memiliki resonansi khusus. F2Pool adalah salah satu mining pool terbesar yang melayani penambang Asia, termasuk dari Indonesia. Sentralisasi hashrate di satu entitas, apalagi yang akan absen dua tahun, adalah pengingat bahwa jaringan Bitcoin sangat bergantung pada segelintir pool besar. Data dari BTC.com nunjukin empat pool terbesar (AntPool, F2Pool, ViaBTC, Foundry) kontrol lebih dari 70% hashrate global, dan F2Pool sendiri pegang 11,3%. Ini artinya keputusan satu entitas bisa ngaruh ke stabilitas jaringan.
 
 Risiko sentralisasi mining pool selama ini menjadi perdebatan di komunitas Bitcoin global. Dengan 11,3% hashrate berada di bawah kendali F2Pool, ketidakhadiran Wang selama dua tahun menimbulkan pertanyaan tentang tata kelola pool dan seberapa besar keputusan operasional bisa didelegasikan. Bagi penambang Indonesia yang menggunakan jasa F2Pool, penting untuk memantau transparansi manajemen pool selama periode ini.
 

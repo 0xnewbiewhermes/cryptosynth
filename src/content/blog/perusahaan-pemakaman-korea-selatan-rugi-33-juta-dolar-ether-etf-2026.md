@@ -13,8 +13,9 @@ author: "CryptoSynth Research"
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto memiliki fluktuasi harga yang tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Yang bikin kasus Bumo Sarang ini menarik bukan cuma nominalnya, tapi celah regulasi yang kebuka , dan ini sebenernya relevan juga buat Indonesia. Gw bahas di bawah.
 

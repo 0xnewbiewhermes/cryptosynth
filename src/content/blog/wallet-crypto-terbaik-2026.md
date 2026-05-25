@@ -15,6 +15,10 @@ faq: "Berapa modal minimal untuk memulai?;;Modal minimal tergantung platform. Un
 <strong>TL;DR:</strong> Pilih wallet crypto berdasarkan kebutuhan: MetaMask untuk DeFi, Trust Wallet untuk mobile, Ledger untuk keamanan maksimal.
 </div>
 
+<div class="disclaimer-box">
+<em>Artikel ini bersifat informatif. Selalu download wallet dari website resmi dan jaga seed phrase dengan baik.</em>
+</div>
+
 ## Kenapa Butuh Wallet Crypto?
 
 Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang pegang. Wallet crypto memberikan kamu **full control** atas aset. Prinsipnya: *"Not your keys, not your coins."*
@@ -104,12 +108,14 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang peg
 4. ❌ Connect wallet ke website mencurigakan
 5. ❌ Approve transaksi tanpa baca detail
 
-## Rekomendasi untuk Pemula Indonesia
+|## Rekomendasi untuk Pemula Indonesia
 
 **Kalau baru mulai:**
 1. Install **MetaMask** (gratis), untuk belajar DeFi
-2. Install **Trust Wallet** (gratis), untuk mobile
+2. Install **Trust Wallet** (gratis), untuk mobile  
 3. Kalau sudah punya >$500 crypto → beli **Ledger Nano S Plus**
+
+**Untuk pemula Indonesia, ada beberapa hal spesifik.** Pertama, download wallet dari website resmi bukan dari Play Store random atau link grup Telegram, karena banyak modus phishing yang targetin pengguna Indonesia dengan aplikasi wallet palsu berbahasa Indonesia. Kedua, seed phrase simpan offline di kertas atau steel plate, jangan di screenshot, Google Drive, atau Notes HP. Ketiga, kalo pake exchange lokal kayak Indodax atau Tokocrypto buat beli crypto, transfer ke private wallet setelah purchase biar dana aman dari risiko exchange hack. Keempat, waspadai DM Telegram atau WhatsApp yang ngaku dari "support wallet" atau "customer service" minta seed phrase, itu 100% scam.
 
 **Setup pertama:**
 1. Download dari website resmi (bukan App Store random)
@@ -127,6 +133,3 @@ Kalau kamu simpan crypto di exchange, kamu ngontrol koin kamu, exchange yang peg
 <a href="https://www.ledger.com" target="_blank" rel="noopener"> Ledger</a>
 </div>
 
-<div class="disclaimer-box">
-<em>Artikel ini bersifat informatif. Selalu download wallet dari website resmi dan jaga seed phrase dengan baik.</em>
-</div>

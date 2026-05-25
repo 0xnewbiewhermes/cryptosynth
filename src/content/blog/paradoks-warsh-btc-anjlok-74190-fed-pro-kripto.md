@@ -14,8 +14,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Sabtu (24/5) jadi hari yang berat buat hodler Bitcoin. BTC ambrol ke $74.190, titik paling rendah dalam lebih dari satu bulan, di waktu yang sama Kevin Warsh baru sehari dilantik sebagai Ketua Federal Reserve. Ironisnya, Warsh dikenal sebagai salah satu pejabat paling pro-kripto yang pernah memimpin The Fed. Lho, kok malah jatuh?
 

@@ -14,8 +14,9 @@ faq: "Apa yang dilakukan Hana Bank dengan Dunamu?;;Hana Bank mengakuisisi 6,55% 
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Bank Tradisional Korea Masuk ke Kripto Lewat Akuisisi $670 Juta
 
@@ -53,11 +54,11 @@ Akuisisi ini juga mendahului rencana merger Dunamu dengan Naver Financial dalam 
 
 ### Implikasi untuk Pasar Kripto Asia dan Indonesia
 
-Langkah Hana Bank menjadi sinyal kuat bahwa institusi keuangan tradisional di Asia tidak lagi melihat kripto sebagai pinggiran - melainkan sebagai infrastruktur inti untuk layanan keuangan masa depan. Bagi Indonesia, perkembangan ini relevan karena menunjukkan bagaimana bank-bank besar di kawasan mulai mengintegrasikan stablecoin, remitansi blockchain, dan aset digital ke dalam layanan mereka.
+Langkah Hana Bank menjadi sinyal kuat bahwa institusi keuangan tradisional di Asia tidak lagi melihat kripto sebagai pinggiran, melainkan sebagai infrastruktur inti untuk layanan keuangan masa depan. Bagi Indonesia, perkembangan ini relevan karena menunjukkan bagaimana bank-bank besar di kawasan mulai mengintegrasikan stablecoin, remitansi blockchain, dan aset digital ke dalam layanan mereka.
 
-Dengan pasar remitansi Indonesia yang mencapai miliaran dolar per tahun dari pekerja migran, model remitansi blockchain berbasis stablecoin yang dikembangkan Hana Bank-Dunamu bisa menjadi cetak biru yang diadopsi di Indonesia. Bank-bank Indonesia seperti BCA, Mandiri, atau BRI mungkin perlu mulai mempertimbangkan strategi serupa untuk tetap kompetitif.
+Dengan pasar remitansi Indonesia yang mencapai miliaran dolar per tahun dari pekerja migran (Bank Indonesia catat lebih dari $11 miliar per tahun), model remitansi blockchain berbasis stablecoin yang dikembangkan Hana Bank-Dunamu bisa menjadi cetak biru yang diadopsi di Indonesia. Bank-bank Indonesia seperti BCA, Mandiri, atau BRI mungkin perlu mulai mempertimbangkan strategi serupa untuk tetap kompetitif. Kalo stablecoin won berlisensi bank berhasil, tekanan kompetitif bakal ngarah ke ASEAN, termasuk Indonesia.
 
-Munculnya stablecoin won berlisensi bank bisa dorong bank sentral ASEAN buat ngebut CBDC atau kasih ruang buat stablecoin mata uang lokal. Indonesia dengan proyek Garuda (CBDC digital rupiah) bisa mengambil pelajaran dari pendekatan Hana Bank yang menggabungkan stablecoin bank dengan infrastruktur blockchain publik.
+Munculnya stablecoin won berlisensi bank bisa dorong bank sentral ASEAN buat ngebut CBDC atau kasih ruang buat stablecoin mata uang lokal. Indonesia dengan proyek Garuda (CBDC digital rupiah) bisa mengambil pelajaran dari pendekatan Hana Bank yang menggabungkan stablecoin bank dengan infrastruktur blockchain publik. Ini bukan cerita soal adopsi institusi A ke crypto B, ini blueprint buat masa depan perbankan regional.
 
 **Tabel Perbandingan Harga Kripto (17 Mei 2026)**
 

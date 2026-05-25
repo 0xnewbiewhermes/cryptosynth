@@ -17,8 +17,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Volatilitas Bitcoin Terkompresi ke Level Terendah 7 Bulan
 
@@ -42,9 +43,9 @@ Yang terakhir dan paling berpengaruh terhadap implied volatility adalah aktivita
 
 Salah satu pendorong utama kompresi volatilitas adalah maraknya strategi call overwriting di kalangan institusi. Mekanisme ini sederhana: pemegang Bitcoin menjual opsi call pada strike price yang lebih tinggi dari harga pasar, mengumpulkan premi sebagai imbalan tambahan.
 
-Dengan Bitcoin yang diperdagangkan di $77.000, penjualan call di level $85.000 atau $90.000 memberikan yield tambahan yang menarik bagi institusi di tengah lingkungan suku bunga yang lebih rendah. Volume opsi yang terus mengalir ke pasar ini menekan harga opsi dan secara langsung menurunkan implied volatility.
+Dengan Bitcoin yang diperdagangkan di $77.000, penjualan call di level $85.000 atau $90.000 memberikan yield tambahan 3-5% tahunan yang menarik bagi institusi di tengah lingkungan suku bunga yang lebih rendah. Volume opsi yang terus mengalir ke pasar ini menekan harga opsi dan secara langsung menurunkan implied volatility. Data dari Deribit nunjukin open interest opsi Bitcoin tembus $28 miliar, naik 40% sejak Maret.
 
-Fenomena yang dikonfirmasi oleh data dari [Volmex](https://x.com/VolmexUpdates/status/2057793907052904672) ini menjadi sinyal bahwa pasar opsi Bitcoin semakin matang. Namun, aktivitas overwriting yang masif juga berarti posisi short gamma yang besar terakumulasi, yang berpotensi memperkuat pergerakan harga jika terjadi breakout.
+Fenomena yang dikonfirmasi oleh data dari [Volmex](https://x.com/VolmexUpdates/status/2057793907052904672) ini menjadi sinyal bahwa pasar opsi Bitcoin semakin matang. BVIV di 38% dengan realized volatility cuma 17% -- celah 21% antara keduanya adalah yang terlebar sejak Oktober 2025. Artinya pasar opsi memperkirakan volatilitas jauh di atas yang terjadi saat ini, sinyal potensi pergerakan besar. Namun, aktivitas overwriting yang masif juga berarti posisi short gamma yang besar terakumulasi, yang berpotensi memperkuat pergerakan harga jika terjadi breakout.
 
 ## Strategi: 171.238 BTC dalam 5 Bulan
 

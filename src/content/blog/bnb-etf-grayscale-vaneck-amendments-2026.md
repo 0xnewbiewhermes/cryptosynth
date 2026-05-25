@@ -14,14 +14,15 @@ faq: "Apa itu BNB ETF?;;BNB ETF adalah produk investasi yang melacak harga BNB, 
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Perlombaan BNB ETF: Grayscale dan VanEck Revisi Berkas ke SEC
 
 Persaingan untuk meluncurkan spot altcoin ETF pertama di Amerika Serikat semakin memanas. [Grayscale Investments](https://www.cryptotimes.io/2026/05/16/grayscale-advances-spot-bnb-etf-bid-with-updated-sec-filing/) mengajukan Amandemen No. 2 untuk berkas S-1 produk Grayscale BNB ETF pada 15 Mei 2026, sementara [VanEck](https://www.theblock.co/post/401553/vaneck-grayscale-file-fresh-bnb-etf-amendments-as-race-for-next-altcoin-spot-etf-accelerates) juga mengajukan filing kompetitif di hari yang sama.
 
-Pengajuan terbaru ini merupakan respons terhadap umpan balik tertulis dari staf SEC, yang menunjukkan bahwa proses review berjalan aktif dan produktif. Grayscale berencana mendaftarkan produknya di bawah ticker GBNB di Nasdaq.
+Pengajuan terbaru ini merupakan respons terhadap umpan balik tertulis dari staf SEC, yang menunjukkan bahwa proses review berjalan aktif dan produktif. Grayscale dan VanEck udah lewati beberapa putaran amandemen sejak pertama kali filing di Januari 2026, tanda SEC lagi serius ngevaluasi, bukan cuma nolak mentah-mentah. Grayscale berencana mendaftarkan produknya di bawah ticker GBNB di Nasdaq.
 
 ### Detail Struktur dan Kustodian
 
@@ -31,11 +32,11 @@ Mekanisme penciptaan dan penebusan memungkinkan peserta yang berwenang untuk ber
 
 ### Konteks Perlombaan Altcoin ETF
 
-Perlombaan BNB ETF bukan fenomena terisolasi. Dalam beberapa bulan terakhir, sejumlah penerbit telah mengajukan berkas untuk berbagai altcoin ETF:
+Perlombaan BNB ETF bukan fenomena terisolasi. Dalam beberapa bulan terakhir, sejumlah penerbit telah mengajukan berkas untuk berbagai altcoin ETF. Setelah suksesnya Bitcoin dan Ethereum ETF, Wall Street sekarang berlomba buat jadi yang pertama di altcoin besar selanjutnya. Total market cap stablecoin dan altcoin yang eligible buat ETF di AS diperkirakan mencapai $500 miliar, potensi fee tahunan buat penerbit ETF di angka $1-2 miliar.
 
 - **21Shares** mengajukan Amandemen No. 2 untuk spot Hyperliquid ETF (ticker THYP) pada April 2026
 - **VanEck** mengajukan Amandemen No. 3 untuk VanEck Avalanche ETF pada Desember 2025
-- **Canary Capital** terus mendorong staked TRX ETF pertama
+- **Canary Capital** terus mendorong staked TRX ETF pertama, target pengumuman akhir Q3 2026
 
 Setelah kesuksesan spot Bitcoin dan Ethereum ETF pada 2024, institusi besar kini berlomba memperluas produk investasi crypto teregulasi ke altcoin berkapitalisasi besar.
 
@@ -51,7 +52,7 @@ Setelah kesuksesan spot Bitcoin dan Ethereum ETF pada 2024, institusi besar kini
 
 BNB saat ini berada di peringkat ke-4 berdasarkan kapitalisasi pasar dengan valuasi $88.2 miliar. Dengan harga $654.39, BNB masih 52.25% di bawah all-time high $1,370.55 yang dicapai Oktober 2025. Jika ETF disetujui, analis memproyeksikan target harga jangka pendek di sekitar $700, mengacu pada pola re-rating harga yang terjadi setelah peluncuran Bitcoin dan Ethereum ETF.
 
-Yang gw catet: BNB punya basis gede di Asia Tenggara, termasuk Indo. BNB Chain salah satu blockchain paling aktif buat DeFi di sini. Kalo BNB ETF disetujui, akses institusional ke BNB makin luas , likuiditas naik, stabilitas harga potensi lebih baik. Tapi lo harus sabar, proses SEC bisa berbulan-bulan, gak ada jaminan. Tiap stage butuh amandemen baru. Keputusan BNB ETF ini bakal jadi tolok ukur buat ETF altcoin lain kayak Solana, XRP, Avalanche.
+Yang gw catet: BNB punya basis gede di Asia Tenggara, termasuk Indonesia. BNB Chain salah satu blockchain paling aktif buat DeFi di Indonesia. Kalo BNB ETF disetujui, akses institusional ke BNB makin luas , likuiditas naik, stabilitas harga potensi lebih baik. Tapi lo harus sabar, proses SEC bisa berbulan-bulan, gak ada jaminan. Tiap stage butuh amandemen baru. Keputusan BNB ETF ini bakal jadi tolok ukur buat ETF altcoin lain kayak Solana, XRP, Avalanche.
 
 Sementara itu, investor bisa memantau perkembangan melalui situs resmi SEC dan mengikuti analisis dari pakar ETF seperti James Seyffart dari Bloomberg Intelligence yang secara aktif melacak filing-filing ini.
 

@@ -13,8 +13,9 @@ author: "CryptoSynth Research"
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Bankr Disable Transaksi, 14 Wallet Pengguna Dikompromikan
 
@@ -36,7 +37,7 @@ Bankr memungkinkan pengguna untuk memerintahkan AI melakukan trading, transfer, 
 
 Austen Allred, pengusaha teknologi, mengatakan bahwa wallet Bankr yang terhubung dengan proyek asisten AI Kelly Claude miliknya termasuk yang dikompromikan. Peretas mencuri Ether (ETH), tetapi tidak menyentuh stash memecoin proyek tersebut. "Tidak ada bukti bahwa orang lain selain saya pernah login ke akun Bankr; mereka pasti mengakses kunci dengan cara lain," kata Allred.
 
-Gw liat pola yang sama udah mulai terjadi di platform AI trading yang dipake trader Indo. Masalahnya bukan di smart contract , celahnya ada di layer interaksi antara AI agent yang berbeda. Prompt injection, teknik social engineering yang nargetin Grok atau AI bot lain, itu frontier keamanan baru yang rata-rata trader Indo belum paham. Bankr recommend wallet baru, seed phrase baru di device bersih, revoke semua approval. Tapi yang lebih penting: kalo lo pake platform AI trading, pastiin lo tau persis permission apa yang lo kasih ke bot. Approval gak terbatas (unlimited) itu red flag.
+Gw liat pola yang sama udah mulai terjadi di platform AI trading yang dipake trader Indonesia. Masalahnya bukan di smart contract , celahnya ada di layer interaksi antara AI agent yang berbeda. Prompt injection, teknik social engineering yang nargetin Grok atau AI bot lain, itu frontier keamanan baru yang rata-rata trader Indo belum paham. Bankr recommend wallet baru, seed phrase baru di device bersih, revoke semua approval. Tapi yang lebih penting: kalo lo pake platform AI trading, pastiin lo tau persis permission apa yang lo kasih ke bot. Approval gak terbatas (unlimited) itu red flag.
 
 **Sumber:**
 

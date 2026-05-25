@@ -14,8 +14,9 @@ faq: "Apa yang terjadi dengan Aave dan WETH?;;Aave telah memulihkan rasio loan-t
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Gw liat Aave baru aja pulihin rasio LTV WETH di enam jaringan besar setelah eksploitasi rsETH bulan lalu. Buat lo yang main pinjaman di Aave, kabar ini artinya fungsi WETH sebagai agunan udah balik normal.
 
@@ -40,7 +41,7 @@ Sebelumnya LTV WETH diset ke 0%, bikin WETH gak bisa dipake sebagai agunan di en
 
 WETH itu aset agunan paling vital di DeFi , trader pake buat minjam, leverage, dan danai strategi likuiditas. Waktu WETH dibekuin, leverage di seluruh ekosistem langsung terbatas, efisiensi likuiditas anjlok, modal pada terjebak.
 
-Buat lo trader Indo yang main farming dan leverage di Aave, kabar ini jelas penting. Fungsi WETH udah balik, artinya strategi yield farming dan leverage trading bisa jalan lagi tanpa hambatan. Plus suku bunga pinjaman cuma 1,9% setahun , modal murah buat yang paham risiko.
+Buat lo trader Indonesia yang main farming dan leverage di Aave, kabar ini jelas penting. Fungsi WETH udah balik, artinya strategi yield farming dan leverage trading bisa jalan lagi tanpa hambatan. Plus suku bunga pinjaman cuma 1,9% setahun , modal murah buat yang paham risiko.
 
 Yang menarik, tingkat pemulihan 95% dalam kurang dari sebulan nunjukin resiliensi DeFi udah jauh lebih matang dibanding era 2022. Dulu eksploitasi kayak Ronin Bridge ($620 juta) butuh berbulan-bulan buat pulih parsial. Sekarang koalisi kompetitor langsung , Compound, Lido, Mantle , bisa gercep koordinasi darurat. Buat lo yang aktif di ekosistem Ethereum, pullback ETH ke $2.115 (-3,55% hari ini) bisa jadi entry point menarik, apalagi dengan biaya pinjaman minimal.
 

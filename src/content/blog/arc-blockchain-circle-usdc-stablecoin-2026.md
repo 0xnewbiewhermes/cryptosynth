@@ -14,8 +14,9 @@ faq: "Apa itu Arc dari Circle?;;Arc adalah blockchain layer-1 baru yang dikemban
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Menurut laporan [Decrypt](https://decrypt.co/resources/what-is-arc-the-stablecoin-blockchain-from-usdc-issuer-circle), circle, perusahaan di balik stablecoin USDC, baru saja memperkenalkan Arc, sebuah blockchain layer-1 yang secara khusus dibangun untuk mendukung keuangan berbasis stablecoin di skala institusional. Berbeda dengan Ethereum atau Solana yang bersifat general-purpose, Arc dirancang untuk mengatasi masalah biaya yang tidak stabil, settlement yang lambat, dan kebutuhan privasi yang sesuai regulasi.
 
@@ -43,7 +44,7 @@ Public testnet Arc diluncurkan pada Oktober 2025. Mainnet beta diharapkan hadir 
 
 “Arc's fast finality and native gas coupled with Circle's CCTP and Gateway interoperability service-as-a-stablecoin liquidity hub, enable USDC to move across the blockchain ecosystem freely,” ujar Mayer.
 
-Buat pasar Indo, ARC ini menarik karena ngasih solusi ke masalah lama: biaya transaksi yang unpredictable pas congestion. Dengan USDC sebagai gas, lo tau exact fee sebelum execute transaksi. Gak ada lagi drama gas war pas mint NFT. Compliance-friendly-nya juga buka peluang buat institusi lokal , bank atau fintech Indo yang mau eksperimen tokenisasi aset atau settlement on-chain punya infrastruktur yang lebih jelas. Tapi ini masih testnet, jadi semua masih spekulasi. Yang jelas, Circle punya track record , USDC udah beredar luas banget, bukan proyek anonim.
+Buat pasar Indonesia, ARC ini menarik karena ngasih solusi ke masalah lama: biaya transaksi yang unpredictable pas congestion. Dengan USDC sebagai gas, lo tau exact fee sebelum execute transaksi. Gak ada lagi drama gas war pas mint NFT. Compliance-friendly-nya juga buka peluang buat institusi lokal , bank atau fintech Indonesia yang mau eksperimen tokenisasi aset atau settlement on-chain punya infrastruktur yang lebih jelas. Tapi ini masih testnet, jadi semua masih spekulasi. Yang jelas, Circle punya track record , USDC udah beredar luas banget, bukan proyek anonim.
 
 ## Sumber
 

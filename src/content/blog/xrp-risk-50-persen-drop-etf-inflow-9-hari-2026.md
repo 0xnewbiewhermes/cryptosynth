@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## XRP Hadapi Tekanan Bearish dari Pola Teknikal
 
@@ -53,7 +54,7 @@ Ini menunjukkan rotasi modal institusional dari BTC dan ETH ke XRP dan SOL. Tron
 
 Divergensi antara tekanan teknikal dan sentimen institusional ini menarik perhatian. Biasanya aliran ETF yang kuat cukup untuk mendorong harga naik. Tapi pola bear pennant di timeframe tinggi (3 hari) adalah sinyal yang jarang gagal.
 
-Buat yang punya posisi XRP, ini situasi yang perlu dicermati bener. Support $1.27 adalah level kunci. Kalo XRP bertahan di atasnya beberapa hari ke depan, tekanan bearish bisa mereda. Tapi kalo break di bawahnya, target ke $1.00 dan bahkan $0.65 jadi probabilitas yang nyata.
+Buat yang punya posisi XRP di Indonesia, ini situasi yang perlu dicermati. Support $1.27 adalah level kunci. Kalo XRP bertahan di atasnya beberapa hari ke depan, tekanan bearish bisa mereda. Tapi kalo break di bawahnya, target ke $1.00 dan bahkan $0.65 jadi probabilitas yang nyata. Yang menarik buat investor Indonesia: inflow ETF XRP dari institusi AS nyaris $1,4 miliar, sementara exchange lokal kayak Indodax biasanya ngikutin sentimen global. Divergensi antara signal teknikal bearish dan inflow institusional bullish belum pernah terjadi di XRP sebelumnya. Pola kayak gini sering berujung pada expansion move yang signifikan, entah breakout ke atas atau breakdown ke bawah. Satu hal yang pasti: inflow ETF XRP yang konsisten 9 hari berturut-turut di tengah outflow BTC $981,5 juta nunjukin ada rotasi modal institusional dari Bitcoin ke XRP. Ini pola yang biasanya bullish untuk relative performance XRP terhadap BTC.
 
 Di sisi positif, pengesahan CLARITY Act di AS dan pemulihan aktivitas jaringan XRP bisa menjadi katalis yang mengubah sentimen pasar. Beberapa analis bahkan memperkirakan XRP bisa menuju $15 dalam skenario akumulasi jangka panjang. Tapi dalam jangka pendek, sinyal teknikal bearish sulit diabaikan.
 

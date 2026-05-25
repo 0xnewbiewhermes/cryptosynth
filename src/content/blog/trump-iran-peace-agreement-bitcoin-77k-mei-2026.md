@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Bitcoin Rebound di Tengah Pengumuman Damai Iran
 
@@ -36,7 +37,7 @@ Dampak paling langsung terasa di pasar energi. Minyak mentah WTI turun sekitar 6
 
 Analis dari [Token Metrics](https://x.com/tokenmetricsinc/status/2058296573160038562) mencatat bahwa pengumuman ini secara langsung mengurangi premi risiko geopolitik dan mengalihkan fokus kembali ke risk-on sentiment. Sektor yang diuntungkan antara lain saham maskapai, pelayaran, dan risk assets secara umum.
 
-Buat trader Indo, penurunan premi risiko geopolitik global efeknya langsung. Kalo tensi Iran mereda, risk appetite naik dan modal institusi bisa balik ke BTC dan altcoin , termasuk dari exchange lokal yang volumenya sensitif sama sentimen makro. Tapi catet: Iran langsung bantah klaim Trump, bilang itu propaganda domestik dan Selat Hormuz tetep di bawah kendali mereka. Gap narasi kayak gini klasik di diplomasi Timur Tengah dan bisa trigger pembalikan harga cepet kalo negosiasi mentok. Buat yang udah biasa sama volatilitas tinggi, pantau dua sinyal: pergerakan minyak WTI (korelasi terbalik sama BTC di skenario geopolitik) dan pernyataan resmi Teheran yang bisa muncul kapan aja.
+Buat trader Indonesia, penurunan premi risiko geopolitik global efeknya langsung. Kalo tensi Iran mereda, risk appetite naik dan modal institusi bisa balik ke BTC dan altcoin, termasuk dari exchange lokal yang volumenya sensitif sama sentimen makro. Tapi catet: Iran langsung bantah klaim Trump, bilang itu propaganda domestik dan Selat Hormuz tetep di bawah kendali mereka. Gap narasi kayak gini klasik di diplomasi Timur Tengah dan bisa trigger pembalikan harga cepet kalo negosiasi mentok. Buat yang udah biasa sama volatilitas tinggi, pantau dua sinyal: pergerakan minyak WTI (korelasi terbalik sama BTC di skenario geopolitik) dan pernyataan resmi Teheran yang bisa muncul kapan aja. Buat Indonesia, penurunan harga minyak 6% ini langsung ngefek ke APBN lewat subsidi dan inflasi, dan rupiah biasanya ikut menguat kalo import bill minyak turun.
 
 ## Prospek: Negosiasi Masih Berlanjut
 

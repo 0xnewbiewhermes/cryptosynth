@@ -28,7 +28,7 @@ Lonjakan ini terjadi di tengah euforia pasar terhadap segala hal yang berhubunga
 
 ## Dampak ke Pasar Crypto
 
-Yang menarik dari IPO Cerebras adalah dampaknya yang terasa di pasar crypto. Dalam beberapa hari setelah IPO, token-token terkait AI di blockchain mengalami kenaikan signifikan. Beberapa di antaranya:
+Yang menarik dari IPO Cerebras adalah dampaknya yang terasa di pasar crypto. Dalam beberapa hari setelah IPO, token-token terkait AI di blockchain mengalami kenaikan signifikan. FET naik 15%, AGIX 12%, OCEAN 8%, RNDR 10% dalam seminggu pasca listing Cerebras. Korelasi ini bukan kebetulan, modal institusional yang awalnya cuma masuk ke saham AI tradisional mulai melirik token AI sebagai eksposur alternatif dengan potensi return lebih tinggi.
 - **Fetch.ai (FET)**: Naik 15% dalam seminggu
 - **SingularityNET (AGIX)**: Naik 12%
 - **Ocean Protocol (OCEAN)**: Naik 8%
@@ -48,9 +48,10 @@ Ada beberapa alasan mengapa boom AI di pasar tradisional juga menguntungkan cryp
 
 4. **Monetisasi Model**: Creator AI bisa memonetisasi model mereka melalui token dan smart contract.
 
-Buat lo trader Indo, korelasi antara saham AI tradisional sama token AI di blockchain makin keliatan sekarang. FET naik 15% pasca IPO Cerebras, RNDR 10% , bukan kebetulan. Tapi volatilitas di sektor ini gila-gilaan.
+Buat lo trader Indonesia, korelasi antara saham AI tradisional sama token AI di blockchain makin keliatan sekarang. FET naik 15% pasca IPO Cerebras, RNDR 10% , bukan kebetulan. Tapi volatilitas di sektor ini gila-gilaan.
 
 Yang gw liat: IPO Cerebras ini sinyal AI boom masih panjang. Tapi gak semua token AI bakal bertahan dalam setahun ke depan. Seleksi alam lagi jalan , yang punya use case jelas dan teknologi beneran yang lolos, sisanya bakal mati. Jadi kalo lo positioning di sini, pilih yang fundamentalnya kuat, jangan cuma ikut hype ticker.
+Buat trader Indonesia, fenomena ini ngasih pelajaran: korelasi saham AI tradisional dengan token AI crypto makin kuat. Tapi pasarnya masih niche banget , volume harian token AI di exchange Indonesia masih kecil dibanding BTC/ETH. Kalo lo mau eksposur ke narasi AI lewat crypto, siapin toleransi risiko yang lebih tinggi dari rata-rata.
 
 ---
 

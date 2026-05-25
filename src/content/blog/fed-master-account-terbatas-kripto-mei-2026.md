@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Federal Reserve Buka Pintu Sistem Pembayaran untuk Perusahaan Kripto
 
@@ -48,11 +49,11 @@ Kraken, exchange kripto terkemuka yang beroperasi sebagai Wyoming SPDI (special-
 
 Namun, selama masa proposal ini, Fed meminta bank regional untuk menghentikan sementara keputusan atas aplikasi serupa demi memastikan implementasi yang konsisten. Ripple, Anchorage Digital, dan Wise (fintech transfer uang) disebut-sebut sebagai perusahaan yang juga mengejar akses serupa.
 
-Kalo aturan ini final, implikasinya luas. Akses langsung ke sistem pembayaran Fed artinya perusahaan kripto bisa kliring dan settlement tanpa bank koresponden , yang selama ini jadi bottleneck dan sumber biaya tinggi, apalagi buat transfer lintas batas.
+Kalo aturan ini final, implikasinya luas. Akses langsung ke sistem pembayaran Fed artinya perusahaan kripto bisa kliring dan settlement tanpa bank koresponden, yang selama ini jadi bottleneck dan sumber biaya tinggi, apalagi buat transfer lintas batas.
 
-Buat pasar Indo, efek dominonya menarik. USDT dan USDC, yang banyak dipake trader Indo buat on/off ramp, bisa alamin efisiensi biaya kalo Tether dan Circle bisa akses sistem pembayaran AS langsung. Saat ini kliring stablecoin masih tergantung bank mitra yang kadang nerapin biaya tinggi buat transaksi Indo. Turunnya biaya infrastruktur di level AS bakal ngepress biaya yang dirasakan pengguna akhir di Indo.
+Buat pasar Indonesia, efek dominonya menarik. Tether (USDT) dan Circle (USDC) yang banyak dipake trader Indonesia buat on/off ramp lewat Indodax dan Reku bisa mengalami efisiensi biaya kalo bisa akses sistem pembayaran AS langsung. Saat ini kliring stablecoin masih tergantung bank mitra yang kadang nerapin biaya tinggi buat transaksi Indonesia. Turunnya biaya infrastruktur di level AS bakal ngepress biaya yang dirasakan pengguna akhir di Indonesia. Kalo spread USDT/IDR di Indodax bisa turun dari 1% ke 0.3%, itu selisih puluhan miliar per tahun buat volume trading Indonesia yang udah tembus ratusan triliun.
 
-Yang juga menarik, Gubernur Fed Chris Waller sebelumnya bilang Fed bakal "embrace disruption" , merangkul disrupsi fintech dan kripto. Sikap ini kontras sama era sebelumnya di mana Fed cenderung defensif. Buat Indo yang lagi nyusun regulasi crypto lebih matang (OJK ambil alih pengawasan aset digital), pendekatan AS ini bisa jadi referensi berharga.
+Soal sikap Fed, Gubernur Chris Waller sebelumnya bilang Fed bakal "embrace disruption", merangkul disrupsi fintech dan kripto. Ini kontras sama era sebelumnya di mana Fed cenderung defensif. Buat Indonesia yang lagi nyusun regulasi crypto lebih matang (OJK ambil alih pengawasan aset digital), pendekatan AS ini bisa jadi referensi berharga.
 
 Tapi ada satu risiko: Gubernur Fed Michael Barr dissenting , nolak proposal ini karena kurangnya safeguards terhadap illicit finance. Kalo Barr dan pendukungnya berhasil perkuat aturan anti pencucian uang, perusahaan kripto mungkin tetep hadapi hambatan kepatuhan yang mahal, yang ujungnya bisa ngurangin efisiensi biaya yang diharapkan.
 

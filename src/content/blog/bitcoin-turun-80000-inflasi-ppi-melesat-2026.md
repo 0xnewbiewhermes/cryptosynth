@@ -14,6 +14,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Data Producer Price Index (PPI) April 2026 AS naik 1,4% secara bulanan, hampir tiga kali lipat dari ekspektasi 0,5%, dan mendorong Bitcoin turun di bawah $80.000. Inflasi tahunan produsen mencapai 6%, sementara CPI kemarin tercatat 3,8% YoY, tertinggi dalam hampir tiga tahun.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Data Inflasi PPI April 2026 Pecahkan Ekspektasi
 
@@ -61,6 +66,7 @@ Latar belakang ini semakin rumit dengan konfirmasi **Kevin Warsh** ke Dewan Gube
 Namun, pertanyaan besar tetap: apakah Fed perlu mempertimbangkan **pengetatan tambahan** alih-alih pemotongan suku bunga? Trump terus menekan Fed untuk menurunkan suku bunga, tapi data inflasi yang terus memanas membuat langkah tersebut semakin sulit.
 
 Level $80.000 jadi support psikologis kunci. Kalo daily close di bawah sini, siap-siap aksi jual lanjutan. Inflasi AS masih panas , PPI 6%, CPI 3,8%. The Fed gak bakal potong bunga dalam waktu dekat. Tapi katalis positif masih ada: pembicaraan Trump-Xi dan konfirmasi Warsh ke Fed bisa dorong sentimen jangka pendek.
+Buat trader Indonesia, tekanan inflasi AS ini kena ke harga BTC di exchange lokal. Rupiah yang melemah ke Rp16.500/USD bikin BTC/IDR turun lebih curam dari BTC/USD , selisihnya bisa 2-3% dalam seminggu. Pantau pasangan IDR di Indodax, kadang ada kesempatan arbitrase dasar kalo market maker di lokal beda reaksi dari global.
 
 ## Sumber
 

@@ -13,8 +13,9 @@ author: "CryptoSynth Research"
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto memiliki fluktuasi harga yang tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/20/why-trump-s-bitcoin-etf-plans-likely-collapsed-before-even-getting-off-the-ground), rencana ETF Bitcoin dari Truth Social batal sebelum benar-benar lepas landas. Trump Media & Technology Group (TMTG) menarik registrasi SEC untuk Truth Social Bitcoin ETF dan Truth Social Bitcoin & Ethereum ETF, dengan alasan "struktural reset."
 
@@ -36,7 +37,7 @@ Truth Social mengklaim penarikan ini terkait dengan perbedaan antara Securities 
 
 Seyffart justru melihat peluang bagi Truth Social untuk mengajukan ETF Bitcoin dengan **struktur '40 Act** yang memberikan lebih banyak fleksibilitas, seperti derivatif, pendapatan aktif, atau produk berkarakteristik unik lainnya. Strategi yang lebih terdiferensiasi, katanya, lebih masuk akal daripada ETF Bitcoin vanilla ke-14.
 
-Fee war ini bukan cuma berita Wall Street. Buat investor Indo yang akses ETF Bitcoin AS lewat broker internasional, setiap penurunan basis poin berarti biaya tahunan lebih rendah. Dengan 13 produk yang bersaing, tekanan buat nurunin fee masih bakal lanjut. Konsolidasi mulai keliatan: dari puluhan pendaftaran awal, cuma produk dengan dukungan distribusi kuat dan biaya rendah yang bertahan. ETF Bitcoin vanilla udah jadi komoditas , keunggulan kompetitif sekarang ada di inovasi produk (active management, income generation, derivatives) dan efisiensi biaya.
+Fee war ini bukan cuma berita Wall Street. Buat investor Indonesia yang akses ETF Bitcoin AS lewat broker internasional, setiap penurunan basis poin berarti biaya tahunan lebih rendah. Dengan 13 produk yang bersaing, tekanan buat nurunin fee masih bakal lanjut. Konsolidasi mulai keliatan: dari puluhan pendaftaran awal, cuma produk dengan dukungan distribusi kuat dan biaya rendah yang bertahan. ETF Bitcoin vanilla udah jadi komoditas, keunggulan kompetitif sekarang ada di inovasi produk (active management, income generation, derivatives) dan efisiensi biaya. Buat investor di Indonesia yang belum punya akses langsung ke ETF AS, ini jadi indikator: makin kompetitif pasar ETF di AS, makin turun biaya produk serupa yang mungkin masuk ke bursa Asia termasuk Indonesia kalo regulasi ngizinin.
 
 Saham Trump Media (DJT) sendiri diperdagangkan turun tipis pasca-pengumuman, menunjukkan pasar sudah mengantisipasi langkah ini.
 

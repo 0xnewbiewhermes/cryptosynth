@@ -15,6 +15,11 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 <div class="tldr-box">
 <strong>TL;DR:</strong> Endowment Dartmouth College senilai $9 miliar ungkap investasi $14,5 juta di ETF crypto, termasuk posisi baru di Bitwise Solana Staking ETF senilai $3,3 juta. Ini menambah daftar universitas AS yang masuk ke aset digital.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Dartmouth Resmi Tambah Eksposur Crypto Lewat ETF
 
@@ -57,9 +62,11 @@ Meskipun demikian, Bitcoin berhasil rally sekitar **2%** dalam 24 jam terakhir k
 
 Keputusan Dartmouth menambahkan **Solana ETF** ke portofolio endowment mereka punya implikasi yang lebih luas dari sekadar berita institusional biasa, dan ini belum banyak dibahas oleh media crypto mainstream.
 
-Banyak trader ritel Indonesia yang sudah lama bullish di Solana (SOL diperdagangkan di $94,64 saat penulisan), tapi validasi dari endowment universitas sekelas Dartmouth menunjukkan bahwa aset ini mulai dianggap serius oleh investor konservatif berhorizon waktu panjang. Ini bukan hedge fund yang ambil posisi spekulatif, ini dana pensiun universitas yang biasanya ultra-konservatif.
+Banyak trader ritel Indonesia yang udah lama bullish di Solana (SOL diperdagangkan di $94,64 saat penulisan), tapi validasi dari endowment universitas sekelas Dartmouth menunjukkan bahwa aset ini mulai dianggap serius oleh investor konservatif berhorizon waktu panjang. Ini bukan hedge fund yang ambil posisi spekulatif, ini dana pensiun universitas yang biasanya ultra-konservatif.
 
-Yang juga menarik adalah pola rebalancing Dartmouth. Mereka mengurangi posisi Bitcoin dan Ethereum Mini Trust, lalu masuk ke Ethereum *Staking* ETF dan Solana *Staking* ETF. Artinya, institusi besar sekarang tidak hanya mencari eksposur harga crypto, tapi juga **yield dari staking**. Ini relevan untuk ekosistem DeFi Indonesia, protokol staking dan liquid staking di Solana dan Ethereum bisa mendapat boost sentimen positif dari tren ini. Trader Indonesia yang aktif di staking pool atau liquid staking token (seperti JitoSOL atau mETH) perlu memperhatikan bahwa arah institusional sedang bergerak ke sana.
+Pola rebalancing Dartmouth cukup gamblang: mereka kurangi posisi Bitcoin dan Ethereum Mini Trust, lalu masuk ke Ethereum *Staking* ETF dan Solana *Staking* ETF. Artinya, institusi besar sekarang gak cari eksposur harga doang, tapi juga **yield dari staking**. Buat ekosistem DeFi Indonesia, protokol staking dan liquid staking di Solana dan Ethereum bisa dapet dorongan langsung dari tren ini. Trader Indonesia yang aktif di staking pool atau liquid staking token (kayak JitoSOL atau mETH) perlu catat: arah institusional lagi bergerak ke sana.
+
+Gw liat ini beda sama narasi institusional tahun lalu yang cuma soal "adopsi terus berjalan." Dartmouth ngasih sinyal konkret: yield dari staking jadi pertimbangan utama. Kalo tren ini berlanjut, liquid staking token bisa naik kelas jadi aset institusional, bukan cuma alat farming buat ritel.
 
 ## Harga Crypto Terkini
 

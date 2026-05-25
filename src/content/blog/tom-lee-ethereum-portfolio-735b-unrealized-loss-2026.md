@@ -25,8 +25,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini berdasarkan laporan Cointelegraph, X/post, dan data pasar publik. Bukan saran investasi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Tom Lee, nama yang lo mungkin kenal dari Fundstrat, sekarang lagi gigit jari lewat perusahaannya BitMine. Perusahaan ini megang 5.28 juta ETH atau sekitar 4.37% dari total supply Ethereum. Masalahnya? Mereka kebeli di harga rata-rata $3.513 per koin. Sekarang ETH di $2.100.
 

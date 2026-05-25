@@ -14,6 +14,11 @@ faq: "Apa yang perlu diketahui tentang Consensys Tunda IPO hingga Musim Gugur 20
 <div class="tldr-box">
 <strong>TL;DR:</strong> Consensys, perusahaan di balik wallet MetaMask, menunda rencana IPO di AS hingga musim gugur 2026 karena kondisi pasar crypto yang buruk. Padahal mereka sudah menggandeng JPMorgan dan Goldman Sachs untuk memimpin proses tersebut.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Consensys Tunda IPO karena Pasar Lesu
 
@@ -64,9 +69,9 @@ Jalan menuju IPO Consensys sebenarnya sudah lebih bersih secara regulasi. SEC se
 
 Namun, kondisi pasar yang buruk tetap menjadi penghalang utama. Ketika sentimen investor terhadap listing crypto sangat volatile, seperti yang terlihat dari kasus BitGo, perusahaan-perusahaan memilih menunggu waktu yang lebih tepat.
 
-IPO bitcoin? Bukan jaminan untung. Kasus BitGo jelas: hype IPO crypto gak bertahan lama. Fundamental tetaplah fundamental, Consensys punya MetaMask yang dipake jutaan orang. Penundaan IPO gak ngubah fundamental bisnis mereka.
+IPO bitcoin? Bukan jaminan untung. Kasus BitGo jelas: hype IPO crypto gak bertahan lama. Setelah naik 20% di hari pertama, saham BitGo jeblok 36% di bawah harga IPO, artinya investor yang beli pas listing rugi telak. Fundamental tetaplah fundamental, Consensys punya MetaMask yang dipake jutaan orang di seluruh dunia, termasuk basis pengguna yang besar di Indonesia lewat ekosistem Ethereum. Penundaan IPO gak ngubah fundamental bisnis mereka.
 
-Pasar crypto itu siklik. Penundaan ke musim gugur kasih waktu buat pasar pulih. Kalo kondisi membaik, IPO Consensys bisa jadi salah satu listing crypto terbesar. Yang menarik, Joe Lubin sebelumnya ngonfirmasi token MASK lagi dikembangin, plus fitur perpetual futures dan program rewards.
+Pasar crypto itu siklik. Penundaan ke musim gugur kasih waktu buat pasar pulih. Kalo kondisi membaik, IPO Consensys bisa jadi salah satu listing crypto terbesar. Joe Lubin sendiri ngonfirmasi token MASK lagi dikembangin, plus fitur perpetual futures dan program rewards. Buat komunitas Ethereum Indonesia yang mayoritas pake MetaMask, perkembangan ini worth buat dipantau. Kalo IPO sukses dan ekosistem MetaMask berkembang, layanan kayak Swap dan Staking di wallet itu bakal makin kompetitif.
 
 ## Harga Crypto Terkini
 

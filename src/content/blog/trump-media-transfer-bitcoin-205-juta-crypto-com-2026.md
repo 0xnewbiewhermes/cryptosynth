@@ -17,8 +17,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung fluktuasi harga yang tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Trump Media Pindahkan 2.650 BTC ke Crypto.com
 
@@ -44,7 +45,7 @@ Tapi hasilnya berbeda. Laporan keuangan kuartal pertama 2026 menunjukkan Trump M
 
 Sebelum transfer ini, Trump Media juga menarik kembali aplikasi ETF bitcoin spot mereka. Analis ETF mengatakan keputusan itu lebih disebabkan oleh persaingan biaya yang ketat di sektor ETF bitcoin spot daripada masalah regulasi.
 
-Kasus Trump Media nunjukin risiko utama strategi bitcoin treasury perusahaan publik: timing. Perusahaan yang beli BTC di harga tinggi ($118.522) kena tekanan ganda , kerugian portofolio $455 juta dan kritik pemegang saham. Buat trader Indo yang pantau support BTC di $75.000-$77.000: kalo DJT terus jual BTC buat nutup kerugian operasional, tekanan jual tambahan bisa ngefek harga jangka pendek. Tapi catet: transfer ke exchange gak selalu berarti langsung jual. Bisa jadi cuma dipindahin buat keperluan treasury lain kayak jaminan pinjaman atau rebalancing. Yang jelas, wallet Trump Media masih megang hampir 7.000 BTC , pergerakan selanjutnya worth to watch.
+Kasus Trump Media nunjukin risiko utama strategi bitcoin treasury perusahaan publik: timing. Perusahaan yang beli BTC di harga tinggi ($118.522) kena tekanan ganda, kerugian portofolio $455 juta dan kritik pemegang saham. Buat trader Indonesia yang pantau support BTC di $75.000-$77.000: kalo DJT terus jual BTC buat nutup kerugian operasional, tekanan jual tambahan bisa ngefek harga jangka pendek. Tapi catet: transfer ke exchange gak selalu berarti langsung jual. Bisa jadi cuma dipindahin buat keperluan treasury lain kayak jaminan pinjaman atau rebalancing. Yang jelas, wallet Trump Media masih megang hampir 7.000 BTC, pergerakan selanjutnya worth to watch. Buat konteks Indonesia, pelajaran dari Trump Media relevan buat perusahaan publik lokal yang mungkin lirik strategi bitcoin treasury. Data nunjukin timing entry jadi faktor paling krusial, dan risiko mark-to-market bisa ngancurin laporan keuangan kuartalan kalo entry price-nya terlalu tinggi.
 
 ## Sumber
 

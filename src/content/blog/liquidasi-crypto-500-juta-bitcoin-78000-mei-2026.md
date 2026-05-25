@@ -17,8 +17,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Bitcoin Anjlok ke $78.000, Lebih dari $500 Juta Posisi Long Terhapus
 
@@ -59,9 +60,9 @@ Akar masalahnya adalah inflasi. Data CPI dan PPI yang terus-menerus panas dikomb
 
 Crypto, yang sebelumnya memperkirakan pelonggaran likuiditas sepanjang 2026, kini sedang menghitung ulang skenario yang berlawanan.
 
-Koreksi ini punya implikasi khusus buat trader Indo. Pasar lokal yang mayoritas retail dengan posisi leverage tinggi , rentan banget sama kaskade liquidasi kayak gini. 95% liquidasi ngehantam posisi long, artinya banyak trader pake margin gede tanpa stop-loss yang memadai. Buat lo yang trading di exchange lokal maupun internasional, momen ini jadi pengingat: leverage di atas 10x dalam kondisi makro kayak gini , resep bencana.
+Koreksi ini punya implikasi khusus buat trader Indonesia. Pasar lokal yang mayoritas retail dengan posisi leverage tinggi, rentan banget sama kaskade liquidasi kayak gini. 95% liquidasi ngehantam posisi long, artinya banyak trader pake margin gede tanpa stop-loss yang memadai. Buat lo yang trading di Indodax atau exchange luar, momen ini jadi pengingat: leverage di atas 10x dalam kondisi makro kayak gini, resep bencana.
 
-Yang juga perlu dicermati: pergeseran ekspektasi pasar terhadap kebijakan Fed. Selama berbulan-bulan, narasi bullish crypto berputar di sekitar pemotongan suku bunga dan pelonggaran likuiditas. Pas pasar berbalik arah dan mulai memperhitungkan kenaikan suku bunga, seluruh thesis investasi crypto buat paruh kedua 2026 perlu dievaluasi ulang.
+Yang menarik: selama berbulan-bulan narasi bullish crypto berputar di sekitar pemotongan suku bunga dan pelonggaran likuiditas. Pas pasar berbalik arah dan mulai memperhitungkan kenaikan suku bunga, seluruh thesis investasi crypto buat paruh kedua 2026 perlu dievaluasi ulang. Data CME FedWatch Tool nunjukin 60% pelaku pasar sekarang expect kenaikan suku bunga, bukan pemotongan. Buat investor Indonesia yang biasa hold spot, ini artinya opportunity cost makin tinggi karena suku bunga acuan global naik sementara crypto lagi koreksi.
 
 ## Sumber
 

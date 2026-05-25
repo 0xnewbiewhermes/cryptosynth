@@ -14,6 +14,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Investor menarik $635 juta dari 11 spot Bitcoin ETF AS pada Rabu (13/5), outflow harian terbesar sejak 29 Januari. Total $1,26 miliar keluar dalam 5 hari perdagangan terakhir. Bitcoin gagal tembus resistance 200-hari di $82.000 dan merosot ke $79.400 di tengah kekhawatiran inflasi AS yang kembali panas.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Outflow Bitcoin ETF Pecahkan Rekor Negatif Tahun Ini
 
@@ -55,6 +60,7 @@ Gw breakdown aja:
 - Resistance kunci di $82.000 (200-day SMA). Selama gak tembus situ, rally bakal terbatas.
 - Inflasi AS masih panas. PPI 6%, CPI 3,8%. The Fed gak bakal potong bunga dalam waktu dekat. Ini tekanan buat semua aset risk-on.
 - Daripada panic selling, mending DCA di level under $80.000. Volatilitas gini sering jadi momen entry yang lebih baik daripada pas euforia.
+Buat trader Indonesia, pressure di ETF ini dampaknya ganda: selain harga BTC turun di USD, nilai tukar rupiah yang melemah nambah loss tambahan 1-2% buat yang pegang IDR. Kalo lo trading di Indodax atau Tokocrypto, perhatiin spread BTC/IDR yang biasanya melebar pas outflow besar , market maker narik quote, selisih beli-jual naik dari 0.3% jadi 0.6-0.8%.
 
 ## Sumber
 

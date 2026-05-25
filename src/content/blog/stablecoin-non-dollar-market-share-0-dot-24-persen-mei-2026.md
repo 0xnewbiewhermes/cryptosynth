@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Dominasi Dollar di Pasar Stablecoin Semakin Kuat
 
@@ -30,7 +31,7 @@ John Turner, Global Head of Stablecoins di Coinbase, menjelaskan fenomena ini ke
 
 USDT dan USDC sebagai first mover punya likuiditas paling dalam. Likuiditas ini menarik volume transaksi. Volume transaksi menarik use case dan integrasi. Dan use case yang banyak menarik lebih banyak likuiditas lagi. Non-dollar stablecoin tidak pernah bisa memulai siklus ini karena mereka datang belakangan dengan likuiditas yang jauh lebih kecil.
 
-Data [Lookonchain](https://www.lookonchain.com/feeds/56980) mengonfirmasi pola yang sama. Selama lima tahun terakhir, supply stablecoin non-USD hampir dua kali lipat, tapi dominasi dollar di on-chain justru semakin kuat , kebalikan dari tren di keuangan tradisional.
+Data [Lookonchain](https://www.lookonchain.com/feeds/56980) mengonfirmasi pola yang sama. Selama lima tahun terakhir, supply stablecoin non-USD hampir dua kali lipat, tapi dominasi dollar di on-chain justru semakin kuat, kebalikan dari tren di keuangan tradisional. Perbandingannya: di TradFi dominasi dollar turun dari 89% transaksi valas (2019) ke 83% (2025), tapi di blockchain dollar malah naik dari 99,74% ke 99,76%.
 
 ### Keunggulan Treasury AS
 

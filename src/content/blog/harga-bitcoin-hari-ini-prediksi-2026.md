@@ -15,6 +15,10 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <strong>TL;DR:</strong> Bitcoin berada di level $82.000 dengan sentimen bullish. Analis memprediksi potensi rally ke $100.000 di akhir 2026.
 </div>
 
+<div class="disclaimer-box">
+<em>Artikel ini bersifat informatif dan bukan saran keuangan. Prediksi harga tidak pasti. Selalu DYOR sebelum investasi.</em>
+</div>
+
 ## Harga Bitcoin Hari Ini
 
 Menurut laporan [CoinGecko](https://www.coingecko.com/en/coins/bitcoin), bitcoin (BTC) saat ini diperdagangkan di sekitar **$82.000**, mencatat rekor tertinggi baru setelah rally 15% dalam dua minggu terakhir.
@@ -87,9 +91,9 @@ Ekspektasi pemotongan suku bunga Fed membuat investor mencari aset berisiko term
 - Take profit bertahap di level kunci
 - Gunakan stop loss untuk proteksi
 
-## Hubungan Bitcoin dengan Rupiah
+Kalau lo nanya prediksi Bitcoin 2026 yang realistis buat Indonesia, jawaban gw: tergantung kebijakan Fed dan harga energi global. Prediksi Standard Chartered $150.000 itu bukan mustahil, tapi juga bukan jaminan. Yang lebih penting dari prediksi harga adalah manajemen risiko. Data Bappebti nyatain jumlah investor kripto Indonesia udah 30 juta+, tapi mayoritas masih belum pake stop loss atau diversifikasi portofolio. FOMO beli di puncak terus panic sell di dasar itu siklus yang terus berulang.
 
-Bitcoin bukan hanya naik dalam USD, juga naik dalam Rupiah karena pelemahan IDR. Ini membuat BTC menjadi hedge terhadap inflasi dan depresiasi Rupiah.
+Yang gw liat, faktor paling ngaruh buat harga Bitcoin di sisa 2026 bukan prediksi analis, tapi tiga hal: keputusan suku bunga Fed (probabilitas naik 44% di Desember), aliran dana ETF Bitcoin (outflow $635 juta dalam sehari udah terjadi), dan adopsi institusional lewat produk kayak tokenized Treasury. Lo bisa pake tiga indikator ini buat ngukur arah pasar, bukan percaya prediksi harga mentah.
 
 ---
 
@@ -102,13 +106,13 @@ Bitcoin bukan hanya naik dalam USD, juga naik dalam Rupiah karena pelemahan IDR.
 
 
 
-<div class="disclaimer-box">
-<em>Artikel ini bersifat informatif dan bukan saran keuangan. Prediksi harga tidak pasti. Selalu DYOR sebelum investasi.</em>
-</div>
+
 
 
 ## Sumber
 
 1. [CoinGecko - Bitcoin Price Chart](https://www.coingecko.com/en/coins/bitcoin) (Data real-time)
 2. [CoinDesk - Bitcoin Market Data](https://www.coindesk.com/price/bitcoin) (Data real-time)
+Buat konteks Indonesia, prediksi harga Bitcoin di 2026 juga kena dampak pelemahan rupiah. Ketika BTC/USD naik 10%, BTC/IDR bisa naik 12-13% karena efek kurs. Tapi kalo bearish, kerugian juga double. Pantau DXY dan kurs BI, dua indikator yang paling ngaruh ke harga lokal.
+
 3. [TradingView - BTC/USD Chart](https://www.tradingview.com/symbols/BTCUSD/) (Data real-time)

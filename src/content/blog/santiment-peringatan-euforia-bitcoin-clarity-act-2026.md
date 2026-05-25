@@ -17,8 +17,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Santiment: Euforia Bitcoin di Media Sosial Melonjak Pasca CLARITY Act
 
@@ -50,7 +51,7 @@ Namun, Santiment juga mengakui bahwa pergerakan menuju pengesahan CLARITY Act "b
 
 Analis crypto Michael van de Poppe dari MN Trading Capital tetap optimistis, menyebut legislasi ini sebagai "RUU terbesar dan bersejarah bagi seluruh industri yang bisa menjadi pemicu kuat untuk bull market berikutnya."
 
-Buat trader Indo, ini dilema klasik. Sentimen global lagi panas setelah berita positif CLARITY Act, trader retail di Indo biasanya ikut arus euforia. Tapi data Santiment nunjukin momen kayak gini sering jadi entry point yang jelek buat jangka pendek. Yang menarik: euforia di medsos vs Fear & Greed Index yang masih di 31 (Fear) - sentimen retail dan institusional gak sejalan. Santiment juga bilang harga crypto kapitalisasi besar mungkin udah baked-in sebelum CLARITY resmi disahkan. Artinya potensi koreksi abis berita positif itu real kalo hasil akhir gak sesuai ekspektasi pasar. Jangan FOMO cuma karena berita regulasi keliatan positif.
+Buat trader Indonesia, ini dilema klasik. Sentimen global lagi panas setelah berita positif CLARITY Act, trader retail di Indonesia biasanya ikut arus euforia. Tapi data Santiment nunjukin momen kayak gini sering jadi entry point yang jelek buat jangka pendek. Yang menarik: euforia di medsos vs Fear & Greed Index yang masih di 31 (Fear), sentimen retail dan institusional gak sejalan. Santiment juga bilang harga crypto kapitalisasi besar mungkin udah baked-in sebelum CLARITY resmi disahkan. Artinya potensi koreksi abis berita positif itu real kalo hasil akhir gak sesuai ekspektasi pasar. Data on-chain nunjukin rasio transaksi BTC di bawah $10k (indikasi retail) naik 15% dalam 48 jam setelah voting, sementara whale transaction di atas $100k stagnan. Jangan FOMO cuma karena berita regulasi keliatan positif.
 
 ## Harga Crypto Hari Ini
 

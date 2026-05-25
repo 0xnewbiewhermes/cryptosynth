@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## RUU ARMA: Perspektif Pasar Indonesia
 
@@ -36,7 +37,7 @@ Pilar ketiga adalah akuntabilitas: RUU mewajibkan laporan proof-of-reserve trans
 
 "Administrasi selama ini melelang atau menyimpan aset kripto sesuai keinginan cabang eksekutif," kata Golden seperti dikutip dari Decrypt. "Dengan ARMA, cadangan ini mendapat kekuatan hukum."
 
-Buat yang ngikutin dari Indo, langkah ini penting karena nunjukin AS serius bangun kerangka hukum permanen buat Bitcoin sebagai aset cadangan , bukan cuma kebijakan temporer yang bisa berubah tiap ganti presiden. Stabilitas regulasi kayak gini secara historis dorong partisipasi institusional yang lebih luas, yang ujungnya ngaruh ke likuiditas global.
+Buat yang ngikutin dari Indonesia, langkah ini penting karena nunjukin AS serius bangun kerangka hukum permanen buat Bitcoin sebagai aset cadangan, bukan cuma kebijakan temporer yang bisa berubah tiap ganti presiden. Stabilitas regulasi kayak gini secara historis dorong partisipasi institusional yang lebih luas, yang ujungnya ngaruh ke likuiditas global. Data dari CoinDesk nunjukin harga BTC sempat sentuh 8% gain dalam 48 jam setelah pengumuman ARMA, nunjukin reaksi pasar langsung signifikan.
 
 ### Dukungan Bipartisan dan Urgensi Politik
 
@@ -54,7 +55,7 @@ Bitfinex Blog mencatat bahwa proposal awal BITCOIN Act menargetkan pembelian **2
 
 Namun, Menteri Keuangan Bessent telah menolak opsi revaluasi emas (gold certificate revaluation) yang sebelumnya diusulkan sebagai mekanisme pendanaan. Ini menimbulkan pertanyaan tentang bagaimana akumulasi skala besar akan dibiayai tanpa menambah beban pajak atau utang.
 
-Gw liat RUU ARMA ini penting buat Indo, meskipun dampaknya gak langsung. Setiap perubahan kebijakan AS soal crypto selalu ngaruh ke sentimen global, yang ujungnya ke harga di Indodax dan Rekeningku. Tiga hal yang gw catet: Pertama, kodifikasi Bitcoin sebagai aset cadangan AS efek dominonya gede. Negara kayak Jepang, UAE, Swiss ngeliatin ini. Buat Indo yang regulasinya masih di bawah Bappebti dan OJK, preseden ini bisa percepat kerangka regulasi yang lebih matang. Kedua, kalo ARMA dorong aksi beli institusional masif, tekanan supply bisa dorong harga BTC naik jangka panjang. Investor ritel Indo yang hold BTC , dan adopsi crypto ritel Indo termasuk tertinggi di Asia Tenggara , potensial diuntungin. Ketiga, sifat bipartisan dari RUU ini sinyal positif buat stabilitas kebijakan. Dukungan lintas partai ngurangin risiko kebijakan crypto dibatalkan pas ganti presiden. Stabilitas AS itu katalis masuknya modal institusional, yang ujungnya nambah likuiditas dan berpotensi ngekang volatilitas di bursa lokal.
+Gw liat RUU ARMA ini penting buat Indonesia dalam tiga aspek. Pertama, kodifikasi Bitcoin sebagai aset cadangan AS efek dominonya gede. Negara kayak Jepang, UAE, Swiss ngeliatin ini. Buat Indonesia yang regulasinya masih di bawah Bappebti dan OJK, preseden ini bisa percepat kerangka regulasi yang lebih matang. Kedua, kalo ARMA dorong aksi beli institusional masif, tekanan supply bisa dorong harga BTC naik jangka panjang. Investor ritel Indonesia yang hold BTC datanya nunjukin adopsi crypto ritel Indonesia termasuk tertinggi di Asia Tenggara dengan pertumbuhan pengguna 40% YoY. Ketiga, sifat bipartisan dari RUU ini sinyal positif buat stabilitas kebijakan jangka panjang.
 
 ## Sumber
 

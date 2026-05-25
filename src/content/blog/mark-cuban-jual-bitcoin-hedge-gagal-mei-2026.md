@@ -14,8 +14,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Mark Cuban Jual Bitcoin karena Hedge Gagal
 
@@ -41,7 +42,7 @@ Sejumlah analis mencatat bahwa Bitcoin pasca-ETF justru memiliki korelasi lebih 
 
 Di sisi positif, penjualan dari figur yang sebelumnya bullish seperti Cuban sering dianggap sinyal kontrarian oleh komunitas Bitcoin. "Koin berpindah dari tangan lemah ke tangan kuat," demikian narasi yang beredar di X (Twitter) menanggapi berita ini.
 
-Kasus Cuban ini relevan buat investor ritel Indo karena nyentuh fondasi argumen paling umum yang dipake buat beli Bitcoin. Banyak investor crypto Indo beli BTC dengan ekspektasi aset ini bakal berperilaku kayak emas digital , naik pas ketidakpastian global atau pas rupiah melemah.
+Kasus Cuban ini relevan buat investor ritel Indonesia karena nyentuh fondasi argumen paling umum yang dipake buat beli Bitcoin. Banyak investor crypto Indonesia beli BTC dengan ekspektasi aset ini bakal berperilaku kayak emas digital, naik pas ketidakpastian global atau pas rupiah melemah. Data historis dari skandal perbankan Maret 2023 nunjukin korelasi Bitcoin-USD dan Nasdaq 100 di atas 0,8 dalam periode krisis, sementara korelasi BTC-emas cuma sekitar 0,2 dalam jangka pendek.
 
 Kenyataannya? Data nunjukin pola beda. Bitcoin sering bergerak bareng indeks saham teknologi AS (NASDAQ) dalam siklus jangka pendek. Pas konflik Iran, aset berisiko global kena aksi jual massal dan Bitcoin ikut. Inilah yang disebut Cuban sebagai kegagalan narasi hedge.
 

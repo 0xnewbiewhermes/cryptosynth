@@ -14,8 +14,9 @@ author: "CryptoSynth Research"
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Michael Saylor Buka Suara Soal Penjualan Bitcoin
 
@@ -61,9 +62,9 @@ Dalam wawancara dengan CoinDesk di Consensus Miami yang dilaporkan oleh [Benzing
 
 Jika Strategy mendanai semua dividennya dengan Bitcoin, jumlahnya hanya sekitar $3 juta - yang disebut Saylor sebagai "tidak terukur dan tidak signifikan."
 
-Gw liat ada pelajaran buat trader dan investor crypto di Indo. Saylor yang pragmatis nunjukin bahkan perusahaan dengan kepemilikan Bitcoin terbesar di dunia pun perlu fleksibilitas. Dogma kayak never sell bisa jadi bumerang pas kondisi berubah. Tapi jangan salah sangka: Strategy tetep beli 20 BTC buat setiap 1 BTC yang dijual. Rasio 20:1 , arahnya masih bullish. Yang menarik, rencana buyback obligasi konversi dengan diskon 8% justru nguatin posisi keuangan mereka. Ini sinyal manajemen utang yang cerdas, bukan kelemahan.
+Gw liat ada pelajaran buat trader dan investor crypto di Indonesia. Saylor yang pragmatis nunjukin bahkan perusahaan dengan kepemilikan Bitcoin terbesar di dunia pun perlu fleksibilitas. Dogma kayak never sell bisa jadi bumerang pas kondisi berubah. Tapi jangan salah sangka: Strategy tetep beli 20 BTC buat setiap 1 BTC yang dijual. Rasio 20:1, arahnya masih bullish. Yang menarik, rencana buyback obligasi konversi dengan diskon 8% justru nguatin posisi keuangan mereka. Ini sinyal manajemen utang yang cerdas, bukan kelemahan. Buat investor Indonesia yang selama ini megang filosofi "hodl forever", kasus Saylor nunjukin bahwa manajemen posisi yang adaptif lebih penting dari dogma. Terutama buat yang punya eksposur besar di Bitcoin lewat Indodax atau exchange lokal, korelasinya dengan pasar saham global perlu jadi pertimbangan waktu ngatur alokasi.
 
-Gw liat langkah Saylor ini lebih mateng dari yang dikira orang. Alih-alih hodl forever, pendekatannya sekarang: Bitcoin sebagai aset produktif yang bisa dipake buat optimalisasi struktur modal. Perusahaan masih beli lebih banyak daripada jual (20:1). Potensi penjualan cuma di skenario spesifik kayak buyback obligasi atau dividen. Likuiditas harian BTC $20-100 miliar , penjualan kecil Strategy gak bakal ngefek harga. Buat jangka panjang, ini sinyal positif: Strategy makin mature dalam manajemen keuangan, yang ujungnya nguatin posisi Bitcoin sebagai aset institusional.
+Gw liat langkah Saylor ini lebih mateng dari yang dikira orang. Alih-alih hodl forever, pendekatannya sekarang: Bitcoin sebagai aset produktif yang bisa dipake buat optimalisasi struktur modal. Perusahaan masih beli lebih banyak daripada jual (20:1). Potensi penjualan cuma di skenario spesifik kayak buyback obligasi atau dividen. Likuiditas harian BTC $20-100 miliar, penjualan kecil Strategy gak bakal ngefek harga. Buat jangka panjang, ini sinyal positif: Strategy makin mature dalam manajemen keuangan, yang ujungnya nguatin posisi Bitcoin sebagai aset institusional. Buat Indonesia, strategi ini relevan buat perusahaan lokal yang mulai lirik treasury Bitcoin. Kalo Saylor aja fleksibel, perusahaan Indonesia kayak perusahaan publik di bursa efek juga harus siap adaptasi.
 
 ## Sumber
 

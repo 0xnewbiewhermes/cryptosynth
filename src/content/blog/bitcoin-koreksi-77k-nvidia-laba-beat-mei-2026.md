@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Gw liat Bitcoin gagal reclaimed $78.000 setelah sempat nyentuh $77.678 di Bitstamp. Coinbase Premium Gap tembus -$66,8 , terdalam sejak Februari , sinyal permintaan dari investor AS lagi lemah banget. Sementara itu, Nvidia baru aja rilis laba Q1 2027 yang beat ekspektasi: EPS $1,87 vs konsensus $1,76, pendapatan $81,62 miliar, dan guidance Q2 di $91 miliar.
 

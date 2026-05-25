@@ -14,10 +14,15 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Whale Hyperliquid yang sudah mengantongi profit $42 juta membuka posisi short senilai $70 juta di Bitcoin, HYPE, dan token sintetik saham tech. Meski terlihat bearish, analisis menunjukkan ini adalah manuver teknikal jangka pendek, bukan sinyal kehancuran pasar.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Bitcoin Turun di Bawah $80.000, Whale Hyperliquid Flip Bearish
 
-Menurut laporan [CoinGecko](https://www.coingecko.com/en/coins/bitcoin), bitcoin (BTC) gagal mempertahankan momentum bullish pada Rabu (13/5), turun di bawah level psikologis $80.000. Tekanan datang dari melonjaknya harga minyak dan data inflasi produsen AS (PPI) yang jauh di atas ekspektasi, naik 1,4% secara bulanan, hampir tiga kali lipat prediksi analis.
+Menurut laporan [CoinGecko](https://www.coingecko.com/en/coins/bitcoin), bitcoin (BTC) gagal bertahan di atas $82.000 pada Rabu (13/5), turun di bawah level psikologis $80.000. Tekanan datang dari melonjaknya harga minyak dan data inflasi produsen AS (PPI) yang jauh di atas ekspektasi, naik 1,4% secara bulanan, hampir tiga kali lipat prediksi analis.
 
 Di tengah kepanikan pasar, sebuah whale di ekosistem Hyperliquid membuka posisi short senilai **$70 juta** di berbagai aset crypto dan token sintetik yang terkait dengan saham teknologi besar. Langkah ini memicu kekhawatiran di kalangan trader: apakah rally terakhir Bitcoin sudah kehabisan tenaga?
 
@@ -55,7 +60,7 @@ Short besar ini terjadi di tengah tekanan makro yang signifikan:
 
 Namun, ada sisi bullish dari persamaan ini. Ekspansi neraca The Fed berarti lebih banyak likuiditas di pasar, yang secara historis positif untuk Bitcoin dalam jangka menengah. Ketika imbal hasil Treasury AS naik dan kepercayaan terhadap kebijakan moneter menurun, investor cenderung mencari aset langka seperti Bitcoin.
 
-Buat trader Indo , jangan panik. Beberapa catatan: ini manuver teknikal, bukan fundamental. Whale ini rata-rata nahan posisi kurang dari seminggu. Short $70 juta bisa berubah jadi long dalam hitungan hari. Whale yang sama tetep bullish jangka panjang , profit $42 juta sebagian besar dari taruhan bullish. Flip ke short kemungkinan reaksi ke level resistance teknikal. Support BTC di $78.000 dan $75.000, resistance di $82.000. Kombinasi whale short dan data inflasi panas emang keliatan serem. Tapi The Fed lagi expand neraca , ini bullish buat aset langka kayak Bitcoin. Whale short algoritmik sering jadi contrarian indicator , pas whale gede short, pasar justru bisa mantul.
+Buat trader Indonesia, jangan panik. Beberapa catatan: ini manuver teknikal, bukan fundamental. Whale ini rata-rata nahan posisi kurang dari seminggu. Short $70 juta bisa berubah jadi long dalam hitungan hari. Whale yang sama tetep bullish jangka panjang, profit $42 juta sebagian besar dari taruhan bullish. Flip ke short kemungkinan reaksi ke level resistance teknikal. Support BTC di $78.000 dan $75.000, resistance di $82.000. Kombinasi whale short dan data inflasi panas emang keliatan serem. Tapi The Fed lagi expand neraca, ini bullish buat aset langka kayak Bitcoin. Whale short algoritmik sering jadi contrarian indicator, pas whale gede short, pasar justru bisa mantul. Buat trader Indonesia yang pake platform kayak Indodax, pola short whale kayak gini historisnya sering diikuti reversal dalam 3-7 hari, jadi alih-alih FOMO ikut short, pantau dulu konfirmasi price action di level support.
 
 | Aset | Harga (USD) | Perubahan 24h |
 |------|-------------|---------------|

@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## SEC Setujui Bitcoin Index Options di Nasdaq
 
@@ -49,7 +50,7 @@ Dua peristiwa ini terjadi di waktu yang hampir bersamaan dan saling menguatkan. 
 
 **Kedua, partisipasi Bank of America menandakan pergeseran sikap bank besar.** Dengan $53 juta di ETF Bitcoin, BofA bergabung dengan Morgan Stanley, Goldman Sachs, dan JPMorgan yang sebelumnya sudah mengungkap eksposur kripto lewat filing 13F. Angka ini memang kecil dibanding total aset BofA yang triliunan dolar, tapi sinyalnya jelas: bank tradisional mulai serius dengan kripto sebagai kelas aset.
 
-Buat investor kripto Indo, perkembangan ini positif jangka panjang. Institusi global punya akses alat hedging yang lebih canggih, tekanan jual panik biasanya berkurang karena posisi besar bisa dilindungi tanpa likuidasi paksa. Artinya volatilitas BTC ke depan bisa lebih terkendali. Regulasi di Indo emang belum ngakomodasi derivatif setara Bitcoin Index Options, tapi tren global kayak gini bisa percepat pembahasan. Yang menarik: rotasi dana dari ETF Bitcoin ke altcoin (NEAR naik 19,4% di CoinDesk 20) nunjukin pasar lagi fase risk-on selektif. Institusi gak kabur dari kripto, mereka cari return lebih tinggi di lapis kedua sambil tetep megang Bitcoin lewat produk baru kayak index options. Pola yang sehat buat ekosistem jangka panjang.
+Buat investor kripto Indonesia, perkembangan ini positif jangka panjang. Institusi global punya akses alat hedging yang lebih canggih, tekanan jual panik biasanya berkurang karena posisi besar bisa dilindungi tanpa likuidasi paksa. Artinya volatilitas BTC ke depan bisa lebih terkendali. Regulasi di Indonesia emang belum ngakomodasi derivatif setara Bitcoin Index Options, tapi tren global kayak gini bisa percepat pembahasan di Bappebti. Yang menarik: rotasi dana dari ETF Bitcoin ke altcoin (NEAR naik 19,4% di CoinDesk 20) nunjukin pasar lagi fase risk-on selektif. Institusi gak kabur dari kripto, mereka cari return lebih tinggi di lapis kedua sambil tetep megang Bitcoin lewat produk baru kayak index options. Pola yang sehat buat ekosistem jangka panjang. Satu hal yang jarang dibahas: dengan adanya Bitcoin Index Options, institusi bisa hedge posisi besar tanpa jual BTC fisik. Ini artinya outflow ETF gak selalu berarti bearish, bisa jadi cuma rotasi instrumen. Buat trader Indonesia, paham perbedaan ini penting biar gak salah baca data outflow ETF sebagai sinyal jual.
 
 ## Harga Bitcoin Hari Ini
 

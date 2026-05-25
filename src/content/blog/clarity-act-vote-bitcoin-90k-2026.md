@@ -14,6 +14,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Trader Bitcoin memperkirakan pergerakan cepat menuju $90.000 dalam hitungan hari, didorong oleh voting CLARITY Act di Senate Banking Committee AS hari Kamis dan data onchain yang makin bullish. Tekanan jual dari short-term holder sudah nol persen selama lima hari berturut-turut.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## CLARITY Act: Regulasi Crypto AS Menuju Titik Terang
 
@@ -53,7 +58,7 @@ Namun, trader crypto Zord mengingatkan bahwa Bitcoin bisa menghadapi resistance 
 
 Lebih dari $3 miliar posisi *leveraged long* ngumpul di $79.000-$78.000, tanda BTC mungkin test ulang range itu dulu sebelum *breakout* 200-day EMA.
 
-Voting Clarity Act ini bukan sekadar berita AS. Regulasi yang lebih jelas di Paman Sam sering jadi leading indicator buat pasar global , termasuk Indo. Kalo RUU ini lolos dari komite, sentimen positif biasanya ngerembet ke altcoin dan token DeFi yang banyak diperdagangkan di exchange lokal.
+Voting Clarity Act ini bukan sekadar berita AS. Regulasi yang lebih jelas di Paman Sam sering jadi leading indicator buat pasar global , termasuk Indonesia. Kalo RUU ini lolos dari komite, sentimen positif biasanya ngerembet ke altcoin dan token DeFi yang banyak diperdagangkan di exchange lokal kayak Indodax dan Tokocrypto.
 
 Stablecoin tetep jadi sumber utama pergerakan uang di pasar crypto. Aktivitas alamat stablecoin ERC-20 nunjukin pertumbuhan parabolik dalam beberapa tahun terakhir. Adopsi yang lebih luas bakal support investasi jangka panjang di Bitcoin.
 

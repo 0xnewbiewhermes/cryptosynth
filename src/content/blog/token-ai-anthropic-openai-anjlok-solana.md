@@ -14,6 +14,11 @@ faq: "Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypt
 <div class="tldr-box">
 <strong>TL;DR:</strong> Token PreStocks yang mengklaim memberikan eksposur ke saham Anthropic dan OpenAI anjlok hingga 40% di Solana setelah kedua perusahaan AI menyatakan bahwa struktur SPV (Special Purpose Vehicle) yang mendasari token tersebut tidak sah tanpa persetujuan dewan direksi.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Anthropic dan OpenAI Peringatkan Investor: Saham yang Dibeli Melalui SPV Mungkin Tidak Bernilai
 
@@ -56,7 +61,7 @@ Gap antara valuasi tersirat **$1,3 triliun** dan total aset platform hanya **$23
 
 Investor awal yang duduk di atas keuntungan besar mungkin **tidak dapat mencairkan seluruh posisi mereka** karena likuiditas yang sangat tipis. Ini mengekspos kesenjangan antara klaim platform dan apa yang sebenarnya bisa dikirimkan oleh SPV yang mendasari.
 
-Gw liat kasus ini jadi pelajaran buat investor crypto di Indo. Tokenized stock bukan saham asli , lo beli token yang ngaku ngewakilin saham perusahaan swasta, tapi gak sama dengan punya saham secara langsung. Verifikasi legalitas struktur investasi itu penting: pastiin platform yang lo pake punya izin resmi dari perusahaan yang sahamnya ditokenisasi. Kasus Anthropic-OpenAI nunjukin kalo valuasi tersirat token ($1,3 triliun) jauh di atas aset aktual platform ($23 juta), itu red flag gede. Likuiditas juga kunci , token tanpa likuiditas yang memadai artinya lo bisa kejebak dan gak bisa jual. Untuk ekosistem crypto Indo, kasus ini ngingetin: inovasi harus diimbangi kehati-hatian.
+Gw liat kasus ini jadi pelajaran buat investor crypto di Indonesia. Tokenized stock bukan saham asli, lo beli token yang ngaku ngewakilin saham perusahaan swasta, tapi gak sama dengan punya saham secara langsung. Verifikasi legalitas struktur investasi itu penting: pastiin platform yang lo pake punya izin resmi dari perusahaan yang sahamnya ditokenisasi. Kasus Anthropic-OpenAI nunjukin kalo valuasi tersirat token ($1,3 triliun) jauh di atas aset aktual platform ($23 juta), itu red flag gede. Likuiditas juga kunci, token tanpa likuiditas yang memadai artinya lo bisa kejebak dan gak bisa jual. Untuk ekosistem crypto Indonesia, kasus ini ngingetin: inovasi harus diimbangi kehati-hatian. Lebih dari itu, ini jadi preseden hukum: dua perusahaan AI terbesar di dunia ngelakuin tindakan hukum preventif. Kalo ada class action atau tuntutan pidana, nilai token bisa langsung ke nol. Buat yang trading tokenized stocks di Solana, ini saatnya evaluasi ulang kerangka hukum di balik token yang lo pegang.
 
 Harga crypto terkini untuk konteks:
 
@@ -72,7 +77,7 @@ Insiden ini menandai titik kritis dalam narasi tokenisasi aset dunia nyata (RWA)
 
 Baik Anthropic maupun OpenAI secara tegas menyatakan bahwa pihak-pihak yang menjual eksposur ke saham mereka tanpa otorisasi berpotensi terlibat dalam penipuan. Ini bukan sekadar peringatan halus, ini adalah deklarasi resmi yang bisa berimplikasi hukum.
 
-Buat crypto Indo yang lagi liat token AI anjlok: ini contoh klasik kenapa tokenisasi aset tradisional tanpa kerangka hukum yang jelas itu high risk. Inovasi boleh, tapi kalo legal umbrella-nya gak jelas, lo bisa pegang token yang literally gak ada harganya besok pagi.
+Buat crypto Indonesia yang lagi liat token AI anjlok: ini contoh klasik kenapa tokenisasi aset tradisional tanpa kerangka hukum yang jelas itu high risk. Inovasi boleh, tapi kalo legal umbrella-nya gak jelas, lo bisa pegang token yang literally gak ada harganya besok pagi.
 
 ---
 

@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi. Partisipasi dalam points farming tidak menjamin mendapatkan token airdrop.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Arc Network: Points Farming untuk Potensi Airdrop
 
@@ -80,6 +81,8 @@ Beredar banyak link phishing yang mengklaim memberikan "free $CLAW airdrop" atau
 Dua proyek ini beda banget pendekatannya. Arc Network farming , gratis, daily check-in doang, potensi airdrop dari proyek backed institusi. Cuma butuh koneksi internet dan browser. Model points farming kayak gini mirip loyalty program, cocok buat yang konsisten. Tapi gak ada jaminan token $ARC bakal rilis, dan timeline masih abu-abu.
 
 $CLAW sebaliknya , udah fix tanggal listing. Tapi IDO udah tutup. Listing di PancakeSwap 26 Mei, tapi unlock 20% di TGE plus vesting linear 6 bulan, artinya selling pressure di hari pertama bakal gede. AI x Crypto lagi narasi panas, tapi likuiditas awal tipis. Gw liat yang menarik: listing timing-nya pas pas pasar lagi bearish, jadi entry bisa lebih rendah dari yang diekspektasi.
+
+Buat pemburu airdrop di Indonesia, Arc Network farming cocok buat low-effort daily. Proyeknya udah backed Circle, a16z, BlackRock , legitimasi di atas rata-rata. Tapi tanpa jadwal token jelas, ini pure spekulasi. Yang perlu diinget: Circle lebih milih patuh regulasi, jadi kalo $ARC rilis, kemungkinan ada pembatasan geografis. Pastiin lo riset eligibility dulu sebelum habisin waktu farming.
 
 ## Sumber
 

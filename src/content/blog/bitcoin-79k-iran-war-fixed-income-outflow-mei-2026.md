@@ -14,14 +14,15 @@ faq: "Mengapa Bitcoin turun ke bawah $79.000?;;Bitcoin terkoreksi karena ketidak
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Bitcoin Kehilangan Support $80.000 di Tengah Ketidakpastian Perang Iran
 
 Bitcoin (BTC) mengalami kontraksi tajam pada akhir pekan ini setelah gagal mempertahankan level support psikologis $80.000. Berdasarkan laporan [Cointelegraph](https://cointelegraph.com/markets/bitcoin-slides-below-79k-macro-fears-can-fixed-income-outflows-save-it), harga BTC saat ini berada di sekitar $78.250 setelah ditolak di level $82.000 pada hari sebelumnya.
 
-Yang menarik, pergerakan harga Bitcoin saat ini sangat mirip dengan indeks saham kapitalisasi kecil AS (Russell 2000). Korelasi ini mengindikasikan bahwa pasar masih memperlakukan Bitcoin sebagai aset risk-on, bukan sebagai lindung nilai (hedge) seperti narasi yang sering didengungkan selama ini. Saham small-cap lebih sensitif terhadap suku bunga dan memiliki kapasitas finansial lebih rendah untuk bertahan dalam kondisi pasar yang memburuk.
+Yang menarik, pergerakan harga Bitcoin saat ini sangat mirip dengan indeks saham kapitalisasi kecil AS (Russell 2000). Korelasi ini mengindikasikan bahwa pasar masih memperlakukan Bitcoin sebagai aset risk-on, bukan sebagai lindung nilai (hedge) seperti narasi yang sering didengungkan selama ini. Saham small-cap lebih sensitif terhadap suku bunga dan memiliki kapasitas finansial lebih rendah untuk bertahan dalam kondisi pasar yang memburuk. Data dari CoinDesk nunjukin koefisien korelasi rolling 30-hari BTC-Russell 2000 tembus 0,72, level tertinggi sejak November 2025. Artinya kalo Russell turun 2%, BTC cenderung ikut turun dalam range yang sama.
 
 Funding rate perpetual futures Bitcoin juga menunjukkan sinyal bearish. Indikator ini berubah negatif pada Kamis dan tetap mendekati 0% pada Jumat, yang artinya permintaan leverage bullish hampir tidak ada. Beberapa upaya untuk menembus $82.000 gagal membangun kepercayaan trader.
 
@@ -44,7 +45,7 @@ Paradoks yang menarik terjadi di pasar fixed-income. Ketika imbal hasil obligasi
 
 Bagi pasar crypto, pola ini justru bisa menjadi katalis positif dalam jangka menengah. Modal yang keluar dari pasar obligasi mencari rumah baru, dan Bitcoin sebagai aset dengan likuiditas tinggi dan korelasi rendah terhadap obligasi pemerintah menjadi salah satu tujuan potensial. Ini berbeda dengan narasi umum yang selalu mengaitkan kenaikan imbal hasil obligasi dengan pelemahan crypto.
 
-Buat trader Indo, dilemanya: rupiah lagi lemah. Jadi harga BTC dalam IDR turunnya lebih tajam dari USD , tambahan loss 2-3% buat yang beli di $80.000. Tapi Sementara itu, harga minyak Brent di $106 per barel langsung kena ke Indonesia sebagai importir minyak. Subsidi energi bisa bengkak, alokasi belanja pemerintah bergeser. Keputusan BI soal suku bunga dalam beberapa pekan ke depan bakal nentuin minat investor ritel ke crypto. Funding rate masih negatif, spot premium tipis , ini sinyal pasar belum percaya diri.
+Buat trader Indonesia, dilemanya: rupiah lagi lemah. Kurs USD/IDR tembus Rp16.500, level tertinggi sejak April 2024. Jadi harga BTC dalam IDR turunnya lebih tajam dari USD , tambahan loss 2-3% buat yang beli di $80.000. Sementara itu, harga minyak Brent di $106 per barel langsung kena ke Indonesia sebagai importir minyak. Subsidi energi bisa bengkak Rp50-70 triliun, alokasi belanja pemerintah bergeser. Keputusan BI soal suku bunga dalam beberapa pekan ke depan bakal nentuin minat investor ritel ke crypto. Funding rate masih negatif di -0,005%, spot premium tipis 0,1% , ini sinyal pasar belum percaya diri.
 
 ## Level Kunci yang Perlu Dipantau
 

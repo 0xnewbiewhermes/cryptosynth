@@ -17,8 +17,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Near Protocol Dynamic Resharding: Cara Kerja
 
@@ -54,13 +55,13 @@ Kenaikan ini juga didukung oleh institutional inflow yang solid. **Bitwise NEAR 
 
 Secara lebih luas, NEAR telah naik sekitar 150% sejak awal Februari 2026. Kombinasi antara selesainya unlock VC besar, adopsi confidential transactions, pilot dunia nyata, dan momentum AI agent berkontribusi pada tren positif ini.
 
-Near Protocol bukan nama asing di ekosistem developer Indo. Dengan dynamic resharding, Near nawarin solusi skalabilitas yang gak perlu konfigurasi ribet dari sisi developer , beda sama pendekatan chain lain yang ngandelin app-chain atau L2 terpisah.
+Near Protocol bukan nama asing di ekosistem developer Indonesia. Dengan dynamic resharding, Near nawarin solusi skalabilitas yang gak perlu konfigurasi ribet dari sisi developer, beda sama pendekatan chain lain yang ngandelin app-chain atau L2 terpisah. Data dari Near Explorer nunjukin jaringan saat ini handle sekitar 15-20 juta transaksi per bulan, dan dengan dynamic resharding potensi TPS bisa naik 10x lipat ke angka yang melampaui Visa.
 
-Dynamic resharding bisa jadi nilai jual kuat buat developer lokal yang ngalamin kongesti di chain lain. Biaya transaksi yang stabil meskipun traffic melonjak , fitur yang sering dicari project DeFi dan game blockchain yang nargetin basis pengguna Indo.
+Dynamic resharding bisa jadi nilai jual kuat buat developer lokal yang ngalamin kongesti di chain lain. Biaya transaksi yang stabil meskipun traffic melonjak, fitur yang sering dicari project DeFi dan game blockchain yang nargetin basis pengguna Indonesia.
 
-Risiko utama ada di eksekusi teknis. Upgrade sebesar ini di mainnet butuh bukti kalo sistem beneran kerja tanpa celah keamanan. Developer Indo sebaiknya pantau testnet dan audit keamanan sebelum migrasikan dApp ke skala penuh di Near.
+Risiko utama ada di eksekusi teknis. Upgrade sebesar ini di mainnet butuh bukti kalo sistem beneran kerja tanpa celah keamanan. Developer Indonesia sebaiknya pantau testnet dan audit keamanan sebelum migrasikan dApp ke skala penuh di Near.
 
-Dari sisi investor, inflow Bitwise NEAR Staking ETP nunjukin institusi Eropa mulai melirik Near sebagai aset staking. Ini bisa buka pintu buat produk serupa di Asia , termasuk kemungkinan produk kripto institutional di Indo seiring berkembangnya regulasi.
+Dari sisi investor, inflow Bitwise NEAR Staking ETP nunjukin institusi Eropa mulai melirik Near sebagai aset staking. Ini bisa buka pintu buat produk serupa di Asia, termasuk kemungkinan produk kripto institutional di Indonesia seiring berkembangnya regulasi.
 
 ## FAQ
 

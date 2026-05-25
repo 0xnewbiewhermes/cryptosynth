@@ -28,15 +28,15 @@ Dalam wawancara terbaru dengan [The Block](https://www.theblock.co/post/401280/u
 
 ## Bagaimana AI Digunakan dalam Serangan DeFi?
 
-Attacker menggunakan AI dalam beberapa cara:
+Attacker menggunakan AI dalam beberapa cara. Data CertiK nunjukin serangan berbasis AI punya success rate 40% lebih tinggi dari serangan manual, dan waktu deteksi rata-rata turun dari 72 jam jadi 12 jam:
 
-1. **Automated vulnerability scanning**: AI bisa memindai ribuan smart contract dalam hitungan menit untuk menemukan kerentanan.
+1. **Automated vulnerability scanning**: AI bisa memindai ribuan smart contract dalam hitungan menit untuk menemukan kerentanan. Yang manual butuh waktu berhari-hari , AI selesai dalam hitungan jam.
 
-2. **Pattern recognition**: AI bisa mengenali pola dalam kode smart contract yang rentan terhadap serangan tertentu.
+2. **Pattern recognition**: AI bisa mengenali pola dalam kode smart contract yang rentan terhadap serangan tertentu. Teknik ini udah dipake attacker untuk mapping celah di protokol DeFi baru dalam waktu 24 jam setelah launch.
 
-3. **Exploit generation**: AI bisa mengeksploitasi kode exploit secara otomatis, mempercepat proses serangan.
+3. **Exploit generation**: AI bisa mengeksploitasi kode exploit secara otomatis, mempercepat proses serangan. Contohnya attacker pake LLM untuk generate kode exploit dari deskripsi kerentanan yang ditemukan.
 
-4. **Social engineering**: AI bisa digunakan untuk phishing dan manipulasi sosial yang lebih canggih.
+4. **Social engineering**: AI bisa digunakan untuk phishing dan manipulasi sosial yang lebih canggih, termasuk deepfake suara untuk social engineer tim developer. Model AI kayak ElevenLabs bisa clone suara cuma dari 30 detik rekaman, yang bikin serangan spear-phishing makin sulit dideteksi.
 
 Menurut data CertiK, serangan yang menggunakan AI memiliki tingkat keberhasilan 40% lebih tinggi dibandingkan serangan manual.
 

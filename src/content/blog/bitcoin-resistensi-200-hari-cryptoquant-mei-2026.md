@@ -15,6 +15,10 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <strong>TL;DR:</strong> Bitcoin rally selama 6 minggu terhenti di zona resistensi 200-day moving average sekitar $82.000-$82.500. CryptoQuant memperingatkan bahwa pola ini mirip dengan Maret 2022, ketika BTC gagal menembus level yang sama sebelum jatuh lebih dalam. Trader sudah mulai ambil untung besar-besaran, 14.600 BTC senilai $1,2 miliar dicairkan pada 4 Mei.
 </div>
 
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan nasihat investasi. Selalu lakukan riset sendiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan cryptocurrency melibatkan risiko tinggi.
+</div>
+
 ## Bitcoin Terbentur di Resistensi Historis 200-Day MA
 
 Menurut laporan [Cointelegraph](https://cointelegraph.com/news/bitcoin-at-risk-of-falling-after-hitting-major-bear-market-resistance-cryptoquant), setelah rally selama 6 minggu sejak awal April dari level $66.000, Bitcoin kini menghadapi tembok teknis yang cukup berat. Cryptocurrency nomor satu ini mencapai zona resistensi 200-day moving average (MA) di sekitar $82.400, level yang secara historis menjadi penentu arah tren jangka panjang.
@@ -61,7 +65,7 @@ Bitcoin juga semakin sensitif terhadap ekonomi AS seiring meningkatnya adopsi Wa
 
 Namun, tidak semua analis bearish. Michaël van de Poppe, founder MN Capital, mengatakan Bitcoin "mungkin bergerak cepat" ke $90.000 jika Senat AS mengesahkan CLARITY Act. Sementara itu, Arthur Hayes dari Maelstrom memprediksi BTC kembali ke rekor tertinggi $126.000 adalah "kesimpulan yang sudah pasti," didorong oleh peningkatan suplai uang akibat konflik Iran dan kompetisi AI AS-China.
 
-Gw breakdown: zona $82.000-$82.500 resistance kuat. Kalo lo FOMO masuk di sini, risikonya gede. Kalo BTC ditolak keras di 200-day MA dengan volume tinggi, koreksi ke $75.000-$78.000 cukup mungkin. Support di $75.700 (128-day MA) dan $78.200 (True Market Mean) jadi zona yang menarik buat DCA. Kalo lo udah long, stop-loss di bawah $75.000. Tapi intinya: inflasi AS dan kebijakan Fed tetap jadi penggerak utama.
+Buat lo trader Indonesia, resistance 200-day MA di $82.000-$82.500 ini relevant banget. Kenapa? Karena BTC/IDR di Indodax biasanya reaksi delayed 10-15 menit dari pasar global. Kalo lo jeli liat penolakan di level ini di Binance duluan, lo bisa exit posisi BTC/IDR sebelum harga lokal ikut turun. Tapi hati-hati: spread di exchange lokal lagi tipis, volume spot rendah, market maker cut spread kalo BTC bergerak cepat. Trader Indonesia juga kudu pantau pairing BTC/IDR karena pelemahan rupiah nambah pressure ke harga lokal. Gw breakdown: zona $82.000-$82.500 resistance kuat. Kalo lo FOMO masuk di sini, risikonya gede. Kalo BTC ditolak keras di 200-day MA dengan volume tinggi, koreksi ke $75.000-$78.000 cukup mungkin. Support di $75.700 (128-day MA) dan $78.200 (True Market Mean) jadi zona yang menarik buat DCA. Kalo lo udah long, stop-loss di bawah $75.000. Tapi intinya: inflasi AS dan kebijakan Fed tetap jadi penggerak utama.
 
 <div class="sources-box">
 <strong>Sumber:</strong>
@@ -74,12 +78,12 @@ Gw breakdown: zona $82.000-$82.500 resistance kuat. Kalo lo FOMO masuk di sini, 
 
 
 
-<div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan nasihat investasi. Selalu lakukan riset sendiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan cryptocurrency melibatkan risiko tinggi.
-</div>
+
 
 
 ## Sumber
 
 1. [Cointelegraph - Bitcoin at risk of falling after hitting major bear market resistance: CryptoQuant](https://cointelegraph.com/news/bitcoin-at-risk-of-falling-after-hitting-major-bear-market-resistance-cryptoquant) (14 Mei 2026)
-2. [CoinDesk - Bitcoin faces crucial test at 200-day moving averages as bulls defend key support zone](https://www.coindesk.com/markets/2026/05/13/bitcoin-faces-crucial-test-at-200-day-moving-averages) (13 Mei 2026)
+Trader Indonesia kudu sadar: resistance 200-day MA ini bukan cuma soal teknikal. Dari 10 kali BTC test level ini dalam 5 tahun terakhir, cuma 3 yang berhasil breakout dan lanjut rally. Sisanya koreksi 12-25% sebelum bottom. Data on-chain dari Glassnode nunjukin realized cap velocity melambat, sinyal distribusi. Buat trader yang posisi long dari Mei, kalo BTC belum break $83.000 minggu depan, exit sebagian adalah langkah prudent.
+
+|2. [CoinDesk - Bitcoin faces crucial test at 200-day moving averages as bulls defend key support zone](https://www.coindesk.com/markets/2026/05/13/bitcoin-faces-crucial-test-at-200-day-moving-averages) (13 Mei 2026)

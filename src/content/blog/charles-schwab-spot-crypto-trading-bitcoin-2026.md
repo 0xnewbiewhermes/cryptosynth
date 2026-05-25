@@ -14,6 +14,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Charles Schwab, broker raksasa asal AS yang mengelola aset nasabah senilai ~$12 triliun, resmi meluncurkan layanan trading spot Bitcoin (BTC) dan Ethereum (ETH) untuk nasabah retail melalui platform Schwab Crypto.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Schwab Buka Akses Trading Spot BTC dan ETH untuk Retail
 
@@ -29,7 +34,9 @@ Dengan 35 juta nasabah yang sudah terdaftar, potensi dampaknya terhadap adopsi c
 
 ## Dampak Terhadap Saham SCHW
 
-Kabar ini memberikan sentimen positif terhadap saham Charles Schwab (SCHW). Pada penutupan perdagangan 12 Mei 2026, saham SCHW berada di level $90.18, naik $2.35 atau +2.68% dengan volume perdagangan mencapai 9.14 juta lembar saham.
+Kabar ini langsung dorong saham Charles Schwab (SCHW) naik ke $90.18 pada penutupan 12 Mei, naik $2.35 atau +2.68% dengan volume 9.14 juta lembar, di atas rata-rata volume 30-hari yang cuma 6,8 juta. Pasar ngasih sinyal: investor liat Schwab masuk spot crypto sebagai katalis pertumbuhan baru.
+
+Buat ekosistem Indonesia, langkah Schwab ini jadi tolok ukur. Kalo broker $12 triliun aja buka spot crypto, tekanan ke regulator lokal buat adopsi makin gede. Likuiditas global naik, spread di exchange Indonesia bisa makin tipis buat pair besar. Tapi akses langsung masih terbatas ke nasabah AS, efeknya ke Indonesia lebih ke sentimen jangka panjang.
 
 | Aset | Harga (USD) | Perubahan 24j |
 |------|-------------|---------------|
@@ -65,7 +72,7 @@ Ini juga sejalan dengan meningkatnya kepercayaan institusi terhadap crypto sebag
 
 *Sumber: CoinDesk, Decrypt, 13 Mei 2026*
 
-Yang menarik, layanan ini sekarang cuma buat nasabah AS. Tapi efeknya ke global , apalagi Indo , lumayan jelas. Broker sebesar Schwab masuk ke spot trading, artinya crypto udah bukan niche lagi. Gw liat tekanan kompetisi mulai kerasa: broker di negara lain, termasuk kemungkinan Indo, bakal ikut-ikutan. Likuiditas global juga naik, yang artinya spread di Indo bisa makin tipis buat pair-pair besar.
+Yang menarik, layanan ini sekarang cuma buat nasabah AS. Tapi efeknya ke global , apalagi Indonesia , lumayan jelas. Broker sebesar Schwab masuk ke spot trading, artinya crypto udah bukan niche lagi. Gw liat tekanan kompetisi mulai kerasa: broker di negara lain, termasuk kemungkinan Indonesia, bakal ikut-ikutan. Likuiditas global juga naik, yang artinya spread di exchange Indonesia bisa makin tipis buat pair-pair besar. Ini jadi katalis adopsi jangka panjang yang gak bisa diabaikan.
 
 ---
 

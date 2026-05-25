@@ -17,8 +17,9 @@ faq: "Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypt
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## HYPE Meroket 23%, Tertinggi Sejak Oktober 2025
 
@@ -73,7 +74,7 @@ Sebaliknya, breakout decisif di atas batas atas rising wedge bisa membatalkan se
 
 Indikator RSI harian HYPE masih di bawah ambang overbought 70, yang berarti masih ada ruang untuk melanjutkan rally jangka pendek. Namun trader mesti waspada terhadap volatilitas setelah kenaikan tajam.
 
-Buat trader Indonesia yang aktif di perpetual futures, perkembangan ini punya implikasi langsung. Hyperliquid adalah salah satu DEX perp terbesar, dan integrasi Coinbase-Circle berarti likuiditas USDC di platform ini akan semakin dalam. Ini bisa menarik volume trading dari Indonesia, mengingat komunitas DeFi lokal sudah cukup aktif di perpetual DEX. Tapi token yang baru naik 23% dalam sehari punya risiko koreksi yang signifikan, terutama dengan pola teknikal yang terbentuk.
+Buat trader Indonesia yang aktif di perpetual futures, perkembangan ini punya implikasi langsung. Hyperliquid adalah salah satu DEX perp terbesar, dan integrasi Coinbase-Circle berarti likuiditas USDC di platform ini akan semakin dalam. Ini bisa menarik volume trading dari Indonesia, mengingat komunitas DeFi lokal sudah cukup aktif di perpetual DEX. Tapi token yang baru naik 23% dalam sehari punya risiko koreksi yang signifikan, terutama dengan pola rising wedge yang terbentuk. Kalo lo trading HYPE, pantau level $47 sebagai resistance dan $35 sebagai support terdekat.
 
 ## Risiko dan Peluang ke Depan
 

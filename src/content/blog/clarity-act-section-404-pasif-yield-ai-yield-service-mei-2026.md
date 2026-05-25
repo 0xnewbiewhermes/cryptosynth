@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Regulasi yang Mengubah Cara Yield Bekerja
 
@@ -52,11 +53,11 @@ Vollono, yang menghabiskan lebih dari tujuh tahun di Morgan Stanley dan menjabat
 
 Tech stack yang diperlukan untuk model ini sebenarnya sudah ada. Smart contracts, oracle, DeFi rails, dan API-based infrastructure tinggal diadaptasi ke kerangka regulasi.
 
-Meskipun Clarity Act ini regulasi AS, dampaknya ke Indo jelas kerasa. Mayoritas protokol DeFi dan stablecoin yang dipake di Indo operasi di bawah yurisdiksi AS. Gw liat model yield farming pasif bakal berkurang drastis kalo mereka milih patuh. Pengguna Indo mungkin kudu beralih ke strategi yield lebih aktif: provide liquidity di DEX, farming berbasis aktivitas trading, atau manfaatin protokol di luar yurisdiksi AS.
+Meskipun Clarity Act ini regulasi AS, dampaknya ke Indonesia jelas kerasa. Mayoritas protokol DeFi dan stablecoin yang dipake di Indonesia operasi di bawah yurisdiksi AS. Gw liat model yield farming pasif bakal berkurang drastis kalo mereka milih patuh. Pengguna Indonesia mungkin kudu beralih ke strategi yield lebih aktif: provide liquidity di DEX, farming berbasis aktivitas trading, atau manfaatin protokol di luar yurisdiksi AS.
 
-Produk kayak "USDC yield account" yang mulai populer di exchange Indo juga perlu restrukturisasi. Platform lokal yang kerja sama mitra AS harus cari model komplian yang tetep ngasih imbalan ke user.
+Produk kayak "USDC yield account" yang mulai populer di exchange Indonesia juga perlu restrukturisasi. Platform lokal yang kerja sama mitra AS harus cari model komplian yang tetep ngasih imbalan ke user.
 
-Ironisnya, ada celah inovasi di sini. Regulator AS dorong model use-to-earn, artinya protokol DeFi berbasis yield aktif kayak perpetual DEX, option vaults, sama automated market makers bisa dapet keunggulan kompetitif. Indo, dengan basis user crypto yang gede dan aktif, bisa jadi pasar adopsi awal buat model-model baru ini.
+Ironisnya, ada celah inovasi di sini. Regulator AS dorong model use-to-earn, artinya protokol DeFi berbasis yield aktif kayak perpetual DEX, option vaults, sama automated market makers bisa dapet keunggulan kompetitif. Indonesia, dengan basis user crypto yang gede dan aktif, bisa jadi pasar adopsi awal buat model-model baru ini.
 
 ## Kapan Clarity Act Mulai Berlaku?
 

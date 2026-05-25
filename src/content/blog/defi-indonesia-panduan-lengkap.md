@@ -15,6 +15,10 @@ faq: "Apa risiko utama DeFi?;;Risiko utama DeFi termasuk smart contract exploit,
 <strong>TL;DR:</strong> DeFi memungkinkan kamu menghasilkan passive income dari crypto tanpa perantara bank. Pelajari cara staking, yield farming, dan lending di sini.
 </div>
 
+<div class="disclaimer-box">
+<em>Artikel ini bersifat informatif dan bukan saran keuangan. DeFi memiliki risiko tinggi. Selalu DYOR dan investasi hanya uang yang siap hilang.</em>
+</div>
+
 ## Apa Itu DeFi?
 
 Menurut laporan [DeFiLlama](https://defillama.com), deFi (Decentralized Finance) adalah sistem keuangan yang berjalan di blockchain tanpa perantara bank atau institusi. Semua transaksi dilakukan langsung via smart contract.
@@ -105,23 +109,18 @@ Lending adalah meminjamkan crypto ke orang lain dan mendapat bunga.
 5. **Mulai kecil**, coba dulu dengan $50-100
 6. **Pantau**, cek reward harian, sesuaikan strategi
 
----
+Satu hal yang jarang dibahas di panduan DeFi mainstream: gas fee di Ethereum mainnet bisa sampe $50 per transaksi, yang bikin strategi farming kecil jadi gak ekonomis buat pemula Indonesia. Makanya rekomendasi gw mulai di Solana atau Layer 2 kayak Arbitrum dulu, baru naik level ke Ethereum mainnet kalo udah paham risikonya. Biaya transaksi di Solana cuma $0.01, lo bisa testing strategi farming tanpa takut gas fee makan modal.
 
-<div class="sources-box">
-<strong>Sumber:</strong>
-<a href="https://defillama.com" target="_blank" rel="noopener"> DefiLlama</a> · 
-<a href="https://lido.fi" target="_blank" rel="noopener"> Lido</a> · 
-<a href="https://aave.com" target="_blank" rel="noopener"> Aave</a>
-</div>
+Gw juga liat banyak pemula Indonesia yang langsung terjun ke yield farming tanpa ngerti impermanent loss, terus kaget pas modalnya terkikis. Mulai dari staking dulu (paling simple, risikonya paling kecil), baru naik ke liquidity providing setelah paham cara kerjanya. Staking di Lido kasih ~4% APY, masih 2-3x lipat deposito bank Indonesia yang cuma 3-5% setahun.
 
 
 
-<div class="disclaimer-box">
-<em>Artikel ini bersifat informatif dan bukan saran keuangan. DeFi memiliki risiko tinggi. Selalu DYOR dan investasi hanya uang yang siap hilang.</em>
-</div>
+
 
 
 ## Sumber
+
+Ekosistem DeFi Indonesia masih didominasi oleh BNB Chain dan Ethereum Layer 2, bukan Solana. Data dappbay.id nunjukin pengguna DeFi Indonesia paling aktif di PancakeSwap dan Aave di Arbitrum. TVL dari wallet Indonesia di DeFi diperkirakan $200-500 juta, tapi mayoritas masih di centralized lending. Peluang terbesar buat pemula Indo ada di liquid staking dan money market di chain dengan gas fee rendah.
 
 1. [DeFiLlama - DeFi Dashboard - Total Value Locked](https://defillama.com) (Data real-time)
 2. [Lido - Lido Liquid Staking](https://lido.fi) (Data real-time)

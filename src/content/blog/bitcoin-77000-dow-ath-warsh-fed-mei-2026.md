@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Bitcoin (BTC) kembali berada di bawah level psikologis $77.000 pada perdagangan Jumat, bergerak berlawanan arah dengan pasar saham AS yang justru mencatat rekor baru. Menurut data dari [Cointelegraph](https://cointelegraph.com/markets/bitcoin-price-falls-under-77k-as-dow-jones-hits-new-all-time-highs), BTC/USD turun sekitar 1,2% di hari itu ke $76.700 saat Wall Street dibuka, sementara Dow Jones Industrial Average menembus all-time high - sebuah pergerakan yang bahkan diakui oleh Presiden Donald Trump.
 
@@ -46,7 +47,7 @@ Trader suku bunga kini memperkirakan lebih dari 70% kemungkinan kenaikan suku bu
 
 CoinDesk juga melaporkan bahwa volume spot kripto global turun 14% ke $1,05 triliun di bulan April - level terendah sejak November 2023. Total volume exchange turun 11,7% ke $4,61 triliun, penurunan bulan keempat berturut-turut. Data ini menunjukkan pasar sedang dalam fase konsolidasi dengan partisipasi yang menurun.
 
-Yang gw liat menarik: divergensi BTC vs Dow Jones ini jarang terjadi. Biasanya modal mindah dari satu aset ke aset lain. Saham AS cetak rekor, dana ke situ. Kripto nunggu katalis. Support kunci di $76.500 , kalo tembus, $75.000 jadi level berikutnya. Tapi justru di volume tipis kayak gini, pergerakan bisa tiba-tiba gede ke dua arah. Coinbase Premium Index negatif , whale biasanya manfaatin ini buat akumulasi. Pelantikan Warsh di tengah data konsumen terlemah dan inflasi naik lagi? Kombinasi langka. Manajemen risk ekstra ketat.
+Yang gw liat menarik: divergensi BTC vs Dow Jones ini jarang terjadi. Biasanya modal mindah dari satu aset ke aset lain. Saham AS cetak rekor, dana ke situ. Kripto nunggu katalis. Support kunci di $76.500 , kalo tembus, $75.000 jadi level berikutnya. Tapi justru di volume tipis kayak gini, pergerakan bisa tiba-tiba gede ke dua arah. Coinbase Premium Index negatif , whale biasanya manfaatin ini buat akumulasi. Pelantikan Warsh di tengah data konsumen terlemah dan inflasi naik lagi? Kombinasi langka. Manajemen risk ekstra ketat. Buat trader Indonesia, divergensi ini dampaknya double: harga BTC di Indodax biasanya reaksi 10-15 menit lebih lambat dari Binance, jadi kalo lo jeli bisa dapet entry lebih baik. Tapi spread IDR lagi melebar , volume rendah di exchange lokal bikin selisih beli-jual makin gede.
 
 ## Sumber
 

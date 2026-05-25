@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Akumulasi Long-Term Holder Capai Level Tertinggi
 
@@ -49,6 +50,7 @@ Puell Multiple, yang mengukur pendapatan miner relatif terhadap rata-rata tahuna
 Berdasarkan data [CoinMarketCap](https://coinmarketcap.com/currencies/bitcoin/), Bitcoin diperdagangkan di sekitar $77.456 pada saat penulisan. Angka ini turun sekitar 38% dari all-time high $126.198 yang tercatat pada Oktober 2025. Kapitalisasi pasar Bitcoin saat ini berada di $1,55 triliun dengan volume perdagangan 24 jam mencapai $26,87 miliar.
 
 Gw simplify: dua metrik LTH beda definisi (155+ hari vs 1+ tahun) tapi dua-duanya nunjukin hal yang sama , akumulasi massal. LTH biasanya kontrasiklikal: beli waktu turun, jual pas euphoria. Pola 2024 jelas: mereka distribusi hampir 2 juta BTC pas harga di $126.000. Sekarang di $77.000, mereka accumulate lagi. Tapi yang perlu diwaspadai: miner masih tekanan jual. Cadangan Binance Pool Miner Reserve turun sejak awal Mei. Kalo BTC test $75.000 lagi, tekanan miner bisa percepat penurunan. Mirip bottom 2019 , sideways berminggu-minggu sebelum breakout.
+Buat investor Indonesia, data LTH ini ngasih konteks: kalo whale global lagi accumulate di $75.000-$77.000, artinya prospek jangka panjang masih utuh. Ketimbang panic jual, lebih baik evaluasi ulang posisi dan siapin cash buat opportunity kalo BTC test level lebih rendah.
 
 ## Sumber
 

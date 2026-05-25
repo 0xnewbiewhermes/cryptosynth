@@ -120,6 +120,8 @@ Airdrop crypto adalah peluang yang bagus, tapi keamanan harus selalu menjadi pri
 
 Selalu lakukan riset sendiri dan jangan terburu-buru dalam mengambil keputusan. Keamanan adalah tanggung jawab Anda sendiri.
 
+Buat airdrop hunter Indonesia, beberapa hal extra yang perlu diwaspadai. Pertama, grup Telegram dan WhatsApp "signal airdrop" sering jadi sumber utama phishing link yang menyamar sebagai website resmi project. Kedua, banyak scammer pake bahasa Indonesia di DM Twitter/X buat ngiming-imingi airdrop palsu dengan modus "gas fee dulu baru bisa claim." Ketiga, Bappebti dan OJK udah beberapa kali ngeluarin peringatan soal platform airdrop ilegal yang targetin pengguna Indonesia. Selalu cross-check informasi dari channel resmi project, bukan dari grup broadcast.
+
 ---
 
 

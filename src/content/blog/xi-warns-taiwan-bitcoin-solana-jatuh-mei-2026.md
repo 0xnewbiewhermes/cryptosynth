@@ -14,6 +14,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Presiden China Xi Jinping memperingatkan Donald Trump tentang potensi "tabrakan atau bentrokan" soal Taiwan selama pertemuan di Beijing, kunjungan presiden AS pertama ke China dalam hampir satu dekade. Bitcoin merosot ke $79.200, Solana anjlok 5,6%, dan hanya Dogecoin yang bertahan di zona hijau.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Pertemuan Trump-Xi di Beijing Guncang Pasar Crypto
 
@@ -64,7 +69,7 @@ Ujian berikutnya bagi Bitcoin berada di level **$78.000**, yang menandai posisi 
 
 Namun, jika BTC mampu bertahan di atas $78.000, kasus pembeli struktural tetap utuh menjelang data makro berikutnya dan babak akhir pembicaraan Trump-Xi.
 
-Buat trader Indo , waspadai volatilitas jangka pendek. Kombinasi inflasi panas dan ketegangan geopolitik bisa terus ngepush harga crypto turun dalam beberapa hari ke depan. Pantau level $78.000 BTC , ini support teknis kunci. Kalo tembus di bawah sini, bisa trigger aksi jual lebih lanjut. SOL dan altcoin lebih volatil , penurunan 5,6% nunjukin altcoin lebih sensitif ke sentimen negatif. Tapi catet: data on-chain tetep bullish. Pembeli jangka panjang Bitcoin naik 300% sejak akhir 2025, hampir 4 juta BTC ditahan sama conviction buyers. Jadi jangan panik , tekanan jual jangka pendek emang ada, tapi struktur pemegang jangka panjang makin kuat.
+Buat trader Indonesia, waspadai volatilitas jangka pendek. Kombinasi inflasi panas dan ketegangan geopolitik bisa terus ngepush harga crypto turun dalam beberapa hari ke depan. Pantau level $78.000 BTC, ini support teknis kunci. Kalo tembus di bawah sini, bisa trigger aksi jual lebih lanjut. SOL dan altcoin lebih volatil, penurunan 5,6% nunjukin altcoin lebih sensitif ke sentimen negatif. Tapi catet: data on-chain tetep bullish. Pembeli jangka panjang Bitcoin naik 300% sejak akhir 2025, hampir 4 juta BTC ditahan sama conviction buyers. Jadi jangan panik, tekanan jual jangka pendek emang ada, tapi struktur pemegang jangka panjang makin kuat. Buat Indonesia, ketegangan Taiwan-China punya implikasi langsung: supply chain elektronik global terganggu, dan banyak manufaktur Indonesia terintegrasi dengan rantai pasok Taiwan. Kalo konflik Taiwan eskalasi, dampaknya ke ekonomi riil Indonesia lewat sektor manufaktur dan ekspor, yang ujungnya ngaruh ke daya beli investor lokal.
 
 ## Sumber
 

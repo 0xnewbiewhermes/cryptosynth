@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Pasar tokenized stocks menghadapi momen kritis. Nilai real-world assets (RWA) di blockchain sudah menembus **$33 miliar**, tiga kali lipat dalam setahun menurut data dari RWA.xyz. Boston Consulting Group memproyeksikan pasar ini bisa mencapai $18.9 triliun pada 2033. Tapi riset terbaru dari Tiger Research memperingatkan bahwa tokenized stocks justru bisa menciptakan dua gangguan struktural serius: fragmentasi likuiditas dan fragmentasi pendapatan.
 

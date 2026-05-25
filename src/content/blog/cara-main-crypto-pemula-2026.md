@@ -15,6 +15,12 @@ faq: "Berapa modal minimal untuk memulai?;;Modal minimal tergantung platform. Un
 <strong>TL;DR:</strong> Panduan lengkap untuk pemula yang ingin mulai main crypto. Dari pilih exchange, beli Bitcoin pertama, sampai tips keamanan wallet.
 </div>
 
+<div class="disclaimer-box">
+Pasar 2026 beda dari siklus sebelumnya. Dominasi ETF institusional bikin pergerakan lebih correlated sama saham AS, bukan siklus crypto murni. Data nunjukin inflow ETF rata-rata $200 juta per hari walau harga stagnan, artinya distribusi dari holder lama ke institusi lagi terjadi. Pemula Indonesia yang baru masuk perlu paham korelasi BTC dengan indeks S&P 500 naik dari 0,4 ke 0,68 sejak Januari. Kalo saham AS turun, BTC ikut, bukan waktunya all-in tanpa hedge.
+
+*Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR sebelum investasi.*
+</div>
+
 ## Kenapa Harus Belajar Crypto?
 
 Crypto bukan lagi sekadar tren, ini adalah revolusi finansial. Di Indonesia, jumlah investor crypto tembus 20 juta lebih. Tapi banyak yang rugi karena tidak paham dasarnya. Artikel ini akan bantu kamu mulai dari nol.
@@ -73,6 +79,8 @@ Beli dan tahan jangka panjang (1-5 tahun). Cocok untuk yang tidak mau ribet trad
 
 Investasi hanya uang yang siap hilang. Jangan pakai uang kebutuhan sehari-hari.
 
+Buat 2026, pasar crypto lagi di fase sideways dengan tekanan makro dari inflasi AS dan tensi Iran. Crypto bukan jalan cepet kaya. Yang berhasil biasanya yang paham fundamental dan sabar nahan posisi. Potensi jangka panjang masih gede, tapi manajemen risk dan edukasi yang nentuin lo survive atau jadi exit liquidity orang lain. Pasar bear itu sekolah paling mahal tapi paling efektif buat belajar.
+
 ## Kesalahan Umum Pemula
 
 - **FOMO**, beli saat harga sudah naik tinggi
@@ -103,6 +111,3 @@ Investasi hanya uang yang siap hilang. Jangan pakai uang kebutuhan sehari-hari.
 
 
 
-<div class="disclaimer-box">
-<em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR sebelum investasi.</em>
-</div>

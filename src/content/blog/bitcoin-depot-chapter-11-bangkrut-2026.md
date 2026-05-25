@@ -14,8 +14,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Tiga hari setelah ngeluarin peringatan "going concern" di laporan SEC, Bitcoin Depot , operator ATM Bitcoin terbesar di Amerika Utara , resmi ajukan Chapter 11 bankruptcy ke Pengadilan Kebangkrutan AS. Perusahaan Nasdaq (ticker: BTM) ini udah mematikan seluruh jaringan ATM-nya.
 
@@ -33,7 +34,7 @@ Tennessee baru jadi negara bagian kedua yang larang Bitcoin ATM setelah Indiana 
 
 Kebangkrutan Bitcoin Depot nambahin daftar perusahaan crypto yang tumbang di tengah musim regulasi ketat AS. Ironisnya, Sementara itu Strategy (sebelumnya MicroStrategy) baru aja beli 24.869 BTC senilai $2 miliar pekan lalu , dua kutub yang sangat beda dalam industri yang sama.
 
-Buat lo di Indo, ini jadi pengingat: regulasi longgar di satu negara bukan jaminan keberlangsungan bisnis global. Platform ATM crypto atau layanan jual-beli crypto dengan margin tipis sangat rentan terhadap perubahan regulasi di yurisdiksi utama. Pembatasan BTM di AS dan Kanada bisa jadi preseden buat negara lain , termasuk kemungkinan regulator Asia Tenggara buat nge-review izin operasi layanan serupa. Kalo lo nyimpen aset di platform dengan model bisnis yang bergantung sama regulasi longgar, waspada.
+Buat lo di Indonesia, ini jadi pengingat: regulasi longgar di satu negara bukan jaminan keberlangsungan bisnis global. Platform ATM crypto atau layanan jual-beli crypto dengan margin tipis sangat rentan terhadap perubahan regulasi di yurisdiksi utama. Pembatasan BTM di AS dan Kanada bisa jadi preseden buat negara lain , termasuk kemungkinan regulator di Indonesia buat nge-review izin operasi layanan serupa. Kalo lo nyimpen aset di platform dengan model bisnis yang bergantung sama regulasi longgar, waspada.
 
 ## Sumber
 

@@ -14,8 +14,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## dTelecom: Jaringan Komunikasi Terdesentralisasi di Solana
 
@@ -46,7 +47,7 @@ TGE token DTEL ditargetkan pada Q3-Q4 2026, sedikit mundur dari perkiraan awal Q
 
 Dari sisi tokenomics, dari total 1 miliar DTEL, alokasi komunitas mencapai 50%, founders/team/investor 35%, dan ecosystem fund atau treasury 15%. Pada TGE nanti, 5% dari FDV (sekitar $2,5 juta dari notional FDV $50 juta) akan didistribusikan ke komunitas, dilanjutkan dengan 0,75% FDV per bulan setelah TGE.
 
-Yang menarik, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL buat biaya transaksi, lo udah bisa ikut daily check-in dan make aplikasi dMeet atau FROGY. DePIN adalah narasi yang lagi naik daun di 2026, dengan proyeksi pasar global $3,5 triliun di 2028. Proyek kayak Helium, Filecoin, dan Render sebelumnya catet kenaikan signifikan pasca-TGE , meskipun masa lalu bukan jaminan, sih.
+Yang menarik, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL buat biaya transaksi, lo udah bisa ikut daily check-in dan make aplikasi dMeet atau FROGY. Buat komunitas airdrop Indonesia yang udah aktif farming proyek Solana, dTelecom jadi opsi DePIN yang layak dilirik. DePIN adalah narasi yang lagi naik daun di 2026, dengan proyeksi pasar global $3,5 triliun di 2028. Proyek kayak Helium, Filecoin, dan Render sebelumnya catet kenaikan signifikan pasca-TGE, meskipun masa lalu bukan jaminan, sih.
 
 Hati-hati dengan situs phishing yang mengaku sebagai portal airdrop dTelecom. Hanya gunakan [rewards.dtelecom.org](https://rewards.dtelecom.org/) dan [www.dtelecom.org/airdrop](https://www.dtelecom.org/airdrop) untuk berpartisipasi. Jangan pernah memberikan seed phrase atau private key ke situs manapun.
 

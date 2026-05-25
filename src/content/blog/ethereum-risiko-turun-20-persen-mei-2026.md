@@ -17,8 +17,9 @@ faq: "Apa perbedaan Ethereum dan Bitcoin?;;Bitcoin dirancang sebagai store of va
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Cadangan ETH di Binance Melonjak, Sinyal Distribusi Whale
 
@@ -61,7 +62,7 @@ Bitcoin sendiri turun di bawah $79.000 pada Jumat (15/5) karena pasar obligasi m
 
 Sementara itu, [The Block](https://www.theblock.co/post/401420/bit-digital-reports-lower-q1-revenue) melaporkan bahwa Bit Digital, perusahaan mining dan staking ETH, mencatatkan penurunan pendapatan 14% di Q1 2026, sebagian besar disebabkan oleh imbal hasil staking ETH yang lebih rendah. fundamental ekosistem Ethereum juga sedang menghadapi tantangan.
 
-Buat trader dan investor Indonesia, kombinasi data on-chain yang bearish, outflow ETF yang berkelanjutan, dan tekanan makro dari imbal hasil Treasury AS yang tinggi menciptakan lingkungan yang cukup riskan untuk posisi long ETH dalam jangka pendek. Level $2.280 menjadi support kritis, sementara $2.400 tetap sebagai resistance utama yang perlu ditembus untuk membatalkan skenario bearish.
+Buat trader dan investor Indonesia, kombinasi data on-chain yang bearish, outflow ETF yang berkelanjutan, dan tekanan makro dari imbal hasil Treasury AS yang tinggi menciptakan lingkungan yang cukup riskan untuk posisi long ETH dalam jangka pendek. Level $2.280 jadi support kritis, $2.400 tetap resistance utama.
 
 ## Sumber
 

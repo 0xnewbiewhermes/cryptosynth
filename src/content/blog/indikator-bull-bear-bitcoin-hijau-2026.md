@@ -15,6 +15,10 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <strong>TL;DR:</strong> Indikator bull-bear Cycle CryptoQuant berubah hijau untuk pertama kalinya sejak Maret 2023, menandakan potensi pergeseran fase dari bearish ke pemulihan. Bitcoin sendiri pulih ke $81.200 setelah sempat turun ke $79.800 akibat data CPI AS yang lebih panas dari perkiraan, sementara dana kripto global mencatat arus masuk $858 juta dalam sepekan.
 </div>
 
+<div class="disclaimer-box">
+<em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
+</div>
+
 ## Indikator Bull-Bear CryptoQuant Berubah Hijau: Sinyal Awal Bull Market?
 
 Menurut laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/12/bitcoin-s-bull-bear-cycle-turns-green-for-first-time-since-march-2023), kabar besar datang dari analisis on-chain. CryptoQuant, firma analitik blockchain ternama, mengumumkan bahwa indikator bull-bear cycle Bitcoin mereka telah berubah hijau untuk pertama kalinya sejak Maret 2023. Menurut analis on-chain CryptoQuant, Julio Moreno, ini adalah "sinyal perubahan regime yang penting".
@@ -76,11 +80,13 @@ Di luar harga, momentum institusional terus membangun:
 - **Elliptic** mengumpulkan $120 juta dengan dukungan Nasdaq dan Deutsche Bank
 - **Spot XRP ETF** mencatat arus masuk terbesar sejak Januari
 
-Perkembangan ini menunjukkan adopsi institusional terus berjalan meski harga berfluktuasi.
+JPMorgan ajukan dana tokenized, Kraken gandeng Franklin Templeton, Elliptic kumpulin $120 juta, tiga berita ini konfirmasi inflow institusional bukan angin lalu. Bedanya sama siklus 2022: sekarang institusi beneran deploy modal, bukan cuma ngomong. Tapi jangan kaget kalo harga gak langsung naik, institusi akumulasi gradual, bukan beli di bid.
 
 Sinyal early bull dari CryptoQuant itu indikator makro, bukan sinyal trading harian. Gunain sebagai konteks, bukan rekomendasi trading. Level kunci $82.000 harus ditembus buat konfirmasi bullish. Selama masih di bawah, volatilitas jangka pendek masih tinggi.
 
-Data CPI AS yang panas berarti kemungkinan penundaan pemotongan suku bunga Fed , faktor yang bisa ngepress aset berisiko termasuk kripto. Tapi arah masuk institusional tetep positif, yang kasih lantai support jangka panjang.
+Data CPI AS yang panas berarti kemungkinan penundaan pemotongan suku bunga Fed, faktor yang bisa ngepress aset berisiko termasuk kripto. Tapi arah masuk institusional tetep positif, yang kasih lantai support jangka panjang.
+
+Gw liat indikator bull-bear ini menarik, tapi jangan lupa sinyal palsu Maret 2022. Bedanya sekarang: inflow institusional lewat ETF jauh lebih gede dari 2022, market maturity juga beda. Buat investor Indonesia, sinyal early bull ini lebih cocok jadi konteks positioning, bukan trigger buat all-in.
 
 ---
 
@@ -94,9 +100,7 @@ Data CPI AS yang panas berarti kemungkinan penundaan pemotongan suku bunga Fed ,
 
 
 
-<div class="disclaimer-box">
-<em>Artikel ini bersifat informatif dan bukan saran keuangan. Selalu DYOR (Do Your Own Research) sebelum mengambil keputusan investasi.</em>
-</div>
+
 
 
 ## Sumber

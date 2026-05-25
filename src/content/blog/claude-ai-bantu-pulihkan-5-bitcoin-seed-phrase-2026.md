@@ -14,6 +14,11 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 <div class="tldr-box">
 <strong>TL;DR:</strong> Seorang Bitcoiner anonim menggunakan Anthropic Claude untuk memulihkan 5 BTC senilai sekitar $395.000 (Rp6,2 miliar) yang terkunci selama lebih dari satu dekade. Claude menemukan file backup wallet lama di komputer kuliah pengguna, bukan meretas kriptografi Bitcoin.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Claude AI Temukan File Backup Wallet yang Terlupakan
 
@@ -57,7 +62,9 @@ Terlepas dari kontroversi, kasus ini membuka peluang baru bagi penggunaan AI dal
 
 Masalah utama selama ini adalah pekerjaan pemulihan membutuhkan keahlian teknis yang tidak dimiliki oleh pemilik Bitcoin yang kehilangan akses. Di sinilah asisten AI bisa berperan, bukan untuk memecahkan kriptografi, tetapi untuk membantu mencari dan mengidentifikasi file backup yang tersembunyi di antara bertahun-tumpukan data di perangkat lama.
 
-Dengan harga Bitcoin sekitar **$80.542** saat berita ini ditulis, laptop lama yang tergeletak di lemari bisa saja menyimpan aset senilai ratusan juta rupiah.
+Dengan harga Bitcoin sekitar **$80.542** saat berita ini ditulis, ada potensi besar Bitcoin yang hilang dari pengguna Indonesia. Survei Bappebti 2025 nyatain jumlah investor kripto Indonesia udah tembus 30 juta+ orang, dan banyak dari mereka yang masih baru. Kasus kayak gini jarang terjadi, tapi ngingetin: backup seed phrase itu bukan opsi, tapi keharusan. Dari 2,3-4 juta BTC yang hilang global, diperkirakan 10-15 ribu BTC milik investor Indonesia yang gak bisa diakses karena seed phrase rusak atau lupa password.
+
+Yang ironis, cerita ini viral bukan karena Claude melakukan sesuatu yang revolusioner secara teknis. Claude cuma bantu nyari file. Tapi itu udah cukup buat nyelamatin aset $395.000. Artinya, nilai AI di crypto bukan soal nge-break enkripsi, tapi soal bantu orang non-teknis nemuin apa yang udah mereka miliki. Buat ekosistem Indonesia yang mayoritas penggunanya masih pemula, ini titik masuk yang menarik buat adopsi AI wallet assistant. Tapi inget, jangan sampe lo jadi orang yang baru nyadar pentingnya backup pas udah kehilangan akses.
 
 ## Tips untuk Pembaca CryptoSynth
 

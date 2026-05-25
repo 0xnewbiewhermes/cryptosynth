@@ -17,8 +17,9 @@ faq: "Apa yang perlu diketahui tentang Saudi Arabia Tokenisasi Ekonomi Triliunan
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Saudi Arabia Tokenisasi Ekonomi Triliunan Dolar Melalui droppRWA
 
@@ -50,7 +51,7 @@ Beberapa pasar G20 diprediksi akan mengadopsi kerangka regulasi dan model infras
 
 ### Mengapa Ini Penting untuk Investor Indonesia
 
-Kenaikan tokenisasi aset nyata di level negara berdampak langsung ke ekosistem crypto Indonesia. Saat negara-negara G20 mulai membangun infrastruktur berbasis blockchain untuk aset tradisional, narasi "crypto vs tradisional" mulai bergeser menjadi "crypto dan tradisional". Investor Indonesia yang selama ini fokus pada token speculative perlu mulai memperhatikan segmen RWA, karena aliran modal institusional ke segmen ini tumbuh jauh lebih cepat dibanding DeFi tradisional.
+Kenaikan tokenisasi aset nyata di level negara berdampak langsung ke ekosistem crypto Indonesia. Saat negara-negara G20 mulai membangun infrastruktur berbasis blockchain untuk aset tradisional, narasi "crypto vs tradisional" mulai bergeser menjadi "crypto dan tradisional". Investor Indonesia yang selama ini fokus pada token speculative perlu mulai memperhatikan segmen RWA, karena aliran modal institusional ke segmen ini tumbuh jauh lebih cepat dibanding DeFi tradisional. Data on-chain nunjukin total value locked di protokol RWA udah tembus $25 miliar di Mei 2026, naik 300% dari tahun sebelumnya.
 
 Stablecoin yang digunakan untuk settlement properti di Saudi Arabia juga punya implikasi untuk pasar Indonesia. Dengan volume transaksi global yang sudah mencapai $30 triliun, stablecoin bukan lagi niche product. Regulator Indonesia yang sedang mengkaji kerangka aset digital perlu memperhatikan bagaimana negara-negara Timur Tengah membangun infrastruktur ini dengan pendekatan "sovereign-grade", artinya tetap dalam kontrol regulasi negara sambil memanfaatkan efisiensi blockchain.
 

@@ -14,8 +14,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Komunitas Bitcoin di seluruh dunia merayakan 16 tahun "Pizza Day" pada 22 Mei 2026  momen yang menandai transaksi komersial Bitcoin pertama dalam sejarah, di mana barang dunia nyata dibeli menggunakan BTC untuk pertama kalinya.
 
@@ -45,7 +46,7 @@ Pada April 2026, Iran mengumumkan bahwa kapal minyak yang melintasi Selat Hormuz
 
 Sementara itu, undang-undang tentang cadangan strategis Bitcoin kembali diperjuangkan di AS melalui RUU ARMA yang diajukan kembali oleh anggota Kongres.
 
-Gw liat Pizza Day ke-16 ini ngasih perspektif yang jarang dibahas: dari $41 ke $770 juta per 10.000 BTC dalam 16 tahun , return yang gak ada tandingannya di kelas aset manapun. Risiko terbesar bukan volatilitas, tapi keluar terlalu cepet sebelum apresiasi jangka panjang. Pizza Day ngajarin: fase awal adopsi selalu keliatan konyol , sampe data berbicara satu dekade kemudian. Buat Indo, pertanyaannya: kapan tipping point adopsi Bitcoin di sini nyampe?
+Gw liat Pizza Day ke-16 ini ngasih perspektif yang jarang dibahas: dari $41 ke $770 juta per 10.000 BTC dalam 16 tahun , return yang gak ada tandingannya di kelas aset manapun. Risiko terbesar bukan volatilitas, tapi keluar terlalu cepet sebelum apresiasi jangka panjang. Pizza Day ngajarin: fase awal adopsi selalu keliatan konyol , sampe data berbicara satu dekade kemudian. Buat Indonesia, pertanyaannya: kapan tipping point adopsi Bitcoin di sini nyampe? Jumlah investor crypto di Indonesia udah 20 juta+ tapi penetrasi Bitcoin sebagai alat bayar masih minim. Momen Pizza Day jadi pengingat: yang keliatan receh sekarang, 10 tahun lagi bisa jadi sejarah.
 
 ## Sumber
 

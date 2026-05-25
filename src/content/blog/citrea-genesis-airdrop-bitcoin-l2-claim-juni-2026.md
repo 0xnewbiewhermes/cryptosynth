@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Citrea Genesis Airdrop: Bitcoin L2 dengan Alokasi Komunitas 60%
 
@@ -82,7 +83,7 @@ Strategi low-capital yang banyak digunakan: bridge USDC kecil ke Base ($100-300)
 
 Untuk pengguna yang sudah aktif sejak Season 1, pastikan tidak ada tugas yang terlewat. Setelah snapshot, distribusi diperkirakan pada Juni 2026.
 
-Dua event ini , Citrea airdrop sama SoSoValue Season 2 , nunjukin pergeseran meta airdrop 2026 yang cukup jelas. Gw liat aktivitas mainnet yang nyata sekarang jauh lebih dihargai daripada testnet farming massal. Yang cuma ngandelin testnet? Mending reevaluasi strategi buat proyek berikutnya.
+Dua event ini , Citrea airdrop sama SoSoValue Season 2 , nunjukin pergeseran meta airdrop 2026 yang cukup jelas. Gw liat aktivitas mainnet yang nyata sekarang jauh lebih dihargai daripada testnet farming massal. Yang cuma ngandelin testnet? Mending reevaluasi strategi buat proyek berikutnya. Buat pemburu airdrop di Indonesia, ini sinyal: proyek yang bener-bener valued user aktif on-chain, bukan sekadar jumlah wallet.
 
 Yang menarik dari SoSoValue Season 2, Real-User Probability score jadi gatekeeper utama. Bot farming dan referal spam udah gak mempan , platform detect dan disqualify akun sybil. Buat lo yang udah aktif di Base, manfaatin SoDEX buat generate volume sambil farm points itu strategi dua arah yang efisien.
 

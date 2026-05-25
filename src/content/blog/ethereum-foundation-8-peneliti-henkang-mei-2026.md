@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Gelombang Kepergian di Ethereum Foundation Makin Mengkhawatirkan
 
@@ -56,11 +57,11 @@ Kepergian para peneliti ini menambah sentimen negatif di tengah pasar yang sudah
 
 ### Artinya buat holder ETH di Indo
 
-Gelombang kepergian ini momen yang perlu dicermati. Ethereum masih jadi blockchain terbesar buat ekosistem DeFi dan NFT yang banyak dipake komunitas Indo. Setiap perubahan di tim inti developer bisa berdampak langsung ke timeline upgrade protokol.
+Gelombang kepergian ini momen yang perlu dicermati, apalagi buat komunitas Ethereum Indonesia yang jadi basis pengguna DeFi terbesar di Asia Tenggara. Ethereum masih jadi blockchain terbesar buat ekosistem DeFi dan NFT yang banyak dipake komunitas Indonesia. Setiap perubahan di tim inti developer bisa berdampak langsung ke timeline upgrade protokol.
 
-Berita ini datang di saat yang kurang pas , ETH udah turun cukup dalem dan volume trading pair ETH/IDR di exchange Indo cenderung menurun. Kepergian talenta kunci bisa memperpanjang fase konsolidasi ETH, apalagi kalo pasar nafsirin ini sebagai sinyal ketidakstabilan internal.
+Berita ini datang di saat yang kurang pas, ETH udah turun cukup dalem dan volume trading pair ETH/IDR di exchange Indonesia cenderung menurun. Kepergian talenta kunci bisa memperpanjang fase konsolidasi ETH, apalagi kalo pasar nafsirin ini sebagai sinyal ketidakstabilan internal.
 
-Tapi ada sisi positifnya. Buterin udah bilang restrukturisasi ini sengaja dilakukan buat bawa perspektif baru. Kalo EF berhasil narik talenta yang lebih segar dan agresif, ini bisa jadi katalis positif buat jangka panjang. Investor yang punya horizon panjang bisa liat momen ini sebagai titik entry yang lebih rasional , Ethereum masih punya jaringan developer terbesar di kripto.
+Tapi ada sisi positifnya. Buterin udah bilang restrukturisasi ini sengaja dilakukan buat bawa perspektif baru. Kalo EF berhasil narik talenta yang lebih segar dan agresif, ini bisa jadi katalis positif buat jangka panjang. Investor yang punya horizon panjang bisa liat momen ini sebagai titik entry yang lebih rasional, Ethereum masih punya jaringan developer terbesar di kripto.
 
 ## Intinya
 

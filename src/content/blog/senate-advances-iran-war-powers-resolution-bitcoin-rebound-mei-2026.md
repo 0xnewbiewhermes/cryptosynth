@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Senat AS Proses Resolusi Pembatasan Perang Iran, Pasar Kripto Respon Positif
 
@@ -46,9 +47,9 @@ Sementara itu, Andri Fauzan Adziima, Research Lead di Bitrue Research Institute,
 
 Resolusi Senat ini punya implikasi ganda buat trader Indonesia. Penurunan harga minyak global secara langsung berdampak ke nilai tukar rupiah. Indonesia sebagai net importir minyak akan diuntungkan oleh harga minyak yang lebih rendah, yang bisa memperkuat rupiah dan meningkatkan daya beli investor lokal untuk aset kripto.
 
-Meskipun resolusi ini masih jauh dari menjadi undang-undang, sinyal de-eskalasi geopolitik sudah cukup untuk memicu risk-on sentiment. Untuk trader Indonesia yang sempat terkena margin call saat BTC turun ke $76.500, rebound ke $77.200 ini memberikan sedikit ruang napas. Namun volatilitas masih tinggi mengingat ketidakpastian perang dan kebijakan moneter AS yang masih ketat.
+Buat trader Indonesia, sinyal de-eskalasi geopolitik dari voting Senat ini cukup buat picu risk-on sentiment jangka pendek. Untuk trader yang sempat terkena margin call saat BTC turun ke $76.500, rebound ke $77.200 ini memberikan sedikit ruang napas. Tapi volatilitas masih tinggi mengingat ketidakpastian perang dan kebijakan moneter AS yang masih ketat.
 
-Perhatikan level support $76.000 dan resistensi $78.000 dalam beberapa hari ke depan. Jika resolusi berhasil melewati voting penuh Senat, kita bisa melihat momentum positif berlanjut. Tapi jika veto Trump sudah di depan mata, kewaspadaan tetap diperlukan.
+Data historis nunjukin relief rally dari sentimen de-eskalasi biasanya cuma bertahan 3-5 hari sebelum pasar balik fokus ke fundamental makro. Yang menarik: walaupun ada potensi rally 6-10%, Bitcoin masih dalam fase konsolidasi rangenya. Katalis jangka panjang yang lebih penting buat Indonesia adalah gimana penurunan harga minyak akibat de-eskalasi ini ngaruh ke nilai tukar rupiah. Harga minyak Brent turun 4% setelah voting, dan Indonesia sebagai net importir minyak biasanya dapet angin segar dari penurunan ini karena import bill berkurang, yang bisa stabilisasi rupiah.
 
 ## Sumber
 

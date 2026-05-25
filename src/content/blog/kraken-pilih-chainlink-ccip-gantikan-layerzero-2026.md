@@ -14,6 +14,11 @@ faq: "Bagaimana cara melindungi aset crypto dari exploit?;;Gunakan hardware wall
 <div class="tldr-box">
 <strong>TL;DR:</strong> Kraken mengumumkan migrasi dari LayerZero ke Chainlink CCIP sebagai infrastruktur cross-chain eksklusif untuk kBTC dan semua Kraken Wrapped Assets. Keputusan ini diambil setelah exploit senilai $292 juta yang menyerang bridge Kelp DAO berbasis LayerZero pada April 2026.
 </div>
+<div class="disclaimer-box">
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+</div>
+
+
 
 ## Kraken Tinggalkan LayerZero Setelah Insiden Keamanan Besar
 
@@ -49,9 +54,11 @@ Pergerakan massal ini menandai pergeseran signifikan dalam lanskap infrastruktur
 
 *Sumber: Cointelegraph, 14 Mei 2026*
 
-Keputusan Kraken ini kasih sinyal jelas buat komunitas crypto Indo:
+Keputusan Kraken ini kasih sinyal jelas buat komunitas crypto Indonesia:
 
-Keamanan bridge jadi prioritas utama. Buat lo yang pake wrapped asset (wBTC, kBTC, dll.), perhatiin infrastruktur bridge yang dipake platform pilihan lo. Chainlink CCIP mulai jadi standar industri , makin banyak protokol besar migrasi ke CCIP. Tapi exploit Kelp DAO $292 juta ngingetin: dana di bridge cross-chain selalu punya risiko tambahan dibanding aset native.
+Keamanan bridge jadi prioritas utama. Buat lo yang pake wrapped asset (wBTC, kBTC, dll.), perhatiin infrastruktur bridge yang dipake platform pilihan lo. Chainlink CCIP mulai jadi standar industri, makin banyak protokol besar migrasi ke CCIP setelah exploit $2,5 miliar TVL pindah dari LayerZero. Tapi exploit Kelp DAO $292 juta ngingetin: dana di bridge cross-chain selalu punya risiko tambahan dibanding aset native.
+
+Gw liat perpindahan massa ini lebih dari sekadar keamanan. Ini soal trust. LayerZero kehilangan kepercayaan dalam semalam setelah exploit. Buat trader Indonesia yang pake protokol DeFi, pelajarannya: diversifikasi infrastruktur jangan cuma bergantung ke satu bridge protocol. Kalo satu bridge down, dana lo jangan ikut mati.
 
 ## Sumber
 

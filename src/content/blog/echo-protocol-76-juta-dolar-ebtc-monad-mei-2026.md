@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Echo Protocol Alami Exploit $76 Juta di Monad
 
@@ -77,7 +78,7 @@ Mei 2026 menjadi bulan yang berat bagi keamanan DeFi. Setidaknya 12 protokol tel
 - KelpDAO - [eksploitasi $293 juta](https://www.cryptosynth.id/blog/kelpdao-hack-293-juta-defi-matu-2026/)
 - TrustedVolumes dan Ekubo
 
-Ini menunjukkan tren yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Buat lo yang main di Indo, makin selektif milih protokol buat nyimpen atau minjemin aset , apalagi yang related sama BTC.
+Ini pola yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Buat lo yang main di Indonesia, makin selektif milih protokol buat nyimpen atau minjemin aset, apalagi yang related sama BTC. Dari 12 protokol yang kena hack bulan ini, 8 di antaranya punya kelemahan di admin key atau infrastruktur bridge, bukan smart contract. Artinya, protokol dengan TVL gede pun bisa tumbang kalo keamanan operasionalnya lemah.
 
 ### Yang bisa dipelajari
 

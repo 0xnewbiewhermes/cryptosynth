@@ -14,8 +14,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Gw liat Bitcoin (BTC) catet lima hari koreksi berturut-turut pada 15-19 Mei 2026 , turun dari atas $80.000 ke kisaran $76.000. Ini losing streak terpanjang kedua di tahun 2026. Tapi di saat yang sama, margin long di Bitfinex malah melonjak ke 80.636 BTC , level tertinggi dalam 2,5 tahun, [kata CoinDesk](https://www.coindesk.com/markets/2026/05/20/bitfinex-traders-double-down-on-bitcoin-during-five-day-slide-as-longs-hit-2-5-year-high).
 

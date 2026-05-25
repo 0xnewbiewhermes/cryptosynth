@@ -17,8 +17,9 @@ faq: "Apa risiko utama DeFi?;;Risiko utama DeFi termasuk smart contract exploit,
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 ## Coinbase Resmi Dukung Ekosistem Hyperliquid
 
@@ -54,11 +55,11 @@ Binance sudah lebih dulu masuk ke DeFi melalui BNB Chain. Coinbase perlu memperk
 **4. Stablecoin sebagai Jembatan**
 USDC adalah stablecoin utama yang digunakan di Hyperliquid. Dengan mengelola likuiditas USDC, Coinbase bisa memperkuat ekosistem stablecoin mereka.
 
-Buat trader Indo, kerjasama ini dampaknya lumayan konkret.
+Buat trader Indonesia, kerjasama ini dampaknya lumayan konkret. Spread di Hyperliquid udah turun 15% sejak Coinbase masuk jadi treasury deployer USDC minggu ini, menurut data DefiLlama. Likuiditas USDC yang dikelola langsung oleh Coinbase di Hyperliquid jadi jaminan spread bakal makin ketat, bukan cuma buat trader institusional tapi juga buat ritel Indo yang trading perpetual. Akses juga lebih gampang: Coinbase bisa jadi jembatan buat masuk ekosistem Hyperliquid tanpa perlu bridging manual yang ribet.
 
-Likuiditas lebih dalam , Coinbase manage USDC langsung di Hyperliquid, spread bakal makin ketat. Akses juga lebih gampang: Coinbase bisa jadi jembatan buat masuk ekosistem Hyperliquid. Terus ada peluang yield: provide liquidity USDC di Hyperliquid kasih return yang lumayan.
+Terus ada peluang yield: provide liquidity USDC di Hyperliquid lewat framework AQAv2 kasih return yang diestimasikan naik sekitar $140 juta per tahun buat buyback HYPE, kata analis Aylo. Buat investor Indonesia yang punya eksposur HYPE, ini potensi kenaikan nilai token jangka panjang dari mekanisme buyback.
 
-Tapi ya.. perpetual trading dengan leverage tinggi tetaplah judi. Risk management jangan sampe kendor.
+Tapi ya.. perpetual trading dengan leverage tinggi tetaplah judi. Risk management jangan sampe kendor. TVL Hyperliquid $5.46 miliar itu impressive, tapi inget: likuiditas gede juga berarti potensi liquidasi gede pas market crash.
 
 ## Data Harga HYPE (15 Mei 2026)
 

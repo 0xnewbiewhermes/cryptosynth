@@ -17,8 +17,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Bitcoin Depot, operator ATM crypto terbesar di dunia dengan 9.000 kiosk, ngeluarin peringatan serius di laporan 10-Q ke SEC. Perusahaan nyatak ada "keraguan substansial" soal kemampuannya buat bertahan 12 bulan ke depan.
 
@@ -42,7 +43,7 @@ Bitcoin Depot tunjuk Alex Holmes (ex-CEO MoneyGram 2016-2024) sebagai CEO baru d
 
 Kasus Bitcoin Depot nunjukin: infrastruktur crypto yang berhubungan langsung sama konsumen ritel kena tekanan regulasi jauh lebih berat dibanding platform trading online. ATM crypto jadi sasaran empuk karena sifatnya yang anonim dan sering dipake penipu buat nargetin kelompok rentan , terutama lansia.
 
-Buat lo investor Indo yang pantau saham-saham terkait crypto: exposure ke perusahaan crypto yang beroperasi di banyak yurisdiksi artinya lo harus siap hadapin risiko regulasi yang beda-beda di setiap negara. Model bisnis yang bergantung pada volume transaksi fisik super rentan terhadap perubahan kebijakan lokal.
+Buat lo investor Indonesia yang pantau saham-saham terkait crypto: exposure ke perusahaan crypto yang beroperasi di banyak yurisdiksi artinya lo harus siap hadapin risiko regulasi yang beda-beda di setiap negara. Model bisnis yang bergantung pada volume transaksi fisik super rentan terhadap perubahan kebijakan lokal.
 
 **Harga crypto hari ini (16 Mei 2026):**
 - BTC: $79,044 (-2.33%)

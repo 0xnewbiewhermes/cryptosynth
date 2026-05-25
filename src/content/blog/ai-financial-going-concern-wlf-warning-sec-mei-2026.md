@@ -15,8 +15,9 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
+<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
+
 
 Gw liat AI Financial Corporation , perusahaan treasury publik milik World Liberty Financial (WLF) yang terafiliasi sama Trump , baru aja keluar peringatan "going concern" di filing SEC. Artinya? Ada keraguan serius apakah perusahaan ini bisa bertahan 12 bulan ke depan.
 

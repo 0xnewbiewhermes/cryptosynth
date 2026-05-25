@@ -281,10 +281,15 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
         }
 
-        document.querySelectorAll('.card-relative-time[data-pubdate]').forEach(function(el) {
-          var pubdate = el.getAttribute('data-pubdate');
-          if (pubdate) el.textContent = formatRelative(pubdate);
-        });
+        function refreshAll() {
+          document.querySelectorAll('.card-relative-time[data-pubdate]').forEach(function(el) {
+            var pubdate = el.getAttribute('data-pubdate');
+            if (pubdate) el.textContent = formatRelative(pubdate);
+          });
+        }
+
+        refreshAll();
+        setInterval(refreshAll, 60000); // update tiap 1 menit
       })();
 
       // Professional live price ticker - CoinGecko API

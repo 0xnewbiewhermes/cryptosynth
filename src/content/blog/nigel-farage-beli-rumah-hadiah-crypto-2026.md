@@ -54,7 +54,7 @@ Properti yang dibeli Farage adalah satu dari empat properti yang dimilikinya. Se
 
 Donasi crypto ke politisi makin jadi sorotan global. Di Indonesia, Bappebti dan OJK perlu memperhatikan tren ini karena regulasi donasi politik berbasis crypto belum ada. Jika Inggris berhasil melarang donasi crypto politik, negara lain kemungkinan akan mengikuti, yang berpotensi memengaruhi narasi adopsi crypto secara global.
 
-Dana crypto dalam jumlah besar tetep bisa dilacak dan jadi bahan investigasi. Buat lo di Indo, transaksi gede di ranah politik makin terekspos, privasi di blockchain bukan jaminan mutlak.
+Dana crypto dalam jumlah besar tetep bisa dilacak dan jadi bahan investigasi. Buat kamu di Indo, transaksi gede di ranah politik makin terekspos, privasi di blockchain bukan jaminan mutlak.
 
 ## Sumber
 

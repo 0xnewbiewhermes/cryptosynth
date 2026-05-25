@@ -39,7 +39,7 @@ Yang paling mencengangkan: EF cuma punya 0.16% dari total ETH yang beredar. Foun
 
 "Kami selalu bilang EF harusnya jadi yang terakhir, bukan yang pertama," kata Vitalik. "Tapi banyak orang di ekosistem Ethereum, bahkan di internal EF sendiri, pengen kami jadi yang pertama."
 
-Gw liat ini ironis. Foundation yang dikritik sebagai terlalu dominan ini ternyata cuma punya 0.16% suplai. Kalo lo bandingin dengan foundation layer-1 lain yang punya 20-30% token mereka sendiri, EF ini malah yang paling "miskin" secara relatif. Artinya pengaruh mereka ke harga ETH juga terbatas.
+Saya liat ini ironis. Foundation yang dikritik sebagai terlalu dominan ini ternyata cuma punya 0.16% suplai. Kalo kamu bandingin dengan foundation layer-1 lain yang punya 20-30% token mereka sendiri, EF ini malah yang paling "miskin" secara relatif. Artinya pengaruh mereka ke harga ETH juga terbatas.
 
 Harvard dilaporin [dijual semua ETH mereka](https://cointelegraph.com/news/harvard-dumps-entire-eth-position-one-quarter), sementara beberapa peneliti EF [resmi cabut](https://cointelegraph.com/news/ethereum-foundation-sees-2-more-high-profile-departures-amid-wave-of-resignations). Kombinasi ini bikin tekanan bearish makin kerasa.
 
@@ -49,7 +49,7 @@ Laura Shin, jurnalis crypto veteran, [bilang](https://x.com/laurashin/status/205
 
 Dencun upgrade di Maret 2024 sukses besar buat ngurangin fee layer-2. Tapi efek sampingnya? Pendapatan base layer Ethereum jeblok. Data dari [Token Terminal](https://tokenterminal.com/explorer/projects/ethereum/metrics/fees) nunjukin fee di L1 Ethereum turun drastis pasca-upgrade. Trader jadi betah di L2, sementara L1 kehilangan sumber pendapatan utama.
 
-Buat lo trader Indonesia: ini artinya volume transaksi di mainnet Ethereum makin sepi. Dulu lo biasa main di Uniswap L1 bayar gas $5-10 per transaksi. Sekarang pindah ke Arbitrum atau Base, bayarnya cuma $0.02. Enak buat dompet, tapi L1 Ethereum sendiri makin gak dapet fee revenue.
+Buat kamu trader Indonesia: ini artinya volume transaksi di mainnet Ethereum makin sepi. Dulu kamu biasa main di Uniswap L1 bayar gas $5-10 per transaksi. Sekarang pindah ke Arbitrum atau Base, bayarnya cuma $0.02. Enak buat dompet, tapi L1 Ethereum sendiri makin gak dapet fee revenue.
 
 ## EF Pilih "Longevity" Daripada Ngejar Harga
 

@@ -19,9 +19,9 @@ faq: >
 </div>
 
 
-Gw liat Bitcoin gagal reclaimed $78.000 setelah sempat nyentuh $77.678 di Bitstamp. Coinbase Premium Gap tembus -$66,8 , terdalam sejak Februari , sinyal permintaan dari investor AS lagi lemah banget. Sementara itu, Nvidia baru aja rilis laba Q1 2027 yang beat ekspektasi: EPS $1,87 vs konsensus $1,76, pendapatan $81,62 miliar, dan guidance Q2 di $91 miliar.
+Saya liat Bitcoin gagal reclaimed $78.000 setelah sempat nyentuh $77.678 di Bitstamp. Coinbase Premium Gap tembus -$66,8 , terdalam sejak Februari , sinyal permintaan dari investor AS lagi lemah banget. Sementara itu, Nvidia baru aja rilis laba Q1 2027 yang beat ekspektasi: EPS $1,87 vs konsensus $1,76, pendapatan $81,62 miliar, dan guidance Q2 di $91 miliar.
 
-Buat lo trader Indo, perbedaan dinamika permintaan antara exchange global (Binance) dan platform AS (Coinbase) ini penting buat strategi entry jangka pendek.
+Buat kamu trader Indo, perbedaan dinamika permintaan antara exchange global (Binance) dan platform AS (Coinbase) ini penting buat strategi entry jangka pendek.
 
 **Bitcoin tertekan bond yield tertinggi sejak 2007, Coinbase Premium di titik terendah.**
 
@@ -56,7 +56,7 @@ Dengan Nvidia yang beat, tekanan jual di pasar saham mungkin mereda , katalis po
 
 **Buat trader Indo:** Permintaan BTC di Binance relatif lebih kuat dibanding Coinbase , terlihat dari Coinbase Premium Gap yang negatif dalam. Tapi risiko tambahan: **pelemahan rupiah**. Bond yield AS naik = tekanan buat emerging market currency kayak IDR. Koreksi BTC dalam dolar mungkin kerasa lebih dalam setelah konversi IDR.
 
-Level yang perlu lo pantau: **$77.000** garis kritis. Kalo bertahan, potensi rebound ke $80.000 dengan sentimen Nvidia positif. Kalo tembus, support berikutnya $74.600, lalu $70.000. Data on-chain sebenarnya cukup bullish , 60% supply BTC gak bergerak dalam setahun, exchange balances di level terendah 6 tahun.
+Level yang perlu kamu pantau: **$77.000** garis kritis. Kalo bertahan, potensi rebound ke $80.000 dengan sentimen Nvidia positif. Kalo tembus, support berikutnya $74.600, lalu $70.000. Data on-chain sebenarnya cukup bullish , 60% supply BTC gak bergerak dalam setahun, exchange balances di level terendah 6 tahun.
 
 ## Sumber
 

@@ -34,7 +34,7 @@ Tennessee baru jadi negara bagian kedua yang larang Bitcoin ATM setelah Indiana 
 
 Kebangkrutan Bitcoin Depot nambahin daftar perusahaan crypto yang tumbang di tengah musim regulasi ketat AS. Ironisnya, Sementara itu Strategy (sebelumnya MicroStrategy) baru aja beli 24.869 BTC senilai $2 miliar pekan lalu , dua kutub yang sangat beda dalam industri yang sama.
 
-Buat lo di Indonesia, ini jadi pengingat: regulasi longgar di satu negara bukan jaminan keberlangsungan bisnis global. Platform ATM crypto atau layanan jual-beli crypto dengan margin tipis sangat rentan terhadap perubahan regulasi di yurisdiksi utama. Pembatasan BTM di AS dan Kanada bisa jadi preseden buat negara lain , termasuk kemungkinan regulator di Indonesia buat nge-review izin operasi layanan serupa. Kalo lo nyimpen aset di platform dengan model bisnis yang bergantung sama regulasi longgar, waspada.
+Buat kamu di Indonesia, ini jadi pengingat: regulasi longgar di satu negara bukan jaminan keberlangsungan bisnis global. Platform ATM crypto atau layanan jual-beli crypto dengan margin tipis sangat rentan terhadap perubahan regulasi di yurisdiksi utama. Pembatasan BTM di AS dan Kanada bisa jadi preseden buat negara lain , termasuk kemungkinan regulator di Indonesia buat nge-review izin operasi layanan serupa. Kalo kamu nyimpen aset di platform dengan model bisnis yang bergantung sama regulasi longgar, waspada.
 
 ## Sumber
 

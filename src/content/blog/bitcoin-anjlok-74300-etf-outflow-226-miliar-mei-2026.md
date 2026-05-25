@@ -43,7 +43,7 @@ Imbal hasil obligasi pemerintah yang lebih tinggi membuat aset berisiko seperti 
 
 CoinDesk juga menyoroti satu faktor unik: sebagian modal spekulatif diduga bergeser ke antisipasi IPO SpaceX. Beberapa platform derivatif on-chain berbasis blockchain sudah mencatat volume perdagangan jutaan dolar untuk produk pra-IPO SpaceX. Pasar kripto kini tidak hanya bersaing dengan aset tradisional, tapi juga dengan ekspektasi IPO perusahaan teknologi besar.
 
-Yang gw tangkap: koreksi ke $74.300 ini bikin dilema. Realized price BTC di $70.000 , selama di atas itu, struktur pasar masih bullish jangka panjang. Tapi buat Indo ada faktor kurs: rupiah melemah, jadi loss di IDR lebih gede 2-3% dari yang keliatan di USD. Yang menarik, NEAR justru naik 25% pas pasar merah , artinya narasi spesifik proyek masih bisa gerak terlepas dari makro. Rotasi modal intra-kripto masih terjadi. Sekarang tinggal pilih sektor yang punya katalis independen.
+Yang saya tangkap: koreksi ke $74.300 ini bikin dilema. Realized price BTC di $70.000 , selama di atas itu, struktur pasar masih bullish jangka panjang. Tapi buat Indo ada faktor kurs: rupiah melemah, jadi loss di IDR lebih gede 2-3% dari yang keliatan di USD. Yang menarik, NEAR justru naik 25% pas pasar merah , artinya narasi spesifik proyek masih bisa gerak terlepas dari makro. Rotasi modal intra-kripto masih terjadi. Sekarang tinggal pilih sektor yang punya katalis independen.
 
 ## Sumber
 

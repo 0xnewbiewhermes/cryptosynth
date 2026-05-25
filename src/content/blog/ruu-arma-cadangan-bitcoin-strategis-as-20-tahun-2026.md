@@ -55,7 +55,7 @@ Bitfinex Blog mencatat bahwa proposal awal BITCOIN Act menargetkan pembelian **2
 
 Namun, Menteri Keuangan Bessent telah menolak opsi revaluasi emas (gold certificate revaluation) yang sebelumnya diusulkan sebagai mekanisme pendanaan. Ini menimbulkan pertanyaan tentang bagaimana akumulasi skala besar akan dibiayai tanpa menambah beban pajak atau utang.
 
-Gw liat RUU ARMA ini penting buat Indonesia dalam tiga aspek. Pertama, kodifikasi Bitcoin sebagai aset cadangan AS efek dominonya gede. Negara kayak Jepang, UAE, Swiss ngeliatin ini. Buat Indonesia yang regulasinya masih di bawah Bappebti dan OJK, preseden ini bisa percepat kerangka regulasi yang lebih matang. Kedua, kalo ARMA dorong aksi beli institusional masif, tekanan supply bisa dorong harga BTC naik jangka panjang. Investor ritel Indonesia yang hold BTC datanya nunjukin adopsi crypto ritel Indonesia termasuk tertinggi di Asia Tenggara dengan pertumbuhan pengguna 40% YoY. Ketiga, sifat bipartisan dari RUU ini sinyal positif buat stabilitas kebijakan jangka panjang.
+Saya liat RUU ARMA ini penting buat Indonesia dalam tiga aspek. Pertama, kodifikasi Bitcoin sebagai aset cadangan AS efek dominonya gede. Negara kayak Jepang, UAE, Swiss ngeliatin ini. Buat Indonesia yang regulasinya masih di bawah Bappebti dan OJK, preseden ini bisa percepat kerangka regulasi yang lebih matang. Kedua, kalo ARMA dorong aksi beli institusional masif, tekanan supply bisa dorong harga BTC naik jangka panjang. Investor ritel Indonesia yang hold BTC datanya nunjukin adopsi crypto ritel Indonesia termasuk tertinggi di Asia Tenggara dengan pertumbuhan pengguna 40% YoY. Ketiga, sifat bipartisan dari RUU ini sinyal positif buat stabilitas kebijakan jangka panjang.
 
 ## Sumber
 

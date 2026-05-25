@@ -67,7 +67,7 @@ Trader Mikybull Crypto menambahkan bahwa arus keluar ETF besar biasanya diikuti 
 
 Yang menarik buat trader Indo: $677 juta likuidasi global ini pasti kena juga trader lokal yang main leverage 10x-25x di Indodax atau Binance. Korelasi BTC sama small-cap AS sama minyak lagi erat banget sekarang , jadi gak cukup pantau chart doang, yield Treasury sama harga komoditas juga determine arah.
 
-Strategi beli $2 miliard pas koreksi? Klasik Saylor. Buat lo yang horizon panjang, fase koreksi gini emang biasanya window buat akumulasi. Tapi kalo lo trading jangka pendek, yang perlu di-track minggu ini: negosiasi AS-Iran sama data ETF flow. Kalo salah satu katalis di atas kejadian, rebound ke $80K bisa lebih cepet dari yang market expect.
+Strategi beli $2 miliard pas koreksi? Klasik Saylor. Buat kamu yang horizon panjang, fase koreksi gini emang biasanya window buat akumulasi. Tapi kalo kamu trading jangka pendek, yang perlu di-track minggu ini: negosiasi AS-Iran sama data ETF flow. Kalo salah satu katalis di atas kejadian, rebound ke $80K bisa lebih cepet dari yang market expect.
 
 ## Sumber
 

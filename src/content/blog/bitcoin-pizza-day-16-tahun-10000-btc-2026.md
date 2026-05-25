@@ -46,7 +46,7 @@ Pada April 2026, Iran mengumumkan bahwa kapal minyak yang melintasi Selat Hormuz
 
 Sementara itu, undang-undang tentang cadangan strategis Bitcoin kembali diperjuangkan di AS melalui RUU ARMA yang diajukan kembali oleh anggota Kongres.
 
-Gw liat Pizza Day ke-16 ini ngasih perspektif yang jarang dibahas: dari $41 ke $770 juta per 10.000 BTC dalam 16 tahun , return yang gak ada tandingannya di kelas aset manapun. Risiko terbesar bukan volatilitas, tapi keluar terlalu cepet sebelum apresiasi jangka panjang. Pizza Day ngajarin: fase awal adopsi selalu keliatan konyol , sampe data berbicara satu dekade kemudian. Buat Indonesia, pertanyaannya: kapan tipping point adopsi Bitcoin di sini nyampe? Jumlah investor crypto di Indonesia udah 20 juta+ tapi penetrasi Bitcoin sebagai alat bayar masih minim. Momen Pizza Day jadi pengingat: yang keliatan receh sekarang, 10 tahun lagi bisa jadi sejarah.
+Saya liat Pizza Day ke-16 ini ngasih perspektif yang jarang dibahas: dari $41 ke $770 juta per 10.000 BTC dalam 16 tahun , return yang gak ada tandingannya di kelas aset manapun. Risiko terbesar bukan volatilitas, tapi keluar terlalu cepet sebelum apresiasi jangka panjang. Pizza Day ngajarin: fase awal adopsi selalu keliatan konyol , sampe data berbicara satu dekade kemudian. Buat Indonesia, pertanyaannya: kapan tipping point adopsi Bitcoin di sini nyampe? Jumlah investor crypto di Indonesia udah 20 juta+ tapi penetrasi Bitcoin sebagai alat bayar masih minim. Momen Pizza Day jadi pengingat: yang keliatan receh sekarang, 10 tahun lagi bisa jadi sejarah.
 
 ## Sumber
 

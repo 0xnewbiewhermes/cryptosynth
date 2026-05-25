@@ -41,7 +41,7 @@ Blockchain.com bukan pendatang baru di industri kripto. Didirikan pada 2011 oleh
 
 Yang membedakan Blockchain.com dari bursa lain adalah usia dan rekam jejaknya, perusahaan ini telah bertahan melalui bull market dan bear market selama 15 tahun terakhir. Filing IPO ini menjadi ujian apakah pasar publik menghargai ketahanan tersebut di tengah kondisi industri yang sedang lesu.
 
-Gw liat IPO Blockchain.com ini menarik buat Indonesia karena nambah opsi proxy crypto di pasar saham tradisional , selain MSTR, nanti ada Blockchain.com juga. IPO di SEC juga ngasih sinyal legitimasi tambahan yang secara gak langsung nguatin kepercayaan ke exchange lokal. Tapi timing-nya yang perlu dicermati: IPO di puncak siklus sering mengecewakan , BitGo contoh terdekat. Kalo Blockchain.com listing pas makro masih tertekan (yield tinggi, Iran, inflasi), valuasinya bisa diskon. Ironisnya, buat yang percaya adopsi jangka panjang, entry pas market lesu bisa jadi peluang dapet eksposur ke perusahaan mature dengan valuasi realistis.
+Saya liat IPO Blockchain.com ini menarik buat Indonesia karena nambah opsi proxy crypto di pasar saham tradisional , selain MSTR, nanti ada Blockchain.com juga. IPO di SEC juga ngasih sinyal legitimasi tambahan yang secara gak langsung nguatin kepercayaan ke exchange lokal. Tapi timing-nya yang perlu dicermati: IPO di puncak siklus sering mengecewakan , BitGo contoh terdekat. Kalo Blockchain.com listing pas makro masih tertekan (yield tinggi, Iran, inflasi), valuasinya bisa diskon. Ironisnya, buat yang percaya adopsi jangka panjang, entry pas market lesu bisa jadi peluang dapet eksposur ke perusahaan mature dengan valuasi realistis.
 
 ## Sumber
 

@@ -19,7 +19,7 @@ faq: >
 </div>
 
 
-Gw liat Presiden Trump baru aja teken executive order pada 19 Mei 2026 yang langsung perintahkan Federal Reserve dan regulator AS buat nge-review aturan akses perusahaan fintech dan crypto ke sistem pembayaran AS , alias master account. [Laporannya dari CoinDesk](https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails).
+Saya liat Presiden Trump baru aja teken executive order pada 19 Mei 2026 yang langsung perintahkan Federal Reserve dan regulator AS buat nge-review aturan akses perusahaan fintech dan crypto ke sistem pembayaran AS , alias master account. [Laporannya dari CoinDesk](https://www.coindesk.com/policy/2026/05/19/trump-orders-government-fed-to-review-crypto-firms-access-to-payment-rails).
 
 Executive order ini tegas: "sudah menjadi kebijakan Amerika Serikat untuk menyederhanakan proses regulasi, mengurangi hambatan masuk yang tidak perlu, dan mendorong kolaborasi antara perusahaan fintech, lembaga keuangan yang diatur federal, dan regulator keuangan federal."
 
@@ -39,7 +39,7 @@ Tapi Fed sendiri udah mulai buka pintu sejak Desember 2025, pas minta masukan pu
 
 **Buat pasar Indonesia:** Kalo perusahaan crypto di AS bisa akses master account Fed, tekanan regulasi serupa bisa dorong Bank Indonesia dan regulator lain buat pertimbangin langkah serupa. Indonesia lagi di proses penyusunan regulasi crypto yang lebih komprehensif pasca pengalihan pengawasan ke OJK. Akses lebih mudah ke sistem pembayaran AS berarti stablecoin kayak USDC dan USDT bakal punya on-ramp dan off-ramp yang lebih efisien , penting banget karena mayoritas transaksi crypto di Indonesia pake stablecoin.
 
-**Apa yang perlu lo pantau dalam 120 hari ke depan:** Laporan Fed soal kewenangan 12 bank regional buat ngasih master account secara independen, sikap Fed terhadap stablecoin issuer, dan reaksi Kongres yang bisa percepat atau perlambat implementasi lewat PACE Act. Buat lo trader Indo, momen ini bisa jadi katalis jangka menengah buat altcoin yang terkait ekosistem pembayaran dan stablecoin. Tapi kayak biasa, lakukan riset sendiri dan jangan FOMO.
+**Apa yang perlu kamu pantau dalam 120 hari ke depan:** Laporan Fed soal kewenangan 12 bank regional buat ngasih master account secara independen, sikap Fed terhadap stablecoin issuer, dan reaksi Kongres yang bisa percepat atau perlambat implementasi lewat PACE Act. Buat kamu trader Indo, momen ini bisa jadi katalis jangka menengah buat altcoin yang terkait ekosistem pembayaran dan stablecoin. Tapi kayak biasa, lakukan riset sendiri dan jangan FOMO.
 
 ## Sumber
 

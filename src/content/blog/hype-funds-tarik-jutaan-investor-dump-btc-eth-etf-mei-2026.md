@@ -30,17 +30,17 @@ Token HYPE sendiri udah naik dari $38 ke $63 dalam 10 hari: gain 59% di bulan Me
 
 Yang lebih menarik: a16z diam-diam ngumpulin posisi HYPE lewat pasar sekunder sejak pertengahan April, total akumulasi sekitar $90 juta berdasarkan data on-chain yang dilacak [WuBlockchain](https://x.com/WuBlockchain/status/2056950784655536452). Ini bikin mereka jadi holder HYPE keenam terbesar. Bukan degen money: ini conviction capital dari VC paling paham kripto di AS.
 
-Gw liat pola yang beda dari narasi ETF biasanya. Kalo inflow BTC ETF biasanya dari investor ritel dan wealth manager yang beli lewat advisor, inflow HYPE ETF ini lebih banyak dari institusi yang beneran ngerti Hyperliquid sebagai platform. Alasannya simpel: Hyperliquid punya buyback mechanism lewat Assistance Fund yang udah ngumpulin $1,16 miliar aset, dilaporkan oleh on-chain [analyst Valerius Labs](https://x.com/ValeriusLabs/status/2058672026177753390). Setiap token yang dibeli balik lewat fee revenue itu permanent supply removal: bukan spekulasi.
+Saya liat pola yang beda dari narasi ETF biasanya. Kalo inflow BTC ETF biasanya dari investor ritel dan wealth manager yang beli lewat advisor, inflow HYPE ETF ini lebih banyak dari institusi yang beneran ngerti Hyperliquid sebagai platform. Alasannya simpel: Hyperliquid punya buyback mechanism lewat Assistance Fund yang udah ngumpulin $1,16 miliar aset, dilaporkan oleh on-chain [analyst Valerius Labs](https://x.com/ValeriusLabs/status/2058672026177753390). Setiap token yang dibeli balik lewat fee revenue itu permanent supply removal: bukan spekulasi.
 
 ## HIP-3 dan HIP-4: Hyperliquid Bukan Cuma Perp DEX
 
 [FalconX](https://www.coindesk.com/markets/2026/05/25/hyperliquid-is-emerging-as-a-challenger-to-traditional-exchanges-and-prediction-markets-says-falconx) nulis laporan detail tentang gimana Hyperliquid sekarang mulai berekspansi dari perpetual futures ke pre-IPO markets, prediction contracts, dan tokenized RWA. HIP-3 markets udah nyentuh open interest $2,6 miliar di RWA perp markets: trader pake ini buat spekulasi harga saham Cerebras, Anthropic, SpaceX sebelum mereka listing publik.
 
-HIP-4 launching 2 Mei lalu: outcome markets (prediction market) on-chain dengan zero fee buat buka posisi. Bayangin lo bisa trading prediksi politik atau ekonomi di platform yang sama dengan crypto perpetuals portfolio lo.
+HIP-4 launching 2 Mei lalu: outcome markets (prediction market) on-chain dengan zero fee buat buka posisi. Bayangin kamu bisa trading prediksi politik atau ekonomi di platform yang sama dengan crypto perpetuals portfolio kamu.
 
 Yang bikin ini relevan: [Hyperliquid baru aja partnership dengan Coinbase dan Circle](https://www.coindesk.com/markets/2026/05/18/hyperliquid-s-usdc-deal-could-supercharge-hype-pressure-circle-coinbase-margins-analysts-say) buat integrasi USDC sebagai quote asset. FalconX ngitung potensi revenue tambahan dari deal ini: $160 juta per tahun dari reserve yields USDC.
 
-Buat lo trader Indonesia: ini bukan narasi "token pump and dump". Hyperliquid dukungin oleh revenue riil: $13,2 juta seminggu dari fee: yang langsung feed ke buyback token. Model bisnisnya mirip BNB di awal Binance, bedanya Hyperliquid mulai dari DeFi dan gak butuh exchange terpusat. Yang perlu dicermati: spread di exchange lokal belum tentu ngikutin volatilitas ini. Kalo lo trading HYPE lewat Indodax atau exchange lain yang listing HYPE, cek spread dulu: di kondisi volatilitas tinggi kayak gini spread kadang melebar tanpa lo sadar.
+Buat kamu trader Indonesia: ini bukan narasi "token pump and dump". Hyperliquid dukungin oleh revenue riil: $13,2 juta seminggu dari fee: yang langsung feed ke buyback token. Model bisnisnya mirip BNB di awal Binance, bedanya Hyperliquid mulai dari DeFi dan gak butuh exchange terpusat. Yang perlu dicermati: spread di exchange lokal belum tentu ngikutin volatilitas ini. Kalo kamu trading HYPE lewat Indodax atau exchange lain yang listing HYPE, cek spread dulu: di kondisi volatilitas tinggi kayak gini spread kadang melebar tanpa kamu sadar.
 
 ## XRP dan SOL Juga Kebagian Rotasi
 
@@ -50,7 +50,7 @@ Data dari [SoSoValue](https://x.com/SoSoValue/status/2058194527773696149) nunjuk
 
 ## Klasik: Fear & Greed di 20-an, Rotasi Jalan Terus
 
-Fear & Greed Index lagi di zona 20-30. Biasanya fase gini retail panic jual. Tapi institusi gak panic: mereka mindahin modal. Buat lo trader Indonesia, fase rotasi kayak gini justru waktu yang tepat buat belajar bedain antara "crypto exiting" sama "capital rotating." BTC ETF outflow $1 miliar tapi inflow HYPE $72 juta? Itu bukan tanda pasar ambruk: itu tanda pasar lagi milih pemenang baru.
+Fear & Greed Index lagi di zona 20-30. Biasanya fase gini retail panic jual. Tapi institusi gak panic: mereka mindahin modal. Buat kamu trader Indonesia, fase rotasi kayak gini justru waktu yang tepat buat belajar bedain antara "crypto exiting" sama "capital rotating." BTC ETF outflow $1 miliar tapi inflow HYPE $72 juta? Itu bukan tanda pasar ambruk: itu tanda pasar lagi milih pemenang baru.
 
 ---
 

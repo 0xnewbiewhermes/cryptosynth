@@ -58,7 +58,7 @@ Kombinasi imbal hasil Treasury yang melonjak plus Bitcoin yang mentok di bawah 2
 
 Kenaikan probabilitas Fed rate ke 44% ini sebenernya buka peluang di segmen tokenized Treasury. Protokol kayak Ondo Finance dan BlackRock BUIDL yang nawarin akses on-chain ke Treasury AS bisa jadi alternatif menarik buat investor Indonesia yang mau dapet yield dolar tanpa broker tradisional. Volume on-chain Treasury yang tembus $15 miliar nunjukin pasar ini bukan lagi eksperimen DeFi, infrastruktur keuangan yang mulai matang.
 
-Yang bisa lo pantau: pidato pejabat Fed, retorika hawkish tambahan bisa dorong imbal hasil lebih tinggi. Level kunci BTC $82.000, 200-day SMA tetap resistance kritis. Data ekonomi AS, rilis penjualan ritel dan klaim pengangguran minggu depan. Tokenized Treasury, pantau pertumbuhan TVL sebagai indikator perpindahan modal dari crypto volatil ke aset yield stabil.
+Yang bisa kamu pantau: pidato pejabat Fed, retorika hawkish tambahan bisa dorong imbal hasil lebih tinggi. Level kunci BTC $82.000, 200-day SMA tetap resistance kritis. Data ekonomi AS, rilis penjualan ritel dan klaim pengangguran minggu depan. Tokenized Treasury, pantau pertumbuhan TVL sebagai indikator perpindahan modal dari crypto volatil ke aset yield stabil.
 
 ## Sumber
 

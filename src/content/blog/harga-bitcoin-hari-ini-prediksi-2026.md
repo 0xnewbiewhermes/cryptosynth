@@ -91,9 +91,9 @@ Ekspektasi pemotongan suku bunga Fed membuat investor mencari aset berisiko term
 - Take profit bertahap di level kunci
 - Gunakan stop loss untuk proteksi
 
-Kalau lo nanya prediksi Bitcoin 2026 yang realistis buat Indonesia, jawaban gw: tergantung kebijakan Fed dan harga energi global. Prediksi Standard Chartered $150.000 itu bukan mustahil, tapi juga bukan jaminan. Yang lebih penting dari prediksi harga adalah manajemen risiko. Data Bappebti nyatain jumlah investor kripto Indonesia udah 30 juta+, tapi mayoritas masih belum pake stop loss atau diversifikasi portofolio. FOMO beli di puncak terus panic sell di dasar itu siklus yang terus berulang.
+Kalau kamu nanya prediksi Bitcoin 2026 yang realistis buat Indonesia, jawaban saya: tergantung kebijakan Fed dan harga energi global. Prediksi Standard Chartered $150.000 itu bukan mustahil, tapi juga bukan jaminan. Yang lebih penting dari prediksi harga adalah manajemen risiko. Data Bappebti nyatain jumlah investor kripto Indonesia udah 30 juta+, tapi mayoritas masih belum pake stop loss atau diversifikasi portofolio. FOMO beli di puncak terus panic sell di dasar itu siklus yang terus berulang.
 
-Yang gw liat, faktor paling ngaruh buat harga Bitcoin di sisa 2026 bukan prediksi analis, tapi tiga hal: keputusan suku bunga Fed (probabilitas naik 44% di Desember), aliran dana ETF Bitcoin (outflow $635 juta dalam sehari udah terjadi), dan adopsi institusional lewat produk kayak tokenized Treasury. Lo bisa pake tiga indikator ini buat ngukur arah pasar, bukan percaya prediksi harga mentah.
+Yang saya liat, faktor paling ngaruh buat harga Bitcoin di sisa 2026 bukan prediksi analis, tapi tiga hal: keputusan suku bunga Fed (probabilitas naik 44% di Desember), aliran dana ETF Bitcoin (outflow $635 juta dalam sehari udah terjadi), dan adopsi institusional lewat produk kayak tokenized Treasury. Kamu bisa pake tiga indikator ini buat ngukur arah pasar, bukan percaya prediksi harga mentah.
 
 ---
 

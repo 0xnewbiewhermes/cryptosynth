@@ -109,9 +109,9 @@ Lending adalah meminjamkan crypto ke orang lain dan mendapat bunga.
 5. **Mulai kecil**, coba dulu dengan $50-100
 6. **Pantau**, cek reward harian, sesuaikan strategi
 
-Satu hal yang jarang dibahas di panduan DeFi mainstream: gas fee di Ethereum mainnet bisa sampe $50 per transaksi, yang bikin strategi farming kecil jadi gak ekonomis buat pemula Indonesia. Makanya rekomendasi gw mulai di Solana atau Layer 2 kayak Arbitrum dulu, baru naik level ke Ethereum mainnet kalo udah paham risikonya. Biaya transaksi di Solana cuma $0.01, lo bisa testing strategi farming tanpa takut gas fee makan modal.
+Satu hal yang jarang dibahas di panduan DeFi mainstream: gas fee di Ethereum mainnet bisa sampe $50 per transaksi, yang bikin strategi farming kecil jadi gak ekonomis buat pemula Indonesia. Makanya rekomendasi saya mulai di Solana atau Layer 2 kayak Arbitrum dulu, baru naik level ke Ethereum mainnet kalo udah paham risikonya. Biaya transaksi di Solana cuma $0.01, kamu bisa testing strategi farming tanpa takut gas fee makan modal.
 
-Gw juga liat banyak pemula Indonesia yang langsung terjun ke yield farming tanpa ngerti impermanent loss, terus kaget pas modalnya terkikis. Mulai dari staking dulu (paling simple, risikonya paling kecil), baru naik ke liquidity providing setelah paham cara kerjanya. Staking di Lido kasih ~4% APY, masih 2-3x lipat deposito bank Indonesia yang cuma 3-5% setahun.
+Saya juga liat banyak pemula Indonesia yang langsung terjun ke yield farming tanpa ngerti impermanent loss, terus kaget pas modalnya terkikis. Mulai dari staking dulu (paling simple, risikonya paling kecil), baru naik ke liquidity providing setelah paham cara kerjanya. Staking di Lido kasih ~4% APY, masih 2-3x lipat deposito bank Indonesia yang cuma 3-5% setahun.
 
 
 

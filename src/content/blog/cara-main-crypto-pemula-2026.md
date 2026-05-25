@@ -79,7 +79,7 @@ Beli dan tahan jangka panjang (1-5 tahun). Cocok untuk yang tidak mau ribet trad
 
 Investasi hanya uang yang siap hilang. Jangan pakai uang kebutuhan sehari-hari.
 
-Buat 2026, pasar crypto lagi di fase sideways dengan tekanan makro dari inflasi AS dan tensi Iran. Crypto bukan jalan cepet kaya. Yang berhasil biasanya yang paham fundamental dan sabar nahan posisi. Potensi jangka panjang masih gede, tapi manajemen risk dan edukasi yang nentuin lo survive atau jadi exit liquidity orang lain. Pasar bear itu sekolah paling mahal tapi paling efektif buat belajar.
+Buat 2026, pasar crypto lagi di fase sideways dengan tekanan makro dari inflasi AS dan tensi Iran. Crypto bukan jalan cepet kaya. Yang berhasil biasanya yang paham fundamental dan sabar nahan posisi. Potensi jangka panjang masih gede, tapi manajemen risk dan edukasi yang nentuin kamu survive atau jadi exit liquidity orang lain. Pasar bear itu sekolah paling mahal tapi paling efektif buat belajar.
 
 ## Kesalahan Umum Pemula
 

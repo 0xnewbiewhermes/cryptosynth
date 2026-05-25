@@ -57,7 +57,7 @@ Satu poin yang langsung disambut positif pasar: EF berencana jual lebih sedikit 
 
 "Ini soal longevity," tulis Vitalik. "Kami pengin EF ada dalam 100 tahun, bukan cuma 10 tahun."
 
-Buat lo trader Indo, ini artinya: salah satu sumber sell pressure institusional bakal berkurang. Tapi jangan terlalu berekspektasi. 0.16% itu jumlahnya sekitar 192.000 ETH. Kalaupun dijual semua, itu cuma ~$400 juta di harga sekarang. Bandingin sama volume perdagangan ETH harian yang $10-15 miliar. Dampak langsungnya kecil, tapi sinyalnya penting: EF milih sustainabilitas jangka panjang.
+Buat kamu trader Indo, ini artinya: salah satu sumber sell pressure institusional bakal berkurang. Tapi jangan terlalu berekspektasi. 0.16% itu jumlahnya sekitar 192.000 ETH. Kalaupun dijual semua, itu cuma ~$400 juta di harga sekarang. Bandingin sama volume perdagangan ETH harian yang $10-15 miliar. Dampak langsungnya kecil, tapi sinyalnya penting: EF milih sustainabilitas jangka panjang.
 
 ## Kontroversi: "Mandate" Dokumen Internal
 
@@ -86,7 +86,7 @@ Beberapa pihak di X nyebut ini bagian dari "grieving process" Ethereum (tahap ma
 
 ## Yang Berarti Buat Trader Indo
 
-Gw liat ETH/USD udah turun 57% dari all-time high $4.878 (Nov 2021). Di exchange Indo, spread ETH/IDR makin tipis, artinya likuiditas lagi rendah. Trader lokal mulai pindah ke SOL dan token ekosistem lain yang lebih volatil.
+Saya liat ETH/USD udah turun 57% dari all-time high $4.878 (Nov 2021). Di exchange Indo, spread ETH/IDR makin tipis, artinya likuiditas lagi rendah. Trader lokal mulai pindah ke SOL dan token ekosistem lain yang lebih volatil.
 
 Sementara restrukturisasi ini punya potensi jadi katalis jangka panjang. Dua hal yang perlu dipantau:
 
@@ -94,7 +94,7 @@ Sementara restrukturisasi ini punya potensi jadi katalis jangka panjang. Dua hal
 
 **Apakah proposal Feist terealisasi.** Organisasi $1 miliar yang alignment dengan harga ETH bukan hal kecil. Kalo ini jadi, ETH punya "marketing machine" yang selama ini gak dimiliki, sesuatu yang selama ini dikritik komunitas. Tapi jalannya masih panjang: butuh konsensus yang sulit dicapai di ekosistem Ethereum yang terfragmentasi.
 
-Intinya: buat lo yang punya ETH di portofolio, perubahan struktural di EF bukan sesuatu yang dateng tiba-tiba. Ini udah di depan mata sejak akhir 2025. Yang perlu dilacak ke depan: progress implementasi CROPS dan apakah gelombang kepergian udah berhenti atau masih berlanjut.
+Intinya: buat kamu yang punya ETH di portofolio, perubahan struktural di EF bukan sesuatu yang dateng tiba-tiba. Ini udah di depan mata sejak akhir 2025. Yang perlu dilacak ke depan: progress implementasi CROPS dan apakah gelombang kepergian udah berhenti atau masih berlanjut.
 
 ## Sumber
 

@@ -28,7 +28,7 @@ faq: >
 </div>
 
 
-Bayangin lo punya AI trading agent yang beli data pasar, sewa cloud compute, dan bayar API analisis, semuanya otomatis, tanpa lo approval satu-satu. Kedengeran futuristik? Ternyata udah happening sekarang.
+Bayangin kamu punya AI trading agent yang beli data pasar, sewa cloud compute, dan bayar API analisis, semuanya otomatis, tanpa kamu approval satu-satu. Kedengeran futuristik? Ternyata udah happening sekarang.
 
 [Keyrock](https://keyrock.com/who-pays-the-agent/), firma crypto trading dan investasi, baru aja rilis laporan "Who Pays the Agent?" (21 Mei 2026) yang nge-track aktivitas pembayaran AI agent di blockchain. Angkanya gila: **$73 juta** settle lewat **176 juta transaksi** antara Mei 2025 sampe April 2026.
 
@@ -38,13 +38,13 @@ Kecil dibanding Visa yang proses $14,5 triliun per tahun. Tapi yang bikin menari
 
 "Significance lies less in the headline U.S. dollar value and more in how quickly the infrastructure stack is forming," tulis laporan Keyrock.
 
-Gw liat polanya mirip early days DeFi, volum kecil, protokol saling tumpuk, dan yang paling penting: **98.6% dari semua pembayaran mesin settle di USDC** menurut [data dari Keyrock](https://x.com/keyrock/status/2057461733912969544). Ini bagus buat Circle selaku penerbit, tapi sekaligus konsentrasi risk yang gak bisa diabaikan.
+Saya liat polanya mirip early days DeFi, volum kecil, protokol saling tumpuk, dan yang paling penting: **98.6% dari semua pembayaran mesin settle di USDC** menurut [data dari Keyrock](https://x.com/keyrock/status/2057461733912969544). Ini bagus buat Circle selaku penerbit, tapi sekaligus konsentrasi risk yang gak bisa diabaikan.
 
 ## Kenapa Card Rails Gak Cocok buat Robot
 
 Masalah utama pembayaran tradisional: **fixed fee**. Kartu kredit punya floor fee ~$0.30 per transaksi. Sekarang 76% transaksi AI agent ada di bawah angka itu, kebanyakan antara $0.01 sampai $0.10, menurut [Keyrock](https://x.com/keyrock/status/2057461737754870042).
 
-Bayangin lo bayar $0.05 buat akses API tapi kena fee $0.30, lo rugi sebelum mulai. Di blockchain kayak Base atau Tempo, settlement cost cuma **$0.0001** dengan finalitas 200ms, menurut [Keyrock](https://x.com/keyrock/status/2057461737754870042). Bukan cuma lebih murah, tapi secara matematis jadi satu-satunya opsi yang feasible.
+Bayangin kamu bayar $0.05 buat akses API tapi kena fee $0.30, kamu rugi sebelum mulai. Di blockchain kayak Base atau Tempo, settlement cost cuma **$0.0001** dengan finalitas 200ms, menurut [Keyrock](https://x.com/keyrock/status/2057461737754870042). Bukan cuma lebih murah, tapi secara matematis jadi satu-satunya opsi yang feasible.
 
 ## Perang Tiga Kutub: Coinbase, Stripe, Google
 
@@ -72,7 +72,7 @@ Di [Southeast Asia Blockchain Week 2026 Bangkok](https://x.com/SEABWofficial/sta
 
 Buat Indonesia, ada gap menarik. Regulasi Bappebti masih ketat soal pembayaran crypto langsung ke merchant, preferensi fiat via exchange berizin kayak Indodax atau Reku. Tapi soal remittance, beda cerita. Indonesia duduk di peringkat 6 besar dunia buat penerima remittance. [Bank Indonesia](https://www.bi.go.id/) catat aliran dana TKI lebih dari $11 miliar setahun. Lewat stablecoin, biaya kirim bisa turun dari 3-5% (Western Union) ke <0.1%. Itu selisih ratusan juta per tahun yang balik ke kantong pekerja, bukan provider.
 
-Gw liat ekosistem Web3 Indo udah mulai gerak. [OpenClaw](https://x.com/BitgetWalletID/status/2018337005810356517) pindah dari chatbot ke autonomous execution di Solana, [Bankr](https://x.com/BitgetWalletID/status/2018337005810356517) bangun DeFi execution layer, Purch bikin AI shopping agent. Walau payment langsung masih dibatesin, infrastruktur agent payment ini tetep relevan, tinggal nunggu regulator catch up.
+Saya liat ekosistem Web3 Indo udah mulai gerak. [OpenClaw](https://x.com/BitgetWalletID/status/2018337005810356517) pindah dari chatbot ke autonomous execution di Solana, [Bankr](https://x.com/BitgetWalletID/status/2018337005810356517) bangun DeFi execution layer, Purch bikin AI shopping agent. Walau payment langsung masih dibatesin, infrastruktur agent payment ini tetep relevan, tinggal nunggu regulator catch up.
 
 ## Sumber
 

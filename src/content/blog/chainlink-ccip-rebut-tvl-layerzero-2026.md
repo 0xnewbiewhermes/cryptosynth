@@ -50,14 +50,14 @@ Beberapa protokol besar yang bermigrasi ke CCIP:
 
 Keamanan jadi faktor utama dalam milih infrastruktur cross-chain, ini yang dorong migrasi. Dalam sebulan pasca exploit Kelp DAO, TVL CCIP meloncat 500% dari $500 juta ke $3 miliar. Artinya pasar ngasih sinyal: keamanan lebih penting dari biaya murah atau kecepatan.
 
-Buat lo yang main DeFi di Indonesia, insiden LayerZero ini ngasih gambaran jelas: keamanan infrastruktur itu nomor satu. Jangan tergiur yield gede kalo bridgenya belum teruji. Beberapa catatan gw:
+Buat kamu yang main DeFi di Indonesia, insiden LayerZero ini ngasih gambaran jelas: keamanan infrastruktur itu nomor satu. Jangan tergiur yield gede kalo bridgenya belum teruji. Beberapa catatan saya:
 
 - **Diversifikasi bridge**: Jangan taro semua aset di satu bridge.
 - **Cek audit**: Selalu verifikasi status audit bridge sebelum make.
 - **Pantau berita**: Keamanan DeFi berubah cepet, exploit bisa datang dari mana aja.
 - **Insurance**: Udah mulai banyak protokol DeFi yang nawarin asuransi, patut dipertimbangin.
 
-Gw liat migrasi dari LayerZero ke Chainlink CCIP ini titik balik buat infrastruktur cross-chain. Pasar kasih sinyal jelas: keamanan di atas segalanya. Ke depannya, bakal ada standarisasi keamanan yang lebih ketat buat bridge. Buat kita di Indonesia, artinya lebih banyak pilihan bridge yang aman , tapi tetep, riset sendiri sebelum make bridge apa pun. Yang perlu dipantau: protokol DeFi Indo yang mulai migrasi ke CCIP bisa jadi leading indicator buat adopsi infrastruktur yang lebih aman di Asia Tenggara.
+Saya liat migrasi dari LayerZero ke Chainlink CCIP ini titik balik buat infrastruktur cross-chain. Pasar kasih sinyal jelas: keamanan di atas segalanya. Ke depannya, bakal ada standarisasi keamanan yang lebih ketat buat bridge. Buat kita di Indonesia, artinya lebih banyak pilihan bridge yang aman , tapi tetep, riset sendiri sebelum make bridge apa pun. Yang perlu dipantau: protokol DeFi Indo yang mulai migrasi ke CCIP bisa jadi leading indicator buat adopsi infrastruktur yang lebih aman di Asia Tenggara.
 
 ---
 

@@ -19,7 +19,7 @@ faq: >
 </div>
 
 
-Gw liat AI Financial Corporation , perusahaan treasury publik milik World Liberty Financial (WLF) yang terafiliasi sama Trump , baru aja keluar peringatan "going concern" di filing SEC. Artinya? Ada keraguan serius apakah perusahaan ini bisa bertahan 12 bulan ke depan.
+Saya liat AI Financial Corporation , perusahaan treasury publik milik World Liberty Financial (WLF) yang terafiliasi sama Trump , baru aja keluar peringatan "going concern" di filing SEC. Artinya? Ada keraguan serius apakah perusahaan ini bisa bertahan 12 bulan ke depan.
 
 Berdasarkan laporan [CoinDesk](https://www.coindesk.com/markets/2026/05/19/world-liberty-financial-wlfi-treasury-company-ai-financial-warns-in-sec-filing-that-it-may-not-survive-the-year), AI Financial (ticker NASDAQ: AIFC) catat rugi bersih **$271,5 juta** ($2,14 per saham) di Q1 2026. Mayoritas dari unrealized loss **$348,3 juta** dari kepemilikan 7,28 miliar token WLFI.
 
@@ -29,7 +29,7 @@ Auditor ngasih peringatan "keraguan substansial" soal going concern , ngeliat da
 
 Ini kasus yang langka , entitas treasury publik proyek DeFi ngaku secara terbuka risikonya. Bedanya sama Strategy/MSTR di Bitcoin: mereka bisa jual BTC kapan aja buat likuiditas. Token WLFI yang terkunci bikin AI Financial nggak punya fleksibilitas itu.
 
-Buat lo investor Indo, ini jadi contoh nyata: proyek DeFi dengan political branding tinggi punya risiko unik. Token yang terkunci di treasury perusahaan publik bisa jadi bom waktu likuiditas waktu harga ambles. Di Indonesia emang belum banyak proyek DeFi berbau politis, tapi trennya mulai kelihatan. Model di mana treasury perusahaan publik cuma bergantung ke satu aset yang gak likuid , ini struktur berisiko tinggi yang sebaiknya lo hindari.
+Buat kamu investor Indo, ini jadi contoh nyata: proyek DeFi dengan political branding tinggi punya risiko unik. Token yang terkunci di treasury perusahaan publik bisa jadi bom waktu likuiditas waktu harga ambles. Di Indonesia emang belum banyak proyek DeFi berbau politis, tapi trennya mulai kelihatan. Model di mana treasury perusahaan publik cuma bergantung ke satu aset yang gak likuid , ini struktur berisiko tinggi yang sebaiknya kamu hindari.
 
 **Ke depannya gimana?** Semua tergantung tiga hal: bisa gak mereka kumpulin modal baru, ada potensi unlock token WLFI atau nggak, atau harga WLFI balik naik signifikan. Sayangnya gak ada yang terjamin dalam waktu dekat.
 

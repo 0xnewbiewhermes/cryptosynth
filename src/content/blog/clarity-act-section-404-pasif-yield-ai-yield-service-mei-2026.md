@@ -53,7 +53,7 @@ Vollono, yang menghabiskan lebih dari tujuh tahun di Morgan Stanley dan menjabat
 
 Tech stack yang diperlukan untuk model ini sebenarnya sudah ada. Smart contracts, oracle, DeFi rails, dan API-based infrastructure tinggal diadaptasi ke kerangka regulasi.
 
-Meskipun Clarity Act ini regulasi AS, dampaknya ke Indonesia jelas kerasa. Mayoritas protokol DeFi dan stablecoin yang dipake di Indonesia operasi di bawah yurisdiksi AS. Gw liat model yield farming pasif bakal berkurang drastis kalo mereka milih patuh. Pengguna Indonesia mungkin kudu beralih ke strategi yield lebih aktif: provide liquidity di DEX, farming berbasis aktivitas trading, atau manfaatin protokol di luar yurisdiksi AS.
+Meskipun Clarity Act ini regulasi AS, dampaknya ke Indonesia jelas kerasa. Mayoritas protokol DeFi dan stablecoin yang dipake di Indonesia operasi di bawah yurisdiksi AS. Saya liat model yield farming pasif bakal berkurang drastis kalo mereka milih patuh. Pengguna Indonesia mungkin kudu beralih ke strategi yield lebih aktif: provide liquidity di DEX, farming berbasis aktivitas trading, atau manfaatin protokol di luar yurisdiksi AS.
 
 Produk kayak "USDC yield account" yang mulai populer di exchange Indonesia juga perlu restrukturisasi. Platform lokal yang kerja sama mitra AS harus cari model komplian yang tetep ngasih imbalan ke user.
 

@@ -45,7 +45,7 @@ Di sisi futures, analis CryptoOnChain melaporkan net taker volume 30-day moving 
 
 Buat trader Indonesia, kondisi ini menarik sih. Coinbase Premium emang nunjukin weak demand dari AS, tapi struktur pasar keseluruhan masih bullish. BTC bertahan di atas $76.000 setelah rally ke $82.000 minggu lalu. Indikator on-chain kayak net taker volume yang positif artinya koreksi ini lebih ke profit-taking daripada sell-off panik.
 
-Soal jam trading, perbedaan antara AS dan Asia juga jadi faktor. Pas premium Coinbase negatif di jam AS, harga sering pulih pas pasar Asia aktif. Buat lo yang trading di jam Asia, momentum pagi hari bisa kasih entry yang lebih oke.
+Soal jam trading, perbedaan antara AS dan Asia juga jadi faktor. Pas premium Coinbase negatif di jam AS, harga sering pulih pas pasar Asia aktif. Buat kamu yang trading di jam Asia, momentum pagi hari bisa kasih entry yang lebih oke.
 
 Satu level yang lagi dipantau trader: support $74.800. Kalo BTC break di bawah sini, struktur bullish bisa berubah dan bearish momentum bisa dorong harga ke $70.000. Tapi selama BTC bertahan di atas $76.000 dengan volume wajar, koreksi ini masih bagian dari siklus normal bull market.
 

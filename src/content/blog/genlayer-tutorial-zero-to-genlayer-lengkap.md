@@ -854,6 +854,6 @@ Deploy ke Vercel: `npm run build && vercel --prod`
   <li>✅ Membangun Dispute Resolution dApp, kasus penggunaan nyata</li>
 </ul>
 
-GenLayer buka era baru blockchain: **Trustless Adjudication**. Lo sekarang udah siap jadi **GenLayer Builder**! 🚀
+GenLayer buka era baru blockchain: **Trustless Adjudication**. Kamu sekarang udah siap jadi **GenLayer Builder**! 🚀
 
-**Ringkasan Final:** Tutorial ini ngeliput semua perjalanan dari nol sampe jadi GenLayer Builder. Dari ngerti Optimistic Democracy & Equivalence Principle, nulis Intelligent Contract Python buat dispute resolution, deploy di Studio, bikin frontend React pake genlayer-js, sampe deploy ke Bradbury Testnet. GenLayer adalah masa depan trustless adjudication, dan lo udah jadi bagian dari ecosystem ini.
+**Ringkasan Final:** Tutorial ini ngeliput semua perjalanan dari nol sampe jadi GenLayer Builder. Dari ngerti Optimistic Democracy & Equivalence Principle, nulis Intelligent Contract Python buat dispute resolution, deploy di Studio, bikin frontend React pake genlayer-js, sampe deploy ke Bradbury Testnet. GenLayer adalah masa depan trustless adjudication, dan kamu udah jadi bagian dari ecosystem ini.

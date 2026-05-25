@@ -36,7 +36,7 @@ Terakhir perlindungan investor. Under proposal SEC, platform yang nawarin tokeni
 
 ## Industri: Lega, Bukan Kecewa
 
-Yang menarik, pelaku pasar malah lega. Bukan reaksi yang lo kira bakal terjadi di industri yang biasanya protes setiap kali regulator mundur.
+Yang menarik, pelaku pasar malah lega. Bukan reaksi yang kamu kira bakal terjadi di industri yang biasanya protes setiap kali regulator mundur.
 
 Carlos Domingo, CEO platform tokenisasi Securitize, [bilang](https://x.com/carlosdomingo/status/2057932447501750467) di X:
 > "Better delay it than get it wrong and unleash all sort of problems."
@@ -44,7 +44,7 @@ Carlos Domingo, CEO platform tokenisasi Securitize, [bilang](https://x.com/carlo
 Tom Farley, CEO Bullish yang baru akuisisi Equiniti $4.2 miliar buat ekspansi tokenisasi, [nambahin](https://x.com/ThomasFarley/status/2057904125380063465):
 > "SEC realizing that public companies are the only entity who can issue tokens that are a share of stock! Great job delaying and getting this right."
 
-Gw liat dua CEO ini tahu betul yang dipertaruhkan. Securitize dan Bullish sama-sama punya kepentingan besar di tokenisasi. Kalo mereka mendukung penundaan, berarti concern-nya emang legitimate.
+Saya liat dua CEO ini tahu betul yang dipertaruhkan. Securitize dan Bullish sama-sama punya kepentingan besar di tokenisasi. Kalo mereka mendukung penundaan, berarti concern-nya emang legitimate.
 
 ## Klasifikasi Custodial vs Synthetic
 
@@ -67,7 +67,7 @@ Berita penundaan ini langsung menekan harga. Data dari RWA.xyz [nunjukin](http:/
 
 Tapi jangan baca ini sebagai akhir dari tokenisasi. Boston Consulting Group [proyeksikan](https://cointelegraph.com/news/tokenized-stocks-risk-liquidity-and-revenue-fragmentation-research) pasar tokenized RWA bisa tembus $18.9 triliun pada 2033. Penundaan ini cuma soal timing dan mekanisme, bukan soal arah.
 
-Buat lo trader Indonesia, efeknya dua arah. Pertama, koreksi ONDO 20% bisa jadi entry point kalo lo yakin tokenisasi bakal jalan dalam 1-2 tahun ke depan. Tapi jangan lupa, koreksi 20% itu lumayan ngena, dan kalo SEC makin lama mutusin, tekanan bisa berlanjut. Kedua, penundaan ini justru ngasih waktu buat pemain lokal kayak Indodax atau Tokocrypto buat nyiapin kerangka tokenized stocks yang sesuai sama aturan Bappebti. Yang rugi sekarang cuma spekulator jangka pendek yang expects exemption minggu lalu. Buat yang liat horizon 1-2 tahun, ini cuma noise.
+Buat kamu trader Indonesia, efeknya dua arah. Pertama, koreksi ONDO 20% bisa jadi entry point kalo kamu yakin tokenisasi bakal jalan dalam 1-2 tahun ke depan. Tapi jangan lupa, koreksi 20% itu lumayan ngena, dan kalo SEC makin lama mutusin, tekanan bisa berlanjut. Kedua, penundaan ini justru ngasih waktu buat pemain lokal kayak Indodax atau Tokocrypto buat nyiapin kerangka tokenized stocks yang sesuai sama aturan Bappebti. Yang rugi sekarang cuma spekulator jangka pendek yang expects exemption minggu lalu. Buat yang liat horizon 1-2 tahun, ini cuma noise.
 
 ## Sumber
 

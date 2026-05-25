@@ -18,7 +18,7 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
 </div>
 
-Gw liat Bitcoin (BTC) mulai napas lega hari ini. Setelah seminggu lebih berkutat di bawah $77.000, BTC balik ke $77.200: naik 0,4% dari midnight UTC. Katalisnya? Minyak WTI yang ambles 5%+ ke $91/bbl setelah Trump ngumumin bahwa deal damai AS-Iran udah "largely negotiated," termasuk pembukaan [Selat Hormuz](https://www.coindesk.com/markets/2026/05/25/bitcoin-trades-above-usd77-000-as-oil-s-5-slide-pushes-asian-equities-higher).
+Saya liat Bitcoin (BTC) mulai napas lega hari ini. Setelah seminggu lebih berkutat di bawah $77.000, BTC balik ke $77.200: naik 0,4% dari midnight UTC. Katalisnya? Minyak WTI yang ambles 5%+ ke $91/bbl setelah Trump ngumumin bahwa deal damai AS-Iran udah "largely negotiated," termasuk pembukaan [Selat Hormuz](https://www.coindesk.com/markets/2026/05/25/bitcoin-trades-above-usd77-000-as-oil-s-5-slide-pushes-asian-equities-higher).
 
 Ini perkembangan yang agak ironis. Dua minggu lalu minyak tembus $104/bbl gara-gara tensi Iran, BTC jeblok ke $76.000. Sekarang kabar damai bikin minyak balik ke level sebelum perang: dan BTC ikut pulih.
 
@@ -53,7 +53,7 @@ Fear & Greed Index di 30: masih fear territory. Total crypto market cap stabil d
 
 Tapi outflow ETF yang masih jalan dan 18K BTC pindah ke exchange artinya potensi jual masih gede. BTC di $77.200 itu tipis di atas support kunci ($76.940 = 50-day SMA). Kalo deal Iran gagal atau molor, resistance di $78.000 bakal keras. Level $80.000 udah kayak tembok: belom bisa ditembus sejak awal Mei. Minggu ini semua tergantung pengumuman final deal atau enggak. Sabtu-Minggu sensitif banget.
 
-Gw liat peluang jangka pendek buat scalping di range $76.500-$78.000 kalo deal beneran diumumin. Tapi kalo deal gagal, minyak balik ke $100+ dan BTC bisa uji $75.000 lagi dalam hitungan jam.
+Saya liat peluang jangka pendek buat scalping di range $76.500-$78.000 kalo deal beneran diumumin. Tapi kalo deal gagal, minyak balik ke $100+ dan BTC bisa uji $75.000 lagi dalam hitungan jam.
 
 ## Sumber
 

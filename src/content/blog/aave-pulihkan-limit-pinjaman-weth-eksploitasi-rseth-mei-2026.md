@@ -18,7 +18,7 @@ faq: "Apa yang terjadi dengan Aave dan WETH?;;Aave telah memulihkan rasio loan-t
 </div>
 
 
-Gw liat Aave baru aja pulihin rasio LTV WETH di enam jaringan besar setelah eksploitasi rsETH bulan lalu. Buat lo yang main pinjaman di Aave, kabar ini artinya fungsi WETH sebagai agunan udah balik normal.
+Saya liat Aave baru aja pulihin rasio LTV WETH di enam jaringan besar setelah eksploitasi rsETH bulan lalu. Buat kamu yang main pinjaman di Aave, kabar ini artinya fungsi WETH sebagai agunan udah balik normal.
 
 Protokol pinjaman DeFi terbesar, [Aave](https://www.coindesk.com/markets/2026/05/18/aave-restores-weth-collateral-limits-as-rseth-crisis-enters-recovery-phase), resmi mengembalikan rasio loan-to-value (LTV) untuk Wrapped Ether (WETH) di enam jaringan Aave V3. Ini membalikkan pembatasan darurat setelah eksploitasi rsETH April 2026 yang bikin kerugian $230 juta+ dalam bentuk ETH.
 
@@ -41,9 +41,9 @@ Sebelumnya LTV WETH diset ke 0%, bikin WETH gak bisa dipake sebagai agunan di en
 
 WETH itu aset agunan paling vital di DeFi , trader pake buat minjam, leverage, dan danai strategi likuiditas. Waktu WETH dibekuin, leverage di seluruh ekosistem langsung terbatas, efisiensi likuiditas anjlok, modal pada terjebak.
 
-Buat lo trader Indonesia yang main farming dan leverage di Aave, kabar ini jelas penting. Fungsi WETH udah balik, artinya strategi yield farming dan leverage trading bisa jalan lagi tanpa hambatan. Plus suku bunga pinjaman cuma 1,9% setahun , modal murah buat yang paham risiko.
+Buat kamu trader Indonesia yang main farming dan leverage di Aave, kabar ini jelas penting. Fungsi WETH udah balik, artinya strategi yield farming dan leverage trading bisa jalan lagi tanpa hambatan. Plus suku bunga pinjaman cuma 1,9% setahun , modal murah buat yang paham risiko.
 
-Yang menarik, tingkat pemulihan 95% dalam kurang dari sebulan nunjukin resiliensi DeFi udah jauh lebih matang dibanding era 2022. Dulu eksploitasi kayak Ronin Bridge ($620 juta) butuh berbulan-bulan buat pulih parsial. Sekarang koalisi kompetitor langsung , Compound, Lido, Mantle , bisa gercep koordinasi darurat. Buat lo yang aktif di ekosistem Ethereum, pullback ETH ke $2.115 (-3,55% hari ini) bisa jadi entry point menarik, apalagi dengan biaya pinjaman minimal.
+Yang menarik, tingkat pemulihan 95% dalam kurang dari sebulan nunjukin resiliensi DeFi udah jauh lebih matang dibanding era 2022. Dulu eksploitasi kayak Ronin Bridge ($620 juta) butuh berbulan-bulan buat pulih parsial. Sekarang koalisi kompetitor langsung , Compound, Lido, Mantle , bisa gercep koordinasi darurat. Buat kamu yang aktif di ekosistem Ethereum, pullback ETH ke $2.115 (-3,55% hari ini) bisa jadi entry point menarik, apalagi dengan biaya pinjaman minimal.
 
 Tapi jangan geer dulu. Masih ada pertanyaan hukum yang belum beres , sengketa aset beku, tanggung jawab final, dan sidang pengadilan New York buat gugatan Aave soal $71 juta ETH yang dibekuin masih pending. Belum sepenuhnya kelar.
 

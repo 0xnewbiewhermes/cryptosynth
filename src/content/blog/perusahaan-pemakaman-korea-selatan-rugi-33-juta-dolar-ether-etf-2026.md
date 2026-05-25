@@ -17,7 +17,7 @@ author: "CryptoSynth Research"
 </div>
 
 
-Yang bikin kasus Bumo Sarang ini menarik bukan cuma nominalnya, tapi celah regulasi yang kebuka , dan ini sebenernya relevan juga buat Indonesia. Gw bahas di bawah.
+Yang bikin kasus Bumo Sarang ini menarik bukan cuma nominalnya, tapi celah regulasi yang kebuka , dan ini sebenernya relevan juga buat Indonesia. Saya bahas di bawah.
 
 ## Perusahaan Pemakaman dan Leveraged ETF Kripto
 

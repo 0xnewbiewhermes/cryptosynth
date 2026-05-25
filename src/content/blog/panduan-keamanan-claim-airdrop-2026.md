@@ -83,7 +83,7 @@ Beberapa jenis scam yang umum:
 
 ## Tools Keamanan yang Wajib Dimiliki
 
-Tools yang bisa bantu lo tetap aman:
+Tools yang bisa bantu kamu tetap aman:
 
 1. **Revoke.cash**: Untuk membatalkan approval smart contract
 2. **Etherscan**: Untuk memeriksa smart contract dan transaksi

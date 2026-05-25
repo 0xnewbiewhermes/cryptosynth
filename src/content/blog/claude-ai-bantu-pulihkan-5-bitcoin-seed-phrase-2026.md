@@ -64,7 +64,7 @@ Masalah utama selama ini adalah pekerjaan pemulihan membutuhkan keahlian teknis 
 
 Dengan harga Bitcoin sekitar **$80.542** saat berita ini ditulis, ada potensi besar Bitcoin yang hilang dari pengguna Indonesia. Survei Bappebti 2025 nyatain jumlah investor kripto Indonesia udah tembus 30 juta+ orang, dan banyak dari mereka yang masih baru. Kasus kayak gini jarang terjadi, tapi ngingetin: backup seed phrase itu bukan opsi, tapi keharusan. Dari 2,3-4 juta BTC yang hilang global, diperkirakan 10-15 ribu BTC milik investor Indonesia yang gak bisa diakses karena seed phrase rusak atau lupa password.
 
-Yang ironis, cerita ini viral bukan karena Claude melakukan sesuatu yang revolusioner secara teknis. Claude cuma bantu nyari file. Tapi itu udah cukup buat nyelamatin aset $395.000. Artinya, nilai AI di crypto bukan soal nge-break enkripsi, tapi soal bantu orang non-teknis nemuin apa yang udah mereka miliki. Buat ekosistem Indonesia yang mayoritas penggunanya masih pemula, ini titik masuk yang menarik buat adopsi AI wallet assistant. Tapi inget, jangan sampe lo jadi orang yang baru nyadar pentingnya backup pas udah kehilangan akses.
+Yang ironis, cerita ini viral bukan karena Claude melakukan sesuatu yang revolusioner secara teknis. Claude cuma bantu nyari file. Tapi itu udah cukup buat nyelamatin aset $395.000. Artinya, nilai AI di crypto bukan soal nge-break enkripsi, tapi soal bantu orang non-teknis nemuin apa yang udah mereka miliki. Buat ekosistem Indonesia yang mayoritas penggunanya masih pemula, ini titik masuk yang menarik buat adopsi AI wallet assistant. Tapi inget, jangan sampe kamu jadi orang yang baru nyadar pentingnya backup pas udah kehilangan akses.
 
 ## Tips untuk Pembaca CryptoSynth
 

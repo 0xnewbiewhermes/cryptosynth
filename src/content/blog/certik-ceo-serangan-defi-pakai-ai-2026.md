@@ -66,15 +66,15 @@ CertiK merekomendasikan beberapa langkah untuk mengejar ketinggalan:
 
 5. **Collaboration**: Berbagi informasi tentang vulnerability antar protokol.
 
-Buat lo yang main DeFi, peringatan CertiK ini wake-up call. Beberapa hal yang gw terapin sendiri:
+Buat kamu yang main DeFi, peringatan CertiK ini wake-up call. Beberapa hal yang saya terapin sendiri:
 
 - **Cek audit dulu**: Jangan asal deposit di protokol yang belum diaudit.
 - **Sebar aset**: Jangan taro semua di satu protokol.
 - **Asuransi DeFi**: Mulai jadi pertimbangan penting.
-- **Pantau berita**: Keamanan DeFi berubah cepat, lo ketinggalan dikit bisa kena imbasnya.
+- **Pantau berita**: Keamanan DeFi berubah cepat, kamu ketinggalan dikit bisa kena imbasnya.
 - **Hardware wallet**: Masih cara paling aman buat nyimpen aset utama.
 
-Soal masa depan, gw liat kesenjangan teknologi antara attacker dan defender ini masalah serius. Tapi buat Indonesia, celah ini sebenernya peluang. Talenta AI di Indo berkembang pesat, dan potensi jadi pusat pengembangan keamanan DeFi berbasis AI itu nyata. Bukan cuma soal ngelindungin aset, tapi juga soal siapa yang bisa bikin solusi pertahanan yang lebih cerdas dari serangan AI , dan itu pasar yang gede banget.
+Soal masa depan, saya liat kesenjangan teknologi antara attacker dan defender ini masalah serius. Tapi buat Indonesia, celah ini sebenernya peluang. Talenta AI di Indo berkembang pesat, dan potensi jadi pusat pengembangan keamanan DeFi berbasis AI itu nyata. Bukan cuma soal ngelindungin aset, tapi juga soal siapa yang bisa bikin solusi pertahanan yang lebih cerdas dari serangan AI , dan itu pasar yang gede banget.
 
 ---
 

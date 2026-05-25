@@ -61,7 +61,7 @@ Perkembangan terbaru mendukung optimisme ini. [JPMorgan mengajukan dana tokenize
 
 Yang perlu diwaspadai adalah ketergantungan Chalom pada "meredanya AI thesis" sebagai syarat pemulihan crypto. Kalau saham AI terus menarik modal, ETH bisa tertekan lebih lama dari yang diharapkan. Treasury sebesar 861.251 ETH milik Sharplink sendiri jadi pedang bermata dua, naiknya menguntungkan besar, tapi turunnya bisa memaksa likuidasi.
 
-Gw liat korelasi menarik buat Indo: Indonesia salah satu pasar crypto terbesar di Asia Tenggara. CLARITY Act lolos di Senat, tekanan ke regulator lokal buat bikin kerangka setara makin gede. Tokenisasi RWA? Populasi muda Indo yang melek digital jadi pasar potensial. Tapi yang belum banyak dibahas: bedanya token utility sama sekuritas tokenized itu fundamental. Lo salah beli, lo kena implikasi hukum yang beda.
+Saya liat korelasi menarik buat Indo: Indonesia salah satu pasar crypto terbesar di Asia Tenggara. CLARITY Act lolos di Senat, tekanan ke regulator lokal buat bikin kerangka setara makin gede. Tokenisasi RWA? Populasi muda Indo yang melek digital jadi pasar potensial. Tapi yang belum banyak dibahas: bedanya token utility sama sekuritas tokenized itu fundamental. Kamu salah beli, kamu kena implikasi hukum yang beda.
 
 ## Sumber
 

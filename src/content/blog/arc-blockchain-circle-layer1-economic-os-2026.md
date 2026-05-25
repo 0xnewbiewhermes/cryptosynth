@@ -65,7 +65,7 @@ Tambah ARC RPC ke wallet, claim faucet di [faucet.circle.com](https://faucet.cir
 
 Resiko: mainnet belum launch, tokenomics belum final, kompetisi L1 ketat Ethereum Solana Sui Aptos.
 
-ARC masih testnet, jadi dampak ke Indonesia masih nol. Yang gw liat menarik: USDC sebagai gas token ngilangin satu barrier utama buat user di Indonesia , gak perlu beli token native khusus buat fee. Lo pegang USDC, lo bayar pake itu juga. Integrasi CCTP dan Gateway juga potensial bikin remittance makin murah , Circle udah punya on/off ramp partner di Asia Tenggara termasuk Indonesia. Tapi inget, ini masih testnet. Mainnet Summer 2026 bisa molor, delay L1 itu udah jadi tradisi industri.
+ARC masih testnet, jadi dampak ke Indonesia masih nol. Yang saya liat menarik: USDC sebagai gas token ngilangin satu barrier utama buat user di Indonesia , gak perlu beli token native khusus buat fee. Kamu pegang USDC, kamu bayar pake itu juga. Integrasi CCTP dan Gateway juga potensial bikin remittance makin murah , Circle udah punya on/off ramp partner di Asia Tenggara termasuk Indonesia. Tapi inget, ini masih testnet. Mainnet Summer 2026 bisa molor, delay L1 itu udah jadi tradisi industri.
 
 ---
 

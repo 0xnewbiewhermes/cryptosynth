@@ -18,17 +18,17 @@ faq: "Apa itu saham perpetual preferred STRC?;;STRC adalah instrumen perpetual p
 </div>
 
 
-Gw liat saham perpetual preferred STRC milik Strategy lagi naik daun. Volume perdagangan harian baru cetak rekor $1,5 miliar pada Kamis (15/5), total nilai pasar saham beredar nyentuh $8,4 miliar. Tapi di balik angka impresif itu, ada peringatan penting yang belum banyak dipertimbangkan investor.
+Saya liat saham perpetual preferred STRC milik Strategy lagi naik daun. Volume perdagangan harian baru cetak rekor $1,5 miliar pada Kamis (15/5), total nilai pasar saham beredar nyentuh $8,4 miliar. Tapi di balik angka impresif itu, ada peringatan penting yang belum banyak dipertimbangkan investor.
 
 Matt Dines, CIO Build Markets, bilang ke [Truth for the Commoner](https://www.youtube.com/watch?v=TFTC) kalo investor lagi salah harga risiko di instrumen perpetual preferred kayak STRC. Masalah utamanya di struktur dasar instrumen ini.
 
-"Kalo spread mulai naik dan pasar nuntut yield lebih tinggi dari peminjam korporat, lo juga harus kaitin itu dengan durasi perpetual yang tak terbatas. Jadi kalo dislokasi ini terjadi di likuiditas, itu bakal datang dari sisi fiat," kata Dines ([Cointelegraph](https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation)).
+"Kalo spread mulai naik dan pasar nuntut yield lebih tinggi dari peminjam korporat, kamu juga harus kaitin itu dengan durasi perpetual yang tak terbatas. Jadi kalo dislokasi ini terjadi di likuiditas, itu bakal datang dari sisi fiat," kata Dines ([Cointelegraph](https://cointelegraph.com/news/strc-preferred-investors-misprice-dislocation)).
 
 **Kenapa perpetual preferred berisiko?**
 
 Bedanya perpetual preferred stock sama obligasi biasa: gak ada tanggal jatuh tempo. Penerbit (Strategy) gak pernah harus balikin pokok investasi ke pemegang saham. Mereka cuma perlu bayar dividen terus-menerus tanpa perlu negosiasi ulang syarat.
 
-Kalo lo pegang STRC dan mau cairin dana, satu-satunya cara adalah jual di pasar sekunder. Ini ngekspos lo ke dua risiko permanen: kontraksi likuiditas dan risiko suku bunga. Karena gak ada tanggal jatuh tempo, risiko ini gak pernah berakhir.
+Kalo kamu pegang STRC dan mau cairin dana, satu-satunya cara adalah jual di pasar sekunder. Ini ngekspos kamu ke dua risiko permanen: kontraksi likuiditas dan risiko suku bunga. Karena gak ada tanggal jatuh tempo, risiko ini gak pernah berakhir.
 
 STRC diperdagangkan di ~$99 per saham dengan [dividen rate 11,5%](https://www.strategy.com/strc/learn) yang bersifat variabel , yield bisa berubah tiap bulan tergantung kondisi pasar.
 

@@ -19,7 +19,7 @@ faq: >
 </div>
 
 
-Gw liat pasar Bitcoin masuk pekan kritis menjelang expiry options terbesar bulan ini. Deribit bakal settle 80.535 kontrak BTC options senilai total **$6,25 miliar** pada Jumat, 29 Mei 2026 ([CoinDesk](https://www.coindesk.com/markets/2026/05/21/bitcoin-caught-between-usd75-000-max-pain-and-usd80-000-call-wall-ahead-of-usd6-25-billion-expiry)).
+Saya liat pasar Bitcoin masuk pekan kritis menjelang expiry options terbesar bulan ini. Deribit bakal settle 80.535 kontrak BTC options senilai total **$6,25 miliar** pada Jumat, 29 Mei 2026 ([CoinDesk](https://www.coindesk.com/markets/2026/05/21/bitcoin-caught-between-usd75-000-max-pain-and-usd80-000-call-wall-ahead-of-usd6-25-billion-expiry)).
 
 Yang bikin expire kali ini menarik: pertarungan antara dua level kunci , max pain di $75.000 dan call wall di $80.000. Rasio put/call di 0,86 (agak bullish), dengan total 43.184 call contracts dan 37.351 put contracts.
 
@@ -35,7 +35,7 @@ Strike $80.000 juga jadi call wall dengan notional $532 juta , resistance psikol
 
 Tapi di tengah tekanan jangka pendek, data jangka panjang nunjukin akumulasi. Long-term holder (LTH) supply Bitcoin naik ke **16,3 juta BTC** , cuma 100.000 BTC di bawah rekor tertinggi Januari 2024 (16,4 juta BTC). Dalam 30 hari, LTH nambah 200.000 BTC ke kepemilikan mereka ([CoinDesk](https://www.coindesk.com/markets/2026/05/21/bitcoin-s-long-term-holder-supply-approaches-record-high-breaking-multi-year-downtrend)). Pola klasik: LTH beli pas harga lemah.
 
-**Buat lo trader Indo yang main di Binance Futures atau Deribit:** Pekan expiry ini butuh perhatian ekstra. Kombinasi positioning bullish di call $82K dengan gravitasi max pain $75K + short gamma cluster $2,5 miliar = potensi volatilitas tinggi.
+**Buat kamu trader Indo yang main di Binance Futures atau Deribit:** Pekan expiry ini butuh perhatian ekstra. Kombinasi positioning bullish di call $82K dengan gravitasi max pain $75K + short gamma cluster $2,5 miliar = potensi volatilitas tinggi.
 
 Support terdekat: $76.300-$76.500 (monthly open). Support lebih dalam: $71.400 (cost basis kohort akumulasi Feb-April). Resistensi $80.000 cuma bisa ditembus dengan katalis berarti , entah pembelian ETF/treasury atau short squeeze.
 

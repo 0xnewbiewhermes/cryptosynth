@@ -39,7 +39,7 @@ Backers-nya institusi kelas berat: Galaxy Digital, MEV Capital, Bitcoin Suisse, 
 
 Tapi ada yang agak bikin geregetan: komunikasi airdrop-nya berantakan. Fee registrasi tiba-tiba, aturan vesting berubah di menit-menit akhir, dan banyak peserta kecil ngerasa alokasinya gak sebanding sama biaya registrasi. Klasik lah, project bagus tapi eksekusi distribusi kurang mulus.
 
-**Buat lo trader Indonesia:** kalo lo ikut Flares S1, langsung cek dashboard lo. Fee registrasi $6 itu kalo harga $SLX di bawah $0.13, lo rugi duluan sebelum ngapa-ngapain. Tapi kalo lo main di YieldVault dan maintain TVL, potensi S2 multiplier masih worth it.
+**Buat kamu trader Indonesia:** kalo kamu ikut Flares S1, langsung cek dashboard kamu. Fee registrasi $6 itu kalo harga $SLX di bawah $0.13, kamu rugi duluan sebelum ngapa-ngapain. Tapi kalo kamu main di YieldVault dan maintain TVL, potensi S2 multiplier masih worth it.
 
 ## Citrea $CTR: Listing Binance Alpha Besok 26 Mei, Genesis Drop Nunggu Juni
 
@@ -52,7 +52,7 @@ Catatan penting:
 - **Eligibility ketat banget.** Cuma aktivitas mainnet yang dihitung. Testnet murni? Alokasi 0. Banyak user lama protes, dapet label "maximum alignment drop." Artinya tim lebih milih user yang beneran aktif on-chain.
 - **xCTR** versi staking buat governance, gak transferable, ada penalty buat early unstake.
 
-Udah ada artikel terpisah soal Citrea di CryptoSynth, ini update aja. Kalo lo eligible, cek [citrea.xyz/airdrop](https://citrea.xyz/airdrop). Tapi klaim fisiknya baru Juni.
+Udah ada artikel terpisah soal Citrea di CryptoSynth, ini update aja. Kalo kamu eligible, cek [citrea.xyz/airdrop](https://citrea.xyz/airdrop). Tapi klaim fisiknya baru Juni.
 
 Ironisnya: pas Citrea dianggap "elitist" karena terlalu strict, Solstice malah dibilang "berantakan" karena komunikasi yang kacau. Dua extreme dari masalah yang sama. **Gimana cara distribusi token yang adil tanpa bikin komunitas frustasi.** Nyari titik tengahnya emang susah.
 
@@ -64,17 +64,17 @@ Tapi yang bikin geger: **alokasi airdrop komunitas cuma ~0.5% dari total supply.
 
 FDV pas launch di ~$450M, circulating market cap ~$269M. Setelah backlash, tim ngerevisi distribusi dan improve beberapa alokasi. Tapi secara umum, Nexus jadi contoh klasik. **Node runner dan testnet contributor dianggap kurang valuable dibanding exchange user.**
 
-Yang jarang dibahas: ini pola berulang di 2026. Makin banyak project yang lebih milih exchange distribution daripada on-chain community. Dari sisi tim emang logis, exchange user lebih likely jadi liquidity provider. Tapi buat lo yang udah setia testnet dari awal? Ya gitu deh.
+Yang jarang dibahas: ini pola berulang di 2026. Makin banyak project yang lebih milih exchange distribution daripada on-chain community. Dari sisi tim emang logis, exchange user lebih likely jadi liquidity provider. Tapi buat kamu yang udah setia testnet dari awal? Ya gitu deh.
 
 ## Farming Update: Yang Masih Bisa Dimaksimalkan
 
 Selain tiga project di atas, beberapa opportunity yang masih aktif:
 
 - **Polymarket ($POLY):** Belum ada pengumuman resmi. Spekulasi TGE H2 2026, mungkin pas World Cup buat maksimalin hype. Maker rebate program mulai 28 Mei. Ini signal kuat buat yang mau farm weighted volume. Tapi WASPADA: scam link "claim POLY" udah berseliweran.
-- **SoSoValue Season 2:** Snapshot diperkirakan sebelum akhir Mei. Pool ~30 juta $SOSO. Kalo lo udah farming, pastiin Real-User Probability score lo 100%+.
+- **SoSoValue Season 2:** Snapshot diperkirakan sebelum akhir Mei. Pool ~30 juta $SOSO. Kalo kamu udah farming, pastiin Real-User Probability score kamu 100%+.
 - **DACC, Simple Chain, dTelecom, ARC Terminal:** Masih fase farming, belum ada tanggal TGE. Cocok buat yang mau accumulate points sambil nunggu project besar berikutnya.
 
-Gw liat tren yang cukup jelas: **project sekarang makin pinter ngebedain genuine user dari bot.** Testnet farming massal udah gak relevan. Yang dihitung adalah aktivitas mainnet yang bernilai ekonomi. Nexus dan Citrea sama-sama nunjukin ini, cuma cara mereka execute-nya beda. Buat lo yang masih farming, fokus ke project yang udah punya mainnet dan aktivitas nyata, bukan cuma janji testnet points.
+Saya liat tren yang cukup jelas: **project sekarang makin pinter ngebedain genuine user dari bot.** Testnet farming massal udah gak relevan. Yang dihitung adalah aktivitas mainnet yang bernilai ekonomi. Nexus dan Citrea sama-sama nunjukin ini, cuma cara mereka execute-nya beda. Buat kamu yang masih farming, fokus ke project yang udah punya mainnet dan aktivitas nyata, bukan cuma janji testnet points.
 
 Pekan depan bakal rame: Citrea listing besok, Zetarium kabarnya deliver update TGE, dan ada spekulasi soal beberapa snapshot lain. Pantau terus.
 

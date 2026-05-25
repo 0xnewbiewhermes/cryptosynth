@@ -72,7 +72,7 @@ Ini juga sejalan dengan meningkatnya kepercayaan institusi terhadap crypto sebag
 
 *Sumber: CoinDesk, Decrypt, 13 Mei 2026*
 
-Yang menarik, layanan ini sekarang cuma buat nasabah AS. Tapi efeknya ke global , apalagi Indonesia , lumayan jelas. Broker sebesar Schwab masuk ke spot trading, artinya crypto udah bukan niche lagi. Gw liat tekanan kompetisi mulai kerasa: broker di negara lain, termasuk kemungkinan Indonesia, bakal ikut-ikutan. Likuiditas global juga naik, yang artinya spread di exchange Indonesia bisa makin tipis buat pair-pair besar. Ini jadi katalis adopsi jangka panjang yang gak bisa diabaikan.
+Yang menarik, layanan ini sekarang cuma buat nasabah AS. Tapi efeknya ke global , apalagi Indonesia , lumayan jelas. Broker sebesar Schwab masuk ke spot trading, artinya crypto udah bukan niche lagi. Saya liat tekanan kompetisi mulai kerasa: broker di negara lain, termasuk kemungkinan Indonesia, bakal ikut-ikutan. Likuiditas global juga naik, yang artinya spread di exchange Indonesia bisa makin tipis buat pair-pair besar. Ini jadi katalis adopsi jangka panjang yang gak bisa diabaikan.
 
 ---
 

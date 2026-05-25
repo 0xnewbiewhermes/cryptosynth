@@ -56,7 +56,7 @@ Connors juga melihat keterkaitan antara AI dan blockchain semakin erat seiring p
 
 Data dari X/@boggyagent mengonfirmasi bahwa penurunan ini terjadi saat market cap Bitcoin sempat tertinggal dari Meta (sekitar $1,55 triliun). Namun, narasi Connors tentang fase konsolidasi yang berakhir didukung oleh fakta bahwa rasio BTC terhadap S&P 500 mulai menunjukkan pemulihan sejak awal Mei setelah tren turun selama 142 hari.
 
-Buat trader Indo yang pake Indodax, Pintu, Tokocrypto: premium di bursa lokal bisa melebar karena likuiditas lebih tipis. Pas BTC global turun ke $74.300, harga di Indo bisa lebih rendah lagi. Banyak yang pake leverage 10x-25x , fluktuasi $1.000-$2.000 kayak tadi malem bisa liquidate posisi lo kalo gak siap. Likuidasi $917 juta, $827 juta dari posisi long , ini udah level capitulation jangka pendek. Historically, angka di atas $800 juta sering diikuti rebound 5-10% dalam 3-7 hari. Level $74.000-$75.000 juga zona akumulasi institusi. Katalis yang perlu dipantau: data PCE AS pekan depan, arus ETF, dan pertemuan The Fed.
+Buat trader Indo yang pake Indodax, Pintu, Tokocrypto: premium di bursa lokal bisa melebar karena likuiditas lebih tipis. Pas BTC global turun ke $74.300, harga di Indo bisa lebih rendah lagi. Banyak yang pake leverage 10x-25x , fluktuasi $1.000-$2.000 kayak tadi malem bisa liquidate posisi kamu kalo gak siap. Likuidasi $917 juta, $827 juta dari posisi long , ini udah level capitulation jangka pendek. Historically, angka di atas $800 juta sering diikuti rebound 5-10% dalam 3-7 hari. Level $74.000-$75.000 juga zona akumulasi institusi. Katalis yang perlu dipantau: data PCE AS pekan depan, arus ETF, dan pertemuan The Fed.
 
 ## Sumber
 

@@ -19,7 +19,7 @@ faq: >
 </div>
 
 
-Gw liat round-up airdrop kali ini ada dua peluang yang kontras: klaim rebate ETHGas yang udah live (tapi waspada scam), plus farming Perceptron Network yang masih pre-TGE. Keduanya relevan buat lo di Indonesia yang pengen maksimalin peluang airdrop tanpa kena phishing.
+Saya liat round-up airdrop kali ini ada dua peluang yang kontras: klaim rebate ETHGas yang udah live (tapi waspada scam), plus farming Perceptron Network yang masih pre-TGE. Keduanya relevan buat kamu di Indonesia yang pengen maksimalin peluang airdrop tanpa kena phishing.
 
 **ETHGas buka Round 3 Open Gas Rebate untuk aktivitas April 2026.**
 
@@ -28,14 +28,14 @@ ETHGas resmi ngumumin **Round 3 Open Gas Rebate** udah live sejak 14 Mei. Ini ny
 **Cara klaim rebate:**
 
 1. Buka [ethgas.com/open-gas/claim/](https://www.ethgas.com/open-gas/claim/)
-2. Connect wallet yang lo pake buat aktivitas April
+2. Connect wallet yang kamu pake buat aktivitas April
 3. Dashboard otomatis nunjukin rebate yang available
 4. Sign transaksi gasless , cukup signature, tanpa biaya gas
 5. Withdraw ke wallet abis rebate masuk ke Open Gas balance
 
-Rebate berlaku **hingga 6 bulan** sebelum expired dan balik ke protocol sponsornya. Buat lo di Indo, klaimnya gampang karena cukup signature , gak ada deposit minimum atau batasan jumlah klaim. Pastiin internet stabil dan pake wallet kayak MetaMask atau Rabby.
+Rebate berlaku **hingga 6 bulan** sebelum expired dan balik ke protocol sponsornya. Buat kamu di Indo, klaimnya gampang karena cukup signature , gak ada deposit minimum atau batasan jumlah klaim. Pastiin internet stabil dan pake wallet kayak MetaMask atau Rabby.
 
-**Campaign baru: Pendle STRC + Saturn Markets.** ETHGas juga ngumumin campaign baru lewat [Pendle](https://app.pendle.finance/trade/markets?categories=strc&chains=ethereum). Dengan nambah likuiditas ke market STRC (Strategy preferred stock) dan Saturn, lo bisa dapet dividen ~11.5% APY per bulan plus rebate gas dari Open Gas. Dua sumber pendapatan dari satu posisi.
+**Campaign baru: Pendle STRC + Saturn Markets.** ETHGas juga ngumumin campaign baru lewat [Pendle](https://app.pendle.finance/trade/markets?categories=strc&chains=ethereum). Dengan nambah likuiditas ke market STRC (Strategy preferred stock) dan Saturn, kamu bisa dapet dividen ~11.5% APY per bulan plus rebate gas dari Open Gas. Dua sumber pendapatan dari satu posisi.
 
 **Waspada situs phishing $GWEI yang lagi ramai di X.** Bersamaan sama pengumuman rebate, X/Twitter kebanjiran postingan soal "airdrop $GWEI live" yang ngarah ke situs **ethgas-foundation.net/token**. Itu PALSU.
 
@@ -69,7 +69,7 @@ Token $PERC hingga saat ini **belum TGE**. Tim target Q2 2026, tapi belum ada ta
 - **dTelecom** , Pre-TGE (Q3-Q4), farming: Extension + referral, risiko: Rendah
 - **Teneo Protocol** , Pre-TGE, farming: CLI + Extension, risiko: Rendah
 
-**Saran buat lo yang baru mulai:** Prioritasin proyek dengan biaya partisipasi nol kayak Perceptron dan Nexus. Pasang extension atau CLI di VPS, biarin jalan 24/7, jangan bayar buat "pre-sale" atau "whitelist" dari akun gak dikenal. Perbedaan utama: Perceptron fokus ke data quality (quest + node), Nexus ke ZK proving (CPU compute). Dua-duanya running cost minimal.
+**Saran buat kamu yang baru mulai:** Prioritasin proyek dengan biaya partisipasi nol kayak Perceptron dan Nexus. Pasang extension atau CLI di VPS, biarin jalan 24/7, jangan bayar buat "pre-sale" atau "whitelist" dari akun gak dikenal. Perbedaan utama: Perceptron fokus ke data quality (quest + node), Nexus ke ZK proving (CPU compute). Dua-duanya running cost minimal.
 
 Satu lagi: kalo dapet rebate dari ETHGas Round 3, **klaim dulu** meskipun nominalnya kecil. Soalnya rebate ini expired dalam 6 bulan dan bisa jadi acuan buat Round 4 atau program loyalitas Open Gas berikutnya.
 

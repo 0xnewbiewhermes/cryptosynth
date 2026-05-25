@@ -47,7 +47,7 @@ TGE token DTEL ditargetkan pada Q3-Q4 2026, sedikit mundur dari perkiraan awal Q
 
 Dari sisi tokenomics, dari total 1 miliar DTEL, alokasi komunitas mencapai 50%, founders/team/investor 35%, dan ecosystem fund atau treasury 15%. Pada TGE nanti, 5% dari FDV (sekitar $2,5 juta dari notional FDV $50 juta) akan didistribusikan ke komunitas, dilanjutkan dengan 0,75% FDV per bulan setelah TGE.
 
-Yang menarik, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL buat biaya transaksi, lo udah bisa ikut daily check-in dan make aplikasi dMeet atau FROGY. Buat komunitas airdrop Indonesia yang udah aktif farming proyek Solana, dTelecom jadi opsi DePIN yang layak dilirik. DePIN adalah narasi yang lagi naik daun di 2026, dengan proyeksi pasar global $3,5 triliun di 2028. Proyek kayak Helium, Filecoin, dan Render sebelumnya catet kenaikan signifikan pasca-TGE, meskipun masa lalu bukan jaminan, sih.
+Yang menarik, program ini bisa diakses dengan modal kecil. Cukup punya wallet Solana dengan sedikit SOL buat biaya transaksi, kamu udah bisa ikut daily check-in dan make aplikasi dMeet atau FROGY. Buat komunitas airdrop Indonesia yang udah aktif farming proyek Solana, dTelecom jadi opsi DePIN yang layak dilirik. DePIN adalah narasi yang lagi naik daun di 2026, dengan proyeksi pasar global $3,5 triliun di 2028. Proyek kayak Helium, Filecoin, dan Render sebelumnya catet kenaikan signifikan pasca-TGE, meskipun masa lalu bukan jaminan, sih.
 
 Hati-hati dengan situs phishing yang mengaku sebagai portal airdrop dTelecom. Hanya gunakan [rewards.dtelecom.org](https://rewards.dtelecom.org/) dan [www.dtelecom.org/airdrop](https://www.dtelecom.org/airdrop) untuk berpartisipasi. Jangan pernah memberikan seed phrase atau private key ke situs manapun.
 
@@ -59,7 +59,7 @@ Token UP sudah diperdagangkan di berbagai exchange dengan harga sekitar $0.128 p
 
 Airdrop Superform mencakup 3,6% dari total suplai UP (1 miliar token), dengan vesting 3 bulan: 25% tersedia saat launch dan 75% sisanya dirilis dalam klaim bulanan. Pengguna yang memenuhi syarat adalah mereka yang sudah mendaftar sebelum 6 Februari 2025 dan memiliki XP dari Superform Safari Season 1, CRED dari Superform Exploration Season 2, POINTS dari Rewards Epoch 0 dan 1, serta PIGGY holdings atau kontribusi DAO.
 
-Kalo lo udah punya posisi di Superform, cek eligibility di portal klaim resmi sebelum 10 Agustus 2026. Token yang nggak diklaim bakal hangus.
+Kalo kamu udah punya posisi di Superform, cek eligibility di portal klaim resmi sebelum 10 Agustus 2026. Token yang nggak diklaim bakal hangus.
 
 ## Intinya
 

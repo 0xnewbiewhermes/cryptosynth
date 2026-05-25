@@ -78,7 +78,7 @@ Mei 2026 menjadi bulan yang berat bagi keamanan DeFi. Setidaknya 12 protokol tel
 - KelpDAO - [eksploitasi $293 juta](https://www.cryptosynth.id/blog/kelpdao-hack-293-juta-defi-matu-2026/)
 - TrustedVolumes dan Ekubo
 
-Ini pola yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Buat lo yang main di Indonesia, makin selektif milih protokol buat nyimpen atau minjemin aset, apalagi yang related sama BTC. Dari 12 protokol yang kena hack bulan ini, 8 di antaranya punya kelemahan di admin key atau infrastruktur bridge, bukan smart contract. Artinya, protokol dengan TVL gede pun bisa tumbang kalo keamanan operasionalnya lemah.
+Ini pola yang mengkhawatirkan: serangan terfokus pada kontrak DeFi dengan kelemahan administratif. Buat kamu yang main di Indonesia, makin selektif milih protokol buat nyimpen atau minjemin aset, apalagi yang related sama BTC. Dari 12 protokol yang kena hack bulan ini, 8 di antaranya punya kelemahan di admin key atau infrastruktur bridge, bukan smart contract. Artinya, protokol dengan TVL gede pun bisa tumbang kalo keamanan operasionalnya lemah.
 
 ### Yang bisa dipelajari
 

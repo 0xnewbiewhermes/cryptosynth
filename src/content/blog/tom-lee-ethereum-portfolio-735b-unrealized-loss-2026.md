@@ -29,7 +29,7 @@ faq: >
 </div>
 
 
-Tom Lee, nama yang lo mungkin kenal dari Fundstrat, sekarang lagi gigit jari lewat perusahaannya BitMine. Perusahaan ini megang 5.28 juta ETH atau sekitar 4.37% dari total supply Ethereum. Masalahnya? Mereka kebeli di harga rata-rata $3.513 per koin. Sekarang ETH di $2.100.
+Tom Lee, nama yang kamu mungkin kenal dari Fundstrat, sekarang lagi gigit jari lewat perusahaannya BitMine. Perusahaan ini megang 5.28 juta ETH atau sekitar 4.37% dari total supply Ethereum. Masalahnya? Mereka kebeli di harga rata-rata $3.513 per koin. Sekarang ETH di $2.100.
 
 Itu artinya unrealized loss sekitar **$7.35 miliar**.
 
@@ -43,7 +43,7 @@ Tapi Mei ini BitMine ngomong bakal *moderate* pace pembelian. Bukan stop, cuma p
 
 ## Chart Lagi Warning Bearish
 
-ETH/USD sekarang lagi di lower trend line rising wedge. Buat lo yang familiar sama pola chart, ini bearish reversal. Kalo support bawah jebol, measured move ngasih target **$1.600**. [Analis warnai breakdown ke $1.600](https://x.com/mobymedia/status/2058566389926092831).
+ETH/USD sekarang lagi di lower trend line rising wedge. Buat kamu yang familiar sama pola chart, ini bearish reversal. Kalo support bawah jebol, measured move ngasih target **$1.600**. [Analis warnai breakdown ke $1.600](https://x.com/mobymedia/status/2058566389926092831).
 
 Coba itung: 5.28 juta ETH dikali $1.600 minus harga beli $3.513. Hasilnya unrealized loss tembus **$10.1 miliar**. Angka yang gak kecil buat perusahaan publik mana pun.
 
@@ -59,11 +59,11 @@ Dominance ETH juga anjlok dari 15% (Agustus 2025) ke sekitar 10% sekarang. Artin
 
 ## Update Trader Indonesia: ETH Turun 57%, Spread Melebar
 
-Gw liat spread ETH di Indodax mulai melebar akhir-akhir ini. Likuiditas lagi tipis di order book bawah. Kalo ETH breakdown beneran ke $1.600, liquidasi berantai di leverage traders riskan banget, apalagi di exchange lokal yang depth order booknya gak segede Binance. Buat lo yang hodl ETH dari atas, sabar sih modalnya, tapi jangan kaget kalo posisi lo minus beberapa bulan ke depan.
+Saya liat spread ETH di Indodax mulai melebar akhir-akhir ini. Likuiditas lagi tipis di order book bawah. Kalo ETH breakdown beneran ke $1.600, liquidasi berantai di leverage traders riskan banget, apalagi di exchange lokal yang depth order booknya gak segede Binance. Buat kamu yang hodl ETH dari atas, sabar sih modalnya, tapi jangan kaget kalo posisi kamu minus beberapa bulan ke depan.
 
 Lee emang yakin $10.000-$12.000 ETH masih possible. Dia kasih skenario blue sky: kalo 20-30% infrastruktur Wall Street migrasi ke Ethereum, harga bisa tembus $60.000. Tapi itu prediksi yang butuh waktu bertahun-tahun. Realitanya sekarang ETH turun 57% dari puncak.
 
-Klasik. Diamond hands strategy bagus di bull market. Pas bearish begini, mental lo beneran diuji.
+Klasik. Diamond hands strategy bagus di bull market. Pas bearish begini, mental kamu beneran diuji.
 
 ## Sumber
 1. [Cointelegraph - Tom Lee's Ethereum portfolio down $7.35B](https://cointelegraph.com/markets/tom-lees-ethereum-portfolio-sitting-on-73b-in-unrealized-losses)

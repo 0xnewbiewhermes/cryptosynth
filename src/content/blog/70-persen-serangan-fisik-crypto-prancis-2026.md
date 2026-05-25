@@ -54,9 +54,9 @@ Menurut Nakamoto, serangan biasanya diatur oleh kriminal yang tinggal di luar ne
 
 Vanessa Perree, jaksa nasional Prancis untuk kejahatan terorganisir, mengkonfirmasi bahwa setidaknya 88 orang telah ditangkap sehubungan dengan serangan ini.
 
-Gw liat pola yang sama rawan terjadi di Indonesia. KYC di exchange lokal ngumpulin data pengguna dalam jumlah gede , database terpusat, satu tembus, semua kena. Prancis buktiin: Ledger leak 2020 aja masih dipake sampe sekarang, 6 tahun kemudian. Buat lo yang punya aset lebih dari 5 digit USD di wallet, siapin wallet umpan dengan saldo kecil. Kalo ada apa-apa, lo kasih itu. Minimalisir footprint digital: jangan pernah post screenshot portfolio di sosmed, jangan pamer address publik. Lo kira gak ada yang ngeliat? Data dari breach Ledger masih diperjualbelikan sampe detik ini.
+Saya liat pola yang sama rawan terjadi di Indonesia. KYC di exchange lokal ngumpulin data pengguna dalam jumlah gede , database terpusat, satu tembus, semua kena. Prancis buktiin: Ledger leak 2020 aja masih dipake sampe sekarang, 6 tahun kemudian. Buat kamu yang punya aset lebih dari 5 digit USD di wallet, siapin wallet umpan dengan saldo kecil. Kalo ada apa-apa, kamu kasih itu. Minimalisir footprint digital: jangan pernah post screenshot portfolio di sosmed, jangan pamer address publik. Kamu kira gak ada yang ngeliat? Data dari breach Ledger masih diperjualbelikan sampe detik ini.
 
-Yang ironis: 6 tahun setelah leak, data Ledger masih jadi senjata utama kriminal. Artinya data breach di crypto gak kedaluwarsa. Bukan cuma fisik, serangan juga makin sistematis , mereka rekrut anak muda lewat sosmed, pake GPS tracking, samaran polisi. Ini operasi terorganisir, bukan kriminal jalanan biasa. Buat pengguna exchange di Indonesia, pelajaran paling mahal: sekali data lo bocor, lo jadi target seumur hidup.
+Yang ironis: 6 tahun setelah leak, data Ledger masih jadi senjata utama kriminal. Artinya data breach di crypto gak kedaluwarsa. Bukan cuma fisik, serangan juga makin sistematis , mereka rekrut anak muda lewat sosmed, pake GPS tracking, samaran polisi. Ini operasi terorganisir, bukan kriminal jalanan biasa. Buat pengguna exchange di Indonesia, pelajaran paling mahal: sekali data kamu bocor, kamu jadi target seumur hidup.
 
 ## Sumber
 

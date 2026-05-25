@@ -39,7 +39,7 @@ Klasik. Katanya gak quantitative easing, tapi likuiditas tetap mengalir.
 
 "Untuk Bitcoin, volatilitas jangka pendek bakal kacau, tapi ini jadi structural tailwind paling kuat buat supercycle jangka panjang," kata Wu.
 
-Buat lo trader Indonesia, ini konteks yang menarik. Bitcoin udah turun dari level tertingginya, beberapa analis bahkan prediksi koreksi ke $60K. Tapi analisis Wu ngeliat gambaran lebih besar. Kalo utang negara bener-bener gak sustainable, aset dengan supply tetap kayak Bitcoin jadi **satu-satunya** pilihan yang gak bisa di-dilute.
+Buat kamu trader Indonesia, ini konteks yang menarik. Bitcoin udah turun dari level tertingginya, beberapa analis bahkan prediksi koreksi ke $60K. Tapi analisis Wu ngeliat gambaran lebih besar. Kalo utang negara bener-bener gak sustainable, aset dengan supply tetap kayak Bitcoin jadi **satu-satunya** pilihan yang gak bisa di-dilute.
 
 Corporate treasury Bitcoin sekarang udah mencapai ~$65 miliar. Pasar lending Bitcoin-backed juga mulai terbentuk, estimasinya bisa tembus $1 triliun dalam satu dekade. Artinya infrastruktur buat nerima inflow dari bond market udah mulai siap.
 

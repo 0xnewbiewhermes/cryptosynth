@@ -86,7 +86,7 @@ Sinyal early bull dari CryptoQuant itu indikator makro, bukan sinyal trading har
 
 Data CPI AS yang panas berarti kemungkinan penundaan pemotongan suku bunga Fed, faktor yang bisa ngepress aset berisiko termasuk kripto. Tapi arah masuk institusional tetep positif, yang kasih lantai support jangka panjang.
 
-Gw liat indikator bull-bear ini menarik, tapi jangan lupa sinyal palsu Maret 2022. Bedanya sekarang: inflow institusional lewat ETF jauh lebih gede dari 2022, market maturity juga beda. Buat investor Indonesia, sinyal early bull ini lebih cocok jadi konteks positioning, bukan trigger buat all-in.
+Saya liat indikator bull-bear ini menarik, tapi jangan lupa sinyal palsu Maret 2022. Bedanya sekarang: inflow institusional lewat ETF jauh lebih gede dari 2022, market maturity juga beda. Buat investor Indonesia, sinyal early bull ini lebih cocok jadi konteks positioning, bukan trigger buat all-in.
 
 ---
 

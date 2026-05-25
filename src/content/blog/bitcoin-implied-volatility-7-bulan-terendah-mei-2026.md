@@ -59,7 +59,7 @@ Meskipun implied volatility rendah sering ditafsirkan sebagai tanda pasar yang s
 
 Data dari Volmex menunjukkan BVIV di level 38%, turun sekitar 0,6 poin pada hari yang sama. Realized volatility di 17% bahkan lebih rendah, menciptakan celah yang tidak biasa antara keduanya. Dalam terminologi opsi, ini disebut volatility risk premium yang lebar.
 
-Buat lo di Indo: volatilitas rendah kayak gini pedang bermata dua. Di satu sisi enak buat scalping jangka pendek. Tapi historically, kompresi volatilitas 30-60 hari sering mendahului pergerakan 20-40% ke dua arah. BVIV di 38% itu rendah secara historis. Realized volatility di 17% lebih rendah lagi. Makin lama kompresi, makin besar potensi letupan. Stop-loss ketat dan sizing konservatif jadi kunci.
+Buat kamu di Indo: volatilitas rendah kayak gini pedang bermata dua. Di satu sisi enak buat scalping jangka pendek. Tapi historically, kompresi volatilitas 30-60 hari sering mendahului pergerakan 20-40% ke dua arah. BVIV di 38% itu rendah secara historis. Realized volatility di 17% lebih rendah lagi. Makin lama kompresi, makin besar potensi letupan. Stop-loss ketat dan sizing konservatif jadi kunci.
 
 ## Bitcoin Implied Volatility vs Siklus Sebelumnya
 
@@ -67,7 +67,7 @@ Jika dibandingkan dengan siklus sebelumnya, implied volatility Bitcoin di 38% te
 
 Institusi dengan holding horizon panjang, seperti Strategy dan ETF spot Bitcoin, cenderung mengurangi volatilitas frekuensi tinggi. Likuiditas yang lebih dalam dan diversifikasi kepemilikan yang lebih luas secara alami menekan fluktuasi harga harian yang ekstrem.
 
-Gw liat pertanyaan yang lebih menarik: apakah kompresi volatilitas ini tanda pasar matang, atau jebakan sebelum kejatuhan? Argumen pasar matang masuk akal , institusi accumulate, ETF absorb supply, derivatives makin dalem. Tapi jebakannya: Bitcoin tetap aset siklus, korelasinya sama likuiditas global tinggi. The Fed mungkin mendekati akhir siklus pelonggaran. Buat Indo, pasar lokal biasanya reaksi lebih lambat dari global , itu bisa jadi keuntungan kalo lo jeli, tapi juga risiko jadi yang terakhir exit pas market turns.
+Saya liat pertanyaan yang lebih menarik: apakah kompresi volatilitas ini tanda pasar matang, atau jebakan sebelum kejatuhan? Argumen pasar matang masuk akal , institusi accumulate, ETF absorb supply, derivatives makin dalem. Tapi jebakannya: Bitcoin tetap aset siklus, korelasinya sama likuiditas global tinggi. The Fed mungkin mendekati akhir siklus pelonggaran. Buat Indo, pasar lokal biasanya reaksi lebih lambat dari global , itu bisa jadi keuntungan kalo kamu jeli, tapi juga risiko jadi yang terakhir exit pas market turns.
 
 ## Sumber
 

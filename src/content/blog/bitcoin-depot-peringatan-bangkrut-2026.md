@@ -43,7 +43,7 @@ Bitcoin Depot tunjuk Alex Holmes (ex-CEO MoneyGram 2016-2024) sebagai CEO baru d
 
 Kasus Bitcoin Depot nunjukin: infrastruktur crypto yang berhubungan langsung sama konsumen ritel kena tekanan regulasi jauh lebih berat dibanding platform trading online. ATM crypto jadi sasaran empuk karena sifatnya yang anonim dan sering dipake penipu buat nargetin kelompok rentan , terutama lansia.
 
-Buat lo investor Indonesia yang pantau saham-saham terkait crypto: exposure ke perusahaan crypto yang beroperasi di banyak yurisdiksi artinya lo harus siap hadapin risiko regulasi yang beda-beda di setiap negara. Model bisnis yang bergantung pada volume transaksi fisik super rentan terhadap perubahan kebijakan lokal.
+Buat kamu investor Indonesia yang pantau saham-saham terkait crypto: exposure ke perusahaan crypto yang beroperasi di banyak yurisdiksi artinya kamu harus siap hadapin risiko regulasi yang beda-beda di setiap negara. Model bisnis yang bergantung pada volume transaksi fisik super rentan terhadap perubahan kebijakan lokal.
 
 **Harga crypto hari ini (16 Mei 2026):**
 - BTC: $79,044 (-2.33%)

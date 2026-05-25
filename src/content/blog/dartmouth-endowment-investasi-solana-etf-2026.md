@@ -66,7 +66,7 @@ Banyak trader ritel Indonesia yang udah lama bullish di Solana (SOL diperdagangk
 
 Pola rebalancing Dartmouth cukup gamblang: mereka kurangi posisi Bitcoin dan Ethereum Mini Trust, lalu masuk ke Ethereum *Staking* ETF dan Solana *Staking* ETF. Artinya, institusi besar sekarang gak cari eksposur harga doang, tapi juga **yield dari staking**. Buat ekosistem DeFi Indonesia, protokol staking dan liquid staking di Solana dan Ethereum bisa dapet dorongan langsung dari tren ini. Trader Indonesia yang aktif di staking pool atau liquid staking token (kayak JitoSOL atau mETH) perlu catat: arah institusional lagi bergerak ke sana.
 
-Gw liat ini beda sama narasi institusional tahun lalu yang cuma soal "adopsi terus berjalan." Dartmouth ngasih sinyal konkret: yield dari staking jadi pertimbangan utama. Kalo tren ini berlanjut, liquid staking token bisa naik kelas jadi aset institusional, bukan cuma alat farming buat ritel.
+Saya liat ini beda sama narasi institusional tahun lalu yang cuma soal "adopsi terus berjalan." Dartmouth ngasih sinyal konkret: yield dari staking jadi pertimbangan utama. Kalo tren ini berlanjut, liquid staking token bisa naik kelas jadi aset institusional, bukan cuma alat farming buat ritel.
 
 ## Harga Crypto Terkini
 

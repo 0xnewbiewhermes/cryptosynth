@@ -19,9 +19,9 @@ faq: >
 </div>
 
 
-Gw liat sesuatu yang agak aneh minggu ini: investor narik **$2 miliar** dari spot Bitcoin ETF AS dalam 7 hari , outflow mingguan terbesar dalam sejarah ETF Bitcoin. Tapi harga BTC? Malah mantul dari $76.679 ke $77.416, stabil di sekitar $77.000 setelah Nvidia rilis laba Q1 yang beat ekspektasi.
+Saya liat sesuatu yang agak aneh minggu ini: investor narik **$2 miliar** dari spot Bitcoin ETF AS dalam 7 hari , outflow mingguan terbesar dalam sejarah ETF Bitcoin. Tapi harga BTC? Malah mantul dari $76.679 ke $77.416, stabil di sekitar $77.000 setelah Nvidia rilis laba Q1 yang beat ekspektasi.
 
-Buat lo yang cuma liat headline ETF outflow, situasi ini pasti bikin bingung. Tapi data dari [Cointelegraph](https://cointelegraph.com/markets/bitcoin-rallies-through-77k-despite-spot-btc-etf-outflows-topping-2b) konfirmasi: dana yang keluar dari ETF gak langsung dorong harga turun secara proporsional. Ada divergensi langka di sini.
+Buat kamu yang cuma liat headline ETF outflow, situasi ini pasti bikin bingung. Tapi data dari [Cointelegraph](https://cointelegraph.com/markets/bitcoin-rallies-through-77k-despite-spot-btc-etf-outflows-topping-2b) konfirmasi: dana yang keluar dari ETF gak langsung dorong harga turun secara proporsional. Ada divergensi langka di sini.
 
 **Tiga faktor yang bikin BTC gak jatuh:**
 
@@ -39,7 +39,7 @@ Korelasinya gini: minyak turun = tekanan inflasi berkurang = ekspektasi kenaikan
 
 **Volatilitas lagi menyempit.** Bitcoin terperangkap di range **$75.000-$80.000**. Bollinger Band Width menyempit tajam, ATR menurun , biasanya ini tanda pergerakan besar bakal datang.
 
-Buat lo trader Indo, range ini nawarin peluang entry yang jelas: support $76.500 (kritis), terus $75.000. Resistensi $78.000 dan $80.000. Pasar nunggu katalis berikutnya , entah kelanjutan Iran peace talks, data inflasi baru, atau sinyal dari Fed yang baru dipimpin Kevin Warsh (dilantik Jumat ini).
+Buat kamu trader Indo, range ini nawarin peluang entry yang jelas: support $76.500 (kritis), terus $75.000. Resistensi $78.000 dan $80.000. Pasar nunggu katalis berikutnya , entah kelanjutan Iran peace talks, data inflasi baru, atau sinyal dari Fed yang baru dipimpin Kevin Warsh (dilantik Jumat ini).
 
 Yang unik dari divergensi ini: dampaknya langsung kerasa di pasar Asia, termasuk Indonesia. Trader di Binance , exchange utama Indonesia , liat harga BTC lebih stabil dibanding Coinbase. Artinya tekanan jual institusi AS belum sepenuhnya ngerembet ke Asia. Tapi kalo Iran peace talks gagal, efeknya bisa lebih gede ke IDR karena rupiah termasuk emerging market currency yang rentan terhadap gejolak yield obligasi AS. Buat yang punya eksposur gede di ETF Bitcoin, outflow yang berlanjut bisa picu forced selling kalo harga bergerak di bawah $75.000.
 

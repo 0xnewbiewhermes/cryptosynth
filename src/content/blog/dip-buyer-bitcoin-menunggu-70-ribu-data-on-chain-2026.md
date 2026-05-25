@@ -63,7 +63,7 @@ Bitcoin lagi di persimpangan. Tekanan jual masih dominan (bid-ask ratio negatif)
 
 K33 ngasih perspektif yang agak menenangkan: pasar bear ini beda karena trader udah defensif dari awal. Tapi dalam jangka pendek, risiko koreksi ke $70.000 atau lebih rendah tetep nyata.
 
-Yang gw pantau sekarang: level $73.000. Kalo BTC bertahan di atasnya 2-3 hari ke depan, tekanan jual mungkin mulai mereda. Kalo tembus, siap-siap entry di zona $68.000-$70.000.
+Yang saya pantau sekarang: level $73.000. Kalo BTC bertahan di atasnya 2-3 hari ke depan, tekanan jual mungkin mulai mereda. Kalo tembus, siap-siap entry di zona $68.000-$70.000.
 
 ## Sumber
 

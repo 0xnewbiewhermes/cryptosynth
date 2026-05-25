@@ -56,9 +56,9 @@ Pergerakan massal ini menandai pergeseran signifikan dalam lanskap infrastruktur
 
 Keputusan Kraken ini kasih sinyal jelas buat komunitas crypto Indonesia:
 
-Keamanan bridge jadi prioritas utama. Buat lo yang pake wrapped asset (wBTC, kBTC, dll.), perhatiin infrastruktur bridge yang dipake platform pilihan lo. Chainlink CCIP mulai jadi standar industri, makin banyak protokol besar migrasi ke CCIP setelah exploit $2,5 miliar TVL pindah dari LayerZero. Tapi exploit Kelp DAO $292 juta ngingetin: dana di bridge cross-chain selalu punya risiko tambahan dibanding aset native.
+Keamanan bridge jadi prioritas utama. Buat kamu yang pake wrapped asset (wBTC, kBTC, dll.), perhatiin infrastruktur bridge yang dipake platform pilihan kamu. Chainlink CCIP mulai jadi standar industri, makin banyak protokol besar migrasi ke CCIP setelah exploit $2,5 miliar TVL pindah dari LayerZero. Tapi exploit Kelp DAO $292 juta ngingetin: dana di bridge cross-chain selalu punya risiko tambahan dibanding aset native.
 
-Gw liat perpindahan massa ini lebih dari sekadar keamanan. Ini soal trust. LayerZero kehilangan kepercayaan dalam semalam setelah exploit. Buat trader Indonesia yang pake protokol DeFi, pelajarannya: diversifikasi infrastruktur jangan cuma bergantung ke satu bridge protocol. Kalo satu bridge down, dana lo jangan ikut mati.
+Saya liat perpindahan massa ini lebih dari sekadar keamanan. Ini soal trust. LayerZero kehilangan kepercayaan dalam semalam setelah exploit. Buat trader Indonesia yang pake protokol DeFi, pelajarannya: diversifikasi infrastruktur jangan cuma bergantung ke satu bridge protocol. Kalo satu bridge down, dana kamu jangan ikut mati.
 
 ## Sumber
 

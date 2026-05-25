@@ -66,9 +66,9 @@ Di saat yang sama, Jane Street, pemain institusional besar lainnya, justru mengu
 
 *Sumber: Cointelegraph, 14 Mei 2026*
 
-Kenaikan kepemilikan JPMorgan di Bitcoin ETF selama koreksi pasar menarik buat dicermati. Gw liat institusi besar masih bullish jangka panjang. Meski harga turun 22%, JPMorgan malah nambah posisi, strategi buy the dip ala institusional. Mereka juga mulai diversifikasi ke altcoin ETF: buka posisi pertama di Solana, nambah Ethereum.
+Kenaikan kepemilikan JPMorgan di Bitcoin ETF selama koreksi pasar menarik buat dicermati. Saya liat institusi besar masih bullish jangka panjang. Meski harga turun 22%, JPMorgan malah nambah posisi, strategi buy the dip ala institusional. Mereka juga mulai diversifikasi ke altcoin ETF: buka posisi pertama di Solana, nambah Ethereum.
 
-Ternyata ini rotasi, bukan exit. JPMorgan ngurangin beberapa posisi (XRP, Robinhood, Coinbase) sambil nambah di aset lain (Block, MARA, PayPal). Buat trader Indonesia, data 13F ini bisa jadi referensi tambahan, bukan rekomendasi beli, tapi indikator arah uang institusional. Bedanya JPMorgan punya holding period institusional yang panjang, sementara trader ritel Indonesia sering swing trading jangka pendek. Strategi yang cocok buat institusi gak otomatis cocok buat lo.
+Ternyata ini rotasi, bukan exit. JPMorgan ngurangin beberapa posisi (XRP, Robinhood, Coinbase) sambil nambah di aset lain (Block, MARA, PayPal). Buat trader Indonesia, data 13F ini bisa jadi referensi tambahan, bukan rekomendasi beli, tapi indikator arah uang institusional. Bedanya JPMorgan punya holding period institusional yang panjang, sementara trader ritel Indonesia sering swing trading jangka pendek. Strategi yang cocok buat institusi gak otomatis cocok buat kamu.
 
 ---
 

@@ -807,6 +807,10 @@ pre.astro-code code {
   margin-bottom: 1rem;
 }
 
+.section-header h2 {
+  font-family: var(--font-display);
+}
+
 .section-link {
   font-size: 0.9rem;
   font-weight: 600;
@@ -843,18 +847,17 @@ pre.astro-code code {
 
 .article-card {
   background: var(--bg-card);
-  border: none;
+  border: 1px solid var(--border);
   box-shadow: var(--shadow-card);
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.2s ease;
+  border-radius: var(--radius);
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
   display: flex;
   flex-direction: column;
 }
 
 .article-card:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 12px 32px rgba(28, 24, 18, 0.1);
+  box-shadow: 0 6px 24px rgba(28, 24, 18, 0.07);
+  border-color: var(--text-muted);
 }
 
 .card-image {
@@ -877,11 +880,11 @@ pre.astro-code code {
 }
 
 .card-content {
-  padding: 0.85rem 1rem;
+  padding: 1rem 1.1rem;
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
+  gap: 0.35rem;
 }
 
 .card-category {
@@ -907,9 +910,10 @@ pre.astro-code code {
 }
 
 .card-content h3 {
-  font-size: 1.05rem;
+  font-family: var(--font-display);
+  font-size: 1rem;
   font-weight: 600;
-  line-height: 1.35;
+  line-height: 1.3;
   margin: 0;
 }
 
@@ -1026,10 +1030,11 @@ pre.astro-code code {
 }
 
 .article-title {
+  font-family: var(--font-display);
   font-size: clamp(1.6rem, 3.5vw, 2.2rem);
   font-weight: 700;
-  letter-spacing: -0.03em;
-  line-height: 1.1;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
   margin: 0 0 0.65rem;
   color: var(--text-primary);
 }
@@ -1064,6 +1069,7 @@ pre.astro-code code {
 }
 
 .article-body h2 {
+  font-family: var(--font-display);
   font-size: 1.4rem;
   font-weight: 700;
   margin-top: 2rem;
@@ -1072,6 +1078,7 @@ pre.astro-code code {
 }
 
 .article-body h3 {
+  font-family: var(--font-display);
   font-size: 1.15rem;
   font-weight: 650;
   margin-top: 1.75rem;
@@ -1461,6 +1468,7 @@ pre.astro-code code {
 }
 
 .related-articles-title {
+  font-family: var(--font-display);
   font-size: 1.2rem;
   margin-bottom: 1.25rem;
 }
@@ -1475,7 +1483,7 @@ pre.astro-code code {
   display: flex;
   gap: 1rem;
   padding: 0.85rem;
-  border: none;
+  border: 1px solid var(--border);
   box-shadow: var(--shadow-card);
   border-radius: var(--radius);
   text-decoration: none;
@@ -1507,6 +1515,7 @@ pre.astro-code code {
 }
 
 .related-article-title {
+  font-family: var(--font-display);
   font-size: 0.85rem;
   font-weight: 600;
   line-height: 1.3;
@@ -2482,20 +2491,19 @@ pre.astro-code code {
   }
 
   .article-card {
-    border-radius: var(--radius-lg);
+    border-radius: var(--radius);
   }
 
   .card-content {
-    padding: 0.75rem 0.85rem;
+    padding: 0.85rem 0.9rem;
   }
 
   .card-content h3 {
-    font-size: 1rem;
-    line-height: 1.35;
+    font-size: 0.95rem;
   }
 
   .card-image {
-    height: 180px;
+    display: none;
   }
 
   .container { padding: 0 1rem; }

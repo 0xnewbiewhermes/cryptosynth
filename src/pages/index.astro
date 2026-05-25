@@ -73,12 +73,6 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
       <div class="articles-grid" id="articlesGrid">
         {posts.map((post, index) => (
           <article class:list={['article-card', index >= 9 && 'card-hidden']}>
-            <div class="card-image">
-              <picture>
-                <source srcset={`/images/hero/${post.id}.webp`} type="image/webp" />
-                <img src={`/images/hero/${post.id}.png`} alt={post.data.title} width="1200" height="630" loading="lazy" />
-              </picture>
-            </div>
             <div class="card-content">
               <div class="card-tags">
                 <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-category">

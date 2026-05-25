@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>CryptoSynth — Artikel</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #F7F5F0; font-family: 'Outfit', sans-serif; color: #1C1812; }
+.container { max-width: 680px; margin: 0 auto; padding: 0 24px; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 20px 24px; max-width: 728px; margin: 0 auto; }
+.logo { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 700; color: #1E40AF; }
+.nav-links { display: flex; gap: 24px; font-size: 14px; color: #6b6560; }
+.nav-links a { text-decoration: none; color: inherit; }
+.article-header { padding: 48px 0 32px; }
+.breadcrumb { font-size: 13px; color: #9e9792; margin-bottom: 16px; }
+.breadcrumb span { color: #1E40AF; }
+.category { display: inline-block; font-size: 12px; padding: 4px 12px; border-radius: 20px; background: #e8edf9; color: #1E40AF; margin-bottom: 16px; font-weight: 500; }
+.article-header h1 { font-family: 'Playfair Display', serif; font-size: 36px; font-weight: 700; line-height: 1.2; margin-bottom: 16px; color: #1C1812; }
+.article-meta { display: flex; gap: 16px; font-size: 14px; color: #6b6560; align-items: center; }
+.article-meta .author { font-weight: 500; color: #1C1812; }
+.article-meta .dot { width: 3px; height: 3px; border-radius: 50%; background: #d4cfc7; }
+.hero-image { width: 100%; height: 320px; background: linear-gradient(135deg, #e8edf9 0%, #d4dcee 100%); border-radius: 16px; margin-bottom: 40px; display: flex; align-items: center; justify-content: center; color: #1E40AF; font-family: 'Playfair Display', serif; font-size: 18px; }
+.article-body { font-size: 17px; line-height: 1.75; color: #2c2824; }
+.article-body p { margin-bottom: 20px; }
+.article-body h2 { font-family: 'Playfair Display', serif; font-size: 24px; font-weight: 600; margin: 40px 0 16px; color: #1C1812; }
+.article-body h3 { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600; margin: 32px 0 12px; color: #1C1812; }
+.article-body blockquote { border-left: 3px solid #1E40AF; padding: 16px 24px; margin: 24px 0; background: #f0ede7; border-radius: 0 8px 8px 0; font-style: italic; color: #4a4540; }
+.article-body blockquote p { margin: 0; }
+.article-body ul, .article-body ol { margin: 0 0 20px 24px; }
+.article-body li { margin-bottom: 8px; }
+.divider { border: none; border-top: 1px solid #e5e0d8; margin: 48px 0; }
+.footer { padding: 32px 0 48px; text-align: center; font-size: 13px; color: #9e9792; max-width: 728px; margin: 0 auto; }
+.footer-links { display: flex; justify-content: center; gap: 24px; margin-bottom: 16px; }
+.footer-links a { text-decoration: none; color: #6b6560; font-size: 13px; }
+@media (max-width: 500px) { .article-header h1 { font-size: 28px; } .article-body { font-size: 16px; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">CryptoSynth</div>
+  <div class="nav-links">
+    <a href="#">Research</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+  </div>
+</nav>
+<div class="container">
+  <div class="article-header">
+    <div class="breadcrumb">Home / Blog / <span>DePIN</span></div>
+    <div class="category">DePIN Research</div>
+    <h1>Running a Zcash Node on OVH SGP: A Complete Guide</h1>
+    <div class="article-meta">
+      <span class="author">Gideon</span>
+      <span class="dot"></span>
+      <span>Apr 14, 2026</span>
+      <span class="dot"></span>
+      <span>8 min read</span>
+    </div>
+  </div>
+
+  <div class="hero-image">
+    <span>Zcash Node Architecture Diagram</span>
+  </div>
+
+  <div class="article-body">
+    <p>DePIN (Decentralized Physical Infrastructure Networks) represents one of the most compelling narratives in crypto today. Unlike traditional cloud infrastructure controlled by a handful of corporations, DePIN leverages blockchain incentives to distribute physical infrastructure across a global network of operators.</p>
+
+    <p>Zcash, with its focus on privacy-preserving transactions, is an ideal candidate for this model. Running a Zebra full node not only contributes to network health but also provides a reliable baseline income stream for node operators.</p>
+
+    <h2>Why Run a Zcash Node?</h2>
+
+    <p>The Zcash network relies on a distributed set of full nodes to validate transactions and maintain consensus. By running a node, you directly contribute to the privacy and security of the network. Additionally, node operators earn rewards for their participation, making it a viable passive income strategy.</p>
+
+    <h3>Hardware Requirements</h3>
+
+    <p>For our setup, we chose an OVH VPS in Singapore (SGP region) for its competitive pricing and reliable connectivity to Asian markets. The following specifications are recommended:</p>
+
+    <ul>
+      <li><strong>CPU:</strong> 4 vCores (AMD EPYC or equivalent)</li>
+      <li><strong>RAM:</strong> 8GB minimum, 16GB recommended</li>
+      <li><strong>Storage:</strong> 200GB NVMe SSD</li>
+      <li><strong>Bandwidth:</strong> 500Mbps unmetered</li>
+    </ul>
+
+    <blockquote>
+      <p>"Running a full node is the most direct way to support network decentralization. Every node operator strengthens the network's resistance to censorship and surveillance."</p>
+    </blockquote>
+
+    <h2>Setup Process</h2>
+
+    <p>We'll be using Docker to containerize the Zebra node, ensuring easy management and reproducibility. The setup involves three main steps: configuring the Docker environment, initializing the Zebra node, and setting up monitoring with systemd.</p>
+
+    <p>First, ensure Docker is installed on your VPS. Then, pull the official Zebra image and create the necessary configuration files. The data directory should be mounted as a volume to persist blockchain data across container restarts.</p>
+
+    <h3>Monitoring and Maintenance</h3>
+
+    <p>Once the node is running, regular monitoring is essential. We recommend setting up alerts for disk usage, memory consumption, and sync status. Tools like Prometheus and Grafana can be configured to provide real-time visibility into node performance.</p>
+
+    <p>With proper maintenance, a Zcash node can run for months without intervention — the true definition of passive income.</p>
+  </div>
+
+  <hr class="divider">
+</div>
+
+<div class="footer">
+  <div class="footer-links">
+    <a href="#">Twitter</a>
+    <a href="#">GitHub</a>
+    <a href="#">RSS</a>
+  </div>
+  <p>© 2026 CryptoSynth. Built with curiosity.</p>
+</div>
+</body>
+</html>

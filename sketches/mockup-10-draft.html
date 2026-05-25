@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Draft Style</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { background: #F7F5F0; font-family: 'Outfit', sans-serif; color: #1C1812; min-height: 100vh; }
+.container { max-width: 1100px; margin: 0 auto; padding: 40px 48px; }
+nav { display: flex; justify-content: space-between; align-items: center; padding: 28px 48px; border-bottom: 1px solid #e5e0d8; }
+.logo { font-family: 'Playfair Display', serif; font-size: 22px; font-weight: 700; color: #1E40AF; letter-spacing: -0.5px; }
+.nav-links { display: flex; gap: 32px; font-size: 14px; font-weight: 400; color: #6b6560; }
+.nav-links a { text-decoration: none; color: inherit; transition: color .2s; }
+.nav-links a:hover { color: #1C1812; }
+.hero { padding: 80px 48px 60px; text-align: center; }
+.hero h1 { font-family: 'Playfair Display', serif; font-size: 52px; font-weight: 700; line-height: 1.15; color: #1C1812; max-width: 700px; margin: 0 auto 20px; }
+.hero h1 span { color: #1E40AF; }
+.hero p { font-size: 17px; line-height: 1.6; color: #6b6560; max-width: 520px; margin: 0 auto 36px; }
+.hero-actions { display: flex; gap: 12px; justify-content: center; }
+.btn-primary { background: #1E40AF; color: #F7F5F0; border: none; padding: 14px 32px; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 500; cursor: pointer; transition: background .2s; }
+.btn-primary:hover { background: #1E3A8A; }
+.btn-secondary { background: transparent; color: #1C1812; border: 1px solid #d4cfc7; padding: 14px 32px; border-radius: 8px; font-family: 'Outfit', sans-serif; font-size: 15px; font-weight: 400; cursor: pointer; transition: border .2s; }
+.btn-secondary:hover { border-color: #1C1812; }
+.grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 0 48px 80px; }
+.card { background: #fff; border-radius: 12px; padding: 28px; border: 1px solid #ebe7e0; transition: box-shadow .2s; }
+.card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.06); }
+.card-icon { width: 40px; height: 40px; border-radius: 10px; background: #e8edf9; display: flex; align-items: center; justify-content: center; color: #1E40AF; font-size: 18px; margin-bottom: 16px; }
+.card h3 { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; margin-bottom: 8px; color: #1C1812; }
+.card p { font-size: 14px; color: #6b6560; line-height: 1.5; }
+@media (max-width: 768px) { .grid { grid-template-columns: 1fr; } .hero h1 { font-size: 36px; } }
+</style>
+</head>
+<body>
+<nav>
+  <div class="logo">CryptoSynth</div>
+  <div class="nav-links">
+    <a href="#">Features</a>
+    <a href="#">Research</a>
+    <a href="#">Blog</a>
+    <a href="#">About</a>
+  </div>
+</nav>
+<div class="hero">
+  <h1>Intelligent <span>on-chain</span> research, simplified.</h1>
+  <p>Real-time blockchain insights, DePIN analytics, and AI-driven market research — all in one place.</p>
+  <div class="hero-actions">
+    <button class="btn-primary">Explore Now</button>
+    <button class="btn-secondary">View Research</button>
+  </div>
+</div>
+<div class="grid">
+  <div class="card">
+    <div class="card-icon">◎</div>
+    <h3>Market Intel</h3>
+    <p>On-chain data analysis and sentiment tracking across major protocols.</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">◆</div>
+    <h3>DePIN Reports</h3>
+    <p>Deep research on decentralized physical infrastructure networks.</p>
+  </div>
+  <div class="card">
+    <div class="card-icon">◈</div>
+    <h3>Alpha Calls</h3>
+    <p>Curated opportunities and early-stage project evaluations.</p>
+  </div>
+</div>
+</body>
+</html>

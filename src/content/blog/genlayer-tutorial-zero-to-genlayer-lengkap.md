@@ -2,7 +2,7 @@
 title: "From Zero to GenLayer: Tutorial Lengkap Bangun Dispute Resolution dApp"
 description: "Tutorial lengkap GenLayer dari nol — pelajari Optimistic Democracy, tulis Intelligent Contract Python, deploy di Studio, bangun frontend React, dan deploy ke Bradbury Testnet."
 excerpt: "Panduan 5-bagian dalam satu artikel: pahami konsep GenLayer, tulis Intelligent Contract dispute resolution, deploy di Studio, bangun frontend dengan genlayer-js, dan deploy ke Bradbury Testnet."
-pubDate: 2026-05-25T12:00:00+07:00
+pubDate: 2026-05-25T13:40:00+07:00
 category: "Tutorial"
 tags: ["genlayer", "tutorial", "optimistic democracy", "equivalence principle", "intelligent contract", "python", "genlayer-js", "react", "nextjs", "metamask", "bradbury", "deploy", "studio", "dispute resolution", "blockchain", "ai"]
 author: "CryptoSynth Research"

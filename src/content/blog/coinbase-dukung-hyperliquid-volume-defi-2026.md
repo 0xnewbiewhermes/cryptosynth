@@ -12,7 +12,9 @@ faq: "Apa risiko utama DeFi?;;Risiko utama DeFi termasuk smart contract exploit,
 
 
 
-> **TL;DR:** Coinbase akan mengelola likuiditas USDC di Hyperliquid, Layer 1 blockchain yang dikenal sebagai rumah bagi perpetual futures dan spot trading. Hyperliquid sudah memiliki token native $HYPE (market cap rank #13, harga ~$45) dengan TVL $5.46 miliar.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Coinbase akan mengelola likuiditas USDC di Hyperliquid, Layer 1 blockchain yang dikenal sebagai rumah bagi perpetual futures dan spot trading. Hyperliquid sudah memiliki token native $HYPE (market cap rank #13, harga ~$45) dengan TVL $5.46 miliar.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

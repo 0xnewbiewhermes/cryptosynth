@@ -64,7 +64,7 @@ Jalan menuju IPO Consensys sebenarnya sudah lebih bersih secara regulasi. SEC se
 
 Namun, kondisi pasar yang buruk tetap menjadi penghalang utama. Ketika sentimen investor terhadap listing crypto sangat volatile, seperti yang terlihat dari kasus BitGo, perusahaan-perusahaan memilih menunggu waktu yang lebih tepat.
 
-IPO bitcoin? Bukan jaminan untung. Kasus BitGo jelas: hype IPO crypto gak bertahan lama. Fundamental tetaplah fundamental — Consensys punya MetaMask yang dipake jutaan orang. Penundaan IPO gak ngubah fundamental bisnis mereka.
+IPO bitcoin? Bukan jaminan untung. Kasus BitGo jelas: hype IPO crypto gak bertahan lama. Fundamental tetaplah fundamental, Consensys punya MetaMask yang dipake jutaan orang. Penundaan IPO gak ngubah fundamental bisnis mereka.
 
 Pasar crypto itu siklik. Penundaan ke musim gugur kasih waktu buat pasar pulih. Kalo kondisi membaik, IPO Consensys bisa jadi salah satu listing crypto terbesar. Yang menarik, Joe Lubin sebelumnya ngonfirmasi token MASK lagi dikembangin, plus fitur perpetual futures dan program rewards.
 

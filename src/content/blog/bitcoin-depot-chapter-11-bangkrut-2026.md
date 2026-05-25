@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: >
   Apa yang terjadi dengan Bitcoin Depot?;;Bitcoin Depot, operator ATM Bitcoin terbesar di Amerika Utara, resmi mengajukan Chapter 11 bankruptcy pada 18 Mei 2026. Seluruh jaringan 9.000+ ATM crypto telah dimatikan dan perusahaan akan menjual asetnya di bawah pengawasan pengadilan.;;Apa penyebab kebangkrutan Bitcoin Depot?;;CEO Alex Holmes menyebut regulasi negara bagian yang makin ketat, termasuk pembatasan transaksi dan larangan BTM di beberapa yurisdiksi, serta gugatan hukum dari Massachusetts dan Iowa sebagai penyebab utama. Revenue Bitcoin Depot turun 49% di Q1 2026.;;Apa dampak kebangkrutan Bitcoin Depot untuk industri crypto?;;Kebangkrutan Bitcoin Depot menandai tekanan regulasi yang makin berat terhadap industri ATM crypto di AS. Tennessee menjadi negara bagian kedua yang melarang BTM setelah Indiana, sementara Kanada juga mengusulkan larangan serupa.
 ---
-> **TL;DR:** Bitcoin Depot, operator ATM Bitcoin terbesar di Amerika Utara dan perusahaan publik di Nasdaq, resmi mengajukan Chapter 11 bankruptcy pada Senin (18/5). Seluruh jaringan 9.000+ ATM crypto telah dimatikan, perusahaan akan menjual asetnya dalam proses yang diawasi pengadilan. CEO Alex Holmes menyebut regulasi yang makin ketat sebagai penyebab utama keruntuhan.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bitcoin Depot, operator ATM Bitcoin terbesar di Amerika Utara dan perusahaan publik di Nasdaq, resmi mengajukan Chapter 11 bankruptcy pada Senin (18/5). Seluruh jaringan 9.000+ ATM crypto telah dimatikan, perusahaan akan menjual asetnya dalam proses yang diawasi pengadilan. CEO Alex Holmes menyebut regulasi yang makin ketat sebagai penyebab utama keruntuhan.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
@@ -29,7 +31,7 @@ Tennessee baru jadi negara bagian kedua yang larang Bitcoin ATM setelah Indiana 
 
 **Harga BTC saat ini:** $77.177 (-1,27%), ETH $2.136 (-2,49%), SOL $84,86 (-1,74%).
 
-Kebangkrutan Bitcoin Depot nambahin daftar perusahaan crypto yang tumbang di tengah musim regulasi ketat AS. Ironisnya, di sisi lain Strategy (sebelumnya MicroStrategy) baru aja beli 24.869 BTC senilai $2 miliar pekan lalu , dua kutub yang sangat beda dalam industri yang sama.
+Kebangkrutan Bitcoin Depot nambahin daftar perusahaan crypto yang tumbang di tengah musim regulasi ketat AS. Ironisnya, Sementara itu Strategy (sebelumnya MicroStrategy) baru aja beli 24.869 BTC senilai $2 miliar pekan lalu , dua kutub yang sangat beda dalam industri yang sama.
 
 Buat lo di Indo, ini jadi pengingat: regulasi longgar di satu negara bukan jaminan keberlangsungan bisnis global. Platform ATM crypto atau layanan jual-beli crypto dengan margin tipis sangat rentan terhadap perubahan regulasi di yurisdiksi utama. Pembatasan BTM di AS dan Kanada bisa jadi preseden buat negara lain , termasuk kemungkinan regulator Asia Tenggara buat nge-review izin operasi layanan serupa. Kalo lo nyimpen aset di platform dengan model bisnis yang bergantung sama regulasi longgar, waspada.
 

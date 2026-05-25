@@ -10,13 +10,15 @@ faq: >
   Kenapa Bitcoin turun ke $77.000?;;Bitcoin terkoreksi karena tekanan jual dari investor AS (terlihat dari Coinbase Premium Gap yang menyentuh -$66,8, terendah sejak Februari), ditambah bond yield 30 tahun di 5,13% yang bikin aset berisiko kurang menarik. Nvidia rilis laba Q1 2027 dengan EPS $1,87 (di atas konsensus $1,76) dan pendapatan $81,62 miliar, beat ekspektasi $78,42 miliar. Apa dampak Nvidia earnings ke Bitcoin?;;Nvidia earnings sering jadi barometer risk appetite pasar global. Laba yang beat ekspektasi + guidance Q2 sebesar $91 miliar bisa memperbaiki sentimen pasar secara umum, yang berpotensi mendorong rebound BTC. Tapi tekanan makro (bond yield, inflasi) masih jadi headwind. Berapa level support Bitcoin berikutnya?;;Level $77.000 jadi garis kritis. Jika tembus, support berikutnya di $74.600 (intraday low pekan lalu), lalu $70.000. Tapi data on-chain menunjukkan supply BTC di exchange di level terendah 6 tahun, yang bisa batasi potensi jual besar. Apakah ETF Bitcoin masih mengalami outflow?;;Ya, pekan yang berakhir 15 Mei mencatat outflow bersih $1 miliar dari spot Bitcoin ETF AS, terbesar sejak akhir Januari 2026. Ini jadi salah satu indikator tekanan dari institusi.
 ---
 
-> **TL;DR:** Bitcoin gagal reclaimed $78.000 setelah sempat menyentuh $77.678 di Bitstamp. Coinbase Premium Gap tembus -$66,8, terdalam sejak Februari, sinyal permintaan dari investor AS lagi lemah. Nvidia baru aja rilis laba Q1 2027 yang beat ekspektasi: EPS $1,87 vs konsensus $1,76, pendapatan $81,62 miliar, dan guidance Q2 di $91 miliar.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bitcoin gagal reclaimed $78.000 setelah sempat menyentuh $77.678 di Bitstamp. Coinbase Premium Gap tembus -$66,8, terdalam sejak Februari, sinyal permintaan dari investor AS lagi lemah. Nvidia baru aja rilis laba Q1 2027 yang beat ekspektasi: EPS $1,87 vs konsensus $1,76, pendapatan $81,62 miliar, dan guidance Q2 di $91 miliar.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
 </div>
 
-Gw liat Bitcoin gagal reclaimed $78.000 setelah sempat nyentuh $77.678 di Bitstamp. Coinbase Premium Gap tembus -$66,8 , terdalam sejak Februari , sinyal permintaan dari investor AS lagi lemah banget. Di sisi lain, Nvidia baru aja rilis laba Q1 2027 yang beat ekspektasi: EPS $1,87 vs konsensus $1,76, pendapatan $81,62 miliar, dan guidance Q2 di $91 miliar.
+Gw liat Bitcoin gagal reclaimed $78.000 setelah sempat nyentuh $77.678 di Bitstamp. Coinbase Premium Gap tembus -$66,8 , terdalam sejak Februari , sinyal permintaan dari investor AS lagi lemah banget. Sementara itu, Nvidia baru aja rilis laba Q1 2027 yang beat ekspektasi: EPS $1,87 vs konsensus $1,76, pendapatan $81,62 miliar, dan guidance Q2 di $91 miliar.
 
 Buat lo trader Indo, perbedaan dinamika permintaan antara exchange global (Binance) dan platform AS (Coinbase) ini penting buat strategi entry jangka pendek.
 

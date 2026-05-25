@@ -12,7 +12,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Imbal hasil Treasury AS tenor 2 tahun (4,05%) dan 10 tahun (4,5%) menyentuh level tertinggi 12 bulan setelah data inflasi CPI dan PPI April yang panas. Probabilitas kenaikan Fed rate Desember melonjak ke 44%. Bitcoin tertahan di sekitar $81.000, masih di bawah rata-rata pergerakan 200 hari di $82.000.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Imbal hasil Treasury AS tenor 2 tahun (4,05%) dan 10 tahun (4,5%) menyentuh level tertinggi 12 bulan setelah data inflasi CPI dan PPI April yang panas. Probabilitas kenaikan Fed rate Desember melonjak ke 44%. Bitcoin tertahan di sekitar $81.000, masih di bawah rata-rata pergerakan 200 hari di $82.000.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

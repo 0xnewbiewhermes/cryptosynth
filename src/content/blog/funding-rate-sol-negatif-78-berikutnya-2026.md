@@ -10,7 +10,9 @@ faq: >
   Apa itu funding rate negatif?;;Funding rate negatif artinya trader yang hold posisi short membayar ke trader long. Ini indikasi bearish sentimen dominan di pasar futures.;;Apakah SOL akan turun ke $78?;;Analis belum yakin SOL akan tembus $78. Level support saat ini di $83 bisa bertahan jika DEX activity pulih.;;Kenapa harga SOL turun?;;Koreksi SOL dipicu penurunan aktivitas DEX dan pendapatan DApp Solana, plus kompetisi dari Hyperliquid dan Base.;;Apa dampak funding rate negatif buat trader Indonesia?;;Trader Indonesia bisa memanfaatkan momen ini untuk entry di harga diskon, tapi risiko koreksi lanjutan tetap ada.
 ---
 
-> **TL;DR:** Funding rate futures SOL berbalik negatif ke -3% saat harga terkoreksi 15% dari level $98. Pendapatan DApp Solana turun ke $20 juta/minggu dan volume DEX anjlok. Trader bertanya: apakah $78 level berikutnya?
+<div class="tldr-box">
+<strong>TL;DR:</strong> Funding rate futures SOL berbalik negatif ke -3% saat harga terkoreksi 15% dari level $98. Pendapatan DApp Solana turun ke $20 juta/minggu dan volume DEX anjlok. Trader bertanya: apakah $78 level berikutnya?
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

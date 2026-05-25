@@ -10,7 +10,9 @@ faq: >
   Berapa jumlah Bitcoin yang dibeli Strategy pekan lalu?;;Strategy membeli 24.869 BTC senilai $2,01 miliar dengan harga rata-rata $80.985 per BTC antara 11-17 Mei 2026.;;Apa sumber dana pembelian Bitcoin terbaru Strategy?;;Sekitar 97% dana berasal dari penjualan saham STRC perpetual preferred, menghasilkan $1,95 miliar. Sisanya dari penjualan saham MSTR senilai $83,7 juta.;;Berapa total Bitcoin yang dimiliki Strategy sekarang?;;Strategy kini memiliki 843.738 BTC senilai sekitar $65,3 miliar, setara lebih dari 4% dari total suplai Bitcoin yang dibatasi 21 juta keping.
 ---
 
-> **TL;DR:** Strategy milik Michael Saylor membeli 24.869 BTC senilai $2,01 miliar pekan lalu dengan harga rata-rata $80.985 per keping. Total holdings kini mencapai 843.738 BTC atau 4% dari total suplai Bitcoin. Dana pembelian 97% berasal dari penjualan saham STRC.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Strategy milik Michael Saylor membeli 24.869 BTC senilai $2,01 miliar pekan lalu dengan harga rata-rata $80.985 per keping. Total holdings kini mencapai 843.738 BTC atau 4% dari total suplai Bitcoin. Dana pembelian 97% berasal dari penjualan saham STRC.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

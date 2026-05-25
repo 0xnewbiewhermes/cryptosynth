@@ -12,7 +12,9 @@ faq: "Apa yang perlu diketahui tentang ICE dan CME Tekan Regulator AS Awasi Hype
 
 
 
-> **TL;DR:** Intercontinental Exchange (ICE) dan Chicago Mercantile Exchange (CME) mendesak regulator AS untuk mengawasi Hyperliquid karena derivatif energi onchain-nya dianggap berisiko manipulasi dan penghindaran sanksi. Token HYPE tetap bertahan di sekitar $43 meski tekanan meningkat.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Intercontinental Exchange (ICE) dan Chicago Mercantile Exchange (CME) mendesak regulator AS untuk mengawasi Hyperliquid karena derivatif energi onchain-nya dianggap berisiko manipulasi dan penghindaran sanksi. Token HYPE tetap bertahan di sekitar $43 meski tekanan meningkat.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
@@ -53,7 +55,7 @@ Mekanisme buyback token juga menjadi katalis penting. Hyperliquid mengalokasikan
 
 Dalam perkembangan terpisah yang juga berdampak pada ekosistem DeFi, [Lombard Finance](https://lombard.finance) mengumumkan migrasi dari LayerZero ke Chainlink untuk mengelola aset Bitcoin senilai $1 miliar. Keputusan ini diambil setelah exploit Kelp DAO yang menyebabkan kerugian $292 juta di bridge LayerZero. Lombard Finance mengikuti jejak Kraken yang lebih dulu bermigrasi ke Chainlink CCIP.
 
-Perpindahan ini menunjukkan bahwa keamanan cross-chain menjadi prioritas utama bagi protokol DeFi, dan Chainlink CCIP mulai mengambil alih dominasi LayerZero di pasar bridge.
+Keamanan cross-chain menjadi prioritas utama bagi protokol DeFi, dan Chainlink CCIP mulai mengambil alih dominasi LayerZero di pasar bridge.
 
 ## Perspektif: DeFi vs TradFi yang Semakin Tegang
 

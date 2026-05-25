@@ -12,7 +12,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Saham perpetual preferred STRC milik Strategy mencatat volume perdagangan harian rekor sebesar $1,53 miliar. Dengan model dividen 11,5%, instrumen ini menjadi sumber dana utama Strategy untuk membeli Bitcoin di tengah pasar bearish 2026.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Saham perpetual preferred STRC milik Strategy mencatat volume perdagangan harian rekor sebesar $1,53 miliar. Dengan model dividen 11,5%, instrumen ini menjadi sumber dana utama Strategy untuk membeli Bitcoin di tengah pasar bearish 2026.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.

@@ -10,7 +10,9 @@ faq: >
   Apa itu Nasdaq Bitcoin Index Options?;;Nasdaq Bitcoin Index Options adalah kontrak opsi yang diselesaikan secara tunai (cash-settled) berdasarkan indeks harga Bitcoin CME CF Bitcoin Real-Time Index, memberikan institusi cara teregulasi untuk melakukan hedging atau spekulasi harga BTC tanpa memiliki aset langsung. Berapa kepemilikan Bank of America di ETF kripto?;;Bank of America mengungkap kepemilikan sekitar $53 juta di ETF kripto melalui form 13F Q1 2026, dengan mayoritas di IBIT BlackRock ($37 juta), BITB Bitwise ($8 juta), Grayscale Bitcoin Mini ($3,3 juta), dan FBTC Fidelity ($1,7 juta). Apa dampak persetujuan ini untuk investor Indonesia?;;Persetujuan ini memperkuat legitimasi Bitcoin sebagai aset institusional, yang dalam jangka panjang berpotensi meningkatkan likuiditas global dan stabilitas harga, menguntungkan investor ritel Indonesia yang ingin berinvestasi kripto dengan risiko lebih terukur.
 ---
 
-> **TL;DR:** SEC menyetujui perdagangan Nasdaq Bitcoin Index Options secara dipercepat, memberi institusi keuangan alat lindung nilai kripto teregulasi pertama di bursa saham AS. Bank of America ikut mengungkap kepemilikan $53 juta di ETF Bitcoin lewat filing 13F. Bitcoin diperdagangkan di $75.313.
+<div class="tldr-box">
+<strong>TL;DR:</strong> SEC menyetujui perdagangan Nasdaq Bitcoin Index Options secara dipercepat, memberi institusi keuangan alat lindung nilai kripto teregulasi pertama di bursa saham AS. Bank of America ikut mengungkap kepemilikan $53 juta di ETF Bitcoin lewat filing 13F. Bitcoin diperdagangkan di $75.313.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

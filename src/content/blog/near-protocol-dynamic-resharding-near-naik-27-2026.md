@@ -12,7 +12,9 @@ faq: >
   Apa itu dynamic resharding Near Protocol?;;Dynamic resharding adalah fitur yang memungkinkan Near Protocol menambah shard secara otomatis saat permintaan jaringan meningkat, tanpa voting validator atau upgrade protokol manual. Fitur ini akan aktif pada Juni 2026.;;Kenapa harga NEAR naik 27%?;;Harga NEAR naik setelah pengumuman dynamic resharding dan post-quantum signing. Bitwise NEAR Staking ETP juga mencatat inflow $7 juta dalam seminggu terakhir, menandakan minat institusional.;;Apa dampak dynamic resharding untuk pengguna?;;Pengguna tidak perlu melakukan apa pun. Jaringan akan otomatis menambah kapasitas tanpa downtime, membuat biaya transaksi tetap rendah meskipun traffic meningkat.
 ---
 
-> **TL;DR:** Near Protocol akan meluncurkan dynamic resharding pada Juni 2026, memungkinkan blockchain menambah shard secara otomatis tanpa voting validator atau intervensi manual. Token NEAR naik 27% ke $2,25 dalam 24 jam, didorong oleh antusiasme pasar dan inflow Bitwise NEAR Staking ETP sebesar $7 juta dalam seminggu.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Near Protocol akan meluncurkan dynamic resharding pada Juni 2026, memungkinkan blockchain menambah shard secara otomatis tanpa voting validator atau intervensi manual. Token NEAR naik 27% ke $2,25 dalam 24 jam, didorong oleh antusiasme pasar dan inflow Bitwise NEAR Staking ETP sebesar $7 juta dalam seminggu.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

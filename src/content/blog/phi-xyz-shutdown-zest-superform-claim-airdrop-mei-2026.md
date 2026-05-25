@@ -10,7 +10,9 @@ faq: >
   Apa yang terjadi dengan phi.xyz?;;Phi.xyz (phi.box) akan shutdown pada 25 Mei 2026. Semua layanan termasuk rewards page dan staking dashboard akan offline permanen. Pengguna harus claim rewards dan unstake token sebelum tenggat.;;Apakah Zest Protocol ZEST airdrop masih bisa di-claim?;;Ya, Zest Protocol Season 1 airdrop claim masih live. Claim dibuka sejak 19 Mei 2026 bersamaan dengan listing token di KuCoin, Gate.io, MEXC, HTX, dan Binance Alpha. Tenggat claim adalah satu bulan setelah Month 6 unlock.;;Apa itu Superform airdrop dan apakah masih ada kesempatan claim?;;Superform adalah platform yield aggregator. Final unlock airdrop sudah selesai 11 Mei 2026, tapi claim masih terbuka sampai 10 Agustus 2026. Setelah itu token yang tidak di-claim akan didistribusikan ulang secara permanen.;;Bagaimana cara claim rewards phi.xyz sebelum shutdown?;;Kunjungi phi.box/rewards untuk claim rewards, phi.box/stake untuk unstake dan withdraw token. Pastikan selesai sebelum 25 Mei 2026 karena setelah itu frontend tidak bisa diakses.
 ---
 
-> **TL;DR:** Phi.xyz (phi.box) shutdown **besok, 25 Mei 2026**. Semua rewards harus di-claim dan token harus di-unstake sebelum situs offline permanen. Dua airdrop lain masih punya waktu lebih panjang: Zest Protocol ZEST Season 1 claim masih live (listing di KuCoin, Gate.io, MEXC), dan Superform final unlock dengan deadline claim 10 Agustus 2026.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Phi.xyz (phi.box) shutdown **besok, 25 Mei 2026**. Semua rewards harus di-claim dan token harus di-unstake sebelum situs offline permanen. Dua airdrop lain masih punya waktu lebih panjang: Zest Protocol ZEST Season 1 claim masih live (listing di KuCoin, Gate.io, MEXC), dan Superform final unlock dengan deadline claim 10 Agustus 2026.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

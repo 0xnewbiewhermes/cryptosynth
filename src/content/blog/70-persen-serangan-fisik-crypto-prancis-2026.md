@@ -9,7 +9,9 @@ faq: >
   Apa itu wrench attack dalam crypto?;;Wrench attack atau serangan kunci inggris adalah serangan fisik berupa pemerasan, penculikan, atau kekerasan yang bertujuan memaksa korban menyerahkan akses ke aset crypto mereka, termasuk seed phrase atau private key.;;Kenapa 70% serangan fisik crypto terjadi di Prancis?;;Kebocoran data massal seperti Ledger 2020 (270.000+ pelanggan) dan Waltio, serta dugaan insider di kantor pajak yang menjual data investor crypto ke jaringan kriminal, membuat Prancis menjadi target utama.;;Berapa banyak penculikan terkait crypto di Prancis?;;Menurut jurnalis Bitcoin Joe Nakamoto, ada 41 penculikan terkait crypto di Prancis dalam 4 bulan pertama 2026, atau rata-rata satu serangan setiap 2,5 hari.;;Apa yang bisa dilakukan untuk melindungi diri dari wrench attack?;;Gunakan layanan kustodi dengan fitur kata sandi darurat, siapkan wallet palsu dengan dana kecil untuk diberikan saat terpaksa, hindari memamerkan kepemilikan crypto secara online, dan minimalisir data pribadi yang terhubung dengan aktivitas crypto.
 ---
 
-> **TL;DR:** Prancis mencatat sekitar 70% dari seluruh serangan fisik (wrench attack) terhadap pemilik crypto secara global. Dalam empat bulan pertama 2026, sudah terjadi 41 penculikan terkait crypto di Prancis. Kebocoran data Ledger 2020 dan dugaan insider di kantor pajak yang menjual data investor ke jaringan kriminal dinilai sebagai faktor utama.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Prancis mencatat sekitar 70% dari seluruh serangan fisik (wrench attack) terhadap pemilik crypto secara global. Dalam empat bulan pertama 2026, sudah terjadi 41 penculikan terkait crypto di Prancis. Kebocoran data Ledger 2020 dan dugaan insider di kantor pajak yang menjual data investor ke jaringan kriminal dinilai sebagai faktor utama.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

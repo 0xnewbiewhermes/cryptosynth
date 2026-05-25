@@ -11,7 +11,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Seorang Bitcoiner anonim menggunakan Anthropic Claude untuk memulihkan 5 BTC senilai sekitar $395.000 (Rp6,2 miliar) yang terkunci selama lebih dari satu dekade. Claude menemukan file backup wallet lama di komputer kuliah pengguna, bukan meretas kriptografi Bitcoin.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Seorang Bitcoiner anonim menggunakan Anthropic Claude untuk memulihkan 5 BTC senilai sekitar $395.000 (Rp6,2 miliar) yang terkunci selama lebih dari satu dekade. Claude menemukan file backup wallet lama di komputer kuliah pengguna, bukan meretas kriptografi Bitcoin.
+</div>
 
 ## Claude AI Temukan File Backup Wallet yang Terlupakan
 

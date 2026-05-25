@@ -11,7 +11,9 @@ faq: "Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypt
 
 
 
-> **TL;DR:** Token PreStocks yang mengklaim memberikan eksposur ke saham Anthropic dan OpenAI anjlok hingga 40% di Solana setelah kedua perusahaan AI menyatakan bahwa struktur SPV (Special Purpose Vehicle) yang mendasari token tersebut tidak sah tanpa persetujuan dewan direksi.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Token PreStocks yang mengklaim memberikan eksposur ke saham Anthropic dan OpenAI anjlok hingga 40% di Solana setelah kedua perusahaan AI menyatakan bahwa struktur SPV (Special Purpose Vehicle) yang mendasari token tersebut tidak sah tanpa persetujuan dewan direksi.
+</div>
 
 ## Anthropic dan OpenAI Peringatkan Investor: Saham yang Dibeli Melalui SPV Mungkin Tidak Bernilai
 

@@ -10,7 +10,9 @@ faq: >
   Siapa saja yang hengkang dari Ethereum Foundation di 2026?;;Setidaknya 8 orang telah hengkang di 2026, termasuk Julian Ma, Carl Beek, Barnabé Monnot, Tim Beiko, Alex Stokes (sabbatical), Josh Stark, Trent Van Epps, dan Tomasz Stanczak. 5 orang di antaranya pergi di bulan Mei saja.;;Kenapa banyak peneliti EF hengkang?;;Beberapa alasan disebutkan termasuk fokus ke karir baru (Ma ke product/growth), waktu bersama keluarga (Beek), dan restrukturisasi internal yang diumumkan Vitalik Buterin tahun lalu untuk mendatangkan talenta baru.;;Apa dampak ke harga ETH?;;Dalam jangka pendek, berita ini menambah tekanan bearish di ETH yang sudah turun ke $2.116. Namun dalam jangka panjang, jika EF berhasil mendatangkan talenta baru yang lebih segar, ini bisa menjadi katalis positif untuk roadmap Ethereum.
 ---
 
-> **TL;DR:** Ethereum Foundation kehilangan dua peneliti senior lagi: Julian Ma (4 tahun, riset censorship-resistant) dan Carl Beek (7 tahun, desain Beacon Chain). Total sudah 8 orang hengkang di 2026, dengan 5 di antaranya pergi di bulan Mei saja. ETH saat ini diperdagangkan di $2.116.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Ethereum Foundation kehilangan dua peneliti senior lagi: Julian Ma (4 tahun, riset censorship-resistant) dan Carl Beek (7 tahun, desain Beacon Chain). Total sudah 8 orang hengkang di 2026, dengan 5 di antaranya pergi di bulan Mei saja. ETH saat ini diperdagangkan di $2.116.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

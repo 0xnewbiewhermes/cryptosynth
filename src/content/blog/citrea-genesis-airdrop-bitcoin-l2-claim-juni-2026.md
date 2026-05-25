@@ -10,7 +10,9 @@ faq: >
   Apa itu Citrea?;;Citrea adalah Bitcoin Layer 2 yang memungkinkan DeFi, self-custody, privacy, dan capital markets di Bitcoin menggunakan zero-knowledge technology.;;Kapan klaim airdrop Citrea $CTR?;;Claim window dibuka 9-23 Juni 2026. Registrasi sudah tutup 17 Mei. Cek alokasi sekarang di citrea.xyz/airdrop.;;Apa itu xCTR?;;xCTR adalah versi staking/governance dari $CTR yang memberikan earning emissions dan voting power bagi holder.;;Kapan snapshot terakhir SoSoValue Season 2?;;Perkiraan akhir Mei 2026. Farming masih berlangsung, selesaikan tugas harian sebelum snapshot.;;Berapa alokasi SoSoValue Season 2?;;Sekitar 30 juta $SOSO untuk Season 2, diukur dari EXP points dan Real-User Probability score.
 ---
 
-> **TL;DR:** Citrea, Bitcoin L2 berbasis zero-knowledge, menutup registrasi airdrop genesis $CTR pada 17 Mei. Peserta bisa cek alokasi sekarang di citrea.xyz/airdrop. Klaim dan TGE dijadwalkan 9-23 Juni 2026. Sementara itu, SoSoValue Season 2 dengan pool ~30 juta $SOSO sedang memasuki fase akhir, snapshot diperkirakan sebelum akhir Mei.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Citrea, Bitcoin L2 berbasis zero-knowledge, menutup registrasi airdrop genesis $CTR pada 17 Mei. Peserta bisa cek alokasi sekarang di citrea.xyz/airdrop. Klaim dan TGE dijadwalkan 9-23 Juni 2026. Sementara itu, SoSoValue Season 2 dengan pool ~30 juta $SOSO sedang memasuki fase akhir, snapshot diperkirakan sebelum akhir Mei.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

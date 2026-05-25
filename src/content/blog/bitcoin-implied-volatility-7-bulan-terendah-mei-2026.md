@@ -12,7 +12,9 @@ faq: >
   Apa itu BVIV?;;BVIV (Bitcoin Volatility Index) adalah indeks yang mengukur ekspektasi volatilitas Bitcoin 30 hari ke depan berdasarkan harga opsi Bitcoin. Semakin rendah angkanya, semakin tenang pergerakan harga yang diperkirakan pasar.;;Apa penyebab turunnya implied volatility Bitcoin?;;Menurut Shiliang Tang dari Monarq Asset Management, tiga faktor utama: meredanya risiko geopolitik Iran, aksi beli agresif Strategy yang menjadi structural floor, dan kegiatan call overwriting institusional yang menekan harga opsi.;;Apa risiko dari volatilitas rendah ini?;;Volatilitas rendah sering disebut sebagai "coiled spring", semakin lama volatilitas terkompresi, semakin besar potensi pergerakan harga mendadak ke dua arah. Trader wajib waspada terhadap potensi ekspansi volatilitas mendadak.
 ---
 
-> **TL;DR:** Indeks volatilitas implisit Bitcoin (BVIV) turun ke 38%, level terendah sejak Oktober 2025. Pasar opsi memperkirakan pergerakan harga yang lebih tenang, namun analis memperingatkan potensi "coiled spring" yang bisa memicu lonjakan volatilitas mendadak.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Indeks volatilitas implisit Bitcoin (BVIV) turun ke 38%, level terendah sejak Oktober 2025. Pasar opsi memperkirakan pergerakan harga yang lebih tenang, namun analis memperingatkan potensi "coiled spring" yang bisa memicu lonjakan volatilitas mendadak.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

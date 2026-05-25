@@ -10,7 +10,9 @@ faq: >
   Apa itu stablecoin non-dollar?;;Stablecoin non-dollar adalah token kripto yang nilainya dipatok ke mata uang selain dolar AS, seperti euro (EURC), yen Jepang (JPYC), dolar Singapura (XSGD), atau real Brasil (BRLA).;;Kenapa stablecoin non-dollar susah berkembang?;;Karena efek liquidity flywheel: stablecoin dollar seperti USDT dan USDC sudah punya likuiditas lebih dulu, yang menarik volume transaksi, yang pada gilirannya menarik lebih banyak likuiditas. Siklus ini susah diputus.;;Seberapa besar dominasi stablecoin dollar saat ini?;;Stablecoin dollar menguasai 99,76% dari seluruh pasar stablecoin per April 2026, dengan supply mencapai lebih dari $200 miliar.;
 ---
 
-> **TL;DR:** Supply stablecoin non-USD naik dari $261 juta (Mei 2021) jadi $771 juta (April 2026) , tumbuh 3x lipat. Tapi market share-nya malah turun dari 0,26% ke 0,24%. Dollar stablecoin tetap dominan dengan 99,76% pasar. Coinbase menyebut ini efek liquidity flywheel.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Supply stablecoin non-USD naik dari $261 juta (Mei 2021) jadi $771 juta (April 2026) , tumbuh 3x lipat. Tapi market share-nya malah turun dari 0,26% ke 0,24%. Dollar stablecoin tetap dominan dengan 99,76% pasar. Coinbase menyebut ini efek liquidity flywheel.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

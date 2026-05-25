@@ -10,7 +10,9 @@ faq: >
   Apa itu Coinbase Premium Index?;;Coinbase Premium Index adalah metrik yang membandingkan harga Bitcoin di Coinbase (AS) vs Binance (global). Nilai negatif menandakan demand dari pembeli AS lebih rendah.;;Kenapa Coinbase Premium turun ke -0.087?;Penurunan terjadi karena aksi ambil untung besar-besaran saat BTC rally ke $82.000, di mana 14.600 BTC direalisasikan dalam sehari.;;Apa sinyal positif dari data ini?;14-day SMA dari Coinbase Premium masih dalam tren naik, Base blockchain revenue naik ke $972.000, dan net taker volume futures tetap positif. Ini menandakan tekanan jual mulai berkurang.;;Apa level support kunci Bitcoin saat ini?;100-day EMA di $76.800 dan level $74.800. Jika BTC daily close di bawah $74.800, struktur bullish bisa berubah.
 ---
 
-> **TL;DR:** Coinbase Premium Index Bitcoin turun ke -0.087 pada 19 Mei, level terendah sejak 31 Maret. Tanda demand dari AS melemah. Tapi indikator jangka menengah seperti 14-day SMA, Base blockchain revenue, dan net taker volume futures masih positif. BTC bertahan di atas 100-day EMA ($76.800).
+<div class="tldr-box">
+<strong>TL;DR:</strong> Coinbase Premium Index Bitcoin turun ke -0.087 pada 19 Mei, level terendah sejak 31 Maret. Tanda demand dari AS melemah. Tapi indikator jangka menengah seperti 14-day SMA, Base blockchain revenue, dan net taker volume futures masih positif. BTC bertahan di atas 100-day EMA ($76.800).
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -11,7 +11,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Charles Schwab, broker raksasa asal AS yang mengelola aset nasabah senilai ~$12 triliun, resmi meluncurkan layanan trading spot Bitcoin (BTC) dan Ethereum (ETH) untuk nasabah retail melalui platform Schwab Crypto.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Charles Schwab, broker raksasa asal AS yang mengelola aset nasabah senilai ~$12 triliun, resmi meluncurkan layanan trading spot Bitcoin (BTC) dan Ethereum (ETH) untuk nasabah retail melalui platform Schwab Crypto.
+</div>
 
 ## Schwab Buka Akses Trading Spot BTC dan ETH untuk Retail
 

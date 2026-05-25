@@ -10,7 +10,9 @@ faq: >
   Kenapa Bitcoin turun ke $76.000?;;BTC terkoreksi 7% dari $82.000 ke $76.000 karena kombinasi $1 miliar arus keluar ETF spot, meningkatnya ketegangan AS-Iran, dan imbal hasil Treasury AS yang naik ke 4,60% tertinggi dalam 16 bulan. Likuidasi posisi long mencapai $607 juta dalam 24 jam.;;Katalis apa yang bisa dorong BTC balik ke $80.000?;;Tiga katalis utama: Strategy/MicroStrategy terus beli BTC besar-besaran dengan $2 miliar minggu ini, krisis utang AS dengan $2 triliun jatuh tempo di 2026 yang dorong investor ke aset langka, dan potensi kesepakatan damai AS-Iran yang bisa picu risk appetite.;;Apakah Bitcoin saat ini sudah di support kuat?;;Support terdekat di $76.000 harus bertahan untuk hindari koreksi ke $71.000-$73.000. Jika tembus, level berikutnya di $65.000. Namun beberapa analis melihat ETF outflow besar biasanya diikuti local bottom.
 ---
 
-> **TL;DR:** BTC anjlok 7% dari $82.000 ke $76.000, menghapus seluruh keuntungan Mei 2026. $1 miliar arus keluar ETF dan ketegangan AS-Iran jadi pemicu utama. Tiga katalis, aksi beli Strategy, krisis utang AS, dan potensi gencatan senjata Iran, bisa dorong harga kembali ke $80.000.
+<div class="tldr-box">
+<strong>TL;DR:</strong> BTC anjlok 7% dari $82.000 ke $76.000, menghapus seluruh keuntungan Mei 2026. $1 miliar arus keluar ETF dan ketegangan AS-Iran jadi pemicu utama. Tiga katalis, aksi beli Strategy, krisis utang AS, dan potensi gencatan senjata Iran, bisa dorong harga kembali ke $80.000.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

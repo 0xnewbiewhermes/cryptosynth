@@ -10,7 +10,9 @@ faq: >
   Apa itu sinyal beli kontrarian?;;Sinyal beli kontrarian adalah strategi investasi di mana trader mengambil posisi berlawanan dengan sentimen mayoritas pasar. Dalam konteks ini, Santiment membaca outflow ETF yang masif sebagai indikasi bahwa kepanikan ritel justru menciptakan peluang akumulasi bagi investor yang sabar.;;Berapa total outflow ETF Bitcoin dalam 5 hari terakhir?;;Total arus keluar bersih dari 11 ETF Bitcoin spot mencapai $1,26 miliar dalam 5 hari perdagangan terakhir, menurut data dari Farside Investors.;;Di level berapa harga Bitcoin saat ini?;;Bitcoin diperdagangkan di sekitar $75.410 pada saat artikel ditulis, setelah gagal bertahan di atas $80.000 pada pertengahan Mei. Level 24 jam terendah berada di $74.255 berdasarkan data CoinMarketCap.;;Apa kata analis ETF soal prospek inflow ke depan?;;Analis ETF James Seyffart memperkirakan tren outflow akan berbalik dalam waktu dekat. Total inflow bersih sejak peluncuran ETF Bitcoin spot kini mendekati $60 miliar, hampir mencapai all-time high sebelumnya.
 ---
 
-> **TL;DR:** Arus keluar bersih dari 11 ETF Bitcoin spot mencapai $1,26 miliar hanya dalam 5 hari perdagangan. Platform analitik Santiment membaca ini sebagai sinyal beli kontrarian, dengan alasan outflow ETF secara historis berkorelasi dengan kondisi yang menguntungkan untuk akumulasi. BTC kini turun ke $75.410, level terendah di bulan Mei.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Arus keluar bersih dari 11 ETF Bitcoin spot mencapai $1,26 miliar hanya dalam 5 hari perdagangan. Platform analitik Santiment membaca ini sebagai sinyal beli kontrarian, dengan alasan outflow ETF secara historis berkorelasi dengan kondisi yang menguntungkan untuk akumulasi. BTC kini turun ke $75.410, level terendah di bulan Mei.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -10,7 +10,9 @@ faq: >
   Apa yang diumumkan Trump tentang Iran?;;Trump mengumumkan di Truth Social bahwa kesepakatan damai dengan Iran sudah "largely negotiated" dan menunggu finalisasi. Salah satu poin utamanya adalah pembukaan kembali Selat Hormuz.;;Berapa harga Bitcoin setelah pengumuman ini?;;BTC langsung rebound dari sekitar $74.000 ke $77.288 dalam waktu singkat. Volume likuidasi short BTC mencapai $180 juta.;;Apa dampak ke harga minyak?;;Minyak mentah turun sekitar 6% karena premi risiko geopolitik dari potensi gangguan Selat Hormuz mulai menguap.;;Apa tanggapan Iran?;;Iran membantah klaim Trump, menyebutnya "jauh dari kebenaran" dan menegaskan Selat Hormuz tetap di bawah kendali eksklusif mereka.
 ---
 
-> **TL;DR:** Trump umumkan kesepakatan damai Iran yang "largely negotiated" lewat Truth Social. Strait of Hormuz akan dibuka kembali. Bitcoin langsung rebound dari $74.000 ke $77.288, minyak mentah ambles 6%, dan lebih dari $180 juta short BTC terliquidasi dalam waktu singkat.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Trump umumkan kesepakatan damai Iran yang "largely negotiated" lewat Truth Social. Strait of Hormuz akan dibuka kembali. Bitcoin langsung rebound dari $74.000 ke $77.288, minyak mentah ambles 6%, dan lebih dari $180 juta short BTC terliquidasi dalam waktu singkat.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

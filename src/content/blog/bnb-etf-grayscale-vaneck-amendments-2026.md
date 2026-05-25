@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa itu BNB ETF?;;BNB ETF adalah produk investasi yang melacak harga BNB, token asli dari BNB Chain, dan diperdagangkan di bursa saham tradisional seperti Nasdaq. Ini memungkinkan investor mendapatkan eksposur ke BNB tanpa harus membeli dan menyimpan token secara langsung.;;Siapa yang mengajukan BNB ETF ke SEC?;;Grayscale Investments dan VanEck sama-sama mengajukan berkas S-1 untuk spot BNB ETF ke SEC Amerika Serikat. Grayscale mengajukan amandemen kedua pada 15 Mei 2026, sementara VanEck juga mengajukan filing terpisah di bulan yang sama.;;Apakah BNB ETF sudah disetujui SEC?;;Belum. Kedua pengajuan masih dalam tahap review SEC. Grayscale dan VanEck perlu mendapat persetujuan S-1 dan perubahan aturan 19b-4 dari Nasdaq sebelum produk bisa mulai diperdagangkan. Proses ini bisa memakan waktu beberapa bulan lagi."
 ---
 
-> **TL;DR:** Grayscale dan VanEck sama-sama mengajukan revisi berkas spot BNB ETF ke SEC pekan ini, menandai perlombaan sengit untuk menjadi penerbit altcoin ETF pertama setelah Bitcoin dan Ethereum.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Grayscale dan VanEck sama-sama mengajukan revisi berkas spot BNB ETF ke SEC pekan ini, menandai perlombaan sengit untuk menjadi penerbit altcoin ETF pertama setelah Bitcoin dan Ethereum.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
@@ -19,7 +21,7 @@ faq: "Apa itu BNB ETF?;;BNB ETF adalah produk investasi yang melacak harga BNB, 
 
 Persaingan untuk meluncurkan spot altcoin ETF pertama di Amerika Serikat semakin memanas. [Grayscale Investments](https://www.cryptotimes.io/2026/05/16/grayscale-advances-spot-bnb-etf-bid-with-updated-sec-filing/) mengajukan Amandemen No. 2 untuk berkas S-1 produk Grayscale BNB ETF pada 15 Mei 2026, sementara [VanEck](https://www.theblock.co/post/401553/vaneck-grayscale-file-fresh-bnb-etf-amendments-as-race-for-next-altcoin-spot-etf-accelerates) juga mengajukan filing kompetitif di hari yang sama.
 
-Kedua pengajuan ini merupakan respons terhadap umpan balik tertulis dari staf SEC, yang menunjukkan bahwa proses review berjalan aktif dan produktif. Grayscale berencana mendaftarkan produknya di bawah ticker GBNB di Nasdaq.
+Pengajuan terbaru ini merupakan respons terhadap umpan balik tertulis dari staf SEC, yang menunjukkan bahwa proses review berjalan aktif dan produktif. Grayscale berencana mendaftarkan produknya di bawah ticker GBNB di Nasdaq.
 
 ### Detail Struktur dan Kustodian
 
@@ -35,7 +37,7 @@ Perlombaan BNB ETF bukan fenomena terisolasi. Dalam beberapa bulan terakhir, sej
 - **VanEck** mengajukan Amandemen No. 3 untuk VanEck Avalanche ETF pada Desember 2025
 - **Canary Capital** terus mendorong staked TRX ETF pertama
 
-Pola ini menunjukkan bahwa setelah kesuksesan spot Bitcoin dan Ethereum ETF yang disetujui pada 2024, institusi besar berlomba untuk memperluas produk investasi crypto yang teregulasi ke altcoin berkapitalisasi besar.
+Setelah kesuksesan spot Bitcoin dan Ethereum ETF pada 2024, institusi besar kini berlomba memperluas produk investasi crypto teregulasi ke altcoin berkapitalisasi besar.
 
 ## Harga BNB dan Dampak Potensial
 

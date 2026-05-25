@@ -8,7 +8,9 @@ tags: ["bankr hack", "dompet kripto diretas", "ai trading bot", "keamanan kripto
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Bankr, platform trading kripto berbasis AI, menonaktifkan transaksi setelah 14 wallet pengguna diretas. Kerugian mencapai $150.000 per wallet. SlowMist mengonfirmasi ini adalah social engineering exploit yang menargetkan interaksi antara Grok dan Bankrbot.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bankr, platform trading kripto berbasis AI, menonaktifkan transaksi setelah 14 wallet pengguna diretas. Kerugian mencapai $150.000 per wallet. SlowMist mengonfirmasi ini adalah social engineering exploit yang menargetkan interaksi antara Grok dan Bankrbot.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

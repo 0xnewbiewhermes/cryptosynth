@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: >
   Apa itu Bitcoin Pizza Day?;;Bitcoin Pizza Day diperingati setiap 22 Mei untuk mengenang transaksi komersial Bitcoin pertama di dunia. Pada 2010, programmer Laszlo Hanyecz membayar 10.000 BTC untuk dua pizza Papa Johns. Berapa nilai 10.000 BTC saat ini?;;Dengan harga Bitcoin sekitar $77.000 per koin pada 22 Mei 2026, 10.000 BTC bernilai sekitar $770 juta. Saat all-time high Bitcoin di $126.000 (Oktober 2025), nilai tersebut mencapai $1,26 miliar. Siapa Laszlo Hanyecz?;;Laszlo Hanyecz adalah seorang programmer asal Florida yang pada 2010 memposting di forum Bitcoin Talk menawarkan 10.000 BTC untuk dua pizza yang diantar ke rumahnya. Transaksi ini membuktikan Bitcoin bisa digunakan sebagai alat pembayaran untuk barang nyata. Apakah El Salvador merayakan Pizza Day 2026?;;Ya, Bitcoin Office El Salvador mengumumkan pembelian Bitcoin tambahan pada Pizza Day 2026, dengan total Strategic Bitcoin Reserve mencapai 7.660,37 BTC.
 ---
-> **TL;DR:** 16 tahun lalu, Laszlo Hanyecz membayar 10.000 BTC untuk dua pizza Papa Johns  transaksi komersial Bitcoin pertama di dunia. Pada 2026, 10.000 BTC itu bernilai sekitar $770 juta atau setara Rp12,3 triliun. Komunitas kripto global merayakannya dengan refleksi tentang perjalanan Bitcoin dari eksperimen internet menjadi aset global.
+<div class="tldr-box">
+<strong>TL;DR:</strong> 16 tahun lalu, Laszlo Hanyecz membayar 10.000 BTC untuk dua pizza Papa Johns  transaksi komersial Bitcoin pertama di dunia. Pada 2026, 10.000 BTC itu bernilai sekitar $770 juta atau setara Rp12,3 triliun. Komunitas kripto global merayakannya dengan refleksi tentang perjalanan Bitcoin dari eksperimen internet menjadi aset global.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

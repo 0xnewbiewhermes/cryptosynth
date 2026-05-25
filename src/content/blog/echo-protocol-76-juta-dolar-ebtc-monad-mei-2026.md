@@ -10,7 +10,9 @@ faq: >
   Apa yang terjadi dengan Echo Protocol?;;Echo Protocol, protokol BTCFi di blockchain Monad, mengalami exploit pada 19 Mei 2026. Peretas mengompromikan admin key dan mencetak sekitar 1.000 eBTC senilai $76-77 juta secara ilegal. Tim Echo berhasil mengambil alih kembali kontrol dan membakar 955 eBTC, membatasi kerugian riil ke sekitar $816 ribu.;;Apakah dana di Monad ikut terdampak?;;Tidak. Jaringan Monad sendiri tidak dikompromikan dan beroperasi normal. Exploit hanya terjadi di kontrak Echo Protocol di Monad. Deployment Echo di Aptos juga tidak terdampak karena arsitektur terisolasi.;;Apa pelajaran dari insiden ini untuk pengguna DeFi?;;Insiden ini menunjukkan pentingnya keamanan admin key, tidak ada multisig, timelock, atau mint cap pada kontrak Echo. Pengguna disarankan memilih protokol dengan mekanisme keamanan berlapis dan menghindari protokol dengan satu titik kegagalan pada admin key.
 ---
 
-> **TL;DR:** Echo Protocol, protokol BTCFi di Monad, dieksploitasi lewat kompromi admin key pada 19 Mei 2026. Peretas mencetak 1.000 eBTC ($76-77 juta) secara ilegal. Tim Echo berhasil mengambil alih kontrol dan membakar 955 eBTC, sehingga kerugian riil dibatasi ke sekitar $816 ribu.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Echo Protocol, protokol BTCFi di Monad, dieksploitasi lewat kompromi admin key pada 19 Mei 2026. Peretas mencetak 1.000 eBTC ($76-77 juta) secara ilegal. Tim Echo berhasil mengambil alih kontrol dan membakar 955 eBTC, sehingga kerugian riil dibatasi ke sekitar $816 ribu.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

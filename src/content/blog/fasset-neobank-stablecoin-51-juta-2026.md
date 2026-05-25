@@ -12,7 +12,9 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 
 
-> **TL;DR:** Fasset, neobank berbasis stablecoin yang mematuhi prinsip syariah, berhasil mengumpulkan $51 juta dalam putaran pendanaan terbaru. Dana ini akan digunakan untuk memperluas layanan perbankan digital ke pasar berkembang di Asia Tenggara dan Afrika, menargetkan populasi yang kurang terlayani oleh bank tradisional.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Fasset, neobank berbasis stablecoin yang mematuhi prinsip syariah, berhasil mengumpulkan $51 juta dalam putaran pendanaan terbaru. Dana ini akan digunakan untuk memperluas layanan perbankan digital ke pasar berkembang di Asia Tenggara dan Afrika, menargetkan populasi yang kurang terlayani oleh bank tradisional.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
@@ -49,7 +51,7 @@ Fasset adalah bagian dari tren yang lebih besar di mana neobank berbasis stablec
 - **Bridge**: API stablecoin untuk developer
 - **Squads**: Wallet stablecoin untuk tim dan organisasi
 
-Tren ini menunjukkan bahwa stablecoin bukan hanya alat trading, tapi juga fondasi untuk sistem perbankan baru yang lebih inklusif dan efisien.
+Stablecoin bukan hanya alat trading, tapi juga fondasi untuk sistem perbankan baru yang lebih inklusif dan efisien.
 
 ---
 

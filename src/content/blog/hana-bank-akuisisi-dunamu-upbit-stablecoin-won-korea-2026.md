@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa yang dilakukan Hana Bank dengan Dunamu?;;Hana Bank mengakuisisi 6,55% saham Dunamu (operator Upbit) senilai $670 juta dan menandatangani MOU untuk mengembangkan stablecoin won, remitansi blockchain berbasis Giwa Chain, sekuritisasi token, dan manajemen aset digital bersama.;;Kapan deal Hana Bank dan Dunamu selesai?;;Transaksi dijadwalkan selesai pada 15 Juni 2026 setelah disetujui dewan direksi Hana Bank pada 14 Mei 2026.;;Apa itu Giwa Chain dan bagaimana kaitannya dengan SWIFT?;;Giwa Chain adalah Layer 2 blockchain milik Dunamu yang digunakan untuk sistem remitansi lintas batas. Teknologi ini menggabungkan instruksi pembayaran dan pergerakan dana dalam satu proses real-time, berbeda dengan SWIFT yang memisahkan keduanya."
 ---
 
-> **TL;DR:** Hana Bank, salah satu bank terbesar Korea Selatan, mengakuisisi 6,55% saham Dunamu - operator bursa kripto terbesar Korea, Upbit - senilai 1 triliun won ($670 juta). Dalam kesepakatan yang mencakup nota kesepahaman (MOU), kedua perusahaan berencana mengembangkan stablecoin berbasis won, sistem remitansi blockchain pengganti SWIFT via Giwa Chain, sekuritisasi token, dan integrasi manajemen kekayaan tradisional dengan aset digital.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Hana Bank, salah satu bank terbesar Korea Selatan, mengakuisisi 6,55% saham Dunamu - operator bursa kripto terbesar Korea, Upbit - senilai 1 triliun won ($670 juta). Dalam kesepakatan yang mencakup nota kesepahaman (MOU), kedua perusahaan berencana mengembangkan stablecoin berbasis won, sistem remitansi blockchain pengganti SWIFT via Giwa Chain, sekuritisasi token, dan integrasi manajemen kekayaan tradisional dengan aset digital.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

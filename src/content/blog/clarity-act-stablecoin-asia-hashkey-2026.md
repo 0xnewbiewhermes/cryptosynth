@@ -12,7 +12,9 @@ faq: "Apa dampak regulasi crypto terhadap pasar?;;Regulasi yang lebih jelas umum
 
 
 
-> **TL;DR:** HashKey Research memprediksi CLARITY Act akan membuka jalan adopsi institusional crypto dan memperkuat posisi USD stablecoin secara global. Namun, jika AS membatasi stablecoin berbunga, modal bisa mengalir ke pasar Asia yang menawarkan yield lebih tinggi melalui produk "wrapped" dan protokol DeFi.
+<div class="tldr-box">
+<strong>TL;DR:</strong> HashKey Research memprediksi CLARITY Act akan membuka jalan adopsi institusional crypto dan memperkuat posisi USD stablecoin secara global. Namun, jika AS membatasi stablecoin berbunga, modal bisa mengalir ke pasar Asia yang menawarkan yield lebih tinggi melalui produk "wrapped" dan protokol DeFi.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi di pasar crypto. Perdagangan aset digital memiliki risiko tinggi.

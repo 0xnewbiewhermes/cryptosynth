@@ -8,7 +8,9 @@ tags: ["bitcoin ordinals", "brc-20", "penghindaran pajak", "chainalysis", "itali
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Otoritas keuangan Italia (Guardia di Finanza) berhasil membongkar skema penghindaran pajak senilai lebih dari €1 juta ($1,1 juta) yang memanfaatkan Bitcoin Ordinals dan BRC-20 tokens. Investigasi menggunakan Chainalysis Reactor mengungkap bagaimana seorang tersangka menciptakan token, menjualnya di marketplace, dan menyembunyikan keuntungan selama bertahun-tahun.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Otoritas keuangan Italia (Guardia di Finanza) berhasil membongkar skema penghindaran pajak senilai lebih dari €1 juta ($1,1 juta) yang memanfaatkan Bitcoin Ordinals dan BRC-20 tokens. Investigasi menggunakan Chainalysis Reactor mengungkap bagaimana seorang tersangka menciptakan token, menjualnya di marketplace, dan menyembunyikan keuntungan selama bertahun-tahun.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

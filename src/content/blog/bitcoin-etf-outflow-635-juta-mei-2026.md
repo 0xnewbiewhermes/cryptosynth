@@ -11,7 +11,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Investor menarik $635 juta dari 11 spot Bitcoin ETF AS pada Rabu (13/5), outflow harian terbesar sejak 29 Januari. Total $1,26 miliar keluar dalam 5 hari perdagangan terakhir. Bitcoin gagal tembus resistance 200-hari di $82.000 dan merosot ke $79.400 di tengah kekhawatiran inflasi AS yang kembali panas.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Investor menarik $635 juta dari 11 spot Bitcoin ETF AS pada Rabu (13/5), outflow harian terbesar sejak 29 Januari. Total $1,26 miliar keluar dalam 5 hari perdagangan terakhir. Bitcoin gagal tembus resistance 200-hari di $82.000 dan merosot ke $79.400 di tengah kekhawatiran inflasi AS yang kembali panas.
+</div>
 
 ## Outflow Bitcoin ETF Pecahkan Rekor Negatif Tahun Ini
 

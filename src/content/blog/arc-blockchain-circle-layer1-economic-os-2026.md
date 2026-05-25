@@ -11,7 +11,9 @@ ogImage: "/images/og/arc-blockchain-circle-layer1-economic-os-2026.png"
 faq: "Apa itu ARC Blockchain?;;ARC adalah layer-1 blockchain oleh Circle (penerbit USDC) yang dirancang sebagai Economic OS untuk stablecoin, RWA, dan AI agents. Testnet sudah aktif dengan 418M+ transaksi dan mainnet ditargetkan Summer 2026.;;Apa keunggulan ARC dibanding L1 lain?;;ARC pakai USDC sebagai gas token bukan token volatil, finalitas sub-detik, opt-in privacy, dan integrasi native USDC CCTP Gateway.;;Kapan mainnet ARC?;;Target Summer 2026. Testnet publik sudah berjalan sejak akhir 2025."
 ---
 
-> **TL;DR:** Circle bangun ARC layer-1 blockchain khusus stablecoin. USDC sebagai gas, finalitas sub-detik, biaya prediktif, integrasi CCTP Gateway. Testnet 418M transaksi, 29,8M alamat unik, 0,5 detik block. Mainnet target Summer 2026.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Circle bangun ARC layer-1 blockchain khusus stablecoin. USDC sebagai gas, finalitas sub-detik, biaya prediktif, integrasi CCTP Gateway. Testnet 418M transaksi, 29,8M alamat unik, 0,5 detik block. Mainnet target Summer 2026.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.

@@ -10,7 +10,9 @@ faq: >
   Apa itu Arc Network?;;Arc Network adalah blockchain layer-1 buatan Circle, penerbit USDC, yang dioptimalkan untuk stablecoin-native finance. Testnet publik sudah berjalan sejak Oktober 2025.;;Bagaimana cara farming points Arc Network?;;Daftar di community.arc.io, lengkapi profil, lakukan daily check-in, baca artikel, tonton video, dan selesaikan badge untuk mengumpulkan points.;;Apa itu $CLAW?;;$CLAW adalah token dari ClawCivi/MetaY.ai, proyek on-chain AI Agent interaction layer yang akan listing di PancakeSwap pada 26 Mei 2026 pukul 19:00 UTC.;;Apakah token Arc Network sudah diluncurkan?;;Belum. Token $ARC masih belum diumumkan secara resmi. Points farming di Arc Network adalah cara untuk memposisikan diri sebelum potensi TGE di masa depan.;;Berapa harga IDO $CLAW?;;Harga IDO sekitar $0.005 per token dengan unlock 20% di TGE dan sisanya linear vesting 6 bulan.
 ---
 
-> **TL;DR:** Arc Network, blockchain layer-1 milik Circle (penerbit USDC), resmi membuka program points farming di community.arc.io dengan 5 tier reward. Peserta bisa mengumpulkan points lewat daily check-in, baca artikel, dan tonton video edukasi. Sementara itu, token AI $CLAW dari ClawCivi dijadwalkan listing di PancakeSwap pada 26 Mei 2026 pukul 19:00 UTC, dengan claim untuk peserta IDO dibuka pada pukul 19:30 UTC.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Arc Network, blockchain layer-1 milik Circle (penerbit USDC), resmi membuka program points farming di community.arc.io dengan 5 tier reward. Peserta bisa mengumpulkan points lewat daily check-in, baca artikel, dan tonton video edukasi. Sementara itu, token AI $CLAW dari ClawCivi dijadwalkan listing di PancakeSwap pada 26 Mei 2026 pukul 19:00 UTC, dengan claim untuk peserta IDO dibuka pada pukul 19:30 UTC.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi. Partisipasi dalam points farming tidak menjamin mendapatkan token airdrop.

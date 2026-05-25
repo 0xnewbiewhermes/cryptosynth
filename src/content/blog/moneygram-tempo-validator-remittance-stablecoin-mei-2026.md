@@ -8,7 +8,9 @@ tags: ["moneygram", "tempo", "stablecoin", "stripe", "remittance", "blockchain",
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** MoneyGram resmi bergabung sebagai anchor remittance validator di jaringan Tempo, Layer 1 blockchain yang di-incubate Stripe dan Paradigm. Stripe juga bakal pake infrastruktur Tempo buat settle stablecoin ke MoneyGram. Ini langkah besar buat adopsi stablecoin di layanan remittance global.
+<div class="tldr-box">
+<strong>TL;DR:</strong> MoneyGram resmi bergabung sebagai anchor remittance validator di jaringan Tempo, Layer 1 blockchain yang di-incubate Stripe dan Paradigm. Stripe juga bakal pake infrastruktur Tempo buat settle stablecoin ke MoneyGram. Ini langkah besar buat adopsi stablecoin di layanan remittance global.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -12,7 +12,9 @@ faq: "Bagaimana cara melindungi aset crypto dari exploit?;;Gunakan hardware wall
 
 
 
-> **TL;DR:** CEO CertiK, perusahaan audit keamanan blockchain terkemuka, memperingatkan bahwa attacker DeFi semakin menggunakan AI untuk menemukan dan mengeksploitasi kerentanan. Sementara itu, defender masih mengandalkan metode tradisional, menciptakan kesenjangan teknologi yang mengkhawatirkan.
+<div class="tldr-box">
+<strong>TL;DR:</strong> CEO CertiK, perusahaan audit keamanan blockchain terkemuka, memperingatkan bahwa attacker DeFi semakin menggunakan AI untuk menemukan dan mengeksploitasi kerentanan. Sementara itu, defender masih mengandalkan metode tradisional, menciptakan kesenjangan teknologi yang mengkhawatirkan.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.

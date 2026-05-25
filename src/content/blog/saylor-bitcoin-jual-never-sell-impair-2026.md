@@ -9,7 +9,9 @@ faq: "Apa yang dimaksud Michael Saylor dengan never sell bisa impair Bitcoin?;;S
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Executive Chairman Strategy Michael Saylor mengatakan bahwa dogma "never sell" Bitcoin justru bisa merugikan aset perusahaan karena menghalangi akses ke likuiditas pasar BTC senilai $20-100 miliar. Strategy yang memiliki 818.869 BTC ($65 miliar) kini sedang merestrukturisasi obligasi konversi $1,5 miliar - dan penjualan Bitcoin menjadi salah satu opsinya.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Executive Chairman Strategy Michael Saylor mengatakan bahwa dogma "never sell" Bitcoin justru bisa merugikan aset perusahaan karena menghalangi akses ke likuiditas pasar BTC senilai $20-100 miliar. Strategy yang memiliki 818.869 BTC ($65 miliar) kini sedang merestrukturisasi obligasi konversi $1,5 miliar - dan penjualan Bitcoin menjadi salah satu opsinya.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

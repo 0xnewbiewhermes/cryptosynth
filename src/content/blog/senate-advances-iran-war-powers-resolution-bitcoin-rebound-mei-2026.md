@@ -10,7 +10,9 @@ faq: >
   Apa yang dilakukan Senat AS terkait perang Iran?;Senat AS melalui voting prosedural 50-47 memajukan resolusi War Powers Resolution yang bertujuan membatasi kewenangan Presiden Trump dalam melanjutkan perang tanpa persetujuan Kongres. Empat senator Republikan bergabung dengan Demokrat dalam voting ini.;Bagaimana dampak voting Senat ke harga Bitcoin?;Bitcoin langsung merespons positif dengan rebound dari ~$76.500 ke ~$77.200. ETH, XRP, dan SOL juga ikut menguat. Analis dari Bitrue Research memperkirakan potensi relief rally 6-10% jika resolusi terus bergerak maju.;Apa arti resolusi ini untuk trader kripto Indonesia?;Bagi trader Indonesia, resolusi ini bisa menjadi katalis positif jangka pendek karena menurunkan risiko geopolitik dan harga minyak yang berdampak langsung ke nilai tukar rupiah dan daya beli investor lokal.
 ---
 
-> **TL;DR:** Senat AS memproses War Powers Resolution yang membatasi kewenangan Presiden Trump dalam perang Iran lewat voting prosedural 50-47. Bitcoin langsung rebound dari $76.500 ke $77.200, sementara ETH, XRP, dan SOL ikut menguat. Analis melihat potensi relief rally 6-10% dalam beberapa hari.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Senat AS memproses War Powers Resolution yang membatasi kewenangan Presiden Trump dalam perang Iran lewat voting prosedural 50-47. Bitcoin langsung rebound dari $76.500 ke $77.200, sementara ETH, XRP, dan SOL ikut menguat. Analis melihat potensi relief rally 6-10% dalam beberapa hari.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

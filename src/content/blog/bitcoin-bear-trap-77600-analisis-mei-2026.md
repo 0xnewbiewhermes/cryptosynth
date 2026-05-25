@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa itu bear trap dalam trading crypto?;;Bear trap adalah situasi di mana harga turun tajam dan trader berbondong-bondong membuka posisi short, tapi harga justru berbalik naik dan memaksa mereka menutup posisi dengan rugi.;;Mengapa Bitcoin turun ke $77.600?;;Penurunan BTC dipicu oleh kombinasi tekanan geopolitik (ketegangan AS-Iran, harga minyak di atas $100), ETF Bitcoin yang kehilangan $1 miliar dalam seminggu, dan rotasi modal ke saham AI.;;Apakah ini saat yang tepat untuk beli Bitcoin?;;Keputusan investasi tergantung profil risiko masing-masing. Trader melihat potensi bear trap, tapi support kuat ada di $75.000 dan $71.000. Selalu lakukan riset sendiri dan jangan investasi lebih dari yang sanggup Anda rugikan."
 ---
 
-> **TL;DR:** Bitcoin jatuh ke $77.600, level terendah sejak awal Mei, tapi trader melihat pola bear trap terbentuk saat funding rate flip negatif dan open interest terus naik. ETF Bitcoin juga kehilangan $1 miliar dalam seminggu.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bitcoin jatuh ke $77.600, level terendah sejak awal Mei, tapi trader melihat pola bear trap terbentuk saat funding rate flip negatif dan open interest terus naik. ETF Bitcoin juga kehilangan $1 miliar dalam seminggu.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

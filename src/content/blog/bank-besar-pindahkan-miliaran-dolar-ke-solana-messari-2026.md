@@ -10,7 +10,9 @@ faq: >
   Apa isi laporan Messari tentang Solana?;;Laporan terbaru Messari mengungkap bahwa bank-bank Wall Street dan raksasa pembayaran seperti Visa, Stripe, dan PayPal telah memindahkan miliaran dolar ke Solana untuk dana tokenisasi dan pembayaran global. Market cap RWA Solana naik 43% QoQ menjadi $2,01 miliar di Q1 2026.;;Apa itu RWA (Real-World Assets) di Solana?;;RWA adalah aset dunia nyata yang ditokenisasi di blockchain seperti saham, obligasi, dan dana pasar uang. Di Solana, BlackRock BUIDL tumbuh jadi $525,4 juta dan Ondo Finance meluncurkan 200+ saham dan ETF tokenisasi.;;Apa dampak Alpenglow upgrade untuk Solana?;;Alpenglow upgrade akan mengurangi waktu finalitas transaksi dari 12,8 detik menjadi sekitar 150 milidetik, memperkuat posisi Solana di pembayaran, keuangan tokenisasi, dan aplikasi AI.
 ---
 
-> **TL;DR:** Laporan Messari mengungkap bank-bank Wall Street dan raksasa pembayaran seperti Visa, Stripe, dan PayPal telah memindahkan miliaran dolar ke Solana untuk dana tokenisasi dan pembayaran global. Market cap RWA Solana naik 43% jadi $2,01 miliar di Q1 2026, menandai transformasi Solana dari hub spekulasi memecoin menjadi infrastruktur keuangan institusional.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Laporan Messari mengungkap bank-bank Wall Street dan raksasa pembayaran seperti Visa, Stripe, dan PayPal telah memindahkan miliaran dolar ke Solana untuk dana tokenisasi dan pembayaran global. Market cap RWA Solana naik 43% jadi $2,01 miliar di Q1 2026, menandai transformasi Solana dari hub spekulasi memecoin menjadi infrastruktur keuangan institusional.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

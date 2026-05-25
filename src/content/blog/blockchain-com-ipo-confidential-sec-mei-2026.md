@@ -10,7 +10,9 @@ faq: >
   Apa itu IPO rahasia (confidential filing)?;;Confidential filing memungkinkan perusahaan memulai proses review SEC tanpa harus mengungkapkan data keuangan ke publik sebelum waktunya. Ini memberi fleksibilitas bagi perusahaan untuk menarik diri jika kondisi pasar tidak mendukung.;;Kapan Blockchain.com akan resmi listing?;;Belum ada tanggal pasti. Jumlah saham dan kisaran harga juga belum ditentukan. IPO masih tergantung kondisi pasar dan penyelesaian review SEC.;;Apa bedanya Blockchain.com dengan exchange lain?;;Blockchain.com adalah salah satu bursa kripto tertua (sejak 2011) yang menyediakan exchange, dompet kripto, trading institusional, dan produk lending dalam satu platform.
 ---
 
-> **TL;DR:** Blockchain.com, platform finansial kripto terkemuka, secara rahasia mengajukan draft S-1 ke SEC untuk IPO di AS. Filing ini dilakukan di tengah meredupnya momentum IPO kripto setelah performa BitGo yang mengecewakan dan beberapa perusahaan besar seperti Kraken serta Consensys menunda rencana go public mereka.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Blockchain.com, platform finansial kripto terkemuka, secara rahasia mengajukan draft S-1 ke SEC untuk IPO di AS. Filing ini dilakukan di tengah meredupnya momentum IPO kripto setelah performa BitGo yang mengecewakan dan beberapa perusahaan besar seperti Kraken serta Consensys menunda rencana go public mereka.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -11,7 +11,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Presiden China Xi Jinping memperingatkan Donald Trump tentang potensi "tabrakan atau bentrokan" soal Taiwan selama pertemuan di Beijing, kunjungan presiden AS pertama ke China dalam hampir satu dekade. Bitcoin merosot ke $79.200, Solana anjlok 5,6%, dan hanya Dogecoin yang bertahan di zona hijau.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Presiden China Xi Jinping memperingatkan Donald Trump tentang potensi "tabrakan atau bentrokan" soal Taiwan selama pertemuan di Beijing, kunjungan presiden AS pertama ke China dalam hampir satu dekade. Bitcoin merosot ke $79.200, Solana anjlok 5,6%, dan hanya Dogecoin yang bertahan di zona hijau.
+</div>
 
 ## Pertemuan Trump-Xi di Beijing Guncang Pasar Crypto
 

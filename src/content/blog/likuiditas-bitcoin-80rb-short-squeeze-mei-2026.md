@@ -10,7 +10,9 @@ faq: >
   Berapa besar short squeeze potensial Bitcoin di atas $80.000?;Lebih dari $4 miliar posisi short terakumulasi di atas level $80.000 menurut data CoinGlass. Jika BTC berhasil menembus level tersebut, gelombang likuidasi paksa short bisa mendorong harga lebih tinggi dalam efek domino.;Apa yang terjadi dengan funding rate Bitcoin saat ini?;Funding rate perpetual Bitcoin kembali netral di 7% setelah sempat berada di -13% pada 14 Mei. Angka ini menandakan tekanan jual leverage berkurang drastis.;Apa faktor makro yang masih membebani Bitcoin?;Tiga faktor utama: (1) guidance lemah Walmart yang menandakan tekanan konsumen AS, (2) kenaikan harga minyak di atas $95 akibat ketegangan Iran, (3) ekspektasi kenaikan suku bunga The Fed naik dari 0% ke 37% dalam sebulan.
 ---
 
-> **TL;DR:** Data liquidation map CoinGlass menunjukkan lebih dari $4 miliar posisi short Bitcoin terakumulasi di atas $80.000. Jika BTC menembus level tersebut, short squeeze besar-besaran bisa terjadi. Sentimen trader profesional mulai membaik setelah funding rate kembali netral, namun arus ETF spot masih negatif dan faktor makro (Walmart, Iran, suku bunga) masih membebani.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Data liquidation map CoinGlass menunjukkan lebih dari $4 miliar posisi short Bitcoin terakumulasi di atas $80.000. Jika BTC menembus level tersebut, short squeeze besar-besaran bisa terjadi. Sentimen trader profesional mulai membaik setelah funding rate kembali netral, namun arus ETF spot masih negatif dan faktor makro (Walmart, Iran, suku bunga) masih membebani.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -10,7 +10,9 @@ faq: >
   Apa itu long-term holder Bitcoin?;Long-term holder (LTH) adalah investor yang memegang Bitcoin minimal 155 hari (definisi CoinDesk) atau lebih dari 1 tahun (definisi CryptoQuant). Mereka dianggap sebagai "smart money" karena cenderung membeli di harga rendah dan menjual di puncak pasar.;Berapa besar pasokan Bitcoin yang dipegang LTH saat ini?;Menurut data on-chain, pasokan LTH mencapai 16,3 juta BTC (definisi 155+ hari) atau 15,04 juta BTC (definisi 1+ tahun). Angka ini setara dengan 71,6% dari total sirkulasi Bitcoin.;Apa arti RSI mingguan Bitcoin retest level 50?;RSI mingguan yang menyentuh level 50 setelah oversold adalah sinyal teknis yang secara historis mendahului fase ekspansi harga. Dalam 4 kejadian sebelumnya, hanya satu yang diikuti harga baru terendah (saat FTX collapse 2022).;Apa risiko yang masih membayangi meski LTH accumulating?;Data miner masih menunjukkan kehati-hatian dengan Puell Multiple di bawah 1 dan cadangan Binance Pool yang menurun. Tekanan jual dari miner masih berlangsung meski tidak dalam level panik.
 ---
 
-> **TL;DR:** Pasokan Bitcoin yang dipegang long-term holder menembus 15,04 juta BTC atau 71,6% dari total sirkulasi. Angka ini adalah yang tertinggi sejak Oktober 2025. Analis melihat peluang Bitcoin cetak harga terendah baru sangat tipis setelah indikator RSI mingguan berhasil retest level 50. Data miner masih menunjukkan kehati-hatian, menandakan pasar belum sepenuhnya bullish.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Pasokan Bitcoin yang dipegang long-term holder menembus 15,04 juta BTC atau 71,6% dari total sirkulasi. Angka ini adalah yang tertinggi sejak Oktober 2025. Analis melihat peluang Bitcoin cetak harga terendah baru sangat tipis setelah indikator RSI mingguan berhasil retest level 50. Data miner masih menunjukkan kehati-hatian, menandakan pasar belum sepenuhnya bullish.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

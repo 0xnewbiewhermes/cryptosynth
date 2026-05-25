@@ -10,7 +10,9 @@ faq: >
   Apa yang terjadi dengan Polymarket dan Kalshi?;;House Oversight Committee pimpinan James Comer meluncurkan penyelidikan ke Polymarket dan Kalshi atas dugaan insider trading oleh pegawai pemerintah. Surat permintaan dokumen telah dikirim ke CEO kedua platform pada 22 Mei 2026.;;Apa yang diminta Kongres dari Polymarket dan Kalshi?;;Comer meminta data verifikasi identitas pengguna (KYC), penegakan batasan geografis, dan deteksi aktivitas trading yang mencurigakan. Respon diminta sebelum 5 Juni 2026.;;Apa hubungannya dengan Indonesia?;;Polymarket dapat diakses dari Indonesia dan digunakan oleh trader lokal untuk bertaruh pada hasil pemilu dan peristiwa global. Regulasi serupa juga terjadi di India di mana Polymarket diblokir penuh.
 ---
 
-> **TL;DR:** House Oversight Committee pimpinan James Comer menyelidiki Polymarket dan Kalshi atas dugaan insider trading oleh pegawai pemerintah yang memanfaatkan informasi rahasia. Surat permintaan dokumen dikirim ke CEO kedua platform. Ditemukan 80 akun dengan win rate 98% yang disebut "mustahil secara statistik."
+<div class="tldr-box">
+<strong>TL;DR:</strong> House Oversight Committee pimpinan James Comer menyelidiki Polymarket dan Kalshi atas dugaan insider trading oleh pegawai pemerintah yang memanfaatkan informasi rahasia. Surat permintaan dokumen dikirim ke CEO kedua platform. Ditemukan 80 akun dengan win rate 98% yang disebut "mustahil secara statistik."
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

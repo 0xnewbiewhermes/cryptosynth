@@ -12,7 +12,9 @@ faq: >
   Berapa BTC yang ditransfer Trump Media?;;2.650 BTC senilai sekitar $205 juta ke Crypto.com;;Berapa kerugian Trump Media dari bitcoin?;;Estimasi kerugian mencapai $455 juta dari total 11.542 BTC yang dibeli di harga rata-rata $118.522;;Apa yang dilakukan Trump Media dengan bitcoin mereka?;;Belum ada konfirmasi resmi, tapi transfer ke exchange sering dikaitkan dengan potensi penjualan atau manajemen treasury;;Kenapa ini penting buat pasar crypto?;;Ini menunjukkan risiko strategi bitcoin treasury perusahaan publik saat harga BTC turun jauh dari entry price
 ---
 
-> **TL;DR:** Trump Media & Technology Group (DJT) transfer 2.650 BTC senilai $205 juta ke Crypto.com. Ini adalah pergerakan bitcoin kedua setelah sebelumnya 2.000 BTC dipindahkan empat bulan lalu. Dengan harga beli rata-rata $118.522 per BTC, perusahaan sekarang duduk di atas kerugian $455 juta dari total kepemilikan 11.542 BTC.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Trump Media & Technology Group (DJT) transfer 2.650 BTC senilai $205 juta ke Crypto.com. Ini adalah pergerakan bitcoin kedua setelah sebelumnya 2.000 BTC dipindahkan empat bulan lalu. Dengan harga beli rata-rata $118.522 per BTC, perusahaan sekarang duduk di atas kerugian $455 juta dari total kepemilikan 11.542 BTC.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung fluktuasi harga yang tinggi.

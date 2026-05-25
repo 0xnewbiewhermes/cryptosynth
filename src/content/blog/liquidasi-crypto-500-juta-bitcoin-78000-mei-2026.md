@@ -12,7 +12,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Lebih dari $581 juta posisi crypto terliquidasi dalam 24 jam, dengan 95% di antaranya adalah posisi long. Bitcoin anjlok 3% ke $78.000, sementara SOL dan XRP masing-masing turun 5% dan 4,3%.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Lebih dari $581 juta posisi crypto terliquidasi dalam 24 jam, dengan 95% di antaranya adalah posisi long. Bitcoin anjlok 3% ke $78.000, sementara SOL dan XRP masing-masing turun 5% dan 4,3%.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

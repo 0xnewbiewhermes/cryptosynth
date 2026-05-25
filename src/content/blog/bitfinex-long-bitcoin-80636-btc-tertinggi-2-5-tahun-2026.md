@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: >
   Berapa jumlah margin long Bitfinex saat ini?;;80.636 BTC, level tertinggi sejak Desember 2023.;;Apa itu sinyal contrarian Bitfinex whale?;;Bitfinex whale secara historis justru menambah posisi long saat harga lemah dan mengurangi posisi dekat puncak pasar lokal, menjadikannya indikator kontrarian.;;Apa level resistance kunci bitcoin saat ini?;;True Market Mean dan short-term holder realized price di $78.000 menjadi resistance pertama, lalu 200-day moving average di $81.000.;;Kenapa ini penting buat trader Indonesia?;;Trader Indonesia di bursa global seperti Bitfinex bisa menggunakan data posisi whale ini sebagai alarm risiko, ketika posisi long terlalu ramai, risiko long squeeze meningkat.
 ---
-> **TL;DR:** Margin long Bitfinex naik ke 80.636 BTC, level tertinggi 2,5 tahun sejak Desember 2023. Bitcoin alami 5 hari koreksi berturut-turut dari $80.000 ke $76.000 dan sekarang uji resistance kunci di $78.000. Sinyal contrarian dari "Bitfinex whale" ini penting buat trader Indonesia, posisi long yang ramai bisa berarti bottom atau malah risiko long squeeze.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Margin long Bitfinex naik ke 80.636 BTC, level tertinggi 2,5 tahun sejak Desember 2023. Bitcoin alami 5 hari koreksi berturut-turut dari $80.000 ke $76.000 dan sekarang uji resistance kunci di $78.000. Sinyal contrarian dari "Bitfinex whale" ini penting buat trader Indonesia, posisi long yang ramai bisa berarti bottom atau malah risiko long squeeze.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

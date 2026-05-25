@@ -8,7 +8,9 @@ tags: ["Korea Selatan", "leveraged ETF", "Ether", "kerugian kripto", "regulasi k
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Perusahaan pemakaman asal Seoul, Bumo Sarang, mencatat kerugian unrealized 49,3 miliar won ($33 juta) dari investasi $40 juta dana pelanggan ke leveraged ETF kripto BMNU. Produk ini memberikan eksposur 2x harian ke Bitmine (BMNR), perusahaan treasury Ethereum. Celah regulasi jadi sorotan karena industri pemakaman diawasi Komisi Perdagangan, bukan otoritas keuangan.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Perusahaan pemakaman asal Seoul, Bumo Sarang, mencatat kerugian unrealized 49,3 miliar won ($33 juta) dari investasi $40 juta dana pelanggan ke leveraged ETF kripto BMNU. Produk ini memberikan eksposur 2x harian ke Bitmine (BMNR), perusahaan treasury Ethereum. Celah regulasi jadi sorotan karena industri pemakaman diawasi Komisi Perdagangan, bukan otoritas keuangan.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto memiliki fluktuasi harga yang tinggi.

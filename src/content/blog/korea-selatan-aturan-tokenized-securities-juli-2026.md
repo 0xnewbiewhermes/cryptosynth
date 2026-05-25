@@ -12,7 +12,9 @@ faq: "Apa yang perlu diketahui tentang Korea Selatan Atur Tokenized Securities J
 
 
 
-> **TL;DR:** Financial Services Commission (FSC) Korea Selatan akan merilis aturan tokenized securities pada Juli 2026, mempersiapkan kerangka hukum yang berlaku penuh Februari 2027. Di hari yang sama, Hana Bank mengakuisisi 6,55% saham Dunamu (operator Upbit) senilai $670 juta.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Financial Services Commission (FSC) Korea Selatan akan merilis aturan tokenized securities pada Juli 2026, mempersiapkan kerangka hukum yang berlaku penuh Februari 2027. Di hari yang sama, Hana Bank mengakuisisi 6,55% saham Dunamu (operator Upbit) senilai $670 juta.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

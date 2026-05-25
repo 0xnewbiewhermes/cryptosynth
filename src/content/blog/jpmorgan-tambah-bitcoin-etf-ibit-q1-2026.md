@@ -11,7 +11,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** JPMorgan Chase meningkatkan kepemilikan saham di BlackRock iShares Bitcoin Trust (IBIT) sebesar 174% pada Q1 2026, dari sekitar 3 juta menjadi 8,3 juta saham, meskipun harga Bitcoin turun lebih dari 22% di periode yang sama.
+<div class="tldr-box">
+<strong>TL;DR:</strong> JPMorgan Chase meningkatkan kepemilikan saham di BlackRock iShares Bitcoin Trust (IBIT) sebesar 174% pada Q1 2026, dari sekitar 3 juta menjadi 8,3 juta saham, meskipun harga Bitcoin turun lebih dari 22% di periode yang sama.
+</div>
 
 ---
 

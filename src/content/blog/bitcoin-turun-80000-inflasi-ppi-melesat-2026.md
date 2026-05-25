@@ -11,7 +11,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Data Producer Price Index (PPI) April 2026 AS naik 1,4% secara bulanan, hampir tiga kali lipat dari ekspektasi 0,5%, dan mendorong Bitcoin turun di bawah $80.000. Inflasi tahunan produsen mencapai 6%, sementara CPI kemarin tercatat 3,8% YoY, tertinggi dalam hampir tiga tahun.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Data Producer Price Index (PPI) April 2026 AS naik 1,4% secara bulanan, hampir tiga kali lipat dari ekspektasi 0,5%, dan mendorong Bitcoin turun di bawah $80.000. Inflasi tahunan produsen mencapai 6%, sementara CPI kemarin tercatat 3,8% YoY, tertinggi dalam hampir tiga tahun.
+</div>
 
 ## Data Inflasi PPI April 2026 Pecahkan Ekspektasi
 

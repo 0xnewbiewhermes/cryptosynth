@@ -10,7 +10,9 @@ faq: >
   Kenapa Bitcoin turun ke $74.300?;Bitcoin turun ke $74.305 akibat kombinasi outflow ETF spot yang masif ($2,26 miliar dalam dua pekan), kenaikan imbal hasil Treasury AS yang mengurangi minat ke aset berisiko, serta ketegangan geopolitik di Selat Hormuz yang mendorong modal bergeser ke komoditas. Berapa total outflow ETF Bitcoin dalam dua pekan terakhir?;Total outflow dari ETF spot Bitcoin AS mencapai $2,26 miliar dalam dua pekan, terdiri dari $1 miliar pada pekan sebelumnya dan $1,26 miliar pada pekan ini yang merupakan outflow mingguan terbesar sejak Januari 2026. Apakah ini sinyal bearish jangka panjang untuk Bitcoin?;Belum tentu. Data dari Santiment menunjukkan outflow besar kerap menjadi sinyal contrarian buy karena menandakan kepanikan ritel yang berlebihan. Faktor eksternal seperti konflik Iran dan imbal hasil Treasury bersifat sementara dan bisa mereda seiring waktu.
 ---
 
-> **TL;DR:** Bitcoin anjlok ke $74.305, level terendah sejak 20 April 2026. ETF spot Bitcoin mencatat outflow $2,26 miliar dalam dua pekan, dengan $1,26 miliar keluar minggu ini saja. Tekanan datang dari kenaikan imbal hasil Treasury AS, konflik Iran yang mendorong modal ke komoditas, dan spekulasi SpaceX IPO.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bitcoin anjlok ke $74.305, level terendah sejak 20 April 2026. ETF spot Bitcoin mencatat outflow $2,26 miliar dalam dua pekan, dengan $1,26 miliar keluar minggu ini saja. Tekanan datang dari kenaikan imbal hasil Treasury AS, konflik Iran yang mendorong modal ke komoditas, dan spekulasi SpaceX IPO.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

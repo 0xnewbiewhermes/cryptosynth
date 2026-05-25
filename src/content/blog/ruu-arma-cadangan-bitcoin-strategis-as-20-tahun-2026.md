@@ -10,7 +10,9 @@ faq: >
   Apa itu ARMA Act?;;American Reserve Modernization Act (ARMA) adalah RUU yang mewajibkan Departemen Keuangan AS untuk membuat dan menjaga cadangan Bitcoin strategis minimal 20 tahun. RUU ini memperkuat Perintah Eksekutif Trump dari Mei 2025 dan didukung 17 anggota DPR dari bipartisan.;;Apa bedanya ARMA dengan Perintah Eksekutif Trump?;;Perintah Eksekutif hanya menginstruksikan retensi Bitcoin hasil sitaan. ARMA memberikan dasar hukum permanen yang tidak bisa diubah oleh presiden berikutnya, plus mekanisme akumulasi aktif dan laporan proof-of-reserve.;;Kenapa ini penting untuk Indonesia?;;Jika AS mengkodifikasi Bitcoin sebagai aset cadangan, ini menciptakan preseden global yang mendorong adopsi institusional. Untuk Indonesia, ini bisa mempercepat regulasi crypto yang lebih jelas dan membuka peluang bagi investor ritel.;;Berapa Bitcoin yang sudah dimiliki pemerintah AS?;;Departemen Kehakiman AS diperkirakan memegang sekitar 328.372 BTC hasil sitaan kriminal dan perdata, yang akan dikonsolidasikan di bawah ARMA.
 ---
 
-> **TL;DR:** Anggota DPR AS Nick Begich (R-AK) bersama Jared Golden (D-ME) dari Demokrat resmi memperkenalkan American Reserve Modernization Act (ARMA) pada 21 Mei 2026. RUU ini mewajibkan Departemen Keuangan AS untuk menyimpan cadangan Bitcoin strategis minimal 20 tahun, mengkodifikasi Perintah Eksekutif Trump, dan mengonsolidasikan aset digital pemerintah. Didukung 17 co-sponsor bipartisan.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Anggota DPR AS Nick Begich (R-AK) bersama Jared Golden (D-ME) dari Demokrat resmi memperkenalkan American Reserve Modernization Act (ARMA) pada 21 Mei 2026. RUU ini mewajibkan Departemen Keuangan AS untuk menyimpan cadangan Bitcoin strategis minimal 20 tahun, mengkodifikasi Perintah Eksekutif Trump, dan mengonsolidasikan aset digital pemerintah. Didukung 17 co-sponsor bipartisan.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

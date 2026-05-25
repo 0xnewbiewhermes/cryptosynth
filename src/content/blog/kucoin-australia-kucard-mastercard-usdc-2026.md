@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa itu KuCard KuCoin?;;KuCard adalah kartu debit virtual yang memungkinkan pengguna Australia membayar dengan USDC di merchant Mastercard melalui konversi otomatis ke fiat.;;Bagaimana cara kerja KuCard dengan Apple Pay/Google Pay?;;Kartu ini kompatibel dengan mobile wallet populer, memungkinkan pembayaran contactless dari saldo crypto tanpa konversi manual sebelumnya.;;Apa implikasi bagi pasar Indonesia?;;Menunjukkan potensi produk compliant yang meningkatkan utilitas crypto untuk pembayaran sehari-hari di tengah penguatan regulasi."
 ---
 
-> **TL;DR:** KuCoin Australia meluncurkan KuCard, kartu debit crypto berbasis USDC yang terintegrasi dengan Mastercard. Bagian dari strategi Evolution yang menekankan compliance AUSTRAC dan adopsi massal, di tengah fakta bahwa 22% warga Australia memegang aset digital.
+<div class="tldr-box">
+<strong>TL;DR:</strong> KuCoin Australia meluncurkan KuCard, kartu debit crypto berbasis USDC yang terintegrasi dengan Mastercard. Bagian dari strategi Evolution yang menekankan compliance AUSTRAC dan adopsi massal, di tengah fakta bahwa 22% warga Australia memegang aset digital.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

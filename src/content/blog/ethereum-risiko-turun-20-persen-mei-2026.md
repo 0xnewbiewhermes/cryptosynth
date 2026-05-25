@@ -12,7 +12,9 @@ faq: "Apa perbedaan Ethereum dan Bitcoin?;;Bitcoin dirancang sebagai store of va
 
 
 
-> **TL;DR:** Ethereum (ETH) menghadapi risiko penurunan 20% ke level $1.700 setelah cadangan di bursa melonjak signifikan dan spot ETH ETF mencatatkan outflow $190 juta selama 4 hari berturut-turut. Pola rising wedge pada chart harian menargetkan $1.725 sebagai level berikutnya.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Ethereum (ETH) menghadapi risiko penurunan 20% ke level $1.700 setelah cadangan di bursa melonjak signifikan dan spot ETH ETF mencatatkan outflow $190 juta selama 4 hari berturut-turut. Pola rising wedge pada chart harian menargetkan $1.725 sebagai level berikutnya.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa itu reksa dana kripto yang akan diluncurkan di Jepang?;;Reksa dana kripto adalah produk investasi yang memungkinkan investor ritel membeli aset digital seperti Bitcoin dan Ethereum melalui akun sekuritas biasa, tanpa perlu membuka akun exchange khusus. Produk ini sedang dikembangkan oleh SBI Securities, Rakuten Securities, dan Nomura di Jepang.;;Kapan reksa dana kripto Jepang mulai tersedia?;;Regulasi yang memungkinkan reksa dana kripto ditargetkan rampung pada 2028 oleh Badan Jasa Keuangan Jepang (FSA). Namun, beberapa perusahaan seperti SBI dan Rakuten sudah mengembangkan produk dari sekarang agar siap saat aturan diberlakukan.;;Apa bedanya dengan ETF kripto spot di AS?;;Reksa dana kripto Jepang mirip dengan ETF Bitcoin spot AS yang sudah mengelola lebih dari USD 100 miliar aset, tapi akan dijual melalui akun sekuritas lokal Jepang. Jepang juga berencana mengizinkan ETF kripto spot pada 2028 dengan produk dual ETF Bitcoin-XRP dari SBI Holdings."
 ---
 
-> **TL;DR:** SBI Securities dan Rakuten Securities tengah mengembangkan reksa dana kripto untuk investor ritel Jepang, sementara Nomura, Daiwa, SMBC, dan Mizuho juga bersiap memasuki pasar ini. Otoritas Jasa Keuangan Jepang (FSA) tengah merevisi Undang-Undang Investasi untuk memasukkan aset kripto sebagai instrumen yang sah pada 2028.
+<div class="tldr-box">
+<strong>TL;DR:</strong> SBI Securities dan Rakuten Securities tengah mengembangkan reksa dana kripto untuk investor ritel Jepang, sementara Nomura, Daiwa, SMBC, dan Mizuho juga bersiap memasuki pasar ini. Otoritas Jasa Keuangan Jepang (FSA) tengah merevisi Undang-Undang Investasi untuk memasukkan aset kripto sebagai instrumen yang sah pada 2028.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

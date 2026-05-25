@@ -12,7 +12,9 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 
 
-> **TL;DR:** Cerebras, perusahaan infrastruktur AI, melihat sahamnya melonjak 100% setelah IPO senilai $5,5 miliar. Euforia saham AI ini juga berdampak pada pasar crypto, terutama token-token terkait AI di blockchain. Investor mulai melihat korelasi antara boom AI dan potensi crypto AI.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Cerebras, perusahaan infrastruktur AI, melihat sahamnya melonjak 100% setelah IPO senilai $5,5 miliar. Euforia saham AI ini juga berdampak pada pasar crypto, terutama token-token terkait AI di blockchain. Investor mulai melihat korelasi antara boom AI dan potensi crypto AI.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.

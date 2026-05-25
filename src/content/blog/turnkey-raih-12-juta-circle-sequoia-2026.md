@@ -12,7 +12,9 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 
 
-> **TL;DR:** Turnkey, startup infrastruktur keamanan digital assets, berhasil mengumpulkan $12,5 juta dalam putaran pendanaan baru yang didukung oleh Circle Ventures dan Sequoia Capital. Dana ini akan digunakan untuk meluncurkan produk "Verifiable Cloud" yang memungkinkan komputasi aman untuk aset digital.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Turnkey, startup infrastruktur keamanan digital assets, berhasil mengumpulkan $12,5 juta dalam putaran pendanaan baru yang didukung oleh Circle Ventures dan Sequoia Capital. Dana ini akan digunakan untuk meluncurkan produk "Verifiable Cloud" yang memungkinkan komputasi aman untuk aset digital.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
@@ -22,7 +24,7 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 Menurut laporan [CoinDesk](https://www.coindesk.com/business/2026/05/06/turnkey-raises-usd12-5-million-in-round-backed-by-circle-ventures-and-sequoia-capital), di tengah pasar yang masih volatile, investor besar tetap menaruh kepercayaan pada startup infrastruktur blockchain. Turnkey, perusahaan yang berfokus pada keamanan digital assets, baru saja menyelesaikan putaran pendanaan senilai $12,5 juta yang melibatkan nama-nama besar seperti Circle Ventures dan Sequoia Capital.
 
-Putaran ini menunjukkan bahwa meskipun harga crypto sedang koreksi, minat institusional terhadap infrastruktur fundamental blockchain tetap tinggi. Circle Ventures, lengan investasi dari penerbit USDC, dan Sequoia Capital, salah satu venture capital paling berpengaruh di Silicon Valley, keduanya melihat potensi besar di teknologi keamanan yang dibangun Turnkey.
+Meskipun harga crypto sedang koreksi, minat institusional terhadap infrastruktur fundamental blockchain tetap tinggi. Circle Ventures, lengan investasi dari penerbit USDC, dan Sequoia Capital, salah satu venture capital paling berpengaruh di Silicon Valley, keduanya melihat potensi besar di teknologi keamanan yang dibangun Turnkey.
 
 ## Apa Itu Turnkey Verifiable Cloud?
 

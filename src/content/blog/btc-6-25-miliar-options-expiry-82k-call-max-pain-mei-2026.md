@@ -10,7 +10,9 @@ faq: >
   Kapan Bitcoin options expiry Mei 2026?;;Options expiry Bitcoin berikutnya jatuh pada 29 Mei 2026 pukul 08:00 UTC. Deribit akan menyelesaikan 80.535 kontrak BTC senilai $6,25 miliar.;;Apa itu max pain price di Bitcoin options?;;Max pain adalah level harga di mana jumlah kontrak options terbanyak akan expire tidak berharga (worthless). Untuk expiry 29 Mei, max pain BTC berada di $75.000, sekitar 3% di bawah harga saat ini.;;Apa artinya call $82K paling aktif diperdagangkan?;;Ini menunjukkan trader optimistis BTC bisa naik ke $82.000 sebelum expiry, karena mereka bersedia membeli call strike tersebut dengan volume tinggi. Sekitar 1.600 kontrak atau $126 juta berpindah tangan untuk strike ini.;;Apa dampak Bitcoin options expiry ke harga?;;Expiry besar seperti ini bisa menimbulkan volatilitas tinggi. Harga cenderung tertarik ke level max pain ($75K) menjelang settlement. Namun positioning bullish di call $82K bisa menjadi katalis jika BTC mampu bertahan di atas $77.000.
 ---
 
-> **TL;DR:** Options BTC senilai $6,25 miliar akan expire di Deribit pada 29 Mei. Call strike $82K menjadi yang paling aktif diperdagangkan, sementara max pain di $75K menciptakan ketegangan antara bullish positioning dan gravitasi harga.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Options BTC senilai $6,25 miliar akan expire di Deribit pada 29 Mei. Call strike $82K menjadi yang paling aktif diperdagangkan, sementara max pain di $75K menciptakan ketegangan antara bullish positioning dan gravitasi harga.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

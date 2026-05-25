@@ -12,7 +12,9 @@ faq: "Apa yang perlu diketahui tentang Saudi Arabia Tokenisasi Ekonomi Triliunan
 
 
 
-> **TL;DR:** Saudi Arabia menyelesaikan transaksi sertifikat properti berbasis blockchain pertama di dunia melalui droppRWA, dengan mandat senilai $12,5 miliar untuk tokenisasi real estate. Targetnya, settlement stablecoin untuk real estate sudah berjalan pada akhir 2026.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Saudi Arabia menyelesaikan transaksi sertifikat properti berbasis blockchain pertama di dunia melalui droppRWA, dengan mandat senilai $12,5 miliar untuk tokenisasi real estate. Targetnya, settlement stablecoin untuk real estate sudah berjalan pada akhir 2026.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

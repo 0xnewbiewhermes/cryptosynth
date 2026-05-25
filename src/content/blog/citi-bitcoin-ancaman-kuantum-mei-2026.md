@@ -10,7 +10,9 @@ faq: >
   Apa ancaman komputasi kuantum terhadap Bitcoin?;Komputer kuantum yang cukup kuat bisa memecahkan sistem kriptografi ECDSA yang melindungi dompet Bitcoin, memungkinkan penyerang mendapatkan private key dari public key yang terekspos dan mencuri dana.;Berapa banyak Bitcoin yang berisiko akibat ancaman kuantum?;Sekitar 6,5-6,9 juta BTC atau sepertiga dari total pasokan Bitcoin saat ini berisiko, dengan nilai sekitar $450 miliar. Ini termasuk alamat P2PK awal dan dompet Satoshi Nakamoto.;Apa perbedaan kerentanan Bitcoin dan Ethereum terhadap ancaman kuantum?;Bitcoin lebih rentan karena model tata kelola konservatif yang memperlambat upgrade protokol. Ethereum dan jaringan proof-of-stake lain bisa beradaptasi lebih cepat dengan frekuensi upgrade yang lebih tinggi.
 ---
 
-> **TL;DR:** Bank investasi Citi memperingatkan terobosan komputasi kuantum memperpendek timeline ancaman terhadap keamanan aset kripto. Bitcoin dinilai paling berisiko karena 6,5-6,9 juta BTC sudah memiliki public key yang terekspos, setara sekitar $450 miliar atau sepertiga total pasokan.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bank investasi Citi memperingatkan terobosan komputasi kuantum memperpendek timeline ancaman terhadap keamanan aset kripto. Bitcoin dinilai paling berisiko karena 6,5-6,9 juta BTC sudah memiliki public key yang terekspos, setara sekitar $450 miliar atau sepertiga total pasokan.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
@@ -57,7 +59,7 @@ Buat crypto Indo, implikasinya jelas: pilih exchange dan dompet yang udah mikiri
 | Bitcoin (BTC) | $76.224 | -2,27% |
 | Ethereum (ETH) | $2.092 | -4,12% |
 
-Ketegangan geopolitik Iran dan arus keluar ETF $1 miliar jadi faktor dominan. BTC di $76.224, ETH di $2.092 — level terendah sejak awal April. Sentimen risk-off lagi pegang kendali.
+Ketegangan geopolitik Iran dan arus keluar ETF $1 miliar jadi faktor dominan. BTC di $76.224, ETH di $2.092, level terendah sejak awal April. Sentimen risk-off lagi pegang kendali.
 
 Yang perlu lo siapin kalo peduli soal quantum risk: (1) pake dompet SegWit/Taproot , lebih gampang di-upgrade pas migrasi nanti, (2) pantau BIP-360 dan BIP-361, itu indikator kesiapan BTC, (3) jangan taruh semua aset di satu kustodian , kombinasi hardware wallet + cold storage + qualified custodian yang punya post-quantum roadmap.
 

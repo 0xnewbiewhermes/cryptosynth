@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa itu saham perpetual preferred STRC?;;STRC adalah instrumen perpetual preferred stock milik Strategy yang menawarkan dividen variabel 11,5% tanpa tanggal jatuh tempo. Investor tidak bisa mencairkan pokok dari penerbit, harus menjual di pasar sekunder.;;Apa risiko utama investasi di STRC?;;Risiko utama adalah kontraksi likuiditas di pasar sekunder dan kenaikan yield obligasi pemerintah. Karena instrumen ini perpetual (tanpa jatuh tempo), risiko ini ada selamanya.;;Berapa kapasitas penerbitan STRC Strategy?;;Batas penerbitan STRC saat ini sekitar $28 miliar menurut Delphi Digital. Dengan $8,5 miliar sudah beredar, Strategy masih punya ruang tapi bisa mencapai batas dalam setahun ke depan."
 ---
 
-> **TL;DR:** Analis Build Markets memperingatkan bahwa investor salah harga risiko pada saham perpetual preferred STRC milik Strategy. Instrumen tanpa jatuh tempo ini membuat pemegang terpapar risiko likuiditas dan suku bunga selamanya.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Analis Build Markets memperingatkan bahwa investor salah harga risiko pada saham perpetual preferred STRC milik Strategy. Instrumen tanpa jatuh tempo ini membuat pemegang terpapar risiko likuiditas dan suku bunga selamanya.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

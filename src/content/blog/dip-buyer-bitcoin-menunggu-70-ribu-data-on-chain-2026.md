@@ -10,7 +10,9 @@ faq: >
   Mengapa dip buyer menunggu di $70.000?;;Data order book dan futures menunjukkan akumulasi minat beli terbesar di zona $68.000-$70.000, area yang paling padat diperdagangkan sejak November 2025;;Apa yang terjadi jika BTC tembus $70.000?;;Lebih dari $3,4 miliar long position terancam likuidasi di $74.700, dan angka itu bisa naik ke $11 miliar jika BTC turun ke $70.000;;Apa kata K33 Research tentang pasar Bitcoin saat ini?;;K33 mengatakan trader Bitcoin tetap defensif secara tidak biasa, mengurangi risiko kejatuhan akibat leverage seperti yang terjadi di siklus sebelumnya
 ---
 
-> **TL;DR:** Data futures dan order book menunjukkan dip buyer menunggu BTC turun ke zona $68.000-$70.000. Lebih dari $3,4 miliar long position terancam likuidasi di $74.700. K33 Research mengatakan trader bersikap defensif, mengurangi risiko kejatuhan akibat leverage.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Data futures dan order book menunjukkan dip buyer menunggu BTC turun ke zona $68.000-$70.000. Lebih dari $3,4 miliar long position terancam likuidasi di $74.700. K33 Research mengatakan trader bersikap defensif, mengurangi risiko kejatuhan akibat leverage.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

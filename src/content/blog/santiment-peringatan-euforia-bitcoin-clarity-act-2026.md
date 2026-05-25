@@ -12,7 +12,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Santiment mendeteksi lonjakan euforia di media sosial Bitcoin setelah CLARITY Act lolos voting komite Senat AS dengan skor 15-9. Rasio komentar bullish vs bearish mencapai 1,55:1, yang menurut Santiment bisa menjadi sinyal peringatan bagi trader jangka pendek.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Santiment mendeteksi lonjakan euforia di media sosial Bitcoin setelah CLARITY Act lolos voting komite Senat AS dengan skor 15-9. Rasio komentar bullish vs bearish mencapai 1,55:1, yang menurut Santiment bisa menjadi sinyal peringatan bagi trader jangka pendek.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

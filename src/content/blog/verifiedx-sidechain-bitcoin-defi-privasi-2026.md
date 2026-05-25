@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa itu VerifiedX dan bagaimana cara kerjanya?;;VerifiedX adalah proyek layer-1 dan Bitcoin sidechain yang disebut reliever chain, memungkinkan transaksi programmable dan privasi dengan zero-knowledge proofs tanpa membungkus BTC menjadi aset sintetis.;;Mengapa institusi memilih VerifiedX dibanding wrapped Bitcoin?;;Institusi menginginkan DeFi native tanpa risiko third-party custodian, bridge exploits, atau synthetic assets, sehingga BTC tetap self-custodial melalui threshold signatures dan taproot.;;Apakah VerifiedX mengubah protokol Bitcoin?;;Tidak, proyek ini membangun di sekitar Bitcoin tanpa mengubahnya. Pengguna tidak pernah meninggalkan ekosistem Bitcoin asli."
 ---
 
-> **TL;DR:** VerifiedX meluncurkan Bitcoin sidechain yang memungkinkan DeFi programmable dan fitur privasi tanpa synthetic wrapper seperti WBTC. Proyek ini menargetkan institusi yang ingin memanfaatkan Bitcoin secara native dengan self-custody dan zero-knowledge proofs untuk privasi strategis.
+<div class="tldr-box">
+<strong>TL;DR:</strong> VerifiedX meluncurkan Bitcoin sidechain yang memungkinkan DeFi programmable dan fitur privasi tanpa synthetic wrapper seperti WBTC. Proyek ini menargetkan institusi yang ingin memanfaatkan Bitcoin secara native dengan self-custody dan zero-knowledge proofs untuk privasi strategis.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

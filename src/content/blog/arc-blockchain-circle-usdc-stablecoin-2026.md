@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa itu Arc dari Circle?;;Arc adalah blockchain layer-1 baru yang dikembangkan Circle, penerbit USDC, untuk mendukung aplikasi keuangan berbasis stablecoin secara native.;;Mengapa Circle membangun Arc?;;Untuk mengatasi keterbatasan blockchain existing seperti biaya tidak stabil, settlement lambat, dan kurangnya privasi yang kompatibel dengan regulasi institusional.;;Kapan Arc mainnet diluncurkan?;;Public testnet Arc sudah diluncurkan Oktober 2025, sementara mainnet beta dijadwalkan sepanjang 2026."
 ---
 
-> **TL;DR:** Circle meluncurkan Arc, blockchain layer-1 yang dirancang khusus untuk stablecoin seperti USDC. Public testnet sudah berjalan sejak Oktober 2025 dengan fitur USDC sebagai gas token native, deterministic finality, dan biaya yang predictable dalam stablecoin.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Circle meluncurkan Arc, blockchain layer-1 yang dirancang khusus untuk stablecoin seperti USDC. Public testnet sudah berjalan sejak Oktober 2025 dengan fitur USDC sebagai gas token native, deterministic finality, dan biaya yang predictable dalam stablecoin.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

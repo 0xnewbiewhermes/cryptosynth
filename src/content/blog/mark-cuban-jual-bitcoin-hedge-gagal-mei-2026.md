@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: >
   Kenapa Mark Cuban jual Bitcoin?;;Cuban kecewa karena Bitcoin gagal berfungsi sebagai hedge saat konflik Iran. Emas justru naik signifikan sementara Bitcoin ikut turun, bertentangan dengan narasi "digital gold" yang selama ini ia yakini.;;Berapa banyak Bitcoin yang dijual Cuban?;;Cuban mengatakan telah menjual "sebagian besar" kepemilikannya. Sebelumnya pada 2021, ia mengungkapkan portofolio crypto-nya terdiri dari 60% Bitcoin, 30% Ethereum, dan 10% lainnya.;;Apa artinya ini untuk harga Bitcoin?;;Dampak langsung ke harga diperkirakan minimal karena Cuban bukan pemegang institusional skala besar seperti MicroStrategy atau ETF. Namun secara psikologis, perubahan sikap advokat publik seperti Cuban bisa memicu evaluasi ulang ekspektasi korelasi Bitcoin dengan aset safe haven di kalangan investor ritel Indonesia.;;Apa pelajaran untuk investor Indonesia?;;Bitcoin memiliki korelasi lebih tinggi dengan aset berisiko (risk-on) daripada emas dalam jangka pendek. Investor Indonesia perlu memahami perbedaan antara narasi jangka panjang Bitcoin sebagai hard money vs perilaku harga jangka pendeknya.
 ---
-> **TL;DR:** Mark Cuban, miliarder pemilik Dallas Mavericks, mengaku telah menjual sebagian besar kepemilikan Bitcoin-nya. Dalam wawancara dengan podcast "Portfolio Players", ia mengatakan Bitcoin gagal berfungsi sebagai hedge saat terjadi konflik Iran. Emas naik signifikan sementara Bitcoin justru turun.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Mark Cuban, miliarder pemilik Dallas Mavericks, mengaku telah menjual sebagian besar kepemilikan Bitcoin-nya. Dalam wawancara dengan podcast "Portfolio Players", ia mengatakan Bitcoin gagal berfungsi sebagai hedge saat terjadi konflik Iran. Emas naik signifikan sementara Bitcoin justru turun.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

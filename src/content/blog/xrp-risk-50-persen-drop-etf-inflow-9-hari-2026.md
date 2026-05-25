@@ -10,7 +10,9 @@ faq: >
   Kenapa XRP terancam turun 50%?;;XRP mengkonfirmasi pola bear pennant di grafik 3 hari, dengan target downside ke $0.65. Konfirmasi terjadi saat harga break di bawah trendline support di $1.40.;;Apa itu bear pennant dalam trading crypto?;;Bear pennant adalah pola lanjutan bearish yang terbentuk saat harga terkonsolidasi setelah turun tajam. Pola ini terkonfirmasi saat harga menembus batas bawah konsolidasi dan turun setinggi tiang awal.;;Seberapa besar ETF XRP sudah dikumpulkan?;;Total inflow kumulatif ETF XRP mendekati $1.4 miliar dengan AUM $1.14 miliar. Dalam 9 hari terakhir aliran masuk mencapai $95.5 juta.;;Apa perbandingan inflow XRP dengan aset kripto lain?;;Minggu lalu XRP mencatat inflow $67.6 juta, sementara BTC mengalami outflow $981.5 juta dan ETH outflow $250 juta. Ini menunjukkan rotasi modal institusional.
 ---
 
-> **TL;DR:** XRP terkonfirmasi pola bear pennant dengan target turun ke $0.65. Tapi di sisi lain ETF XRP mencatat inflow 9 hari beruntun total $95.5 juta. Divergensi antara tekanan teknikal dan sentimen institusional ini belum pernah terjadi sebelumnya untuk XRP.
+<div class="tldr-box">
+<strong>TL;DR:</strong> XRP terkonfirmasi pola bear pennant dengan target turun ke $0.65. Tapi ETF XRP tercatat cetak inflow 9 hari beruntun total $95.5 juta. Divergensi antara tekanan teknikal dan sentimen institusional ini belum pernah terjadi sebelumnya untuk XRP.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

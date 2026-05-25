@@ -12,7 +12,9 @@ faq: "Apa yang perlu diketahui tentang Nigel Farage Beli Rumah 30M Setelah Terim
 
 
 
-> **TL;DR:** Nigel Farage, pemimpin Reform UK, membeli properti senilai 1,4 juta pound (sekitar Rp30 miliar) secara tunai tak lama setelah menerima "hadiah pribadi" senilai 5 juta pound (sekitar Rp89 miliar) dari miliarder crypto Christopher Harborne. Parlemen Inggris kini membuka penyelidikan resmi terkait dugaan pelanggaran aturan deklarasi kepentingan.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Nigel Farage, pemimpin Reform UK, membeli properti senilai 1,4 juta pound (sekitar Rp30 miliar) secara tunai tak lama setelah menerima "hadiah pribadi" senilai 5 juta pound (sekitar Rp89 miliar) dari miliarder crypto Christopher Harborne. Parlemen Inggris kini membuka penyelidikan resmi terkait dugaan pelanggaran aturan deklarasi kepentingan.
+</div>
 
 
 <div class="disclaimer-box">
@@ -51,7 +53,7 @@ Properti yang dibeli Farage adalah satu dari empat properti yang dimilikinya. Se
 
 Donasi crypto ke politisi makin jadi sorotan global. Di Indonesia, Bappebti dan OJK perlu memperhatikan tren ini karena regulasi donasi politik berbasis crypto belum ada. Jika Inggris berhasil melarang donasi crypto politik, negara lain kemungkinan akan mengikuti, yang berpotensi memengaruhi narasi adopsi crypto secara global.
 
-Dana crypto dalam jumlah besar tetep bisa dilacak dan jadi bahan investigasi. Buat lo di Indo, transaksi gede di ranah politik makin terekspos — privasi di blockchain bukan jaminan mutlak.
+Dana crypto dalam jumlah besar tetep bisa dilacak dan jadi bahan investigasi. Buat lo di Indo, transaksi gede di ranah politik makin terekspos, privasi di blockchain bukan jaminan mutlak.
 
 ## Sumber
 

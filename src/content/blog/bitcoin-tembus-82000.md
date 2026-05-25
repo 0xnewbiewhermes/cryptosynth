@@ -31,7 +31,7 @@ Menurut laporan [CoinGecko](https://www.coingecko.com/en/coins/bitcoin), bitcoin
 
 Kenaikan ini menunjukkan pasar kripto memasuki fase bullish dengan fundamental kuat. Akumulasi MicroStrategy memberikan sinyal bahwa institusi besar masih sangat percaya pada prospek jangka panjang Bitcoin.
 
-## Yang Perlu Diperhatikan
+## Level Kunci Selanjutnya
 
 Level resistance berikutnya di $85.000. Jika berhasil ditembus, ada potensi rally ke $90.000. Namun, waspadai koreksi teknis dan keputusan Fed tentang suku bunga minggu depan.
 

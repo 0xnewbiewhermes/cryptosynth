@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: >
   Apa itu dTelecom?;;dTelecom adalah jaringan komunikasi terdesentralisasi (DePIN) di Solana untuk voice, video, dan AI agents secara real-time, didukung Google dan Solana Foundation;;Kapan TGE token DTEL?;;TGE ditargetkan Q3-Q4 2026. Token DTEL belum diluncurkan dan masih dalam fase points farming;;Bagaimana cara ikut airdrop dTelecom?;;Kunjungi rewards.dtelecom.org, hubungkan wallet Solana, verifikasi akun sosial, dan lakukan daily check-in serta gunakan aplikasi dMeet/FROGY;;Apa itu Origin ID dan apakah masih bisa mint?;;Origin ID adalah NFT multiplier yang memberikan hingga 2x poin. Mint di OpenSea sudah ditutup 19 Mei 2026;;Berapa alokasi token untuk komunitas?;;Lebih dari 50% total suplai token DTEL (1 miliar) dialokasikan untuk komunitas
 ---
-> **TL;DR:** dTelecom, proyek DePIN komunikasi real-time berbasis Solana yang didukung Google, Solana Foundation, dan ElevenLabs, masih membuka kesempatan airdrop token DTEL lewat daily points farming. TGE dijadwalkan Q3-Q4 2026 dan 50% dari total suplai token (1 miliar) dialokasikan untuk komunitas. Origin ID NFT yang memberikan hingga 2x multiplier sudah habis masa mint-nya per 19 Mei 2026, tapi points farming reguler masih bisa diikuti.
+<div class="tldr-box">
+<strong>TL;DR:</strong> dTelecom, proyek DePIN komunikasi real-time berbasis Solana yang didukung Google, Solana Foundation, dan ElevenLabs, masih membuka kesempatan airdrop token DTEL lewat daily points farming. TGE dijadwalkan Q3-Q4 2026 dan 50% dari total suplai token (1 miliar) dialokasikan untuk komunitas. Origin ID NFT yang memberikan hingga 2x multiplier sudah habis masa mint-nya per 19 Mei 2026, tapi points farming reguler masih bisa diikuti.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

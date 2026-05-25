@@ -10,7 +10,9 @@ faq: >
   Kenapa permintaan investor ritel Bitcoin turun drastis?;;Permintaan investor ritel Bitcoin turun karena pergeseran ke spot Bitcoin ETF dan pelemahan partisipasi spot di Binance. Data CryptoQuant menunjukkan 30-day net demand growth turun 73% dalam tiga pekan terakhir, dari 7,39% ke 3,12%.;;Apakah futures selling besar-besaran berbahaya untuk Bitcoin?;;Futures selling yang agresif menandakan bearish sentiment di pasar derivatif. Analis mencatat dua lonjakan taker sell volume di Binance: $1,5 miliar pada 15 Mei dan $1,1 miliar saat BTC jatuh di bawah $77.000. Ini menekan harga lebih lanjut.;;Apa dampak penurunan permintaan ritel untuk pasar crypto Indonesia?;;Trader Indonesia perlu waspada terhadap potensi koreksi lebih dalam karena momentum bullish masih lemah. Divergensi antara futures demand positif dan spot demand negatif menandakan pemulihan yang rapuh. Kondisi makro ekonomi global juga belum mendukung.
 ---
 
-> **TL;DR:** Permintaan investor ritel Bitcoin di Binance turun 73% dalam tiga pekan terakhir. Data CryptoQuant menunjukkan spot demand tetap negatif selama 65 hari berturut-turut, sementara futures selling agresif menembus $2 miliar. BTC tertekan di bawah $77.000.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Permintaan investor ritel Bitcoin di Binance turun 73% dalam tiga pekan terakhir. Data CryptoQuant menunjukkan spot demand tetap negatif selama 65 hari berturut-turut, sementara futures selling agresif menembus $2 miliar. BTC tertekan di bawah $77.000.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -10,7 +10,9 @@ faq: >
   Apa itu realized cap Bitcoin?;;Realized cap adalah metrik yang mengukur total nilai Bitcoin berdasarkan harga terakhir setiap koin dipindahkan di on-chain. Ini memberikan gambaran aggregate cost basis investor. Stabilisasi realized cap di $1,08 triliun menunjukkan fase akumulasi setelah kehancuran kekayaan sebesar $40 miliar.;;Apa itu RHODL ratio?;;RHODL ratio membandingkan kekayaan yang dipegang oleh long-term holder (6 bulan-2 tahun) dengan short-term holder (1 hari-3 bulan). RHODL ratio di atas 5 adalah level yang secara historis hanya terjadi saat bottom siklus 2015 dan 2022.;;Apa arti funding rate negatif untuk Bitcoin?;;Funding rate negatif berkepanjangan di pasar perpetual futures menunjukkan sentimen bearish ekstrem dan posisi short yang terlalu penuh. Secara historis, kondisi ini sering diikuti oleh rebound tajam karena short squeeze.
 ---
 
-> **TL;DR:** Tiga metrik on-chain Bitcoin menunjukkan bahwa selloff ke $60.000 di Februari 2026 mungkin telah membentuk cycle low. Realized cap stabil di $1,08 triliun, RHODL ratio di level tertinggi ketiga sepanjang sejarah (di atas 5), dan funding rate perpetual negatif selama berbulan-bulan. BTC kini rebound ke $77.400.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Tiga metrik on-chain Bitcoin menunjukkan bahwa selloff ke $60.000 di Februari 2026 mungkin telah membentuk cycle low. Realized cap stabil di $1,08 triliun, RHODL ratio di level tertinggi ketiga sepanjang sejarah (di atas 5), dan funding rate perpetual negatif selama berbulan-bulan. BTC kini rebound ke $77.400.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

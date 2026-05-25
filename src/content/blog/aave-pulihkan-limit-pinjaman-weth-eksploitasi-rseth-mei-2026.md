@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Apa yang terjadi dengan Aave dan WETH?;;Aave telah memulihkan rasio loan-to-value (LTV) untuk Wrapped Ether (WETH) di enam jaringan utama setelah sebelumnya membekukannya akibat eksploitasi Kelp DAO senilai $292 juta pada April 2026. Pengguna kini bisa kembali meminjam menggunakan WETH sebagai agunan.;;Berapa total kerugian dari eksploitasi Kelp DAO?;;Peretas menciptakan sekitar 112.103 rsETH tanpa jaminan melalui bridge LayerZero Kelp DAO dan menguras sekitar $230 juta dalam bentuk ETH dari Aave. Lebih dari 95% dana berhasil dipulihkan melalui likuidasi dan aksi terkoordinasi.;;Apa dampak eksploitasi ini ke TVL Aave?;;Total value locked (TVL) Aave turun lebih dari $8 miliar, dari $23.5 miliar di Maret menjadi sekitar $14.8 miliar. Namun tingkat pemulihan yang cepat menunjukkan resiliensi protokol DeFi."
 ---
 
-> **TL;DR:** Aave mengembalikan rasio loan-to-value (LTV) Wrapped Ether (WETH) ke level normal di enam jaringan utama setelah membekukannya sebagai respons terhadap eksploitasi Kelp DAO senilai $292 juta pada April 2026. Lebih dari 95% rsETH yang tidak memiliki jaminan berhasil dipulihkan, dan protokol kini kembali beroperasi normal di Ethereum Core, Ethereum Prime, Arbitrum, Base, Mantle, dan Linea.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Aave mengembalikan rasio loan-to-value (LTV) Wrapped Ether (WETH) ke level normal di enam jaringan utama setelah membekukannya sebagai respons terhadap eksploitasi Kelp DAO senilai $292 juta pada April 2026. Lebih dari 95% rsETH yang tidak memiliki jaminan berhasil dipulihkan, dan protokol kini kembali beroperasi normal di Ethereum Core, Ethereum Prime, Arbitrum, Base, Mantle, dan Linea.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

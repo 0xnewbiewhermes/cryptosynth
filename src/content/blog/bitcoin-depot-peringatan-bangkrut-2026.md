@@ -12,7 +12,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Bitcoin Depot, operator ATM crypto terbesar di dunia, mengeluarkan peringatan "going concern" di SEC filing karena rugi bersih $9,5 juta di Q1 2026, revenue anjlok 49%, dan menghadapi gugatan dari beberapa negara bagian AS.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bitcoin Depot, operator ATM crypto terbesar di dunia, mengeluarkan peringatan "going concern" di SEC filing karena rugi bersih $9,5 juta di Q1 2026, revenue anjlok 49%, dan menghadapi gugatan dari beberapa negara bagian AS.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: >
   Kenapa Bitcoin turun ke $74.300?;Bitcoin turun dipicu arus keluar ETF spot Bitcoin yang mencapai $1,25 miliar dalam enam hari berturut-turut, ditambah kenaikan imbal hasil Treasury AS yang mengurangi minat investor terhadap aset berisiko. Tidak ada katalis tunggal yang jelas, tetapi kombinasi faktor makro dan institutional selling mendorong harga ke level terendah sebulan.;Berapa total likuidasi yang terjadi?;CoinGlass mencatat $917 juta likuidasi dalam 24 jam, dengan $827 juta berasal dari posisi long (taruhan harga naik). Bitcoin memimpin dengan $371 juta likuidasi, disusul Ethereum $261 juta.;Apa kata analis Mark Connors tentang Bitcoin?;Mantan global head of portfolio management Credit Suisse yang kini jadi CIO Risk Dimensions mengatakan fase underperformance Bitcoin selama 142 hari sudah berakhir. Menurutnya, BTC siap mengungguli saham dan obligasi di tengah inflasi yang masih tinggi dan tekanan imbal hasil.;Apakah Bitcoin sudah rebound?;Ya, setelah menyentuh $74.344, Bitcoin pulih ke kisaran $76.800 pada saat penulisan. Namun pasar masih volatil dan data on-chain menunjukkan permintaan ritel masih lemah.
 ---
-> **TL;DR:** Bitcoin jatuh ke $74.344, terendah dalam sebulan, memicu likuidasi kripto hampir $1 miliar yang didominasi posisi long. Enam hari berturut-turut ETF outflow ($1,25 miliar) jadi pemicu utama. Namun mantan eksekutif Credit Suisse Mark Connors menilai fase underperformance 142 hari BTC sudah berakhir dan siap outperform saham serta obligasi.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bitcoin jatuh ke $74.344, terendah dalam sebulan, memicu likuidasi kripto hampir $1 miliar yang didominasi posisi long. Enam hari berturut-turut ETF outflow ($1,25 miliar) jadi pemicu utama. Namun mantan eksekutif Credit Suisse Mark Connors menilai fase underperformance 142 hari BTC sudah berakhir dan siap outperform saham serta obligasi.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

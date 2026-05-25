@@ -10,7 +10,9 @@ faq: >
   Kenapa Bitcoin bisa bertahan di $77.000 meski ETF outflow besar?;;Ada beberapa faktor: Iran peace talks bikin harga minyak turun 5% dan bond yield mereda, Nvidia earnings beat ekspektasi, dan outflow ETF bersifat backward-looking (data 7 hari lalu, bukan aksi jual baru). Kombinasi ini bikin BTC tetap stabil meski institusi menarik dana. Apakah ETF outflow $2 miliar ini tanda bearish?;;Belum tentu. Dari 11 hari outflow berturut-turut yang terjadi 22 Januari-5 Februari 2026, BTC justru naik ke level tertinggi baru sepanjang masa. Outflow besar tidak selalu berarti harga akan turun, apalagi kalo ada katalis positif lain. Berapa level support Bitcoin selanjutnya?;;Support langsung di $76.500, lalu $75.000. Resistensi di $78.000 dan $80.000. Volatilitas lagi menyempit (Bollinger Band mengerucut), yang biasanya diikuti pergerakan besar. Apa dampak Iran peace talks ke harga Bitcoin?;;Perdamaian Iran-AS bikin harga minyak turun 5%, yang langsung mendorong Treasury yield turun dan risk assets naik. BTC naik 1.6% setelah Trump mengumumkan "tahap akhir" negosiasi.
 ---
 
-> **TL;DR:** Spot Bitcoin ETF AS mencatat outflow $2 miliar dalam 7 hari, terbesar sejak ETF spot diluncurkan. Tapi BTC justru bertahan stabil di $77.000. Kenapa? Iran peace talks bikin minyak dan yield turun, Nvidia earnings beat, dan data outflow bersifat backward-looking. Divergensi langka antara ETF flow dan harga ini jadi sinyal bahwa pasar tidak bisa dibaca dari satu indikator saja.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Spot Bitcoin ETF AS mencatat outflow $2 miliar dalam 7 hari, terbesar sejak ETF spot diluncurkan. Tapi BTC justru bertahan stabil di $77.000. Kenapa? Iran peace talks bikin minyak dan yield turun, Nvidia earnings beat, dan data outflow bersifat backward-looking. Divergensi langka antara ETF flow dan harga ini jadi sinyal bahwa pasar tidak bisa dibaca dari satu indikator saja.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -12,7 +12,9 @@ faq: "Bagaimana cara melindungi aset crypto dari exploit?;;Gunakan hardware wall
 
 
 
-> **TL;DR:** Chainlink CCIP (Cross-Chain Interoperability Protocol) berhasil menarik lebih dari $2,5 miliar dalam total value locked (TVL) dari protokol-prokol yang bermigrasi dari LayerZero. Migrasi ini dipicu oleh exploit senilai $292 juta yang terjadi di bridge berbasis LayerZero, yang membuat banyak protokol mempertimbangkan kembali keamanan infrastruktur cross-chain mereka.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Chainlink CCIP (Cross-Chain Interoperability Protocol) berhasil menarik lebih dari $2,5 miliar dalam total value locked (TVL) dari protokol-prokol yang bermigrasi dari LayerZero. Migrasi ini dipicu oleh exploit senilai $292 juta yang terjadi di bridge berbasis LayerZero, yang membuat banyak protokol mempertimbangkan kembali keamanan infrastruktur cross-chain mereka.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
@@ -46,7 +48,7 @@ Beberapa protokol besar yang bermigrasi ke CCIP:
 - **Compound**: Untuk cross-chain yield
 - **MakerDAO**: Untuk cross-chain collateral
 
-Keamanan jadi faktor utama dalam milih infrastruktur cross-chain — ini yang dorong migrasi.
+Keamanan jadi faktor utama dalam milih infrastruktur cross-chain, ini yang dorong migrasi.
 
 Buat lo yang main DeFi di Indo, insiden LayerZero ini ngasih gambaran jelas: keamanan infrastruktur itu nomor satu. Jangan tergiur yield gede kalo bridgenya belum teruji. Beberapa catatan gw:
 

@@ -12,7 +12,9 @@ faq: "Faktor apa yang mempengaruhi pergerakan harga ini?;;Pergerakan harga crypt
 
 
 
-> **TL;DR:** Token HYPE dari DEX Hyperliquid melonjak 23% dalam 24 jam menyusul peluncuran dua ETF spot di AS dan kesepakatan Coinbase sebagai treasury deployer USDC. A16z dilaporkan mengakumulasi token senilai $67,5 juta menjelang peluncuran ETF.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Token HYPE dari DEX Hyperliquid melonjak 23% dalam 24 jam menyusul peluncuran dua ETF spot di AS dan kesepakatan Coinbase sebagai treasury deployer USDC. A16z dilaporkan mengakumulasi token senilai $67,5 juta menjelang peluncuran ETF.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

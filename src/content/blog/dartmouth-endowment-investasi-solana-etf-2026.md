@@ -12,7 +12,9 @@ faq: "Apa itu funding round di crypto?;;Funding round adalah tahapan penggalanga
 
 
 
-> **TL;DR:** Endowment Dartmouth College senilai $9 miliar ungkap investasi $14,5 juta di ETF crypto, termasuk posisi baru di Bitwise Solana Staking ETF senilai $3,3 juta. Ini menambah daftar universitas AS yang masuk ke aset digital.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Endowment Dartmouth College senilai $9 miliar ungkap investasi $14,5 juta di ETF crypto, termasuk posisi baru di Bitwise Solana Staking ETF senilai $3,3 juta. Ini menambah daftar universitas AS yang masuk ke aset digital.
+</div>
 
 ## Dartmouth Resmi Tambah Eksposur Crypto Lewat ETF
 
@@ -45,7 +47,7 @@ Dartmouth bukan satu-satunya Ivy League yang masuk ke crypto. **Harvard Universi
 
 SEC sendiri telah memperluas persetujuan ETF crypto secara bertahap sejak Januari 2024, dimulai dari spot Bitcoin ETF, lalu Ethereum ETF, dan kemudian Solana ETF. Saat ini, regulator juga memiliki aplikasi untuk ETF Dogecoin dan XRP yang masih dalam peninjauan.
 
-Tren ini menunjukkan bahwa **universitas-universitas besar AS** mulai memandang crypto sebagai kelas aset yang layak untuk portofolio jangka panjang, meskipun dengan porsi yang relatif kecil, $14,5 juta dari $9 miliar total endowment Dartmouth hanya sekitar **0,16%**.
+**Universitas-universitas besar AS** kini mulai memandang crypto sebagai kelas aset yang layak untuk portofolio jangka panjang, meskipun dengan porsi yang relatif kecil, $14,5 juta dari $9 miliar total endowment Dartmouth hanya sekitar **0,16%**.
 
 ## Konteks: Bitcoin ETF Catat Outflow Besar
 

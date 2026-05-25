@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: "Mengapa Bitcoin turun ke bawah $79.000?;;Bitcoin terkoreksi karena ketidakpastian perang Iran yang berkepanjangan dan korelasi tinggi dengan indeks saham small-cap AS (Russell 2000). Pasar memperlakukan BTC sebagai aset risk-on, bukan safe haven. Harga minyak mentah Brent yang melonjak ke $106 juga menambah tekanan inflasi global.;;Apa hubungan outflow pasar obligasi dengan Bitcoin?;;Ketika investor menarik dana dari pasar obligasi pemerintah akibat kekhawatiran resesi, dana tersebut perlu dialokasikan ke aset lain. Secara historis, sebagian dari outflow ini bisa mengalir ke Bitcoin sebagai alternatif investasi jangka menengah.;;Apa dampak perang Iran terhadap harga crypto?;;Perang Iran yang berkepanjangan memicu kenaikan harga minyak (Brent ke $106) dan meningkatkan ketidakpastian makroekonomi global. Hal ini mendorong investor keluar dari aset berisiko termasuk crypto dalam jangka pendek, tetapi outflow dari pasar obligasi pemerintah bisa menjadi katalis positif untuk Bitcoin dalam jangka menengah."
 ---
 
-> **TL;DR:** Bitcoin terkoreksi ke $78.250 setelah gagal menembus resistensi $82.000. Ketidakpastian perang Iran dan korelasi erat dengan indeks saham small-cap AS membuat BTC rentan terhadap sentimen makro. Namun arus keluar dari pasar obligasi pemerintah berpotensi menjadi katalis rebound jangka menengah.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bitcoin terkoreksi ke $78.250 setelah gagal menembus resistensi $82.000. Ketidakpastian perang Iran dan korelasi erat dengan indeks saham small-cap AS membuat BTC rentan terhadap sentimen makro. Namun arus keluar dari pasar obligasi pemerintah berpotensi menjadi katalis rebound jangka menengah.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.
@@ -42,7 +44,7 @@ Paradoks yang menarik terjadi di pasar fixed-income. Ketika imbal hasil obligasi
 
 Bagi pasar crypto, pola ini justru bisa menjadi katalis positif dalam jangka menengah. Modal yang keluar dari pasar obligasi mencari rumah baru, dan Bitcoin sebagai aset dengan likuiditas tinggi dan korelasi rendah terhadap obligasi pemerintah menjadi salah satu tujuan potensial. Ini berbeda dengan narasi umum yang selalu mengaitkan kenaikan imbal hasil obligasi dengan pelemahan crypto.
 
-Buat trader Indo, dilemanya: rupiah lagi lemah. Jadi harga BTC dalam IDR turunnya lebih tajam dari USD , tambahan loss 2-3% buat yang beli di $80.000. Tapi di sisi lain, harga minyak Brent di $106 per barel langsung kena ke Indonesia sebagai importir minyak. Subsidi energi bisa bengkak, alokasi belanja pemerintah bergeser. Keputusan BI soal suku bunga dalam beberapa pekan ke depan bakal nentuin minat investor ritel ke crypto. Funding rate masih negatif, spot premium tipis , ini sinyal pasar belum percaya diri.
+Buat trader Indo, dilemanya: rupiah lagi lemah. Jadi harga BTC dalam IDR turunnya lebih tajam dari USD , tambahan loss 2-3% buat yang beli di $80.000. Tapi Sementara itu, harga minyak Brent di $106 per barel langsung kena ke Indonesia sebagai importir minyak. Subsidi energi bisa bengkak, alokasi belanja pemerintah bergeser. Keputusan BI soal suku bunga dalam beberapa pekan ke depan bakal nentuin minat investor ritel ke crypto. Funding rate masih negatif, spot premium tipis , ini sinyal pasar belum percaya diri.
 
 ## Level Kunci yang Perlu Dipantau
 

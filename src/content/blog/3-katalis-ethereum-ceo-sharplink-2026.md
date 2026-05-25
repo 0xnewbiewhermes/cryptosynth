@@ -12,7 +12,9 @@ faq: "Apa perbedaan Ethereum dan Bitcoin?;;Bitcoin dirancang sebagai store of va
 
 
 
-> **TL;DR:** CEO Sharplink Gaming Joseph Chalom, yang perusahaanannya memegang 861.251 ETH senilai $1,89 miliar, menyebut tiga katalis utama untuk pemulihan harga Ethereum: lolosnya CLARITY Act, pulihnya risk appetite pasar, dan ekspansi tokenisasi aset dunia nyata (RWA) yang diprediksi bisa tembus $500 miliar hingga $1 triliun.
+<div class="tldr-box">
+<strong>TL;DR:</strong> CEO Sharplink Gaming Joseph Chalom, yang perusahaanannya memegang 861.251 ETH senilai $1,89 miliar, menyebut tiga katalis utama untuk pemulihan harga Ethereum: lolosnya CLARITY Act, pulihnya risk appetite pasar, dan ekspansi tokenisasi aset dunia nyata (RWA) yang diprediksi bisa tembus $500 miliar hingga $1 triliun.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

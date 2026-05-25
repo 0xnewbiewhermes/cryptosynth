@@ -9,7 +9,9 @@ author: "CryptoSynth Research"
 faq: >
   Siapa Leopold Aschenbrenner?;;Leopold Aschenbrenner adalah mantan peneliti OpenAI yang dikenal karena peringatannya tentang potensi China mencuri model AI canggih. Kini ia mengelola dana investasi dengan fokus pada infrastruktur AI dan energi.;;Apa yang membuat Aschenbrenner short Nvidia dan AMD?;;Ia membuka $7,46 miliar put options melawan saham semikonduktor karena meyakini bahwa valuasi chip stocks sudah terlalu tinggi (overvalued), sementara infrastruktur fisik seperti data center dan listrik justru undervalued.;;Apa dampak strategi Aschenbrenner ke industri crypto?;;Strategi ini memperkuat narasi bahwa bitcoin miner bukan sekadar penambang kripto tapi penyedia infrastruktur AI yang punya akses energi dan fasilitas komputasi skala besar, membuka peluang valuasi baru bagi sektor mining.
 ---
-> **TL;DR:** Mantan peneliti OpenAI Leopold Aschenbrenner meningkatkan exposure dari $5,5 miliar menjadi $13,67 miliar melalui 13F filing terbaru. Ia mengambil posisi long besar-besaran di bitcoin miner (IREN, Core Scientific, Riot Platforms, CleanSpark, Bitfarms, Bitdeer, Hive Digital) dan infrastruktur AI, sambil membuka $7,46 miliar put options melawan Nvidia, AMD, dan ETF semikonduktor.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Mantan peneliti OpenAI Leopold Aschenbrenner meningkatkan exposure dari $5,5 miliar menjadi $13,67 miliar melalui 13F filing terbaru. Ia mengambil posisi long besar-besaran di bitcoin miner (IREN, Core Scientific, Riot Platforms, CleanSpark, Bitfarms, Bitdeer, Hive Digital) dan infrastruktur AI, sambil membuka $7,46 miliar put options melawan Nvidia, AMD, dan ETF semikonduktor.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

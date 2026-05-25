@@ -12,7 +12,9 @@ faq: >
   Kenapa harga NEAR naik 50%?;;Lonjakan NEAR didorong oleh tiga katalis sekaligus: pendapatan Nvidia Q1 2026 ($81,6 miliar), upgrade dynamic resharding Juni 2026, pemangkasan inflasi 5% ke 2,5%, dan short squeeze $9,85 juta. Volume harian melonjak 190% ke $1,15 miliar, konfirmasi permintaan organik.;;Apa hubungan Nvidia dengan kenaikan NEAR?;;Nvidia menguasai 81-90% pasar AI accelerator. Laporan Q1 2026 senilai $81,6 miliar dan proyeksi $1 triliun ke 2027 mendorong rotasi modal ke sektor AI, termasuk token kripto. NEAR jadi satu-satunya project crypto yang ditampilkan di konferensi developer Nvidia, memperkuat posisinya sebagai AI-native L1.;;Apa target harga NEAR selanjutnya?;;Resistensi di $2,60 hingga $3,0 menjadi ujian berikutnya. Jika tembus, pola falling wedge multi-tahun memproyeksikan target $5,75 atau 160% dari level saat ini. RSI di level 63 menunjukkan momentum belum memasuki zona overbought.;;AI token lain apa yang ikut naik?;;GRASS naik 27%, SERVE naik 21%, dan FET naik 11% dalam 24 jam terakhir. Kapitalisasi pasar sektor AI dan big data naik 8% ke $21,44 miliar dalam sehari.
 ---
 
-> **TL;DR:** NEAR Protocol naik 34% dalam 24 jam dan 50% dalam seminggu ke $2,32, memimpin rally AI token yang didorong oleh pendapatan Nvidia Q1 2026 sebesar $81,6 miliar dan proyeksi $1 triliun. Volume perdagangan melonjak 190% ke $1,15 miliar, dengan $9,85 juta short liquidation. Target berikutnya di $5,75 jika tembus resistensi $2,60-$3,0.
+<div class="tldr-box">
+<strong>TL;DR:</strong> NEAR Protocol naik 34% dalam 24 jam dan 50% dalam seminggu ke $2,32, memimpin rally AI token yang didorong oleh pendapatan Nvidia Q1 2026 sebesar $81,6 miliar dan proyeksi $1 triliun. Volume perdagangan melonjak 190% ke $1,15 miliar, dengan $9,85 juta short liquidation. Target berikutnya di $5,75 jika tembus resistensi $2,60-$3,0.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -10,7 +10,9 @@ faq: >
   Apa itu limited master account dari Federal Reserve?;;Limited master account adalah rekening terbatas yang memberi perusahaan non-bank (termasuk kripto) akses ke sistem pembayaran Federal Reserve untuk kliring dan settlement, tanpa fasilitas inti seperti intraday credit, discount window, atau bunga atas saldo. Siapa saja yang sudah dapat akses?;;Kraken menjadi perusahaan kripto pertama yang mendapatkan limited master account pada Maret 2026 melalui Kansas City Fed. Ripple, Anchorage Digital, dan Wise juga dikabarkan sedang mengajukan akses serupa. Apa dampaknya untuk pasar Indonesia?;;Jika final, kebijakan ini bisa mempercepat kliring USDT/USDC, menurunkan biaya transfer lintas batas, dan memperkuat infrastruktur kripto global. Regulasi AS sering menjadi acuan bagi regulator Asia termasuk Indonesia.
 ---
 
-> **TL;DR:** Federal Reserve AS secara resmi mengusulkan limited master accounts (sebelumnya disebut "skinny accounts") yang memberikan akses langsung ke sistem pembayaran Fed bagi perusahaan kripto dan fintech. Proposal ini membuka 60 hari masa komentar publik, setelah sebelumnya Trump meneken executive order yang mendorong akses lebih luas ke payment rails.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Federal Reserve AS secara resmi mengusulkan limited master accounts (sebelumnya disebut "skinny accounts") yang memberikan akses langsung ke sistem pembayaran Fed bagi perusahaan kripto dan fintech. Proposal ini membuka 60 hari masa komentar publik, setelah sebelumnya Trump meneken executive order yang mendorong akses lebih luas ke payment rails.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

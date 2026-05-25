@@ -8,7 +8,9 @@ tags: ["bridge-hack", "verus", "ethereum", "defi-security", "crypto-hack"]
 faq: "Apa yang terjadi pada Verus-Ethereum bridge?;;Bridge cross-chain ini dieksploitasi dengan kerugian total sekitar $11 juta dalam aset tBTC, ETH, dan USDC yang kemudian diswap menjadi 5.402 ETH.;;Siapa pelaku dan ke mana dana mengalir?;;Pelaku belum teridentifikasi secara publik. Dana saat ini terkonsolidasi di alamat Ethereum 0x65Cb8b128Bf6e690761044CCECA422bb239C25F9.;;Apa implikasinya bagi pengguna crypto Indonesia?;;Pengguna Indonesia yang sering memanfaatkan bridge untuk akses yield lebih baik di chain lain harus meningkatkan kewaspadaan, gunakan jumlah kecil untuk test transfer, dan prioritaskan bridge dengan insurance coverage."
 ---
 
-> **TL;DR:** Bridge antara Verus dan Ethereum diretas dengan kerugian lebih dari $11 juta dalam bentuk tokenized Bitcoin (tBTC), ETH, dan USDC. Pelaku kemudian menukar aset curian menjadi 5.402 ETH yang saat ini masih berada di wallet pelaku.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Bridge antara Verus dan Ethereum diretas dengan kerugian lebih dari $11 juta dalam bentuk tokenized Bitcoin (tBTC), ETH, dan USDC. Pelaku kemudian menukar aset curian menjadi 5.402 ETH yang saat ini masih berada di wallet pelaku.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

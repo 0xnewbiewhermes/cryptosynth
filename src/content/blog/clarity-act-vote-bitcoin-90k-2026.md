@@ -11,7 +11,9 @@ faq: "Berapa harga Bitcoin saat ini?;;Harga Bitcoin berfluktuasi setiap saat. Ar
 
 
 
-> **TL;DR:** Trader Bitcoin memperkirakan pergerakan cepat menuju $90.000 dalam hitungan hari, didorong oleh voting CLARITY Act di Senate Banking Committee AS hari Kamis dan data onchain yang makin bullish. Tekanan jual dari short-term holder sudah nol persen selama lima hari berturut-turut.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Trader Bitcoin memperkirakan pergerakan cepat menuju $90.000 dalam hitungan hari, didorong oleh voting CLARITY Act di Senate Banking Committee AS hari Kamis dan data onchain yang makin bullish. Tekanan jual dari short-term holder sudah nol persen selama lima hari berturut-turut.
+</div>
 
 ## CLARITY Act: Regulasi Crypto AS Menuju Titik Terang
 
@@ -49,7 +51,7 @@ Pendiri MN Capital, Michaël van de Poppe, tetap bullish dan menyatakan:
 
 Namun, trader crypto Zord mengingatkan bahwa Bitcoin bisa menghadapi resistance antara $83.400 dan $84.600 setelah berhasil mengambil alih level *Fibonacci retracement* 50% di sekitar $78.983. Menurut analisis chart, rentang $83.400-$84.600 adalah zona resistance Fibonacci berikutnya (0,618-0,65), di mana trader kemungkinan akan mulai ambil profit dan memperlambat rebound BTC.
 
-Lebih dari $3 miliar posisi *leveraged long* ngumpul di $79.000-$78.000 — tanda BTC mungkin test ulang range itu dulu sebelum *breakout* 200-day EMA.
+Lebih dari $3 miliar posisi *leveraged long* ngumpul di $79.000-$78.000, tanda BTC mungkin test ulang range itu dulu sebelum *breakout* 200-day EMA.
 
 Voting Clarity Act ini bukan sekadar berita AS. Regulasi yang lebih jelas di Paman Sam sering jadi leading indicator buat pasar global , termasuk Indo. Kalo RUU ini lolos dari komite, sentimen positif biasanya ngerembet ke altcoin dan token DeFi yang banyak diperdagangkan di exchange lokal.
 

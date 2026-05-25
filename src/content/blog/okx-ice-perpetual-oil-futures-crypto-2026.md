@@ -10,7 +10,9 @@ faq: >
   Apa itu perpetual oil futures OKX-ICE?;;Perpetual oil futures adalah kontrak derivatif minyak yang tidak pernah kedaluwarsa, berdasarkan benchmark Brent dan WTI dari ICE, tersedia di platform OKX untuk 120 juta penggunanya.;;Apa bedanya dengan futures minyak biasa?;;Futures biasa punya tanggal kedaluwarsa dan mengharuskan rollover kontrak, sementara perpetual tidak pernah kedaluwarsa dan menggunakan mekanisme funding rate untuk menjaga harga tetap selaras dengan harga acuan.;;Kenapa ini penting buat pasar Indonesia?;;Indonesia sebagai net importir minyak, akses ke harga minyak global via platform crypto memberi trader lokal eksposur ke komoditas energi tanpa perlu akun bursa berjangka tradisional.
 ---
 
-> **TL;DR:** ICE (Intercontinental Exchange), pemilik New York Stock Exchange, dan OKX mengumumkan kemitraan untuk meluncurkan perpetual oil futures berbasis Brent crude dan WTI. Kontrak yang tidak pernah kedaluwarsa ini membuka akses ke pasar minyak global bagi 120 juta trader crypto OKX. Langkah ini mengikuti kesuksesan Hyperliquid yang mencatat volume harian $1,6 miliar dari produk serupa.
+<div class="tldr-box">
+<strong>TL;DR:</strong> ICE (Intercontinental Exchange), pemilik New York Stock Exchange, dan OKX mengumumkan kemitraan untuk meluncurkan perpetual oil futures berbasis Brent crude dan WTI. Kontrak yang tidak pernah kedaluwarsa ini membuka akses ke pasar minyak global bagi 120 juta trader crypto OKX. Langkah ini mengikuti kesuksesan Hyperliquid yang mencatat volume harian $1,6 miliar dari produk serupa.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto dan derivatif mengandung risiko tinggi.

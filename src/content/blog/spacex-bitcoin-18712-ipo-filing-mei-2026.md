@@ -10,7 +10,9 @@ faq: >
   Berapa banyak Bitcoin yang dimiliki SpaceX?;;SpaceX memiliki 18.712 Bitcoin senilai sekitar $1.45 miliar berdasarkan harga saat ini. Perusahaan membeli BTC dengan harga rata-rata $35.324 per koin, dengan total biaya $661 juta.;;Kapan SpaceX IPO?;;SpaceX menargetkan listing di Nasdaq pada 12 Juni 2026 dengan ticker SPCX. IPO ini diperkirakan menjadi yang terbesar dalam sejarah, dengan target penggalangan dana $75-80 miliar.;;Apa perbandingan Bitcoin SpaceX dengan perusahaan lain?;;SpaceX memiliki BTC lebih banyak dari Tesla (11.509 BTC) dan Coinbase, namun jauh di bawah MicroStrategy yang memiliki lebih dari 840.000 BTC. SpaceX akan menjadi pemegang Bitcoin publik terbesar ketujuh.;;Apa dampak berita ini ke pasar crypto?;;Berita ini dikonfirmasi oleh filing SEC resmi, memberikan legitimasi tambahan pada Bitcoin sebagai aset treasury korporat. Ini juga menunjukkan keyakinan Elon Musk terhadap Bitcoin di luar Tesla.
 ---
 
-> **TL;DR:** SpaceX mengungkapkan kepemilikan 18.712 Bitcoin (senilai $1.45 miliar) dalam filing S-1 untuk IPO yang akan menjadi terbesar dalam sejarah. Jumlah ini dua kali lipat dari perkiraan on-chain sebelumnya. IPO dijadwalkan 12 Juni 2026 di Nasdaq dengan ticker SPCX.
+<div class="tldr-box">
+<strong>TL;DR:</strong> SpaceX mengungkapkan kepemilikan 18.712 Bitcoin (senilai $1.45 miliar) dalam filing S-1 untuk IPO yang akan menjadi terbesar dalam sejarah. Jumlah ini dua kali lipat dari perkiraan on-chain sebelumnya. IPO dijadwalkan 12 Juni 2026 di Nasdaq dengan ticker SPCX.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

@@ -8,7 +8,9 @@ tags: ["ETF Bitcoin", "Truth Social", "Trump", "fee war", "regulasi ETF"]
 author: "CryptoSynth Research"
 ---
 
-> **TL;DR:** Truth Social resmi menarik registrasi ETF Bitcoin dan Ethereum. Analis Bloomberg bilang penyebabnya bukan masalah struktural, melainkan fee war yang makin gila. Biaya pengelolaan ETF Bitcoin sudah turun ke 14 basis poin dan Truth Social tidak bisa bersaing.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Truth Social resmi menarik registrasi ETF Bitcoin dan Ethereum. Analis Bloomberg bilang penyebabnya bukan masalah struktural, melainkan fee war yang makin gila. Biaya pengelolaan ETF Bitcoin sudah turun ke 14 basis poin dan Truth Social tidak bisa bersaing.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto memiliki fluktuasi harga yang tinggi.

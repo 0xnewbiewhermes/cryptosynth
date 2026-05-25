@@ -6,10 +6,12 @@ pubDate: 2026-05-16T23:32:33+07:00
 category: "DeFi"
 tags: ["KelpDAO", "DeFi", "LayerZero", "keamanan crypto", "bridge exploit", "rsETH"]
 author: "CryptoSynth Research"
-faq: "Apa itu KelpDAO dan apa yang terjadi?;;KelpDAO adalah protokol restaking di Ethereum yang dieksploitasi senilai $293 juta pada April 2026. Eksploitasi ini terkait dengan kerentanan di infrastruktur bridge LayerZero yang digunakan KelpDAO.;;Mengapa hack KelpDAO penting bagi industri DeFi?;;Hack ini menunjukkan bahwa kerentanan terbesar DeFi bukan lagi di smart contract, tapi di lapisan infrastruktur seperti bridge, sistem governance, dan keamanan operasional. Ini memaksa industri untuk beralih ke pendekatan yang lebih matang.;;Apa dampak hack KelpDAO bagi pengguna DeFi di Indonesia?;;Pengguna DeFi Indonesia perlu lebih berhati-hati memilih protokol yang bergantung pada infrastruktur pihak ketiga. Prioritaskan protokol dengan track record panjang, struktur sederhana, dan manajemen risiko yang transparan."
+faq: "Apa itu KelpDAO dan apa yang terjadi?;;KelpDAO adalah protokol restaking di Ethereum yang dieksploitasi senilai $293 juta pada April 2026. Eksploitasi ini terkait dengan kerentanan di infrastruktur bridge LayerZero yang digunakan KelpDAO.;;Mengapa hack KelpDAO penting bagi industri DeFi?;;Kerentanan terbesar DeFi bukan lagi di smart contract, tapi di lapisan infrastruktur seperti bridge, sistem governance, dan keamanan operasional. Ini memaksa industri untuk beralih ke pendekatan yang lebih matang.;;Apa dampak hack KelpDAO bagi pengguna DeFi di Indonesia?;;Pengguna DeFi Indonesia perlu lebih berhati-hati memilih protokol yang bergantung pada infrastruktur pihak ketiga. Prioritaskan protokol dengan track record panjang, struktur sederhana, dan manajemen risiko yang transparan."
 ---
 
-> **TL;DR:** Eksploitasi KelpDAO senilai $293 juta membuktikan bahwa kerentanan terbesar DeFi bukan lagi di smart contract, melainkan di infrastruktur bridge dan keamanan operasional. Industri kini terpaksa beralih ke pendekatan yang lebih "membosankan" namun aman.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Eksploitasi KelpDAO senilai $293 juta membuktikan bahwa kerentanan terbesar DeFi bukan lagi di smart contract, melainkan di infrastruktur bridge dan keamanan operasional. Industri kini terpaksa beralih ke pendekatan yang lebih "membosankan" namun aman.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

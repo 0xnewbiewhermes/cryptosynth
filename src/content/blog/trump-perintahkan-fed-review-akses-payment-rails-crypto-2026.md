@@ -10,7 +10,9 @@ faq: >
   Apa itu executive order Trump tentang crypto?;;Executive order yang ditandatangani 19 Mei 2026 memerintahkan Federal Reserve dan regulator keuangan AS untuk meninjau aturan yang menghambat akses perusahaan fintech dan crypto ke sistem pembayaran AS (master account). Fed diberi waktu 120 hari untuk menyusun laporan.;;Apa dampak executive order ini ke pasar crypto?;;Jika perusahaan crypto seperti Kraken, Ripple, dan Anchorage Digital bisa mengakses Fed master account, mereka tidak perlu lagi bergantung pada bank perantara untuk memproses transaksi. Ini bisa mempercepat adopsi crypto di AS dan menekan biaya transaksi.;;Apa bedanya dengan PACE Act?;;PACE Act adalah RUU bipartisan yang juga bertujuan memberi akses perusahaan fintech ke layanan pembayaran Fed. Executive order Trump bersifat lebih langsung karena memerintahkan review dalam batas waktu tertentu tanpa perlu persetujuan Kongres.
 ---
 
-> **TL;DR:** Presiden Trump menandatangani executive order pada 19 Mei 2026 yang memerintahkan Federal Reserve dan regulator AS untuk meninjau ulang aturan akses perusahaan fintech dan crypto ke sistem pembayaran AS. Fed diberi waktu 120 hari untuk menyusun laporan. Langkah ini jadi katalis penting bagi adopsi institusional crypto di AS setelah Kraken berhasil mendapatkan master account terbatas pada Maret 2026.
+<div class="tldr-box">
+<strong>TL;DR:</strong> Presiden Trump menandatangani executive order pada 19 Mei 2026 yang memerintahkan Federal Reserve dan regulator AS untuk meninjau ulang aturan akses perusahaan fintech dan crypto ke sistem pembayaran AS. Fed diberi waktu 120 hari untuk menyusun laporan. Langkah ini jadi katalis penting bagi adopsi institusional crypto di AS setelah Kraken berhasil mendapatkan master account terbatas pada Maret 2026.
+</div>
 
 <div class="disclaimer-box">
 <strong>Disclaimer:</strong> Artikel ini bersifat informatif dan bukan merupakan saran investasi. Selalu lakukan riset mandiri (DYOR) sebelum mengambil keputusan investasi. Perdagangan aset kripto mengandung risiko tinggi.

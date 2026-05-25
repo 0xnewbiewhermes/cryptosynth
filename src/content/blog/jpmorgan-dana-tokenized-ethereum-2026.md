@@ -33,7 +33,7 @@ Ini berposisi sebagai kendaraan cadangan yang menghasilkan yield bagi perusahaan
 
 Langkah JPMorgan ini terjadi hanya beberapa hari setelah **BlackRock (BLK)**, manajer aset terbesar di dunia, mengajukan dokumen untuk kendela cadangan Treasury tokenized baru dan saham berbasis blockchain dari dana money market senilai $7 miliar yang sudah ada.
 
-Persaingan JPMorgan sama BlackRock di tokenisasi nunjukin ini bukan eksperimen lagi — udah jadi lini bisnis strategis.
+Persaingan JPMorgan sama BlackRock di tokenisasi nunjukin ini bukan eksperimen lagi, udah jadi lini bisnis strategis.
 
 ### Pasar Aset Dunia Nyata (RWA) Terus Tumbuh
 

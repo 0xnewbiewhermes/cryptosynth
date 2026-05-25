@@ -1,6 +1,6 @@
 ---
 title: "From Zero to GenLayer: Tutorial Lengkap Bangun Dispute Resolution dApp"
-description: "Tutorial lengkap GenLayer dari nol — pelajari Optimistic Democracy, tulis Intelligent Contract Python, deploy di Studio, bangun frontend React, dan deploy ke Bradbury Testnet."
+description: "Tutorial lengkap GenLayer dari nol: pelajari Optimistic Democracy, tulis Intelligent Contract Python, deploy di Studio, bangun frontend React, deploy ke Bradbury Testnet."
 excerpt: "Panduan 5-bagian dalam satu artikel: pahami konsep GenLayer, tulis Intelligent Contract dispute resolution, deploy di Studio, bangun frontend dengan genlayer-js, dan deploy ke Bradbury Testnet."
 pubDate: 2026-05-25T13:40:00+07:00
 category: "Tutorial"
@@ -9,10 +9,10 @@ author: "CryptoSynth Research"
 faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intelligent contracts yang bisa memahami bahasa alami, mengakses internet, dan menyelesaikan sengketa secara desentralisasi tanpa oracle. Ini adalah Adjudication Layer untuk agentic economy.;;Apa itu Optimistic Democracy?;;Mekanisme konsensus GenLayer dimana sekelompok validator dengan model AI berbeda secara independen mengevaluasi transaksi dan voting. Transaksi diterima jika mayoritas setuju. Ada mekanisme banding jika hasilnya dianggap salah.;;Apa itu Intelligent Contract?;;Intelligent Contract adalah evolusi dari smart contract tradisional yang bisa memahami bahasa alami, mengakses internet, dan menggunakan AI. Ditulis dalam Python dan berjalan di GenLayer blockchain dengan konsensus validator AI.;;Bagaimana deploy contract di GenLayer Studio?;;Buka studio.genlayer.com, buat account (otomatis), fund dengan built-in faucet (💧), upload file .py contract, buka Run & Debug sidebar, klik Deploy.;;Apa itu genlayer-js?;;SDK JavaScript untuk berinteraksi dengan GenLayer blockchain dari frontend React/Next.js. Mendukung koneksi wallet MetaMask, call contract methods, dan query data.;;Apa perbedaan Studio vs Bradbury?;;Studio (Chain ID 61999) — hosted dev environment, state temporary, gratis. Bradbury (Chain ID 4221) — production-like testnet, state persistent, real AI models, perlu MetaMask dan faucet."
 ---
 
-> **TL;DR:** GenLayer adalah blockchain layer untuk AI-powered intelligent contracts. Beda dengan Ethereum yang deterministic, GenLayer bisa mengeksekusi kontrak yang butuh penilaian — seperti menyelesaikan sengketa, memverifikasi klaim, atau menganalisis data web. Kuncinya ada di **Optimistic Democracy** dan **Equivalence Principle**. Tutorial ini mencakup 5 bagian: konsep → coding → deploy → frontend → go live.
+> **TL;DR:** GenLayer adalah blockchain layer untuk AI-powered intelligent contracts. Beda dengan Ethereum yang deterministic, GenLayer bisa ngeksekusi kontrak yang butuh penilaian: nyelesaiin sengketa, verifikasi klaim, atau analisis data web. Kuncinya ada di **Optimistic Democracy** dan **Equivalence Principle**. Tutorial ini 5 bagian: konsep, coding, deploy, frontend, go live.
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini adalah konten edukatif dan bukan merupakan saran keuangan atau investasi. Kode bersifat contoh — jangan gunakan untuk transaksi asli tanpa audit keamanan profesional.
+<strong>Disclaimer:</strong> Artikel ini konten edukatif, bukan saran keuangan atau investasi. Kode cuma contoh: jangan dipake transaksi asli tanpa audit profesional.
 </div>
 
 ---
@@ -21,7 +21,7 @@ faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intel
 
 ## Bitcoin, Ethereum, dan Sekarang GenLayer
 
-Untuk memahami GenLayer, mari lihat evolusi blockchain:
+Biar gampang ngerti GenLayer, liat dulu evolusi blockchain-nya:
 
 | Layer | Contoh | Fungsi |
 |---|---|---|
@@ -224,9 +224,9 @@ class DisputeResolution(gl.Contract):
         self.escrow_balances[dispute.counterparty] = dispute.amount
 ```
 
-### AI Adjudication — Intinya!
+### AI Adjudication, Intinya!
 
-Ini bagian paling keren. GenLayer mengakses URL bukti, memanggil LLM untuk analisis, dan mencapai konsensus melalui Equivalence Principle:
+Ini bagian paling keren. GenLayer akses URL bukti, panggil LLM buat analisis, trus capai konsensus lewat Equivalence Principle:
 
 ```python
     @gl.public.write
@@ -428,7 +428,7 @@ Hanya JSON, tidak ada teks lain."""
         }
 ```
 
-**Simpan sebagai `DisputeResolution.py`** — ini yang akan kita deploy.
+**Simpan sebagai `DisputeResolution.py`**, ini yang bakal kita deploy.
 
 ---
 
@@ -490,7 +490,7 @@ Ini adalah siklus hidup transaksi yang dijelaskan di Bagian 1. Jika statusnya **
 
 ## Tips Testing
 
-**Leader Only Mode:** Execution Mode → "Leader Only (Fast, No Validation)" — lebih cepat tanpa full consensus, cocok untuk testing awal.
+**Leader Only Mode:** Execution Mode ke "Leader Only (Fast, No Validation)". Lebih cepat tanpa full consensus, cocok buat testing awal.
 
 **Multiple Accounts:** Click wallet → **New account** → Fund masing-masing → simulasi creator vs counterparty.
 
@@ -850,12 +850,12 @@ Deploy ke Vercel: `npm run build && vercel --prod`
 ✅ Deploy dan test di **GenLayer Studio**
 ✅ Membangun **frontend React** dengan genlayer-js
 ✅ Deploy ke **Bradbury Testnet** production-like
-✅ Membangun **Dispute Resolution dApp** — kasus penggunaan nyata
+✅ Membangun **Dispute Resolution dApp**, kasus penggunaan nyata
 
-GenLayer membuka era baru blockchain — **Trustless Adjudication**. Selamat, kamu sekarang sudah siap menjadi **GenLayer Builder**! 🚀
+GenLayer buka era baru blockchain: **Trustless Adjudication**. Lo sekarang udah siap jadi **GenLayer Builder**! 🚀
 
 ---
 
 <div class="tldr-box">
-<strong>Ringkasan Final:</strong> Tutorial ini mencakup seluruh perjalanan dari nol hingga menjadi GenLayer Builder. Mulai dari memahami Optimistic Democracy & Equivalence Principle, menulis Intelligent Contract Python untuk dispute resolution, deploy di Studio, membangun frontend React dengan genlayer-js, hingga deploy ke Bradbury Testnet. GenLayer adalah masa depan trustless adjudication — dan kamu sudah menjadi bagian dari ecosystem ini.
+<strong>Ringkasan Final:</strong> Tutorial ini ngeliput semua perjalanan dari nol sampe jadi GenLayer Builder. Dari ngerti Optimistic Democracy & Equivalence Principle, nulis Intelligent Contract Python buat dispute resolution, deploy di Studio, bikin frontend React pake genlayer-js, sampe deploy ke Bradbury Testnet. GenLayer adalah masa depan trustless adjudication, dan lo udah jadi bagian dari ecosystem ini.
 </div>

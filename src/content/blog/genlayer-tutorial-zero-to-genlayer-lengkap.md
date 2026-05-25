@@ -6,7 +6,7 @@ pubDate: 2026-05-25T13:40:00+07:00
 category: "Tutorial"
 tags: ["genlayer", "tutorial", "optimistic democracy", "equivalence principle", "intelligent contract", "python", "genlayer-js", "react", "nextjs", "metamask", "bradbury", "deploy", "studio", "dispute resolution", "blockchain", "ai"]
 author: "CryptoSynth Research"
-faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intelligent contracts yang bisa memahami bahasa alami, mengakses internet, dan menyelesaikan sengketa secara desentralisasi tanpa oracle. Ini adalah Adjudication Layer untuk agentic economy.;;Apa itu Optimistic Democracy?;;Mekanisme konsensus GenLayer dimana sekelompok validator dengan model AI berbeda secara independen mengevaluasi transaksi dan voting. Transaksi diterima jika mayoritas setuju. Ada mekanisme banding jika hasilnya dianggap salah.;;Apa itu Intelligent Contract?;;Intelligent Contract adalah evolusi dari smart contract tradisional yang bisa memahami bahasa alami, mengakses internet, dan menggunakan AI. Ditulis dalam Python dan berjalan di GenLayer blockchain dengan konsensus validator AI.;;Bagaimana deploy contract di GenLayer Studio?;;Buka studio.genlayer.com, buat account (otomatis), fund dengan built-in faucet (💧), upload file .py contract, buka Run & Debug sidebar, klik Deploy.;;Apa itu genlayer-js?;;SDK JavaScript untuk berinteraksi dengan GenLayer blockchain dari frontend React/Next.js. Mendukung koneksi wallet MetaMask, call contract methods, dan query data.;;Apa perbedaan Studio vs Bradbury?;;Studio (Chain ID 61999) — hosted dev environment, state temporary, gratis. Bradbury (Chain ID 4221) — production-like testnet, state persistent, real AI models, perlu MetaMask dan faucet."
+faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intelligent contracts yang bisa memahami bahasa alami, mengakses internet, dan menyelesaikan sengketa secara desentralisasi tanpa oracle. Ini adalah Adjudication Layer untuk agentic economy.;;Apa itu Optimistic Democracy?;;Mekanisme konsensus GenLayer dimana sekelompok validator dengan model AI berbeda secara independen mengevaluasi transaksi dan voting. Transaksi diterima jika mayoritas setuju. Ada mekanisme banding jika hasilnya dianggap salah.;;Apa itu Intelligent Contract?;;Intelligent Contract adalah evolusi dari smart contract tradisional yang bisa memahami bahasa alami, mengakses internet, dan menggunakan AI. Ditulis dalam Python dan berjalan di GenLayer blockchain dengan konsensus validator AI.;;Bagaimana deploy contract di GenLayer Studio?;;Buka studio.genlayer.com, buat account (otomatis), fund dengan built-in faucet (💧), upload file .py contract, buka Run & Debug sidebar, klik Deploy.;;Apa itu genlayer-js?;;SDK JavaScript untuk berinteraksi dengan GenLayer blockchain dari frontend React/Next.js. Mendukung koneksi wallet MetaMask, call contract methods, dan query data.;;Apa perbedaan Studio vs Bradbury?;;Studio (Chain ID 61999): hosted dev environment, state temporary, gratis. Bradbury (Chain ID 4221): production-like testnet, state persistent, real AI models, perlu MetaMask dan faucet."
 ---
 
 > **TL;DR:** GenLayer adalah blockchain layer untuk AI-powered intelligent contracts. Beda dengan Ethereum yang deterministic, GenLayer bisa ngeksekusi kontrak yang butuh penilaian: nyelesaiin sengketa, verifikasi klaim, atau analisis data web. Kuncinya ada di **Optimistic Democracy** dan **Equivalence Principle**. Tutorial ini 5 bagian: konsep, coding, deploy, frontend, go live.
@@ -41,10 +41,10 @@ Ini yang GenLayer selesaikan. Intelligent Contract di GenLayer bisa **mengerti b
 
 GenLayer menggunakan mekanisme konsensus bernama **Optimistic Democracy**. Konsepnya sederhana:
 
-1. **Validator** — partisipan yang staking token GEN untuk memvalidasi transaksi
-2. **Leader** — validator terpilih secara acak yang mengeksekusi kontrak dan mengusulkan hasil
-3. **Voting** — validator lain mengecek hasil leader secara independen
-4. **Konsensus** — jika mayoritas setuju, transaksi diterima
+1. **Validator**: partisipan yang staking token GEN untuk memvalidasi transaksi
+2. **Leader**: validator terpilih secara acak yang mengeksekusi kontrak dan mengusulkan hasil
+3. **Voting**: validator lain mengecek hasil leader secara independen
+4. **Konsensus**: jika mayoritas setuju, transaksi diterima
 
 ### Siklus Hidup Transaksi
 
@@ -52,21 +52,21 @@ GenLayer menggunakan mekanisme konsensus bernama **Optimistic Democracy**. Konse
 Pending → Proposing → Committing → Leader Revealing → Revealing → Accepted → Finalized
 ```
 
-1. **Pending** — transaksi masuk antrian
-2. **Proposing** — leader mengeksekusi kontrak dan mengusulkan hasil
-3. **Committing** — validator lain eksekusi independen, kirim vote terenkripsi
-4. **Leader Revealing** — leader buka data eksekusi dan kunci dekripsi
-5. **Revealing** — validator buka vote mereka
-6. **Accepted** — mayoritas setuju, masuk appeal window
-7. **Finalized** — appeal window tutup, hasil permanen
+1. **Pending**: transaksi masuk antrian
+2. **Proposing**: leader mengeksekusi kontrak dan mengusulkan hasil
+3. **Committing**: validator lain eksekusi independen, kirim vote terenkripsi
+4. **Leader Revealing**: leader buka data eksekusi dan kunci dekripsi
+5. **Revealing**: validator buka vote mereka
+6. **Accepted**: mayoritas setuju, masuk appeal window
+7. **Finalized**: appeal window tutup, hasil permanen
 
 ### Non-Determinism dan Konsensus
 
 Ini yang bikin GenLayer unik. Karena kontrak bisa panggil LLM dan akses web, hasilnya bisa berbeda antar validator. GenLayer punya 3 mekanisme:
 
-- **Strict Equality** — semua validator harus hasil output identik
-- **LLM Comparison** — LLM pembanding membandingkan output validator
-- **Custom Validation** — developer tulis leader/validator function sendiri
+- **Strict Equality**: semua validator harus hasil output identik
+- **LLM Comparison**: LLM pembanding membandingkan output validator
+- **Custom Validation**: developer tulis leader/validator function sendiri
 
 ## Equivalence Principle
 
@@ -96,12 +96,12 @@ Validator tidak mereplikasi output Leader. Mereka **menilai akurasi** hasil Lead
 
 ## Use Cases GenLayer
 
-- **Dispute Resolution** — selesaikan sengketa antara dua pihak tanpa pengacara
-- **Prediction Market** — pasar prediksi yang bisa diverifikasi AI
-- **Insurance** — klaim asuransi yang diverifikasi otomatis
-- **Content Moderation** — moderasi konten secara terdesentralisasi
-- **Oracle** — oracle AI tanpa middleware
-- **DAOs** — voting cerdas dengan analisis proposal
+- **Dispute Resolution**: selesaikan sengketa antara dua pihak tanpa pengacara
+- **Prediction Market**: pasar prediksi yang bisa diverifikasi AI
+- **Insurance**: klaim asuransi yang diverifikasi otomatis
+- **Content Moderation**: moderasi konten secara terdesentralisasi
+- **Oracle**: oracle AI tanpa middleware
+- **DAOs**: voting cerdas dengan analisis proposal
 
 ---
 
@@ -111,14 +111,14 @@ Validator tidak mereplikasi output Leader. Mereka **menilai akurasi** hasil Lead
 
 Sebuah **Escrow Dispute Resolution Contract** dengan alur:
 
-1. **Pembuat Sengketa (Creator)** — setor deposit + deskripsi barang/jasa
-2. **Pihak Lawan (Counterparty)** — setor deposit yang sama
-3. **Eksekusi** — jika kedua pihak setuju, dana dikembalikan
-4. **Sengketa** — jika tidak setuju, GenLayer sebagai hakim:
+1. **Pembuat Sengketa (Creator)**: setor deposit + deskripsi barang/jasa
+2. **Pihak Lawan (Counterparty)**: setor deposit yang sama
+3. **Eksekusi**: jika kedua pihak setuju, dana dikembalikan
+4. **Sengketa**: jika tidak setuju, GenLayer sebagai hakim:
    - Akses URL bukti yang diberikan
    - Analisis dengan LLM
    - Putuskan siapa yang menang
-5. **Penyelesaian** — dana dikirim ke pemenang
+5. **Penyelesaian**: dana dikirim ke pemenang
 
 ## Struktur Contract
 
@@ -275,7 +275,7 @@ Hanya output JSON, tidak ada teks lain.
             result = gl.nondet.exec_prompt(prompt, response_format="json")
             return json.dumps(result, sort_keys=True)
 
-        # Equivalence Principle — semua validator harus setuju
+        # Equivalence Principle: semua validator harus setuju
         result_json = json.loads(
             gl.eq_principle.strict_eq(get_evidence)
         )

@@ -845,12 +845,12 @@ Deploy ke Vercel: `npm run build && vercel --prod`
 
 ## Yang Sudah Kita Capai
 
-✅ Memahami **Optimistic Democracy** dan **Equivalence Principle**
-✅ Menulis **Intelligent Contract** Python dengan akses web & AI
-✅ Deploy dan test di **GenLayer Studio**
-✅ Membangun **frontend React** dengan genlayer-js
-✅ Deploy ke **Bradbury Testnet** production-like
-✅ Membangun **Dispute Resolution dApp**, kasus penggunaan nyata
+✅ Memahami Optimistic Democracy dan Equivalence Principle
+✅ Menulis Intelligent Contract Python dengan akses web & AI
+✅ Deploy dan test di GenLayer Studio
+✅ Membangun frontend React dengan genlayer-js
+✅ Deploy ke Bradbury Testnet production-like
+✅ Membangun Dispute Resolution dApp, kasus penggunaan nyata
 
 GenLayer buka era baru blockchain: **Trustless Adjudication**. Lo sekarang udah siap jadi **GenLayer Builder**! 🚀
 

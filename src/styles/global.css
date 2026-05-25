@@ -848,16 +848,33 @@ pre.astro-code code {
 
 .section-link:hover { gap: 0.5rem; opacity: 1; }
 
-/* ===== PAGE HERO (Sub Pages) ===== */
+/* ===== PAGE HERO (Sub Pages) — Light, Clean ===== */
 .page-hero {
-  background: var(--text-primary);
+  background: var(--bg-elevated);
   padding: 1.5rem 0;
-  color: var(--text-inverse);
-  text-align: center;
+  border-bottom: 1px solid var(--border);
+  text-align: left;
 }
 
-.page-hero h1 { color: var(--text-inverse); margin-bottom: 0.35rem; }
-.page-hero p { color: rgba(255, 255, 255, 0.7); font-size: 1.05rem; }
+.page-hero .container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.page-hero h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.page-hero p {
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  max-width: 520px;
+}
 
 .page-hero + .section {
   padding-top: 0.5rem;

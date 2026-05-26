@@ -28,7 +28,7 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini berdasarkan informasi publik dari Decrypt, X posts, dan data pasar. Bukan saran investasi. Crypto dan saham punya risiko tinggi.
 </div>
 
-BitMine Immersion Technologies, perusahaan yang dipimpin Tom Lee selaku Chairman, resmi masuk daftar preliminary Russell 1000 -- indeks yang ngumpulin 1.000 perusahaan publik terbesar di AS. Pengumuman ini keluar dari FTSE Russell sebagai bagian dari rekonstitusi tahunan yang bakal efektif setelah closing bell 26 Juni 2026.
+BitMine Immersion Technologies, perusahaan yang dipimpin Tom Lee selaku Chairman, resmi masuk daftar preliminary Russell 1000: indeks yang ngumpulin 1.000 perusahaan publik terbesar di AS. Pengumuman ini keluar dari FTSE Russell sebagai bagian dari rekonstitusi tahunan yang bakal efektif setelah closing bell 26 Juni 2026.
 
 Market cap BitMine ada di $10.7 miliar, jauh di atas threshold $5.7 miliar yang dibutuhkan buat masuk kategori large-cap. Tom Lee ngasih catatan penting di X: banyak active manager cuma beli saham yang ada di Russell 1000.
 
@@ -44,9 +44,9 @@ Kabar ini juga gak sendiri. Galaxy Digital ikutan masuk Russell 1000 bareng BitM
 
 Buat yang inget sejarah, Strategy (dulu MicroStrategy) masuk Russell 1000 sekitar dua tahun lalu. Sejak itu saham MSTR naik berkali-kali lipat meskipun ada periode koreksi. Bukan jaminan sama, tapi polanya udah ada preseden.
 
-Saya rasa yang jarang dibahas dari berita ini adalah efek rantainya. BitMine dapet inflow $2 miliar, mereka punya lebih banyak cash buat accumulate ETH. Itu artinya ETH dapet pembeli institusional baru -- bukan lewat ETF spot, tapi lewat corporate treasury. Jalurnya memang lebih panjang, tapi efeknya ke harga ETH lebih langsung daripada ETF karena perusahaan ini emang strategy-nya hodl dan stake.
+Saya rasa yang jarang dibahas dari berita ini adalah efek rantainya. BitMine dapet inflow $2 miliar, mereka punya lebih banyak cash buat accumulate ETH. Itu artinya ETH dapet pembeli institusional baru: bukan lewat ETF spot, tapi lewat corporate treasury. Jalurnya memang lebih panjang, tapi efeknya ke harga ETH lebih langsung daripada ETF karena perusahaan ini emang strategy-nya hodl dan stake.
 
-Yang perlu dilacak ke depan: (1) final confirmation dari Russell di akhir Juni, (2) harga BMNR leading up ke reconstitution date -- biasanya ada front-running dari hedge fund, (3) jumlah ETH BitMine pas effective date -- kalo mereka accumulate lebih agresif, sinyal bullish buat ETH.
+Yang perlu dilacak ke depan: final confirmation dari Russell di akhir Juni, harga BMNR menjelang reconstitution date (biasanya ada front-running dari hedge fund), dan jumlah ETH BitMine pas effective date. Kalo mereka accumulate lebih agresif, sinyal bullish buat ETH.
 
 Satu catatan tambahan: inflow $2 miliar ini kalo dikonversi ke rupiah, sekitar Rp29 triliun. Bandingkan dengan volume trading harian Indodax yang rata-rata Rp500-Rp700 miliar. Artinya, satu inflow index fund AS ini setara 40-60 hari volume trading exchange Indonesia. Bukan angka receh.
 

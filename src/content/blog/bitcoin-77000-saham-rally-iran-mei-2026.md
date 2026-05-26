@@ -11,10 +11,8 @@ tags:
   - Market Analysis
   - ETF
   - Geopolitik
-faq:
-  - "Q: Kenapa Bitcoin bisa bertahan di $77K?;;A: Kombinasi rally saham global (Nikkei +2,9%, CAC 40 +1,8%), turunnya harga minyak Brent ke level terendah 5 minggu setelah Trump sebut negosiasi Selat Hormuz berjalan baik, dan support level psikologis $74K-$76K yang cukup solid dari data Glassnode."
-  - "Q: Apa kendala utama Bitcoin naik ke $82K?;;A: Spot Bitcoin ETF outflow $2,66 miliar sejak 7 Mei dan futures basis rate hanya 2% (di bawah normal 5-10%) menandakan institusi belum yakin. Ditambah Strategy (MSTR) pause pembelian BTC untuk buyback obligasi konversi."
-  - "Q: Apa katalis terdekat yang bisa pengaruhi harga BTC?;;A: Laporan PCE inflation AS minggu depan jadi kunci. Data lebih rendah bisa revive harapan pelonggaran moneter dan bawa institusi balik. Sebaliknya, inflasi panas reinforce narrative higher-for-longer."
+faq: >
+  Q: Kenapa Bitcoin bisa bertahan di $77K?;;A: Kombinasi rally saham global, turunnya harga minyak Brent, dan support level psikologis $74K-$76K dari data Glassnode. Q: Apa kendala utama Bitcoin naik ke $82K?;;A: Spot Bitcoin ETF outflow $2,66 miliar sejak 7 Mei dan futures basis rate cuma 2%. Q: Apa katalis terdekat?;;A: Laporan PCE inflation AS minggu depan jadi kunci. Data lebih rendah bisa revive inflow institusi.
 ---
 <div class="tldr-box">
 <strong>TL;DR:</strong> Bitcoin bertahan di $77.000 setelah pekan yang berat dengan ETF outflow $2,66 miliar dan aksi jual institusional. Saham global rally karena ekspektasi damai AS-Iran bikin minyak turun ke level terendah 5 minggu. Tapi data derivatif bilang institusi belum percaya. Futures basis BTC cuma 2%, jauh dari normal 5-10%. $82K jadi target berikutnya, tapi butuh katalis yang lebih kuat dari sekadar minyak murah.

@@ -24,7 +24,7 @@ Akhir Mei ini sepi-sepi gak sepi. Ada tiga project yang lagi rame dibahas di tim
 
 ## Variational: Phase 2 RWA Makin Dekat
 
-[Variational baru aja ngumumin $50M Series A pimpinan Dragonfly](https://x.com/variational_io/status/2057097346086047982) minggu lalu. Buat yang belum tahu, ini protokol perp DEX di Arbitrum yang fokus di RWA (real world assets). Angkanya lumayan gila: cumulative volume udah tembus $219 miliar, OI dual-sided ~$740 juta, TVL ~$104 juta — dan mereka belum punya token.
+[Variational baru aja ngumumin $50M Series A pimpinan Dragonfly](https://x.com/variational_io/status/2057097346086047982) minggu lalu. Buat yang belum tahu, ini protokol perp DEX di Arbitrum yang fokus di RWA (real world assets). Angkanya lumayan gila: cumulative volume udah tembus $219 miliar, OI dual-sided ~$740 juta, TVL ~$104 juta: dan mereka belum punya token.
 
 **Phase 1** baru aja rilis: [emas, perak, tembaga, minyak dari cross-margined account. Zero fees, 50x leverage](https://x.com/variational_io/status/2057097358115291354).
 
@@ -33,7 +33,7 @@ Akhir Mei ini sepi-sepi gak sepi. Ada tiga project yang lagi rame dibahas di tim
 **Omni points program** masih jalan. 150.000 points didistribusi tiap minggu ke 19.000-22.000 akun. [Poinnya udah diperdagangkan OTC di $20-60 per point, dan komunitas optimis tembus $100+ pas TGE](https://x.com/loffyhl/status/2058904457300111408).
 
 **Tips buat farming:**
-- Fokus ke RWA markets pas Phase 2 launch — kompetisi lebih rendah daripada pair kripto biasa
+- Fokus ke RWA markets pas Phase 2 launch: kompetisi lebih rendah daripada pair kripto biasa
 - Pake referral code buat 15% points boost
 - Trade pake leverage moderate (5-10x), jangan over-leverage
 - Waktu nahan posisi lebih penting daripada frekuensi buka-tutup
@@ -55,16 +55,16 @@ Masalah yang jarang dibahas: Polymarket pake KYC. Jadi kalo kamu dari Indonesia,
 
 ## Base: Masih Spekulasi, Tapi Positioning Jauh-jauh
 
-Base, L2 besutan Coinbase, [belum ngumumin token resmi — bio X mereka cuma bilang "beginning to explore a network token"](https://x.com/base/status/2056492556570001717).
+Base, L2 besutan Coinbase, [belum ngumumin token resmi: bio X mereka cuma bilang "beginning to explore a network token"](https://x.com/base/status/2056492556570001717).
 
 Tapi komunitas udah nganggep ini S-tier opportunity buat 2026. Kenapa? Karena pola L2 gede biasanya reward early users. Optimism, Arbitrum, zkSync udah buktiin ini.
 
 **Yang bisa kamu lakuin sekarang:**
-- **Bridge aset ke Base** — pake jembatan resmi, Across, Hop, atau Jumper. Usahain pake beberapa provider buat history lebih variatif.
-- **Claim Basename** — [on-chain identity di Base, cuma ~0.001 ETH/tahun](https://x.com/Abrahamchase/status/1968269445559644348).
-- **Join Base Guild** di guild.xyz/base — [klaim roles, verifikasi, selesaikan task](https://x.com/BigAbdulWeb3/status/2047011235464421735).
-- **Generate transaksi konsisten** — swap di Aerodrome/Uniswap, lend/borrow di Aave/Morpho, deploy kontrak kecil via Remix
-- **Gak usah farming brutal** — quality over quantity. [Organic activity jauh lebih dihargai daripada spam](https://x.com/0xvietnguyen/status/2033033098863280136).
+- **Bridge aset ke Base**: pake jembatan resmi, Across, Hop, atau Jumper. Usahain pake beberapa provider buat history lebih variatif.
+- **Claim Basename**: [on-chain identity di Base, cuma ~0.001 ETH/tahun](https://x.com/Abrahamchase/status/1968269445559644348).
+- **Join Base Guild** di guild.xyz/base: [klaim roles, verifikasi, selesaikan task](https://x.com/BigAbdulWeb3/status/2047011235464421735).
+- **Generate transaksi konsisten**: swap di Aerodrome/Uniswap, lend/borrow di Aave/Morpho, deploy kontrak kecil via Remix
+- **Gak usah farming brutal**: quality over quantity. [Organic activity jauh lebih dihargai daripada spam](https://x.com/0xvietnguyen/status/2033033098863280136).
 
 Base juga punya ekosistem yang berkembang pesat buat AI agents dan stablecoin settlement. Dari segi fundamental, ini L2 paling aktif di Ethereum ekosistem sekarang.
 

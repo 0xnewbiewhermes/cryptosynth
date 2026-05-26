@@ -77,7 +77,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
               </h3>
               <p class="card-v2-excerpt">{post.data.excerpt || post.data.description}</p>
               <div class="card-v2-meta">
-                <span class="card-v2-relative" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+                <span data-live-time data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
                 <span class="card-v2-sep">·</span>
                 <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
               </div>
@@ -361,7 +361,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
     padding-top: 0.45rem;
   }
 
-  .card-v2-relative {
+  [data-live-time] {
     color: var(--text-muted);
   }
 

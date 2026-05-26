@@ -241,42 +241,6 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         });
       }
 
-      // Client-side relative time - updates in real-time in the browser
-      (function updateRelativeTimes() {
-        function formatRelative(dateStr) {
-          var now = new Date();
-          var d = new Date(dateStr);
-          var diffMs = now.getTime() - d.getTime();
-          // Jika artikel di masa depan atau baru saja, tetap "Baru saja" biar konsisten
-          if (diffMs < 0) return 'Baru saja';
-          var diffSec = Math.floor(diffMs / 1000);
-          var diffMin = Math.floor(diffSec / 60);
-          var diffHour = Math.floor(diffMin / 60);
-          var diffDay = Math.floor(diffHour / 24);
-          var diffWeek = Math.floor(diffDay / 7);
-          var diffMonth = Math.floor(diffDay / 30);
-
-          if (diffMin < 1) return 'Baru saja';
-          if (diffMin < 60) return diffMin + ' menit lalu';
-          if (diffHour < 24) return diffHour + ' jam lalu';
-          if (diffDay < 7) return diffDay + ' hari lalu';
-          if (diffWeek < 4) return diffWeek + ' minggu lalu';
-          if (diffMonth < 12) return diffMonth + ' bulan lalu';
-
-          return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
-        }
-
-        function refreshAll() {
-          document.querySelectorAll('.card-relative-time[data-pubdate]').forEach(function(el) {
-            var pubdate = el.getAttribute('data-pubdate');
-            if (pubdate) el.textContent = formatRelative(pubdate);
-          });
-        }
-
-        refreshAll();
-        setInterval(refreshAll, 60000); // update tiap 1 menit
-      })();
-
       // Professional live price ticker - CoinGecko API
       (function initTicker() {
         var coins = {
@@ -530,7 +494,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
         }
         function u() {
-          var el = document.querySelectorAll('[class*="card-v2-relative"]');
+          var el = document.querySelectorAll('[data-live-time][data-pubdate]');
           for (var i = 0; i < el.length; i++) {
             var p = el[i].getAttribute('data-pubdate');
             if (p) el[i].textContent = r(new Date(p));

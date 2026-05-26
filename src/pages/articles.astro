@@ -7,14 +7,14 @@ const posts = (await getCollection('blog')).sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
 
-const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial'];
+const categories = ['Semua', 'Airdrop', 'Tutorial'];
 ---
 
-<BaseLayout title="Semua Artikel - CryptoSynth.id" description="Seluruh artikel berita crypto, DeFi, airdrop, dan tutorial yang telah dipublikasikan oleh CryptoSynth.">
+<BaseLayout title="Semua Catatan - CryptoSynth.id" description="Seluruh catatan crypto personal yang pernah ditulis — airdrop, farming, tutorial, dan opini pasar.">
   <div class="page-hero">
     <div class="container">
-      <h1>Semua Artikel</h1>
-      <p>Seluruh artikel yang telah dipublikasikan oleh tim redaksi CryptoSynth.</p>
+      <h1>Semua Catatan</h1>
+      <p>Kumpulan catatan personal — airdrop, tutorial, node, dan opini pasar dari sudut pandang pribadi.</p>
     </div>
   </div>
 
@@ -68,12 +68,12 @@ const categories = ['Semua', 'Berita', 'Airdrop', 'DeFi', 'Funding', 'Tutorial']
 
     {posts.length === 0 && (
       <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-        <p style="font-size: 1.1rem;">Belum ada artikel yang dipublikasikan.</p>
+        <p style="font-size: 1.1rem;">Belum ada catatan yang dipublikasikan.</p>
       </div>
     )}
 
     <div style="text-align: center; padding: 2rem 0 0; color: var(--text-muted); font-size: 0.85rem;">
-      Menampilkan {posts.length} artikel
+      Menampilkan {posts.length} catatan
     </div>
     </div>
   </section>

@@ -2,7 +2,7 @@
 title: "OptimAI Network: Farming Airdrop DePIN + AI dengan Node, Udah 2 Juta Node Aktif"
 description: "OptimAI Network project DePIN + AI dengan 2M+ node. Token OPI belum TGE. Cara farming lewat Lite/Edge/Core Node, dashboard tasks, dan referral. Didukung YZILabs dan CoinMarketCap."
 excerpt: "OptimAI Network bangun infrastruktur agentic AI terdesentralisasi. Udah 2M+ node terinstall. Token OPI belum TGE. Cara farming: running node, data mining, dan referral."
-pubDate: 2026-05-26T17:50:00+07:00
+pubDate: 2026-05-26T18:05:00Z
 category: "Airdrop"
 tags: ["optimai", "airdrop", "depin", "ai-agents", "node", "opi", "farming", "mei-2026"]
 author: "Gideon"

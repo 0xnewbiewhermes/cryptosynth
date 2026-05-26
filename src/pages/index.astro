@@ -406,4 +406,38 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
 
     btn.addEventListener('click', showBatch);
   })();
+
+  // === LIVE RELATIVE TIME ===
+  (function() {
+    function relativeTime(d) {
+      var diffMs = Date.now() - d.getTime();
+      if (diffMs < 0) return 'Baru saja';
+      var sec = Math.floor(diffMs / 1000);
+      var min = Math.floor(sec / 60);
+      var hour = Math.floor(min / 60);
+      var day = Math.floor(hour / 24);
+      var week = Math.floor(day / 7);
+      var month = Math.floor(day / 30);
+      if (min < 1) return 'Baru saja';
+      if (min < 60) return min + ' menit lalu';
+      if (hour < 24) return hour + ' jam lalu';
+      if (day < 7) return day + ' hari lalu';
+      if (week < 4) return week + ' minggu lalu';
+      if (month < 12) return month + ' bulan lalu';
+      return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
+    }
+
+    function updateTimes() {
+      var els = document.querySelectorAll('.card-v2-relative');
+      for (var i = 0; i < els.length; i++) {
+        var iso = els[i].getAttribute('data-pubdate');
+        if (!iso) continue;
+        var d = new Date(iso);
+        els[i].textContent = relativeTime(d);
+      }
+    }
+
+    updateTimes();
+    setInterval(updateTimes, 60000);
+  })();
 </script>

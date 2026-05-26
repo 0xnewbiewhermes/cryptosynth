@@ -3,7 +3,7 @@ title: "Catena Labs: Airdrop Spekulatif atau Peluang Nyata? $48M dari a16z"
 slug: catena-labs-ai-bank-ai-agent-airdrop-mei-2026
 category: "Airdrop"
 description: "Catena Labs bangun regulated banking platform untuk AI agents. Total $48M dari a16z, Coinbase, Circle. Private Access udah buka, tapi airdrop masih spekulasi."
-pubDate: 2026-05-26T18:00:00+07:00
+pubDate: 2026-05-26T15:28:00+07:00
 author: "Gideon"
 tags:
   - catena

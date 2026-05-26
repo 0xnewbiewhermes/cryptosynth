@@ -1,4 +1,4 @@
-const CACHE_NAME = 'cryptosynth-v1';
+const CACHE_NAME = 'cryptosynth-v2';
 const PRECACHE_URLS = [
   '/',
   '/berita',

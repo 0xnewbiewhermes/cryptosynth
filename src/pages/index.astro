@@ -15,23 +15,23 @@ const totalArticles = posts.length;
 const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean);
 ---
 
-<BaseLayout title="CryptoSynth.id - Ringkasan Berita Web3 Setiap Hari" description="CryptoSynth.id - Portal berita Web3 Indonesia. Ringkasan harian berita crypto, airdrop, DeFi, dan analisis blockchain dari sumber global.">
+<BaseLayout title="CryptoSynth — Catatan Crypto dari Kalimantan" description="CryptoSynth — catatan crypto pribadi dari Kalimantan. Node Zcash logs, portfolio tracker, opini DeFi, dan farming airdrop.">
   <!-- Hero -->
   <section class="hero-v2">
     <div class="container hero-v2-layout">
       <div class="hero-v2-text">
-        <div class="hero-v2-badge">✦ Updated daily</div>
-        <h1>Ringkasan Berita Web3 Terbaru Setiap Hari</h1>
-        <p class="hero-v2-subtitle">TL;DR dari CoinDesk, The Block, dan sumber global lainnya: diringkas khusus untuk pembaca Indonesia.</p>
+        <div class="hero-v2-badge">✦ Catatan crypto dari Kalimantan</div>
+        <h1>Opini, Node Logs, dan Portfolio Tracker</h1>
+        <p class="hero-v2-subtitle">Gak ada ringkasan berita generik. Hanya catatan asli dari seseorang yang jalanin node, trading, dan farming airdrop setiap hari.</p>
       </div>
       <div class="hero-v2-stats">
         <div class="hero-v2-stat">
           <span class="hero-v2-stat-num">{totalArticles}+</span>
-          <span class="hero-v2-stat-label">Artikel</span>
+          <span class="hero-v2-stat-label">Catatan</span>
         </div>
         <div class="hero-v2-stat">
           <span class="hero-v2-stat-num">{categories.length}</span>
-          <span class="hero-v2-stat-label">Kategori</span>
+          <span class="hero-v2-stat-label">Topik</span>
         </div>
         <div class="hero-v2-stat">
           <span class="hero-v2-stat-num">Harian</span>
@@ -44,7 +44,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
   <!-- Trending -->
   <section class="trending-v2">
     <div class="container">
-      <div class="trending-v2-label">🔥 Trending Hari Ini</div>
+      <div class="trending-v2-label">🔥 Terbaru</div>
       <div class="trending-v2-list">
         {trending.map((post, i) => (
           <a href={`/blog/${post.id}`} class="trending-v2-item">
@@ -60,7 +60,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
   <section class="section">
     <div class="container">
       <div class="section-header">
-        <h2>Berita Terbaru</h2>
+        <h2>Semua Catatan</h2>
         <a href="/articles" class="section-link">Lihat Semua &rarr;</a>
       </div>
       <div class="articles-grid" id="articlesGrid">
@@ -93,7 +93,7 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
 
       <div class="articles-more" id="loadMoreWrap" style={posts.length <= 9 ? 'display:none' : ''}>
         <button type="button" class="btn btn-outline articles-more-btn" id="loadMoreBtn">
-          Muat Lebih Banyak ↓
+          Muat Lagi ↓
         </button>
         <p class="articles-more-count" id="loadMoreCount">Menampilkan 9 dari {posts.length} artikel</p>
       </div>

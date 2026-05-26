@@ -38,7 +38,7 @@ Salah satu yang bikin saya tertarik: mereka didukung investor kredibel: [YZILabs
 ## Token OPI: Status dan Potensi
 
 Token $OPI adalah **utility token** jaringan buat:
--激励机制 buat contributor (compute, data, infrastructure)
+- Insentif buat contributor (compute, data, infrastructure)
 - Akses ke services (compute, data validation)
 - Governance
 - Settlement layer buat marketplace & agent services
@@ -105,7 +105,7 @@ Jujur aja:
 - **Kompetisi ketat**. Segmen DePIN + AI udah rame: Grass, Gradient, Render, semuanya berebut market share.
 - **Belum ada guaranteed airdrop**. Farming node gak jamin dapet token.
 
-Tapi dari sisi fundamental, project ini salah satu yang paling serius menurut saya. Produk udah jalan (Claw, Search, Agent Marketplace), investor有名, dan network growth konsisten.
+Tapi dari sisi fundamental, project ini salah satu yang paling serius menurut saya. Produk udah jalan (Claw, Search, Agent Marketplace), dan network growth konsisten.
 
 ## Intinya
 

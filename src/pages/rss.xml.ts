@@ -6,7 +6,7 @@ export async function GET(context: APIContext) {
   const posts = await getCollection('blog');
   return rss({
     title: 'CryptoSynth.id',
-    description: 'Web3 Insights Daily',
+    description: 'CryptoSynth — catatan crypto pribadi dari Kalimantan. Node logs, portfolio, DeFi, dan farming airdrop.',
     site: context.site!,
     items: posts.map((post) => ({
       title: post.data.title,

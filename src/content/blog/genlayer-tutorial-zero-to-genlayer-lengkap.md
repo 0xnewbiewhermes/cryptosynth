@@ -12,7 +12,7 @@ faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intel
 > **TL;DR:** GenLayer adalah blockchain layer untuk AI-powered intelligent contracts. Beda dengan Ethereum yang deterministic, GenLayer bisa ngeksekusi kontrak yang butuh penilaian: nyelesaiin sengketa, verifikasi klaim, atau analisis data web. Kuncinya ada di **Optimistic Democracy** dan **Equivalence Principle**. Tutorial ini 5 bagian: konsep, coding, deploy, frontend, go live.
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini konten edukatif, bukan saran keuangan atau investasi. Kode cuma contoh: jangan dipake transaksi asli tanpa audit profesional.
+<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
 </div>
 
 ---

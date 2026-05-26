@@ -14,7 +14,7 @@ faq: >
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> Artikel ini hanya untuk informasi dan bukan merupakan saran keuangan. Selalu lakukan riset sendiri sebelum berinvestasi di cryptocurrency.
+<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
 </div>
 
 

@@ -67,6 +67,10 @@ Tapi jangan expect instant profit. Project ini masih awal banget: tim 11 orang, 
 
 Dari beberapa project AI-agent infrastructure yang lagi muncul, Catena punya pendekatan regulatory yang paling serius dibanding yang lain. Tapi timing TGE (kalo ada) bisa jauh: mereka fokus ke proses charter bank dulu, bukan token.
 
+<div class="disclaimer-box">
+<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
+</div>
+
 ---
 
 **Sumber:**

@@ -74,7 +74,9 @@ Dari ketiganya, **Variational** yang paling dekat TGE-nya. **Polymarket** paling
 
 Yang pasti: **testnet farming massal udah mati.** Semua project ini reward-nya berdasarkan aktivitas mainnet yang bernilai ekonomi. Kalo masih stuck farming testnet, waktunya upgrade strategi.
 
-*Catatan: Bukan saran investasi. Selalu DYOR sebelum farming. Airdrop gak ada yang guaranteed.*
+<div class="disclaimer-box">
+<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
+</div>
 
 **Sumber:**
 - [Variational $50M Series A](https://x.com/variational_io/status/2057097346086047982)

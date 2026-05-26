@@ -20,6 +20,10 @@ ogImage: "/images/og/default.jpg"
 <strong>TL;DR:</strong> Catena Labs ngumpulin total $48M (seed $18M + Series A $30M) dari a16z, Coinbase Ventures, Circle. Bangun regulated banking & governance platform buat AI agents. Founder Sean Neville mantan co-founder Circle yang bikin USDC. Private Access/waitlist udah buka di app.catena.com/waitlist. Tapi perlu dicatat: <strong>belum ada konfirmasi airdrop resmi</strong>.
 </div>
 
+<div class="disclaimer-box">
+<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
+</div>
+
 Iseng-iseng timeline beberapa hari ini rame soal Catena Labs. Project yang umurnya baru setahun lebih ini dapet perhatian cukup gede setelah ngumumin Series A $30M co-led a16z crypto sama Acrew Capital. Total pendanaan mereka sekarang $48M.
 
 Yang bikin project ini agak beda dari airdrop farming biasa: mereka gak bikin DEX atau L2. Mereka bangun regulated banking infrastructure: khusus buat AI agents.
@@ -66,10 +70,6 @@ Kalau mau coba join:
 Tapi jangan expect instant profit. Project ini masih awal banget: tim 11 orang, charter bank masih proses, produk masih Private Access. Kalo ada yang nawarin "claim token Catena" sekarang, 99% scam.
 
 Dari beberapa project AI-agent infrastructure yang lagi muncul, Catena punya pendekatan regulatory yang paling serius dibanding yang lain. Tapi timing TGE (kalo ada) bisa jauh: mereka fokus ke proses charter bank dulu, bukan token.
-
-<div class="disclaimer-box">
-<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
-</div>
 
 ---
 

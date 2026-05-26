@@ -20,6 +20,10 @@ ogImage: "/images/og/default.jpg"
 <strong>TL;DR:</strong> Variational Phase 2 RWA bakal buka 100+ pasar saham & komoditas, points OTC udah $20-60/point. Polymarket konfirmasi token $POLY + airdrop, taker rebate 50% mulai 28 Mei. Base belum ngumumin token resmi, tapi farmer udah mulai positioning dari sekarang.
 </div>
 
+<div class="disclaimer-box">
+<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
+</div>
+
 Akhir Mei ini sepi-sepi gak sepi. Ada tiga project yang lagi rame dibahas di timeline dan patut kamu pantau kalo serius sama airdrop farming.
 
 ## Variational: Phase 2 RWA Makin Dekat
@@ -73,10 +77,6 @@ Base juga punya ekosistem yang berkembang pesat buat AI agents dan stablecoin se
 Dari ketiganya, **Variational** yang paling dekat TGE-nya. **Polymarket** paling jelas konfirmasinya. **Base** yang paling spekulatif tapi potensi terbesar. Tergantung modal dan toleransi risiko kamu.
 
 Yang pasti: **testnet farming massal udah mati.** Semua project ini reward-nya berdasarkan aktivitas mainnet yang bernilai ekonomi. Kalo masih stuck farming testnet, waktunya upgrade strategi.
-
-<div class="disclaimer-box">
-<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
-</div>
 
 **Sumber:**
 - [Variational $50M Series A](https://x.com/variational_io/status/2057097346086047982)

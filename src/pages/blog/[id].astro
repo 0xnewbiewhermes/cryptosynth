@@ -76,15 +76,11 @@ const readTime = post.data.readingTime || Math.max(3, Math.ceil((post.body?.leng
     <nav class="article-breadcrumb" aria-label="Breadcrumb">
       <a href="/">Beranda</a>
       <span class="breadcrumb-sep">›</span>
-      <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`}>{post.data.category || 'Berita'}</a>
-      <span class="breadcrumb-sep">›</span>
       <span class="breadcrumb-current">{post.data.title}</span>
     </nav>
     <div class="article-header">
       <div class="article-header-inner">
         <div class="article-header-top">
-          <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="article-category">{post.data.category || 'Berita'}</a>
-          <span class="article-header-sep">·</span>
           <span class="article-author">Oleh <strong>{post.data.author || 'CryptoSynth'}</strong></span>
           <span class="article-header-sep">·</span>
           <span class="article-date">{shortDate}</span>

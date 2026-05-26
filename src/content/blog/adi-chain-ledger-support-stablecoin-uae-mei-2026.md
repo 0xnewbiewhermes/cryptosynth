@@ -18,23 +18,23 @@ faq: >
 <strong>Disclaimer:</strong> Artikel ini untuk tujuan informasi dan edukasi. Bukan saran investasi.
 </div>
 
-Ledger resmi nambahin dukungan native buat token $ADI dari ADI Chain, sebuah layer-2 blockchain institutional yang berbasis di Uni Emirat Arab. Lewat integrasi ini, pemegang $ADI bisa nyimpen token di Ledger Wallet dan hardware signing devices Ledger.
+[Ledger resmi nambahin dukungan native buat token $ADI dari ADI Chain](https://cointelegraph.com/news/ledger-integrates-uae-backed-adi-token-as-gulf-blockchain-infrastructure-expands), sebuah layer-2 blockchain institutional yang berbasis di Uni Emirat Arab. Lewat integrasi ini, pemegang $ADI bisa nyimpen token di Ledger Wallet dan hardware signing devices Ledger.
 
 ADI Chain bukan L2 sembarangan. Dibangun di atas zkSync (Atlas dan Airbender stack), network ini didesain khusus buat stablecoin dan tokenized real-world assets (RWA) di kawasan MENA (Middle East & North Africa). Backend-nya dari Sirius International Holding, anak perusahaan International Holding Company (IHC). ADI Foundation bilang network ini infrastruktur buat stablecoin yang regulated dan aset tokenisasi, dengan $ADI sebagai gas token native.
 
-Integrasi ini datang pas ADI Chain makin agresif ekspansi. Beberapa waktu lalu IHC ngelakuin transfer 110 juta dirham UAE (sekitar $30 juta) pake DDSC: stablecoin dirham yang dilisensi Central Bank of UAE. IHC bilang ini salah satu transaksi stablecoin terbesar yang pernah di-disclose secara publik di UAE.
+Integrasi ini datang pas ADI Chain makin agresif ekspansi. Beberapa waktu lalu [IHC ngelakuin transfer 110 juta dirham UAE (sekitar $30 juta) pake DDSC](https://cointelegraph.com/news/uae-backed-ddsc-stablecoin-processes-30m-institutional-transaction): stablecoin dirham yang dilisensi Central Bank of UAE. IHC bilang ini salah satu transaksi stablecoin terbesar yang pernah di-disclose secara publik di UAE.
 
 Saya liat Indonesia bisa belajar dari sini. UAE udah punya stablecoin dirham yang fully licensed sama Bank Sentral mereka: DDSC bukan cuma jalan di suatu exchange, tapi diakui sebagai alat pembayaran digital resmi. Di Indonesia stablecoin IDR kayak IDRT dan XIDR udah ada, tapi jalan tanpa framework khusus dari BI atau Bappebti. Kalo BI bikin aturan kayak UAE, ekosistem rupiah digital bisa lebih terstruktur. Tapi selama aturannya belum ada, stablecoin IDR tetep jadi gray area yang risikonya ditanggung user.
 
 ## Ekosistem Stablecoin Non-Dollar Makin Hidup
 
-Dari sisi market yang lebih luas, momen Ledger-ADI ini bagian dari tren stablecoin non-dollar yang mulai naik. Laporan Maret dari Dune Analytics yang dikomisi Visa nunjukin stablecoin non-dollar sekarang proses sekitar $10 miliar per bulan di volume transfer. Euro-backed tokens kuasai lebih dari 80% dari pasar stablecoin non-dollar, dengan supply sekitar $1,2 miliar.
+Dari sisi market yang lebih luas, momen Ledger-ADI ini bagian dari tren stablecoin non-dollar yang mulai naik. [Laporan Maret dari Dune Analytics yang dikomisi Visa](https://cointelegraph.com/news/euro-stablecoins-non-dollar-market-visa) nunjukin stablecoin non-dollar sekarang proses sekitar $10 miliar per bulan di volume transfer. Euro-backed tokens kuasai lebih dari 80% dari pasar stablecoin non-dollar, dengan supply sekitar $1,2 miliar.
 
 Tapi market share-nya masih kecil banget: kurang dari 1% dari total pasar stablecoin yang udah tembus $300 miliar+. MiCA dari Uni Eropa sebenarnya udah ngasih framework jelas buat issuer stablecoin euro, tapi laporan Blockchain for Education bulan April bilang aturan MiCA yang strict soal reserve dan interest bikin euro stablecoin lebih aman tapi kurang kompetitif secara komersil.
 
-Komisi Eropa bulan ini juga udah buka review aturan MiCA khusus stablecoin, reserve requirements, dan interest-bearing token products. Artinya regulator lagi evaluasi apakah framework-nya udah pas atau perlu dilonggarin.
+[Komisi Eropa bulan ini juga udah buka review aturan MiCA khusus stablecoin](https://cointelegraph.com/news/eu-mica-crypto-rules-review-updates), reserve requirements, dan interest-bearing token products. Artinya regulator lagi evaluasi apakah framework-nya udah pas atau perlu dilonggarin.
 
-Sementara itu konsorsium euro stablecoin Qivalis ngumumin ekspansi ke 37 institusi anggota: nambah 25 bank dari 15 negara: targetnya luncur tahun ini. Mereka bikin alternatif regulated buat stablecoin euro yang bisa saingan sama dollar-backed stablecoin.
+Sementara itu [konsorsium euro stablecoin Qivalis ngumumin ekspansi ke 37 institusi anggota](https://cointelegraph.com/news/qivalis-euro-stablecoin-consortium-adds-25-banks): nambah 25 bank dari 15 negara: targetnya luncur tahun ini. Mereka bikin alternatif regulated buat stablecoin euro yang bisa saingan sama dollar-backed stablecoin.
 
 ## Apa Artinya Buat Pasar Crypto Global
 

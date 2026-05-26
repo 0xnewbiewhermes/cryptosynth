@@ -464,10 +464,18 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         });
       })();
 
-      // Register Service Worker
+      // SW: hapus semua cache lama, unregister, lalu register baru
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
-          navigator.serviceWorker.register('/sw.js').catch(function() {});
+          caches.keys().then(function(names) {
+            return Promise.all(names.map(function(n) { return caches.delete(n); }));
+          }).then(function() {
+            navigator.serviceWorker.getRegistrations().then(function(regs) {
+              return Promise.all(regs.map(function(r) { return r.unregister(); }));
+            });
+          }).then(function() {
+            navigator.serviceWorker.register('/sw.js');
+          }).catch(function() {});
         });
       }
 
@@ -479,12 +487,12 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
         var months = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
         el.textContent = now.getDate() + ' ' + months[now.getMonth()] + ' ' + now.getFullYear();
       })();
-  // === LIVE RELATIVE TIME ===
+      // Live relative time — update every 60s
       (function() {
-        function r(d) {
+        function rt(d) {
           var n = Date.now() - d.getTime();
           if (n < 0) return 'Baru saja';
-          var s = Math.floor(n / 1e3), m = Math.floor(s / 60), h = Math.floor(m / 60), D = Math.floor(h / 24), w = Math.floor(D / 7), M = Math.floor(D / 30);
+          var m = Math.floor(n / 60000), h = Math.floor(m / 60), D = Math.floor(h / 24), w = Math.floor(D / 7), M = Math.floor(D / 30);
           if (m < 1) return 'Baru saja';
           if (m < 60) return m + ' menit lalu';
           if (h < 24) return h + ' jam lalu';
@@ -493,20 +501,21 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
           if (M < 12) return M + ' bulan lalu';
           return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
         }
-        function u() {
-          var el = document.querySelectorAll('[data-live-time][data-pubdate]');
+        function up() {
+          var el = document.querySelectorAll('[data-live-time]');
           for (var i = 0; i < el.length; i++) {
             var p = el[i].getAttribute('data-pubdate');
-            if (p) el[i].textContent = r(new Date(p));
+            if (p) el[i].textContent = rt(new Date(p));
           }
         }
         if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', function() { u(); setInterval(u, 6e4); });
+          document.addEventListener('DOMContentLoaded', function() { up(); setInterval(up, 60000); });
         } else {
-          u(); setInterval(u, 6e4);
+          up(); setInterval(up, 60000);
         }
       })();
     </script>
+    <script is:inline src="/live-time.js"></script>
   </body>
 </html>
 

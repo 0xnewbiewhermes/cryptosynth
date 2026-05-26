@@ -331,11 +331,11 @@ function formatDate(dateStr) {
     padding: 0.85rem 1rem;
     border: none;
     background: transparent;
-    color: var(--text-muted, #A1A1AA);
-    font-size: 0.95rem;
-    font-weight: 600;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    font-weight: 500;
     cursor: pointer;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-body);
     border-bottom: 2px solid transparent;
     transition: all 0.2s ease;
     position: relative;
@@ -359,21 +359,16 @@ function formatDate(dateStr) {
     display: block;
   }
 
-  /* ===== SCAM CHECKER inherited styles ===== */
+  /* ===== SCAM CHECKER — Light/New Design ===== */
   .scam-hero {
     position: relative;
-    padding: 2.5rem 0 1.5rem;
-    overflow: hidden;
-    background: var(--text-primary, #1A1A2E);
+    padding: 2rem 0 1.5rem;
+    background: var(--bg-elevated);
+    border-bottom: 1px solid var(--border);
   }
 
   .scam-hero-bg {
-    position: absolute;
-    inset: 0;
-    background:
-      radial-gradient(ellipse at 20% 40%, rgba(99, 102, 241, 0.12), transparent 60%),
-      radial-gradient(ellipse at 80% 60%, rgba(79, 70, 229, 0.08), transparent 50%);
-    pointer-events: none;
+    display: none;
   }
 
   .scam-hero-content {
@@ -389,20 +384,19 @@ function formatDate(dateStr) {
     align-items: center;
     gap: 0.5rem;
     padding: 0.35rem 1rem;
-    background: rgba(255, 255, 255, 0.08);
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    background: rgba(30, 64, 175, 0.08);
+    border: 1px solid rgba(30, 64, 175, 0.12);
     border-radius: 100px;
-    font-size: 0.78rem;
-    color: rgba(255, 255, 255, 0.75);
-    margin-bottom: 1.25rem;
-    backdrop-filter: blur(10px);
+    font-size: 0.82rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
     font-weight: 500;
   }
 
   .scam-hero-dot {
     width: 6px;
     height: 6px;
-    background: var(--accent);
+    background: var(--primary);
     border-radius: 50%;
     animation: scam-pulse 2s ease-in-out infinite;
   }
@@ -413,20 +407,20 @@ function formatDate(dateStr) {
   }
 
   .scam-hero-title {
-    font-size: 2.2rem;
-    font-weight: 900;
-    letter-spacing: -0.03em;
-    line-height: 1.1;
-    color: #fff;
-    margin-bottom: 0.5rem;
+    font-family: var(--font-display);
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.02em;
   }
 
   .scam-hero-desc {
-    font-size: 0.95rem;
-    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.9rem;
+    color: var(--text-secondary);
     max-width: 480px;
-    margin: 0 auto 1.5rem;
-    line-height: 1.6;
+    margin: 0 auto 1.25rem;
+    line-height: 1.5;
   }
 
   .scam-form-card {
@@ -435,18 +429,17 @@ function formatDate(dateStr) {
   }
 
   .scam-form-card-inner {
-    background: rgba(255, 255, 255, 0.06);
-    backdrop-filter: blur(20px) saturate(180%);
-    -webkit-backdrop-filter: blur(20px) saturate(180%);
-    border: 1px solid rgba(255, 255, 255, 0.1);
-    border-radius: var(--radius-lg, 16px);
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
     padding: 1.25rem 1.5rem;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: var(--shadow-sm);
+    transition: border-color 0.2s, box-shadow 0.2s;
   }
 
   .scam-form-card-inner:focus-within {
-    border-color: rgba(26, 93, 227, 0.4);
-    box-shadow: 0 0 30px rgba(26, 93, 227, 0.08);
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.08);
   }
 
   .scam-form {
@@ -459,25 +452,25 @@ function formatDate(dateStr) {
     display: flex;
     align-items: center;
     gap: 0.6rem;
-    background: rgba(0, 0, 0, 0.25);
-    border: 1.5px solid rgba(255, 255, 255, 0.1);
-    border-radius: var(--radius, 12px);
+    background: var(--bg-surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
     padding: 0 0.9rem;
-    transition: border-color 0.25s ease;
+    transition: border-color 0.2s;
   }
 
   .scam-input-wrap:focus-within {
-    border-color: var(--primary-light, #3A7FEE);
+    border-color: var(--primary);
   }
 
   .scam-input-icon {
-    color: rgba(255, 255, 255, 0.35);
+    color: var(--text-muted);
     flex-shrink: 0;
-    transition: color 0.25s;
+    transition: color 0.2s;
   }
 
   .scam-input-wrap:focus-within .scam-input-icon {
-    color: var(--primary-light, #3A7FEE);
+    color: var(--primary);
   }
 
   .scam-input {
@@ -485,45 +478,43 @@ function formatDate(dateStr) {
     background: transparent;
     border: none;
     outline: none;
-    padding: 0.85rem 0;
-    color: #fff;
-    font-size: 0.95rem;
-    font-family: 'JetBrains Mono', 'SF Mono', monospace;
-    font-weight: 500;
+    padding: 0.75rem 0;
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    font-weight: 400;
   }
 
   .scam-input::placeholder {
-    color: rgba(255, 255, 255, 0.3);
-    font-family: 'Plus Jakarta Sans', sans-serif;
+    color: var(--text-muted);
+    font-family: var(--font-body);
     font-weight: 400;
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
 
   .scam-btn {
-    padding: 0.85rem 1.75rem;
+    padding: 0.75rem 1.5rem;
     border: none;
-    border-radius: var(--radius, 12px);
+    border-radius: var(--radius);
     background: var(--primary);
     color: #fff;
-    font-size: 0.95rem;
-    font-weight: 700;
+    font-size: 0.9rem;
+    font-weight: 600;
     cursor: pointer;
-    transition: all 0.25s ease;
+    transition: background 0.2s, transform 0.15s;
     display: flex;
     align-items: center;
     gap: 0.5rem;
     white-space: nowrap;
-    font-family: 'Inter', sans-serif;
-    letter-spacing: 0.01em;
-    box-shadow: 0 4px 14px rgba(26, 93, 227, 0.25);
+    font-family: var(--font-body);
   }
 
-  .scam-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 20px rgba(26, 93, 227, 0.35); }
-  .scam-btn:active { transform: translateY(0); }
-  .scam-btn:disabled { opacity: 0.6; cursor: not-allowed; transform: none; box-shadow: none; }
+  .scam-btn:hover { background: var(--primary-dark); }
+  .scam-btn:active { transform: scale(0.97); }
+  .scam-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
 
   .scam-spinner {
-    width: 18px; height: 18px;
+    width: 16px; height: 16px;
     border: 2px solid rgba(255, 255, 255, 0.3);
     border-top-color: #fff;
     border-radius: 50%;
@@ -534,7 +525,7 @@ function formatDate(dateStr) {
 
   .scam-form-hint {
     text-align: left;
-    color: rgba(255, 255, 255, 0.3);
+    color: var(--text-muted);
     font-size: 0.78rem;
     margin-top: 0.6rem;
     padding-left: 0.25rem;
@@ -545,14 +536,14 @@ function formatDate(dateStr) {
     align-items: center;
     gap: 0.5rem;
     margin-top: 1rem;
-    color: rgba(255, 255, 255, 0.4);
+    color: var(--text-muted);
     font-size: 0.82rem;
     font-weight: 500;
   }
 
   .scam-stat-pulse {
     width: 6px; height: 6px;
-    background: var(--accent, #1E40AF);
+    background: var(--primary);
     border-radius: 50%;
     animation: scam-pulse 2s ease-in-out infinite;
   }
@@ -684,9 +675,9 @@ function formatDate(dateStr) {
   .scam-sources-note { margin-top: 1rem; font-size: 0.78rem; color: var(--text-muted, #A1A1AA); font-style: italic; text-align: center; }
 
   @media (max-width: 640px) {
-    .scam-hero { padding: 2rem 0 2rem; }
-    .scam-hero-title { font-size: 1.8rem; }
-    .scam-hero-desc { font-size: 0.9rem; padding: 0 0.5rem; }
+    .scam-hero { padding: 1.5rem 0 1.5rem; }
+    .scam-hero-title { font-size: 1.4rem; }
+    .scam-hero-desc { font-size: 0.85rem; padding: 0 0.5rem; }
     .scam-form-card-inner { padding: 1rem; }
     .scam-form { flex-direction: column; }
     .scam-btn { justify-content: center; padding: 0.8rem; }

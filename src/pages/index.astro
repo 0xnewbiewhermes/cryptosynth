@@ -67,15 +67,10 @@ const categories = [...new Set(posts.map(p => p.data.category))].filter(Boolean)
         {posts.map((post, index) => (
           <article class:list={['card-v2', index >= 9 && 'card-v2-hidden']}>
             <div class="card-v2-body">
-              <div class="card-v2-top">
-                <a href={`/category/${post.data.category?.toLowerCase() || 'berita'}`} class="card-v2-cat">
-                  {post.data.category || 'Berita'}
-                </a>
-                <div class="card-v2-tags">
-                  {(post.data.tags || []).slice(0, 2).map((tag) => (
-                    <span class="card-v2-tag">#{tag}</span>
-                  ))}
-                </div>
+              <div class="card-v2-tags">
+                {(post.data.tags || []).slice(0, 2).map((tag) => (
+                  <span class="card-v2-tag">#{tag}</span>
+                ))}
               </div>
               <h3 class="card-v2-title">
                 <a href={`/blog/${post.id}`}>{post.data.title}</a>

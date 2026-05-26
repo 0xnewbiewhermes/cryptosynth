@@ -21,15 +21,10 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
       {posts.map((post) => (
         <article class="card-v2">
             <div class="card-v2-body">
-              <div class="card-v2-top">
-                <a href={`/category/${post.data.category?.toLowerCase() || 'tutorial'}`} class="card-v2-cat">
-                  {post.data.category || 'Tutorial'}
-                </a>
-                <div class="card-v2-tags">
-                  {(post.data.tags || []).slice(0, 2).map((tag) => (
-                    <span class="card-v2-tag">#{tag}</span>
-                  ))}
-                </div>
+              <div class="card-v2-tags">
+                {(post.data.tags || []).slice(0, 2).map((tag) => (
+                  <span class="card-v2-tag">#{tag}</span>
+                ))}
               </div>
               <h3 class="card-v2-title">
                 <a href={`/blog/${post.id}`}>{post.data.title}</a>

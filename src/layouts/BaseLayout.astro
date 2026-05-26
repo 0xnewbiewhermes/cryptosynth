@@ -516,6 +516,7 @@ const { title, description, image, type = 'website', publishDate, modifiedDate, 
       })();
     </script>
     <script is:inline src="/live-time.js"></script>
+    <Fragment set:html={`<script>;(function(){function r(d){var n=Date.now()-d.getTime();if(n<0)return"Baru saja";var m=Math.floor(n/6e4),h=Math.floor(m/60),D=Math.floor(h/24),w=Math.floor(D/7),M=Math.floor(D/30);if(m<1)return"Baru saja";if(m<60)return m+" menit lalu";if(h<24)return h+" jam lalu";if(D<7)return D+" hari lalu";if(w<4)return w+" minggu lalu";if(M<12)return M+" bulan lalu";return d.toLocaleDateString("id-ID",{year:"numeric",month:"long",day:"numeric",timeZone:"Asia/Jakarta"})}var L=document.querySelectorAll("[data-live-time]");for(var i=0;i<L.length;i++){var p=L[i].getAttribute("data-pubdate");if(p)L[i].textContent=r(new Date(p))}setInterval(function(){for(var i=0;i<L.length;i++){var p=L[i].getAttribute("data-pubdate");if(p)L[i].textContent=r(new Date(p))}},6e4)})();<\/script>`} />
   </body>
 </html>
 

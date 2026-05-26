@@ -853,13 +853,14 @@ pre.astro-code code {
   background: var(--bg-elevated);
   padding: 1.5rem 0;
   border-bottom: 1px solid var(--border);
-  text-align: left;
+  text-align: center;
 }
 
 .page-hero .container {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+  align-items: center;
 }
 
 .page-hero h1 {

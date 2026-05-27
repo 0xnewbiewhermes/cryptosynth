@@ -10,16 +10,10 @@ export async function GET(context: APIContext) {
     { url: '/about/', changefreq: 'monthly', priority: '0.5' },
     { url: '/disclaimer/', changefreq: 'yearly', priority: '0.3' },
     { url: '/privacy/', changefreq: 'yearly', priority: '0.3' },
-    { url: '/category/berita/', changefreq: 'daily', priority: '0.8' },
     { url: '/category/airdrop/', changefreq: 'daily', priority: '0.8' },
-    { url: '/category/funding/', changefreq: 'weekly', priority: '0.7' },
-    { url: '/category/defi/', changefreq: 'weekly', priority: '0.7' },
     { url: '/category/tutorial/', changefreq: 'weekly', priority: '0.7' },
     { url: '/airdrop/', changefreq: 'daily', priority: '0.8' },
-    { url: '/airdrop-tracker/', changefreq: 'daily', priority: '0.8' },
     { url: '/articles/', changefreq: 'daily', priority: '0.8' },
-    { url: '/berita/', changefreq: 'daily', priority: '0.8' },
-    { url: '/scam-check/', changefreq: 'daily', priority: '0.8' },
     { url: '/tools/', changefreq: 'weekly', priority: '0.7' },
   ];
 

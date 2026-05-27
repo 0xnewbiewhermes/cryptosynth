@@ -17,7 +17,7 @@ const {
   title,
   description = "CryptoSynth.id - Web3 Insights Daily. Berita crypto, airdrop, DeFi, dan analisis harian dari sumber kredibel global.",
   image = "/images/og-default.png",
-  imageAlt = "CryptoSynth.id - Ringkasan Berita Web3 Harian",
+  imageAlt = "CryptoSynth.id - Catatan Crypto Personal",
   canonical,
   type = "website",
   publishDate,
@@ -58,7 +58,7 @@ const keywords = tags && tags.length > 0
   ? tags.join(', ')
   : category
     ? `${category}, crypto, web3, blockchain, DeFi, Indonesia`
-    : "crypto, web3, blockchain, DeFi, airdrop, berita crypto Indonesia";
+    : "crypto, web3, blockchain, DeFi, airdrop, catatan crypto Indonesia";
 
 // JSON-LD: WebSite schema ONLY on non-article pages (homepage, category, about, etc.)
 const websiteSchema = type !== "article" ? {
@@ -66,7 +66,7 @@ const websiteSchema = type !== "article" ? {
   "@type": "WebSite",
   "name": "CryptoSynth.id",
   "url": "https://cryptosynth.id",
-  "description": "Portal berita web3 Indonesia. Ringkasan harian dari sumber kredibel global.",
+  "description": "Catatan crypto pribadi — node logs, airdrop farming, tutorial, opini DeFi.",
   "inLanguage": "id",
   "publisher": {
     "@type": "Organization",
@@ -89,7 +89,7 @@ const articleSchema = type === "article" ? {
   "datePublished": publishDate,
   "dateModified": modifiedDate || publishDate,
   "author": {
-    "@type": "Organization",
+    "@type": "Person",
     "name": author
   },
   "publisher": {
@@ -187,7 +187,6 @@ const faqSchema = parsedFaq.length > 0 ? {
 <meta name="msvalidate.01" content="BEA857BF046569091CA03806980AEA5F" />
 <meta name="description" content={seoDescription} />
 <meta name="author" content={author} />
-<meta name="keywords" content={keywords} />
 <link rel="canonical" href={canonicalURL} />
 
 <!-- Open Graph -->

@@ -36,8 +36,8 @@
   --max-width: 1200px;
   --nav-height: 52px;
 
-  --font-display: 'Playfair Display', 'Georgia', serif;
-  --font-body: 'Outfit', 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Fraunces', 'Georgia', serif;
+  --font-body: 'DM Sans', 'Inter', system-ui, -apple-system, sans-serif;
 }
 
 /* ===== DARK MODE ===== */
@@ -671,7 +671,7 @@ pre:hover .code-copy-btn,
   border: 1.5px solid rgba(255, 255, 255, 0.12);
   padding: 0.4rem 1rem 0.4rem 0.8rem;
   border-radius: var(--radius-pill);
-  font-family: 'Playfair Display', 'Georgia', serif;
+  font-family: 'Fraunces', 'Georgia', serif;
   font-size: 0.82rem;
   font-style: italic;
   letter-spacing: 0.02em;

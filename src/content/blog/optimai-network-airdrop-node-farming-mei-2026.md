@@ -11,7 +11,7 @@ ogImage: "/images/og/optimai-network-airdrop-node-farming-mei-2026.png"
 ---
 
 <div class="tldr-box">
-<strong>TL;DR:</strong> OptimAI Network project DePIN layer untuk agentic AI. Udah 2M+ node terinstall, token OPI belum TGE. Bisa farming lewat Lite Node (browser/Telegram), Edge Node (mobile), atau Core Node (desktop). Didukung YZILabs, Easy Residency, CoinMarketCap. Cara main: daftar di node.optimai.network, pilih node type, jalanin tugas data mining & validasi, kumpulin points. Ada referral juga.
+<strong>TL;DR:</strong> OptimAI Network project DePIN layer untuk agentic AI. Udah 2M+ node terinstall, token OPI belum TGE. Bisa farming lewat Lite Node (browser/Telegram), Edge Node (mobile), atau Core Node (desktop). Didukung YZILabs, Easy Residency, CoinMarketCap. Cara main: daftar di https://node.optimai.network/register?ref=5AE81A85, pilih node type, jalanin tugas data mining & validasi, kumpulin points. Ada referral juga.
 </div>
 
 <div class="disclaimer-box">
@@ -119,7 +119,7 @@ Saya sendiri jalanin Core Node di VPS ini dan lihat langsung gimana sistemnya ke
 
 **Sumber:**
 - [OptimAI Network: Official Site](https://optimai.network)
-- [OptimAI Node Dashboard](https://node.optimai.network)
+- [OptimAI Node Dashboard](https://node.optimai.network/register?ref=5AE81A85)
 - [OptimAI Network X: Claw Travel Demo](https://x.com/OptimaiNetwork/status/2059278532878975373)
 - [OptimAI Network X: 2M Nodes Milestone](https://x.com/OptimaiNetwork/status/2054922238634148121)
 - [OptimAI Network X: OPI Token Utility](https://x.com/OptimaiNetwork/status/2020069714102562892)

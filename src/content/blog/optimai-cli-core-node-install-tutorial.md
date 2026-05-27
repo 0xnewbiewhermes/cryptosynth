@@ -153,7 +153,7 @@ optimai-cli rewards balance
 
 Nunjukin total reward yang terakumulasi. Di VPS saya, reward naik sekitar 2-3% per hari dari pantauan terakhir.
 
-Kamu juga bisa pantau lewat dashboard web di [node.optimai.network](https://node.optimai.network): ada balance real-time, contribution statistics, reward history, dan active tasks.
+Kamu juga bisa pantau lewat dashboard web di [node.optimai.network/register?ref=5AE81A85](https://node.optimai.network/register?ref=5AE81A85): ada balance real-time, contribution statistics, reward history, dan active tasks.
 
 ## Command Reference
 
@@ -222,5 +222,5 @@ Kalo ada pertanyaan soal setup atau troubleshooting, cek [dokumentasi resmi Opti
 **Sumber:**
 - [OptimAI CLI Node GitHub](https://github.com/OptimaiNetwork/OptimAI-CLI-Node)
 - [OptimAI Core Node Docs](https://docs.optimai.network/docs/optimai-node/core-node)
-- [OptimAI Node Dashboard](https://node.optimai.network)
+- [OptimAI Node Dashboard](https://node.optimai.network/register?ref=5AE81A85)
 - [OptimAI Network X: 2M Nodes](https://x.com/OptimaiNetwork/status/2054922238634148121)

@@ -161,7 +161,7 @@ input:focus-visible,
   left: 0.5rem;
   z-index: 9999;
   background: var(--primary);
-  color: #fff;
+  color: var(--text-inverse);
   padding: 0.5rem 1rem;
   border-radius: var(--radius-sm);
   font-size: 0.9rem;
@@ -172,7 +172,7 @@ input:focus-visible,
 
 .skip-link:focus {
   top: 0.5rem;
-  outline: 2px solid #fff;
+  outline: 2px solid var(--text-inverse);
   outline-offset: 2px;
 }
 
@@ -209,6 +209,39 @@ pre.astro-code code {
   padding: 0;
   border-radius: 0;
   font-size: inherit;
+}
+
+/* Code copy button */
+.code-copy-btn {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius-sm);
+  border: none;
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(255, 255, 255, 0.6);
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 0.15s ease, background 0.15s ease, color 0.15s ease;
+  z-index: 2;
+}
+pre:hover .code-copy-btn,
+.code-copy-btn:focus-visible {
+  opacity: 1;
+}
+.code-copy-btn:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.9);
+}
+.code-copy-btn.copied {
+  background: rgba(5, 150, 105, 0.3);
+  color: #6ee7b7;
+  opacity: 1;
 }
 
 /* ===== CONTAINER ===== */
@@ -720,7 +753,7 @@ pre.astro-code code {
   color: rgba(255, 255, 255, 0.85);
 }
 
-.hero-trending-item:hover { background: rgba(255, 255, 255, 0.08); color: #fff; }
+.hero-trending-item:hover { background: rgba(255, 255, 255, 0.08); color: var(--text-inverse); }
 
 .hero-trending-name {
   font-size: 1rem;
@@ -755,6 +788,10 @@ pre.astro-code code {
   gap: 0;
   animation: tickerScroll 60s linear infinite;
   width: max-content;
+}
+
+.ticker-bar:hover .ticker-track {
+  animation-play-state: paused;
 }
 
 @keyframes tickerScroll {
@@ -1453,7 +1490,7 @@ pre.astro-code code {
   border: 1px solid rgba(245, 158, 11, 0.15);
   border-radius: var(--radius);
   padding: 0.75rem 1rem;
-  font-size: 0.82rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
   margin-bottom: 1.5rem;
 }

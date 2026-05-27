@@ -15,7 +15,7 @@ interface Props {
 
 const {
   title,
-  description = "CryptoSynth.id - Web3 Insights Daily. Berita crypto, airdrop, DeFi, dan analisis harian dari sumber kredibel global.",
+  description = "Catatan crypto pribadi. Node logs, airdrop farming, tutorial, dan opini DeFi.",
   image = "/images/og-default.png",
   imageAlt = "CryptoSynth.id - Catatan Crypto Personal",
   canonical,
@@ -75,7 +75,11 @@ const websiteSchema = type !== "article" ? {
     "logo": {
       "@type": "ImageObject",
       "url": "https://cryptosynth.id/images/cryptosynth-logo.png"
-    }
+    },
+    "sameAs": [
+      "https://twitter.com/cryptosynthid",
+      "https://cryptosynth.id/rss.xml"
+    ]
   }
 } : null;
 

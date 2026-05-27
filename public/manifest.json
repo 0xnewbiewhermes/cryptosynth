@@ -1,7 +1,7 @@
 {
-  "name": "CryptoSynth.id - Web3 Insights Daily",
+  "name": "CryptoSynth.id - Catatan Crypto Personal",
   "short_name": "CryptoSynth",
-  "description": "Portal berita web3 Indonesia. Ringkasan harian dari sumber kredibel global.",
+  "description": "Catatan crypto pribadi. Node logs, airdrop farming, tutorial, dan opini DeFi.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#F7F5F0",
@@ -20,5 +20,5 @@
     }
   ],
   "lang": "id-ID",
-  "categories": ["news", "cryptocurrency", "finance"]
+  "categories": ["cryptocurrency", "finance", "blog"]
 }

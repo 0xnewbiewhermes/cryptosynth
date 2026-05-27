@@ -2,7 +2,7 @@
 title: "SYMB TGE Juni, ProprXYZ di Hyperliquid, dan SOSO Snapshot Terakhir: 3 Airdrop yang Wajib Dicek"
 description: "SYMB TGE 5 Juni dengan 25M token airdrop, ProprXYZ 45.5% allocation di Hyperliquid, dan SoSoValue snapshot terakhir 31 Mei. Catatan airdrop pribadi."
 excerpt: "Tiga airdrop yang lagi hot minggu ini: SYMB TGE 5 Juni dengan sistem leaderboard merit-based, ProprXYZ di Hyperliquid dengan 45.5% alokasi komunitas, dan SoSoValue snapshot terakhir sebelum distribusi."
-pubDate: 2026-05-27T05:05:00Z
+pubDate: 2026-05-27T05:05:00+07:00
 category: "Airdrop"
 tags: ["symb", "proprxyz", "sosovalue", "airdrop", "hyperliquid", "farming", "mei-2026"]
 author: "Gideon"

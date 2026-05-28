@@ -594,6 +594,11 @@ pre:hover .code-copy-btn,
   color: var(--text-muted);
 }
 
+/* ===== MAIN CONTENT — offset for fixed navbar ===== */
+#main-content {
+  margin-top: var(--nav-height);
+}
+
 /* Articles section */
 .articles-more {
   text-align: center;

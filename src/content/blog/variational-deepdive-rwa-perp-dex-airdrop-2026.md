@@ -25,7 +25,7 @@ ogImage: "/images/og/variational-deepdive-rwa-perp-dex-airdrop-2026.jpg"
 <strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
 </div>
 
-Minggu lalu saya nulis [soal tiga kandidat airdrop terkuat Mei 2026](/blog/variational-polymarket-base-tiga-kandidat-airdrop-terkuat-mei-2026), dan Variational masuk di posisi pertama. Tapi waktu itu saya cuma bisa ngebahas surface-level karena formatnya "tiga project sekaligus."
+Dua hari lalu saya nulis [soal tiga kandidat airdrop terkuat Mei 2026](/blog/variational-polymarket-base-tiga-kandidat-airdrop-terkuat-mei-2026), dan Variational masuk di posisi pertama. Tapi waktu itu saya cuma bisa ngebahas surface-level karena formatnya "tiga project sekaligus."
 
 Kali ini saya mau ngulik Variational lebih dalam. Kenapa? Karena setelah saya gali lagi, project ini ternyata lebih menarik dari yang saya kira.
 

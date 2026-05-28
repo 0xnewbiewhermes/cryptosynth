@@ -355,6 +355,7 @@ pre:hover .code-copy-btn,
   transform: scale(1.05);
 }
 
+.menu-toggle:focus,
 .menu-toggle:focus-visible {
   outline: none;
 }
@@ -416,8 +417,8 @@ pre:hover .code-copy-btn,
   transform: scale(0.97);
 }
 
-.search-toggle:focus,
-.search-toggle:focus-visible {
+.search-pill:focus,
+.search-pill:focus-visible {
   outline: none;
 }
 
@@ -1200,7 +1201,6 @@ pre:hover .code-copy-btn,
   font-size: 0.72rem;
   font-weight: 600;
   color: var(--text-muted);
-  text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 0.5rem;
 }
@@ -2617,6 +2617,10 @@ pre:hover .code-copy-btn,
 }
 .scroll-top-btn.visible:hover {
   transform: translateY(-2px);
+}
+.scroll-top-btn:focus,
+.scroll-top-btn:focus-visible {
+  outline: none;
 }
 
 /* ============ FILTER GROUP FIX ============ */

@@ -1,0 +1,145 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Pages - Admin CryptoSynth" description="Kelola semua halaman situs">
+  <div class="admin-page container">
+    <div class="admin-login" id="loginPanel">
+      <div class="login-box">
+        <h1>🔐 Admin</h1>
+        <form id="loginForm">
+          <input type="password" id="loginPassword" placeholder="Password" class="adm-input" autocomplete="current-password" />
+          <button type="submit" class="adm-btn adm-btn-primary">Login</button>
+        </form>
+        <p class="login-error" id="loginError"></p>
+      </div>
+    </div>
+
+    <div class="admin-dashboard" id="dashboard" style="display:none;">
+      <div class="adm-header">
+        <div>
+          <div class="adm-breadcrumb"><a href="/admin">Dashboard</a> / Pages</div>
+          <h1>📄 Halaman</h1>
+        </div>
+        <button class="adm-btn adm-btn-outline" id="btnLogout">Logout</button>
+      </div>
+      <div class="adm-status" id="statusBar"></div>
+      <div class="adm-list" id="pageList"><div class="adm-loading">Loading...</div></div>
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .admin-page { max-width: 860px; margin: 0 auto; padding: 2rem 1rem 4rem; }
+  .admin-login { display: flex; align-items: center; justify-content: center; min-height: 60vh; }
+  .login-box { width: 100%; max-width: 380px; text-align: center; }
+  .login-box h1 { font-family: var(--font-display); font-size: 1.75rem; font-weight: 700; margin-bottom: 1rem; color: var(--text-primary); }
+  .login-error { color: #dc3545; font-size: 0.85rem; min-height: 1.2em; margin-top: 0.75rem; }
+
+  .adm-input { width: 100%; padding: 0.7rem 0.85rem; border: 1px solid var(--border); border-radius: 0; background: var(--bg-card); color: var(--text-primary); font-size: 0.95rem; font-family: var(--font-body); outline: none; }
+  .adm-input:focus { border-color: var(--primary); }
+  .adm-btn { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.6rem 1.1rem; border: 1px solid transparent; border-radius: 0; font-size: 0.82rem; font-weight: 600; font-family: var(--font-body); cursor: pointer; transition: all 0.15s; text-decoration: none; white-space: nowrap; }
+  .adm-btn-primary { background: var(--primary); color: #fff; border-color: var(--primary); width: 100%; margin-top: 0.75rem; }
+  .adm-btn-primary:hover { opacity: 0.9; }
+  .adm-btn-outline { background: transparent; color: var(--text-primary); border-color: var(--border); }
+  .adm-btn-outline:hover { border-color: var(--text-primary); }
+
+  .adm-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1.5rem; gap: 1rem; flex-wrap: wrap; }
+  .adm-header h1 { font-family: var(--font-display); font-size: 1.35rem; font-weight: 700; color: var(--text-primary); margin: 0.15rem 0 0; }
+  .adm-breadcrumb { font-size: 0.75rem; color: var(--text-muted); }
+  .adm-breadcrumb a { color: var(--primary); text-decoration: none; }
+  .adm-breadcrumb a:hover { text-decoration: underline; }
+  .adm-status { font-size: 0.82rem; padding: 0.5rem 0; min-height: 1.5em; margin-bottom: 0.75rem; }
+  .adm-status.s-success { color: #16a34a; }
+  .adm-status.s-error { color: #dc3545; }
+  .adm-status.s-info { color: var(--text-muted); }
+
+  .adm-list { border: 1px solid var(--border); }
+  .adm-loading { padding: 2rem; text-align: center; color: var(--text-muted); font-size: 0.85rem; }
+
+  .adm-row { display: flex; align-items: center; justify-content: space-between; padding: 0.85rem 1rem; border-bottom: 1px solid var(--border); background: var(--bg-card); transition: all 0.15s; gap: 0.75rem; }
+  .adm-row:last-child { border-bottom: none; }
+  .adm-row:hover { padding-left: 1.25rem; }
+  .adm-row-info { flex: 1; min-width: 0; }
+  .adm-row-title { font-weight: 600; font-size: 0.9rem; color: var(--text-primary); display: block; }
+  .adm-row-meta { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.15rem; display: flex; gap: 0.75rem; }
+  .adm-row-path { font-family: monospace; font-size: 0.72rem; color: var(--text-muted); }
+  .adm-row-actions { display: flex; gap: 0.35rem; flex-shrink: 0; }
+  .adm-row-actions .adm-btn { padding: 0.35rem 0.65rem; font-size: 0.75rem; }
+
+  @media (max-width: 768px) {
+    .admin-page { padding: 1.5rem 0.75rem 3rem; }
+    .adm-header { flex-direction: column; }
+    .adm-row { flex-direction: column; align-items: flex-start; }
+    .adm-row-actions { margin-top: 0.5rem; }
+  }
+</style>
+
+<script is:inline>
+(function() {
+  var TOKEN_KEY = 'cs_admin_token';
+
+  function getToken() { return localStorage.getItem(TOKEN_KEY); }
+  function setToken(t) { localStorage.setItem(TOKEN_KEY, t); }
+  function clearToken() { localStorage.removeItem(TOKEN_KEY); }
+
+  var loginPanel = document.getElementById('loginPanel');
+  var dashboard = document.getElementById('dashboard');
+  var loginForm = document.getElementById('loginForm');
+  var loginError = document.getElementById('loginError');
+  var statusBar = document.getElementById('statusBar');
+  var pageList = document.getElementById('pageList');
+
+  function showDashboard() { loginPanel.style.display = 'none'; dashboard.style.display = 'block'; loadPages(); }
+  function showLogin() { loginPanel.style.display = 'flex'; dashboard.style.display = 'none'; clearToken(); }
+  if (getToken()) showDashboard();
+
+  loginForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    loginError.textContent = '';
+    var pw = document.getElementById('loginPassword').value;
+    try {
+      var res = await fetch('/api/admin/login', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ password: pw }) });
+      var json = await res.json();
+      if (res.ok && json.token) { setToken(json.token); showDashboard(); }
+      else { loginError.textContent = json.error || 'Login gagal'; }
+    } catch { loginError.textContent = 'Network error'; }
+  });
+
+  document.getElementById('btnLogout').addEventListener('click', showLogin);
+
+  async function loadPages() {
+    status('Loading...', 'info');
+    try {
+      var res = await fetch('/api/admin/pages', { headers: { 'Authorization': 'Bearer ' + getToken() } });
+      var json = await res.json();
+      if (!res.ok) { if (res.status === 401) { showLogin(); return; } status('Error: ' + json.error, 'error'); return; }
+      renderPages(json.pages || []);
+      status((json.pages || []).length + ' halaman', 'success');
+    } catch (err) { status('Error: ' + err.message, 'error'); }
+  }
+
+  function renderPages(pages) {
+    if (!pages.length) { pageList.innerHTML = '<div class="adm-empty">Tidak ada halaman.</div>'; return; }
+    var html = '';
+    pages.forEach(function(p) {
+      html += '<div class="adm-row">';
+      html += '  <div class="adm-row-info">';
+      html += '    <span class="adm-row-title">' + esc(p.label) + '</span>';
+      html += '    <div class="adm-row-meta"><span class="adm-row-path">' + esc(p.path) + '</span>';
+      if (p.size) html += '<span>' + (p.size > 1024 ? Math.round(p.size / 1024) + ' KB' : p.size + ' B') + '</span>';
+      if (!p.exists) html += '<span style="color:#dc3545;">not found</span>';
+      html += '</div></div>';
+      html += '  <div class="adm-row-actions">';
+      if (p.exists) html += '    <a href="/admin/pages/edit?slug=' + encodeURIComponent(p.slug) + '" class="adm-btn adm-btn-outline">Edit</a>';
+      html += '    <a href="/' + (p.slug === 'index' ? '' : p.slug === 'BaseLayout' ? '' : p.slug) + '" target="_blank" class="adm-btn adm-btn-outline">View</a>';
+      html += '  </div>';
+      html += '</div>';
+    });
+    pageList.innerHTML = html;
+  }
+
+  function status(msg, type) { statusBar.textContent = msg; statusBar.className = 'adm-status s-' + type; }
+  function esc(s) { if (!s) return ''; return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'); }
+})();
+</script>

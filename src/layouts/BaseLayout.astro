@@ -135,6 +135,7 @@ const isActive = (path: string) => {
     <script>
       const toggle = document.getElementById('menuToggle');
       const nav = document.getElementById('mainNav');
+      const header = document.querySelector('.header');
       const menuSvg = toggle ? toggle.querySelector('svg') : null;
       if (toggle && nav && menuSvg) {
         // Hamburger: 3 lines — Close (X): diagonal lines
@@ -144,12 +145,14 @@ const isActive = (path: string) => {
         toggle.addEventListener('click', () => {
           const open = nav.classList.toggle('open');
           toggle.classList.toggle('open', open);
+          if (header) header.classList.toggle('nav-open', open);
           menuSvg.innerHTML = open ? closePath : hamburgerPath;
         });
         nav.querySelectorAll('a').forEach(link => {
           link.addEventListener('click', () => {
             nav.classList.remove('open');
             toggle.classList.remove('open');
+            if (header) header.classList.remove('nav-open');
             menuSvg.innerHTML = hamburgerPath;
           });
         });
@@ -157,6 +160,7 @@ const isActive = (path: string) => {
           if (!nav.contains(e.target) && !toggle.contains(e.target)) {
             nav.classList.remove('open');
             toggle.classList.remove('open');
+            if (header) header.classList.remove('nav-open');
             menuSvg.innerHTML = hamburgerPath;
           }
         });

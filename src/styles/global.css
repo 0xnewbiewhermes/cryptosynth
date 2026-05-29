@@ -2495,6 +2495,7 @@ pre:hover .code-copy-btn,
   }
 
   .nav.open { display: flex; }
+  .header.nav-open { border-bottom: none; }
 
   .nav a {
     padding: 0.6rem 1rem;

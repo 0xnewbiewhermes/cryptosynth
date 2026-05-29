@@ -814,7 +814,7 @@ pre:hover .code-copy-btn,
 /* ===== PAGE HERO (Sub Pages) — Light, Clean ===== */
 .page-hero {
   background: var(--bg-elevated);
-  padding: 1.5rem 0;
+  padding: 1rem 0;
   border-bottom: 1px solid var(--border);
   text-align: center;
 }
@@ -2944,7 +2944,7 @@ pre:hover .code-copy-btn,
 
 /* Hero V3 */
 .hero-v3 {
-  padding: 5rem 0 4rem;
+  padding: 2.5rem 0 2.5rem;
 }
 
 .hero-v3-label {
@@ -2953,7 +2953,7 @@ pre:hover .code-copy-btn,
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-muted);
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
 }
 
 .hero-v3 h1 {
@@ -2962,7 +2962,7 @@ pre:hover .code-copy-btn,
   font-weight: 900;
   line-height: 1.0;
   letter-spacing: -0.04em;
-  margin-bottom: 1.5rem;
+  margin-bottom: 0.75rem;
   max-width: 600px;
   color: var(--text-primary);
 }
@@ -3134,7 +3134,7 @@ pre:hover .code-copy-btn,
 /* Responsive */
 @media (max-width: 768px) {
   .hero-v3 {
-    padding: 3rem 0 2.5rem;
+    padding: 1.5rem 0 1.5rem;
   }
   .hero-v3 h1 {
     font-size: 2rem;

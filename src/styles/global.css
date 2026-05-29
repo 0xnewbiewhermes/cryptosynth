@@ -312,6 +312,7 @@ a:hover { opacity: 0.8; }
   border-left: 2px solid transparent;
   margin: 0;
   display: flex;
+  flex-wrap: nowrap;
   gap: 0.5rem;
   align-items: first baseline;
   text-decoration: none;
@@ -344,6 +345,7 @@ a:hover { opacity: 0.8; }
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-bottom: 0;
+  flex-shrink: 0;
 }
 
 .entry-title {
@@ -352,6 +354,11 @@ a:hover { opacity: 0.8; }
   font-weight: 500;
   line-height: 1.4;
   transition: color 0.15s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  min-width: 0;
+  flex: 1;
 }
 
 .entry-title::before {
@@ -363,13 +370,14 @@ a:hover { opacity: 0.8; }
 .entry-excerpt {
   color: var(--text-muted);
   font-size: 0.75rem;
-  margin-top: 0.1rem;
+  margin-top: 0;
   line-height: 1.4;
   overflow: hidden;
   text-overflow: ellipsis;
-  display: -webkit-box;
-  -webkit-line-clamp: 1;
-  -webkit-box-orient: vertical;
+  white-space: nowrap;
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
 .entry-meta {
@@ -803,16 +811,18 @@ a:hover { opacity: 0.8; }
 
 .footer-links {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 120px);
+  gap: 1.5rem;
+  justify-content: end;
 }
 
 .footer-col h4 {
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
-  color: rgba(212, 212, 212, 0.15);
+  color: rgba(212, 212, 212, 0.25);
   margin-bottom: 0.7rem;
+  font-weight: 600;
 }
 
 .footer-col a {

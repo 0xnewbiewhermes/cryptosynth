@@ -306,18 +306,16 @@ a:hover { opacity: 0.8; }
 
 /* ===== ARTICLE ENTRY (terminal list item) ===== */
 .article-entry {
-  padding: 0.55rem 0.5rem;
+  padding: 0.85rem 0;
   cursor: pointer;
   transition: all 0.15s;
   border-left: 2px solid transparent;
   margin: 0;
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 0.5rem;
-  align-items: first baseline;
+  display: block;
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  padding-left: 0.5rem;
 }
 
 .article-entry:hover {
@@ -334,9 +332,7 @@ a:hover { opacity: 0.8; }
   color: rgba(212, 212, 212, 0.2);
   font-size: 0.72rem;
   font-weight: 500;
-  flex-shrink: 0;
-  width: 22px;
-  text-align: right;
+  margin-right: 0.5rem;
 }
 
 .entry-tag {
@@ -344,59 +340,46 @@ a:hover { opacity: 0.8; }
   font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 0;
-  flex-shrink: 0;
+  margin-right: 0.5rem;
 }
 
 .entry-title {
   color: var(--text-primary);
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   font-weight: 500;
-  line-height: 1.4;
+  line-height: 1.45;
   transition: color 0.15s;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  min-width: 0;
-  flex: 1;
-}
-
-.entry-title::before {
-  content: " — ";
-  color: rgba(212, 212, 212, 0.12);
-  font-weight: 400;
+  display: block;
+  margin-top: 0.2rem;
 }
 
 .entry-excerpt {
   color: var(--text-muted);
   font-size: 0.75rem;
-  margin-top: 0;
-  line-height: 1.4;
+  margin-top: 0.2rem;
+  line-height: 1.45;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-  max-width: 200px;
-  display: inline-block;
-  vertical-align: baseline;
 }
 
 .entry-meta {
   text-align: right;
   white-space: nowrap;
-  flex-shrink: 0;
-  align-self: first baseline;
-  padding-top: 0.05rem;
+  float: right;
+  margin-top: -0.1rem;
 }
 
 .entry-date {
   font-size: 0.65rem;
-  color: rgba(212, 212, 212, 0.15);
-  display: block;
+  color: rgba(212, 212, 212, 0.2);
+  display: inline;
 }
 
 .entry-time {
   font-size: 0.6rem;
-  color: rgba(212, 212, 212, 0.1);
+  color: rgba(212, 212, 212, 0.12);
+  margin-left: 0.35rem;
 }
 
 /* ===== ARTICLE READING STYLES ===== */
@@ -1038,7 +1021,8 @@ a:hover { opacity: 0.8; }
   }
 
   .article-entry {
-    grid-template-columns: 25px 1fr;
+    padding: 0.65rem 0;
+    padding-left: 0.35rem;
   }
 
   .entry-meta { display: none; }

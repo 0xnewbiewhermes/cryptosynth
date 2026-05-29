@@ -1227,6 +1227,7 @@ a:hover { opacity: 0.8; }
   /* Article mobile fixes */
   .article-container {
     padding: 1.25rem 0.85rem 3rem;
+    overflow-x: hidden;
   }
 
   .article-tag-label {
@@ -1249,6 +1250,16 @@ a:hover { opacity: 0.8; }
   .article-body {
     font-size: 0.84rem;
     line-height: 1.75;
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
+
+  .article-body p {
+    overflow-wrap: break-word;
+  }
+
+  .article-body code {
+    word-break: break-all;
   }
 
   .article-body h1 {
@@ -1270,13 +1281,15 @@ a:hover { opacity: 0.8; }
   .article-body pre {
     font-size: 0.72rem;
     padding: 0.65rem 0.75rem;
-    margin: 1rem -0.25rem;
+    margin: 1rem 0;
     border-radius: var(--radius);
+    max-width: 100%;
   }
 
   .article-body table {
     font-size: 0.72rem;
-    margin: 1rem -0.25rem;
+    margin: 1rem 0;
+    max-width: 100%;
   }
 
   .article-body th,

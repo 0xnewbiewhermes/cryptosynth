@@ -145,45 +145,7 @@ const posts = (await getCollection('blog')).sort(
     color: var(--text-dim);
   }
 
-  /* Quick actions (mobile) */
-  .quick-actions {
-    display: none;
-    position: fixed;
-    bottom: 24px;
-    left: 0;
-    right: 0;
-    background: var(--bg-elevated);
-    border-top: 1px solid rgba(255, 255, 255, 0.06);
-    padding: 0;
-    overflow-x: auto;
-    -webkit-overflow-scrolling: touch;
-    z-index: 90;
-  }
-
-  .quick-actions::-webkit-scrollbar { display: none; }
-
-  .qa-btn {
-    flex-shrink: 0;
-    padding: 0.5rem 0.75rem;
-    font-size: 0.6rem;
-    font-family: var(--font-mono);
-    color: var(--text-muted);
-    background: transparent;
-    border: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.04);
-    cursor: pointer;
-    transition: all 0.15s;
-    white-space: nowrap;
-  }
-
-  .qa-btn:active {
-    background: rgba(255, 255, 255, 0.04);
-    color: var(--accent-success);
-  }
-
-  .qa-icon {
-    margin-right: 0.3rem;
-  }
+  /* Quick actions (mobile) — styled in global.css */
 
   /* Help output */
   .help-box {
@@ -225,20 +187,8 @@ const posts = (await getCollection('blog')).sort(
       font-size: 0.28rem;
     }
 
-    .term-input-line {
-      display: none;
-    }
-
-    .quick-actions {
-      display: flex;
-    }
-
     .article-entry {
       grid-template-columns: 25px 1fr;
-    }
-
-    .entry-meta {
-      display: none;
     }
   }
 </style>
@@ -384,8 +334,13 @@ const posts = (await getCollection('blog')).sort(
         print(`Command not found: ${command}. Ketik <span class="term-warn">help</span> untuk bantuan.`, 'term-error');
     }
 
-    // Scroll to bottom
-    window.scrollTo(0, document.body.scrollHeight);
+    // Scroll to show output
+    const outputArea = document.getElementById('termOutput');
+    if (outputArea && outputArea.lastElementChild) {
+      outputArea.lastElementChild.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    } else {
+      window.scrollTo(0, document.body.scrollHeight);
+    }
   }
 
   // Input handler

@@ -3002,7 +3002,7 @@ pre:hover .code-copy-btn,
 }
 
 .article-row:first-child {
-  padding-top: 0;
+  padding-top: 1.5rem;
 }
 
 .article-row:hover {

@@ -156,6 +156,36 @@ a:hover { opacity: 0.8; }
   font-variant-numeric: tabular-nums;
 }
 
+/* Nav links (inside topbar) */
+.nav {
+  display: flex;
+  gap: 0.15rem;
+  align-items: center;
+}
+
+.nav a {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  padding: 0.3rem 0.65rem;
+  transition: all 0.15s;
+  border-left: 2px solid transparent;
+}
+
+.nav a:hover {
+  color: var(--text-primary);
+  background: var(--bg-hover);
+  opacity: 1;
+}
+
+.nav a.active {
+  color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.04);
+  border-left-color: var(--primary);
+  opacity: 1;
+}
+
 /* ===== MAIN CONTENT ===== */
 #main-content {
   margin-top: var(--nav-height);

@@ -81,10 +81,12 @@ const posts = (await getCollection('blog')).sort(
 <style>
   /* Terminal home layout */
   .terminal-home {
-    padding: 1.5rem 1.5rem 6rem;
+    padding: 1.5rem 1.5rem 0;
     max-width: 780px;
     margin: 0 auto;
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 64px);
+    display: flex;
+    flex-direction: column;
   }
 
   /* ASCII art */
@@ -106,14 +108,18 @@ const posts = (await getCollection('blog')).sort(
 
   .term-welcome {
     margin-bottom: 1.5rem;
+    flex-shrink: 0;
   }
 
   .term-output-area {
     margin-bottom: 1rem;
+    flex-shrink: 0;
   }
 
   .term-articles {
     margin-bottom: 1rem;
+    flex: 1;
+    overflow-y: auto;
   }
 
   /* Input line */
@@ -122,11 +128,10 @@ const posts = (await getCollection('blog')).sort(
     align-items: center;
     gap: 0.5rem;
     padding: 0.75rem 0;
-    border-top: 1px solid rgba(255, 255, 255, 0.04);
-    position: sticky;
-    bottom: 24px; /* above status bar */
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
     background: var(--bg);
-    z-index: 50;
+    margin-top: auto;
+    flex-shrink: 0;
   }
 
   .term-input {

@@ -2487,11 +2487,11 @@ pre:hover .code-copy-btn,
     background: rgba(247, 245, 240, 0.98);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
-    border-bottom: 1px solid var(--border);
+    border-bottom: none;
     flex-direction: column;
     padding: 0.5rem;
     gap: 0;
-    box-shadow: var(--shadow-md);
+    box-shadow: none;
   }
 
   .nav.open { display: flex; }

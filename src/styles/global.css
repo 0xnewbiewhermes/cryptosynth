@@ -546,6 +546,17 @@ a:hover { opacity: 0.8; }
   color: var(--text-secondary);
 }
 
+.article-body h1 {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 2.5rem 0 1rem;
+  letter-spacing: -0.02em;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+
 .article-body h2 {
   font-family: var(--font-display);
   font-size: 1.2rem;
@@ -1238,6 +1249,12 @@ a:hover { opacity: 0.8; }
   .article-body {
     font-size: 0.84rem;
     line-height: 1.75;
+  }
+
+  .article-body h1 {
+    font-size: 1.15rem;
+    margin: 1.75rem 0 0.75rem;
+    padding-top: 1rem;
   }
 
   .article-body h2 {

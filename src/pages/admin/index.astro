@@ -1,0 +1,439 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+const published = posts.filter(p => !p.data.draft);
+const categories = [...new Set(published.map(p => p.data.category))].sort();
+const tagCount = new Set(published.flatMap(p => p.data.tags || [])).size;
+const latestPost = published.sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())[0];
+---
+
+<BaseLayout title="Admin - CryptoSynth" description="Dashboard admin CryptoSynth.id">
+  <div class="admin-page container">
+
+    <!-- LOGIN -->
+    <div class="admin-login" id="loginPanel">
+      <div class="login-box">
+        <h1>🔐 Admin</h1>
+        <p>Masukkan password admin.</p>
+        <form id="loginForm">
+          <input type="password" id="loginPassword" placeholder="Password" class="admin-input" autocomplete="current-password" />
+          <button type="submit" class="admin-btn admin-btn-primary">Login</button>
+        </form>
+        <p class="login-error" id="loginError"></p>
+      </div>
+    </div>
+
+    <!-- DASHBOARD -->
+    <div class="admin-dashboard" id="dashboard" style="display:none;">
+      <div class="admin-header">
+        <div>
+          <h1>✦ Dashboard</h1>
+          <p class="admin-subtitle">CryptoSynth.id admin panel</p>
+        </div>
+        <button class="admin-btn admin-btn-outline" id="btnLogout">Logout</button>
+      </div>
+
+      <!-- STATS -->
+      <div class="admin-stats">
+        <div class="stat-card">
+          <span class="stat-value">{published.length}</span>
+          <span class="stat-label">Catatan</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">{categories.length}</span>
+          <span class="stat-label">Kategori</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value">{tagCount}</span>
+          <span class="stat-label">Tags</span>
+        </div>
+      </div>
+
+      <!-- NAV CARDS -->
+      <div class="admin-nav-grid">
+        <a href="/admin/airdrops" class="admin-nav-card">
+          <div class="admin-nav-icon">🪂</div>
+          <div class="admin-nav-info">
+            <h2>Airdrop Manager</h2>
+            <p>Kelola data airdrop, edit status, tambah entry baru.</p>
+          </div>
+          <span class="admin-nav-arrow">→</span>
+        </a>
+
+        <a href="/tools" class="admin-nav-card">
+          <div class="admin-nav-icon">🛠️</div>
+          <div class="admin-nav-info">
+            <h2>Tools</h2>
+            <p>Airdrop tracker, scam checker, dan tools lainnya.</p>
+          </div>
+          <span class="admin-nav-arrow">→</span>
+        </a>
+
+        <a href="/articles" class="admin-nav-card">
+          <div class="admin-nav-icon">📝</div>
+          <div class="admin-nav-info">
+            <h2>Arsip Catatan</h2>
+            <p>Semua catatan yang sudah dipublish.</p>
+          </div>
+          <span class="admin-nav-arrow">→</span>
+        </a>
+
+        <a href="https://github.com/0xnewbiewhermes/cryptosynth" target="_blank" rel="noopener" class="admin-nav-card">
+          <div class="admin-nav-icon">📦</div>
+          <div class="admin-nav-info">
+            <h2>GitHub Repo</h2>
+            <p>Source code, deploy, dan CI/CD.</p>
+          </div>
+          <span class="admin-nav-arrow">→</span>
+        </a>
+
+        <a href="https://vercel.com" target="_blank" rel="noopener" class="admin-nav-card">
+          <div class="admin-nav-icon">▲</div>
+          <div class="admin-nav-info">
+            <h2>Vercel</h2>
+            <p>Deployment, analytics, dan domain settings.</p>
+          </div>
+          <span class="admin-nav-arrow">→</span>
+        </a>
+      </div>
+
+      <!-- LATEST POST -->
+      {latestPost && (
+        <div class="admin-latest">
+          <h3>Catatan Terbaru</h3>
+          <div class="admin-latest-row">
+            <div>
+              <span class="admin-latest-tag">{latestPost.data.category}</span>
+              <strong>{latestPost.data.title}</strong>
+              <span class="admin-latest-date">{new Date(latestPost.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric' })}</span>
+            </div>
+            <a href={`/blog/${latestPost.id}`} class="admin-btn admin-btn-sm-outline">Lihat →</a>
+          </div>
+        </div>
+      )}
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .admin-page {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 1rem 4rem;
+  }
+
+  /* LOGIN */
+  .admin-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60vh;
+  }
+  .login-box {
+    width: 100%;
+    max-width: 380px;
+    text-align: center;
+  }
+  .login-box h1 {
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 0.25rem;
+    color: var(--text-primary);
+  }
+  .login-box p {
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+  .admin-input {
+    width: 100%;
+    padding: 0.7rem 0.85rem;
+    border: 1px solid var(--border);
+    border-radius: 0;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    font-size: 0.95rem;
+    font-family: var(--font-body);
+    outline: none;
+    transition: border-color 0.15s;
+  }
+  .admin-input:focus {
+    border-color: var(--primary);
+  }
+  .admin-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.7rem 1.25rem;
+    border: 1px solid transparent;
+    border-radius: 0;
+    font-size: 0.85rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    cursor: pointer;
+    transition: all 0.15s;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+  .admin-btn-primary {
+    background: var(--primary);
+    color: #fff;
+    border-color: var(--primary);
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+  .admin-btn-primary:hover {
+    opacity: 0.9;
+  }
+  .admin-btn-outline {
+    background: transparent;
+    color: var(--text-primary);
+    border-color: var(--border);
+  }
+  .admin-btn-outline:hover {
+    border-color: var(--text-primary);
+  }
+  .admin-btn-sm-outline {
+    background: transparent;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+    font-weight: 600;
+    font-family: var(--font-body);
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.15s;
+  }
+  .admin-btn-sm-outline:hover {
+    background: var(--primary);
+    color: #fff;
+  }
+  .login-error {
+    color: #dc3545;
+    font-size: 0.85rem;
+    min-height: 1.2em;
+    margin-top: 0.75rem;
+  }
+
+  /* DASHBOARD */
+  .admin-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    gap: 1rem;
+  }
+  .admin-header h1 {
+    font-family: var(--font-display);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--text-primary);
+    margin: 0;
+  }
+  .admin-subtitle {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    margin: 0.15rem 0 0;
+  }
+
+  /* STATS */
+  .admin-stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-bottom: 2rem;
+  }
+  .stat-card {
+    background: var(--bg-card);
+    padding: 1.25rem 1rem;
+    text-align: center;
+  }
+  .stat-value {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    line-height: 1;
+  }
+  .stat-label {
+    display: block;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-muted);
+    margin-top: 0.35rem;
+  }
+
+  /* NAV GRID */
+  .admin-nav-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-bottom: 2rem;
+  }
+  .admin-nav-card {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.1rem 1rem;
+    background: var(--bg-card);
+    text-decoration: none;
+    color: var(--text-primary);
+    transition: all 0.15s;
+  }
+  .admin-nav-card:hover {
+    padding-left: 1.35rem;
+  }
+  .admin-nav-card:hover .admin-nav-arrow {
+    color: var(--primary);
+  }
+  .admin-nav-icon {
+    font-size: 1.35rem;
+    flex-shrink: 0;
+    width: 2.25rem;
+    text-align: center;
+  }
+  .admin-nav-info {
+    flex: 1;
+    min-width: 0;
+  }
+  .admin-nav-info h2 {
+    font-family: var(--font-body);
+    font-size: 0.95rem;
+    font-weight: 600;
+    margin: 0;
+    color: var(--text-primary);
+  }
+  .admin-nav-info p {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+    margin: 0.15rem 0 0;
+  }
+  .admin-nav-arrow {
+    font-size: 1.1rem;
+    color: var(--text-muted);
+    flex-shrink: 0;
+    transition: color 0.15s;
+  }
+
+  /* LATEST POST */
+  .admin-latest {
+    border: 1px solid var(--border);
+    padding: 1.25rem;
+    background: var(--bg-card);
+  }
+  .admin-latest h3 {
+    font-family: var(--font-body);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--text-muted);
+    margin: 0 0 0.85rem;
+  }
+  .admin-latest-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .admin-latest-row strong {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--text-primary);
+    margin: 0.15rem 0;
+  }
+  .admin-latest-tag {
+    font-size: 0.65rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--primary);
+    font-weight: 600;
+  }
+  .admin-latest-date {
+    font-size: 0.78rem;
+    color: var(--text-muted);
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .admin-page {
+      padding: 1.5rem 0.75rem 3rem;
+    }
+    .admin-header {
+      flex-direction: column;
+    }
+    .admin-stats {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .stat-value {
+      font-size: 1.35rem;
+    }
+    .admin-latest-row {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  }
+</style>
+
+<script is:inline>
+(function() {
+  var TOKEN_KEY = 'cs_admin_token';
+
+  function getToken() { return localStorage.getItem(TOKEN_KEY); }
+  function setToken(t) { localStorage.setItem(TOKEN_KEY, t); }
+  function clearToken() { localStorage.removeItem(TOKEN_KEY); }
+
+  var loginPanel = document.getElementById('loginPanel');
+  var dashboard = document.getElementById('dashboard');
+  var loginForm = document.getElementById('loginForm');
+  var loginError = document.getElementById('loginError');
+
+  function showDashboard() {
+    loginPanel.style.display = 'none';
+    dashboard.style.display = 'block';
+  }
+
+  function showLogin() {
+    loginPanel.style.display = 'flex';
+    dashboard.style.display = 'none';
+    clearToken();
+  }
+
+  if (getToken()) showDashboard();
+
+  loginForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    loginError.textContent = '';
+    var pw = document.getElementById('loginPassword').value;
+    try {
+      var res = await fetch('/api/admin/login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ password: pw }),
+      });
+      var json = await res.json();
+      if (res.ok && json.token) {
+        setToken(json.token);
+        showDashboard();
+      } else {
+        loginError.textContent = json.error || 'Login gagal';
+      }
+    } catch (err) {
+      loginError.textContent = 'Network error';
+    }
+  });
+
+  document.getElementById('btnLogout').addEventListener('click', function() {
+    showLogin();
+  });
+})();
+</script>

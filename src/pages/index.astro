@@ -81,7 +81,7 @@ const posts = (await getCollection('blog')).sort(
 <style>
   /* Terminal home layout */
   .terminal-home {
-    padding: 1.25rem 1.5rem 8rem;
+    padding: 1.5rem 1.5rem 6rem;
     max-width: 780px;
     margin: 0 auto;
     min-height: calc(100vh - 60px);
@@ -90,8 +90,8 @@ const posts = (await getCollection('blog')).sort(
   /* ASCII art */
   .ascii-art {
     color: var(--primary);
-    font-size: 0.42rem;
-    line-height: 1.2;
+    font-size: 0.5rem;
+    line-height: 1.15;
     margin-bottom: 0.75rem;
     overflow-x: auto;
     white-space: pre;
@@ -99,21 +99,21 @@ const posts = (await getCollection('blog')).sort(
 
   /* Terminal lines */
   .term-line {
-    font-size: 0.82rem;
-    line-height: 1.65;
+    font-size: 0.85rem;
+    line-height: 1.75;
     margin-bottom: 0.08rem;
   }
 
   .term-welcome {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.5rem;
   }
 
   .term-output-area {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   .term-articles {
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
   }
 
   /* Input line */
@@ -121,12 +121,12 @@ const posts = (await getCollection('blog')).sort(
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    padding-top: 0.5rem;
+    padding: 0.75rem 0;
     border-top: 1px solid rgba(255, 255, 255, 0.04);
     position: sticky;
-    bottom: 24px;
+    bottom: 24px; /* above status bar */
     background: var(--bg);
-    padding-bottom: 0.5rem;
+    z-index: 50;
   }
 
   .term-input {
@@ -135,7 +135,7 @@ const posts = (await getCollection('blog')).sort(
     border: none;
     color: var(--text-primary);
     font-family: var(--font-mono);
-    font-size: 0.82rem;
+    font-size: 0.85rem;
     outline: none;
     caret-color: var(--accent-success);
   }

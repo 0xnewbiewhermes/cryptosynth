@@ -41,9 +41,9 @@ const isActive = (path: string) => {
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <!-- Preload critical assets -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" as="style" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=DM+Sans:wght@400;500;600;700&display=swap" /></noscript>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" /></noscript>
   </head>
   <body>
     <!-- Skip to content — keyboard accessibility -->
@@ -90,36 +90,40 @@ const isActive = (path: string) => {
       <slot />
     </main>
     <footer class="footer">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <a href="/" class="logo footer-logo">
-            <span class="logo-text">Crypto<span class="logo-accent">Synth</span></span>
-          </a>
-          <p>Catatan dari seseorang yang setiap hari ngurusin node, farming airdrop, trading, dan opini crypto dari sudut pandang pribadi.</p>
+      <div class="container">
+        <div class="footer-inner">
+          <div class="footer-brand">
+            <a href="/" class="logo footer-logo">
+              <span class="logo-text">Crypto<span class="logo-accent">Synth</span></span>
+            </a>
+            <p>Catatan dari seseorang yang setiap hari ngurusin node, farming airdrop, trading, dan opini crypto dari sudut pandang pribadi.</p>
+          </div>
+          <div class="footer-links">
+            <div class="footer-col">
+              <h4>Jelajahi</h4>
+              <a href="/">Catatan</a>
+              <a href="/category/airdrop">Airdrop</a>
+              <a href="/tools">Tools</a>
+              <a href="/articles">Arsip</a>
+            </div>
+            <div class="footer-col">
+              <h4>Perusahaan</h4>
+              <a href="/about">Tentang</a>
+              <a href="/disclaimer">Disclaimer</a>
+              <a href="/privacy">Privacy</a>
+            </div>
+            <div class="footer-col">
+              <h4>Ikuti</h4>
+              <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener">X (Twitter)</a>
+              <a href="mailto:hello@cryptosynth.id">Email</a>
+              <a href="/rss.xml">RSS Feed</a>
+            </div>
+          </div>
         </div>
-        <div class="footer-col">
-          <h4>Jelajahi</h4>
-          <a href="/">Catatan</a>
-          <a href="/category/airdrop">Airdrop</a>
-          <a href="/tools">Tools</a>
-          <a href="/articles">Arsip</a>
+        <div class="footer-bottom">
+          <span>&copy; 2026 CryptoSynth</span>
+          <span>Update terakhir: <span id="footerUpdateDate">hari ini</span></span>
         </div>
-        <div class="footer-col">
-          <h4>Perusahaan</h4>
-          <a href="/about">Tentang</a>
-          <a href="/disclaimer">Disclaimer</a>
-          <a href="/privacy">Privacy</a>
-        </div>
-        <div class="footer-col">
-          <h4>Ikuti</h4>
-          <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener">X (Twitter)</a>
-          <a href="mailto:hello@cryptosynth.id">Email</a>
-          <a href="/rss.xml">RSS Feed</a>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>&copy; 2026 CryptoSynth</span>
-        <span>Update terakhir: <span id="footerUpdateDate">hari ini</span></span>
       </div>
     </footer>
 

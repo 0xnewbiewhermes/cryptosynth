@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Swiss Design</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700;9..144,800&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: 'DM Sans', sans-serif; background: #fff; color: #1C1812; -webkit-font-smoothing: antialiased; }
+
+/* Grid system — 12 col, 8px unit */
+.container { max-width: 1120px; margin: 0 auto; padding: 0 2rem; }
+
+/* Header */
+.header { position: sticky; top: 0; z-index: 100; background: #fff; border-bottom: 1px solid rgba(28,24,18,0.08); }
+.header-inner { display: flex; align-items: center; justify-content: space-between; height: 56px; }
+.logo { font-family: 'Fraunces', serif; font-weight: 700; font-size: 1.1rem; color: #1C1812; text-decoration: none; }
+.logo span { color: #1E40AF; }
+.nav { display: flex; gap: 2rem; }
+.nav a { font-size: 0.82rem; font-weight: 500; color: rgba(28,24,18,0.45); text-decoration: none; position: relative; padding-bottom: 2px; }
+.nav a:hover { color: #1C1812; }
+.nav a.active { color: #1C1812; }
+.nav a.active::after { content: ''; position: absolute; bottom: -1px; left: 0; right: 0; height: 2px; background: #1E40AF; }
+
+/* Hero — Swiss grid: left text, right decorative grid mark */
+.hero { padding: 4rem 0 3rem; border-bottom: 1px solid rgba(28,24,18,0.08); }
+.hero-grid { display: grid; grid-template-columns: 1fr 300px; gap: 4rem; align-items: end; }
+.hero-label { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: #1E40AF; margin-bottom: 1rem; }
+.hero h1 { font-family: 'Fraunces', serif; font-size: clamp(2rem, 4.5vw, 3.2rem); font-weight: 800; line-height: 1.05; letter-spacing: -0.03em; margin-bottom: 1rem; }
+.hero p { font-size: 0.92rem; color: rgba(28,24,18,0.55); line-height: 1.6; max-width: 420px; }
+.hero-mark { width: 100%; aspect-ratio: 1; max-width: 300px; background: linear-gradient(135deg, rgba(30,64,175,0.04), rgba(30,64,175,0.01)); border: 1px solid rgba(30,64,175,0.08); display: flex; align-items: center; justify-content: center; }
+.hero-mark svg { width: 120px; height: 120px; opacity: 0.15; }
+
+/* Articles — 3 col grid with tight 8px rhythm */
+.articles { padding: 2.5rem 0 4rem; }
+.articles-header { display: flex; align-items: baseline; justify-content: space-between; margin-bottom: 2rem; }
+.articles-header h2 { font-family: 'Fraunces', serif; font-size: 1.2rem; font-weight: 600; }
+.articles-header a { font-size: 0.78rem; color: #1E40AF; text-decoration: none; font-weight: 500; }
+.articles-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem 2.5rem; }
+.card { display: flex; flex-direction: column; gap: 0.5rem; }
+.card-category { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: #1E40AF; }
+.card h3 { font-family: 'Fraunces', serif; font-size: 1rem; font-weight: 600; line-height: 1.3; color: #1C1812; order: -1; }
+.card h3 a { color: inherit; text-decoration: none; }
+.card h3 a:hover { color: #1E40AF; }
+.card p { font-size: 0.82rem; color: rgba(28,24,18,0.5); line-height: 1.5; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card-meta { font-size: 0.7rem; color: rgba(28,24,18,0.3); margin-top: auto; padding-top: 0.5rem; border-top: 1px solid rgba(28,24,18,0.06); }
+
+/* Footer */
+.footer { border-top: 1px solid rgba(28,24,18,0.08); padding: 3rem 0 2rem; }
+.footer-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; }
+.footer-brand p { font-size: 0.82rem; color: rgba(28,24,18,0.45); line-height: 1.5; margin-top: 0.5rem; max-width: 260px; }
+.footer-col h4 { font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.15em; color: rgba(28,24,18,0.3); margin-bottom: 0.75rem; }
+.footer-col a { display: block; font-size: 0.82rem; color: rgba(28,24,18,0.5); text-decoration: none; padding: 0.15rem 0; }
+.footer-col a:hover { color: #1C1812; }
+.footer-bottom { display: flex; justify-content: space-between; margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(28,24,18,0.06); font-size: 0.72rem; color: rgba(28,24,18,0.25); }
+</style>
+</head>
+<body>
+<header class="header"><div class="container header-inner">
+  <a href="/" class="logo">Crypto<span>Synth</span></a>
+  <nav class="nav">
+    <a href="#" class="active">Catatan</a><a href="#" class="">Airdrop</a><a href="#" class="">Tools</a><a href="#" class="">Tentang</a>
+  </nav>
+</div></header>
+
+<section class="hero"><div class="container">
+  <div class="hero-grid">
+    <div>
+      <div class="hero-label">✦ Hanya catatan</div>
+      <h1>Catatan Crypto Personal</h1>
+      <p>Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</p>
+    </div>
+    <div class="hero-mark">
+      <svg viewBox="0 0 100 100"><polygon points="50 5, 95 27.5, 95 72.5, 50 95, 5 72.5, 5 27.5" fill="none" stroke="#1E40AF" stroke-width="1.5"/><path d="M25 45 Q37.5 35 50 45 Q62.5 55 75 45" fill="none" stroke="#1E40AF" stroke-width="2"/><path d="M25 60 Q37.5 50 50 60 Q62.5 70 75 60" fill="none" stroke="#1E40AF" stroke-width="2"/></svg>
+    </div>
+  </div>
+</div></section>
+
+<section class="articles"><div class="container">
+  <div class="articles-header">
+    <h2>Semua Catatan</h2>
+    <a href="#">Lihat Semua →</a>
+  </div>
+  <div class="articles-grid">
+    <article class="card">
+      <span class="card-category">#variational</span>
+      <h3><a href="#">Variational Deep-Dive: Tim Quant Ex-Jane Street, $50M Dragonfly, dan Strategi Farming yang Sebenarnya</a></h3>
+      <p>Breakdown lengkap Variational: siapa timnya, gimana model bisnisnya, dan strategi farming yang optimal.</p>
+      <div class="card-meta">15 jam lalu · 28 Mei 2026</div>
+    </article><article class="card">
+      <span class="card-category">#optimai</span>
+      <h3><a href="#">Tutorial Install OptimAI Core Node di VPS</a></h3>
+      <p>Panduan lengkap install OptimAI Core Node di VPS Ubuntu.</p>
+      <div class="card-meta">1 hari lalu · 27 Mei 2026</div>
+    </article><article class="card">
+      <span class="card-category">#symb</span>
+      <h3><a href="#">SYMB TGE Juni, ProprXYZ di Hyperliquid, SOSO Snapshot</a></h3>
+      <p>Tiga airdrop yang lagi hot minggu ini.</p>
+      <div class="card-meta">1 hari lalu · 27 Mei 2026</div>
+    </article><article class="card">
+      <span class="card-category">#optimai</span>
+      <h3><a href="#">OptimAI Network: Farming Airdrop DePIN + AI</a></h3>
+      <p>Infrastruktur agentic AI terdesentralisasi. 2M+ node aktif.</p>
+      <div class="card-meta">2 hari lalu · 26 Mei 2026</div>
+    </article><article class="card">
+      <span class="card-category">#catena</span>
+      <h3><a href="#">Catena Labs: Airdrop Spekulatif? $48M dari a16z</a></h3>
+      <p>Catena Labs dapat funding $48M dari a16z.</p>
+      <div class="card-meta">2 hari lalu · 26 Mei 2026</div>
+    </article><article class="card">
+      <span class="card-category">#variational</span>
+      <h3><a href="#">Variational, Polymarket, Base: 3 Kandidat Airdrop Terkuat</a></h3>
+      <p>Tiga kandidat airdrop terkuat bulan ini.</p>
+      <div class="card-meta">2 hari lalu · 26 Mei 2026</div>
+    </article>
+  </div>
+</div></section>
+
+<footer class="footer"><div class="container">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <a href="/" class="logo">Crypto<span>Synth</span></a>
+      <p>Catatan crypto pribadi. Node, airdrop, trading, opini.</p>
+    </div>
+    <div class="footer-col"><h4>Jelajahi</h4><a href="#">Catatan</a><a href="#">Airdrop</a><a href="#">Tools</a><a href="#">Arsip</a></div>
+    <div class="footer-col"><h4>Perusahaan</h4><a href="#">Tentang</a><a href="#">Disclaimer</a><a href="#">Privacy</a></div>
+    <div class="footer-col"><h4>Ikuti</h4><a href="#">X (Twitter)</a><a href="#">Email</a><a href="#">RSS Feed</a></div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 CryptoSynth</span>
+    <span>Update terakhir: 28 Mei 2026</span>
+  </div>
+</div></footer>
+</body></html>

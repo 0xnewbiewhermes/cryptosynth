@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Brutalist Premium</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #F7F5F0;
+  color: #1C1812;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.5;
+  overflow-x: hidden;
+}
+
+/* ===== LAYOUT ===== */
+.container { max-width: 860px; margin: 0 auto; padding: 0 2.5rem; }
+
+/* ===== HEADER — refined brutalist ===== */
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(247,245,240,0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border-bottom: 1px solid rgba(28,24,18,0.08);
+}
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+}
+.logo {
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #1C1812;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+}
+.logo span { color: #1E40AF; }
+.nav { display: flex; gap: 0; }
+.nav a {
+  padding: 0.45rem 1.25rem;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: rgba(28,24,18,0.45);
+  text-decoration: none;
+  position: relative;
+  transition: color 0.2s ease;
+}
+.nav a:hover { color: #1C1812; }
+.nav a.active { color: #1C1812; }
+.nav a.active::after {
+  content: '';
+  position: absolute;
+  bottom: -1px;
+  left: 1.25rem;
+  right: 1.25rem;
+  height: 1.5px;
+  background: #1C1812;
+}
+.search-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1rem;
+  font-size: 0.78rem;
+  font-family: inherit;
+  background: transparent;
+  border: 1px solid rgba(28,24,18,0.12);
+  border-radius: 0;
+  cursor: pointer;
+  color: rgba(28,24,18,0.4);
+  transition: all 0.2s ease;
+}
+.search-btn:hover {
+  border-color: rgba(28,24,18,0.3);
+  color: #1C1812;
+}
+.search-btn svg { width: 14px; height: 14px; }
+
+/* ===== HERO — dramatic, left-aligned ===== */
+.hero {
+  padding: 5rem 0 4rem;
+}
+.hero-label {
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: rgba(28,24,18,0.3);
+  margin-bottom: 1.5rem;
+}
+.hero h1 {
+  font-family: 'Fraunces', serif;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 900;
+  line-height: 1.0;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.5rem;
+  max-width: 600px;
+  color: #1C1812;
+}
+.hero p {
+  font-size: 1.05rem;
+  color: rgba(28,24,18,0.45);
+  max-width: 420px;
+  line-height: 1.65;
+  font-weight: 400;
+}
+
+/* ===== DIVIDER ===== */
+.divider {
+  height: 1px;
+  background: rgba(28,24,18,0.08);
+  margin: 0;
+}
+
+/* ===== SECTION HEADER ===== */
+.section-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 2rem 0 1.25rem;
+}
+.section-header h2 {
+  font-family: 'Fraunces', serif;
+  font-size: 0.85rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgba(28,24,18,0.35);
+}
+.section-header a {
+  font-size: 0.75rem;
+  color: rgba(28,24,18,0.35);
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.section-header a:hover { color: #1E40AF; }
+
+/* ===== ARTICLE ROWS — brutalist but refined ===== */
+.article-row {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 2rem;
+  align-items: start;
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(28,24,18,0.06);
+  cursor: pointer;
+  transition: all 0.25s ease;
+  text-decoration: none;
+  color: inherit;
+}
+.article-row:first-child { padding-top: 0; }
+.article-row:hover {
+  padding-left: 0.75rem;
+}
+.article-row:hover .article-title { color: #1E40AF; }
+.article-left { min-width: 0; }
+.article-tags {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 0.6rem;
+}
+.article-tag {
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(28,24,18,0.3);
+}
+.article-title {
+  font-family: 'Fraunces', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: #1C1812;
+  margin-bottom: 0.4rem;
+  transition: color 0.2s ease;
+  letter-spacing: -0.01em;
+}
+.article-excerpt {
+  font-size: 0.85rem;
+  color: rgba(28,24,18,0.4);
+  line-height: 1.55;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.article-right {
+  font-size: 0.72rem;
+  color: rgba(28,24,18,0.25);
+  white-space: nowrap;
+  padding-top: 0.15rem;
+  text-align: right;
+}
+.article-right .time { display: block; }
+.article-right .date { display: block; margin-top: 0.15rem; }
+
+/* ===== LOAD MORE ===== */
+.load-more {
+  padding: 2rem 0;
+  text-align: center;
+}
+.load-more-btn {
+  font-family: inherit;
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: rgba(28,24,18,0.4);
+  background: none;
+  border: 1px solid rgba(28,24,18,0.1);
+  padding: 0.65rem 2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  letter-spacing: 0.03em;
+}
+.load-more-btn:hover {
+  color: #1C1812;
+  border-color: rgba(28,24,18,0.3);
+}
+
+/* ===== FOOTER — refined minimal ===== */
+.footer {
+  border-top: 1px solid rgba(28,24,18,0.08);
+  padding: 3rem 0 2.5rem;
+  margin-top: 1rem;
+}
+.footer-inner {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 3rem;
+  align-items: start;
+}
+.footer-brand .logo {
+  display: block;
+  margin-bottom: 0.75rem;
+  font-size: 1rem;
+}
+.footer-brand p {
+  font-size: 0.82rem;
+  color: rgba(28,24,18,0.35);
+  line-height: 1.6;
+  max-width: 300px;
+}
+.footer-links {
+  display: flex;
+  gap: 3rem;
+}
+.footer-col h4 {
+  font-size: 0.68rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: rgba(28,24,18,0.25);
+  margin-bottom: 0.75rem;
+}
+.footer-col a {
+  display: block;
+  font-size: 0.82rem;
+  color: rgba(28,24,18,0.45);
+  text-decoration: none;
+  padding: 0.25rem 0;
+  transition: color 0.2s;
+}
+.footer-col a:hover { color: #1C1812; }
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(28,24,18,0.06);
+}
+.footer-bottom span {
+  font-size: 0.72rem;
+  color: rgba(28,24,18,0.2);
+}
+
+/* ===== ANIMATIONS ===== */
+@media (prefers-reduced-motion: no-preference) {
+  .article-row {
+    animation: fadeUp 0.4s ease both;
+  }
+  .article-row:nth-child(1) { animation-delay: 0.05s; }
+  .article-row:nth-child(2) { animation-delay: 0.1s; }
+  .article-row:nth-child(3) { animation-delay: 0.15s; }
+  .article-row:nth-child(4) { animation-delay: 0.2s; }
+  .article-row:nth-child(5) { animation-delay: 0.25s; }
+  .article-row:nth-child(6) { animation-delay: 0.3s; }
+}
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .container { padding: 0 1.5rem; }
+  .hero { padding: 3rem 0 2.5rem; }
+  .hero h1 { font-size: 2rem; }
+  .hero p { font-size: 0.92rem; }
+  .article-row { grid-template-columns: 1fr; gap: 0.5rem; }
+  .article-right { text-align: left; padding-top: 0; }
+  .footer-inner { grid-template-columns: 1fr; }
+  .footer-links { gap: 2rem; }
+  .nav a { padding: 0.4rem 0.75rem; font-size: 0.72rem; }
+  .search-btn span { display: none; }
+}
+@media (max-width: 480px) {
+  .hero h1 { font-size: 1.75rem; }
+  .footer-links { flex-direction: column; gap: 1.5rem; }
+}
+</style>
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-inner">
+    <a href="/" class="logo">Crypto<span>Synth</span></a>
+    <nav class="nav">
+      <a href="#" class="active">Catatan</a><a href="#" class="">Airdrop</a><a href="#" class="">Tools</a><a href="#" class="">Tentang</a>
+    </nav>
+    <button class="search-btn">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span>Cari catatan</span>
+    </button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-label">✦ Hanya catatan</div>
+    <h1>Catatan Crypto Personal</h1>
+    <p>Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</p>
+  </div>
+</section>
+
+<div class="divider"></div>
+
+<section class="section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Semua Catatan</h2>
+      <a href="#">Lihat Semua →</a>
+    </div>
+
+    <article class="article-row">
+      <div class="article-left">
+        <div class="article-tags">
+          <span class="article-tag">#variational</span><span class="article-tag">#airdrop</span>
+        </div>
+        <h3 class="article-title">Variational Deep-Dive: Tim Quant Ex-Jane Street, $50M Dragonfly, dan Strategi Farming yang Sebenarnya</h3>
+        <p class="article-excerpt">Breakdown lengkap Variational: siapa timnya, gimana model bisnisnya, dan strategi farming yang optimal berdasarkan data on-chain.</p>
+      </div>
+      <div class="article-right">
+        <span class="time">15 jam lalu</span>
+        <span class="date">28 Mei 2026</span>
+      </div>
+    </article><article class="article-row">
+      <div class="article-left">
+        <div class="article-tags">
+          <span class="article-tag">#optimai</span><span class="article-tag">#tutorial</span>
+        </div>
+        <h3 class="article-title">Tutorial Install OptimAI Core Node di VPS: CLI Setup + Systemd Service</h3>
+        <p class="article-excerpt">Panduan lengkap install OptimAI Core Node di VPS Ubuntu. Dari CLI setup sampai systemd service biar node jalan 24/7.</p>
+      </div>
+      <div class="article-right">
+        <span class="time">1 hari lalu</span>
+        <span class="date">27 Mei 2026</span>
+      </div>
+    </article><article class="article-row">
+      <div class="article-left">
+        <div class="article-tags">
+          <span class="article-tag">#symb</span><span class="article-tag">#proprxyz</span>
+        </div>
+        <h3 class="article-title">SYMB TGE Juni, ProprXYZ di Hyperliquid, dan SOSO Snapshot Terakhir</h3>
+        <p class="article-excerpt">Tiga airdrop yang lagi hot minggu ini: SYMB TGE 5 Juni dengan sistem leaderboard merit-based, ProprXYZ di Hyperliquid dengan 45.5% alokasi komunitas.</p>
+      </div>
+      <div class="article-right">
+        <span class="time">1 hari lalu</span>
+        <span class="date">27 Mei 2026</span>
+      </div>
+    </article><article class="article-row">
+      <div class="article-left">
+        <div class="article-tags">
+          <span class="article-tag">#optimai</span><span class="article-tag">#airdrop</span>
+        </div>
+        <h3 class="article-title">OptimAI Network: Farming Airdrop DePIN + AI dengan Node</h3>
+        <p class="article-excerpt">OptimAI Network bangun infrastruktur agentic AI terdesentralisasi. Udah 2M+ node terinstall. Token OPI belum TGE.</p>
+      </div>
+      <div class="article-right">
+        <span class="time">2 hari lalu</span>
+        <span class="date">26 Mei 2026</span>
+      </div>
+    </article><article class="article-row">
+      <div class="article-left">
+        <div class="article-tags">
+          <span class="article-tag">#catena</span><span class="article-tag">#airdrop</span>
+        </div>
+        <h3 class="article-title">Catena Labs: Airdrop Spekulatif atau Peluang Nyata? $48M dari a16z</h3>
+        <p class="article-excerpt">Catena Labs dapat funding $48M dari a16z. Tapi apakah airdropnya layak dikejar?</p>
+      </div>
+      <div class="article-right">
+        <span class="time">2 hari lalu</span>
+        <span class="date">26 Mei 2026</span>
+      </div>
+    </article><article class="article-row">
+      <div class="article-left">
+        <div class="article-tags">
+          <span class="article-tag">#variational</span><span class="article-tag">#polymarket</span>
+        </div>
+        <h3 class="article-title">Variational RWA Phase 2, Polymarket, Base: Tiga Kandidat Airdrop Terkuat Mei 2026</h3>
+        <p class="article-excerpt">Tiga kandidat airdrop terkuat bulan ini: Variational RWA Phase 2, Polymarket, dan Base.</p>
+      </div>
+      <div class="article-right">
+        <span class="time">2 hari lalu</span>
+        <span class="date">26 Mei 2026</span>
+      </div>
+    </article>
+
+    <div class="load-more">
+      <button class="load-more-btn">Muat Lagi ↓</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/" class="logo">Crypto<span>Synth</span></a>
+        <p>Catatan dari seseorang yang setiap hari ngurusin node, farming airdrop, trading, dan opini crypto dari sudut pandang pribadi.</p>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h4>Jelajahi</h4>
+          <a href="#">Catatan</a>
+          <a href="#">Airdrop</a>
+          <a href="#">Tools</a>
+          <a href="#">Arsip</a>
+        </div>
+        <div class="footer-col">
+          <h4>Perusahaan</h4>
+          <a href="#">Tentang</a>
+          <a href="#">Disclaimer</a>
+          <a href="#">Privacy</a>
+        </div>
+        <div class="footer-col">
+          <h4>Ikuti</h4>
+          <a href="#">X (Twitter)</a>
+          <a href="#">Email</a>
+          <a href="#">RSS Feed</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 CryptoSynth</span>
+      <span>Update terakhir: 28 Mei 2026</span>
+    </div>
+  </div>
+</footer>
+
+</body></html>

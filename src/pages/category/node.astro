@@ -3,50 +3,51 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { relativeTime } from '../../utils/relativeTime';
 
-const posts = (await getCollection('blog', (p) => {
-  const tags = p.data.tags || [];
-  return tags.some(t => t.toLowerCase().includes('node') || t.toLowerCase().includes('zcash') || t.toLowerCase().includes('depin'));
-})).sort(
+const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase() === 'node')).sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
 ---
 
-<BaseLayout title="Node — CryptoSynth" description="Catatan node, DePIN, dan infrastruktur crypto dari CryptoSynth.">
-  <div class="page-hero">
+<BaseLayout title="Node - CryptoSynth.id" description="Catatan operasi node, uptime, dan pengalaman menjalankan berbagai node crypto.">
+  <section class="hero-v3">
     <div class="container">
+      <div class="hero-v3-label">✦ Kategori</div>
       <h1>Node</h1>
-      <p>Catatan seputar node, DePIN, dan infrastruktur jaringan.</p>
+      <p class="hero-v3-subtitle">Catatan operasi node, uptime, dan pengalaman menjalankan berbagai node crypto.</p>
     </div>
-  </div>
-  <section class="section">
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-articles">
     <div class="container">
-    <div class="articles-grid">
-      {posts.map((post) => (
-        <article class="card-v2">
-          <div class="card-v2-body">
-            <div class="card-v2-tags">
-              {(post.data.tags || []).slice(0, 2).map((tag) => (
-                <span class="card-v2-tag">#{tag}</span>
-              ))}
+      <div class="article-rows">
+        {posts.map((post, index) => (
+          <article class="article-row">
+            <div class="article-row-left">
+              <div class="article-row-tags">
+                {(post.data.tags || []).slice(0, 2).map((tag) => (
+                  <span class="article-row-tag">#{tag}</span>
+                ))}
+              </div>
+              <h3 class="article-row-title">
+                <a href={`/blog/${post.id}`}>{post.data.title}</a>
+              </h3>
+              <p class="article-row-excerpt">{post.data.excerpt || post.data.description}</p>
             </div>
-            <h3 class="card-v2-title">
-              <a href={`/blog/${post.id}`}>{post.data.title}</a>
-            </h3>
-            <p class="card-v2-excerpt">{post.data.excerpt || post.data.description}</p>
-            <div class="card-v2-meta">
-              <span class="card-v2-relative" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-              <span class="card-v2-sep">·</span>
-              <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
+            <div class="article-row-right">
+              <span class="article-row-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+              <span class="article-row-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
             </div>
-          </div>
-        </article>
-      ))}
-    </div>
-    {posts.length === 0 && (
-      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-        <p>Belum ada catatan node.</p>
+          </article>
+        ))}
       </div>
-    )}
+
+      {posts.length === 0 && (
+        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+          <p>Belum ada catatan di kategori ini.</p>
+        </div>
+      )}
     </div>
   </section>
 </BaseLayout>

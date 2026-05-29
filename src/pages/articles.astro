@@ -11,70 +11,89 @@ const categories = ['Semua', 'Airdrop', 'Tutorial'];
 ---
 
 <BaseLayout title="Semua Catatan - CryptoSynth.id" description="Seluruh catatan crypto personal yang pernah ditulis — airdrop, farming, tutorial, dan opini pasar.">
-  <div class="page-hero">
+  <section class="hero-v3">
     <div class="container">
+      <div class="hero-v3-label">✦ Arsip</div>
       <h1>Semua Catatan</h1>
-      <p>Kumpulan catatan personal — airdrop, tutorial, node, dan opini pasar dari sudut pandang pribadi.</p>
+      <p class="hero-v3-subtitle">Kumpulan catatan personal — airdrop, tutorial, node, dan opini pasar dari sudut pandang pribadi.</p>
     </div>
-  </div>
+  </section>
 
-  <section class="section">
-    <div class="container" style="max-width: 800px;">
-      <div class="category-filter" style="display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 2rem;">
-      {categories.map((cat) => (
-        <a
-          href={cat === 'Semua' ? '/articles' : `/category/${cat.toLowerCase()}`}
-          class={`filter-btn ${cat === 'Semua' ? 'active' : ''}`}
-          style={`
-            padding: 0.4rem 1rem;
-            border-radius: 999px;
-            font-size: 0.85rem;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.2s;
-            ${cat === 'Semua'
-              ? 'background: var(--primary); color: #fff;'
-              : 'background: var(--bg-surface); color: var(--text-muted); border: 1px solid var(--border);'}
-          `}
-        >
-          {cat}
-        </a>
-      ))}
-    </div>
+  <div class="section-divider"></div>
 
-    <!-- Articles Grid -->
-    <div class="articles-grid">
-      {posts.map((post) => (
-        <article class="card-v2">
-            <div class="card-v2-body">
-              <div class="card-v2-tags">
+  <section class="section-articles">
+    <div class="container">
+      <div class="category-filter">
+        {categories.map((cat) => (
+          <a
+            href={cat === 'Semua' ? '/articles' : `/category/${cat.toLowerCase()}`}
+            class:list={['filter-link', cat === 'Semua' && 'filter-link-active']}
+          >
+            {cat}
+          </a>
+        ))}
+      </div>
+
+      <div class="article-rows">
+        {posts.map((post) => (
+          <article class="article-row">
+            <div class="article-row-left">
+              <div class="article-row-tags">
                 {(post.data.tags || []).slice(0, 2).map((tag) => (
-                  <span class="card-v2-tag">#{tag}</span>
+                  <span class="article-row-tag">#{tag}</span>
                 ))}
               </div>
-              <h3 class="card-v2-title">
+              <h3 class="article-row-title">
                 <a href={`/blog/${post.id}`}>{post.data.title}</a>
               </h3>
-              <p class="card-v2-excerpt">{post.data.excerpt || post.data.description}</p>
-              <div class="card-v2-meta">
-                <span class="card-v2-relative" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-                <span class="card-v2-sep">·</span>
-                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
-              </div>
+              <p class="article-row-excerpt">{post.data.excerpt || post.data.description}</p>
+            </div>
+            <div class="article-row-right">
+              <span class="article-row-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+              <span class="article-row-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
             </div>
           </article>
-      ))}
-    </div>
-
-    {posts.length === 0 && (
-      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-        <p style="font-size: 1.1rem;">Belum ada catatan yang dipublikasikan.</p>
+        ))}
       </div>
-    )}
 
-    <div style="text-align: center; padding: 2rem 0 0; color: var(--text-muted); font-size: 0.85rem;">
-      Menampilkan {posts.length} catatan
-    </div>
+      {posts.length === 0 && (
+        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+          <p>Belum ada catatan yang dipublikasikan.</p>
+        </div>
+      )}
+
+      <div style="text-align: center; padding: 2rem 0 0; color: var(--text-muted); font-size: 0.75rem;">
+        Menampilkan {posts.length} catatan
+      </div>
     </div>
   </section>
 </BaseLayout>
+
+<style>
+  .category-filter {
+    display: flex;
+    gap: 0;
+    margin-bottom: 1.5rem;
+  }
+  .filter-link {
+    padding: 0.45rem 1.25rem;
+    font-size: 0.78rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s;
+    color: var(--text-muted);
+    position: relative;
+  }
+  .filter-link-active {
+    color: var(--text-primary);
+  }
+  .filter-link-active::after {
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 1.25rem;
+    right: 1.25rem;
+    height: 1.5px;
+    background: var(--text-primary);
+  }
+</style>

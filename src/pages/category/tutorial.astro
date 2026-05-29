@@ -8,42 +8,46 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
 );
 ---
 
-<BaseLayout title="Tutorial - CryptoSynth.id" description="Panduan crypto dari pemula hingga advanced - cara beli, swap, staking, dan strategi DeFi.">
-  <div class="page-hero">
+<BaseLayout title="Tutorial - CryptoSynth.id" description="Panduan step-by-step untuk install, setup, dan konfigurasi berbagai tools crypto.">
+  <section class="hero-v3">
     <div class="container">
+      <div class="hero-v3-label">✦ Kategori</div>
       <h1>Tutorial</h1>
-      <p>Panduan crypto dari pemula hingga advanced.</p>
+      <p class="hero-v3-subtitle">Panduan step-by-step untuk install, setup, dan konfigurasi berbagai tools crypto.</p>
     </div>
-  </div>
-  <section class="section">
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section class="section-articles">
     <div class="container">
-    <div class="articles-grid">
-      {posts.map((post) => (
-        <article class="card-v2">
-            <div class="card-v2-body">
-              <div class="card-v2-tags">
+      <div class="article-rows">
+        {posts.map((post, index) => (
+          <article class="article-row">
+            <div class="article-row-left">
+              <div class="article-row-tags">
                 {(post.data.tags || []).slice(0, 2).map((tag) => (
-                  <span class="card-v2-tag">#{tag}</span>
+                  <span class="article-row-tag">#{tag}</span>
                 ))}
               </div>
-              <h3 class="card-v2-title">
+              <h3 class="article-row-title">
                 <a href={`/blog/${post.id}`}>{post.data.title}</a>
               </h3>
-              <p class="card-v2-excerpt">{post.data.excerpt || post.data.description}</p>
-              <div class="card-v2-meta">
-                <span class="card-v2-relative" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-                <span class="card-v2-sep">·</span>
-                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
-              </div>
+              <p class="article-row-excerpt">{post.data.excerpt || post.data.description}</p>
+            </div>
+            <div class="article-row-right">
+              <span class="article-row-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+              <span class="article-row-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
             </div>
           </article>
-      ))}
-    </div>
-    {posts.length === 0 && (
-      <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-        <p>Belum ada artikel di kategori ini.</p>
+        ))}
       </div>
-    )}
+
+      {posts.length === 0 && (
+        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
+          <p>Belum ada catatan di kategori ini.</p>
+        </div>
+      )}
     </div>
   </section>
 </BaseLayout>

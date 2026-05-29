@@ -240,6 +240,73 @@ a:hover { opacity: 0.8; }
   50% { opacity: 0.3; }
 }
 
+/* ===== TERMINAL HOME LAYOUT (shared across all list pages) ===== */
+.terminal-home {
+  padding: 1.5rem 1.5rem 0;
+  max-width: 780px;
+  margin: 0 auto;
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+}
+
+.ascii-art {
+  color: var(--primary);
+  font-size: 0.5rem;
+  line-height: 1.15;
+  margin-bottom: 0.75rem;
+  overflow-x: auto;
+  white-space: pre;
+}
+
+.term-line {
+  font-size: 0.85rem;
+  line-height: 1.75;
+  margin-bottom: 0.08rem;
+}
+
+.term-welcome {
+  margin-bottom: 1.5rem;
+  flex-shrink: 0;
+}
+
+.term-output-area {
+  margin-bottom: 1rem;
+  flex-shrink: 0;
+}
+
+.term-articles {
+  margin-bottom: 1rem;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.term-input-line {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  background: var(--bg);
+  margin-top: auto;
+  flex-shrink: 0;
+}
+
+.term-input {
+  flex: 1;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  outline: none;
+  caret-color: var(--accent-success);
+}
+
+.term-input::placeholder {
+  color: var(--text-dim);
+}
+
 /* ===== READING PROGRESS BAR ===== */
 .reading-progress {
   position: fixed;
@@ -1012,6 +1079,18 @@ a:hover { opacity: 0.8; }
   /* Article */
   .article-container {
     padding: 1.5rem 1rem 3rem;
+  }
+
+  .terminal-home {
+    padding: 1rem 1rem 7rem;
+  }
+
+  .ascii-art {
+    font-size: 0.28rem;
+  }
+
+  .term-input-line {
+    display: none;
   }
 
   .article-meta-row {

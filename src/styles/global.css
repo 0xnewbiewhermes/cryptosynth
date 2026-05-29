@@ -1,6 +1,29 @@
 /* ===== CRYPTOSYNTH TERMINAL DESIGN SYSTEM ===== */
 /* Terminal Interface — Source Code Pro, dark bg, CLI aesthetic */
 
+/* ===== SELF-HOSTED FONTS ===== */
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/source-code-pro-400.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/source-code-pro-500.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/source-code-pro-600.ttf') format('truetype');
+}
+
 :root {
   /* Terminal colors */
   --bg: #0c0c0c;
@@ -37,7 +60,7 @@
   /* Fonts — Source Code Pro primary, fallback stack */
   --font-mono: 'Source Code Pro', 'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', monospace;
   --font-body: 'Source Code Pro', 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
-  --font-display: 'Fraunces', 'Georgia', serif; /* Keep for article titles */
+  --font-display: 'Source Code Pro', 'SF Mono', 'Menlo', monospace; /* All monospace now */
 }
 
 * { box-sizing: border-box; margin: 0; padding: 0; }

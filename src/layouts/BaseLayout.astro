@@ -34,16 +34,14 @@ const isActive = (path: string) => {
     <link rel="alternate icon" type="image/png" href="/favicon.png?v=2" />
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml" />
     <link rel="preconnect" href="https://www.googletagmanager.com" />
-    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
     <link rel="manifest" href="/manifest.json" />
     <meta name="theme-color" content="#0c0c0c" />
     <meta name="color-scheme" content="dark" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <!-- Fonts: Source Code Pro (terminal) + Fraunces (article titles) -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap" as="style" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap" /></noscript>
+    <!-- Fonts: self-hosted Source Code Pro (no Google Fonts roundtrip) -->
+    <link rel="preload" href="/fonts/source-code-pro-400.ttf" as="font" type="font/ttf" crossorigin />
+    <link rel="preload" href="/fonts/source-code-pro-500.ttf" as="font" type="font/ttf" crossorigin />
   </head>
   <body>
     <!-- Skip to content -->

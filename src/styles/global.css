@@ -649,8 +649,9 @@ a:hover { opacity: 0.8; }
 }
 
 /* Code blocks */
-.article-body pre {
-  background: var(--bg-elevated);
+.article-body pre,
+.article-body .astro-code {
+  background: var(--bg-elevated) !important;
   border: 1px solid rgba(255, 255, 255, 0.06);
   padding: 0.85rem 1.1rem;
   margin: 1.25rem 0;
@@ -658,8 +659,14 @@ a:hover { opacity: 0.8; }
   font-family: var(--font-mono);
   font-size: 0.78rem;
   line-height: 1.6;
-  color: var(--text-secondary);
+  color: var(--text-secondary) !important;
   position: relative;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.article-body .astro-code .line span {
+  color: var(--text-secondary) !important;
 }
 
 .article-body pre::before {
@@ -1278,7 +1285,8 @@ a:hover { opacity: 0.8; }
     margin: 1.25rem 0 0.5rem;
   }
 
-  .article-body pre {
+  .article-body pre,
+  .article-body .astro-code {
     font-size: 0.72rem;
     padding: 0.65rem 0.75rem;
     margin: 1rem 0;

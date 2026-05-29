@@ -2944,7 +2944,7 @@ pre:hover .code-copy-btn,
 
 /* Hero V3 */
 .hero-v3 {
-  padding: 2.5rem 0 2.5rem;
+  padding: 0.5rem 0 2rem;
 }
 
 .hero-v3-label {
@@ -3134,7 +3134,7 @@ pre:hover .code-copy-btn,
 /* Responsive */
 @media (max-width: 768px) {
   .hero-v3 {
-    padding: 1.5rem 0 1.5rem;
+    padding: 0 0 1rem;
   }
   .hero-v3 h1 {
     font-size: 2rem;

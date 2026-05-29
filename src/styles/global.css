@@ -636,6 +636,38 @@ a:hover { opacity: 0.8; }
   color: var(--text-muted);
 }
 
+/* TL;DR box — emerald accent */
+.tldr-box {
+  border: 1px solid rgba(16, 185, 129, 0.2);
+  border-left: 3px solid var(--accent-success);
+  background: rgba(16, 185, 129, 0.04);
+  padding: 0.85rem 1.1rem;
+  margin: 1.25rem 0;
+  font-size: 0.85rem;
+  line-height: 1.65;
+  color: var(--text-secondary);
+}
+
+.tldr-box strong {
+  color: var(--accent-success);
+}
+
+/* Disclaimer box — amber accent */
+.disclaimer-box {
+  border: 1px solid rgba(245, 158, 11, 0.15);
+  border-left: 3px solid var(--accent-warn);
+  background: rgba(245, 158, 11, 0.03);
+  padding: 0.85rem 1.1rem;
+  margin: 1.25rem 0;
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--text-muted);
+}
+
+.disclaimer-box strong {
+  color: var(--accent-warn);
+}
+
 /* Code blocks */
 .article-body pre {
   background: var(--bg-elevated);

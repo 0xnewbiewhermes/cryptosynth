@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Terminal Light</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Fraunces:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'JetBrains Mono',monospace;background:#FAFAF7;color:#2C2418;height:100vh;overflow:hidden;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+::selection{background:rgba(30,64,175,0.15)}
+
+/* Top bar */
+.topbar{height:38px;background:#F0EDE6;border-bottom:1px solid rgba(44,36,24,0.08);display:flex;align-items:center;padding:0 1rem;gap:0.75rem;flex-shrink:0}
+.dot{width:10px;height:10px;border-radius:50%}.dot-r{background:#ff5f56}.dot-y{background:#ffbd2e}.dot-g{background:#27c93f}
+.topbar-title{font-size:0.68rem;color:rgba(44,36,24,0.35);margin-left:0.5rem}
+.topbar-path{font-size:0.62rem;color:rgba(44,36,24,0.2);margin-left:auto}
+
+/* Terminal */
+.terminal{flex:1;overflow-y:auto;padding:1.5rem;font-size:0.82rem;line-height:1.7;scroll-behavior:smooth}
+.terminal::-webkit-scrollbar{width:6px}.terminal::-webkit-scrollbar-track{background:transparent}.terminal::-webkit-scrollbar-thumb{background:rgba(44,36,24,0.08);border-radius:3px}
+
+.output-line{margin-bottom:0.12rem}
+.output-line.cmd{color:#059669}.output-line.cmd .prompt{color:#4f46e5}
+.output-line.info{color:#57534e}
+.output-line.highlight{color:#1C1812;font-weight:500}
+.output-line.accent{color:#1E40AF}
+.output-line.muted{color:#a8a29e}
+.output-line.success{color:#059669}
+.output-line.warn{color:#d97706}
+.output-line.error{color:#dc2626}
+
+.ascii-art{color:#1E40AF;font-size:0.62rem;line-height:1.3;margin-bottom:1rem;white-space:pre}
+
+.article-entry{padding:0.4rem 0.75rem;cursor:pointer;transition:all 0.15s;border-left:2px solid transparent;margin:0.2rem 0;border-radius:0 4px 4px 0}
+.article-entry:hover{border-left-color:#1E40AF;background:rgba(30,64,175,0.03)}
+.article-entry:hover .art-title{color:#1E40AF}
+.art-num{color:#d6d3d1;margin-right:0.75rem}
+.art-tag{color:#d97706;font-size:0.68rem}
+.art-title{color:#44403c;transition:color 0.15s}
+.art-date{color:#d6d3d1;font-size:0.68rem;float:right}
+
+.input-line{display:flex;align-items:center;margin-top:0.5rem}
+.prompt{color:#4f46e5;font-weight:600;margin-right:0.5rem;white-space:nowrap}
+.input-line input{flex:1;background:transparent;border:none;color:#1C1812;font-family:'JetBrains Mono',monospace;font-size:0.82rem;outline:none;caret-color:#059669}
+
+.help-table{margin:0.5rem 0}
+.help-row{display:grid;grid-template-columns:120px 1fr;gap:1rem;margin-bottom:0.15rem}
+.help-cmd{color:#d97706;font-weight:500}
+.help-desc{color:#a8a29e}
+
+.article-view{display:none;padding:1.5rem 0}
+.article-view.active{display:block}
+.article-header{margin-bottom:1.5rem}
+.article-header .art-tag-big{font-size:0.7rem;color:#d97706;text-transform:uppercase;letter-spacing:0.15em;margin-bottom:0.5rem}
+.article-header h2{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:700;color:#1C1812;line-height:1.3;margin-bottom:0.5rem}
+.article-header .meta{font-size:0.7rem;color:#a8a29e}
+.article-body{color:#57534e;line-height:1.8;font-size:0.82rem}
+.article-body p{margin-bottom:1rem}
+.back-link{color:#4f46e5;cursor:pointer;margin-bottom:1rem;display:inline-block;font-size:0.78rem}
+.back-link:hover{color:#1E40AF}
+
+/* Status bar */
+.status-bar{height:26px;background:#F0EDE6;border-top:1px solid rgba(44,36,24,0.08);display:flex;align-items:center;padding:0 1rem;font-size:0.6rem;color:rgba(44,36,24,0.3);flex-shrink:0;gap:1.5rem}
+.status-item{display:flex;align-items:center;gap:0.3rem}
+.status-dot{width:5px;height:5px;background:#059669;border-radius:50%;animation:blink 2s ease infinite}
+@keyframes blink{0%,100%{opacity:1}50%{opacity:0.3}}
+
+/* Warm glow subtle background */
+.warm-glow{position:fixed;top:0;right:0;width:50%;height:50%;background:radial-gradient(circle at 80% 20%,rgba(251,191,36,0.02) 0%,transparent 60%);pointer-events:none;z-index:0}
+.cool-glow{position:fixed;bottom:0;left:0;width:50%;height:50%;background:radial-gradient(circle at 20% 80%,rgba(30,64,175,0.02) 0%,transparent 60%);pointer-events:none;z-index:0}
+
+@media(max-width:768px){
+  .terminal{padding:1rem;font-size:0.72rem}
+  .help-row{grid-template-columns:90px 1fr}
+  .ascii-art{font-size:0.4rem}
+  .art-date{display:none}
+}
+</style>
+</head>
+<body>
+<div class="warm-glow"></div>
+<div class="cool-glow"></div>
+
+<div class="topbar">
+  <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
+  <span class="topbar-title">cryptosynth — zsh — 80×24</span>
+  <span class="topbar-path">~/cryptosynth</span>
+</div>
+
+<div class="terminal" id="terminal">
+  <div id="output"></div>
+  <div class="input-line" id="inputLine">
+    <span class="prompt">gideon@cryptosynth:~$</span>
+    <input type="text" id="cmdInput" autofocus spellcheck="false" autocomplete="off">
+  </div>
+</div>
+
+<div class="status-bar">
+  <span class="status-item"><span class="status-dot"></span> connected</span>
+  <span class="status-item">7 catatan</span>
+  <span class="status-item">3 kategori</span>
+  <span class="status-item" id="clock"></span>
+  <span style="margin-left:auto">CryptoSynth.id v1.0</span>
+</div>
+
+<script>
+const output = document.getElementById('output');
+const input = document.getElementById('cmdInput');
+const terminal = document.getElementById('terminal');
+
+const articles = [
+  {num:'01',tag:'AIRDROP',cat:'Q2-2026',title:'7 Airdrop yang Layak Difarming Q2 2026',slug:'airdrop-q2-2026',exc:'Polymarket, Beacon, SosoValue, dan lainnya.',date:'29 Mei 2026',ago:'6 jam lalu'},
+  {num:'02',tag:'SOFI',cat:'STABLECOIN',title:'SoFi Luncurkan Stablecoin Sendiri (SoFiUSD)',slug:'sofi-usd-stablecoin',exc:'Bank Nasional Pertama di AS yang Berani Masuk On-Chain.',date:'29 Mei 2026',ago:'8 jam lalu'},
+  {num:'03',tag:'VARIATIONAL',cat:'AIRDROP',title:'Variational Deep-Dive: Tim Quant Ex-Jane Street',slug:'variational-deep-dive',exc:'Breakdown lengkap: tim, model bisnis, strategi farming.',date:'28 Mei 2026',ago:'1 hari lalu'},
+  {num:'04',tag:'OPTIMAI',cat:'TUTORIAL',title:'Tutorial Install OptimAI Core Node di VPS',slug:'optimai-node-vps',exc:'CLI Setup + Systemd Service.',date:'27 Mei 2026',ago:'1 hari lalu'},
+  {num:'05',tag:'SYMB',cat:'PROPRXYZ',title:'SYMB TGE Juni, ProprXYZ di Hyperliquid',slug:'symb-proprxyz',exc:'3 Airdrop yang Wajib Dicek minggu ini.',date:'27 Mei 2026',ago:'2 hari lalu'},
+  {num:'06',tag:'OPTIMAI',cat:'AIRDROP',title:'OptimAI Network: Farming Airdrop DePIN + AI',slug:'optimai-airdrop',exc:'Udah 2 Juta Node Aktif. Token OPI belum TGE.',date:'26 Mei 2026',ago:'3 hari lalu'},
+  {num:'07',tag:'CATENA',cat:'AIRDROP',title:'Catena Labs: Airdrop Spekulatif atau Peluang Nyata?',slug:'catena-labs',exc:'$48M dari a16z. Breakdown on-chain-nya.',date:'26 Mei 2026',ago:'3 hari lalu'},
+];
+
+let history = [];
+let historyIdx = -1;
+
+function print(html, cls='info') {
+  const div = document.createElement('div');
+  div.className = 'output-line ' + cls;
+  div.innerHTML = html;
+  output.appendChild(div);
+  terminal.scrollTop = terminal.scrollHeight;
+}
+
+function printRaw(html) {
+  const div = document.createElement('div');
+  div.innerHTML = html;
+  output.appendChild(div);
+  terminal.scrollTop = terminal.scrollHeight;
+}
+
+function showWelcome() {
+  print(`<pre class="ascii-art">
+ ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ ███████╗██╗   ██╗███╗   ██╗████████╗██╗  ██╗
+██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═══██╗██╔════╝╚██╗ ██╔╝████╗  ██║╚══██╔══╝██║  ██║
+██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║   ██║███████╗ ╚████╔╝ ██╔██╗ ██║   ██║   ███████║
+██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██║   ██║╚════██║  ╚██╔╝  ██║╚██╗██║   ██║   ██╔══██║
+╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝███████║   ██║   ██║ ╚████║   ██║   ██║  ██║
+ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═══╝   ╚═╝   ╚═╝</pre>`, 'accent');
+  print('Catatan Crypto Personal', 'highlight');
+  print('Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.', 'muted');
+  print('', 'info');
+  print('Ketik <span style="color:#d97706">help</span> untuk lihat semua command.', 'info');
+  print('', 'info');
+}
+
+function showHelp() {
+  print('┌─────────────────────────────────────────────┐', 'muted');
+  print('│  <span style="color:#1C1812;font-weight:600">COMMAND REFERENCE</span>                         │', 'muted');
+  print('├─────────────────────────────────────────────┤', 'muted');
+  print('│  <span style="color:#d97706">ls</span>              List semua catatan           │', 'muted');
+  print('│  <span style="color:#d97706">cat &lt;slug&gt;</span>      Baca catatan lengkap          │', 'muted');
+  print('│  <span style="color:#d97706">grep &lt;keyword&gt;</span>  Cari catatan by keyword       │', 'muted');
+  print('│  <span style="color:#d97706">whoami</span>         Tentang penulis                │', 'muted');
+  print('│  <span style="color:#d97706">clear</span>          Bersihkan layar                │', 'muted');
+  print('│  <span style="color:#d97706">help</span>           Tampilkan bantuan              │', 'muted');
+  print('└─────────────────────────────────────────────┘', 'muted');
+}
+
+function showList() {
+  print('', 'info');
+  print('  <span style="color:#a8a29e">NUM  TAG           TITLE                                           DATE</span>', 'info');
+  print('  <span style="color:#d6d3d1">───  ───           ─────                                           ────</span>', 'info');
+  articles.forEach(a => {
+    const tag = (a.tag + '/' + a.cat).padEnd(14);
+    printRaw(`<div class="article-entry" onclick="showArticle('${a.slug}')"><span class="art-num">${a.num}</span><span class="art-tag">${tag}</span> <span class="art-title">${a.title}</span><span class="art-date">${a.date}</span></div>`);
+  });
+  print('', 'info');
+  print(`  <span style="color:#a8a29e">Total: ${articles.length} catatan. Ketik</span> <span style="color:#d97706">cat &lt;slug&gt;</span> <span style="color:#a8a29e">untuk baca.</span>`, 'info');
+  print('', 'info');
+}
+
+function showArticle(slug) {
+  const a = articles.find(x => x.slug === slug);
+  if (!a) { print(`cat: ${slug}: No such catatan`, 'error'); return; }
+  print('', 'info');
+  print(`<div class="article-view active"><div class="back-link" onclick="execCmd('ls')">← back to list</div><div class="article-header"><div class="art-tag-big">#${a.tag} · #${a.cat}</div><h2>${a.title}</h2><div class="meta">${a.date} · ${a.ago} · Gideon</div></div><div class="article-body"><p>${a.exc}</p><p style="color:#a8a29e;font-style:italic">[Konten lengkap akan dimuat di sini...]</p><p style="color:#a8a29e">Ketik <span style="color:#d97706">ls</span> untuk kembali ke daftar catatan.</p></div></div>`, 'info');
+  print('', 'info');
+}
+
+function showWhoami() {
+  print('', 'info');
+  print('  <span style="color:#1C1812;font-weight:600">Gideon</span>', 'info');
+  print('  Crypto practitioner. Node operator. Airdrop farmer.', 'muted');
+  print('  Nulis catatan crypto dari sudut pandang pribadi.', 'muted');
+  print('', 'info');
+  print('  <span style="color:#a8a29e">Bukan financial advisor. Bukan portal berita.</span>', 'muted');
+  print('  <span style="color:#a8a29e">Cuma seseorang yang setiap hari ngurusin node,</span>', 'muted');
+  print('  <span style="color:#a8a29e">farming airdrop, trading, dan opini soal crypto.</span>', 'muted');
+  print('', 'info');
+  print('  <span style="color:#4f46e5">x.com/gideon</span>  <span style="color:#4f46e5">cryptosynth.id</span>', 'info');
+  print('', 'info');
+}
+
+function execCmd(cmd) {
+  const parts = cmd.trim().split(/\s+/);
+  const command = parts[0]?.toLowerCase();
+  const arg = parts.slice(1).join(' ');
+  print(`<span class="prompt" style="color:#4f46e5">gideon@cryptosynth:~$</span> <span style="color:#059669">${cmd}</span>`, 'cmd');
+  switch(command) {
+    case '': break;
+    case 'help': showHelp(); break;
+    case 'ls': case 'list': showList(); break;
+    case 'cat': case 'read': if(arg){showArticle(arg);}else{print('Usage: cat &lt;slug&gt;', 'warn');} break;
+    case 'grep': case 'search':
+      if(!arg){print('Usage: grep &lt;keyword&gt;', 'warn');break;}
+      const found = articles.filter(a => a.title.toLowerCase().includes(arg.toLowerCase()) || a.tag.toLowerCase().includes(arg.toLowerCase()) || a.exc.toLowerCase().includes(arg.toLowerCase()));
+      if(found.length===0){print(`Tidak ditemukan: "${arg}"`, 'warn');}
+      else{print(`Ditemukan ${found.length} catatan untuk "${arg}":`, 'success');found.forEach(a=>{printRaw(`<div class="article-entry" onclick="showArticle('${a.slug}')"><span class="art-num">${a.num}</span> <span class="art-title">${a.title}</span><span class="art-date">${a.date}</span></div>`);});}
+      break;
+    case 'whoami': case 'about': showWhoami(); break;
+    case 'clear': case 'cls': output.innerHTML=''; break;
+    case 'exit': case 'quit': print('Tidak bisa keluar dari CryptoSynth. Lo sudah di dalam.', 'warn'); break;
+    case 'sudo': print('Nice try. Tapi ini blog, bukan server.', 'warn'); break;
+    default: print(`Command not found: ${command}. Ketik <span style="color:#d97706">help</span> untuk bantuan.`, 'error');
+  }
+}
+
+input.addEventListener('keydown', e => {
+  if(e.key==='Enter'){const cmd=input.value;if(cmd){history.push(cmd);historyIdx=history.length;}execCmd(cmd);input.value='';}
+  if(e.key==='ArrowUp'){e.preventDefault();if(historyIdx>0){historyIdx--;input.value=history[historyIdx];}}
+  if(e.key==='ArrowDown'){e.preventDefault();if(historyIdx<history.length-1){historyIdx++;input.value=history[historyIdx];}else{historyIdx=history.length;input.value='';}}
+  if(e.key==='l'&&e.ctrlKey){e.preventDefault();output.innerHTML='';}
+});
+
+terminal.addEventListener('click',()=>input.focus());
+
+function updateClock(){document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-US',{hour12:false})+' WIB';}
+updateClock();setInterval(updateClock,1000);
+
+showWelcome();
+</script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Koran</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;background:#F5F0E6;color:#2C2418;-webkit-font-smoothing:antialiased}
+::selection{background:rgba(44,36,24,0.15)}
+
+.page{max-width:1100px;margin:0 auto;padding:1.5rem 2rem;background:#F5F0E6;min-height:100vh;position:relative}
+.page::before{content:'';position:absolute;top:0;left:50%;width:1px;height:100%;background:rgba(44,36,24,0.06);transform:translateX(-50%);pointer-events:none}
+
+/* Masthead */
+.masthead{text-align:center;padding:2rem 0 1rem;border-bottom:3px double #2C2418;position:relative}
+.masthead-date{font-size:0.65rem;text-transform:uppercase;letter-spacing:0.2em;color:rgba(44,36,24,0.4);margin-bottom:0.5rem;font-family:'JetBrains Mono',monospace}
+.masthead-title{font-family:'Playfair Display',serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:900;letter-spacing:-0.02em;line-height:1;margin-bottom:0.25rem}
+.masthead-subtitle{font-family:'Fraunces',serif;font-size:0.85rem;font-style:italic;color:rgba(44,36,24,0.5);margin-bottom:0.5rem}
+.masthead-rule{display:flex;align-items:center;gap:1rem;margin-top:0.75rem}
+.masthead-rule span{font-size:0.55rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(44,36,24,0.3);white-space:nowrap}
+.masthead-rule::before,.masthead-rule::after{content:'';flex:1;height:1px;background:rgba(44,36,24,0.1)}
+
+/* Nav (newspaper-style section tabs) */
+.section-nav{display:flex;justify-content:center;gap:0;padding:0.75rem 0;border-bottom:1px solid rgba(44,36,24,0.1)}
+.section-nav a{font-size:0.65rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(44,36,24,0.4);text-decoration:none;padding:0.4rem 1rem;border-left:1px solid rgba(44,36,24,0.08);transition:all 0.2s}
+.section-nav a:first-child{border-left:none}
+.section-nav a:hover{color:#2C2418}
+.section-nav a.active{color:#2C2418;font-weight:600}
+
+/* Column grid */
+.columns{display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;margin-top:1.5rem}
+.col{padding:0 1.25rem;border-right:1px solid rgba(44,36,24,0.06)}
+.col:last-child{border-right:none}
+.col:first-child{padding-left:0}
+.col:last-child{padding-right:0}
+
+/* Headline (spans full width) */
+.headline-area{padding:1.5rem 0;border-bottom:1px solid rgba(44,36,24,0.08);display:grid;grid-template-columns:2fr 1fr;gap:2rem;align-items:start}
+.headline-main{padding-right:2rem;border-right:1px solid rgba(44,36,24,0.06)}
+.headline-tag{font-size:0.55rem;text-transform:uppercase;letter-spacing:0.2em;color:rgba(44,36,24,0.35);margin-bottom:0.75rem;font-weight:600}
+h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,3.5vw,2.8rem);font-weight:900;line-height:1.05;letter-spacing:-0.02em;margin-bottom:0.75rem;cursor:pointer;transition:color 0.2s}
+h1:hover{color:#1E40AF}
+.headline-byline{font-size:0.7rem;color:rgba(44,36,24,0.4);margin-bottom:0.75rem;font-style:italic;font-family:'Fraunces',serif}
+.headline-exc{font-size:0.9rem;line-height:1.65;color:rgba(44,36,24,0.65)}
+.drop-cap::first-letter{font-family:'Playfair Display',serif;font-size:3.5rem;font-weight:900;float:left;line-height:0.8;margin-right:0.5rem;margin-top:0.1rem;color:#2C2418}
+
+.headline-sidebar{display:flex;flex-direction:column;gap:1rem}
+.sidebar-item{padding-bottom:1rem;border-bottom:1px solid rgba(44,36,24,0.06);cursor:pointer}
+.sidebar-item:hover .sidebar-title{color:#1E40AF}
+.sidebar-tag{font-size:0.5rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(44,36,24,0.3);margin-bottom:0.3rem}
+.sidebar-title{font-family:'Fraunces',serif;font-size:0.95rem;font-weight:700;line-height:1.3;transition:color 0.2s}
+.sidebar-date{font-size:0.6rem;color:rgba(44,36,24,0.25);margin-top:0.3rem}
+
+/* Column articles */
+.col-article{padding:1rem 0;border-bottom:1px solid rgba(44,36,24,0.06);cursor:pointer;transition:all 0.2s}
+.col-article:hover{padding-left:0.25rem}
+.col-article:hover .col-title{color:#1E40AF}
+.col-tag{font-size:0.48rem;text-transform:uppercase;letter-spacing:0.12em;color:rgba(44,36,24,0.3);margin-bottom:0.3rem;font-weight:600}
+.col-title{font-family:'Fraunces',serif;font-size:0.95rem;font-weight:700;line-height:1.3;transition:color 0.2s;margin-bottom:0.3rem}
+.col-exc{font-size:0.75rem;color:rgba(44,36,24,0.5);line-height:1.55}
+.col-meta{font-size:0.58rem;color:rgba(44,36,24,0.25);margin-top:0.4rem;font-style:italic;font-family:'Fraunces',serif}
+
+/* Section header */
+.section-header{font-size:0.6rem;text-transform:uppercase;letter-spacing:0.2em;color:rgba(44,36,24,0.3);font-weight:700;padding:1.25rem 0 0.5rem;border-bottom:2px solid #2C2418;margin-bottom:0.75rem}
+
+/* Footer */
+.paper-footer{display:flex;justify-content:space-between;align-items:center;padding:1.5rem 0;margin-top:2rem;border-top:3px double #2C2418}
+.paper-footer span{font-size:0.6rem;color:rgba(44,36,24,0.3);font-family:'JetBrains Mono',monospace;text-transform:uppercase;letter-spacing:0.1em}
+
+/* Weather widget (fun detail) */
+.weather{font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:rgba(44,36,24,0.3);text-align:right;margin-bottom:0.5rem}
+
+/* Scroll animations */
+.fold{opacity:0;transform:translateY(10px);transition:all 0.4s cubic-bezier(0.16,1,0.3,1)}.fold.visible{opacity:1;transform:translateY(0)}
+
+/* Hover highlight effect */
+.highlight-line{position:absolute;left:0;right:0;height:100%;background:rgba(30,64,175,0.02);opacity:0;transition:opacity 0.3s;pointer-events:none;z-index:-1}
+
+@media(max-width:900px){
+  .columns{grid-template-columns:1fr 1fr}
+  .col:nth-child(3){display:none}
+  .headline-area{grid-template-columns:1fr}
+  .headline-main{border-right:none;padding-right:0}
+  .headline-sidebar{display:grid;grid-template-columns:1fr 1fr}
+}
+@media(max-width:600px){
+  .columns{grid-template-columns:1fr}
+  .headline-sidebar{grid-template-columns:1fr}
+  .page{padding:1rem}
+  .section-nav{flex-wrap:wrap}
+}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="weather">Kalimantan, ID — 32°C, Cerah</div>
+
+  <header class="masthead">
+    <div class="masthead-date">Kamis, 29 Mei 2026 · Edisi Digital</div>
+    <h1 class="masthead-title">CRYPTOSYNTH</h1>
+    <div class="masthead-subtitle">Catatan Crypto Personal · Sejak 2026</div>
+    <div class="masthead-rule"><span>Harga: Gratis · Pendapat Pribadi · Bukan Saran Keuangan</span></div>
+  </header>
+
+  <nav class="section-nav">
+    <a href="#" class="active">Semua</a>
+    <a href="#">Airdrop</a>
+    <a href="#">Tutorial</a>
+    <a href="#">Node</a>
+    <a href="#">Trading</a>
+    <a href="#">Opini</a>
+  </nav>
+
+  <div class="headline-area fold">
+    <div class="headline-main">
+      <div class="headline-tag">#AIRDROP · #Q2-2026</div>
+      <h1>7 Airdrop yang Layak Difarming Q2 2026</h1>
+      <div class="headline-byline">Oleh Gideon · 29 Mei 2026 · 6 jam lalu</div>
+      <p class="headline-exc drop-cap">Polymarket, Beacon, SosoValue, dan lainnya. Semua udah saya verify sendiri di on-chain. Ini bukan daftar asal comot, tapi hasil riset dari data transaksi on-chain yang bisa dicek sendiri.</p>
+    </div>
+    <div class="headline-sidebar">
+      <div class="sidebar-item"><div class="sidebar-tag">#SOFI · #STABLECOIN</div><div class="sidebar-title">SoFi Luncurkan Stablecoin Sendiri (SoFiUSD)</div><div class="sidebar-date">29 Mei 2026</div></div>
+      <div class="sidebar-item"><div class="sidebar-tag">#VARIATIONAL · #AIRDROP</div><div class="sidebar-title">Variational Deep-Dive: Tim Quant Ex-Jane Street</div><div class="sidebar-date">28 Mei 2026</div></div>
+      <div class="sidebar-item"><div class="sidebar-tag">#OPTIMAI · #TUTORIAL</div><div class="sidebar-title">Tutorial Install OptimAI Core Node di VPS</div><div class="sidebar-date">27 Mei 2026</div></div>
+    </div>
+  </div>
+
+  <div class="columns fold">
+    <div class="col">
+      <div class="section-header">Airdrop Terbaru</div>
+      <div class="col-article"><div class="col-tag">#SYMB · #PROPRXYZ</div><div class="col-title">SYMB TGE Juni, ProprXYZ di Hyperliquid</div><div class="col-exc">3 Airdrop yang Wajib Dicek minggu ini. SYMB pakai sistem leaderboard merit-based.</div><div class="col-meta">27 Mei · 2 hari lalu</div></div>
+      <div class="col-article"><div class="col-tag">#OPTIMAI · #AIRDROP</div><div class="col-title">OptimAI Network: Farming DePIN + AI</div><div class="col-exc">Udah 2 Juta Node Aktif. Token OPI belum TGE.</div><div class="col-meta">26 Mei · 3 hari lalu</div></div>
+    </div>
+    <div class="col">
+      <div class="section-header">Analisis</div>
+      <div class="col-article"><div class="col-tag">#CATENA · #AIRDROP</div><div class="col-title">Catena Labs: Spekulatif atau Peluang Nyata?</div><div class="col-exc">$48M dari a16z. Ini breakdown on-chain-nya, bukan sekadar hype.</div><div class="col-meta">26 Mei · 3 hari lalu</div></div>
+    </div>
+    <div class="col">
+      <div class="section-header">Info Singkat</div>
+      <div style="padding:1rem 0;border-bottom:1px solid rgba(44,36,24,0.06);font-size:0.8rem;line-height:1.6;color:rgba(44,36,24,0.6)">
+        <strong style="color:#2C2418;display:block;margin-bottom:0.3rem;font-family:'Fraunces',serif">Tentang Blog Ini</strong>
+        CryptoSynth.id adalah catatan crypto personal. Node logs, airdrop farming, trading, dan opini dari sudut pandang pribadi. Bukan portal berita. Bukan saran keuangan.
+      </div>
+      <div style="padding:1rem 0;font-size:0.75rem;color:rgba(44,36,24,0.4);line-height:1.5">
+        <strong style="color:rgba(44,36,24,0.6);display:block;margin-bottom:0.3rem;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em">Langganan</strong>
+        Dapatkan catatan terbaru langsung di inbox.
+      </div>
+    </div>
+  </div>
+
+  <footer class="paper-footer fold">
+    <span>© 2026 CryptoSynth.id</span>
+    <span>Catatan pribadi, bukan saran keuangan</span>
+    <span>Halaman 1 dari 1</span>
+  </footer>
+</div>
+
+<script>
+const obs = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
+},{threshold:0.1});
+document.querySelectorAll('.fold').forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>

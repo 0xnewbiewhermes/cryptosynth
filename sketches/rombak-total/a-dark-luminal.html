@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Dark Luminal</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#08080c;--bg-card:rgba(255,255,255,0.02);--bg-card-hover:rgba(255,255,255,0.04);
+  --text:#e8e8ec;--text-muted:rgba(232,232,236,0.4);--text-dim:rgba(232,232,236,0.15);
+  --primary:#3b82f6;--primary-glow:rgba(59,130,246,0.15);
+  --border:rgba(255,255,255,0.04);
+  --font-display:'Fraunces',Georgia,serif;--font-body:'DM Sans',system-ui,sans-serif;
+}
+html{scroll-behavior:smooth}
+body{font-family:var(--font-body);background:var(--bg);color:var(--text);overflow-x:hidden;-webkit-font-smoothing:antialiased}
+::selection{background:rgba(59,130,246,0.3);color:#fff}
+
+/* Cursor glow */
+.cursor-glow{position:fixed;width:600px;height:600px;border-radius:50%;background:radial-gradient(circle,rgba(59,130,246,0.06) 0%,transparent 70%);pointer-events:none;z-index:0;transform:translate(-50%,-50%);transition:opacity 0.3s}
+
+/* Nav */
+.nav{position:fixed;top:0;left:0;right:0;padding:0 2rem;height:56px;display:flex;justify-content:space-between;align-items:center;z-index:100;background:rgba(8,8,12,0.7);backdrop-filter:blur(20px);border-bottom:1px solid var(--border)}
+.logo{font-family:var(--font-display);font-size:0.95rem;font-weight:700;color:#fff;text-decoration:none;letter-spacing:-0.02em}
+.logo span{color:var(--primary)}
+.nav-links{display:flex;gap:0.25rem}
+.nav-links a{color:var(--text-muted);text-decoration:none;font-size:0.78rem;font-weight:500;padding:0.4rem 0.8rem;border-radius:6px;transition:all 0.2s}
+.nav-links a:hover{color:var(--text);background:rgba(255,255,255,0.04)}
+.nav-links a.active{color:#fff;background:rgba(255,255,255,0.06)}
+.search-btn{background:transparent;border:1px solid var(--border);color:var(--text-muted);padding:0.35rem 0.7rem;font-size:0.72rem;border-radius:6px;cursor:pointer;display:flex;align-items:center;gap:0.4rem;transition:all 0.2s}
+.search-btn:hover{border-color:rgba(255,255,255,0.1);color:var(--text)}
+.search-btn kbd{font-size:0.6rem;background:rgba(255,255,255,0.06);padding:0.1rem 0.3rem;border-radius:3px}
+
+/* Hero */
+.hero{padding:10rem 2rem 5rem;max-width:780px;margin:0 auto;position:relative}
+.hero-badge{display:inline-flex;align-items:center;gap:0.5rem;font-size:0.65rem;text-transform:uppercase;letter-spacing:0.2em;color:var(--text-muted);margin-bottom:1.5rem;padding:0.35rem 0.9rem;border:1px solid var(--border);border-radius:999px}
+.hero-badge .dot{width:6px;height:6px;background:var(--primary);border-radius:50%;animation:pulse 2s ease infinite}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:0.4}}
+h1{font-family:var(--font-display);font-size:clamp(2.8rem,6vw,4.2rem);font-weight:800;letter-spacing:-0.04em;line-height:1.05;margin-bottom:1.25rem}
+h1 .grad{background:linear-gradient(135deg,#60a5fa,#3b82f6,#2563eb);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.hero-sub{font-size:1rem;color:var(--text-muted);line-height:1.65;max-width:520px}
+.hero-stats{display:flex;gap:2.5rem;margin-top:2.5rem;padding-top:2rem;border-top:1px solid var(--border)}
+.stat{text-align:left}.stat-num{font-family:var(--font-display);font-size:1.5rem;font-weight:700;color:#fff}.stat-label{font-size:0.65rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:0.1em;margin-top:0.2rem}
+
+/* Section */
+.section{max-width:780px;margin:0 auto;padding:0 2rem}
+.section-header{display:flex;justify-content:space-between;align-items:center;padding:3rem 0 1.5rem}
+.section-title{font-size:0.7rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--text-dim);font-weight:600}
+.section-link{font-size:0.75rem;color:var(--primary);text-decoration:none;font-weight:500;transition:opacity 0.2s}.section-link:hover{opacity:0.7}
+
+/* Article Rows */
+.rows{padding-bottom:4rem}
+.row{display:grid;grid-template-columns:1fr auto;gap:2rem;align-items:start;padding:1.5rem 1.25rem;border-bottom:1px solid var(--border);border-radius:8px;cursor:pointer;transition:all 0.25s ease;position:relative}
+.row:hover{background:var(--bg-card-hover);transform:translateX(4px)}
+.row:hover .row-title{color:var(--primary)}
+.row-tag{font-size:0.55rem;text-transform:uppercase;letter-spacing:0.12em;color:var(--primary);margin-bottom:0.4rem;font-weight:600}
+.row-title{font-family:var(--font-display);font-size:1.1rem;font-weight:600;line-height:1.35;transition:color 0.25s;margin-bottom:0.3rem}
+.row-exc{font-size:0.8rem;color:var(--text-muted);line-height:1.55}
+.row-meta{text-align:right;white-space:nowrap}
+.row-date{font-size:0.68rem;color:var(--text-dim);display:block;margin-bottom:0.2rem}
+.row-time{font-size:0.62rem;color:var(--text-dim)}
+
+/* Load More */
+.load-more{max-width:780px;margin:0 auto;padding:2rem;text-align:center}
+.load-btn{background:transparent;border:1px solid var(--border);color:var(--text-muted);padding:0.7rem 2rem;font-size:0.8rem;font-weight:500;border-radius:6px;cursor:pointer;transition:all 0.2s;font-family:var(--font-body)}
+.load-btn:hover{border-color:var(--primary);color:var(--primary)}
+
+/* Footer */
+.footer{max-width:780px;margin:0 auto;padding:3rem 2rem;border-top:1px solid var(--border);display:flex;justify-content:space-between;align-items:center}
+.footer-brand{font-family:var(--font-display);font-size:0.85rem;font-weight:600;color:var(--text-muted)}
+.footer-links{display:flex;gap:1.5rem}
+.footer-links a{font-size:0.72rem;color:var(--text-dim);text-decoration:none;transition:color 0.2s}.footer-links a:hover{color:var(--text)}
+
+/* Scroll reveal */
+.reveal{opacity:0;transform:translateY(20px);transition:all 0.6s cubic-bezier(0.16,1,0.3,1)}
+.reveal.visible{opacity:1;transform:translateY(0)}
+.reveal-delay-1{transition-delay:0.05s}
+.reveal-delay-2{transition-delay:0.1s}
+.reveal-delay-3{transition-delay:0.15s}
+.reveal-delay-4{transition-delay:0.2s}
+.reveal-delay-5{transition-delay:0.25s}
+.reveal-delay-6{transition-delay:0.3s}
+.reveal-delay-7{transition-delay:0.35s}
+
+@media(max-width:768px){
+  .nav{padding:0 1rem}
+  .hero{padding:7rem 1.5rem 3rem}
+  .hero-stats{gap:1.5rem;flex-wrap:wrap}
+  .section{padding:0 1.5rem}
+  .row{grid-template-columns:1fr;gap:0.5rem;padding:1.2rem 0.75rem}
+  .row-meta{text-align:left}
+}
+</style>
+</head>
+<body>
+<div class="cursor-glow" id="cursorGlow"></div>
+
+<nav class="nav">
+  <a class="logo" href="#">Crypto<span>Synth</span></a>
+  <div class="nav-links">
+    <a href="#" class="active">Catatan</a>
+    <a href="#">Airdrop</a>
+    <a href="#">Tools</a>
+    <a href="#">Tentang</a>
+  </div>
+  <button class="search-btn">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/></svg>
+    Cari...
+    <kbd>⌘K</kbd>
+  </button>
+</nav>
+
+<section class="hero">
+  <div class="hero-badge"><span class="dot"></span> Hanya catatan pribadi</div>
+  <h1>Catatan <span class="grad">Crypto</span><br>Personal</h1>
+  <p class="hero-sub">Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi. Bukan portal berita. Cuma catatan.</p>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num" id="count1">0</div><div class="stat-label">Catatan</div></div>
+    <div class="stat"><div class="stat-num" id="count2">0</div><div class="stat-label">Kategori</div></div>
+    <div class="stat"><div class="stat-num" id="count3">0</div><div class="stat-label">Hari Nulis</div></div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="section-header">
+    <span class="section-title">🔥 Trending</span>
+    <a href="#" class="section-link">Lihat Semua →</a>
+  </div>
+</section>
+
+<section class="section rows">
+  <div class="row reveal"><div><div class="row-tag">#AIRDROP · #Q2-2026</div><div class="row-title">7 Airdrop yang Layak Difarming Q2 2026</div><div class="row-exc">Polymarket, Beacon, SosoValue, dan lainnya. Semua udah saya verify sendiri di on-chain.</div></div><div class="row-meta"><span class="row-date">29 Mei 2026</span><span class="row-time">6 jam lalu</span></div></div>
+
+  <div class="row reveal reveal-delay-1"><div><div class="row-tag">#SOFI · #STABLECOIN</div><div class="row-title">SoFi Luncurkan Stablecoin Sendiri (SoFiUSD)</div><div class="row-exc">Bank Nasional Pertama di AS yang Berani Masuk On-Chain.</div></div><div class="row-meta"><span class="row-date">29 Mei 2026</span><span class="row-time">8 jam lalu</span></div></div>
+
+  <div class="row reveal reveal-delay-2"><div><div class="row-tag">#VARIATIONAL · #AIRDROP</div><div class="row-title">Variational Deep-Dive: Tim Quant Ex-Jane Street</div><div class="row-exc">Breakdown lengkap: siapa timnya, gimana model bisnisnya, dan strategi farming yang optimal.</div></div><div class="row-meta"><span class="row-date">28 Mei 2026</span><span class="row-time">1 hari lalu</span></div></div>
+
+  <div class="row reveal reveal-delay-3"><div><div class="row-tag">#OPTIMAI · #TUTORIAL</div><div class="row-title">Tutorial Install OptimAI Core Node di VPS</div><div class="row-exc">CLI Setup + Systemd Service. Dari nol sampai node jalan.</div></div><div class="row-meta"><span class="row-date">27 Mei 2026</span><span class="row-time">1 hari lalu</span></div></div>
+
+  <div class="row reveal reveal-delay-4"><div><div class="row-tag">#SYMB · #PROPRXYZ</div><div class="row-title">SYMB TGE Juni, ProprXYZ di Hyperliquid</div><div class="row-exc">3 Airdrop yang Wajib Dicek minggu ini.</div></div><div class="row-meta"><span class="row-date">27 Mei 2026</span><span class="row-time">2 hari lalu</span></div></div>
+
+  <div class="row reveal reveal-delay-5"><div><div class="row-tag">#OPTIMAI · #AIRDROP</div><div class="row-title">OptimAI Network: Farming Airdrop DePIN + AI</div><div class="row-exc">Udah 2 Juta Node Aktif. Token OPI belum TGE.</div></div><div class="row-meta"><span class="row-date">26 Mei 2026</span><span class="row-time">3 hari lalu</span></div></div>
+
+  <div class="row reveal reveal-delay-6"><div><div class="row-tag">#CATENA · #AIRDROP</div><div class="row-title">Catena Labs: Airdrop Spekulatif atau Peluang Nyata?</div><div class="row-exc">$48M dari a16z. Ini breakdown on-chain-nya.</div></div><div class="row-meta"><span class="row-date">26 Mei 2026</span><span class="row-time">3 hari lalu</span></div></div>
+</section>
+
+<div class="load-more"><button class="load-btn">Muat Lagi ↓</button></div>
+
+<footer class="footer">
+  <span class="footer-brand">CryptoSynth.id</span>
+  <div class="footer-links"><a href="#">Tentang</a><a href="#">Disclaimer</a><a href="#">RSS</a><a href="#">X</a></div>
+</footer>
+
+<script>
+// Cursor glow
+const glow = document.getElementById('cursorGlow');
+document.addEventListener('mousemove', e => {
+  glow.style.left = e.clientX + 'px';
+  glow.style.top = e.clientY + 'px';
+});
+
+// Scroll reveal
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}});
+}, {threshold: 0.1, rootMargin: '0px 0px -50px 0px'});
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// Counter animation
+function animateCounter(id, target, duration=1500) {
+  const el = document.getElementById(id);
+  const start = performance.now();
+  function update(now) {
+    const progress = Math.min((now - start) / duration, 1);
+    const eased = 1 - Math.pow(1 - progress, 3);
+    el.textContent = Math.floor(eased * target);
+    if (progress < 1) requestAnimationFrame(update);
+  }
+  requestAnimationFrame(update);
+}
+setTimeout(() => {animateCounter('count1', 9, 1200);animateCounter('count2', 3, 1000);animateCounter('count3', 45, 1500);}, 500);
+
+// Search button
+document.querySelector('.search-btn').addEventListener('click', () => {alert('Search modal would open here');});
+</script>
+</body>
+</html>

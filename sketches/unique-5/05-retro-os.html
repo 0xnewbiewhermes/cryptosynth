@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth OS</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Fraunces:wght@700;900&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'JetBrains Mono',monospace;background:#1a5c3a;color:#fff;height:100vh;overflow:hidden;-webkit-font-smoothing:antialiased;user-select:none}
+
+/* Desktop */
+.desktop{height:calc(100vh - 32px);position:relative;padding:1.5rem;display:grid;grid-template-columns:repeat(auto-fill,90px);grid-auto-rows:90px;gap:0.5rem;align-content:start;background:linear-gradient(135deg,#1a5c3a 0%,#0d3d24 50%,#1a5c3a 100%)}
+
+/* Desktop wallpaper pattern */
+.desktop::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='40' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Ccircle cx='20' cy='20' r='0.5' fill='rgba(255,255,255,0.03)'/%3E%3C/svg%3E");pointer-events:none}
+
+/* Desktop icons */
+.icon{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:0.3rem;cursor:pointer;padding:0.5rem;border-radius:2px;transition:background 0.1s}
+.icon:hover{background:rgba(255,255,255,0.1)}
+.icon.selected{background:rgba(0,120,215,0.4)}
+.icon-img{width:40px;height:40px;display:flex;align-items:center;justify-content:center;font-size:1.5rem}
+.icon-label{font-size:0.6rem;text-align:center;color:#fff;text-shadow:0 1px 2px rgba(0,0,0,0.5);line-height:1.3;max-width:80px;word-break:break-word}
+
+/* Windows */
+.window{position:absolute;background:#c0c0c0;border:2px outset #dfdfdf;box-shadow:2px 2px 8px rgba(0,0,0,0.3);display:none;flex-direction:column;min-width:300px;min-height:200px}
+.window.open{display:flex}
+.window.maximized{inset:32px 0 0 !important;width:auto!important;height:auto!important}
+.titlebar{background:linear-gradient(90deg,#000080,#1084d0);padding:2px 4px;display:flex;align-items:center;justify-content:space-between;cursor:move;flex-shrink:0}
+.titlebar-text{font-size:0.65rem;font-weight:700;color:#fff;display:flex;align-items:center;gap:0.4rem}
+.titlebar-icon{font-size:0.8rem}
+.titlebar-buttons{display:flex;gap:2px}
+.titlebar-btn{width:16px;height:14px;background:#c0c0c0;border:1px outset #dfdfdf;font-size:0.5rem;display:flex;align-items:center;justify-content:center;cursor:pointer;color:#000;font-weight:700;line-height:1}
+.titlebar-btn:active{border:1px inset #dfdfdf}
+.window-body{flex:1;background:#fff;overflow:auto;padding:0}
+.window-body::-webkit-scrollbar{width:16px}.window-body::-webkit-scrollbar-track{background:#c0c0c0;border-left:1px solid #808080}.window-body::-webkit-scrollbar-thumb{background:#c0c0c0;border:1px outset #dfdfdf}
+
+/* Window menu bar */
+.menubar{background:#c0c0c0;padding:2px 4px;display:flex;gap:0;border-bottom:1px solid #808080}
+.menubar span{font-size:0.6rem;padding:0.15rem 0.5rem;cursor:pointer;color:#000}
+.menubar span:hover{background:#000080;color:#fff}
+
+/* Article content inside window */
+.article-content{padding:0.75rem;font-size:0.72rem;color:#000;line-height:1.6;font-family:'JetBrains Mono',monospace}
+.article-content h2{font-size:0.85rem;font-weight:700;margin-bottom:0.5rem;font-family:'Fraunces',serif}
+.article-content .tag{color:#000080;font-weight:600}
+.article-content .date{color:#808080;font-size:0.65rem}
+.article-content .exc{margin:0.5rem 0;color:#333}
+.article-content .read-link{color:#000080;text-decoration:underline;cursor:pointer}
+.article-content .read-link:hover{color:#ff0000}
+.article-content hr{border:none;border-top:1px solid #808080;margin:0.5rem 0}
+
+/* File list view */
+.file-list{padding:0}
+.file-row{display:grid;grid-template-columns:20px 1fr 80px 100px;padding:0.15rem 0.5rem;font-size:0.65rem;border-bottom:1px solid #e0e0e0;cursor:pointer;transition:background 0.1s}
+.file-row:hover{background:#e8e8ff}
+.file-row.selected{background:#000080;color:#fff}
+.file-row.header{font-weight:700;background:#c0c0c0;border-bottom:1px solid #808080;position:sticky;top:0}
+.file-icon{font-size:0.75rem}
+
+/* Status bar */
+.statusbar{height:32px;background:#c0c0c0;border-top:2px outset #dfdfdf;display:flex;align-items:center;padding:0 4px;flex-shrink:0}
+.taskbar{display:flex;align-items:center;gap:2px;flex:1;height:24px}
+.start-btn{background:#c0c0c0;border:2px outset #dfdfdf;padding:0 0.5rem;font-size:0.65rem;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:0.3rem;height:24px;color:#000}
+.start-btn:active,.start-btn.active{border:2px inset #dfdfdf}
+.taskbar-item{background:#c0c0c0;border:1px outset #dfdfdf;padding:0 0.5rem;font-size:0.6rem;height:22px;display:flex;align-items:center;gap:0.3rem;cursor:pointer;max-width:160px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:#000}
+.taskbar-item.active{border:1px inset #dfdfdf;background:#b0b0b0}
+.taskbar-spacer{flex:1}
+.system-tray{display:flex;align-items:center;gap:0.5rem;padding:0 0.5rem;font-size:0.6rem;color:#000;height:24px;background:#c0c0c0;border:1px inset #dfdfdf}
+
+/* Start menu */
+.start-menu{position:absolute;bottom:32px;left:0;background:#c0c0c0;border:2px outset #dfdfdf;width:220px;display:none;z-index:200;box-shadow:3px 3px 10px rgba(0,0,0,0.3)}
+.start-menu.open{display:block}
+.start-header{background:linear-gradient(180deg,#000080,#1084d0);padding:0.4rem 0.5rem;font-size:0.7rem;font-weight:700;color:#fff;display:flex;align-items:center;gap:0.4rem}
+.start-item{padding:0.35rem 0.5rem;font-size:0.65rem;cursor:pointer;display:flex;align-items:center;gap:0.5rem;color:#000;transition:background 0.1s}
+.start-item:hover{background:#000080;color:#fff}
+.start-sep{height:1px;background:#808080;margin:2px 0}
+
+/* Boot screen */
+.boot-screen{position:fixed;inset:0;background:#000;z-index:999;display:flex;flex-direction:column;align-items:center;justify-content:center;transition:opacity 0.5s}
+.boot-screen.hidden{opacity:0;pointer-events:none}
+.boot-logo{font-family:'Fraunces',serif;font-size:1.5rem;font-weight:900;color:#1a5c3a;margin-bottom:2rem}
+.boot-text{font-size:0.7rem;color:#aaa;line-height:1.8;text-align:left;max-width:400px}
+.boot-text .ok{color:#1a5c3a}
+.boot-progress{width:200px;height:12px;background:#333;border:1px solid #555;margin-top:1.5rem;overflow:hidden}
+.boot-progress-bar{height:100%;background:#1a5c3a;width:0%;transition:width 0.3s}
+
+@media(max-width:768px){
+  .desktop{grid-template-columns:repeat(auto-fill,75px);grid-auto-rows:75px}
+  .window{min-width:90vw;left:5vw!important}
+  .file-row{grid-template-columns:20px 1fr 60px}
+  .file-row span:nth-child(4){display:none}
+}
+</style>
+</head>
+<body>
+
+<!-- Boot screen -->
+<div class="boot-screen" id="bootScreen">
+  <div class="boot-logo">CryptoSynth OS</div>
+  <div class="boot-text" id="bootText"></div>
+  <div class="boot-progress"><div class="boot-progress-bar" id="bootBar"></div></div>
+</div>
+
+<!-- Desktop -->
+<div class="desktop" id="desktop">
+  <div class="icon" ondblclick="openWindow('explorer')"><div class="icon-img">📁</div><div class="icon-label">Catatan</div></div>
+  <div class="icon" ondblclick="openWindow('about')"><div class="icon-img">👤</div><div class="icon-label">Tentang</div></div>
+  <div class="icon" ondblclick="openWindow('terminal')"><div class="icon-img">💻</div><div class="icon-label">Terminal</div></div>
+  <div class="icon" ondblclick="openWindow('airdrop')"><div class="icon-img">🪂</div><div class="icon-label">Airdrop</div></div>
+  <div class="icon" ondblclick="openWindow('readme')"><div class="icon-img">📄</div><div class="icon-label">README.txt</div></div>
+  <div class="icon" ondblclick="openWindow('rss')"><div class="icon-img">📡</div><div class="icon-label">RSS Feed</div></div>
+</div>
+
+<!-- Windows -->
+<div class="window" id="win-explorer" style="top:40px;left:60px;width:650px;height:400px">
+  <div class="titlebar" onmousedown="startDrag(event,'win-explorer')">
+    <span class="titlebar-text"><span class="titlebar-icon">📁</span> Catatan — CryptoSynth Explorer</span>
+    <div class="titlebar-buttons"><div class="titlebar-btn" onclick="minimizeWin('explorer')">_</div><div class="titlebar-btn" onclick="maximizeWin('explorer')">□</div><div class="titlebar-btn" onclick="closeWin('explorer')">✕</div></div>
+  </div>
+  <div class="menubar"><span>File</span><span>Edit</span><span>View</span><span>Sort</span><span>Help</span></div>
+  <div class="window-body">
+    <div class="file-list" id="fileList">
+      <div class="file-row header"><span> </span><span>Nama</span><span>Tanggal</span><span>Kategori</span></div>
+    </div>
+  </div>
+  <div class="statusbar"><span style="font-size:0.6rem;color:#000">7 objek</span></div>
+</div>
+
+<div class="window" id="win-about" style="top:80px;left:150px;width:450px;height:350px">
+  <div class="titlebar" onmousedown="startDrag(event,'win-about')">
+    <span class="titlebar-text"><span class="titlebar-icon">👤</span> Tentang — Gideon</span>
+    <div class="titlebar-buttons"><div class="titlebar-btn" onclick="minimizeWin('about')">_</div><div class="titlebar-btn" onclick="maximizeWin('about')">□</div><div class="titlebar-btn" onclick="closeWin('about')">✕</div></div>
+  </div>
+  <div class="window-body">
+    <div class="article-content">
+      <h2>Gideon</h2>
+      <p>Crypto practitioner. Node operator. Airdrop farmer.</p>
+      <p>Nulis catatan crypto dari sudut pandang pribadi.</p>
+      <hr>
+      <p style="color:#808080">Bukan financial advisor. Bukan portal berita. Cuma seseorang yang setiap hari ngurusin node, farming airdrop, trading, dan opini soal crypto.</p>
+      <hr>
+      <p><span class="read-link">x.com/gideon</span> · <span class="read-link">cryptosynth.id</span></p>
+    </div>
+  </div>
+</div>
+
+<div class="window" id="win-terminal" style="top:100px;left:200px;width:500px;height:300px">
+  <div class="titlebar" onmousedown="startDrag(event,'win-terminal')" style="background:linear-gradient(90deg,#000,#333)">
+    <span class="titlebar-text"><span class="titlebar-icon">💻</span> Command Prompt</span>
+    <div class="titlebar-buttons"><div class="titlebar-btn" onclick="minimizeWin('terminal')">_</div><div class="titlebar-btn" onclick="maximizeWin('terminal')">□</div><div class="titlebar-btn" onclick="closeWin('terminal')">✕</div></div>
+  </div>
+  <div class="window-body" style="background:#0c0c0c;color:#10b981;padding:0.5rem;font-size:0.72rem;line-height:1.6">
+    <div id="termOutput">CryptoSynth Terminal v1.0<br>Ketik "help" untuk bantuan.<br><br></div>
+    <div style="display:flex"><span style="color:#6366f1">C:\CRYPTOSYNTH&gt;</span> <input id="termInput" style="flex:1;background:transparent;border:none;color:#10b981;font-family:'JetBrains Mono',monospace;font-size:0.72rem;outline:none;margin-left:0.3rem" autofocus></div>
+  </div>
+</div>
+
+<div class="window" id="win-airdrop" style="top:60px;left:100px;width:550px;height:380px">
+  <div class="titlebar" onmousedown="startDrag(event,'win-airdrop')">
+    <span class="titlebar-text"><span class="titlebar-icon">🪂</span> Airdrop Tracker</span>
+    <div class="titlebar-buttons"><div class="titlebar-btn" onclick="minimizeWin('airdrop')">_</div><div class="titlebar-btn" onclick="maximizeWin('airdrop')">□</div><div class="titlebar-btn" onclick="closeWin('airdrop')">✕</div></div>
+  </div>
+  <div class="window-body">
+    <div class="article-content">
+      <h2>🪂 Airdrop Q2 2026</h2>
+      <p class="date">Update terakhir: 29 Mei 2026</p>
+      <hr>
+      <p><strong>1. Polymarket</strong> — Prediction market. Volume tinggi.</p>
+      <p><strong>2. Beacon</strong> — Still early, testnet phase.</p>
+      <p><strong>3. SosoValue</strong> — Snapshot sebelum distribusi.</p>
+      <p><strong>4. Variational</strong> — Tim ex-Jane Street, $50M Dragonfly.</p>
+      <p><strong>5. OptimAI</strong> — 2M+ nodes, DePIN + AI.</p>
+      <p><strong>6. SYMB</strong> — TGE 5 Juni, merit-based.</p>
+      <p><strong>7. Catena Labs</strong> — $48M dari a16z.</p>
+      <hr>
+      <p style="color:#808080;font-size:0.65rem">⚠️ Disclaimer: Ini catatan pribadi, bukan saran keuangan.</p>
+    </div>
+  </div>
+</div>
+
+<div class="window" id="win-readme" style="top:70px;left:180px;width:480px;height:320px">
+  <div class="titlebar" onmousedown="startDrag(event,'win-readme')">
+    <span class="titlebar-text"><span class="titlebar-icon">📄</span> README.txt — Notepad</span>
+    <div class="titlebar-buttons"><div class="titlebar-btn" onclick="minimizeWin('readme')">_</div><div class="titlebar-btn" onclick="maximizeWin('readme')">□</div><div class="titlebar-btn" onclick="closeWin('readme')">✕</div></div>
+  </div>
+  <div class="menubar"><span>File</span><span>Edit</span><span>Format</span><span>Help</span></div>
+  <div class="window-body" style="padding:0.5rem">
+    <pre style="font-size:0.72rem;line-height:1.6;color:#000;font-family:'JetBrains Mono',monospace;white-space:pre-wrap">
+================================
+  CRYPTOSYNTH.ID
+  Catatan Crypto Personal
+================================
+
+Blog ini berisi catatan pribadi soal:
+- Node operations
+- Airdrop farming
+- Trading notes
+- Opini crypto
+
+Author: Gideon
+Since: 2026
+Status: Active
+
+Disclaimer:
+Semua yang ditulis di sini adalah
+catatan pribadi, bukan saran keuangan.
+
+================================
+    </pre>
+  </div>
+</div>
+
+<div class="window" id="win-rss" style="top:90px;left:250px;width:400px;height:250px">
+  <div class="titlebar" onmousedown="startDrag(event,'win-rss')">
+    <span class="titlebar-text"><span class="titlebar-icon">📡</span> RSS Feed</span>
+    <div class="titlebar-buttons"><div class="titlebar-btn" onclick="minimizeWin('rss')">_</div><div class="titlebar-btn" onclick="maximizeWin('rss')">□</div><div class="titlebar-btn" onclick="closeWin('rss')">✕</div></div>
+  </div>
+  <div class="window-body">
+    <div class="article-content">
+      <h2>📡 Subscribe via RSS</h2>
+      <p>Dapatkan update catatan terbaru langsung di RSS reader kamu.</p>
+      <hr>
+      <p><span class="read-link">https://cryptosynth.id/rss.xml</span></p>
+      <hr>
+      <p style="color:#808080">Supported readers: Feedly, Inoreader, Miniflux, dll.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Taskbar -->
+<div class="statusbar">
+  <button class="start-btn" id="startBtn" onclick="toggleStart()">
+    <span style="font-size:0.8rem">🪟</span> Start
+  </button>
+  <div class="taskbar" id="taskbar"></div>
+  <div class="taskbar-spacer"></div>
+  <div class="system-tray">
+    <span>🔊</span>
+    <span id="clock"></span>
+  </div>
+</div>
+
+<!-- Start menu -->
+<div class="start-menu" id="startMenu">
+  <div class="start-header"><span style="font-size:1rem">🪟</span> CryptoSynth OS</div>
+  <div class="start-item" onclick="openWindow('explorer');toggleStart()">📁 Catatan</div>
+  <div class="start-item" onclick="openWindow('airdrop');toggleStart()">🪂 Airdrop Tracker</div>
+  <div class="start-item" onclick="openWindow('terminal');toggleStart()">💻 Terminal</div>
+  <div class="start-sep"></div>
+  <div class="start-item" onclick="openWindow('about');toggleStart()">👤 Tentang Gideon</div>
+  <div class="start-item" onclick="openWindow('readme');toggleStart()">📄 README.txt</div>
+  <div class="start-item" onclick="openWindow('rss');toggleStart()">📡 RSS Feed</div>
+  <div class="start-sep"></div>
+  <div class="start-item" style="color:#808080">⚙️ Settings</div>
+  <div class="start-item" style="color:#808080">❓ Help</div>
+</div>
+
+<script>
+// Articles data
+const articles = [
+  {num:'01',tag:'AIRDROP',cat:'Q2-2026',title:'7 Airdrop yang Layak Difarming Q2 2026',date:'29 Mei 2026',size:'4.2 KB'},
+  {num:'02',tag:'SOFI',cat:'STABLECOIN',title:'SoFi Luncurkan Stablecoin (SoFiUSD)',date:'29 Mei 2026',size:'3.1 KB'},
+  {num:'03',tag:'VARIATIONAL',cat:'AIRDROP',title:'Variational Deep-Dive: Tim Ex-Jane Street',date:'28 Mei 2026',size:'5.8 KB'},
+  {num:'04',tag:'OPTIMAI',cat:'TUTORIAL',title:'Tutorial Install OptimAI Core Node di VPS',date:'27 Mei 2026',size:'6.2 KB'},
+  {num:'05',tag:'SYMB',cat:'PROPRXYZ',title:'SYMB TGE Juni, ProprXYZ di Hyperliquid',date:'27 Mei 2026',size:'2.9 KB'},
+  {num:'06',tag:'OPTIMAI',cat:'AIRDROP',title:'OptimAI Network: Farming DePIN + AI',date:'26 Mei 2026',size:'3.5 KB'},
+  {num:'07',tag:'CATENA',cat:'AIRDROP',title:'Catena Labs: Spekulatif atau Peluang?',date:'26 Mei 2026',size:'4.0 KB'},
+];
+
+// Populate file list
+const fileList = document.getElementById('fileList');
+articles.forEach(a => {
+  const row = document.createElement('div');
+  row.className = 'file-row';
+  row.innerHTML = `<span class="file-icon">📝</span><span>${a.title}</span><span>${a.date}</span><span>${a.cat}</span>`;
+  row.ondblclick = () => alert(`Membuka: ${a.title}\n\n[Konten lengkap akan dimuat di sini]`);
+  fileList.appendChild(row);
+});
+
+// Window management
+let activeWins = new Set();
+let topZ = 10;
+let dragEl = null, dragOffX = 0, dragOffY = 0;
+
+function openWindow(name) {
+  const win = document.getElementById('win-' + name);
+  win.classList.add('open');
+  bringToFront(name);
+  activeWins.add(name);
+  updateTaskbar();
+}
+
+function closeWin(name) {
+  document.getElementById('win-' + name).classList.remove('open');
+  document.getElementById('win-' + name).classList.remove('maximized');
+  activeWins.delete(name);
+  updateTaskbar();
+}
+
+function minimizeWin(name) {
+  document.getElementById('win-' + name).classList.remove('open');
+  updateTaskbar();
+}
+
+function maximizeWin(name) {
+  document.getElementById('win-' + name).classList.toggle('maximized');
+}
+
+function bringToFront(name) {
+  topZ++;
+  document.getElementById('win-' + name).style.zIndex = topZ;
+}
+
+function updateTaskbar() {
+  const tb = document.getElementById('taskbar');
+  tb.innerHTML = '';
+  activeWins.forEach(name => {
+    const btn = document.createElement('div');
+    btn.className = 'taskbar-item';
+    const icons = {explorer:'📁',about:'👤',terminal:'💻',airdrop:'🪂',readme:'📄',rss:'📡'};
+    const labels = {explorer:'Catatan',about:'Tentang',terminal:'Terminal',airdrop:'Airdrop',readme:'README',rss:'RSS'};
+    btn.textContent = (icons[name]||'') + ' ' + (labels[name]||name);
+    btn.onclick = () => {
+      const win = document.getElementById('win-' + name);
+      if(!win.classList.contains('open')){openWindow(name);}
+      else{bringToFront(name);}
+    };
+    tb.appendChild(btn);
+  });
+}
+
+// Drag
+function startDrag(e, id) {
+  const win = document.getElementById(id);
+  bringToFront(id.replace('win-',''));
+  dragEl = win;
+  dragOffX = e.clientX - win.offsetLeft;
+  dragOffY = e.clientY - win.offsetTop;
+  e.preventDefault();
+}
+document.addEventListener('mousemove', e => {
+  if(!dragEl)return;
+  dragEl.style.left = (e.clientX - dragOffX) + 'px';
+  dragEl.style.top = (e.clientY - dragOffY) + 'px';
+});
+document.addEventListener('mouseup', () => {dragEl=null;});
+
+// Click window to bring to front
+document.querySelectorAll('.window').forEach(w => {
+  w.addEventListener('mousedown', () => {
+    const name = w.id.replace('win-','');
+    bringToFront(name);
+  });
+});
+
+// Start menu
+function toggleStart() {
+  document.getElementById('startMenu').classList.toggle('open');
+  document.getElementById('startBtn').classList.toggle('active');
+}
+document.addEventListener('click', e => {
+  if(!e.target.closest('.start-menu') && !e.target.closest('.start-btn')){
+    document.getElementById('startMenu').classList.remove('open');
+    document.getElementById('startBtn').classList.remove('active');
+  }
+});
+
+// Clock
+function updateClock() {
+  const d = new Date();
+  document.getElementById('clock').textContent = d.toLocaleTimeString('en-US',{hour12:false,hour:'2-digit',minute:'2-digit'});
+}
+updateClock(); setInterval(updateClock, 1000);
+
+// Terminal
+const termInput = document.getElementById('termInput');
+const termOutput = document.getElementById('termOutput');
+termInput.addEventListener('keydown', e => {
+  if(e.key !== 'Enter') return;
+  const cmd = termInput.value.trim();
+  termInput.value = '';
+  termOutput.innerHTML += `<span style="color:#6366f1">C:\\CRYPTOSYNTH&gt;</span> ${cmd}<br>`;
+  const parts = cmd.split(/\s+/);
+  const c = parts[0]?.toLowerCase();
+  if(c === 'help') termOutput.innerHTML += 'Commands: help, ls, cat, whoami, clear<br><br>';
+  else if(c === 'ls') articles.forEach(a => termOutput.innerHTML += `  ${a.num}  ${a.title}<br>`);
+  else if(c === 'whoami') termOutput.innerHTML += 'Gideon — Crypto practitioner<br><br>';
+  else if(c === 'clear') termOutput.innerHTML = '';
+  else if(cmd) termOutput.innerHTML += `Bad command or file name<br><br>`;
+  termOutput.scrollTop = termOutput.scrollHeight;
+});
+
+// Boot sequence
+const bootLines = [
+  'CryptoSynth OS v1.0',
+  'Initializing kernel...',
+  'Loading modules...',
+  'Mounting /dev/crypto... <span class="ok">OK</span>',
+  'Starting node services... <span class="ok">OK</span>',
+  'Loading airdrop data... <span class="ok">OK</span>',
+  'Checking on-chain state... <span class="ok">OK</span>',
+  'Welcome, Gideon.',
+];
+let bootIdx = 0;
+const bootText = document.getElementById('bootText');
+const bootBar = document.getElementById('bootBar');
+
+function bootLine() {
+  if(bootIdx >= bootLines.length) {
+    setTimeout(() => {
+      document.getElementById('bootScreen').classList.add('hidden');
+      openWindow('explorer');
+    }, 500);
+    return;
+  }
+  bootText.innerHTML += bootLines[bootIdx] + '<br>';
+  bootBar.style.width = ((bootIdx+1)/bootLines.length*100) + '%';
+  bootIdx++;
+  setTimeout(bootLine, 200 + Math.random()*300);
+}
+bootLine();
+</script>
+</body>
+</html>

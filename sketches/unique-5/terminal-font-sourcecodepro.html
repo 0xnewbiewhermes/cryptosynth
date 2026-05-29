@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminal — Source Code Pro</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Source Code Pro',monospace;background:#282c34;color:#abb2bf;height:100vh;overflow:hidden;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+::selection{background:rgba(198,120,221,0.2)}
+
+.topbar{height:34px;background:#21252b;border-bottom:1px solid #181a1f;display:flex;align-items:center;padding:0 1rem;gap:0.6rem;flex-shrink:0}
+.dot{width:10px;height:10px;border-radius:50%}.dot-r{background:#e06c75}.dot-y{background:#e5c07b}.dot-g{background:#98c379}
+.topbar-title{font-size:0.62rem;color:#5c6370;margin-left:0.5rem}
+
+.terminal{flex:1;overflow-y:auto;padding:1.25rem;font-size:0.82rem;line-height:1.6}
+.output{margin-bottom:0.1rem}
+.prompt{color:#98c379}
+.user{color:#61afef}
+.path{color:#e5c07b}
+.str{color:#98c379}
+.keyword{color:#c678dd}
+.fn{color:#61afef}
+.dim{color:#5c6370}
+.highlight{color:#e5c07b}
+.accent{color:#56b6c2}
+.num{color:#d19a66}
+
+.entry{padding:0.3rem 0.5rem;cursor:pointer;border-left:2px solid transparent;transition:all 0.12s}
+.entry:hover{border-left-color:#61afef;background:rgba(97,175,239,0.04)}
+.entry:hover .entry-title{color:#61afef}
+.entry-num{color:#5c6370;margin-right:0.6rem}
+.entry-tag{color:#e5c07b;font-size:0.72rem}
+.entry-title{color:#abb2bf;transition:color 0.12s}
+.entry-date{color:#5c6370;float:right;font-size:0.72rem}
+
+.input-line{display:flex;align-items:center;margin-top:0.5rem;padding-top:0.5rem;border-top:1px solid #2c313a}
+.input-line input{flex:1;background:transparent;border:none;color:#abb2bf;font-family:inherit;font-size:0.82rem;outline:none;caret-color:#61afef}
+
+.status{height:22px;background:#21252b;border-top:1px solid #181a1f;display:flex;align-items:center;padding:0 1rem;font-size:0.58rem;color:#5c6370;flex-shrink:0;justify-content:space-between}
+
+@media(max-width:768px){.terminal{padding:0.75rem;font-size:0.72rem}}
+</style>
+</head>
+<body>
+<div class="topbar"><div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div><span class="topbar-title">bash — cryptosynth</span></div>
+<div class="terminal">
+<div class="output"><span class="prompt">❯</span> <span class="fn">cat</span> <span class="str">welcome.txt</span></div>
+<br>
+<div class="output highlight">CryptoSynth — Catatan Crypto Personal</div>
+<div class="dim">Node logs, airdrop farming, trading, opini.</div>
+<br>
+<div class="output"><span class="prompt">❯</span> <span class="fn">ls</span> <span class="keyword">--color</span> catatan/</div>
+<br>
+<div class="entry"><span class="entry-num">01</span><span class="entry-tag">AIRDROP</span>  <span class="entry-title">7 Airdrop yang Layak Difarming Q2 2026</span><span class="entry-date">29 Mei</span></div>
+<div class="entry"><span class="entry-num">02</span><span class="entry-tag">SOFI</span>     <span class="entry-title">SoFi Luncurkan Stablecoin (SoFiUSD)</span><span class="entry-date">29 Mei</span></div>
+<div class="entry"><span class="entry-num">03</span><span class="entry-tag">VARIATNL</span> <span class="entry-title">Variational Deep-Dive: Tim Ex-Jane Street</span><span class="entry-date">28 Mei</span></div>
+<div class="entry"><span class="entry-num">04</span><span class="entry-tag">OPTIMAI</span>  <span class="entry-title">Tutorial Install OptimAI Core Node di VPS</span><span class="entry-date">27 Mei</span></div>
+<div class="entry"><span class="entry-num">05</span><span class="entry-tag">SYMB</span>     <span class="entry-title">SYMB TGE Juni, ProprXYZ di Hyperliquid</span><span class="entry-date">27 Mei</span></div>
+<div class="entry"><span class="entry-num">06</span><span class="entry-tag">OPTIMAI</span>  <span class="entry-title">OptimAI: Farming DePIN + AI</span><span class="entry-date">26 Mei</span></div>
+<div class="entry"><span class="entry-num">07</span><span class="entry-tag">CATENA</span>   <span class="entry-title">Catena Labs: $48M dari a16z</span><span class="entry-date">26 Mei</span></div>
+<br>
+<div class="output"><span class="prompt">❯</span> <span class="fn">cat</span> catatan/<span class="str">airdrop-q2-2026.md</span></div>
+<br>
+<div class="output"><span class="keyword"># 7 Airdrop yang Layak Difarming Q2 2026</span></div>
+<br>
+<div class="output"><span class="keyword">## Kenapa Q2 2026?</span></div>
+<div class="dim">Q2 2026 jadi quarter paling sibuk buat airdrop farming.</div>
+<br>
+<div class="output"><span class="keyword">## 1. Polymarket</span></div>
+<div class="dim">Volume: <span class="num">$2M+</span>/hari. Belum punya token.</div>
+<div class="dim">Pattern kayak <span class="accent">Uniswap</span> atau <span class="accent">dYdX</span>.</div>
+<br>
+<div class="output"><span class="keyword">## 2. Beacon Protocol</span></div>
+<div class="dim">Backing: <span class="accent">Paradigm</span> + <span class="accent">a16z</span>. Testnet.</div>
+<br>
+<div class="output dim">─── more below (scroll) ───</div>
+<br>
+<div class="input-line"><span class="prompt">❯</span> <input autofocus></div>
+</div>
+<div class="status"><span>7 catatan · zsh · utf-8</span><span id="clock"></span></div>
+<script>function c(){document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-US',{hour12:false})}
+c();setInterval(c,1000)</script>
+</body></html>

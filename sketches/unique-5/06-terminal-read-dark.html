@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CryptoSynth — Membaca Artikel (Dark)</title>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Fraunces:ital,wght@0,400;0,700;0,900;1,400&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'DM Sans',sans-serif;background:#0c0c0c;color:#c8c8cc;-webkit-font-smoothing:antialiased}
+::selection{background:rgba(16,185,129,0.2)}
+
+/* Terminal-style top bar */
+.topbar{height:36px;background:#161616;border-bottom:1px solid #2a2a2a;display:flex;align-items:center;padding:0 1rem;gap:0.75rem;position:sticky;top:0;z-index:100}
+.dot{width:10px;height:10px;border-radius:50%}.dot-r{background:#ff5f56}.dot-y{background:#ffbd2e}.dot-g{background:#27c93f}
+.topbar-path{font-family:'JetBrains Mono',monospace;font-size:0.65rem;color:#555;margin-left:0.5rem}
+.topbar-path .sep{color:#333;margin:0 0.3rem}
+.topbar-path .current{color:#a0a0a0}
+.topbar-right{margin-left:auto;display:flex;gap:1rem;align-items:center}
+.topbar-btn{font-family:'JetBrains Mono',monospace;font-size:0.6rem;color:#555;background:transparent;border:1px solid #2a2a2a;padding:0.2rem 0.6rem;cursor:pointer;transition:all 0.2s}
+.topbar-btn:hover{color:#a0a0a0;border-color:#444}
+
+/* Article container */
+.article{max-width:720px;margin:0 auto;padding:3rem 2rem 4rem}
+
+/* Back link */
+.back{font-family:'JetBrains Mono',monospace;font-size:0.72rem;color:#6366f1;text-decoration:none;display:inline-flex;align-items:center;gap:0.4rem;margin-bottom:2rem;transition:color 0.2s}
+.back:hover{color:#818cf8}
+
+/* Article header */
+.article-tag{font-family:'JetBrains Mono',monospace;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.15em;color:#f59e0b;margin-bottom:0.75rem;font-weight:600}
+h1{font-family:'Fraunces',serif;font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;letter-spacing:-0.04em;line-height:1.1;color:#f0f0f0;margin-bottom:1rem}
+.article-meta{display:flex;gap:1.5rem;align-items:center;margin-bottom:2rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(255,255,255,0.04)}
+.meta-item{font-family:'JetBrains Mono',monospace;font-size:0.62rem;color:#555;display:flex;align-items:center;gap:0.3rem}
+.meta-item .label{color:#333}
+
+/* TLDR box */
+.tldr{background:rgba(99,102,241,0.05);border-left:3px solid #6366f1;padding:1rem 1.25rem;margin-bottom:2rem;font-size:0.85rem;line-height:1.65;color:#b0b0b0}
+.tldr strong{color:#e0e0e0;font-weight:600}
+
+/* Disclaimer */
+.disclaimer{background:rgba(245,158,11,0.04);border-left:3px solid #f59e0b;padding:0.75rem 1.25rem;margin-bottom:2rem;font-size:0.75rem;line-height:1.6;color:#888}
+.disclaimer strong{color:#f59e0b}
+
+/* Article body */
+.article-body{font-size:0.92rem;line-height:1.8;color:#b0b0b0}
+.article-body h2{font-family:'Fraunces',serif;font-size:1.3rem;font-weight:700;color:#e8e8ec;margin:2.5rem 0 1rem;letter-spacing:-0.02em}
+.article-body h3{font-family:'Fraunces',serif;font-size:1.1rem;font-weight:600;color:#d0d0d4;margin:2rem 0 0.75rem}
+.article-body p{margin-bottom:1.25rem}
+.article-body strong{color:#e0e0e0;font-weight:600}
+.article-body a{color:#60a5fa;text-decoration:underline;text-underline-offset:2px;transition:color 0.2s}
+.article-body a:hover{color:#93c5fd}
+.article-body ul,.article-body ol{margin:0.75rem 0 1.25rem 1.5rem}
+.article-body li{margin-bottom:0.4rem}
+.article-body li::marker{color:#555}
+.article-body blockquote{border-left:3px solid #3b82f6;padding:0.75rem 1.25rem;margin:1.5rem 0;background:rgba(59,130,246,0.03);font-style:italic;color:#999}
+
+/* Code blocks */
+.article-body pre{background:#161616;border:1px solid #2a2a2a;padding:1rem 1.25rem;margin:1.5rem 0;overflow-x:auto;font-family:'JetBrains Mono',monospace;font-size:0.78rem;line-height:1.6;color:#a0a0a0;position:relative}
+.article-body pre::before{content:'$';position:absolute;top:0.75rem;left:0.75rem;color:#333;font-size:0.7rem}
+.article-body pre code{padding-left:1rem;display:block}
+.article-body code{font-family:'JetBrains Mono',monospace;font-size:0.82em;background:rgba(255,255,255,0.04);padding:0.15rem 0.4rem;color:#e0a060}
+.article-body pre code{background:none;padding:0;color:inherit}
+
+/* Copy button */
+.code-block{position:relative}
+.copy-btn{position:absolute;top:0.5rem;right:0.5rem;background:#2a2a2a;border:1px solid #333;color:#555;font-family:'JetBrains Mono',monospace;font-size:0.55rem;padding:0.2rem 0.5rem;cursor:pointer;transition:all 0.2s;opacity:0}
+.code-block:hover .copy-btn{opacity:1}
+.copy-btn:hover{color:#a0a0a0;background:#333}
+
+/* Article footer */
+.article-footer{margin-top:3rem;padding-top:2rem;border-top:1px solid rgba(255,255,255,0.04)}
+.tags-row{display:flex;gap:0.5rem;flex-wrap:wrap;margin-bottom:1.5rem}
+.tag-chip{font-family:'JetBrains Mono',monospace;font-size:0.58rem;text-transform:uppercase;letter-spacing:0.08em;color:#555;background:rgba(255,255,255,0.03);border:1px solid #2a2a2a;padding:0.3rem 0.6rem;transition:all 0.2s;cursor:pointer}
+.tag-chip:hover{border-color:#3b82f6;color:#60a5fa}
+
+/* Related articles */
+.related{margin-top:2rem}
+.related h3{font-family:'JetBrains Mono',monospace;font-size:0.65rem;text-transform:uppercase;letter-spacing:0.15em;color:#444;margin-bottom:1rem}
+.related-item{display:flex;gap:1rem;padding:1rem 0;border-bottom:1px solid rgba(255,255,255,0.03);cursor:pointer;transition:all 0.2s}
+.related-item:hover{padding-left:0.5rem}
+.related-item:hover .related-title{color:#60a5fa}
+.related-num{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:#333}
+.related-tag{font-family:'JetBrains Mono',monospace;font-size:0.52rem;text-transform:uppercase;letter-spacing:0.1em;color:#f59e0b;margin-bottom:0.2rem}
+.related-title{font-size:0.88rem;font-weight:500;color:#c8c8cc;transition:color 0.2s;line-height:1.35}
+.related-date{font-family:'JetBrains Mono',monospace;font-size:0.58rem;color:#333;margin-top:0.2rem}
+
+/* Bottom bar */
+.bottom-bar{max-width:720px;margin:0 auto;padding:2rem;display:flex;justify-content:space-between;align-items:center;border-top:1px solid rgba(255,255,255,0.04)}
+.bottom-link{font-family:'JetBrains Mono',monospace;font-size:0.7rem;color:#6366f1;text-decoration:none;transition:opacity 0.2s}
+.bottom-link:hover{opacity:0.7}
+
+/* Progress bar */
+.reading-progress{position:fixed;top:36px;left:0;height:2px;background:linear-gradient(90deg,#3b82f6,#10b981);z-index:101;width:0%;transition:width 0.1s}
+
+/* Terminal cursor blink */
+.cursor-blink{display:inline-block;width:0.5em;height:1em;background:#10b981;animation:cursorBlink 1s step-end infinite;vertical-align:text-bottom;margin-left:0.2rem;opacity:0.6}
+@keyframes cursorBlink{0%,100%{opacity:0.6}50%{opacity:0}}
+
+@media(max-width:768px){
+  .article{padding:2rem 1.25rem 3rem}
+  .article-meta{flex-wrap:wrap;gap:0.75rem}
+  .topbar-path{display:none}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="dot dot-r"></div><div class="dot dot-y"></div><div class="dot dot-g"></div>
+  <span class="topbar-path">~/cryptosynth <span class="sep">›</span> catatan <span class="sep">›</span> <span class="current">airdrop-q2-2026.md</span></span>
+  <div class="topbar-right">
+    <button class="topbar-btn" onclick="history.back()">← ls</button>
+    <button class="topbar-btn">copy link</button>
+  </div>
+</div>
+
+<div class="reading-progress" id="readingProgress"></div>
+
+<article class="article">
+  <a href="#" class="back">← kembali ke daftar</a>
+  
+  <div class="article-tag">#AIRDROP · #Q2-2026</div>
+  <h1>7 Airdrop yang Layak Difarming Q2 2026</h1>
+  
+  <div class="article-meta">
+    <span class="meta-item"><span class="label">author:</span> Gideon</span>
+    <span class="meta-item"><span class="label">date:</span> 29 Mei 2026</span>
+    <span class="meta-item"><span class="label">read:</span> 5 min</span>
+    <span class="meta-item"><span class="label">words:</span> ~1,200</span>
+  </div>
+
+  <div class="tldr">
+    <strong>TL;DR:</strong> 7 airdrop yang layak difarming di Q2 2026 berdasarkan riset on-chain pribadi. Polymarket paling promising, Beacon masih early, SosoValue snapshot sudah dekat. Semua data bisa dicek sendiri.
+  </div>
+
+  <div class="disclaimer">
+    <strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah catatan pribadi, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR.
+  </div>
+
+  <div class="article-body">
+    <h2>Kenapa Q2 2026?</h2>
+    <p>Q2 2026 jadi salah satu quarter paling sibuk buat airdrop farming. Banyak project yang udah lama di testnet mulai menuju mainnet, dan beberapa udah kasih sinyal kuat bakal ada token distribution.</p>
+    
+    <p>Saya udah verify semua project di bawah ini secara on-chain. Bukan sekadar baca Twitter atau Telegram, tapi beneran cek transaksi, TVL, dan aktivitas wallet.</p>
+
+    <h2>1. Polymarket</h2>
+    <p>Prediction market terbesar di crypto. Volume udah tembus <strong>$2M+ per hari</strong>. Yang bikin menarik: mereka belum punya token. Kalau lihat pattern project kayak Uniswap atau dYdX, kemungkinan besar bakal ada airdrop buat early users.</p>
+
+    <p>Cara farming:</p>
+    <ul>
+      <li>Buat posisi di market yang aktif</li>
+      <li>Provide liquidity di market yang kurang populer</li>
+      <li>Volume trading minimal $500 per minggu</li>
+    </ul>
+
+    <h2>2. Beacon Protocol</h2>
+    <p>Masih di fase testnet, tapi backing-nya gila: <strong>Paradigm + a16z</strong>. Ini combo yang jarang salah. Mereka bangun infrastruktur verifikasi zero-knowledge buat data availability.</p>
+
+    <pre class="code-block"><code>curl -s https://beacon-api.testnet.xyz/v1/status \
+  | jq '.latest_block, .peers_count'</code><button class="copy-btn">copy</button></pre>
+
+    <h2>3. SosoValue</h2>
+    <p>Snapshot terakhir sebelum distribusi token udah diumumkan: <strong>15 Juni 2026</strong>. Ini deadline paling keras. Kalau belum mulai farming, masih ada waktu ~2 minggu.</p>
+
+    <blockquote>
+      "SosoValue bukan cuma data aggregator. Mereka bangun social trading layer yang belum ada di manapun." — Catatan pribadi setelah 3 minggu pakai platform-nya.
+    </blockquote>
+
+    <h2>4. Variational Finance</h2>
+    <p>Tim quant ex-Jane Street dengan <strong>$50M dari Dragonfly</strong>. Ini bukan project abal-abal. Mereka bangun decentralized derivatives exchange yang fokus di capital efficiency.</p>
+
+    <p>Phase 2 farming sudah dimulai. Yang bikin beda: mereka pakai sistem merit-based, bukan sekadar volume. Kualitas trading lebih dihargai daripada quantity.</p>
+
+    <h2>5. OptimAI Network</h2>
+    <p>DePIN + AI. Udah <strong>2 juta+ node aktif</strong>. Token OPI belum TGE. Cara farming:</p>
+    <ul>
+      <li>Running node (tutorial lengkap ada di catatan lain)</li>
+      <li>Data mining tasks</li>
+      <li>Referral program</li>
+    </ul>
+
+    <h2>6. SYMB Protocol</h2>
+    <p>TGE diumumkan <strong>5 Juni 2026</strong>. Pakai sistem leaderboard merit-based. Yang paling penting: konsistensi, bukan volume besar sekaligus.</p>
+
+    <h2>7. Catena Labs</h2>
+    <p><strong>$48M dari a16z</strong>. Masih sangat early. Breakdown on-chain menunjukkan aktivitas wallet yang menarik — banyak wallet baru dengan pattern farming yang mirip.</p>
+
+    <h2>Kesimpulan</h2>
+    <p>Dari 7 project ini, favorit pribadi saya: Polymarket (volume + no token), OptimAI (DePIN narrative kuat), dan Variational (tim solid + merit-based).</p>
+
+    <p>Yang paling penting: <strong>jangan farm semuanya sekaligus</strong>. Pilih 2-3 yang paling sesuai dengan capital dan waktu yang tersedia. Kualitas > kuantitas.</p>
+  </div>
+
+  <div class="article-footer">
+    <div class="tags-row">
+      <span class="tag-chip">#airdrop</span>
+      <span class="tag-chip">#q2-2026</span>
+      <span class="tag-chip">#farming</span>
+      <span class="tag-chip">#polymarket</span>
+      <span class="tag-chip">#optimai</span>
+    </div>
+
+    <div class="related">
+      <h3>Related Catatan</h3>
+      <div class="related-item">
+        <span class="related-num">03</span>
+        <div><div class="related-tag">#VARIATIONAL · #AIRDROP</div><div class="related-title">Variational Deep-Dive: Tim Quant Ex-Jane Street</div><div class="related-date">28 Mei 2026</div></div>
+      </div>
+      <div class="related-item">
+        <span class="related-num">06</span>
+        <div><div class="related-tag">#OPTIMAI · #AIRDROP</div><div class="related-title">OptimAI Network: Farming Airdrop DePIN + AI</div><div class="related-date">26 Mei 2026</div></div>
+      </div>
+      <div class="related-item">
+        <span class="related-num">07</span>
+        <div><div class="related-tag">#CATENA · #AIRDROP</div><div class="related-title">Catena Labs: Airdrop Spekulatif atau Peluang Nyata?</div><div class="related-date">26 Mei 2026</div></div>
+      </div>
+    </div>
+  </div>
+</article>
+
+<div class="bottom-bar">
+  <a href="#" class="bottom-link">← Catatan sebelumnya</a>
+  <a href="#" class="bottom-link">Catatan selanjutnya →</a>
+</div>
+
+<script>
+// Reading progress bar
+window.addEventListener('scroll', () => {
+  const scrollTop = window.scrollY;
+  const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+  const progress = (scrollTop / docHeight) * 100;
+  document.getElementById('readingProgress').style.width = progress + '%';
+});
+
+// Copy button
+document.querySelectorAll('.copy-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const code = btn.previousElementSibling.textContent;
+    navigator.clipboard.writeText(code);
+    btn.textContent = 'copied!';
+    setTimeout(() => btn.textContent = 'copy', 2000);
+  });
+});
+</script>
+</body>
+</html>

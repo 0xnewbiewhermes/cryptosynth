@@ -11,9 +11,10 @@ interface Props {
   category?: string;
   tags?: string[];
   faq?: string;
+  terminalPath?: string;
 }
 
-const { title, description, image, type = 'website', publishDate, modifiedDate, category, tags = [], faq = '' } = Astro.props;
+const { title, description, image, type = 'website', publishDate, modifiedDate, category, tags = [], faq = '', terminalPath = '~/cryptosynth' } = Astro.props;
 
 // Active nav state detection
 const pathname = Astro.url.pathname.replace(/\/+$/, '') || '/';
@@ -33,70 +34,73 @@ const isActive = (path: string) => {
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml" />
     <link rel="preconnect" href="https://www.googletagmanager.com" />
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-    <link rel="preconnect" href="https://api.coingecko.com" />
-    <link rel="dns-prefetch" href="https://api.coingecko.com" />
     <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#1E40AF" />
-    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#0c0c0c" />
+    <meta name="color-scheme" content="dark" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <!-- Preload critical assets -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" as="style" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" /></noscript>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <!-- Fonts: Source Code Pro (terminal) + Fraunces (article titles) -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap" as="style" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap" />
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&family=Fraunces:opsz,wght@9..144,400;9..144,700;9..144,900&display=swap" /></noscript>
   </head>
   <body>
-    <!-- Skip to content — keyboard accessibility -->
+    <!-- Skip to content -->
     <a href="#main-content" class="skip-link">Langsung ke konten</a>
-    <header class="header">
-      <div class="header-inner">
-        <a href="/" class="logo">
-          <span class="logo-text">Crypto<span class="logo-accent">Synth</span></span>
-        </a>
-        <nav class="nav" id="mainNav">
-          <a href="/" class={isActive('/')}>Catatan</a>
-          <a href="/category/airdrop" class={isActive('/category/airdrop')}>Airdrop</a>
-          <a href="/tools" class={isActive('/tools')}>Tools</a>
-          <a href="/about" class={isActive('/about')}>Tentang</a>
-        </nav>
-        <div class="header-actions">
-          <button type="button" class="search-pill" id="searchToggle" aria-label="Cari catatan">
-            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            Cari catatan
-          </button>
-          <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
-            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
-          </button>
-        </div>
+
+    <!-- Terminal Topbar -->
+    <header class="topbar">
+      <div class="topbar-dots">
+        <span class="topbar-dot topbar-dot--r"></span>
+        <span class="topbar-dot topbar-dot--y"></span>
+        <span class="topbar-dot topbar-dot--g"></span>
+      </div>
+      <span class="topbar-path">{terminalPath}</span>
+      <nav class="nav" id="mainNav">
+        <a href="/" class={isActive('/')}>Catatan</a>
+        <a href="/category/airdrop" class={isActive('/category/airdrop')}>Airdrop</a>
+        <a href="/tools" class={isActive('/tools')}>Tools</a>
+        <a href="/about" class={isActive('/about')}>Tentang</a>
+      </nav>
+      <div class="topbar-right">
+        <button type="button" class="topbar-btn" id="searchToggle" aria-label="Cari catatan">
+          <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          Cari
+        </button>
+        <a href="/rss.xml" class="topbar-btn" aria-label="RSS Feed">RSS</a>
+        <span class="topbar-clock" id="topbarClock"></span>
+        <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        </button>
       </div>
 
-      <!-- Search Dropdown (Apple-style) - di dalam header biar position absolute jalan -->
+      <!-- Search Dropdown -->
       <div class="search-dropdown" id="searchDropdown">
-        <div class="search-dropdown-inner">
-          <div class="search-dropdown-input-wrap">
-            <svg class="search-dropdown-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-            <input type="text" id="searchDropdownInput" class="search-dropdown-input" placeholder="Cari catatan..." autocomplete="off" aria-label="Cari catatan" />
-            <button type="button" class="search-dropdown-clear" id="searchDropdownClear" aria-label="Tutup pencarian">
-              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
-            </button>
-          </div>
-          <div id="searchDropdownResults" class="search-dropdown-results" aria-live="polite" role="region" aria-label="Hasil pencarian">
-          </div>
+        <div class="search-dropdown-input-wrap">
+          <svg class="search-dropdown-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          <input type="text" id="searchDropdownInput" class="search-dropdown-input" placeholder="grep -i 'keyword' catatan/" autocomplete="off" aria-label="Cari catatan" />
+          <button type="button" class="search-dropdown-clear" id="searchDropdownClear" aria-label="Tutup pencarian">
+            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          </button>
         </div>
+        <div id="searchDropdownResults" class="search-dropdown-results" aria-live="polite" role="region" aria-label="Hasil pencarian"></div>
       </div>
     </header>
+
+    <!-- Reading Progress (article pages) -->
+    <div class="reading-progress" id="readingProgress"></div>
 
     <main id="main-content" transition:animate="fade">
       <slot />
     </main>
+
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="footer-inner">
           <div class="footer-brand">
-            <a href="/" class="logo footer-logo">
-              <span class="logo-text">Crypto<span class="logo-accent">Synth</span></span>
-            </a>
-            <p>Catatan dari seseorang yang setiap hari ngurusin node, farming airdrop, trading, dan opini crypto dari sudut pandang pribadi.</p>
+            <a href="/" class="logo footer-logo">Crypto<span class="logo-accent">Synth</span></a>
+            <p>Catatan crypto personal. Node logs, airdrop farming, trading, dan opini dari sudut pandang pribadi.</p>
           </div>
           <div class="footer-links">
             <div class="footer-col">
@@ -122,244 +126,150 @@ const isActive = (path: string) => {
         </div>
         <div class="footer-bottom">
           <span>&copy; 2026 CryptoSynth</span>
-          <span>Update terakhir: <span id="footerUpdateDate">hari ini</span></span>
+          <span>catatan pribadi, bukan saran keuangan</span>
         </div>
       </div>
     </footer>
 
+    <!-- Status Bar -->
+    <div class="status-bar">
+      <span class="status-item"><span class="status-dot"></span> connected</span>
+      <span class="status-item" id="statusArticles">7 catatan</span>
+      <span class="status-item">3 kategori</span>
+      <span class="status-item" id="statusClock"></span>
+      <span style="margin-left:auto">CryptoSynth.id v2.0</span>
+    </div>
+
     <!-- Scroll to Top -->
     <button type="button" class="scroll-top-btn" id="scrollTopBtn" aria-label="Kembali ke atas">
-      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
+      <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="18 15 12 9 6 15"/></svg>
     </button>
 
     <script>
+      // === Clock ===
+      function updateClock() {
+        const now = new Date();
+        const time = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
+        const el1 = document.getElementById('topbarClock');
+        const el2 = document.getElementById('statusClock');
+        if (el1) el1.textContent = time + ' WIB';
+        if (el2) el2.textContent = time + ' WIB';
+      }
+      updateClock();
+      setInterval(updateClock, 1000);
+
+      // === Mobile Menu ===
       const toggle = document.getElementById('menuToggle');
       const nav = document.getElementById('mainNav');
-      const menuSvg = toggle ? toggle.querySelector('svg') : null;
-      if (toggle && nav && menuSvg) {
-        // Hamburger: 3 lines — Close (X): diagonal lines
-        const hamburgerPath = '<line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/>';
-        const closePath = '<line x1="6" y1="6" x2="18" y2="18"/><line x1="6" y1="18" x2="18" y2="6"/>';
-
+      if (toggle && nav) {
         toggle.addEventListener('click', () => {
-          const open = nav.classList.toggle('open');
-          toggle.classList.toggle('open', open);
-          menuSvg.innerHTML = open ? closePath : hamburgerPath;
+          nav.classList.toggle('open');
         });
         nav.querySelectorAll('a').forEach(link => {
-          link.addEventListener('click', () => {
-            nav.classList.remove('open');
-            toggle.classList.remove('open');
-            menuSvg.innerHTML = hamburgerPath;
-          });
+          link.addEventListener('click', () => nav.classList.remove('open'));
         });
         document.addEventListener('click', (e) => {
           if (!nav.contains(e.target) && !toggle.contains(e.target)) {
             nav.classList.remove('open');
-            toggle.classList.remove('open');
-            menuSvg.innerHTML = hamburgerPath;
           }
         });
       }
 
-      // === Search Dropdown (Apple-style) ===
+      // === Search Dropdown ===
       (function initSearch() {
         var dropdown = document.getElementById('searchDropdown');
-        var toggle = document.getElementById('searchToggle');
+        var searchToggle = document.getElementById('searchToggle');
         var input = document.getElementById('searchDropdownInput');
         var results = document.getElementById('searchDropdownResults');
         var clearBtn = document.getElementById('searchDropdownClear');
-        var searchIndex = [];
+        var searchIndex: any[] = [];
         var indexLoaded = false;
 
         function openSearch() {
-          dropdown.classList.add('open');
+          dropdown?.classList.add('open');
           document.addEventListener('click', closeOnOutside);
-          setTimeout(function() { input.focus(); }, 80);
+          setTimeout(function() { input?.focus(); }, 80);
+          if (!indexLoaded) loadIndex();
         }
 
         function closeSearch() {
-          dropdown.classList.remove('open');
+          dropdown?.classList.remove('open');
           document.removeEventListener('click', closeOnOutside);
-          input.value = '';
-          results.innerHTML = '';
+          if (input) input.value = '';
+          if (results) results.innerHTML = '';
         }
 
-        function closeOnOutside(e) {
-          if (!dropdown.contains(e.target) && e.target !== toggle && !toggle.contains(e.target)) {
+        function closeOnOutside(e: Event) {
+          if (!dropdown?.contains(e.target as Node) && !searchToggle?.contains(e.target as Node)) {
             closeSearch();
           }
         }
-
-        toggle.addEventListener('click', function(e) {
-          e.stopPropagation();
-          if (dropdown.classList.contains('open')) {
-            closeSearch();
-          } else {
-            openSearch();
-          }
-        });
-
-        clearBtn.addEventListener('click', function(e) {
-          e.stopPropagation();
-          closeSearch();
-        });
-
-        document.addEventListener('keydown', function(e) {
-          if (e.key === 'Escape' && dropdown.classList.contains('open')) {
-            closeSearch();
-          }
-          if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
-            e.preventDefault();
-            if (dropdown.classList.contains('open')) { closeSearch(); }
-            else { openSearch(); }
-          }
-        });
 
         async function loadIndex() {
-          if (indexLoaded) return;
           try {
-            var res = await fetch('/search-index.json');
-            searchIndex = await res.json();
-            indexLoaded = true;
-          } catch (e) {
-            console.error('Search index load failed:', e);
-          }
+            const resp = await fetch('/api/search-index.json');
+            if (resp.ok) {
+              searchIndex = await resp.json();
+              indexLoaded = true;
+            }
+          } catch (e) {}
         }
 
-        function formatDate(isoStr) {
-          var d = new Date(isoStr);
-          return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
-        }
+        function doSearch(query: string) {
+          if (!results) return;
+          if (!query.trim()) { results.innerHTML = ''; return; }
+          const q = query.toLowerCase();
+          const hits = searchIndex.filter((item: any) =>
+            (item.title || '').toLowerCase().includes(q) ||
+            (item.description || '').toLowerCase().includes(q) ||
+            (item.tags || []).some((t: string) => t.toLowerCase().includes(q))
+          ).slice(0, 8);
 
-        function doSearch(query) {
-          var q = query.toLowerCase().trim();
-          if (!q) return [];
-          var terms = q.split(/\\s+/);
-          return searchIndex.filter(function(item) {
-            var haystack = (item.title + ' ' + item.description + ' ' + item.excerpt + ' ' + (item.content || '') + ' ' + item.category + ' ' + item.tags.join(' ')).toLowerCase();
-            return terms.every(function(t) { return haystack.includes(t); });
-          });
-        }
-
-        function renderSearch(query) {
-          if (!query.trim()) {
-            results.innerHTML = '';
+          if (hits.length === 0) {
+            results.innerHTML = '<div style="padding:0.5rem 0.65rem;font-size:0.78rem;color:var(--text-muted)">Tidak ditemukan: "' + query + '"</div>';
             return;
           }
-          var matches = doSearch(query);
-          if (matches.length === 0) {
-            results.innerHTML = '<p class="search-dropdown-empty">Tidak ditemukan artikel untuk "<strong>' + query + '</strong>"</p>';
-            return;
-          }
-          results.innerHTML = matches.map(function(item) {
-            return '<a href="/blog/' + item.id + '" class="search-result-card" onclick="document.getElementById(\'searchDropdown\').classList.remove(\'open\')">' +
-              '<img src="/images/hero/' + item.id + '.png" alt="' + item.title.replace(/"/g, '&quot;') + '" class="search-result-img" loading="lazy" />' +
-              '<div class="search-result-content">' +
-              '<span class="search-result-category">' + item.category + '</span>' +
-              '<h3 class="search-result-title">' + item.title + '</h3>' +
-              '<p class="search-result-desc">' + item.description + '</p>' +
-              '<span class="search-result-date">' + formatDate(item.pubDate) + '</span>' +
-              '</div></a>';
-          }).join('');
+
+          results.innerHTML = hits.map((item: any) =>
+            '<a href="/blog/' + item.slug + '" class="search-result-item">' +
+            '<span class="result-tag">#' + (item.tags?.[0] || 'catatan') + '</span>' +
+            '<span class="result-title">' + item.title + '</span></a>'
+          ).join('');
         }
 
-        var debounceTimer;
-        input.addEventListener('input', async function(e) {
-          await loadIndex();
-          clearTimeout(debounceTimer);
-          debounceTimer = setTimeout(function() {
-            renderSearch(e.target.value);
-          }, 200);
+        searchToggle?.addEventListener('click', openSearch);
+        clearBtn?.addEventListener('click', closeSearch);
+        input?.addEventListener('input', function() { doSearch((this as HTMLInputElement).value); });
+        input?.addEventListener('keydown', function(e: KeyboardEvent) {
+          if (e.key === 'Escape') closeSearch();
         });
       })();
 
-      // Glass navigation on scroll (moved inside script)
-      document.addEventListener('DOMContentLoaded', () => {
-        const header = document.querySelector('.header');
-        if (!header) return;
-
-        window.addEventListener('scroll', () => {
-          if (window.scrollY > 10) {
-            header.classList.add('scrolled');
-          } else {
-            header.classList.remove('scrolled');
-          }
-        });
+      // === Reading Progress ===
+      window.addEventListener('scroll', () => {
+        const scrollTop = window.scrollY;
+        const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+        const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+        const el = document.getElementById('readingProgress');
+        if (el) el.style.width = progress + '%';
       });
 
-      // Scroll to top button
-      (function() {
-        var btn = document.getElementById('scrollTopBtn');
-        if (!btn) return;
-        window.addEventListener('scroll', function() {
-          if (window.scrollY > 400) {
-            btn.classList.add('visible');
-          } else {
-            btn.classList.remove('visible');
-          }
+      // === Scroll to Top ===
+      const scrollTopBtn = document.getElementById('scrollTopBtn');
+      if (scrollTopBtn) {
+        window.addEventListener('scroll', () => {
+          scrollTopBtn.classList.toggle('visible', window.scrollY > 300);
         });
-        btn.addEventListener('click', function() {
+        scrollTopBtn.addEventListener('click', () => {
           window.scrollTo({ top: 0, behavior: 'smooth' });
-        });
-      })();
-
-      // SW: hapus semua cache lama, unregister, lalu register baru
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() {
-          caches.keys().then(function(names) {
-            return Promise.all(names.map(function(n) { return caches.delete(n); }));
-          }).then(function() {
-            navigator.serviceWorker.getRegistrations().then(function(regs) {
-              return Promise.all(regs.map(function(r) { return r.unregister(); }));
-            });
-          }).then(function() {
-            navigator.serviceWorker.register('/sw.js');
-          }).catch(function() {});
         });
       }
 
-      // Auto-update footer date
-      (function() {
-        var el = document.getElementById('footerUpdateDate');
-        if (!el) return;
-        var now = new Date();
-        var months = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember'];
-        el.textContent = now.getDate() + ' ' + months[now.getMonth()] + ' ' + now.getFullYear();
-      })();
-      // Live relative time — update every 60s
-      (function() {
-        function rt(d) {
-          var n = Date.now() - d.getTime();
-          if (n < 0) return 'Baru saja';
-          var m = Math.floor(n / 60000), h = Math.floor(m / 60), D = Math.floor(h / 24), w = Math.floor(D / 7), M = Math.floor(D / 30);
-          if (m < 1) return 'Baru saja';
-          if (m < 60) return m + ' menit lalu';
-          if (h < 24) return h + ' jam lalu';
-          if (D < 7) return D + ' hari lalu';
-          if (w < 4) return w + ' minggu lalu';
-          if (M < 12) return M + ' bulan lalu';
-          return d.toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' });
-        }
-        function up() {
-          var el = document.querySelectorAll('[data-live-time]');
-          for (var i = 0; i < el.length; i++) {
-            var p = el[i].getAttribute('data-pubdate');
-            if (p) el[i].textContent = rt(new Date(p));
-          }
-        }
-        if (document.readyState === 'loading') {
-          document.addEventListener('DOMContentLoaded', function() { up(); setInterval(up, 60000); });
-        } else {
-          up(); setInterval(up, 60000);
-        }
-      })();
+      // === Footer update date ===
+      const footerDate = document.getElementById('footerUpdateDate');
+      if (footerDate) {
+        footerDate.textContent = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Jakarta' });
+      }
     </script>
-    <script is:inline src="/live-time.js"></script>
-    <Fragment set:html={`<script>;(function(){function r(d){var n=Date.now()-d.getTime();if(n<0)return"Baru saja";var m=Math.floor(n/6e4),h=Math.floor(m/60),D=Math.floor(h/24),w=Math.floor(D/7),M=Math.floor(D/30);if(m<1)return"Baru saja";if(m<60)return m+" menit lalu";if(h<24)return h+" jam lalu";if(D<7)return D+" hari lalu";if(w<4)return w+" minggu lalu";if(M<12)return M+" bulan lalu";return d.toLocaleDateString("id-ID",{year:"numeric",month:"long",day:"numeric",timeZone:"Asia/Jakarta"})}var L=document.querySelectorAll("[data-live-time]");for(var i=0;i<L.length;i++){var p=L[i].getAttribute("data-pubdate");if(p)L[i].textContent=r(new Date(p))}setInterval(function(){for(var i=0;i<L.length;i++){var p=L[i].getAttribute("data-pubdate");if(p)L[i].textContent=r(new Date(p))}},6e4)})();<\/script>`} />
   </body>
 </html>
-
-<style is:global>
-  @import '../styles/global.css';
-</style>

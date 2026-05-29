@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Terminal — Consolas</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Consolas,"Courier New",monospace;background:#0c0c0c;color:#cccccc;height:100vh;overflow:hidden;display:flex;flex-direction:column}
+::selection{background:rgba(78,201,176,0.25)}
+
+.topbar{height:28px;background:#0c0c0c;border-bottom:1px solid #333;display:flex;align-items:center;padding:0 0.75rem;flex-shrink:0}
+.topbar-title{font-size:0.65rem;color:#999}
+
+.terminal{flex:1;overflow-y:auto;padding:0.75rem;font-size:0.85rem;line-height:1.5}
+.output{margin-bottom:0}
+.prompt{color:#4ec9b0}
+.path{color:#569cd6}
+.str{color:#ce9178}
+.dim{color:#666}
+.highlight{color:#f1fa8c;font-weight:bold}
+.accent{color:#569cd6}
+
+.entry{padding:0.2rem 0;cursor:pointer;display:flex;gap:0.5rem}
+.entry:hover .entry-title{color:#569cd6;text-decoration:underline}
+.entry-num{color:#555}
+.entry-tag{color:#d7ba7d;font-size:0.78rem;min-width:80px}
+.entry-title{color:#ccc;transition:all 0.1s}
+.entry-date{color:#555;margin-left:auto}
+
+.input-line{display:flex;align-items:center;margin-top:0.25rem}
+.input-line input{flex:1;background:transparent;border:none;color:#ccc;font-family:inherit;font-size:0.85rem;outline:none;caret-color:#ccc}
+
+.status{height:22px;background:#007acc;display:flex;align-items:center;padding:0 0.75rem;font-size:0.6rem;color:#fff;flex-shrink:0;justify-content:space-between}
+
+@media(max-width:768px){.terminal{padding:0.5rem;font-size:0.75rem}}
+</style>
+</head>
+<body>
+<div class="topbar"><span class="topbar-title">Windows PowerShell</span></div>
+<div class="terminal">
+<div class="output"><span class="prompt">PS</span> <span class="path">C:\Users\gideon\cryptosynth</span>&gt; <span class="accent">Get-Content</span> <span class="str">welcome.txt</span></div>
+<br>
+<div class="output highlight">CryptoSynth — Catatan Crypto Personal</div>
+<div class="dim">Node logs, airdrop farming, trading, opini.</div>
+<br>
+<div class="output"><span class="prompt">PS</span> <span class="path">C:\Users\gideon\cryptosynth</span>&gt; <span class="accent">Get-ChildItem</span> <span class="str">catatan\</span></div>
+<br>
+<div class="entry"><span class="entry-num">01</span><span class="entry-tag">AIRDROP</span><span class="entry-title">7 Airdrop yang Layak Difarming Q2 2026</span><span class="entry-date">29 Mei</span></div>
+<div class="entry"><span class="entry-num">02</span><span class="entry-tag">SOFI</span><span class="entry-title">SoFi Luncurkan Stablecoin (SoFiUSD)</span><span class="entry-date">29 Mei</span></div>
+<div class="entry"><span class="entry-num">03</span><span class="entry-tag">VARIATIONAL</span><span class="entry-title">Variational Deep-Dive: Tim Ex-Jane Street</span><span class="entry-date">28 Mei</span></div>
+<div class="entry"><span class="entry-num">04</span><span class="entry-tag">OPTIMAI</span><span class="entry-title">Tutorial Install OptimAI Core Node di VPS</span><span class="entry-date">27 Mei</span></div>
+<div class="entry"><span class="entry-num">05</span><span class="entry-tag">SYMB</span><span class="entry-title">SYMB TGE Juni, ProprXYZ di Hyperliquid</span><span class="entry-date">27 Mei</span></div>
+<div class="entry"><span class="entry-num">06</span><span class="entry-tag">OPTIMAI</span><span class="entry-title">OptimAI: Farming DePIN + AI</span><span class="entry-date">26 Mei</span></div>
+<div class="entry"><span class="entry-num">07</span><span class="entry-tag">CATENA</span><span class="entry-title">Catena Labs: $48M dari a16z</span><span class="entry-date">26 Mei</span></div>
+<br>
+<div class="output"><span class="prompt">PS</span> <span class="path">C:\Users\gideon\cryptosynth</span>&gt; <span class="accent">Get-Content</span> <span class="str">catatan\airdrop-q2-2026.md</span></div>
+<br>
+<div class="output"><span class="str"># 7 Airdrop yang Layak Difarming Q2 2026</span></div>
+<div class="output dim">Q2 2026 jadi quarter paling sibuk buat airdrop farming.</div>
+<div class="output dim">Volume Polymarket: <span class="highlight">$2M+</span>/hari. Belum punya token.</div>
+<div class="output dim">Backing Beacon: <span class="accent">Paradigm + a16z</span>. Testnet phase.</div>
+<br>
+<div class="input-line"><span class="prompt">PS</span> <span class="path">C:\Users\gideon\cryptosynth</span>&gt; <input autofocus></div>
+</div>
+<div class="status"><span>Windows PowerShell</span><span id="clock"></span></div>
+<script>function c(){document.getElementById('clock').textContent=new Date().toLocaleTimeString('en-US',{hour12:false})}
+c();setInterval(c,1000)</script>
+</body></html>

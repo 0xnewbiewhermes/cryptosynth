@@ -8,353 +8,434 @@ const posts = (await getCollection('blog')).sort(
 );
 ---
 
-<BaseLayout title="CryptoSynth — Catatan Crypto Personal" description="Catatan crypto pribadi. Node logs, airdrop farming, tutorial, dan opini DeFi.">
-  <!-- Hero -->
-  <section class="hero-v3">
-    <div class="container">
-      <div class="hero-v3-label">✦ Hanya catatan</div>
-      <h1>Catatan Crypto Personal</h1>
-      <p class="hero-v3-subtitle">Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</p>
+<BaseLayout title="CryptoSynth — Catatan Crypto Personal" description="Catatan crypto pribadi. Node logs, airdrop farming, tutorial, dan opini DeFi." terminalPath="~/cryptosynth">
+  <div class="terminal-home">
+    <!-- Welcome output (visible by default, hidden after first interaction) -->
+    <div class="term-welcome" id="termWelcome">
+      <pre class="ascii-art"> ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ ███████╗██╗   ██╗███╗   ██╗████████╗██╗  ██╗
+██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═══██╗██╔════╝╚██╗ ██╔╝████╗  ██║╚══██╔══╝██║  ██║
+██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║   ██║███████╗ ╚████╔╝ ██╔██╗ ██║   ██║   ███████║
+██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██║   ██║╚════██║  ╚██╔╝  ██║╚██╗██║   ██║   ██╔══██║
+╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝███████║   ██║   ██║ ╚████║   ██║   ██║  ██║
+ ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═══╝   ╚═╝   ╚═╝</pre>
+      <div class="term-line term-highlight">Catatan Crypto Personal</div>
+      <div class="term-line term-dim">Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</div>
+      <div class="term-line">&nbsp;</div>
+      <div class="term-line">Ketik <span class="term-warn">help</span> untuk lihat semua command.</div>
+      <div class="term-line">&nbsp;</div>
     </div>
-  </section>
 
-  <div class="section-divider"></div>
+    <!-- Command output area -->
+    <div class="term-output-area" id="termOutput"></div>
 
-  <!-- Articles -->
-  <section class="section-articles">
-    <div class="container">
-      <div class="section-header-v3">
-        <h2>Semua Catatan</h2>
-        <a href="/articles">Lihat Semua →</a>
+    <!-- Article list (server-rendered for SEO, styled as terminal output) -->
+    <div class="term-articles" id="termArticles">
+      <div class="term-line">&nbsp;</div>
+      <div class="term-line">
+        <span class="term-dim">  NUM  TAG            TITLE                                              DATE</span>
       </div>
-
-      <div class="article-rows" id="articlesGrid">
-        {posts.map((post, index) => (
-          <article class:list={['article-row', index >= 9 && 'article-row-hidden']}>
-            <div class="article-row-left">
-              <div class="article-row-tags">
-                {(post.data.tags || []).slice(0, 2).map((tag) => (
-                  <span class="article-row-tag">#{tag}</span>
-                ))}
-              </div>
-              <h3 class="article-row-title">
-                <a href={`/blog/${post.id}`}>{post.data.title}</a>
-              </h3>
-              <p class="article-row-excerpt">{post.data.excerpt || post.data.description}</p>
+      <div class="term-line">
+        <span class="term-dim" style="color:rgba(212,212,212,0.08)">  ───  ───            ─────                                              ────</span>
+      </div>
+      {posts.map((post, index) => (
+        <a href={`/blog/${post.id}`} class="article-entry">
+          <span class="entry-num">{String(index + 1).padStart(2, '0')}</span>
+          <div>
+            <div class="entry-tag">
+              {(post.data.tags || []).slice(0, 2).map((tag) => `#${tag}`).join(' · ')}
             </div>
-            <div class="article-row-right">
-              <span class="article-row-time" data-live-time data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-              <span class="article-row-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
-            </div>
-          </article>
-        ))}
+            <div class="entry-title">{post.data.title}</div>
+            {post.data.excerpt && <div class="entry-excerpt">{post.data.excerpt}</div>}
+          </div>
+          <div class="entry-meta">
+            <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
+            <span class="entry-time">{relativeTime(post.data.pubDate)}</span>
+          </div>
+        </a>
+      ))}
+      <div class="term-line">&nbsp;</div>
+      <div class="term-line term-dim">
+        &nbsp;&nbsp;Total: {posts.length} catatan. Tap judul untuk baca.
       </div>
-
-      <div class="load-more" id="loadMoreWrap" style={posts.length <= 9 ? 'display:none' : ''}>
-        <button type="button" class="load-more-btn" id="loadMoreBtn">
-          Muat Lagi ↓
-        </button>
-        <p class="load-more-count" id="loadMoreCount">Menampilkan 9 dari {posts.length} catatan</p>
-      </div>
-
-      {posts.length === 0 && (
-        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-          <p style="font-size: 1.05rem; margin-bottom: 0.5rem;">Catatan pertama akan segera hadir</p>
-          <p style="font-size: 0.85rem;">Saya sedang menyiapkan konten terbaik untuk kamu.</p>
-        </div>
-      )}
+      <div class="term-line">&nbsp;</div>
     </div>
-  </section>
+
+    <!-- Command input -->
+    <div class="term-input-line" id="termInputLine">
+      <span class="term-prompt">gideon@cryptosynth:~$</span>
+      <input type="text" id="termInput" class="term-input" placeholder="ketik help..." spellcheck="false" autocomplete="off" autocapitalize="off" />
+    </div>
+
+    <!-- Mobile quick actions -->
+    <div class="quick-actions" id="quickActions">
+      <button class="qa-btn" data-cmd="ls"><span class="qa-icon">📂</span>ls</button>
+      <button class="qa-btn" data-cmd="grep airdrop"><span class="qa-icon">🔍</span>airdrop</button>
+      <button class="qa-btn" data-cmd="grep tutorial"><span class="qa-icon">📖</span>tutorial</button>
+      <button class="qa-btn" data-cmd="whoami"><span class="qa-icon">👤</span>whoami</button>
+      <button class="qa-btn" data-cmd="help"><span class="qa-icon">❓</span>help</button>
+      <button class="qa-btn" data-cmd="clear"><span class="qa-icon">🧹</span>clear</button>
+    </div>
+  </div>
 </BaseLayout>
 
 <style>
-  /* ===== HERO V3 — Brutalist Premium ===== */
-  .hero-v3 {
-    padding: 0.5rem 0 2rem;
+  /* Terminal home layout */
+  .terminal-home {
+    padding: 1.25rem 1.5rem 8rem;
+    max-width: 780px;
+    margin: 0 auto;
+    min-height: calc(100vh - 60px);
   }
 
-  .hero-v3-label {
-    font-size: 0.7rem;
-    font-weight: 500;
-    letter-spacing: 0.15em;
-    text-transform: uppercase;
-    color: var(--text-muted);
+  /* ASCII art */
+  .ascii-art {
+    color: var(--primary);
+    font-size: 0.42rem;
+    line-height: 1.2;
     margin-bottom: 0.75rem;
+    overflow-x: auto;
+    white-space: pre;
   }
 
-  .hero-v3 h1 {
-    font-family: var(--font-display);
-    font-size: clamp(2.5rem, 6vw, 4rem);
-    font-weight: 900;
-    line-height: 1.0;
-    letter-spacing: -0.04em;
-    margin-bottom: 0.75rem;
-    max-width: 600px;
-    color: var(--text-primary);
-  }
-
-  .hero-v3-subtitle {
-    font-size: 1.05rem;
-    color: var(--text-secondary);
-    max-width: 420px;
+  /* Terminal lines */
+  .term-line {
+    font-size: 0.82rem;
     line-height: 1.65;
-    font-weight: 400;
+    margin-bottom: 0.08rem;
   }
 
-  /* ===== SECTION DIVIDER ===== */
-  .section-divider {
-    height: 1px;
-    background: var(--border);
+  .term-welcome {
+    margin-bottom: 0.5rem;
   }
 
-  /* ===== SECTION HEADER V3 ===== */
-  .section-header-v3 {
+  .term-output-area {
+    margin-bottom: 0.5rem;
+  }
+
+  .term-articles {
+    margin-bottom: 0.5rem;
+  }
+
+  /* Input line */
+  .term-input-line {
     display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-    padding: 2rem 0 1.25rem;
+    align-items: center;
+    gap: 0.5rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+    position: sticky;
+    bottom: 24px;
+    background: var(--bg);
+    padding-bottom: 0.5rem;
   }
 
-  .section-header-v3 h2 {
-    font-family: var(--font-display);
-    font-size: 0.85rem;
-    font-weight: 600;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-
-  .section-header-v3 a {
-    font-size: 0.75rem;
-    color: var(--text-muted);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s;
-  }
-
-  .section-header-v3 a:hover {
-    color: var(--primary);
-  }
-
-  /* ===== ARTICLE ROWS — Brutalist Premium ===== */
-  .article-row {
-    display: grid;
-    grid-template-columns: 1fr auto;
-    gap: 2rem;
-    align-items: start;
-    padding: 1.5rem 0;
-    border-bottom: 1px solid var(--border-light);
-    cursor: pointer;
-    transition: all 0.25s ease;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .article-row:first-child {
-    padding-top: 0;
-  }
-
-  .article-row:hover {
-    padding-left: 0.75rem;
-  }
-
-  .article-row:hover .article-row-title a {
-    color: var(--primary);
-  }
-
-  .article-row-left {
-    min-width: 0;
-  }
-
-  .article-row-tags {
-    display: flex;
-    gap: 0.75rem;
-    margin-bottom: 0.6rem;
-  }
-
-  .article-row-tag {
-    font-size: 0.68rem;
-    font-weight: 500;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: var(--text-muted);
-  }
-
-  .article-row-title {
-    font-family: var(--font-display);
-    font-size: 1.15rem;
-    font-weight: 600;
-    line-height: 1.35;
-    margin-bottom: 0.4rem;
-    letter-spacing: -0.01em;
-  }
-
-  .article-row-title a {
+  .term-input {
+    flex: 1;
+    background: transparent;
+    border: none;
     color: var(--text-primary);
-    text-decoration: none;
-    transition: color 0.2s ease;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    outline: none;
+    caret-color: var(--accent-success);
   }
 
-  .article-row-excerpt {
-    font-size: 0.85rem;
-    color: var(--text-secondary);
-    line-height: 1.55;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
+  .term-input::placeholder {
+    color: var(--text-dim);
   }
 
-  .article-row-right {
-    font-size: 0.72rem;
-    color: var(--text-muted);
-    white-space: nowrap;
-    padding-top: 0.15rem;
-    text-align: right;
-  }
-
-  .article-row-time {
-    display: block;
-  }
-
-  .article-row-date {
-    display: block;
-    margin-top: 0.15rem;
-  }
-
-  /* Hidden rows (load-more) */
-  .article-row-hidden {
+  /* Quick actions (mobile) */
+  .quick-actions {
     display: none;
+    position: fixed;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    background: var(--bg-elevated);
+    border-top: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 0;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    z-index: 90;
   }
 
-  /* ===== LOAD MORE ===== */
-  .load-more {
-    padding: 2rem 0;
-    text-align: center;
-  }
+  .quick-actions::-webkit-scrollbar { display: none; }
 
-  .load-more-btn {
-    font-family: inherit;
-    font-size: 0.78rem;
-    font-weight: 500;
+  .qa-btn {
+    flex-shrink: 0;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.6rem;
+    font-family: var(--font-mono);
     color: var(--text-muted);
-    background: none;
-    border: 1px solid var(--border);
-    padding: 0.65rem 2rem;
+    background: transparent;
+    border: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.04);
     cursor: pointer;
-    transition: all 0.2s;
-    letter-spacing: 0.03em;
+    transition: all 0.15s;
+    white-space: nowrap;
   }
 
-  .load-more-btn:hover {
-    color: var(--text-primary);
-    border-color: var(--text-muted);
+  .qa-btn:active {
+    background: rgba(255, 255, 255, 0.04);
+    color: var(--accent-success);
   }
 
-  .load-more-count {
-    font-size: 0.72rem;
+  .qa-icon {
+    margin-right: 0.3rem;
+  }
+
+  /* Help output */
+  .help-box {
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 0.75rem 1rem;
+    margin: 0.5rem 0;
+    font-size: 0.78rem;
+    line-height: 1.7;
+  }
+
+  .help-row {
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    gap: 0.75rem;
+  }
+
+  .help-cmd {
+    color: var(--accent-warn);
+    font-weight: 500;
+  }
+
+  .help-desc {
     color: var(--text-muted);
-    margin-top: 0.75rem;
   }
 
-  /* ===== ANIMATIONS ===== */
-  @media (prefers-reduced-motion: no-preference) {
-    .article-row {
-      animation: fadeUp 0.4s ease both;
-    }
-    .article-row:nth-child(1) { animation-delay: 0.05s; }
-    .article-row:nth-child(2) { animation-delay: 0.1s; }
-    .article-row:nth-child(3) { animation-delay: 0.15s; }
-    .article-row:nth-child(4) { animation-delay: 0.2s; }
-    .article-row:nth-child(5) { animation-delay: 0.25s; }
-    .article-row:nth-child(6) { animation-delay: 0.3s; }
-    .article-row:nth-child(7) { animation-delay: 0.35s; }
-    .article-row:nth-child(8) { animation-delay: 0.4s; }
-    .article-row:nth-child(9) { animation-delay: 0.45s; }
+  /* Whoami output */
+  .whoami-block {
+    padding: 0.5rem 0;
+    font-size: 0.82rem;
+    line-height: 1.65;
   }
 
-  @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(8px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-
-  /* ===== RESPONSIVE ===== */
   @media (max-width: 768px) {
-    .hero-v3 {
-      padding: 0 0 1rem;
+    .terminal-home {
+      padding: 1rem 1rem 7rem;
     }
-    .hero-v3 h1 {
-      font-size: 2rem;
-    }
-    .hero-v3-subtitle {
-      font-size: 0.92rem;
-    }
-    .article-row {
-      grid-template-columns: 1fr;
-      gap: 0.5rem;
-    }
-    .article-row-right {
-      text-align: left;
-      padding-top: 0;
-    }
-  }
 
-  @media (max-width: 480px) {
-    .hero-v3 h1 {
-      font-size: 1.75rem;
+    .ascii-art {
+      font-size: 0.28rem;
+    }
+
+    .term-input-line {
+      display: none;
+    }
+
+    .quick-actions {
+      display: flex;
+    }
+
+    .article-entry {
+      grid-template-columns: 25px 1fr;
+    }
+
+    .entry-meta {
+      display: none;
     }
   }
 </style>
 
 <script>
-  // Load more functionality
-  const btn = document.getElementById('loadMoreBtn');
-  const grid = document.getElementById('articlesGrid');
-  const count = document.getElementById('loadMoreCount');
-  const wrap = document.getElementById('loadMoreWrap');
+  // Terminal interaction
+  const output = document.getElementById('termOutput');
+  const input = document.getElementById('termInput') as HTMLInputElement;
+  const welcome = document.getElementById('termWelcome');
+  const articlesEl = document.getElementById('termArticles');
+  const quickActions = document.getElementById('quickActions');
 
-  if (btn && grid) {
-    const hidden = grid.querySelectorAll('.article-row-hidden');
-    const total = grid.querySelectorAll('.article-row').length;
-    let shown = total - hidden.length;
+  // Article data for grep/search
+  const articleData = Array.from(document.querySelectorAll('.article-entry')).map((el, i) => ({
+    num: String(i + 1).padStart(2, '0'),
+    title: (el.querySelector('.entry-title') as HTMLElement)?.textContent || '',
+    tag: (el.querySelector('.entry-tag') as HTMLElement)?.textContent || '',
+    excerpt: (el.querySelector('.entry-excerpt') as HTMLElement)?.textContent || '',
+    href: (el as HTMLAnchorElement).href,
+    date: (el.querySelector('.entry-date') as HTMLElement)?.textContent || '',
+  }));
 
-    btn.addEventListener('click', () => {
-      const batch = Array.from(hidden).slice(0, 6);
-      batch.forEach(el => el.classList.remove('article-row-hidden'));
-      shown += batch.length;
-      if (count) count.textContent = `Menampilkan ${shown} dari ${total} catatan`;
-      if (shown >= total && wrap) wrap.style.display = 'none';
+  let history: string[] = [];
+  let historyIdx = -1;
+
+  function print(html: string, cls: string = '') {
+    if (!output) return;
+    const div = document.createElement('div');
+    div.className = 'term-line ' + cls;
+    div.innerHTML = html;
+    output.appendChild(div);
+  }
+
+  function showHelp() {
+    print('<div class="help-box">' +
+      '<div style="font-weight:600;margin-bottom:0.5rem">COMMAND REFERENCE</div>' +
+      '<div class="help-row"><span class="help-cmd">ls</span><span class="help-desc">List semua catatan</span></div>' +
+      '<div class="help-row"><span class="help-cmd">cat &lt;slug&gt;</span><span class="help-desc">Baca catatan</span></div>' +
+      '<div class="help-row"><span class="help-cmd">grep &lt;keyword&gt;</span><span class="help-desc">Cari catatan</span></div>' +
+      '<div class="help-row"><span class="help-cmd">whoami</span><span class="help-desc">Tentang penulis</span></div>' +
+      '<div class="help-row"><span class="help-cmd">clear</span><span class="help-desc">Bersihkan layar</span></div>' +
+      '<div class="help-row"><span class="help-cmd">help</span><span class="help-desc">Tampilkan bantuan</span></div>' +
+      '</div>');
+  }
+
+  function showWhoami() {
+    print('<div class="whoami-block">' +
+      '<div class="term-highlight" style="font-weight:600">Gideon</div>' +
+      '<div class="term-dim">Crypto practitioner. Node operator. Airdrop farmer.</div>' +
+      '<div class="term-dim">Nulis catatan crypto dari sudut pandang pribadi.</div>' +
+      '<div>&nbsp;</div>' +
+      '<div class="term-dim">Bukan financial advisor. Bukan portal berita.</div>' +
+      '<div>&nbsp;</div>' +
+      '<div><span class="term-accent">cryptosynth.id</span></div>' +
+      '</div>');
+  }
+
+  function doGrep(keyword: string) {
+    const q = keyword.toLowerCase();
+    const hits = articleData.filter(a =>
+      a.title.toLowerCase().includes(q) ||
+      a.tag.toLowerCase().includes(q) ||
+      a.excerpt.toLowerCase().includes(q)
+    );
+    if (hits.length === 0) {
+      print(`Tidak ditemukan: "${keyword}"`, 'term-warn');
+      return;
+    }
+    print(`Ditemukan ${hits.length} catatan untuk "${keyword}":`, 'term-success');
+    hits.forEach(a => {
+      const div = document.createElement('div');
+      div.className = 'term-line';
+      div.innerHTML = `<a href="${a.href}" class="article-entry" style="padding:0.25rem 0.5rem"><span class="entry-num">${a.num}</span><div><div class="entry-title">${a.title}</div></div><span class="entry-date">${a.date}</span></a>`;
+      output?.appendChild(div);
     });
   }
 
-  // Live relative time updates
-  (function() {
-    function relativeTime(d) {
-      var diffMs = Date.now() - d.getTime();
-      if (diffMs < 0) return 'Baru saja';
-      var sec = Math.floor(diffMs / 1000);
-      var min = Math.floor(sec / 60);
-      var hour = Math.floor(min / 60);
-      var day = Math.floor(hour / 24);
-      var week = Math.floor(day / 7);
-      var month = Math.floor(day / 30);
-      if (min < 1) return 'Baru saja';
-      if (min < 60) return min + ' menit lalu';
-      if (hour < 24) return hour + ' jam lalu';
-      if (day < 7) return day + ' hari lalu';
-      if (week < 4) return week + ' minggu lalu';
-      if (month < 12) return month + ' bulan lalu';
-      return d.toLocaleDateString('id-ID', { year:'numeric', month:'long', day:'numeric', timeZone:'Asia/Jakarta' });
+  function execCmd(cmd: string) {
+    const parts = cmd.trim().split(/\s+/);
+    const command = parts[0]?.toLowerCase();
+    const arg = parts.slice(1).join(' ');
+
+    // Show the command
+    print(`<span class="term-prompt">gideon@cryptosynth:~$</span> <span class="term-cmd">${cmd}</span>`);
+
+    // Hide welcome on first command
+    if (welcome) welcome.style.display = 'none';
+
+    switch (command) {
+      case '':
+        break;
+      case 'help':
+        showHelp();
+        break;
+      case 'ls':
+      case 'list':
+        // Show articles
+        if (articlesEl) articlesEl.style.display = 'block';
+        print('', '');
+        break;
+      case 'cat':
+      case 'read':
+        if (arg) {
+          const match = articleData.find(a =>
+            a.title.toLowerCase().includes(arg.toLowerCase()) ||
+            a.href.includes(arg.toLowerCase())
+          );
+          if (match) {
+            window.location.href = match.href;
+          } else {
+            print(`cat: ${arg}: No such catatan`, 'term-error');
+          }
+        } else {
+          print('Usage: cat &lt;slug&gt;', 'term-warn');
+        }
+        break;
+      case 'grep':
+      case 'search':
+        if (arg) {
+          doGrep(arg);
+        } else {
+          print('Usage: grep &lt;keyword&gt;', 'term-warn');
+        }
+        break;
+      case 'whoami':
+      case 'about':
+        showWhoami();
+        break;
+      case 'clear':
+      case 'cls':
+        if (output) output.innerHTML = '';
+        if (welcome) welcome.style.display = 'none';
+        if (articlesEl) articlesEl.style.display = 'none';
+        break;
+      case 'exit':
+      case 'quit':
+        print('Tidak bisa keluar dari CryptoSynth. Lo sudah di dalam.', 'term-warn');
+        break;
+      case 'sudo':
+        print('Nice try. Tapi ini blog, bukan server.', 'term-warn');
+        break;
+      default:
+        print(`Command not found: ${command}. Ketik <span class="term-warn">help</span> untuk bantuan.`, 'term-error');
     }
-    function updateTimes() {
-      var els = document.querySelectorAll('[data-live-time]');
-      for (var i = 0; i < els.length; i++) {
-        var iso = els[i].getAttribute('data-pubdate');
-        if (!iso) continue;
-        els[i].textContent = relativeTime(new Date(iso));
+
+    // Scroll to bottom
+    window.scrollTo(0, document.body.scrollHeight);
+  }
+
+  // Input handler
+  if (input) {
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        const cmd = input.value;
+        if (cmd) {
+          history.push(cmd);
+          historyIdx = history.length;
+        }
+        execCmd(cmd);
+        input.value = '';
       }
+      if (e.key === 'ArrowUp') {
+        e.preventDefault();
+        if (historyIdx > 0) {
+          historyIdx--;
+          input.value = history[historyIdx];
+        }
+      }
+      if (e.key === 'ArrowDown') {
+        e.preventDefault();
+        if (historyIdx < history.length - 1) {
+          historyIdx++;
+          input.value = history[historyIdx];
+        } else {
+          historyIdx = history.length;
+          input.value = '';
+        }
+      }
+      if (e.key === 'l' && e.ctrlKey) {
+        e.preventDefault();
+        execCmd('clear');
+      }
+    });
+  }
+
+  // Quick action buttons (mobile)
+  document.querySelectorAll('.qa-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const cmd = (btn as HTMLElement).dataset.cmd;
+      if (cmd) execCmd(cmd);
+    });
+  });
+
+  // Focus input on terminal area click
+  document.querySelector('.terminal-home')?.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (!target.closest('a') && !target.closest('button') && !target.closest('.qa-btn')) {
+      input?.focus();
     }
-    updateTimes();
-    setInterval(updateTimes, 60000);
-  })();
+  });
 </script>

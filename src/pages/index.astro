@@ -40,17 +40,13 @@ const posts = (await getCollection('blog')).sort(
       {posts.map((post, index) => (
         <a href={`/blog/${post.id}`} class="article-entry">
           <span class="entry-num">{String(index + 1).padStart(2, '0')}</span>
-          <div>
-            <div class="entry-tag">
-              {(post.data.tags || []).slice(0, 2).map((tag) => `#${tag}`).join(' · ')}
-            </div>
-            <div class="entry-title">{post.data.title}</div>
-            {post.data.excerpt && <div class="entry-excerpt">{post.data.excerpt}</div>}
-          </div>
-          <div class="entry-meta">
+          <span class="entry-tag">{(post.data.tags || []).slice(0, 2).map((tag) => `#${tag}`).join(' · ')}</span>
+          <span class="entry-title">{post.data.title}</span>
+          {post.data.excerpt && <span class="entry-excerpt">{post.data.excerpt}</span>}
+          <span class="entry-meta">
             <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
             <span class="entry-time">{relativeTime(post.data.pubDate)}</span>
-          </div>
+          </span>
         </a>
       ))}
       <div class="term-line">&nbsp;</div>

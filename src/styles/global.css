@@ -306,17 +306,17 @@ a:hover { opacity: 0.8; }
 
 /* ===== ARTICLE ENTRY (terminal list item) ===== */
 .article-entry {
-  padding: 0.75rem 0.75rem;
+  padding: 0.55rem 0.5rem;
   cursor: pointer;
   transition: all 0.15s;
   border-left: 2px solid transparent;
-  margin: 0.25rem 0;
-  display: grid;
-  grid-template-columns: 35px 1fr auto;
-  gap: 0.75rem;
-  align-items: center;
+  margin: 0;
+  display: flex;
+  gap: 0.5rem;
+  align-items: first baseline;
   text-decoration: none;
   color: inherit;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.03);
 }
 
 .article-entry:hover {
@@ -330,37 +330,54 @@ a:hover { opacity: 0.8; }
 }
 
 .entry-num {
-  color: rgba(212, 212, 212, 0.15);
-  font-size: 0.75rem;
-  font-weight: 600;
+  color: rgba(212, 212, 212, 0.2);
+  font-size: 0.72rem;
+  font-weight: 500;
+  flex-shrink: 0;
+  width: 22px;
+  text-align: right;
 }
 
 .entry-tag {
   color: var(--accent-warn);
-  font-size: 0.62rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  margin-bottom: 0.15rem;
+  margin-bottom: 0;
 }
 
 .entry-title {
   color: var(--text-primary);
-  font-size: 0.88rem;
+  font-size: 0.85rem;
   font-weight: 500;
-  line-height: 1.35;
+  line-height: 1.4;
   transition: color 0.15s;
+}
+
+.entry-title::before {
+  content: " — ";
+  color: rgba(212, 212, 212, 0.12);
+  font-weight: 400;
 }
 
 .entry-excerpt {
   color: var(--text-muted);
-  font-size: 0.78rem;
-  margin-top: 0.15rem;
-  line-height: 1.45;
+  font-size: 0.75rem;
+  margin-top: 0.1rem;
+  line-height: 1.4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
 }
 
 .entry-meta {
   text-align: right;
   white-space: nowrap;
+  flex-shrink: 0;
+  align-self: first baseline;
+  padding-top: 0.05rem;
 }
 
 .entry-date {
@@ -785,8 +802,9 @@ a:hover { opacity: 0.8; }
 .footer-logo:hover { opacity: 1; }
 
 .footer-links {
-  display: flex;
-  gap: 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
 }
 
 .footer-col h4 {

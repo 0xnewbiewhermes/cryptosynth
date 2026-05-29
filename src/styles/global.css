@@ -2497,6 +2497,7 @@ pre:hover .code-copy-btn,
   .header { border-bottom: none; box-shadow: none; }
   .header.scrolled { box-shadow: none; }
   .nav.open { display: flex; }
+  .nav a.active::after { display: none; }
 
   .nav a {
     padding: 0.6rem 1rem;

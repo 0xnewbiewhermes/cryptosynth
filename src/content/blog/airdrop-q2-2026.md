@@ -31,7 +31,7 @@ ogImage: "/images/og/airdrop-q2-2026.png"
 
 Saya udah lama gak nulis roundup airdrop. Alasannya simpel: setelah HYPE dan JUP meledak di 2024, musim airdrop 2025 agak sepi. Tapi Q2 2026 ini beda. Ada Polymarket yang belum punya token tapi valuation-nya udah di angka $9 miliar. Ada game yang beneran seru dimainin (bukan cuma klik-klik). Dan ada beberapa project yang distribusinya tinggal hitungan hari, bukan bulan.
 
-Yang perlu kamu catat: daftar ini bukan "semua airdrop yang ada." Ini 7 yang menurut saya paling worth dikejar berdasarkan ukuran potensi reward, status konfirmasi, dan effort yang dibutuhkan.
+Yang perlu kamu catat: daftar ini bukan "semua airdrop yang ada." Ini 7 yang menurut saya worth dikejar berdasarkan ukuran potensi reward, status konfirmasi, dan effort yang dibutuhkan.
 
 ## 1. Polymarket ($POLY)
 
@@ -40,7 +40,7 @@ Yang perlu kamu catat: daftar ini bukan "semua airdrop yang ada." Ini 7 yang men
 **Potensi reward:** Estimasi komunitas $1K sampai $50K+ tergantung volume trading
 **Snapshot:** Belum ada tanggal resmi
 
-Polymarket gak perlu diperkenalkan lagi. Platform prediksi market terbesar, valuation [dilaporkan di kisaran $9 miliar](https://x.com/MedusaOnchain/status/2055643219434860718), dan belum punya token.
+Polymarket gak perlu diperkenalkan lagi. Platform prediksi market besar, valuation [dilaporkan di kisaran $9 miliar](https://x.com/MedusaOnchain/status/2055643219434860718), dan belum punya token.
 
 Yang bikin saya tertarik: CMO mereka, Matthew Modabber, [udah konfirmasi langsung di podcast](https://x.com/Crypto_Pranjal/status/205389214834561888) "akan ada token, akan ada airdrop." Tambah lagi, Mei ini karyawan Polymarket mulai posting screenshot internal UI yang ada tab "Airdrop" dan interface staking/claim.
 
@@ -60,7 +60,7 @@ Pre-market $POLY diperdagangkan di atas $25. Kalau kamu aktif trading di sini, r
 **Reward pool:** 7.7 juta $BCN
 **Modal:** Opsional (F2P tersedia)
 
-Ini airdrop yang paling unik di daftar. Kenapa? Karena kamu harus beneran main game-nya. [Beacon](https://app.thebeacon.gg/season-one) adalah roguelite dungeon runner yang bikin kamu berlari, ngumpulin shard, dan buka chest.
+Ini airdrop yang unik di daftar. Kenapa? Karena kamu harus beneran main game-nya. [Beacon](https://app.thebeacon.gg/season-one) adalah roguelite dungeon runner yang bikin kamu berlari, ngumpulin shard, dan buka chest.
 
 7.7 juta $BCN dibagi jadi Base Pool (buat yang beli Glint/premium) dan Bonus Pool (gameplay murni). [25% rewards unlock pas TGE](https://x.com/Crypto_Hunter_O/status/2059784855089717669), sisanya vesting 9 bulan.
 
@@ -167,7 +167,7 @@ Beberapa hal yang sering dilupain orang:
 
 ---
 
-Airdrop Q2 2026 ini menarik karena variasinya. Ada yang butuh modal (Polymarket, Hyperliquid), ada yang butuh waktu (Beacon, SosoValue), dan ada yang passive aja (Grass). Dari ketujuhnya, Polymarket yang paling bikin saya penasaran karena valuation-nya belum terwujud ke token. Tapi kalau kamu mau yang paling seru, main Beacon. Gamenya beneran worth dimainin bahkan tanpa airdrop.
+Airdrop Q2 2026 ini menarik karena variasinya. Ada yang butuh modal (Polymarket, Hyperliquid), ada yang butuh waktu (Beacon, SosoValue), dan ada yang passive aja (Grass). Dari ketujuhnya, Polymarket yang bikin saya penasaran karena valuation-nya belum terwujud ke token. Tapi kalau kamu mau yang seru, main Beacon. Gamenya beneran worth dimainin bahkan tanpa airdrop.
 
 ---
 

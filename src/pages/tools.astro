@@ -1,994 +1,500 @@
----
-import BaseLayout from '../layouts/BaseLayout.astro';
-import airdropsData from '../data/airdrops.json';
-
-const statusMap = {
-  active: { text: 'Aktif', cls: 'badge-active' },
-  upcoming: { text: 'Segera', cls: 'badge-upcoming' },
-  ended: { text: 'Berakhir', cls: 'badge-ended' },
-  confirmed: { text: 'Terkonfirmasi', cls: 'badge-confirmed' },
-};
-const riskMap = {
-  low: { text: 'Low', cls: 'risk-low' },
-  medium: { text: 'Medium', cls: 'risk-medium' },
-  high: { text: 'High', cls: 'risk-high' },
-};
-const costMap = {
-  free: { text: 'Free', cls: 'cost-free' },
-  low: { text: '<$10', cls: 'cost-low' },
-  medium: { text: '$10-50', cls: 'cost-medium' },
-  high: { text: '>$50', cls: 'cost-high' },
-};
-const diffMap = {
-  easy: { text: 'Easy', cls: 'diff-easy' },
-  medium: { text: 'Medium', cls: 'diff-medium' },
-  advanced: { text: 'Advanced', cls: 'diff-advanced' },
-};
-const sybilMap = {
-  low: { text: 'Low', cls: 'sybil-low' },
-  medium: { text: 'Medium', cls: 'sybil-medium' },
-  high: { text: 'High', cls: 'sybil-high' },
-};
-const confMap = {
-  low: { text: 'Rendah', cls: 'conf-low' },
-  medium: { text: 'Sedang', cls: 'conf-medium' },
-  high: { text: 'Tinggi', cls: 'conf-high' },
-};
-
-const categories = [...new Set(airdropsData.map(a => a.category))].sort();
-
-function formatDate(dateStr) {
-  if (!dateStr) return '-';
-  const d = new Date(dateStr);
-  return d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
-}
----
-
-<BaseLayout
-  title="Tools - CryptoSynth.id"
-  description="Airdrop tracker dan scam checker - tools crypto gratis untuk komunitas Indonesia."
->
-  <!-- TAB NAVIGATION -->
-  <div class="tools-nav">
-    <div class="container">
-      <div class="tools-tabs" id="toolsTabs">
-        <button class="tools-tab active" data-tab="tracker"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg> Airdrop Tracker</button>
-        <button class="tools-tab" data-tab="scam"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> Scam Checker</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- TAB: AIRDROP TRACKER -->
-  <div class="tools-panel active" id="panel-tracker">
-    <div class="page-hero">
-      <div class="container">
-        <h1><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>Airdrop Tracker</h1>
-        <p>Tracker airdrop crypto paling lengkap. Klik kartu untuk melihat detail lengkap - risiko, biaya, wallet, sybil risk, dan lainnya.</p>
-      </div>
-    </div>
-    <div class="tracker-page container">
-
-      <div class="tracker-filters">
-        <div class="filter-group">
-          <label class="filter-label">Kategori:</label>
-          <div class="filter-pills" id="categoryFilters">
-            <button class="filter-pill active" data-category="all">Semua</button>
-            {categories.map(cat => (
-              <button class="filter-pill" data-category={cat}>{cat}</button>
-            ))}
-          </div>
-        </div>
-        <div class="filter-group">
-          <label class="filter-label">Cari:</label>
-          <input type="text" id="trackerSearch" class="tracker-search-input" placeholder="Nama project..." />
-        </div>
-      </div>
-
-      <div class="tracker-count">
-        Menampilkan <strong id="visibleCount">{airdropsData.length}</strong> dari <strong>{airdropsData.length}</strong> airdrop
-      </div>
-
-      <div class="airdrop-cards" id="airdropCards">
-        {airdropsData.map((a, idx) => {
-          const st = statusMap[a.status] || statusMap.active;
-          const rk = riskMap[a.risk] || riskMap.medium;
-          const ct = costMap[a.cost] || costMap.low;
-          const df = diffMap[a.difficulty] || diffMap.medium;
-          const sy = sybilMap[a.sybil] || sybilMap.medium;
-          const cf = confMap[a.rewardConfidence] || confMap.medium;
-          return (
-            <div class="airdrop-card" data-category={a.category} data-project={a.project.toLowerCase()}>
-              <div class="card-summary" data-idx={idx}>
-                <div class="card-left">
-                  <div class="card-project">
-                    <a href={a.link} target="_blank" rel="noopener noreferrer" class="card-project-link">
-                      <span class="card-project-name">{a.project}</span>
-                      {a.symbol && a.symbol !== 'TBD' && <span class="card-project-symbol">{a.symbol}</span>}
-                    </a>
-                    <span class="card-chain">{a.chain}</span>
-                  </div>
-                  <div class="card-badges">
-                    <span class={`badge ${st.cls}`}>{st.text}</span>
-                    <span class={`badge ${rk.cls}`}>Risk: {rk.text}</span>
-                    <span class={`badge ${ct.cls}`}>Cost: {ct.text}</span>
-                    <span class={`badge ${df.cls}`}>{df.text}</span>
-                  </div>
-                </div>
-                <div class="card-right">
-                  <span class="card-verified">✓ {formatDate(a.lastVerified)}</span>
-                  <button class="card-expand-btn" aria-label="Lihat detail">
-                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-                  </button>
-                </div>
-              </div>
-              <div class="card-detail" id={`detail-${idx}`}>
-                <div class="detail-grid">
-                  <div class="detail-item">
-                    <span class="detail-label">Aksi yang Diperlukan</span>
-                    <span class="detail-value">{a.action}</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Deadline</span>
-                    <span class="detail-value">{a.deadline}</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Estimasi Reward</span>
-                    <span class="detail-value">{a.estimated}</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Waktu yang Dibutuhkan</span>
-                    <span class="detail-value">{a.timeNeeded}</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Wallet yang Dibutuhkan</span>
-                    <span class="detail-value">{a.wallet}</span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Network</span>
-                    <span class="detail-value">
-                      <span class={`badge ${a.network === 'Mainnet' ? 'net-mainnet' : 'net-testnet'}`}>{a.network}</span>
-                    </span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Sybil Risk</span>
-                    <span class="detail-value">
-                      <span class={`badge ${sy.cls}`}>Sybil: {sy.text}</span>
-                    </span>
-                  </div>
-                  <div class="detail-item">
-                    <span class="detail-label">Potensi Reward</span>
-                    <span class="detail-value">
-                      <span class={`badge ${cf.cls}`}>{cf.text}</span>
-                    </span>
-                  </div>
-                  {a.announcement && (
-                    <div class="detail-item detail-full">
-                      <span class="detail-label">Pengumuman Resmi</span>
-                      <span class="detail-value">
-                        <a href={a.announcement} target="_blank" rel="noopener noreferrer" class="detail-link">Lihat Pengumuman →</a>
-                      </span>
-                    </div>
-                  )}
-                  {a.tutorial && (
-                    <div class="detail-item detail-full">
-                      <span class="detail-label">Tutorial CryptoSynth</span>
-                      <span class="detail-value">
-                        <a href={a.tutorial} class="detail-link">Baca Tutorial →</a>
-                      </span>
-                    </div>
-                  )}
-                  {a.notes && (
-                    <div class="detail-item detail-full">
-                      <span class="detail-label">Catatan</span>
-                      <span class="detail-value detail-notes">{a.notes}</span>
-                    </div>
-                  )}
-                </div>
-                <div class="detail-actions">
-                  <a href={a.link} target="_blank" rel="noopener noreferrer" class="detail-btn detail-btn-primary">
-                    Kunjungi Website →
-                  </a>
-                </div>
-              </div>
-            </div>
-          );
-        })}
-      </div>
-
-      <div class="tracker-disclaimer">
-        <strong>Disclaimer:</strong> Informasi di halaman ini bersifat informatif dan bukan saran investasi. Selalu verifikasi dari sumber resmi project sebelum berpartisipasi. Airdrop bisa berubah sewaktu-waktu tanpa pemberitahuan.
-      </div>
-    </div>
-  </div>
-
-  <!-- TAB: SCAM CHECKER -->
-  <div class="tools-panel" id="panel-scam">
-    <section class="scam-hero">
-      <div class="scam-hero-bg"></div>
-      <div class="container">
-        <div class="scam-hero-content">
-          <div class="scam-hero-badge">
-            <span class="scam-hero-dot"></span>
-            Keamanan Dulu, Baru Transaksi
-          </div>
-          <h2 class="scam-hero-title"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>Cek Scam Crypto</h2>
-          <p class="scam-hero-desc">
-            Masukkan domain atau address crypto untuk cek apakah terdaftar sebagai scam di database phishing global kami.
-          </p>
-          <div class="scam-form-card">
-            <div class="scam-form-card-inner">
-              <form class="scam-form" id="checkForm">
-                <div class="scam-input-wrap">
-                  <svg class="scam-input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
-                  </svg>
-                  <input
-                    type="text"
-                    id="checkInput"
-                    class="scam-input"
-                    placeholder="Contoh: interest-tydro.com atau 0x... atau address Solana"
-                    autocomplete="off"
-                    spellcheck="false"
-                    required
-                  />
-                </div>
-                <button type="submit" class="scam-btn" id="checkBtn">
-                  <span id="btnText">Periksa</span>
-                  <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
-                </button>
-              </form>
-              <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token - diperiksa dari 3 database + analisis token real-time</p>
-            </div>
-          </div>
-          <div class="scam-stats" id="scamStats">
-            <div class="scam-stat-pulse"></div>
-            <span id="statsText">Memuat database...</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="scam-result-section" id="checkResult" style="display:none">
-      <div class="container">
-        <div class="scam-result-card" id="resultCard">
-          <div class="scam-result-glow"></div>
-          <div class="scam-result-inner">
-            <div class="scam-result-icon-wrap" id="resultIconWrap">
-              <span class="scam-result-icon" id="resultIcon"></span>
-            </div>
-            <div class="scam-result-body">
-              <h2 class="scam-result-title" id="resultTitle"></h2>
-              <p class="scam-result-detail" id="resultDetail"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="scam-sources-section">
-      <div class="container">
-        <div class="scam-sources">
-          <h3 class="scam-sources-title">Sumber Data</h3>
-          <div class="scam-sources-grid">
-            <div class="scam-source-item">
-              <div class="scam-source-icon">🛡️</div>
-              <div class="scam-source-info">
-                <strong>ScamSniffer</strong>
-                <span>347rb domain + 2.530 address phishing crypto</span>
-              </div>
-            </div>
-            <div class="scam-source-item">
-              <div class="scam-source-icon">🚫</div>
-              <div class="scam-source-info">
-                <strong>jarelllama/Scam-Blocklist</strong>
-                <span>487rb domain scam & phishing umum</span>
-              </div>
-            </div>
-            <div class="scam-source-item">
-              <div class="scam-source-icon">🔥</div>
-              <div class="scam-source-info">
-                <strong>phishdestroy/destroylist</strong>
-                <span>149rb domain phishing aktif</span>
-              </div>
-            </div>
-            <div class="scam-source-item">
-              <div class="scam-source-icon">⚡</div>
-              <div class="scam-source-info">
-                <strong>Go+ Security API</strong>
-                <span>Analisis token real-time - honeypot, tax, blacklist (40+ chain)</span>
-              </div>
-            </div>
-          </div>
-          <p class="scam-sources-note">Database diperbarui otomatis setiap 6 jam. Selalu verifikasi sebelum bertransaksi.</p>
-        </div>
-      </div>
-    </section>
-  </div>
-
-</BaseLayout>
-
-<style>
-  /* ===== TOOLS TAB NAV ===== */
-  .tools-nav {
-    background: var(--bg-elevated, #fff);
-    border-bottom: 1px solid var(--border, #E4E4E7);
-    position: sticky;
-    top: var(--nav-height, 64px);
-    z-index: 50;
-  }
-
-  .tools-tabs {
-    display: flex;
-    gap: 0;
-  }
-
-  .tools-tab {
-    flex: 1;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.4rem;
-    padding: 0.85rem 1rem;
-    border: none;
-    background: transparent;
-    color: var(--text-muted);
-    font-size: 0.9rem;
-    font-weight: 500;
-    cursor: pointer;
-    font-family: var(--font-body);
-    border-bottom: 2px solid transparent;
-    transition: all 0.2s ease;
-    position: relative;
-  }
-
-  .tools-tab:hover {
-    color: var(--text-secondary, #52525B);
-    background: var(--bg-surface, #F4F4F5);
-  }
-
-  .tools-tab.active {
-    color: var(--primary, #1E40AF);
-    border-bottom-color: var(--primary, #1E40AF);
-  }
-
-  .tools-panel {
-    display: none;
-  }
-
-  .tools-panel.active {
-    display: block;
-  }
-
-  /* ===== SCAM CHECKER — Light/New Design ===== */
-  .scam-hero {
-    position: relative;
-    padding: 2rem 0 1.5rem;
-    background: var(--bg-elevated);
-    border-bottom: 1px solid var(--border);
-  }
-
-  .scam-hero-bg {
-    display: none;
-  }
-
-  .scam-hero-content {
-    position: relative;
-    z-index: 1;
-    text-align: center;
-    max-width: 680px;
-    margin: 0 auto;
-  }
-
-  .scam-hero-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.35rem 1rem;
-    background: rgba(30, 64, 175, 0.08);
-    border: 1px solid rgba(30, 64, 175, 0.12);
-    border-radius: 100px;
-    font-size: 0.82rem;
-    color: var(--primary);
-    margin-bottom: 1rem;
-    font-weight: 500;
-  }
-
-  .scam-hero-dot {
-    width: 6px;
-    height: 6px;
-    background: var(--primary);
-    border-radius: 50%;
-    animation: scam-pulse 2s ease-in-out infinite;
-  }
-
-  @keyframes scam-pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.4; transform: scale(0.8); }
-  }
-
+     1|---
+     2|import BaseLayout from '../layouts/BaseLayout.astro';
+     3|import airdropsData from '../data/airdrops.json';
+     4|
+     5|const statusMap = {
+     6|  active: { text: 'Aktif', cls: 'badge-active' },
+     7|  upcoming: { text: 'Segera', cls: 'badge-upcoming' },
+     8|  ended: { text: 'Berakhir', cls: 'badge-ended' },
+     9|  confirmed: { text: 'Terkonfirmasi', cls: 'badge-confirmed' },
+    10|};
+    11|const riskMap = {
+    12|  low: { text: 'Low', cls: 'risk-low' },
+    13|  medium: { text: 'Medium', cls: 'risk-medium' },
+    14|  high: { text: 'High', cls: 'risk-high' },
+    15|};
+    16|const costMap = {
+    17|  free: { text: 'Free', cls: 'cost-free' },
+    18|  low: { text: '<$10', cls: 'cost-low' },
+    19|  medium: { text: '$10-50', cls: 'cost-medium' },
+    20|  high: { text: '>$50', cls: 'cost-high' },
+    21|};
+    22|const diffMap = {
+    23|  easy: { text: 'Easy', cls: 'diff-easy' },
+    24|  medium: { text: 'Medium', cls: 'diff-medium' },
+    25|  advanced: { text: 'Advanced', cls: 'diff-advanced' },
+    26|};
+    27|const sybilMap = {
+    28|  low: { text: 'Low', cls: 'sybil-low' },
+    29|  medium: { text: 'Medium', cls: 'sybil-medium' },
+    30|  high: { text: 'High', cls: 'sybil-high' },
+    31|};
+    32|const confMap = {
+    33|  low: { text: 'Rendah', cls: 'conf-low' },
+    34|  medium: { text: 'Sedang', cls: 'conf-medium' },
+    35|  high: { text: 'Tinggi', cls: 'conf-high' },
+    36|};
+    37|
+    38|const categories = [...new Set(airdropsData.map(a => a.category))].sort();
+    39|
+    40|function formatDate(dateStr) {
+    41|  if (!dateStr) return '-';
+    42|  const d = new Date(dateStr);
+    43|  return d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
+    44|}
+    45|---
+    46|
+    47|<BaseLayout
+    48|  title="Tools - CryptoSynth.id"
+    49|  description="Airdrop tracker dan scam checker - tools crypto gratis untuk komunitas Indonesia."
+    50|>
+    51|  <!-- TAB NAVIGATION -->
+    52|  <div class="tools-nav">
+    53|    <div class="container">
+    54|      <div class="tools-tabs" id="toolsTabs">
+    55|        <button class="tools-tab active" data-tab="tracker"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg> Airdrop Tracker</button>
+    56|        <button class="tools-tab" data-tab="scam"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 4px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg> Scam Checker</button>
+    57|      </div>
+    58|    </div>
+    59|  </div>
+    60|
+    61|  <!-- TAB: AIRDROP TRACKER -->
+    62|  <div class="tools-panel active" id="panel-tracker">
+    63|    <div class="page-hero">
+    64|      <div class="container">
+    65|        <h1><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>Airdrop Tracker</h1>
+    66|        <p>Tracker airdrop crypto paling lengkap. Klik kartu untuk melihat detail lengkap - risiko, biaya, wallet, sybil risk, dan lainnya.</p>
+    67|      </div>
+    68|    </div>
+    69|    <div class="tracker-page container">
+    70|
+    71|      <div class="tracker-filters">
+    72|        <div class="filter-group">
+    73|          <label class="filter-label">Kategori:</label>
+    74|          <div class="filter-pills" id="categoryFilters">
+    75|            <button class="filter-pill active" data-category="all">Semua</button>
+    76|            {categories.map(cat => (
+    77|              <button class="filter-pill" data-category={cat}>{cat}</button>
+    78|            ))}
+    79|          </div>
+    80|        </div>
+    81|        <div class="filter-group">
+    82|          <label class="filter-label">Cari:</label>
+    83|          <input type="text" id="trackerSearch" class="tracker-search-input" placeholder="Nama project..." />
+    84|        </div>
+    85|      </div>
+    86|
+    87|      <div class="tracker-count">
+    88|        Menampilkan <strong id="visibleCount">{airdropsData.length}</strong> dari <strong>{airdropsData.length}</strong> airdrop
+    89|      </div>
+    90|
+    91|      <div class="airdrop-cards" id="airdropCards">
+    92|        {airdropsData.map((a, idx) => {
+    93|          const st = statusMap[a.status] || statusMap.active;
+    94|          const rk = riskMap[a.risk] || riskMap.medium;
+    95|          const ct = costMap[a.cost] || costMap.low;
+    96|          const df = diffMap[a.difficulty] || diffMap.medium;
+    97|          const sy = sybilMap[a.sybil] || sybilMap.medium;
+    98|          const cf = confMap[a.rewardConfidence] || confMap.medium;
+    99|          return (
+   100|            <div class="airdrop-card" data-category={a.category} data-project={a.project.toLowerCase()}>
+   101|              <div class="card-summary" data-idx={idx}>
+   102|                <div class="card-left">
+   103|                  <div class="card-project">
+   104|                    <a href={a.link} target="_blank" rel="noopener noreferrer" class="card-project-link">
+   105|                      <span class="card-project-name">{a.project}</span>
+   106|                      {a.symbol && a.symbol !== 'TBD' && <span class="card-project-symbol">{a.symbol}</span>}
+   107|                    </a>
+   108|                    <span class="card-chain">{a.chain}</span>
+   109|                  </div>
+   110|                  <div class="card-badges">
+   111|                    <span class={`badge ${st.cls}`}>{st.text}</span>
+   112|                    <span class={`badge ${rk.cls}`}>Risk: {rk.text}</span>
+   113|                    <span class={`badge ${ct.cls}`}>Cost: {ct.text}</span>
+   114|                    <span class={`badge ${df.cls}`}>{df.text}</span>
+   115|                  </div>
+   116|                </div>
+   117|                <div class="card-right">
+   118|                  <span class="card-verified">✓ {formatDate(a.lastVerified)}</span>
+   119|                  <button class="card-expand-btn" aria-label="Lihat detail">
+   120|                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+   121|                  </button>
+   122|                </div>
+   123|              </div>
+   124|              <div class="card-detail" id={`detail-${idx}`}>
+   125|                <div class="detail-grid">
+   126|                  <div class="detail-item">
+   127|                    <span class="detail-label">Aksi yang Diperlukan</span>
+   128|                    <span class="detail-value">{a.action}</span>
+   129|                  </div>
+   130|                  <div class="detail-item">
+   131|                    <span class="detail-label">Deadline</span>
+   132|                    <span class="detail-value">{a.deadline}</span>
+   133|                  </div>
+   134|                  <div class="detail-item">
+   135|                    <span class="detail-label">Estimasi Reward</span>
+   136|                    <span class="detail-value">{a.estimated}</span>
+   137|                  </div>
+   138|                  <div class="detail-item">
+   139|                    <span class="detail-label">Waktu yang Dibutuhkan</span>
+   140|                    <span class="detail-value">{a.timeNeeded}</span>
+   141|                  </div>
+   142|                  <div class="detail-item">
+   143|                    <span class="detail-label">Wallet yang Dibutuhkan</span>
+   144|                    <span class="detail-value">{a.wallet}</span>
+   145|                  </div>
+   146|                  <div class="detail-item">
+   147|                    <span class="detail-label">Network</span>
+   148|                    <span class="detail-value">
+   149|                      <span class={`badge ${a.network === 'Mainnet' ? 'net-mainnet' : 'net-testnet'}`}>{a.network}</span>
+   150|                    </span>
+   151|                  </div>
+   152|                  <div class="detail-item">
+   153|                    <span class="detail-label">Sybil Risk</span>
+   154|                    <span class="detail-value">
+   155|                      <span class={`badge ${sy.cls}`}>Sybil: {sy.text}</span>
+   156|                    </span>
+   157|                  </div>
+   158|                  <div class="detail-item">
+   159|                    <span class="detail-label">Potensi Reward</span>
+   160|                    <span class="detail-value">
+   161|                      <span class={`badge ${cf.cls}`}>{cf.text}</span>
+   162|                    </span>
+   163|                  </div>
+   164|                  {a.announcement && (
+   165|                    <div class="detail-item detail-full">
+   166|                      <span class="detail-label">Pengumuman Resmi</span>
+   167|                      <span class="detail-value">
+   168|                        <a href={a.announcement} target="_blank" rel="noopener noreferrer" class="detail-link">Lihat Pengumuman →</a>
+   169|                      </span>
+   170|                    </div>
+   171|                  )}
+   172|                  {a.tutorial && (
+   173|                    <div class="detail-item detail-full">
+   174|                      <span class="detail-label">Tutorial CryptoSynth</span>
+   175|                      <span class="detail-value">
+   176|                        <a href={a.tutorial} class="detail-link">Baca Tutorial →</a>
+   177|                      </span>
+   178|                    </div>
+   179|                  )}
+   180|                  {a.notes && (
+   181|                    <div class="detail-item detail-full">
+   182|                      <span class="detail-label">Catatan</span>
+   183|                      <span class="detail-value detail-notes">{a.notes}</span>
+   184|                    </div>
+   185|                  )}
+   186|                </div>
+   187|                <div class="detail-actions">
+   188|                  <a href={a.link} target="_blank" rel="noopener noreferrer" class="detail-btn detail-btn-primary">
+   189|                    Kunjungi Website →
+   190|                  </a>
+   191|                </div>
+   192|              </div>
+   193|            </div>
+   194|          );
+   195|        })}
+   196|      </div>
+   197|
+   198|      <div class="tracker-disclaimer">
+   199|        <strong>Disclaimer:</strong> Informasi di halaman ini bersifat informatif dan bukan saran investasi. Selalu verifikasi dari sumber resmi project sebelum berpartisipasi. Airdrop bisa berubah sewaktu-waktu tanpa pemberitahuan.
+   200|      </div>
+   201|    </div>
+   202|  </div>
+   203|
+   204|  <!-- TAB: SCAM CHECKER -->
+   205|  <div class="tools-panel" id="panel-scam">
+   206|    <section class="scam-hero">
+   207|      <div class="scam-hero-bg"></div>
+   208|      <div class="container">
+   209|        <div class="scam-hero-content">
+   210|          <div class="scam-hero-badge">
+   211|            <span class="scam-hero-dot"></span>
+   212|            Keamanan Dulu, Baru Transaksi
+   213|          </div>
+   214|          <h2 class="scam-hero-title"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>Cek Scam Crypto</h2>
+   215|          <p class="scam-hero-desc">
+   216|            Masukkan domain atau address crypto untuk cek apakah terdaftar sebagai scam di database phishing global kami.
+   217|          </p>
+   218|          <div class="scam-form-card">
+   219|            <div class="scam-form-card-inner">
+   220|              <form class="scam-form" id="checkForm">
+   221|                <div class="scam-input-wrap">
+   222|                  <svg class="scam-input-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+   223|                    <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+   224|                  </svg>
+   225|                  <input
+   226|                    type="text"
+   227|                    id="checkInput"
+   228|                    class="scam-input"
+   229|                    placeholder="Contoh: interest-tydro.com atau 0x... atau address Solana"
+   230|                    autocomplete="off"
+   231|                    spellcheck="false"
+   232|                    required
+   233|                  />
+   234|                </div>
+   235|                <button type="submit" class="scam-btn" id="checkBtn">
+   236|                  <span id="btnText">Periksa</span>
+   237|                  <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
+   238|                </button>
+   239|              </form>
+   240|              <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token - diperiksa dari 3 database + analisis token real-time</p>
+   241|            </div>
+   242|          </div>
+   243|          <div class="scam-stats" id="scamStats">
+   244|            <div class="scam-stat-pulse"></div>
+   245|            <span id="statsText">Memuat database...</span>
+   246|          </div>
+   247|        </div>
+   248|      </div>
+   249|    </section>
+   250|
+   251|    <section class="scam-result-section" id="checkResult" style="display:none">
+   252|      <div class="container">
+   253|        <div class="scam-result-card" id="resultCard">
+   254|          <div class="scam-result-glow"></div>
+   255|          <div class="scam-result-inner">
+   256|            <div class="scam-result-icon-wrap" id="resultIconWrap">
+   257|              <span class="scam-result-icon" id="resultIcon"></span>
+   258|            </div>
+   259|            <div class="scam-result-body">
+   260|              <h2 class="scam-result-title" id="resultTitle"></h2>
+   261|              <p class="scam-result-detail" id="resultDetail"></p>
+   262|            </div>
+   263|          </div>
+   264|        </div>
+   265|      </div>
+   266|    </section>
+   267|
+   268|    <section class="scam-sources-section">
+   269|      <div class="container">
+   270|        <div class="scam-sources">
+   271|          <h3 class="scam-sources-title">Sumber Data</h3>
+   272|          <div class="scam-sources-grid">
+   273|            <div class="scam-source-item">
+   274|              <div class="scam-source-icon">🛡️</div>
+   275|              <div class="scam-source-info">
+   276|                <strong>ScamSniffer</strong>
+   277|                <span>347rb domain + 2.530 address phishing crypto</span>
+   278|              </div>
+   279|            </div>
+   280|            <div class="scam-source-item">
+   281|              <div class="scam-source-icon">🚫</div>
+   282|              <div class="scam-source-info">
+   283|                <strong>jarelllama/Scam-Blocklist</strong>
+   284|                <span>487rb domain scam & phishing umum</span>
+   285|              </div>
+   286|            </div>
+   287|            <div class="scam-source-item">
+   288|              <div class="scam-source-icon">🔥</div>
+   289|              <div class="scam-source-info">
+   290|                <strong>phishdestroy/destroylist</strong>
+   291|                <span>149rb domain phishing aktif</span>
+   292|              </div>
+   293|            </div>
+   294|            <div class="scam-source-item">
+   295|              <div class="scam-source-icon">⚡</div>
+   296|              <div class="scam-source-info">
+   297|                <strong>Go+ Security API</strong>
+   298|                <span>Analisis token real-time - honeypot, tax, blacklist (40+ chain)</span>
+   299|              </div>
+   300|            </div>
+   301|          </div>
+   302|          <p class="scam-sources-note">Database diperbarui otomatis setiap 6 jam. Selalu verifikasi sebelum bertransaksi.</p>
+   303|        </div>
+   304|      </div>
+   305|    </section>
+   306|  </div>
+   307|
+   308|</BaseLayout>
+   309|
+   310|<style>
+   311|  /* ===== TOOLS TAB NAV ===== */
+   312|  .tools-nav {
+   313|    background: var(--bg-elevated);
+   314|    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+   315|    position: sticky;
+   316|    top: var(--nav-height);
+   317|    z-index: 50;
+   318|  }
+   319|
+   320|  .tools-tabs {
+   321|    display: flex;
+   322|    gap: 0;
+   323|  }
+   324|
+   325|  .tools-tab {
+   326|    flex: 1;
+   327|    display: inline-flex;
+   328|    align-items: center;
+   329|    justify-content: center;
+   330|    gap: 0.4rem;
+   331|    padding: 0.85rem 1rem;
+   332|    border: none;
+   333|    background: transparent;
+   334|    color: var(--text-muted);
+   335|    font-size: 0.9rem;
+   336|    font-weight: 500;
+   337|    cursor: pointer;
+   338|    font-family: var(--font-body);
+   339|    border-bottom: 2px solid transparent;
+   340|    transition: all 0.2s ease;
+   341|    position: relative;
+   342|  }
+   343|
+   344|  .tools-tab:hover {
+   345|    color: var(--text-secondary);
+   346|    background: var(--bg-hover);
+   347|  }
+   348|
+   349|  .tools-tab.active {
+   350|    color: var(--primary-light);
+   351|    border-bottom-color: var(--primary);
+   352|  }
+   353|
+   354|  .tools-panel {
+   355|    display: none;
+   356|  }
+   357|
+   358|  .tools-panel.active {
+   359|    display: block;
+   360|  }
+   361|
+   362|  /* ===== SCAM CHECKER — Light/New Design ===== */
+   363|  .scam-hero {
+   364|    position: relative;
+   365|    padding: 2rem 0 1.5rem;
+   366|    background: var(--bg-elevated);
+   367|    border-bottom: 1px solid var(--border);
+   368|  }
+   369|
+   370|  .scam-hero-bg {
+   371|    display: none;
+   372|  }
+   373|
+   374|  .scam-hero-content {
+   375|    position: relative;
+   376|    z-index: 1;
+   377|    text-align: center;
+   378|    max-width: 680px;
+   379|    margin: 0 auto;
+   380|  }
+   381|
+   382|  .scam-hero-badge {
+   383|    display: inline-flex;
+   384|    align-items: center;
+   385|    gap: 0.5rem;
+   386|    padding: 0.35rem 1rem;
+   387|    background: rgba(30, 64, 175, 0.08);
+   388|    border: 1px solid rgba(30, 64, 175, 0.12);
+   389|    border-radius: 100px;
+   390|    font-size: 0.82rem;
+   391|    color: var(--primary);
+   392|    margin-bottom: 1rem;
+   393|    font-weight: 500;
+   394|  }
+   395|
+   396|  .scam-hero-dot {
+   397|    width: 6px;
+   398|    height: 6px;
+   399|    background: var(--primary);
+   400|    border-radius: 50%;
+   401|    animation: scam-pulse 2s ease-in-out infinite;
+   402|  }
+   403|
+   404|  @keyframes scam-pulse {
+   405|    0%, 100% { opacity: 1; transform: scale(1); }
+   406|    50% { opacity: 0.4; transform: scale(0.8); }
+   407|  }
+   408|
   .scam-hero-title {
-    font-family: var(--font-display);
-    font-size: 1.6rem;
-    font-weight: 700;
+    font-family: var(--font-mono);
+    font-size: 1.4rem;
+    font-weight: 600;
     color: var(--text-primary);
     margin-bottom: 0.4rem;
-    letter-spacing: -0.02em;
   }
-
-  .scam-hero-desc {
-    font-size: 0.9rem;
-    color: var(--text-secondary);
-    max-width: 480px;
-    margin: 0 auto 1.25rem;
-    line-height: 1.5;
-  }
-
-  .scam-form-card {
-    max-width: 580px;
-    margin: 0 auto;
-  }
-
-  .scam-form-card-inner {
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 1.25rem 1.5rem;
-    box-shadow: var(--shadow-sm);
-    transition: border-color 0.2s, box-shadow 0.2s;
-  }
-
-  .scam-form-card-inner:focus-within {
-    border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.08);
-  }
-
-  .scam-form {
-    display: flex;
-    gap: 0.75rem;
-  }
-
-  .scam-input-wrap {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    gap: 0.6rem;
-    background: var(--bg-surface);
-    border: 1px solid var(--border);
-    border-radius: var(--radius);
-    padding: 0 0.9rem;
-    transition: border-color 0.2s;
-  }
-
-  .scam-input-wrap:focus-within {
-    border-color: var(--primary);
-  }
-
-  .scam-input-icon {
-    color: var(--text-muted);
-    flex-shrink: 0;
-    transition: color 0.2s;
-  }
-
-  .scam-input-wrap:focus-within .scam-input-icon {
-    color: var(--primary);
-  }
-
-  .scam-input {
-    flex: 1;
-    background: transparent;
-    border: none;
-    outline: none;
-    padding: 0.75rem 0;
-    color: var(--text-primary);
-    font-size: 0.9rem;
-    font-family: var(--font-body);
-    font-weight: 400;
-  }
-
-  .scam-input::placeholder {
-    color: var(--text-muted);
-    font-family: var(--font-body);
-    font-weight: 400;
-    font-size: 0.85rem;
-  }
-
-  .scam-btn {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: var(--radius);
-    background: var(--primary);
-    color: #fff;
-    font-size: 0.9rem;
-    font-weight: 600;
-    cursor: pointer;
-    transition: background 0.2s, transform 0.15s;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    white-space: nowrap;
-    font-family: var(--font-body);
-  }
-
-  .scam-btn:hover { background: var(--primary-dark); }
-  .scam-btn:active { transform: scale(0.97); }
-  .scam-btn:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
-
-  .scam-spinner {
-    width: 16px; height: 16px;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-    border-top-color: #fff;
-    border-radius: 50%;
-    animation: scam-spin 0.6s linear infinite;
-  }
-
-  @keyframes scam-spin { to { transform: rotate(360deg); } }
-
-  .scam-form-hint {
-    text-align: left;
-    color: var(--text-muted);
-    font-size: 0.78rem;
-    margin-top: 0.6rem;
-    padding-left: 0.25rem;
-  }
-
-  .scam-stats {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 1rem;
-    color: var(--text-muted);
-    font-size: 0.82rem;
-    font-weight: 500;
-  }
-
-  .scam-stat-pulse {
-    width: 6px; height: 6px;
-    background: var(--primary);
-    border-radius: 50%;
-    animation: scam-pulse 2s ease-in-out infinite;
-  }
-
-  .scam-result-section { padding: 2.5rem 0 1rem; }
-
-  .scam-result-card {
-    position: relative;
-    max-width: 580px;
-    margin: 0 auto;
-    overflow: hidden;
-    border-radius: var(--radius-lg, 16px);
-    animation: scam-result-enter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  }
-
-  @keyframes scam-result-enter {
-    from { opacity: 0; transform: translateY(12px) scale(0.97); }
-    to { opacity: 1; transform: translateY(0) scale(1); }
-  }
-
-  .scam-result-glow {
-    position: absolute; inset: 0;
-    opacity: 0.12; border-radius: inherit;
-    transition: background 0.4s ease;
-    pointer-events: none;
-  }
-
-  .scam-result-inner {
-    position: relative;
-    display: flex;
-    align-items: center;
-    gap: 1.25rem;
-    padding: 1.5rem 1.75rem;
-    border: 1.5px solid;
-    border-radius: inherit;
-    background: var(--bg-elevated, #fff);
-    transition: border-color 0.3s ease, background 0.3s ease;
-  }
-
-  .scam-result-icon-wrap {
-    flex-shrink: 0;
-    width: 52px; height: 52px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    font-size: 1.6rem;
-  }
-
-  .scam-result-body h2 { margin: 0 0 0.35rem; font-size: 1.15rem; font-weight: 700; }
-  .scam-result-body p { margin: 0; font-size: 0.88rem; line-height: 1.55; color: var(--text-secondary, #52525B); }
-  .scam-result-body strong { color: var(--text-primary, #18181B); font-weight: 600; }
-  .scam-result-body small { color: var(--text-muted, #A1A1AA); font-size: 0.82rem; }
-
-  .src-badges { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
-
-  .src-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 100px;
-    font-size: 0.75rem;
-    font-weight: 600;
-    background: rgba(239, 68, 68, 0.08);
-    border: 1px solid rgba(239, 68, 68, 0.2);
-    color: #EF4444;
-  }
-
-  .flag-badge {
-    display: inline-flex;
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.7rem;
-    font-weight: 700;
-    font-family: 'JetBrains Mono', monospace;
-    text-transform: uppercase;
-  }
-
-  .flag-bad {
-    background: rgba(239, 68, 68, 0.1);
-    border: 1px solid rgba(239, 68, 68, 0.25);
-    color: #EF4444;
-  }
-
-  .scam-result-aman .scam-result-glow { background: #10B981; }
-  .scam-result-aman .scam-result-inner { border-color: rgba(16, 185, 129, 0.3); background: linear-gradient(135deg, rgba(16, 185, 129, 0.04), rgba(16, 185, 129, 0.01)); }
-  .scam-result-aman .scam-result-icon-wrap { background: rgba(16, 185, 129, 0.12); }
-  .scam-result-aman h2 { color: #10B981; }
-
-  .scam-result-scam .scam-result-glow { background: #EF4444; }
-  .scam-result-scam .scam-result-inner { border-color: rgba(239, 68, 68, 0.3); background: linear-gradient(135deg, rgba(239, 68, 68, 0.04), rgba(239, 68, 68, 0.01)); }
-  .scam-result-scam .scam-result-icon-wrap { background: rgba(239, 68, 68, 0.12); }
-  .scam-result-scam h2 { color: #EF4444; }
-
-  .scam-result-warning .scam-result-glow { background: #F59E0B; }
-  .scam-result-warning .scam-result-inner { border-color: rgba(245, 158, 11, 0.3); background: linear-gradient(135deg, rgba(245, 158, 11, 0.04), rgba(245, 158, 11, 0.01)); }
-  .scam-result-warning .scam-result-icon-wrap { background: rgba(245, 158, 11, 0.12); }
-  .scam-result-warning h2 { color: #F59E0B; }
-
-  .scam-sources-section { padding: 2rem 0; }
-
-  .scam-sources {
-    max-width: 580px;
-    margin: 0 auto;
-    padding: 1.5rem;
-    background: var(--bg-surface, #F4F4F5);
-    border: 1px solid var(--border, #E4E4E7);
-    border-radius: var(--radius-lg, 16px);
-  }
-
-  .scam-sources-title { font-size: 0.95rem; margin-bottom: 1rem; color: var(--text-secondary, #52525B); font-weight: 600; }
-  .scam-sources-grid { display: flex; flex-direction: column; gap: 0.75rem; }
-
-  .scam-source-item {
-    display: flex; align-items: center; gap: 0.75rem;
-    padding: 0.6rem 0.9rem;
-    background: var(--bg-elevated, #fff);
-    border: 1px solid var(--border, #E4E4E7);
-    border-radius: var(--radius, 12px);
-    transition: border-color 0.2s, transform 0.2s;
-  }
-
-  .scam-source-item:hover { border-color: var(--primary-light, #3A7FEE); transform: translateX(3px); }
-  .scam-source-icon { font-size: 1.2rem; flex-shrink: 0; }
-  .scam-source-info { display: flex; flex-direction: column; gap: 0.1rem; }
-  .scam-source-info strong { font-size: 0.85rem; color: var(--text-primary, #18181B); }
-  .scam-source-info span { font-size: 0.78rem; color: var(--text-muted, #A1A1AA); }
-  .scam-sources-note { margin-top: 1rem; font-size: 0.78rem; color: var(--text-muted, #A1A1AA); font-style: italic; text-align: center; }
-
-  @media (max-width: 640px) {
-    .scam-hero { padding: 1.5rem 0 1.5rem; }
-    .scam-hero-title { font-size: 1.4rem; }
-    .scam-hero-desc { font-size: 0.85rem; padding: 0 0.5rem; }
-    .scam-form-card-inner { padding: 1rem; }
-    .scam-form { flex-direction: column; }
-    .scam-btn { justify-content: center; padding: 0.8rem; }
-    .scam-result-inner { flex-direction: column; text-align: center; padding: 1.25rem; }
-    .scam-sources { margin: 0 1rem; }
-  }
-
-</style>
-
-<script>
-  // ===== TAB SWITCHING =====
-  (function() {
-    const tabs = document.querySelectorAll('.tools-tab');
-    const panels = {
-      tracker: document.getElementById('panel-tracker'),
-      scam: document.getElementById('panel-scam'),
-    };
-
-    // Restore saved tab
-    const saved = localStorage.getItem('tools-active-tab') || 'tracker';
-
-    function switchTab(tabId) {
-      tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === tabId));
-      Object.keys(panels).forEach(id => {
-        panels[id].classList.toggle('active', id === tabId);
-      });
-      localStorage.setItem('tools-active-tab', tabId);
-    }
-
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => switchTab(tab.dataset.tab));
-    });
-
-    // Activate saved tab on load
-    switchTab(saved);
-  })();
-
-  // ===== TRACKER JS =====
-  (function() {
-    const pills = document.querySelectorAll('.filter-pill');
-    const cards = document.querySelectorAll('.airdrop-card');
-    const searchInput = document.getElementById('trackerSearch');
-    const countEl = document.getElementById('visibleCount');
-    if (!pills.length || !cards.length) return;
-    let activeCategory = 'all';
-
-    function updateCount() {
-      const visible = document.querySelectorAll('.airdrop-card:not([style*="display: none"])').length;
-      if (countEl) countEl.textContent = String(visible);
-    }
-
-    function filterCards() {
-      const query = (searchInput?.value || '').toLowerCase().trim();
-      cards.forEach(card => {
-        const el = card;
-        const cat = el.dataset.category;
-        const text = el.textContent?.toLowerCase() || '';
-        const catMatch = activeCategory === 'all' || cat === activeCategory;
-        const searchMatch = !query || text.includes(query);
-        el.style.display = (catMatch && searchMatch) ? '' : 'none';
-      });
-      updateCount();
-    }
-
-    pills.forEach(pill => {
-      pill.addEventListener('click', () => {
-        pills.forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
-        activeCategory = pill.dataset.category || 'all';
-        filterCards();
-      });
-    });
-
-    searchInput?.addEventListener('input', filterCards);
-
-    document.querySelectorAll('.card-summary').forEach(summary => {
-      summary.addEventListener('click', (e) => {
-        if (e.target.closest('.card-project-link')) return;
-        const idx = summary.dataset.idx;
-        const detail = document.getElementById('detail-' + idx);
-        const card = summary.closest('.airdrop-card');
-        if (detail && card) {
-          const isOpen = detail.classList.contains('open');
-          document.querySelectorAll('.card-detail.open').forEach(d => d.classList.remove('open'));
-          document.querySelectorAll('.airdrop-card.expanded').forEach(c => c.classList.remove('expanded'));
-          if (!isOpen) {
-            detail.classList.add('open');
-            card.classList.add('expanded');
-          }
-        }
-      });
-    });
-  })();
-
-  // ===== SCAM CHECKER JS =====
-  (function() {
-    const dataUrl = '/data/scam-alerts.json';
-    let scamData = [];
-    const form = document.getElementById('checkForm');
-    const input = document.getElementById('checkInput');
-    const result = document.getElementById('checkResult');
-    const resultCard = document.getElementById('resultCard');
-    const resultIconWrap = document.getElementById('resultIconWrap');
-    const resultIcon = document.getElementById('resultIcon');
-    const resultTitle = document.getElementById('resultTitle');
-    const resultDetail = document.getElementById('resultDetail');
-    const stats = document.getElementById('scamStats');
-    const statsText = document.getElementById('statsText');
-    const btnText = document.getElementById('btnText');
-    const btnSpinner = document.getElementById('btnSpinner');
-    const btn = document.getElementById('checkBtn');
-    if (!form) return;
-
-    const SOURCE_META = {
-      'ScamSniffer': { icon: '🛡️', label: 'ScamSniffer' },
-      'jarelllama': { icon: '🚫', label: 'jarelllama' },
-      'phishdestroy': { icon: '🔥', label: 'phishdestroy' }
-    };
-
-    // Load data
-    fetch(dataUrl + '?v=' + Date.now())
-      .then(r => r.json())
-      .then(data => {
-        scamData = data;
-        const counts = {};
-        data.forEach(d => {
-          d.source.split(', ').forEach(s => { counts[s] = (counts[s] || 0) + 1; });
-        });
-        const parts = [];
-        if (counts['ScamSniffer']) parts.push(`🛡️ ${(counts['ScamSniffer']).toLocaleString('id-ID')}`);
-        if (counts['jarelllama']) parts.push(`🚫 ${(counts['jarelllama']).toLocaleString('id-ID')}`);
-        if (counts['phishdestroy']) parts.push(`🔥 ${(counts['phishdestroy']).toLocaleString('id-ID')}`);
-        if (statsText) statsText.innerHTML = parts.join(' &bull; ');
-      })
-      .catch(() => {
-        if (statsText) { statsText.innerHTML = 'Gagal memuat database'; }
-        if (stats) stats.style.color = '#EF4444';
-      });
-
-    function isAddress(input) {
-      if (/^0x[a-f0-9]{40}$/i.test(input)) return 'evm';
-      if (/^(bc1|[13])[a-zA-Z0-9]{25,62}$/.test(input)) return 'btc';
-      if (/^[1-9A-HJ-NP-Za-km-z]{32,44}$/.test(input) && !input.includes('.')) return 'sol';
-      return false;
-    }
-
-    function normalizeInput(input) {
-      let d = input.trim().toLowerCase();
-      for (const prefix of ['http://', 'https://', 'www.', 'hxxp://', 'hxxps://', 'ftp://']) {
-        if (d.startsWith(prefix)) d = d.slice(prefix.length);
-      }
-      d = d.replace(/\/+$/, '').replace(/\/$/, '');
-      return d;
-    }
-
-    function checkBlacklist(input, addrType) {
-      if (!input || !scamData.length) return null;
-      if (addrType) {
-        const match = scamData.find(d => d.type === 'address' && d.key === input);
-        return match ? [match] : null;
-      }
-      const matches = scamData.filter(d =>
-        d.type === 'domain' && (
-          d.key === input ||
-          d.key.endsWith('.' + input) ||
-          input.includes(d.key)
-        )
-      );
-      return matches.length > 0 ? matches : null;
-    }
-
-    const CHAIN_MAP = {
-      evm: 1, bsc: 56, sol: 101, polygon: 137, avalanche: 43114,
-      arbitrum: 42161, optimism: 10, base: 8453
-    };
-
-    async function checkGoPlus(address, chainId, isSolana, rawInput) {
-      try {
-        const solParam = isSolana ? '&solana=1' : '';
-        const resp = await fetch(
-          `/api/goplus?chain=${chainId}&address=${encodeURIComponent(address)}${solParam}`,
-          { signal: AbortSignal.timeout(10000) }
-        );
-        const data = await resp.json();
-        const result = data.result || {};
-        // Solana preserves original case; try lookupKey, then lowercased, then raw input
-        const lookupKey = isSolana ? rawInput : address.toLowerCase();
-        const tokenData = result[lookupKey] || result[address.toLowerCase()] || result[address];
-        if (!tokenData) return null;
-        const flags = [];
-        if (tokenData.is_honeypot === '1') flags.push('Honeypot');
-        if (tokenData.is_blacklisted === '1') flags.push('Blacklist');
-        if (tokenData.cannot_buy === '1') flags.push('Cannot Buy');
-        if (tokenData.cannot_sell_all === '1') flags.push('Cannot Sell All');
-        if (tokenData.trading_cooldown === '1') flags.push('Trading Cooldown');
-        if (tokenData.anti_whale_modifiable === '1') flags.push('Anti-Whale Modifiable');
-        if (tokenData.can_take_back_ownership === '1') flags.push('Ownership Can Be Taken');
-        if (tokenData.owner_change_balance === '1') flags.push('Owner Can Change Balance');
-        if (tokenData.hidden_owner === '1') flags.push('Hidden Owner');
-        if (tokenData.selfdestruct === '1') flags.push('Self-Destruct');
-        if (tokenData.external_call === '1') flags.push('External Call');
-        if (tokenData.is_airdrop_scam === '1') flags.push('Airdrop Scam');
-        if (tokenData.trust_list === '0' && tokenData.is_blacklisted !== '1') flags.push('Not on Trust List');
-        const buyTax = parseFloat(tokenData.buy_tax || '0');
-        const sellTax = parseFloat(tokenData.sell_tax || '0');
-        if (buyTax > 10) flags.push(`Buy Tax ${buyTax}%`);
-        if (sellTax > 10) flags.push(`Sell Tax ${sellTax}%`);
-        return {
-          name: tokenData.token_name || null,
-          symbol: tokenData.token_symbol || null,
-          flags,
-          holders: parseInt(tokenData.holder_count || '0'),
-          totalSupply: tokenData.total_supply || null,
-          creator: tokenData.creator_address || null,
-          owner: tokenData.owner_address || null,
-          decimals: tokenData.decimals || null,
-          buyTax: buyTax,
-          sellTax: sellTax,
-          is_risky: flags.length > 0,
-          raw: tokenData
-        };
-      } catch { return null; }
-    }
-
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
-      const raw = input.value.trim();
-      if (!raw) { input.focus(); return; }
-
-      result.style.display = 'block';
-      resultCard.className = 'scam-result-card';
-      resultCard.style.opacity = '0';
-      btnText.style.display = 'none';
-      btnSpinner.style.display = 'inline-block';
-      btn.disabled = true;
-
-      await new Promise(r => setTimeout(r, 200));
-      const cleaned = normalizeInput(raw);
-
-      if (cleaned.length < 4) {
-        btnText.style.display = 'inline';
-        btnSpinner.style.display = 'none';
-        btn.disabled = false;
-        resultCard.className = 'scam-result-card scam-result-warning';
-        resultIcon.textContent = '⚠️';
-        resultIconWrap.style.background = 'rgba(245, 158, 11, 0.12)';
-        resultTitle.textContent = 'Input Tidak Valid';
-        resultDetail.textContent = 'Masukkan domain atau address yang valid.';
-        resultCard.style.opacity = '1';
-        result.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        return;
-      }
-
-      const addrType = isAddress(cleaned);
-      const matches = checkBlacklist(cleaned, addrType);
-      let goPlusResult = null;
-      if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
-        const chainId = CHAIN_MAP[addrType] || 1;
-        goPlusResult = await checkGoPlus(cleaned, chainId, addrType === 'sol', raw.trim());
-      }
-
-      btnText.style.display = 'inline';
-      btnSpinner.style.display = 'none';
-      btn.disabled = false;
-
-      const isScam = matches && matches.length > 0;
-      const goPlusRisky = goPlusResult && goPlusResult.is_risky;
-
-      if (isScam || goPlusRisky) {
-        let html = '';
-        resultCard.className = 'scam-result-card scam-result-scam';
-        if (isScam) {
-          const sources = [...new Set(matches.flatMap(m => m.source.split(', ')))];
-          const sourceBadges = sources.map(s => {
-            const meta = SOURCE_META[s] || { icon: '\uD83D\uDCCB', label: s };
-            return `<span class="src-badge">${meta.icon} ${meta.label}</span>`;
-          }).join(' ');
-          html += `<p><strong>Terdaftar sebagai scam</strong> di database kami:</p><div class="src-badges">${sourceBadges}</div>${matches.length > 1 && !addrType ? `<small>(${matches.length} varian terkait)</small>` : ''}`;
-        }
-        if (goPlusRisky) {
-          const flagBadges = goPlusResult.flags.map(f => `<span class="flag-badge flag-bad">${f}</span>`).join(' ');
-          html += `<p style="margin-top: ${isScam ? '0.75rem' : '0'}; margin-bottom: 0;"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p><div class="src-badges">${flagBadges}</div>`;
-        }
-        resultIcon.textContent = '⚠️';
-        resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
-        resultTitle.textContent = '⚠️ SCAM / BERBAHAYA';
-        resultDetail.innerHTML = html;
-      } else {
-        resultCard.className = 'scam-result-card scam-result-aman';
-        resultIcon.textContent = '✅';
-        resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
-        resultTitle.textContent = '✅ Aman - Tidak Terdaftar';
-        let html = addrType ? 'Address ini <strong>tidak terdaftar</strong> sebagai scam di database kami.' : 'Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.';
-        if (goPlusResult) {
-          const r = goPlusResult;
-          const nameInfo = r.name ? `<strong>${r.name}</strong>${r.symbol ? ` ($${r.symbol})` : ''}` : '';
-          const holderInfo = r.holders > 0 ? ` | ${r.holders.toLocaleString()} holders` : '';
-          const supplyInfo = r.totalSupply ? ` | Supply: ${r.totalSupply}` : '';
-          const taxInfo = (r.buyTax > 0 || r.sellTax > 0) ? ` | Buy Tax: ${r.buyTax}% Sell Tax: ${r.sellTax}%` : '';
-          const flagCount = r.flags.length > 0 ? ` (${r.flags.length} flags)` : '';
-          html += `<br><small>⚡ Go+: ${nameInfo}${holderInfo}${supplyInfo}${taxInfo}${flagCount}</small>`;
-        }
-        html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;
-        resultDetail.innerHTML = html;
-      }
-      resultCard.style.opacity = '1';
-      result.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    });
-
-    input.addEventListener('keydown', (e) => {
-      if (e.key === 'Enter') form.dispatchEvent(new Event('submit'));
-    });
-  })();
-
+   417|
+   418|  .scam-hero-desc {
+   419|    font-size: 0.9rem;
+   420|    color: var(--text-secondary);
+   421|    max-width: 480px;
+   422|    margin: 0 auto 1.25rem;
+   423|    line-height: 1.5;
+   424|  }
+   425|
+   426|  .scam-form-card {
+   427|    max-width: 580px;
+   428|    margin: 0 auto;
+   429|  }
+   430|
+   431|  .scam-form-card-inner {
+   432|    background: var(--bg-card);
+   433|    border: 1px solid var(--border);
+   434|    border-radius: var(--radius);
+   435|    padding: 1.25rem 1.5rem;
+   436|    box-shadow: var(--shadow-sm);
+   437|    transition: border-color 0.2s, box-shadow 0.2s;
+   438|  }
+   439|
+   440|  .scam-form-card-inner:focus-within {
+   441|    border-color: var(--primary);
+   442|    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.08);
+   443|  }
+   444|
+   445|  .scam-form {
+   446|    display: flex;
+   447|    gap: 0.75rem;
+   448|  }
+   449|
+   450|  .scam-input-wrap {
+   451|    flex: 1;
+   452|    display: flex;
+   453|    align-items: center;
+   454|    gap: 0.6rem;
+   455|    background: var(--bg-surface);
+   456|    border: 1px solid var(--border);
+   457|    border-radius: var(--radius);
+   458|    padding: 0 0.9rem;
+   459|    transition: border-color 0.2s;
+   460|  }
+   461|
+   462|  .scam-input-wrap:focus-within {
+   463|    border-color: var(--primary);
+   464|  }
+   465|
+   466|  .scam-input-icon {
+   467|    color: var(--text-muted);
+   468|    flex-shrink: 0;
+   469|    transition: color 0.2s;
+   470|  }
+   471|
+   472|  .scam-input-wrap:focus-within .scam-input-icon {
+   473|    color: var(--primary);
+   474|  }
+   475|
+   476|  .scam-input {
+   477|    flex: 1;
+   478|    background: transparent;
+   479|    border: none;
+   480|    outline: none;
+   481|    padding: 0.75rem 0;
+   482|    color: var(--text-primary);
+   483|    font-size: 0.9rem;
+   484|    font-family: var(--font-body);
+   485|    font-weight: 400;
+   486|  }
+   487|
+   488|  .scam-input::placeholder {
+   489|    color: var(--text-muted);
+   490|    font-family: var(--font-body);
+   491|    font-weight: 400;
+   492|    font-size: 0.85rem;
+   493|  }
+   494|
+   495|  .scam-btn {
+   496|    padding: 0.75rem 1.5rem;
+   497|    border: none;
+   498|    border-radius: var(--radius);
+   499|    background: var(--primary);
+   500|    color: #fff;
+   501|

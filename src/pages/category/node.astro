@@ -8,46 +8,45 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
 );
 ---
 
-<BaseLayout title="Node - CryptoSynth.id" description="Catatan operasi node, uptime, dan pengalaman menjalankan berbagai node crypto.">
-  <section class="hero-v3">
-    <div class="container">
-      <div class="hero-v3-label">✦ Kategori</div>
-      <h1>Node</h1>
-      <p class="hero-v3-subtitle">Catatan operasi node, uptime, dan pengalaman menjalankan berbagai node crypto.</p>
+<BaseLayout title="Node - CryptoSynth.id" description="Catatan operasi node, uptime, dan pengalaman menjalankan berbagai node crypto." terminalPath="~/cryptosynth/category/node">
+  <div class="terminal-home">
+    <div class="term-welcome">
+      <div class="term-line term-highlight">Kategori: Node</div>
+      <div class="term-line term-dim">Catatan operasi node, uptime, dan pengalaman menjalankan berbagai node crypto.</div>
+      <div class="term-line">&nbsp;</div>
     </div>
-  </section>
 
-  <div class="section-divider"></div>
-
-  <section class="section-articles">
-    <div class="container">
-      <div class="article-rows">
-        {posts.map((post, index) => (
-          <article class="article-row">
-            <div class="article-row-left">
-              <div class="article-row-tags">
-                {(post.data.tags || []).slice(0, 2).map((tag) => (
-                  <span class="article-row-tag">#{tag}</span>
-                ))}
+    <div class="term-articles">
+      {posts.length === 0 ? (
+        <div class="term-line term-dim">&nbsp;&nbsp;Belum ada catatan di kategori ini.</div>
+      ) : (
+        <>
+          <div class="term-line">&nbsp;</div>
+          <div class="term-line">
+            <span class="term-dim">  NUM  TAG            TITLE                                              DATE</span>
+          </div>
+          <div class="term-line">
+            <span class="term-dim" style="color:rgba(212,212,212,0.08)">  ───  ───            ─────                                              ────</span>
+          </div>
+          {posts.map((post, index) => (
+            <a href={`/blog/${post.id}`} class="article-entry">
+              <div class="entry-meta">
+                <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
+                <span class="entry-time">{relativeTime(post.data.pubDate)}</span>
               </div>
-              <h3 class="article-row-title">
-                <a href={`/blog/${post.id}`}>{post.data.title}</a>
-              </h3>
-              <p class="article-row-excerpt">{post.data.excerpt || post.data.description}</p>
-            </div>
-            <div class="article-row-right">
-              <span class="article-row-time" data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-              <span class="article-row-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
-            </div>
-          </article>
-        ))}
-      </div>
-
-      {posts.length === 0 && (
-        <div style="text-align: center; padding: 4rem 0; color: var(--text-muted);">
-          <p>Belum ada catatan di kategori ini.</p>
-        </div>
+              <span class="entry-num">{String(index + 1).padStart(2, '0')}</span>
+              <span class="entry-tag">{(post.data.tags || []).slice(0, 2).map((tag) => `#${tag}`).join(' · ')}</span>
+              <div class="entry-title">{post.data.title}</div>
+              {post.data.excerpt && <div class="entry-excerpt">{post.data.excerpt}</div>}
+            </a>
+          ))}
+          <div class="term-line">&nbsp;</div>
+          <div class="term-line term-dim">
+            &nbsp;&nbsp;Total: {posts.length} catatan node. Tap judul untuk baca.
+          </div>
+          <div class="term-line">&nbsp;</div>
+        </>
       )}
     </div>
-  </section>
+  </div>
 </BaseLayout>

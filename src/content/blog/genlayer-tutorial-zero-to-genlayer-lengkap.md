@@ -1,15 +1,27 @@
 ---
 title: "From Zero to GenLayer: Tutorial Lengkap Bangun Dispute Resolution dApp"
+slug: genlayer-tutorial-zero-to-genlayer-lengkap
+category: "Tutorial"
 description: "Tutorial lengkap GenLayer dari nol: pelajari Optimistic Democracy, tulis Intelligent Contract Python, deploy di Studio, bangun frontend React, deploy ke Bradbury Testnet."
 excerpt: "Panduan 5-bagian dalam satu artikel: pahami konsep GenLayer, tulis Intelligent Contract dispute resolution, deploy di Studio, bangun frontend dengan genlayer-js, dan deploy ke Bradbury Testnet."
 pubDate: 2026-05-25T13:40:00+07:00
-category: "Tutorial"
-tags: ["genlayer", "tutorial", "optimistic democracy", "equivalence principle", "intelligent contract", "python", "genlayer-js", "react", "nextjs", "metamask", "bradbury", "deploy", "studio", "dispute resolution", "blockchain", "ai"]
-author: "CryptoSynth Research"
-faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intelligent contracts yang bisa memahami bahasa alami, mengakses internet, dan menyelesaikan sengketa secara desentralisasi tanpa oracle. Ini adalah Adjudication Layer untuk agentic economy.;;Apa itu Optimistic Democracy?;;Mekanisme konsensus GenLayer dimana sekelompok validator dengan model AI berbeda secara independen mengevaluasi transaksi dan voting. Transaksi diterima jika mayoritas setuju. Ada mekanisme banding jika hasilnya dianggap salah.;;Apa itu Intelligent Contract?;;Intelligent Contract adalah evolusi dari smart contract tradisional yang bisa memahami bahasa alami, mengakses internet, dan menggunakan AI. Ditulis dalam Python dan berjalan di GenLayer blockchain dengan konsensus validator AI.;;Bagaimana deploy contract di GenLayer Studio?;;Buka studio.genlayer.com, buat account (otomatis), fund dengan built-in faucet (💧), upload file .py contract, buka Run & Debug sidebar, klik Deploy.;;Apa itu genlayer-js?;;SDK JavaScript untuk berinteraksi dengan GenLayer blockchain dari frontend React/Next.js. Mendukung koneksi wallet MetaMask, call contract methods, dan query data.;;Apa perbedaan Studio vs Bradbury?;;Studio (Chain ID 61999): hosted dev environment, state temporary, gratis. Bradbury (Chain ID 4221): production-like testnet, state persistent, real AI models, perlu MetaMask dan faucet."
+author: "Gideon"
+tags:
+  - genlayer
+  - tutorial
+  - intelligent-contract
+  - python
+  - react
+  - deploy
+  - bradbury
+heroImage: "/images/hero/genlayer-tutorial-zero-to-genlayer-lengkap.png"
+ogImage: "/images/og/genlayer-tutorial-zero-to-genlayer-lengkap.png"
+faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intelligent contracts yang bisa memahami bahasa alami, mengakses internet, dan menyelesaikan sengketa secara desentralisasi tanpa oracle. Ini adalah Adjudication Layer untuk agentic economy.;;Apa itu Optimistic Democracy?;;Mekanisme konsensus GenLayer dimana sekelompok validator dengan model AI berbeda secara independen mengevaluasi transaksi dan voting. Transaksi diterima jika mayoritas setuju. Ada mekanisme banding jika hasilnya dianggap salah.;;Apa itu Intelligent Contract?;;Intelligent Contract adalah evolusi dari smart contract tradisional yang bisa memahami bahasa alami, mengakses internet, dan menggunakan AI. Ditulis dalam Python dan berjalan di GenLayer blockchain dengan konsensus validator AI.;;Bagaimana deploy contract di GenLayer Studio?;;Buka studio.genlayer.com, buat account (otomatis), fund dengan built-in faucet, upload file .py contract, buka Run & Debug sidebar, klik Deploy.;;Apa itu genlayer-js?;;SDK JavaScript untuk berinteraksi dengan GenLayer blockchain dari frontend React/Next.js. Mendukung koneksi wallet MetaMask, call contract methods, dan query data.;;Apa perbedaan Studio vs Bradbury?;;Studio (Chain ID 61999): hosted dev environment, state temporary, gratis. Bradbury (Chain ID 4221): production-like testnet, state persistent, real AI models, perlu MetaMask dan faucet."
 ---
 
-> **TL;DR:** GenLayer adalah blockchain layer untuk AI-powered intelligent contracts. Beda dengan Ethereum yang deterministic, GenLayer bisa ngeksekusi kontrak yang butuh penilaian: nyelesaiin sengketa, verifikasi klaim, atau analisis data web. Kuncinya ada di **Optimistic Democracy** dan **Equivalence Principle**. Tutorial ini 5 bagian: konsep, coding, deploy, frontend, go live.
+<div class="tldr-box">
+<strong>TL;DR:</strong> GenLayer adalah blockchain layer untuk AI-powered intelligent contracts. Beda dengan Ethereum yang deterministic, GenLayer bisa ngeksekusi kontrak yang butuh penilaian: nyelesaiin sengketa, verifikasi klaim, atau analisis data web. Kuncinya ada di **Optimistic Democracy** dan **Equivalence Principle**. Tutorial ini 5 bagian: konsep, coding, deploy, frontend, go live.
+</div>
 
 <div class="disclaimer-box">
 <strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
@@ -17,7 +29,7 @@ faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intel
 
 ---
 
-# Bagian 1: Memahami GenLayer & Optimistic Democracy
+## Bagian 1: Memahami GenLayer & Optimistic Democracy
 
 ## Bitcoin, Ethereum, dan Sekarang GenLayer
 
@@ -105,7 +117,7 @@ Validator tidak mereplikasi output Leader. Mereka **menilai akurasi** hasil Lead
 
 ---
 
-# Bagian 2: Membangun Intelligent Contract Dispute Resolution
+## Bagian 2: Membangun Intelligent Contract Dispute Resolution
 
 ## Yang Akan Kita Bangun
 
@@ -432,7 +444,7 @@ Hanya JSON, tidak ada teks lain."""
 
 ---
 
-# Bagian 3: Deploy & Test Contract di GenLayer Studio
+## Bagian 3: Deploy & Test Contract di GenLayer Studio
 
 ## Persiapan
 
@@ -504,7 +516,7 @@ Ini adalah siklus hidup transaksi yang dijelaskan di Bagian 1. Jika statusnya **
 
 ---
 
-# Bagian 4: Frontend dengan genlayer-js & React
+## Bagian 4: Frontend dengan genlayer-js & React
 
 ## Arsitektur Frontend
 
@@ -763,7 +775,7 @@ Alur: Connect MetaMask → Switch ke GenLayer → Buat sengketa → Counterparty
 
 ---
 
-# Bagian 5: Deploy ke Bradbury Testnet & Go Live
+## Bagian 5: Deploy ke Bradbury Testnet & Go Live
 
 ## Arsitektur Final
 

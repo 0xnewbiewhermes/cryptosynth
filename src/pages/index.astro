@@ -8,7 +8,7 @@ const posts = (await getCollection('blog')).sort(
 );
 ---
 
-<BaseLayout title="CryptoSynth — Catatan Crypto Personal" description="Catatan crypto pribadi. Node logs, airdrop farming, tutorial, dan opini DeFi." terminalPath="~/cryptosynth">
+<BaseLayout title="CryptoSynth — Catatan Crypto Personal" description="Catatan crypto pribadi dari Gideon. Node logs, airdrop farming, trading bot, tutorial DeFi, dan opini on-chain dari sudut pandang practitioner Indonesia." terminalPath="~/cryptosynth">
   <div class="terminal-home">
     <!-- Welcome output (visible by default, hidden after first interaction) -->
     <div class="term-welcome" id="termWelcome">
@@ -18,7 +18,7 @@ const posts = (await getCollection('blog')).sort(
 ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██║   ██║╚════██║  ╚██╔╝  ██║╚██╗██║   ██║   ██╔══██║
 ╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝███████║   ██║   ██║ ╚████║   ██║   ██║  ██║
  ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═══╝   ╚═╝   ╚═╝</pre>
-      <div class="term-line term-highlight">Catatan Crypto Personal</div>
+      <h1 class="term-line term-highlight home-h1">Catatan Crypto Personal</h1>
       <div class="term-line term-dim">Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</div>
       <div class="term-line">&nbsp;</div>
       <div class="term-line">Ketik <span class="term-warn">help</span> untuk lihat semua command.</div>
@@ -146,6 +146,13 @@ const posts = (await getCollection('blog')).sort(
   }
 
   /* Quick actions (mobile) — styled in global.css */
+
+  .home-h1 {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.75;
+  }
 
   /* Help output */
   .help-box {

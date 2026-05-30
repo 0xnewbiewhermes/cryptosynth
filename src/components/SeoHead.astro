@@ -80,13 +80,21 @@ const websiteSchema = type !== "article" ? {
       "https://twitter.com/cryptosynthid",
       "https://cryptosynth.id/rss.xml"
     ]
+  },
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": {
+      "@type": "EntryPoint",
+      "urlTemplate": "https://cryptosynth.id/search?q={search_term_string}"
+    },
+    "query-input": "required name=search_term_string"
   }
 } : null;
 
-// JSON-LD: NewsArticle schema for article pages
+// JSON-LD: Article schema for article pages
 const articleSchema = type === "article" ? {
   "@context": "https://schema.org",
-  "@type": "NewsArticle",
+  "@type": "Article",
   "headline": title,
   "description": description,
   "image": fullImageURL,
@@ -119,32 +127,33 @@ const articleSchema = type === "article" ? {
   ...(tags.length > 0 ? { "keywords": tags.join(', ') } : {})
 } : null;
 
-// JSON-LD: BreadcrumbList for articles
-const breadcrumbSchema = type === "article" && category ? {
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "Beranda",
-      "item": "https://cryptosynth.id"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": category,
-      "item": `https://cryptosynth.id/category/${category.toLowerCase()}`
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": title,
-      "item": canonicalURL
-    }
-  ]
-} : null;
-
+// JSON-LD: BreadcrumbList for all pages
+const breadcrumbSchema = (() => {
+  if (type === "article" && category) {
+    return {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "https://cryptosynth.id" },
+        { "@type": "ListItem", "position": 2, "name": category, "item": `https://cryptosynth.id/category/${category.toLowerCase()}` },
+        { "@type": "ListItem", "position": 3, "name": title, "item": canonicalURL }
+      ]
+    };
+  }
+  // Non-article pages: simple 2-level breadcrumb
+  const pageName = rawPath === '/' ? 'Beranda' : title;
+  if (rawPath !== '/') {
+    return {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "https://cryptosynth.id" },
+        { "@type": "ListItem", "position": 2, "name": pageName, "item": canonicalURL }
+      ]
+    };
+  }
+  return null;
+})();
 // Parse FAQ - handle both string and array formats
 const parsedFaq = (() => {
   if (Array.isArray(faq)) return faq;
@@ -219,6 +228,7 @@ const faqSchema = parsedFaq.length > 0 ? {
 <meta name="twitter:description" content={description} />
 <meta name="twitter:image" content={fullImageURL} />
 <meta name="twitter:image:alt" content={imageAlt} />
+<meta name="twitter:site" content="@cryptosynthid" />
 
 <!-- JSON-LD Structured Data -->
 {websiteSchema && <script type="application/ld+json" set:html={JSON.stringify(websiteSchema)} />}

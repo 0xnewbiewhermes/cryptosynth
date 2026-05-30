@@ -8,7 +8,6 @@ tags: ["ai-agent", "crypto", "defai", "keamanan"]
 description: "CertiK CEO bilang AI agent di crypto = ancaman insider skala mesin. Coinbase dan MoonPay terus push integrasi. Mana yang bener?"
 heroImage: "/images/hero/ai-agent-crypto-revolusi-atau-bencana-2026.png"
 ogImage: "/images/og/ai-agent-crypto-revolusi-atau-bencana-2026.png"
-faq: "Apa itu AI agent di crypto?;;AI agent adalah sistem otonom dengan wallet sendiri yang bisa transaksi on-chain tanpa intervensi manusia. Chatbot yang bisa beli token, swap di DEX, farming sendiri.;;Apakah AI agent crypto aman?;;Belum. CertiK dan OpenZeppelin warning soal prompt injection, hallucination, dan social engineering. Satu kasus Mei 2026, agent kehilangan $174K karena trik kode Morse.;;Platform apa yang sudah integrasi AI agent?;;Coinbase Base (MCP + AgentKit), MoonPay (masuk ChatGPT App Store), Solana (elizaOS, Sophia), Fetch.ai (BNB Chain), Virtuals Protocol (Base)."
 ---
 
 <div class="tldr-box">

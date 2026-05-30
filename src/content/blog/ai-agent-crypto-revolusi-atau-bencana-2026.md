@@ -8,13 +8,7 @@ tags: ["ai-agent", "crypto", "defai", "keamanan", "coinbase", "certik", "base"]
 description: "CertiK CEO bilang AI agent di crypto = ancaman insider skala mesin. Sementara Coinbase dan MoonPay terus push integrasi AI. Mana yang benar?"
 heroImage: "/images/hero/ai-agent-crypto-revolusi-atau-bencana-2026.png"
 ogImage: "/images/og/ai-agent-crypto-revolusi-atau-bencana-2026.png"
-faq:
-  - q: "Apa itu AI agent di crypto?"
-    a: "AI agent di crypto adalah sistem otonom yang punya wallet sendiri, bisa transaksi on-chain, dan beroperasi tanpa intervensi manusia. Bayangkan chatbot yang bukan cuma ngomong, tapi juga bisa beli token, swap di DEX, bahkan farming sendiri."
-  - q: "Apakah AI agent crypto aman?"
-    a: "Belum sepenuhnya. CertiK dan OpenZeppelin sama-sama warning soal risiko: prompt injection, hallucination yang bikin agent salah eksekusi, dan serangan social engineering. Satu kasus Mei 2026, agent kehilangan $174K karena NFT airdrop berisi kode Morse."
-  - q: "Platform apa yang sudah integrasi AI agent?"
-    a: "Coinbase Base punya MCP dan AgentKit. MoonPay sudah masuk ChatGPT App Store. Solana punya elizaOS dan Sophia. Di sisi infra, Aethir provide GPU decentralized, sementara Fetch.ai dan Virtuals Protocol fokus di agent launchpad."
+faq: "Apa itu AI agent di crypto?;;AI agent di crypto adalah sistem otonom yang punya wallet sendiri, bisa transaksi on-chain, dan beroperasi tanpa intervensi manusia. Bayangkan chatbot yang bukan cuma ngomong, tapi juga bisa beli token, swap di DEX, bahkan farming sendiri.;;Apakah AI agent crypto aman?;;Belum sepenuhnya. CertiK dan OpenZeppelin sama-sama warning soal risiko: prompt injection, hallucination yang bikin agent salah eksekusi, dan serangan social engineering. Satu kasus Mei 2026, agent kehilangan $174K karena NFT airdrop berisi kode Morse.;;Platform apa yang sudah integrasi AI agent?;;Coinbase Base punya MCP dan AgentKit. MoonPay sudah masuk ChatGPT App Store. Solana punya elizaOS dan Sophia. Di sisi infra, Aethir provide GPU decentralized, sementara Fetch.ai dan Virtuals Protocol fokus di agent launchpad."
 ---
 
 <div class="tldr-box">

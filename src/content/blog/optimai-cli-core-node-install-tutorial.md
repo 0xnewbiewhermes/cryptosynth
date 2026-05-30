@@ -3,9 +3,18 @@ title: "Tutorial Install OptimAI Core Node di VPS: CLI Setup + Systemd Service"
 slug: optimai-cli-core-node-install-tutorial
 category: "Tutorial"
 description: "Panduan lengkap install OptimAI CLI Core Node di VPS Linux. Dari download binary, setup systemd service, sampai monitoring reward OPI token."
+excerpt: "Tutorial install OptimAI Core Node di VPS pake CLI. Cuma butuh Docker, download binary, login, dan jalankan. Spesifikasi ringan: 4GB RAM, 2 core, 15GB disk."
 pubDate: 2026-05-27T21:15:00+07:00
 author: "Gideon"
-tags: ["optimai", "tutorial", "node", "vps", "depin", "cli", "core-node", "opi"]
+tags:
+  - optimai
+  - tutorial
+  - node
+  - vps
+  - depin
+  - cli
+  - core-node
+  - opi
 heroImage: "/images/hero/optimai-cli-core-node-install-tutorial.png"
 ogImage: "/images/og/optimai-cli-core-node-install-tutorial.png"
 ---

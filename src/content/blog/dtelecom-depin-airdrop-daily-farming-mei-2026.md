@@ -1,11 +1,19 @@
 ---
 title: "dTelecom DTEL: Airdrop DePIN Didukung Google dan Solana Foundation"
+slug: dtelecom-depin-airdrop-daily-farming-mei-2026
+category: "Airdrop"
 description: "dTelecom, proyek DePIN komunikasi real-time di Solana yang didukung Google, ElevenLabs, dan Solana Foundation, buka kesempatan airdrop DTEL lewat daily points farming"
 excerpt: "dTelecom hadirkan airdrop DTEL untuk pengguna Solana dengan total alokasi 50% dari suplai token untuk komunitas, didukung Google, Solana Foundation, dan ElevenLabs"
 pubDate: 2026-05-20T12:05:53+07:00
-category: "Airdrop"
-tags: ["airdrop crypto", "dTelecom", "DTEL", "DePIN", "Solana"]
-author: "CryptoSynth Research"
+author: "Gideon"
+tags:
+  - airdrop
+  - dtelecom
+  - dtel
+  - depin
+  - solana
+heroImage: "/images/hero/dtelecom-depin-airdrop-daily-farming-mei-2026.png"
+ogImage: "/images/og/dtelecom-depin-airdrop-daily-farming-mei-2026.png"
 faq: >
   Apa itu dTelecom?;;dTelecom adalah jaringan komunikasi terdesentralisasi (DePIN) di Solana untuk voice, video, dan AI agents secara real-time, didukung Google dan Solana Foundation;;Kapan TGE token DTEL?;;TGE ditargetkan Q3-Q4 2026. Token DTEL belum diluncurkan dan masih dalam fase points farming;;Bagaimana cara ikut airdrop dTelecom?;;Kunjungi rewards.dtelecom.org, hubungkan wallet Solana, verifikasi akun sosial, dan lakukan daily check-in serta gunakan aplikasi dMeet/FROGY;;Apa itu Origin ID dan apakah masih bisa mint?;;Origin ID adalah NFT multiplier yang memberikan hingga 2x poin. Mint di OpenSea sudah ditutup 19 Mei 2026;;Berapa alokasi token untuk komunitas?;;Lebih dari 50% total suplai token DTEL (1 miliar) dialokasikan untuk komunitas
 ---

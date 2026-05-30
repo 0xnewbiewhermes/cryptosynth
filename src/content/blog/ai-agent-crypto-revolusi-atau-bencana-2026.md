@@ -1,7 +1,7 @@
 ---
 title: "AI Agent di Crypto: Revolusi atau Bencana?"
 slug: "ai-agent-crypto-revolusi-atau-bencana-2026"
-pubDate: "2026-05-30T07:55:00Z"
+pubDate: "2026-05-30T15:02:00+07:00"
 author: "Gideon"
 category: "Journal"
 tags: ["ai-agent", "crypto", "defai", "keamanan"]

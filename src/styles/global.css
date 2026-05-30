@@ -1235,12 +1235,26 @@ a:hover { opacity: 0.8; }
   .article-container {
     padding: 1.25rem 0.85rem 3rem;
     overflow-x: hidden;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .article-hero {
+    max-width: 100%;
+    margin-bottom: 1.25rem;
+  }
+
+  .article-hero img {
+    max-width: 100%;
+    height: auto;
   }
 
   .article-tag-label {
     font-size: 0.5rem;
     letter-spacing: 0.08em;
     word-break: break-all;
+    overflow-wrap: break-word;
+    max-width: 100%;
   }
 
   .article-title {
@@ -1248,10 +1262,13 @@ a:hover { opacity: 0.8; }
     line-height: 1.15;
     word-break: break-word;
     overflow-wrap: break-word;
+    max-width: 100%;
   }
 
   .article-meta-row {
     gap: 0.5rem 0.85rem;
+    max-width: 100%;
+    overflow-wrap: break-word;
   }
 
   .article-body {
@@ -1310,6 +1327,10 @@ a:hover { opacity: 0.8; }
     padding: 0.65rem 0.85rem;
     margin: 1rem 0;
     font-size: 0.78rem;
+    max-width: 100%;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    box-sizing: border-box;
   }
 
   .share-section {

@@ -1189,7 +1189,7 @@ a:hover { opacity: 0.8; }
     bottom: 24px;
     left: 0;
     right: 0;
-    background: transparent;
+    background: var(--bg-elevated);
     border-top: 1px solid rgba(255, 255, 255, 0.08);
     padding: 0;
     overflow-x: auto;
@@ -1207,7 +1207,7 @@ a:hover { opacity: 0.8; }
     font-size: 0.62rem;
     font-family: var(--font-mono);
     color: var(--text-muted);
-    background: transparent;
+    background: var(--bg-elevated);
     -webkit-appearance: none;
     appearance: none;
     border: none;

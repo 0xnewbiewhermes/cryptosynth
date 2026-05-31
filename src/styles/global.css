@@ -1231,8 +1231,8 @@ a:hover { opacity: 0.8; }
     display: block;
     font-size: 0.9rem;
     margin-bottom: 0.15rem;
+    pointer-events: none;
   }
-
   /* Article mobile fixes */
   .article-container {
     padding: 1.25rem 0.85rem 3rem;

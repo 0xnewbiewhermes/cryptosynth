@@ -237,7 +237,7 @@ function formatDate(dateStr) {
                   <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
                 </button>
               </form>
-              <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token - diperiksa dari 3 database + analisis token real-time</p>
+              <p class="scam-form-hint">Domain, wallet address, atau kontrak token - diperiksa dari 3 database + deteksi Cyrillic homograph + analisis token real-time</p>
             </div>
           </div>
           <div class="scam-stats" id="scamStats">
@@ -289,6 +289,13 @@ function formatDate(dateStr) {
               <div class="scam-source-info">
                 <strong>phishdestroy/destroylist</strong>
                 <span>149rb domain phishing aktif</span>
+            <div class="scam-source-item">
+              <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
+              <div class="scam-source-info">
+                <strong>IDN Homograph Detection</strong>
+                <span>Deteksi Cyrillic lookalike, invisible chars, dan punycode abuse (lokal, tanpa API)</span>
+              </div>
+            </div>
               </div>
             </div>
             <div class="scam-source-item">
@@ -1096,6 +1103,33 @@ function formatDate(dateStr) {
   .scam-source-info span { font-size: 0.78rem; color: var(--text-muted); }
   .scam-sources-note { margin-top: 1rem; font-size: 0.78rem; color: var(--text-muted); font-style: italic; text-align: center; }
 
+  .homograph-chars {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    margin-top: 0.35rem;
+  }
+  .hg-char {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.72rem;
+    font-family: var(--font-mono);
+    background: rgba(239, 68, 68, 0.08);
+    border: 1px solid rgba(239, 68, 68, 0.2);
+    color: var(--text-secondary);
+  }
+  .hg-char code {
+    font-size: 0.8rem;
+    color: #EF4444;
+    font-weight: 700;
+  }
+  .hg-char strong {
+    color: var(--text-primary);
+  }
+
   /* ===== TRACKER MOBILE ===== */
   @media (max-width: 640px) {
     .tracker-filters {
@@ -1278,6 +1312,62 @@ function formatDate(dateStr) {
     }
 
     function normalizeInput(input) {
+    // ===== CYRILLIC HOMOGRAPH DETECTION =====
+    const CYRILLIC_MAP = {
+      '\u0430':'a','\u0435':'e','\u043e':'o','\u0440':'p','\u0441':'c','\u0443':'y','\u0445':'x',
+      '\u0410':'A','\u0412':'B','\u0415':'E','\u041a':'K','\u041c':'M','\u041d':'H','\u041e':'O',
+      '\u0420':'P','\u0421':'C','\u0422':'T'
+    };
+    const INVISIBLE_SET = new Set(['\u200b','\u200c','\u200d','\u200e','\u200f','\u2060','\u00ad','\u034f','\u180e','\u2800','\u3164','\uffa0']);
+    const RISKY_TLDS = ['.tk','.ml','.ga','.cf','.gq','.xyz','.top','.club','.work','.buzz','.icu','.cam','.rest'];
+
+    function detectHomograph(domain) {
+      const suspicious = [];
+      let hasCyrillic = false, hasLatin = false;
+      const invisible = [];
+
+      for (let i = 0; i < domain.length; i++) {
+        const ch = domain[i];
+        const code = ch.codePointAt(0);
+        if (ch === '.' || ch === '-') continue;
+        if (code >= 0x0400 && code <= 0x052F) {
+          hasCyrillic = true;
+          suspicious.push({ pos: i, char: ch, code: 'U+' + code.toString(16).toUpperCase().padStart(4,'0'), looksLike: CYRILLIC_MAP[ch] || '?' });
+        } else if (code >= 0x0041 && code <= 0x007A) {
+          hasLatin = true;
+        }
+        if (INVISIBLE_SET.has(ch)) {
+          invisible.push({ pos: i, code: 'U+' + code.toString(16).toUpperCase().padStart(4,'0') });
+        }
+      }
+
+      let punycode = null;
+      try {
+        const encoded = new TextEncoder().encode(domain);
+        // Simple punycode check: if domain has non-ASCII chars
+        const hasNonAscii = [...domain].some(c => c.codePointAt(0) > 127);
+        if (hasNonAscii) {
+          const url = new URL('http://' + domain);
+          punycode = url.hostname;
+        }
+      } catch {}
+
+      const mixedScript = hasCyrillic && hasLatin;
+      const isIDN = punycode && punycode !== domain && punycode.includes('xn--');
+
+      let risk = 'low';
+      const reasons = [];
+      if (suspicious.length > 0) { risk = 'high'; reasons.push(suspicious.length + ' Cyrillic lookalike'); }
+      if (mixedScript) { risk = 'critical'; reasons.push('Mixed Cyrillic+Latin (homograph attack)'); }
+      if (invisible.length > 0) { risk = 'critical'; reasons.push(invisible.length + ' invisible/zero-width chars'); }
+      if (isIDN) reasons.push('IDN punycode: ' + punycode);
+
+      // TLD risk
+      const tld = RISKY_TLDS.find(t => domain.endsWith(t));
+
+      return { suspicious, invisible, mixedScript, isIDN, punycode, risk, reasons, riskyTld: tld || null };
+    }
+
       let d = input.trim().toLowerCase();
       for (const prefix of ['http://', 'https://', 'www.', 'hxxp://', 'hxxps://', 'ftp://']) {
         if (d.startsWith(prefix)) d = d.slice(prefix.length);
@@ -1385,6 +1475,44 @@ function formatDate(dateStr) {
       }
 
       const addrType = isAddress(cleaned);
+      // Check for homograph attack FIRST (client-side, instant)
+      const hg = detectHomograph(cleaned);
+      if (hg.risk === 'critical' || hg.risk === 'high') {
+        let hgHtml = '<p><strong>🚨 Homograph Attack Terdeteksi!</strong></p>';
+        hgHtml += '<div class="src-badges">';
+        hg.reasons.forEach(r => { hgHtml += '<span class="flag-badge flag-bad">' + r + '</span>'; });
+        hgHtml += '</div>';
+        if (hg.suspicious.length > 0) {
+          hgHtml += '<p style="margin-top:0.5rem;margin-bottom:0;"><small>Karakter Cyrillic yang mirip Latin:</small></p><div class="homograph-chars">';
+          hg.suspicious.forEach(c => {
+            hgHtml += '<span class="hg-char"><code>' + c.char + '</code> (' + c.code + ') → <strong>' + c.looksLike + '</strong></span>';
+          });
+          hgHtml += '</div>';
+        }
+        if (hg.punycode) {
+          hgHtml += '<p style="margin-top:0.5rem;margin-bottom:0;"><small>Punycode: <code>' + hg.punycode + '</code></small></p>';
+        }
+        if (hg.riskyTld) {
+          hgHtml += '<p style="margin-top:0.35rem;margin-bottom:0;"><small>TLD berisiko tinggi: <code>' + hg.riskyTld + '</code></small></p>';
+        }
+        hgHtml += '<p style="margin-top:0.5rem;margin-bottom:0;"><small>Jangan kunjungi domain ini. Kemungkinan besar phishing.</small></p>';
+        resultCard.className = 'scam-result-card scam-result-scam';
+        resultIcon.textContent = '🚨';
+        resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
+        resultTitle.textContent = '🚨 HOMOGRAPH ATTACK';
+        resultDetail.innerHTML = hgHtml;
+        resultCard.style.opacity = '1';
+        btnText.style.display = 'inline';
+        btnSpinner.style.display = 'none';
+        btn.disabled = false;
+        result.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        return;
+      }
+      if (hg.riskyTld) {
+        // Show TLD warning but continue to blacklist check
+        // (will be included in final result if scam, or shown as note if clean)
+      }
+
       const matches = checkBlacklist(cleaned, addrType);
       let goPlusResult = null;
       if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
@@ -1432,6 +1560,9 @@ function formatDate(dateStr) {
           const taxInfo = (r.buyTax > 0 || r.sellTax > 0) ? ` | Buy Tax: ${r.buyTax}% Sell Tax: ${r.sellTax}%` : '';
           const flagCount = r.flags.length > 0 ? ` (${r.flags.length} flags)` : '';
           html += `<br><small>⚡ Go+: ${nameInfo}${holderInfo}${supplyInfo}${taxInfo}${flagCount}</small>`;
+        }
+        if (hg.riskyTld) {
+          html += `<br><small>⚠️ TLD <code>${hg.riskyTld}</code> sering digunakan scammer. Hati-hati.</small>`;
         }
         html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;
         resultDetail.innerHTML = html;

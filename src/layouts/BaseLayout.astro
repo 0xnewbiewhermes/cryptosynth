@@ -112,7 +112,7 @@ const isActive = (path: string) => {
               <a href="/articles">Arsip</a>
             </div>
             <div class="footer-col">
-              <h4>Perusahaan</h4>
+              <h4>Lainnya</h4>
               <a href="/about">Tentang</a>
               <a href="/disclaimer">Disclaimer</a>
               <a href="/privacy">Privacy</a>
@@ -135,7 +135,7 @@ const isActive = (path: string) => {
     <!-- Status Bar -->
     <div class="status-bar">
       <span class="status-item"><span class="status-dot"></span> connected</span>
-      <span class="status-item" id="statusArticles">7 catatan</span>
+      <span class="status-item" id="statusArticles"></span>
       <span class="status-item">3 kategori</span>
       <span class="status-item" id="statusClock"></span>
       <span style="margin-left:auto">CryptoSynth.id v2.0</span>
@@ -266,10 +266,15 @@ const isActive = (path: string) => {
         });
       }
 
-      // === Footer update date ===
-      const footerDate = document.getElementById('footerUpdateDate');
-      if (footerDate) {
-        footerDate.textContent = new Date().toLocaleDateString('id-ID', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Jakarta' });
+      // === Status bar article count ===
+      const statusArticles = document.getElementById('statusArticles');
+      if (statusArticles) {
+        const count = document.querySelectorAll('.article-entry').length;
+        if (count > 0) {
+          statusArticles.textContent = count + ' catatan';
+        } else {
+          statusArticles.textContent = '13 catatan';
+        }
       }
     </script>
   </body>

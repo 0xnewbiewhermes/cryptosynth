@@ -94,7 +94,7 @@ const websiteSchema = type !== "article" ? {
 // JSON-LD: Article schema for article pages
 const articleSchema = type === "article" ? {
   "@context": "https://schema.org",
-  "@type": "Article",
+  "@type": "NewsArticle",
   "headline": title,
   "description": description,
   "image": fullImageURL,
@@ -140,9 +140,9 @@ const breadcrumbSchema = (() => {
       ]
     };
   }
-  // Non-article pages: simple 2-level breadcrumb
+  // Non-article pages: simple 2-level breadcrumb (skip 404)
   const pageName = rawPath === '/' ? 'Beranda' : title;
-  if (rawPath !== '/') {
+  if (rawPath !== '/' && !rawPath.includes('404') && pageName !== '404: Block Not Found: CryptoSynth.id') {
     return {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",

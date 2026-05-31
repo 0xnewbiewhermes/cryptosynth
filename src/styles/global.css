@@ -1208,6 +1208,8 @@ a:hover { opacity: 0.8; }
     font-family: var(--font-mono);
     color: var(--text-muted);
     background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
     border: none;
     border-right: 1px solid rgba(255, 255, 255, 0.04);
     cursor: pointer;

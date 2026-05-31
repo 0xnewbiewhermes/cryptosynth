@@ -237,7 +237,7 @@ function formatDate(dateStr) {
                   <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
                 </button>
               </form>
-              <p class="scam-form-hint">Domain, wallet address, atau kontrak token - diperiksa dari 3 database + deteksi Cyrillic homograph + analisis token real-time</p>
+              <p class="scam-form-hint">Domain, wallet address, atau kontrak token - diperiksa dari 9 sumber: blacklist lokal, VirusTotal, Google Safe Browsing, URLScan, URLhaus, SURBL, URIBL, Go+ Security, dan deteksi Cyrillic homograph</p>
             </div>
           </div>
           <div class="scam-stats" id="scamStats">
@@ -289,24 +289,59 @@ function formatDate(dateStr) {
               <div class="scam-source-info">
                 <strong>phishdestroy/destroylist</strong>
                 <span>149rb domain phishing aktif</span>
+              </div>
+            </div>
             <div class="scam-source-item">
               <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
               <div class="scam-source-info">
                 <strong>IDN Homograph Detection</strong>
-                <span>Deteksi Cyrillic lookalike, invisible chars, dan punycode abuse (lokal, tanpa API)</span>
+                <span>Deteksi Cyrillic lookalike, invisible chars, punycode abuse (lokal)</span>
               </div>
             </div>
+            <div class="scam-source-item">
+              <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+              <div class="scam-source-info">
+                <strong>VirusTotal</strong>
+                <span>70+ AV engine scan, domain reputation, WHOIS</span>
+              </div>
+            </div>
+            <div class="scam-source-item">
+              <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div>
+              <div class="scam-source-info">
+                <strong>Google Safe Browsing</strong>
+                <span>DB phishing & malware Google (10K cek/hari)</span>
+              </div>
+            </div>
+            <div class="scam-source-item">
+              <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div>
+              <div class="scam-source-info">
+                <strong>URLScan.io</strong>
+                <span>URL scanner: screenshot, DOM, verdicts komunitas</span>
+              </div>
+            </div>
+            <div class="scam-source-item">
+              <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div>
+              <div class="scam-source-info">
+                <strong>URLhaus (abuse.ch)</strong>
+                <span>Database malware URL oleh abuse.ch</span>
+              </div>
+            </div>
+            <div class="scam-source-item">
+              <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg></div>
+              <div class="scam-source-info">
+                <strong>SURBL + URIBL</strong>
+                <span>DNS blocklist untuk domain spam & phishing</span>
               </div>
             </div>
             <div class="scam-source-item">
               <div class="scam-source-icon"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/></svg></div>
               <div class="scam-source-info">
                 <strong>Go+ Security API</strong>
-                <span>Analisis token real-time - honeypot, tax, blacklist (40+ chain)</span>
+                <span>Analisis token real-time: honeypot, tax, blacklist (40+ chain)</span>
               </div>
             </div>
           </div>
-          <p class="scam-sources-note">Database diperbarui otomatis setiap 6 jam. Selalu verifikasi sebelum bertransaksi.</p>
+          <p class="scam-sources-note">Database lokal diperbarui otomatis setiap 6 jam. API eksternal butuh key gratis. Selalu verifikasi sebelum bertransaksi.</p>
         </div>
       </div>
     </section>
@@ -1057,6 +1092,11 @@ function formatDate(dateStr) {
     border: 1px solid rgba(239, 68, 68, 0.25);
     color: #EF4444;
   }
+  .flag-warn {
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245, 158, 11, 0.25);
+    color: #F59E0B;
+  }
 
   .scam-result-aman .scam-result-glow { background: #10B981; }
   .scam-result-aman .scam-result-inner { border-color: rgba(16, 185, 129, 0.3); background: linear-gradient(135deg, rgba(16, 185, 129, 0.04), rgba(16, 185, 129, 0.01)); }
@@ -1515,10 +1555,24 @@ function formatDate(dateStr) {
 
       const matches = checkBlacklist(cleaned, addrType);
       let goPlusResult = null;
+      let threatResult = null;
+
+      // Run GoPlus + threat API in parallel
+      const promises = [];
       if (addrType === 'evm' || addrType === 'sol' || addrType === 'bsc') {
         const chainId = CHAIN_MAP[addrType] || 1;
-        goPlusResult = await checkGoPlus(cleaned, chainId, addrType === 'sol', raw.trim());
+        promises.push(checkGoPlus(cleaned, chainId, addrType === 'sol', raw.trim()).then(r => { goPlusResult = r; }));
       }
+      if (!addrType) {
+        // Domain input: check threat APIs
+        promises.push(
+          fetch(`/api/threat-check?domain=${encodeURIComponent(cleaned)}`, { signal: AbortSignal.timeout(15000) })
+            .then(r => r.json())
+            .then(d => { threatResult = d; })
+            .catch(() => {})
+        );
+      }
+      await Promise.all(promises);
 
       btnText.style.display = 'inline';
       btnSpinner.style.display = 'none';
@@ -1526,8 +1580,11 @@ function formatDate(dateStr) {
 
       const isScam = matches && matches.length > 0;
       const goPlusRisky = goPlusResult && goPlusResult.is_risky;
+      const threatRisky = threatResult && (threatResult.overallRisk === 'critical' || threatResult.overallRisk === 'high');
+      const threatChecks = threatResult?.checks || [];
+      const threatMalicious = threatChecks.filter(c => c.risk === 'critical' || c.risk === 'high' && !c.skipped);
 
-      if (isScam || goPlusRisky) {
+      if (isScam || goPlusRisky || threatRisky) {
         let html = '';
         resultCard.className = 'scam-result-card scam-result-scam';
         if (isScam) {
@@ -1536,11 +1593,24 @@ function formatDate(dateStr) {
             const meta = SOURCE_META[s] || { icon: '\uD83D\uDCCB', label: s };
             return `<span class="src-badge">${meta.icon} ${meta.label}</span>`;
           }).join(' ');
-          html += `<p><strong>Terdaftar sebagai scam</strong> di database kami:</p><div class="src-badges">${sourceBadges}</div>${matches.length > 1 && !addrType ? `<small>(${matches.length} varian terkait)</small>` : ''}`;
+          html += `<p><strong>Terdaftar sebagai scam</strong> di database lokal:</p><div class="src-badges">${sourceBadges}</div>${matches.length > 1 && !addrType ? `<small>(${matches.length} varian terkait)</small>` : ''}`;
+        }
+        // Threat API results
+        if (threatMalicious.length > 0) {
+          html += `<p style="margin-top: ${isScam ? '0.75rem' : '0'}; margin-bottom: 0;"><strong>⚠️ Terdeteksi oleh threat intelligence:</strong></p><div class="src-badges">`;
+          threatMalicious.forEach(c => {
+            const riskColor = c.risk === 'critical' ? 'flag-bad' : 'flag-warn';
+            let detail = c.source;
+            if (c.malicious !== undefined) detail += ` (${c.malicious} engine)`;
+            if (c.threats?.length) detail += `: ${c.threats.join(', ')}`;
+            if (c.found !== undefined && c.found) detail += ' ✓ Listed';
+            html += `<span class="flag-badge ${riskColor}">${detail}</span>`;
+          });
+          html += `</div>`;
         }
         if (goPlusRisky) {
           const flagBadges = goPlusResult.flags.map(f => `<span class="flag-badge flag-bad">${f}</span>`).join(' ');
-          html += `<p style="margin-top: ${isScam ? '0.75rem' : '0'}; margin-bottom: 0;"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p><div class="src-badges">${flagBadges}</div>`;
+          html += `<p style="margin-top: ${isScam || threatRisky ? '0.75rem' : '0'}; margin-bottom: 0;"><strong>⚠️ Go+ Security:</strong> Token ini terdeteksi berbahaya</p><div class="src-badges">${flagBadges}</div>`;
         }
         resultIcon.textContent = '⚠️';
         resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
@@ -1551,7 +1621,7 @@ function formatDate(dateStr) {
         resultIcon.textContent = '✅';
         resultIconWrap.style.background = 'rgba(16, 185, 129, 0.12)';
         resultTitle.textContent = '✅ Aman - Tidak Terdaftar';
-        let html = addrType ? 'Address ini <strong>tidak terdaftar</strong> sebagai scam di database kami.' : 'Domain ini <strong>tidak terdaftar</strong> sebagai scam di database kami.';
+        let html = addrType ? 'Address ini <strong>tidak terdaftar</strong> sebagai scam.' : 'Domain ini <strong>tidak terdaftar</strong> sebagai scam.';
         if (goPlusResult) {
           const r = goPlusResult;
           const nameInfo = r.name ? `<strong>${r.name}</strong>${r.symbol ? ` ($${r.symbol})` : ''}` : '';
@@ -1560,6 +1630,17 @@ function formatDate(dateStr) {
           const taxInfo = (r.buyTax > 0 || r.sellTax > 0) ? ` | Buy Tax: ${r.buyTax}% Sell Tax: ${r.sellTax}%` : '';
           const flagCount = r.flags.length > 0 ? ` (${r.flags.length} flags)` : '';
           html += `<br><small>⚡ Go+: ${nameInfo}${holderInfo}${supplyInfo}${taxInfo}${flagCount}</small>`;
+        }
+        // Show clean threat API results
+        if (threatResult) {
+          const cleanSources = threatChecks.filter(c => c.risk === 'low' && !c.skipped);
+          if (cleanSources.length > 0) {
+            html += `<br><small>🔍 Bersih di: ${cleanSources.map(c => c.source).join(', ')}</small>`;
+          }
+          const skippedSources = threatChecks.filter(c => c.skipped);
+          if (skippedSources.length > 0) {
+            html += `<br><small style="opacity:0.6">⏸️ ${skippedSources.length} source belum dikonfigurasi (butuh API key)</small>`;
+          }
         }
         if (hg.riskyTld) {
           html += `<br><small>⚠️ TLD <code>${hg.riskyTld}</code> sering digunakan scammer. Hati-hati.</small>`;

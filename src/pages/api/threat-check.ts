@@ -7,19 +7,12 @@ export const prerender = false;
  * - Google Safe Browsing (needs GOOGLE_SAFE_BROWSING_KEY)
  * - URLScan.io (optional URLSCAN_API_KEY, works without)
  * - URLhaus (needs URLHAUS_AUTH_KEY)
- * - SURBL/URIBL (DNS-based, no key needed)
  */
 
 const VT_KEY = import.meta.env.VIRUSTOTAL_API_KEY || '';
 const GSB_KEY = import.meta.env.GOOGLE_SAFE_BROWSING_KEY || '';
 const URLSCAN_KEY = import.meta.env.URLSCAN_API_KEY || '';
 const URLHAUS_KEY = import.meta.env.URLHAUS_AUTH_KEY || '';
-
-function vtUrlId(url: string): string {
-  // VirusTotal URL ID: base64url without padding
-  return Buffer.from(url).toString('base64')
-    .replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
-}
 
 async function checkVirusTotal(domain: string): Promise<any> {
   if (!VT_KEY) return { skipped: true, source: 'VirusTotal', note: 'No API key' };
@@ -38,9 +31,6 @@ async function checkVirusTotal(domain: string): Promise<any> {
     const undetected = stats.undetected || 0;
     const total = malicious + suspicious + harmless + undetected;
     const reputation = attrs.reputation || 0;
-    const categories = attrs.categories || {};
-    const regDate = attrs.whois?.match(/Creation Date:\s*(\S+)/i)?.[1]
-      || attrs.whois?.match(/Created:\s*(\S+)/i)?.[1] || null;
 
     return {
       source: 'VirusTotal',
@@ -50,8 +40,6 @@ async function checkVirusTotal(domain: string): Promise<any> {
       undetected,
       total,
       reputation,
-      categories: Object.values(categories).slice(0, 3),
-      regDate,
       risk: malicious > 0 ? 'critical' : suspicious > 0 ? 'high' : 'low',
     };
   } catch (err: any) {
@@ -99,26 +87,19 @@ async function checkSafeBrowsing(domain: string): Promise<any> {
 
 async function checkURLScan(domain: string): Promise<any> {
   try {
-    // Search existing scans first
+    const headers: Record<string, string> = {};
+    if (URLSCAN_KEY) headers['API-Key'] = URLSCAN_KEY;
+
     const searchRes = await fetch(
       `https://urlscan.io/api/v1/search/?q=domain:${domain}&size=1`,
-      {
-        headers: URLSCAN_KEY ? { 'API-Key': URLSCAN_KEY } : {},
-        signal: AbortSignal.timeout(8000),
-      }
+      { headers, signal: AbortSignal.timeout(8000) }
     );
     if (!searchRes.ok) return { error: `HTTP ${searchRes.status}`, source: 'URLScan.io' };
     const data = await searchRes.json();
     const results = data.results || [];
 
     if (results.length === 0) {
-      return {
-        source: 'URLScan.io',
-        found: false,
-        totalScans: 0,
-        risk: 'low',
-        note: 'Belum pernah di-scan',
-      };
+      return { source: 'URLScan.io', found: false, totalScans: 0, risk: 'low', note: 'Belum pernah di-scan' };
     }
 
     const latest = results[0];
@@ -165,53 +146,10 @@ async function checkURLhaus(domain: string): Promise<any> {
       found: urlsTotal > 0,
       urlsTotal,
       urlsOnline,
-      tags: data.tags || [],
       risk: urlsOnline > 0 ? 'critical' : urlsTotal > 0 ? 'high' : 'low',
     };
   } catch (err: any) {
     return { error: err.message, source: 'URLhaus' };
-  }
-}
-
-async function checkSURBL(domain: string): Promise<any> {
-  // SURBL is DNS-based: query domain.multi.surbl.org
-  // Returns 127.0.0.2 if listed
-  try {
-    const { execSync } = await import('child_process');
-    const result = execSync(`dig +short ${domain}.multi.surbl.org 2>/dev/null`, {
-      timeout: 5000,
-      encoding: 'utf-8',
-    }).trim();
-
-    const listed = result.includes('127.0.0');
-    return {
-      source: 'SURBL',
-      listed,
-      risk: listed ? 'high' : 'low',
-      note: listed ? '⚠️ Terdaftar di SURBL blocklist' : 'Tidak terdaftar',
-    };
-  } catch {
-    return { source: 'SURBL', risk: 'low', note: 'Tidak terdaftar atau DNS timeout' };
-  }
-}
-
-async function checkURIBL(domain: string): Promise<any> {
-  try {
-    const { execSync } = await import('child_process');
-    const result = execSync(`dig +short ${domain}.multi.uribl.com 2>/dev/null`, {
-      timeout: 5000,
-      encoding: 'utf-8',
-    }).trim();
-
-    const listed = result.includes('127.0.0');
-    return {
-      source: 'URIBL',
-      listed,
-      risk: listed ? 'high' : 'low',
-      note: listed ? '⚠️ Terdaftar di URIBL blocklist' : 'Tidak terdaftar',
-    };
-  } catch {
-    return { source: 'URIBL', risk: 'low', note: 'Tidak terdaftar atau DNS timeout' };
   }
 }
 
@@ -230,8 +168,6 @@ export async function GET({ url }: { url: URL }) {
     checkSafeBrowsing(domain),
     checkURLScan(domain),
     checkURLhaus(domain),
-    checkSURBL(domain),
-    checkURIBL(domain),
   ]);
 
   const checks = results

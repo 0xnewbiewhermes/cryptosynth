@@ -64,20 +64,27 @@ Satu lagi yang menarik: mereka punya on-chain safety net buat MDR. Ada mekanisme
 
 ## Data On-Chain dan Market
 
-Ini data yang saya verifikasi langsung dari [CoinMarketCap](https://coinmarketcap.com/currencies/modulr/) per 1 Juni 2026:
+Saya verifikasi dari dua sumber: [CoinMarketCap](https://coinmarketcap.com/currencies/modulr/) dan [CoinGecko API](https://api.coingecko.com/api/v3/coins/modulr). Ada perbedaan data antara keduanya, jadi saya cantumin dua-duanya per 1 Juni 2026:
 
-- **Harga**: $1.57
-- **Market Cap**: $1.28M
-- **FDV**: ~$1.57M
-- **Volume 24h**: $0 (nol, gak ada trading)
+- **Harga**: $1.57 (CMC dan CoinGecko match)
+- **Market Cap**: $1.39M (CoinGecko) / $1.28M (CMC). Beda karena angka circulating supply beda
+- **FDV**: $1.56M
+- **Volume 24h**: $6.092 (CoinGecko). CMC nulis $0, tapi CoinGecko track ada 2 exchange dan 2 market yang aktif
 - **Total Supply**: 1.000.000 eMDR
-- **Circulating**: 815.920 (self-reported, 81.6%)
-- **Holders**: 3.770
-- **CMC Rank**: #7745
-- **Rating CertiK**: 3.4 dari 5
+- **Circulating**: 891.047 (CoinGecko) / 815.920 (CMC, self-reported)
+- **Holders**: 3.770 (CMC)
+- **ATH**: $80.59 (turun 98% dari ATH)
+- **ATL**: $1.48 (hampir di all-time low)
+- **Perubahan harga**: 24h -0.5%, 7d -8.8%, 30d -33.3%
+- **Categories**: Ethereum Ecosystem, Robotics
 - **DEX**: Uniswap (Ethereum)
+- **Rating CertiK**: 3.4 dari 5
 
-Angkanya kecil banget. Market cap $1.28M itu masuk kategori micro-cap yang sangat spekulatif. Volume 24h nol artinya gak ada yang trading sama sekali hari ini. 3.770 holders juga masih sangat sedikit.
+Yang bikin saya agak kaget: harga pernah $80 dan sekarang $1.57. Artinya udah turun 98% dari ATH. Dan 30 hari terakhir masih turun 33%. Ini bukan konsolidasi, ini downtrend yang belum berhenti.
+
+Volume $6.092 dalam 24h itu sangat tipis. Artinya kalau kamu beli atau jual $500 aja, harga bisa gerak signifikan. Likuiditasnya gak ada.
+
+Ada satu lagi yang penting: [GoPlus](https://gopluslabs.io/token-security/1/0x468EAbcB5C914ac59e72691F8fc970880A94f4B3) nge-flag kalau **kontrak creator bisa diubah kapan aja**. Termasuk disable sells, ganti fee, mint token baru, atau transfer token. Ini red flag yang cukup serius buat investor.
 
 ## GitHub: Aktif atau Cuma Kosmetik?
 

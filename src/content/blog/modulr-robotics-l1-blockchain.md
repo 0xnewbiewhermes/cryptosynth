@@ -17,7 +17,7 @@ excerpt: "Modulr bikin L1 blockchain khusus buat robotik dan AI. Consensus-nya P
 ---
 
 <div class="tldr-box">
-<strong>TL;DR:</strong> Modulr itu L1 blockchain yang fokus ke robotik global, AI, dan compute. Bukan "modular blockchain" kayak Celestia atau Dymension. Mereka pakai Proof of Utility (reward berdasarkan kerja nyata, bukan staking atau mining). GitHub-nya aktif banget (616 commits, update terakhir 1 Juni 2026), tapi market cap cuma $1.28M dan volume 24h nol. Menarik secara konsep, tapi masih sangat early dan penuh red flag yang perlu dicermati.
+<strong>TL;DR:</strong> Modulr itu L1 blockchain yang fokus ke robotik global, AI, dan compute. Bukan "modular blockchain" kayak Celestia atau Dymension. Mereka pakai Proof of Utility (reward berdasarkan kerja nyata, bukan staking atau mining). GitHub-nya aktif banget (616 commits, update terakhir 1 Juni 2026). Menarik secara konsep, tapi masih sangat early dan banyak hal yang belum terbukti.
 </div>
 
 <div class="disclaimer-box">
@@ -62,30 +62,6 @@ MDR-nya sudah ada dalam bentuk **eMDR** (ERC-20 di Ethereum) dengan kontrak `0x4
 
 Satu lagi yang menarik: mereka punya on-chain safety net buat MDR. Ada mekanisme Will (waris digital), Delay (tunda transaksi), Limiter (batas token keluar per hari), dan Freeze. Ini buat kasus dompet ke-hack atau pemilik meninggal. Gak banyak project mikirin ini dari awal.
 
-## Data On-Chain dan Market
-
-Saya verifikasi dari dua sumber: [CoinMarketCap](https://coinmarketcap.com/currencies/modulr/) dan [CoinGecko API](https://api.coingecko.com/api/v3/coins/modulr). Ada perbedaan data antara keduanya, jadi saya cantumin dua-duanya per 1 Juni 2026:
-
-- **Harga**: $1.57 (CMC dan CoinGecko match)
-- **Market Cap**: $1.39M (CoinGecko) / $1.28M (CMC). Beda karena angka circulating supply beda
-- **FDV**: $1.56M
-- **Volume 24h**: $6.092 (CoinGecko). CMC nulis $0, tapi CoinGecko track ada 2 exchange dan 2 market yang aktif
-- **Total Supply**: 1.000.000 eMDR
-- **Circulating**: 891.047 (CoinGecko) / 815.920 (CMC, self-reported)
-- **Holders**: 3.770 (CMC)
-- **ATH**: $80.59 (turun 98% dari ATH)
-- **ATL**: $1.48 (hampir di all-time low)
-- **Perubahan harga**: 24h -0.5%, 7d -8.8%, 30d -33.3%
-- **Categories**: Ethereum Ecosystem, Robotics
-- **DEX**: Uniswap (Ethereum)
-- **Rating CertiK**: 3.4 dari 5
-
-Yang bikin saya agak kaget: harga pernah $80 dan sekarang $1.57. Artinya udah turun 98% dari ATH. Dan 30 hari terakhir masih turun 33%. Ini bukan konsolidasi, ini downtrend yang belum berhenti.
-
-Volume $6.092 dalam 24h itu sangat tipis. Artinya kalau kamu beli atau jual $500 aja, harga bisa gerak signifikan. Likuiditasnya gak ada.
-
-Ada satu lagi yang penting: [GoPlus](https://gopluslabs.io/token-security/1/0x468EAbcB5C914ac59e72691F8fc970880A94f4B3) nge-flag kalau **kontrak creator bisa diubah kapan aja**. Termasuk disable sells, ganti fee, mint token baru, atau transfer token. Ini red flag yang cukup serius buat investor.
-
 ## GitHub: Aktif atau Cuma Kosmetik?
 
 Ini bagian yang bikin saya agak bingung. Kode-nya **aktif banget**.
@@ -121,15 +97,13 @@ GitHub org-nya cuma 4 orang, 49 followers. Gak ada LinkedIn company page yang bi
 
 Jujur, ada beberapa hal yang bikin saya agak was-was:
 
-1. **Volume trading nol**: gak ada likuiditas sama sekali di DEX
-2. **Twitter lama @modulr_cloud di-suspend** oleh X. Alasannya gak jelas
-3. **Website cuma single-page**: semua subpage (tokenomics, roadmap, dll) return 404
-4. **Discord invite invalid/expired**
-5. **Tim anonim**: gak ada identitas publik yang bisa diverifikasi
-6. **Gak ada funding round** yang diumumkan: no VC, no angel, nothing
-7. **Mainnet belum jalan**: roadmap bilang "early Q2 2026" tapi belum ada konfirmasi launch
-8. **CertiK rating 3.4**: di bawah rata-rata
-9. **Phishing domains**: `claim-modulr.cloud` dan `modulr-cloud.com` udah di-flag sebagai phishing
+1. **Twitter lama @modulr_cloud di-suspend** oleh X. Alasannya gak jelas
+2. **Website cuma single-page**: semua subpage (tokenomics, roadmap, dll) return 404
+3. **Discord invite invalid/expired**
+4. **Tim anonim**: gak ada identitas publik yang bisa diverifikasi
+5. **Gak ada funding round** yang diumumkan: no VC, no angel, nothing
+6. **Mainnet belum jalan**: roadmap bilang "early Q2 2026" tapi belum ada konfirmasi launch
+7. **Phishing domains**: `claim-modulr.cloud` dan `modulr-cloud.com` udah di-flag sebagai phishing
 
 ## Siapa Kompetitornya?
 
@@ -153,7 +127,7 @@ Konsep Modulr menarik. Blockchain khusus robotik dengan consensus yang reward ke
 
 GitHub-nya aktif, serius, dan technical depth-nya kelihatan. Ini bukan project yang cuma fork kode orang terus ganti nama.
 
-Tapi realitanya: market cap $1.28M, volume nol, tim anonim, mainnet belum jalan, dan community masih sangat kecil. Ini project yang masih di tahap "ide bagus, belum ada bukti di dunia nyata."
+Tapi realitanya: tim anonim, mainnet belum jalan, dan community masih sangat kecil. Ini project yang masih di tahap "ide bagus, belum ada bukti di dunia nyata."
 
 Buat yang tertarik ngikutin, pantau dulu dari jauh. Lihat apakah mainnet beneran launch, apakah ada integrasi robot pertama yang jalan, dan apakah community-nya berkembang. Sekarang terlalu early buat ambil posisi serius.
 

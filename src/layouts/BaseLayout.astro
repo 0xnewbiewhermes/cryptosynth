@@ -104,7 +104,7 @@ const isActive = (path: string) => {
           </div>
           <div class="footer-links">
             <div class="footer-col">
-              <h4>Jelajahi</h4>
+              <p style="font-size:0.6rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(212,212,212,0.45);margin-bottom:0.7rem;font-weight:600">Jelajahi</p>
               <a href="/">Catatan</a>
               <a href="/category/airdrop">Airdrop</a>
               <a href="/category/tutorial">Tutorial</a>
@@ -112,13 +112,13 @@ const isActive = (path: string) => {
               <a href="/articles">Arsip</a>
             </div>
             <div class="footer-col">
-              <h4>Lainnya</h4>
+              <p style="font-size:0.6rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(212,212,212,0.45);margin-bottom:0.7rem;font-weight:600">Lainnya</p>
               <a href="/about">Tentang</a>
               <a href="/disclaimer">Disclaimer</a>
               <a href="/privacy">Privacy</a>
             </div>
             <div class="footer-col">
-              <h4>Ikuti</h4>
+              <p style="font-size:0.6rem;text-transform:uppercase;letter-spacing:0.15em;color:rgba(212,212,212,0.45);margin-bottom:0.7rem;font-weight:600">Ikuti</p>
               <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener">X (Twitter)</a>
               <a href="mailto:hello@cryptosynth.id">Email</a>
               <a href="/rss.xml">RSS Feed</a>
@@ -153,8 +153,8 @@ const isActive = (path: string) => {
         const time = now.toLocaleTimeString('en-US', { hour12: false, hour: '2-digit', minute: '2-digit', second: '2-digit' });
         const el1 = document.getElementById('topbarClock');
         const el2 = document.getElementById('statusClock');
-        if (el1) el1.textContent = time + ' WIB';
-        if (el2) el2.textContent = time + ' WIB';
+        if (el1) el1.textContent = time + ' WIB';
+        if (el2) el2.textContent = time + ' WIB';
       }
       updateClock();
       setInterval(updateClock, 1000);

@@ -29,10 +29,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                 <input
                   type="text"
                   id="checkInput"
+                  name="query"
                   class="scam-input"
-                  placeholder="Contoh: interest-tydro.com atau 0x... atau address Solana"
+                  placeholder="Contoh: interest-tydro.com atau 0x… atau address Solana…"
                   autocomplete="off"
                   spellcheck="false"
+                  aria-label="Cek domain atau address crypto"
                   required
                 />
               </div>
@@ -156,12 +158,14 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     height: 6px;
     background: var(--accent);
     border-radius: 50%;
-    animation: scam-pulse 2s ease-in-out infinite;
   }
 
-  @keyframes scam-pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.4; transform: scale(0.8); }
+  @media (prefers-reduced-motion: no-preference) {
+    .scam-hero-dot { animation: scam-pulse 2s ease-in-out infinite; }
+    @keyframes scam-pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
   }
 
   .scam-hero-title {
@@ -261,7 +265,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     font-size: 0.95rem;
     font-weight: 700;
     cursor: pointer;
-    transition: all 0.25s ease;
+    transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
     display: flex;
     align-items: center;
     gap: 0.5rem;
@@ -296,8 +300,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     animation: scam-spin 0.6s linear infinite;
   }
 
-  @keyframes scam-spin {
-    to { transform: rotate(360deg); }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes scam-spin {
+      to { transform: rotate(360deg); }
+    }
   }
 
   .scam-form-hint {
@@ -341,14 +347,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     animation: scam-result-enter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  @keyframes scam-result-enter {
-    from {
-      opacity: 0;
-      transform: translateY(12px) scale(0.97);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0) scale(1);
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes scam-result-enter {
+      from {
+        opacity: 0;
+        transform: translateY(12px) scale(0.97);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
     }
   }
 
@@ -382,7 +390,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     justify-content: center;
     border-radius: 50%;
     font-size: 1.6rem;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease;
   }
 
   .scam-result-body h2 {

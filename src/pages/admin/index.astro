@@ -18,10 +18,10 @@ const latestPost = published.sort((a, b) => new Date(b.data.pubDate).getTime() -
         <h1>🔐 Admin</h1>
         <p>Masukkan password admin.</p>
         <form id="loginForm">
-          <input type="password" id="loginPassword" placeholder="Password" class="admin-input" autocomplete="current-password" />
+          <input type="password" id="loginPassword" name="password" placeholder="Password…" class="admin-input" autocomplete="current-password" aria-label="Password admin" />
           <button type="submit" class="admin-btn admin-btn-primary">Login</button>
         </form>
-        <p class="login-error" id="loginError"></p>
+        <p class="login-error" id="loginError" role="alert" tabindex="-1"></p>
       </div>
     </div>
 
@@ -192,7 +192,7 @@ const latestPost = published.sort((a, b) => new Date(b.data.pubDate).getTime() -
     font-weight: 600;
     font-family: var(--font-body);
     cursor: pointer;
-    transition: all 0.15s;
+    transition: background 0.15s, color 0.15s, border-color 0.15s, opacity 0.15s;
     text-decoration: none;
     white-space: nowrap;
   }
@@ -224,7 +224,7 @@ const latestPost = published.sort((a, b) => new Date(b.data.pubDate).getTime() -
     font-family: var(--font-body);
     cursor: pointer;
     text-decoration: none;
-    transition: all 0.15s;
+    transition: background 0.15s, color 0.15s, border-color 0.15s;
   }
   .admin-btn-sm-outline:hover {
     background: var(--primary);
@@ -306,7 +306,7 @@ const latestPost = published.sort((a, b) => new Date(b.data.pubDate).getTime() -
     background: var(--bg-card);
     text-decoration: none;
     color: var(--text-primary);
-    transition: all 0.15s;
+    transition: padding-left 0.15s;
   }
   .admin-nav-card:hover {
     padding-left: 1.35rem;
@@ -444,9 +444,11 @@ const latestPost = published.sort((a, b) => new Date(b.data.pubDate).getTime() -
         showDashboard();
       } else {
         loginError.textContent = json.error || 'Login gagal';
+        loginError.focus();
       }
     } catch (err) {
       loginError.textContent = 'Network error';
+      loginError.focus();
     }
   });
 

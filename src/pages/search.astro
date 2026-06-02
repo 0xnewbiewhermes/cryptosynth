@@ -16,7 +16,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         type="text"
         id="searchInput"
         class="search-input"
-        placeholder="Ketik judul, topik, atau tag..."
+        placeholder="Ketik judul, topik, atau tag…"
         autocomplete="off"
         aria-label="Cari catatan"
       />
@@ -98,7 +98,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         </picture>
         <div class="search-result-content">
           <span class="search-result-category">${item.category}</span>
-          <h3 class="search-result-title">${highlightText(item.title, terms)}</h3>
+          <h2 class="search-result-title">${highlightText(item.title, terms)}</h2>
           <p class="search-result-desc">${highlightText(item.description || item.excerpt || '', terms)}</p>
           <span class="search-result-date">${formatDate(item.pubDate)}</span>
         </div>

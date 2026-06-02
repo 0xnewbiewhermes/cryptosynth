@@ -11,10 +11,10 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         <h1>🔐 Admin Login</h1>
         <p>Masukkan password admin untuk mengelola data airdrop.</p>
         <form id="loginForm">
-          <input type="password" id="loginPassword" placeholder="Password" class="admin-input" autocomplete="current-password" />
+          <input type="password" id="loginPassword" name="password" placeholder="Password…" class="admin-input" autocomplete="current-password" aria-label="Password admin" />
           <button type="submit" class="admin-btn admin-btn-primary">Login</button>
         </form>
-        <p class="login-error" id="loginError"></p>
+        <p class="login-error" id="loginError" role="alert" tabindex="-1"></p>
       </div>
     </div>
 
@@ -45,20 +45,20 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
             <form id="airdropForm">
               <div class="form-grid">
                 <div class="form-group">
-                  <label>Project Name *</label>
-                  <input type="text" name="project" class="admin-input" required placeholder="e.g. Polymarket" />
+                  <label for="field-project">Project Name *</label>
+                  <input type="text" id="field-project" name="project" class="admin-input" required placeholder="e.g. Polymarket…" />
                 </div>
                 <div class="form-group">
-                  <label>Symbol</label>
-                  <input type="text" name="symbol" class="admin-input" placeholder="e.g. TBD atau HYPE" />
+                  <label for="field-symbol">Symbol</label>
+                  <input type="text" id="field-symbol" name="symbol" class="admin-input" placeholder="e.g. TBD atau HYPE…" />
                 </div>
                 <div class="form-group">
-                  <label>Chain *</label>
-                  <input type="text" name="chain" class="admin-input" required placeholder="e.g. Polygon, Solana" />
+                  <label for="field-chain">Chain *</label>
+                  <input type="text" id="field-chain" name="chain" class="admin-input" required placeholder="e.g. Polygon, Solana…" />
                 </div>
                 <div class="form-group">
-                  <label>Category *</label>
-                  <select name="category" class="admin-input" required>
+                  <label for="field-category">Category *</label>
+                  <select id="field-category" name="category" class="admin-input" required>
                     <option value="DeFi">DeFi</option>
                     <option value="L1">L1</option>
                     <option value="L2">L2</option>
@@ -68,8 +68,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Status *</label>
-                  <select name="status" class="admin-input" required>
+                  <label for="field-status">Status *</label>
+                  <select id="field-status" name="status" class="admin-input" required>
                     <option value="active">Aktif</option>
                     <option value="confirmed">Terkonfirmasi</option>
                     <option value="upcoming">Segera</option>
@@ -77,16 +77,16 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Risk Level *</label>
-                  <select name="risk" class="admin-input" required>
+                  <label for="field-risk">Risk Level *</label>
+                  <select id="field-risk" name="risk" class="admin-input" required>
                     <option value="low">Low</option>
                     <option value="medium" selected>Medium</option>
                     <option value="high">High</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Cost Estimate *</label>
-                  <select name="cost" class="admin-input" required>
+                  <label for="field-cost">Cost Estimate *</label>
+                  <select id="field-cost" name="cost" class="admin-input" required>
                     <option value="free">Free</option>
                     <option value="low" selected>&lt;$10</option>
                     <option value="medium">$10-50</option>
@@ -94,79 +94,79 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Cost Label</label>
-                  <input type="text" name="costLabel" class="admin-input" placeholder="e.g. Free, <$10, $10-50" />
+                  <label for="field-costLabel">Cost Label</label>
+                  <input type="text" id="field-costLabel" name="costLabel" class="admin-input" placeholder="e.g. Free, &lt;$10, $10-50…" />
                 </div>
                 <div class="form-group">
-                  <label>Difficulty *</label>
-                  <select name="difficulty" class="admin-input" required>
+                  <label for="field-difficulty">Difficulty *</label>
+                  <select id="field-difficulty" name="difficulty" class="admin-input" required>
                     <option value="easy">Easy</option>
                     <option value="medium" selected>Medium</option>
                     <option value="advanced">Advanced</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Sybil Risk</label>
-                  <select name="sybil" class="admin-input">
+                  <label for="field-sybil">Sybil Risk</label>
+                  <select id="field-sybil" name="sybil" class="admin-input">
                     <option value="low">Low</option>
                     <option value="medium" selected>Medium</option>
                     <option value="high">High</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Network</label>
-                  <select name="network" class="admin-input">
+                  <label for="field-network">Network</label>
+                  <select id="field-network" name="network" class="admin-input">
                     <option value="Mainnet">Mainnet</option>
                     <option value="Testnet">Testnet</option>
                   </select>
                 </div>
                 <div class="form-group">
-                  <label>Reward Confidence</label>
-                  <select name="rewardConfidence" class="admin-input">
+                  <label for="field-rewardConfidence">Reward Confidence</label>
+                  <select id="field-rewardConfidence" name="rewardConfidence" class="admin-input">
                     <option value="low">Rendah</option>
                     <option value="medium" selected>Sedang</option>
                     <option value="high">Tinggi</option>
                   </select>
                 </div>
                 <div class="form-group form-full">
-                  <label>Aksi yang Diperlukan *</label>
-                  <input type="text" name="action" class="admin-input" required placeholder="e.g. Trade, bridge, provide LP" />
+                  <label for="field-action">Aksi yang Diperlukan *</label>
+                  <input type="text" id="field-action" name="action" class="admin-input" required placeholder="e.g. Trade, bridge, provide LP…" />
                 </div>
                 <div class="form-group">
-                  <label>Deadline</label>
-                  <input type="text" name="deadline" class="admin-input" placeholder="e.g. Ongoing, Q2 2026" />
+                  <label for="field-deadline">Deadline</label>
+                  <input type="text" id="field-deadline" name="deadline" class="admin-input" placeholder="e.g. Ongoing, Q2 2026…" />
                 </div>
                 <div class="form-group">
-                  <label>Time Needed</label>
-                  <input type="text" name="timeNeeded" class="admin-input" placeholder="e.g. 1-2 jam, Ongoing" />
+                  <label for="field-timeNeeded">Time Needed</label>
+                  <input type="text" id="field-timeNeeded" name="timeNeeded" class="admin-input" placeholder="e.g. 1-2 jam, Ongoing…" />
                 </div>
                 <div class="form-group form-full">
-                  <label>Wallet yang Dibutuhkan</label>
-                  <input type="text" name="wallet" class="admin-input" placeholder="e.g. MetaMask, Phantom" />
+                  <label for="field-wallet">Wallet yang Dibutuhkan</label>
+                  <input type="text" id="field-wallet" name="wallet" class="admin-input" placeholder="e.g. MetaMask, Phantom…" />
                 </div>
                 <div class="form-group form-full">
-                  <label>Estimasi Reward</label>
-                  <input type="text" name="estimated" class="admin-input" placeholder="e.g. Belum ada token" />
+                  <label for="field-estimated">Estimasi Reward</label>
+                  <input type="text" id="field-estimated" name="estimated" class="admin-input" placeholder="e.g. Belum ada token…" />
                 </div>
                 <div class="form-group form-full">
-                  <label>Website Link *</label>
-                  <input type="url" name="link" class="admin-input" required placeholder="https://..." />
+                  <label for="field-link">Website Link *</label>
+                  <input type="url" id="field-link" name="link" class="admin-input" required placeholder="https://…" />
                 </div>
                 <div class="form-group form-full">
-                  <label>Pengumuman Resmi</label>
-                  <input type="url" name="announcement" class="admin-input" placeholder="https://..." />
+                  <label for="field-announcement">Pengumuman Resmi</label>
+                  <input type="url" id="field-announcement" name="announcement" class="admin-input" placeholder="https://…" />
                 </div>
                 <div class="form-group form-full">
-                  <label>Tutorial CryptoSynth</label>
-                  <input type="url" name="tutorial" class="admin-input" placeholder="https://cryptosynth.id/blog/..." />
+                  <label for="field-tutorial">Tutorial CryptoSynth</label>
+                  <input type="url" id="field-tutorial" name="tutorial" class="admin-input" placeholder="https://cryptosynth.id/blog/…" />
                 </div>
                 <div class="form-group form-full">
-                  <label>Catatan</label>
-                  <textarea name="notes" class="admin-input admin-textarea" rows="3" placeholder="Catatan tambahan..."></textarea>
+                  <label for="field-notes">Catatan</label>
+                  <textarea id="field-notes" name="notes" class="admin-input admin-textarea" rows="3" placeholder="Catatan tambahan…"></textarea>
                 </div>
                 <div class="form-group">
-                  <label>Verified</label>
-                  <select name="verified" class="admin-input">
+                  <label for="field-verified">Verified</label>
+                  <select id="field-verified" name="verified" class="admin-input">
                     <option value="true">Ya</option>
                     <option value="false">Tidak</option>
                   </select>
@@ -207,6 +207,22 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   function setToken(t) { localStorage.setItem(TOKEN_KEY, t); }
   function clearToken() { localStorage.removeItem(TOKEN_KEY); }
 
+  // === Unsaved changes tracking ===
+  var savedData = null;
+  var isDirty = false;
+
+  function markDirty() {
+    if (savedData === null) return;
+    isDirty = JSON.stringify(data) !== savedData;
+  }
+
+  window.addEventListener('beforeunload', function(e) {
+    if (isDirty) {
+      e.preventDefault();
+      e.returnValue = '';
+    }
+  });
+
   function showDashboard() {
     loginPanel.style.display = 'none';
     dashboard.style.display = 'block';
@@ -239,9 +255,11 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
         showDashboard();
       } else {
         loginError.textContent = json.error || 'Login gagal';
+        loginError.focus();
       }
     } catch (err) {
       loginError.textContent = 'Network error';
+      loginError.focus();
     }
   });
 
@@ -260,6 +278,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       }
       data = json.data;
       sha = json.sha;
+      savedData = JSON.stringify(data);
+      isDirty = false;
       renderList();
       status('Data loaded! ' + data.length + ' airdrop.', 'success');
     } catch (err) {
@@ -388,6 +408,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
     } else {
       data.push(entry);
     }
+    markDirty();
     renderList();
     closeModal();
     status(editIdx >= 0 ? 'Updated: ' + entry.project : 'Added: ' + entry.project + '. Jangan lupa klik Simpan!', 'info');
@@ -397,6 +418,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
   function deleteAirdrop(idx) {
     if (!confirm('Hapus "' + data[idx].project + '"?')) return;
     data.splice(idx, 1);
+    markDirty();
     renderList();
     status('Deleted. Jangan lupa klik Simpan!', 'warning');
   }
@@ -421,6 +443,8 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
       var json = await res.json();
       if (res.ok && json.success) {
         sha = json.newFileSha;
+        savedData = JSON.stringify(data);
+        isDirty = false;
         status('✅ ' + json.message, 'success');
       } else {
         if (res.status === 401) { showLogin(); return; }

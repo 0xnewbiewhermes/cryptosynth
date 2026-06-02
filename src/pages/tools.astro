@@ -79,8 +79,8 @@ function formatDate(dateStr) {
           </div>
         </div>
         <div class="filter-group">
-          <label class="filter-label">Cari:</label>
-          <input type="text" id="trackerSearch" class="tracker-search-input" placeholder="Nama project..." />
+          <label class="filter-label" for="trackerSearch">Cari:</label>
+          <input type="text" id="trackerSearch" name="search" class="tracker-search-input" placeholder="Nama project…" />
         </div>
       </div>
 
@@ -225,10 +225,12 @@ function formatDate(dateStr) {
                   <input
                     type="text"
                     id="checkInput"
+                    name="query"
                     class="scam-input"
-                    placeholder="Contoh: interest-tydro.com atau 0x... atau address Solana"
+                    placeholder="Contoh: interest-tydro.com atau 0x… atau address Solana…"
                     autocomplete="off"
                     spellcheck="false"
+                    aria-label="Cek domain atau address crypto"
                     required
                   />
                 </div>
@@ -379,7 +381,7 @@ function formatDate(dateStr) {
     cursor: pointer;
     font-family: var(--font-mono);
     border-bottom: 2px solid transparent;
-    transition: all 0.2s ease;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
     position: relative;
   }
 
@@ -732,7 +734,7 @@ function formatDate(dateStr) {
   .card-detail {
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.3s cubic-bezier(0.16, 1, 0.3, 1), padding 0.3s;
+    transition: grid-template-rows 0.3s cubic-bezier(0.16, 1, 0.3, 1), padding 0.3s;
     padding: 0 1rem;
     border-top: 0px solid transparent;
   }
@@ -863,12 +865,14 @@ function formatDate(dateStr) {
     height: 6px;
     background: var(--primary);
     border-radius: 50%;
-    animation: scam-pulse 2s ease-in-out infinite;
   }
 
-  @keyframes scam-pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.4; transform: scale(0.8); }
+  @media (prefers-reduced-motion: no-preference) {
+    .scam-hero-dot { animation: scam-pulse 2s ease-in-out infinite; }
+    @keyframes scam-pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.8); }
+    }
   }
 
   .scam-hero-title {
@@ -985,7 +989,9 @@ function formatDate(dateStr) {
     animation: scam-spin 0.6s linear infinite;
   }
 
-  @keyframes scam-spin { to { transform: rotate(360deg); } }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes scam-spin { to { transform: rotate(360deg); } }
+  }
 
   .scam-form-hint {
     text-align: left;
@@ -1023,9 +1029,11 @@ function formatDate(dateStr) {
     animation: scam-result-enter 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   }
 
-  @keyframes scam-result-enter {
-    from { opacity: 0; transform: translateY(12px) scale(0.97); }
-    to { opacity: 1; transform: translateY(0) scale(1); }
+  @media (prefers-reduced-motion: no-preference) {
+    @keyframes scam-result-enter {
+      from { opacity: 0; transform: translateY(12px) scale(0.97); }
+      to { opacity: 1; transform: translateY(0) scale(1); }
+    }
   }
 
   .scam-result-glow {
@@ -1223,23 +1231,29 @@ function formatDate(dateStr) {
       scam: document.getElementById('panel-scam'),
     };
 
-    // Restore saved tab
-    const saved = localStorage.getItem('tools-active-tab') || 'tracker';
+    function getTabFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('tab') || 'tracker';
+    }
 
-    function switchTab(tabId) {
+    function switchTab(tabId, updateUrl) {
       tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === tabId));
       Object.keys(panels).forEach(id => {
         panels[id].classList.toggle('active', id === tabId);
       });
-      localStorage.setItem('tools-active-tab', tabId);
+      if (updateUrl) {
+        const url = new URL(window.location);
+        url.searchParams.set('tab', tabId);
+        window.history.replaceState({}, '', url);
+      }
     }
 
     tabs.forEach(tab => {
-      tab.addEventListener('click', () => switchTab(tab.dataset.tab));
+      tab.addEventListener('click', () => switchTab(tab.dataset.tab, true));
     });
 
-    // Activate saved tab on load
-    switchTab(saved);
+    // Activate tab from URL (or default)
+    switchTab(getTabFromUrl(), false);
   })();
 
   // ===== TRACKER JS =====
@@ -1249,7 +1263,13 @@ function formatDate(dateStr) {
     const searchInput = document.getElementById('trackerSearch');
     const countEl = document.getElementById('visibleCount');
     if (!pills.length || !cards.length) return;
-    let activeCategory = 'all';
+
+    function getCategoryFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      return params.get('category') || 'all';
+    }
+
+    let activeCategory = getCategoryFromUrl();
 
     function updateCount() {
       const visible = document.querySelectorAll('.airdrop-card:not([style*="display: none"])').length;
@@ -1269,19 +1289,42 @@ function formatDate(dateStr) {
       updateCount();
     }
 
+    function setActivePill(category) {
+      pills.forEach(p => {
+        p.classList.toggle('active', (p.dataset.category || 'all') === category);
+      });
+      activeCategory = category;
+      filterCards();
+      const url = new URL(window.location);
+      if (category === 'all') {
+        url.searchParams.delete('category');
+      } else {
+        url.searchParams.set('category', category);
+      }
+      window.history.replaceState({}, '', url);
+    }
+
     pills.forEach(pill => {
       pill.addEventListener('click', () => {
-        pills.forEach(p => p.classList.remove('active'));
-        pill.classList.add('active');
-        activeCategory = pill.dataset.category || 'all';
-        filterCards();
+        setActivePill(pill.dataset.category || 'all');
       });
     });
 
     searchInput?.addEventListener('input', filterCards);
 
+    // Restore category from URL
+    if (activeCategory !== 'all') {
+      setActivePill(activeCategory);
+    }
+
+    // Card expand with keyboard support
     document.querySelectorAll('.card-summary').forEach(summary => {
-      summary.addEventListener('click', (e) => {
+      summary.setAttribute('tabindex', '0');
+      summary.setAttribute('role', 'button');
+
+      function toggleCard(e) {
+        if (e.type === 'keydown' && e.key !== 'Enter' && e.key !== ' ') return;
+        if (e.type === 'keydown') e.preventDefault();
         if (e.target.closest('.card-project-link')) return;
         const idx = summary.dataset.idx;
         const detail = document.getElementById('detail-' + idx);
@@ -1295,7 +1338,10 @@ function formatDate(dateStr) {
             card.classList.add('expanded');
           }
         }
-      });
+      }
+
+      summary.addEventListener('click', toggleCard);
+      summary.addEventListener('keydown', toggleCard);
     });
   })();
 

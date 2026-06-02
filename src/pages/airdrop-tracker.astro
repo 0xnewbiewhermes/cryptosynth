@@ -62,8 +62,8 @@ function formatDate(dateStr) {
         </div>
       </div>
       <div class="filter-group">
-        <label class="filter-label">Cari:</label>
-        <input type="text" id="trackerSearch" class="tracker-search-input" placeholder="Nama project..." />
+        <label class="filter-label" for="trackerSearch">Cari:</label>
+        <input type="text" id="trackerSearch" name="search" class="tracker-search-input" placeholder="Nama project…" />
       </div>
     </div>
 
@@ -193,7 +193,13 @@ function formatDate(dateStr) {
   const cards = document.querySelectorAll('.airdrop-card');
   const searchInput = document.getElementById('trackerSearch') as HTMLInputElement;
   const countEl = document.getElementById('visibleCount')!;
-  let activeCategory = 'all';
+
+  function getCategoryFromUrl() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get('category') || 'all';
+  }
+
+  let activeCategory = getCategoryFromUrl();
 
   function updateCount() {
     const visible = document.querySelectorAll('.airdrop-card:not([style*="display: none"])').length;
@@ -213,32 +219,49 @@ function formatDate(dateStr) {
     updateCount();
   }
 
+  function setActivePill(category: string) {
+    pills.forEach(p => p.classList.toggle('active', ((p as HTMLElement).dataset.category || 'all') === category));
+    activeCategory = category;
+    filterCards();
+    const url = new URL(window.location);
+    if (category === 'all') {
+      url.searchParams.delete('category');
+    } else {
+      url.searchParams.set('category', category);
+    }
+    window.history.replaceState({}, '', url);
+  }
+
   pills.forEach(pill => {
     pill.addEventListener('click', () => {
-      pills.forEach(p => p.classList.remove('active'));
-      pill.classList.add('active');
-      activeCategory = (pill as HTMLElement).dataset.category || 'all';
-      filterCards();
+      setActivePill((pill as HTMLElement).dataset.category || 'all');
     });
   });
 
   searchInput?.addEventListener('input', filterCards);
 
-  // Expandable cards
+  // Restore category from URL
+  if (activeCategory !== 'all') {
+    setActivePill(activeCategory);
+  }
+
+  // Expandable cards with keyboard support
   document.querySelectorAll('.card-summary').forEach(summary => {
-    summary.addEventListener('click', (e) => {
+    (summary as HTMLElement).setAttribute('tabindex', '0');
+    summary.setAttribute('role', 'button');
+
+    function toggleCard(e: Event) {
+      if (e.type === 'keydown' && (e as KeyboardEvent).key !== 'Enter' && (e as KeyboardEvent).key !== ' ') return;
+      if (e.type === 'keydown') e.preventDefault();
       const target = e.target as HTMLElement;
-      // Don't toggle if clicking the project link
       if (target.closest('.card-project-link')) return;
 
       const idx = (summary as HTMLElement).dataset.idx;
       const detail = document.getElementById('detail-' + idx);
       const card = summary.closest('.airdrop-card');
-      const btn = summary.querySelector('.card-expand-btn');
 
       if (detail && card) {
         const isOpen = detail.classList.contains('open');
-        // Close all others
         document.querySelectorAll('.card-detail.open').forEach(d => d.classList.remove('open'));
         document.querySelectorAll('.airdrop-card.expanded').forEach(c => c.classList.remove('expanded'));
 
@@ -247,6 +270,9 @@ function formatDate(dateStr) {
           card.classList.add('expanded');
         }
       }
-    });
+    }
+
+    summary.addEventListener('click', toggleCard);
+    summary.addEventListener('keydown', toggleCard);
   });
 </script>

@@ -59,7 +59,7 @@ const posts = (await getCollection('blog')).sort(
     <!-- Command input -->
     <div class="term-input-line" id="termInputLine">
       <span class="term-prompt">gideon@cryptosynth:~$</span>
-      <input type="text" id="termInput" class="term-input" placeholder="ketik help..." spellcheck="false" autocomplete="off" autocapitalize="off" />
+      <input type="text" id="termInput" name="command" class="term-input" placeholder="ketik help…" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="Terminal command input" />
     </div>
 
     <!-- Mobile quick actions -->

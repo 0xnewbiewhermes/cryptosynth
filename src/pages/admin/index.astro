@@ -306,10 +306,10 @@ const latestPost = published.sort((a, b) => new Date(b.data.pubDate).getTime() -
     background: var(--bg-card);
     text-decoration: none;
     color: var(--text-primary);
-    transition: padding-left 0.15s;
+    transition: transform 0.15s;
   }
   .admin-nav-card:hover {
-    padding-left: 1.35rem;
+    transform: translateX(0.35rem);
   }
   .admin-nav-card:hover .admin-nav-arrow {
     color: var(--primary);

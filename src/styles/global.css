@@ -98,6 +98,7 @@ a {
   transition: opacity 0.2s ease;
 }
 a:hover { opacity: 0.8; }
+a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; opacity: 1; }
 
 /* ===== TOPBAR (Terminal window chrome) ===== */
 .topbar {
@@ -180,6 +181,11 @@ a:hover { opacity: 0.8; }
   opacity: 1;
 }
 
+.topbar-btn:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}
+
 .topbar-clock {
   font-size: 0.65rem;
   color: var(--text-dim);
@@ -207,6 +213,11 @@ a:hover { opacity: 0.8; }
   color: var(--text-primary);
   background: var(--bg-hover);
   opacity: 1;
+}
+
+.nav a:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: -2px;
 }
 
 .nav a.active {
@@ -338,6 +349,10 @@ a:hover { opacity: 0.8; }
 
 .term-input::placeholder {
   color: var(--text-dim);
+}
+
+.term-input:focus-visible {
+  outline: none;
 }
 
 /* ===== READING PROGRESS BAR ===== */
@@ -818,6 +833,11 @@ a:hover { opacity: 0.8; }
   opacity: 1;
 }
 
+.tag-chip:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
+}
+
 /* Related articles */
 .related-section h3 {
   font-size: 0.65rem;
@@ -927,6 +947,11 @@ a:hover { opacity: 0.8; }
 .scroll-top-btn:hover {
   border-color: var(--primary);
   color: var(--primary-light);
+}
+
+.scroll-top-btn:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
 }
 
 /* ===== SKIP LINK ===== */
@@ -1133,6 +1158,11 @@ a:hover { opacity: 0.8; }
 
 .menu-toggle:hover {
   color: var(--text-secondary);
+}
+
+.menu-toggle:focus-visible {
+  outline: 2px solid var(--primary-light);
+  outline-offset: 2px;
 }
 
 @media (max-width: 768px) {
@@ -1442,6 +1472,18 @@ a:hover { opacity: 0.8; }
 
 /* ===== ANIMATIONS ===== */
 @media (prefers-reduced-motion: no-preference) {
+  /* Article list stagger */
+  .article-entry {
+    opacity: 0;
+    animation: article-reveal 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation-delay: calc(var(--j, 0) * 0.04s);
+  }
+
+  @keyframes article-reveal {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
   .fade-up {
     opacity: 0;
     transform: translateY(10px);

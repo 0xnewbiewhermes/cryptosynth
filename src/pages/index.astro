@@ -12,17 +12,17 @@ const posts = (await getCollection('blog')).sort(
   <div class="terminal-home">
     <!-- Welcome output (visible by default, hidden after first interaction) -->
     <div class="term-welcome" id="termWelcome">
-      <pre class="ascii-art"> ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ ███████╗██╗   ██╗███╗   ██╗████████╗██╗  ██╗
+      <pre class="ascii-art" aria-hidden="true"> ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ ███████╗██╗   ██╗███╗   ██╗████████╗██╗  ██╗
 ██╔════╝██╔══██╗╚██╗ ██╔╝██╔══██╗╚══██╔══╝██╔═══██╗██╔════╝╚██╗ ██╔╝████╗  ██║╚══██╔══╝██║  ██║
 ██║     ██████╔╝ ╚████╔╝ ██████╔╝   ██║   ██║   ██║███████╗ ╚████╔╝ ██╔██╗ ██║   ██║   ███████║
 ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██║   ██║╚════██║  ╚██╔╝  ██║╚██╗██║   ██║   ██╔══██║
 ╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝███████║   ██║   ██║ ╚████║   ██║   ██║  ██║
  ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═══╝   ╚═╝   ╚═╝</pre>
-      <h1 class="term-line term-highlight home-h1">Catatan Crypto Personal</h1>
-      <div class="term-line term-dim">Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</div>
-      <div class="term-line">&nbsp;</div>
-      <div class="term-line">Ketik <span class="term-warn">help</span> untuk lihat semua command.</div>
-      <div class="term-line">&nbsp;</div>
+      <h1 class="term-line term-highlight home-h1 term-reveal" style="--i:0">Catatan Crypto Personal</h1>
+      <div class="term-line term-dim term-reveal" style="--i:1">Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</div>
+      <div class="term-line term-reveal" style="--i:2">&nbsp;</div>
+      <div class="term-line term-reveal" style="--i:3">Ketik <span class="term-warn">help</span> untuk lihat semua command.</div>
+      <div class="term-line term-reveal" style="--i:4">&nbsp;</div>
     </div>
 
     <!-- Command output area -->
@@ -38,7 +38,7 @@ const posts = (await getCollection('blog')).sort(
         <span class="term-dim" style="color:rgba(212,212,212,0.20)">  ───  ───            ─────                                              ────</span>
       </div>
       {posts.map((post, index) => (
-        <a href={`/blog/${post.id}`} class="article-entry">
+        <a href={`/blog/${post.id}`} class="article-entry" style={`--j:${index}`}>
           <div class="entry-meta">
             <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
             <span class="entry-time">{relativeTime(post.data.pubDate)}</span>
@@ -152,6 +152,57 @@ const posts = (await getCollection('blog')).sort(
     font-weight: 500;
     margin: 0;
     line-height: 1.75;
+  }
+
+  /* Terminal-style reveal animation */
+  @media (prefers-reduced-motion: no-preference) {
+    .ascii-art {
+      opacity: 0;
+      animation: term-fade-in 0.6s ease forwards;
+    }
+
+    .term-reveal {
+      opacity: 0;
+      transform: translateY(4px);
+      animation: term-reveal 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation-delay: calc(0.3s + var(--i, 0) * 0.08s);
+    }
+
+    .article-entry {
+      opacity: 0;
+      animation: term-reveal 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+      animation-delay: calc(0.6s + var(--j, 0) * 0.04s);
+    }
+
+    @keyframes term-fade-in {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+
+    @keyframes term-reveal {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  }
+
+  /* Terminal cursor blink on input line */
+  @media (prefers-reduced-motion: no-preference) {
+    .term-input-line::before {
+      content: '';
+      display: inline-block;
+      width: 0.5rem;
+      height: 1rem;
+      background: var(--accent-success);
+      opacity: 0.7;
+      animation: cursor-blink 1.2s step-end infinite;
+      margin-right: 0.25rem;
+      flex-shrink: 0;
+    }
+
+    @keyframes cursor-blink {
+      0%, 100% { opacity: 0.7; }
+      50% { opacity: 0; }
+    }
   }
 
   /* Help output */

@@ -37,7 +37,7 @@ const categories = ['Semua', 'Airdrop', 'Tutorial', 'Node'];
         <span class="term-dim" style="color:rgba(212,212,212,0.20)">  ───  ───            ─────                                              ────</span>
       </div>
       {posts.map((post, index) => (
-        <a href={`/blog/${post.id}`} class="article-entry">
+        <a href={`/blog/${post.id}`} class="article-entry" style={`--j:${index}`}>
           <div class="entry-meta">
             <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
             <span class="entry-time">{relativeTime(post.data.pubDate)}</span>

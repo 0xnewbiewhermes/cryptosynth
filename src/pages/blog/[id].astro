@@ -75,7 +75,7 @@ const wordCount = post.body?.split(/\s+/).length || 0;
 const termPath = `~/cryptosynth/catatan/${post.id}.md`;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} category={post.data.category} tags={post.data.tags} faq={faqItems} terminalPath={termPath}>
+<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} author={post.data.author || 'Gideon'} category={post.data.category} tags={post.data.tags} faq={faqItems} terminalPath={termPath}>
   <article class="article-container">
     <!-- Back link -->
     <a href="/" class="article-back">← kembali ke daftar</a>

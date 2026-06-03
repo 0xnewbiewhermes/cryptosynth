@@ -23,6 +23,20 @@
   font-display: swap;
   src: url('/fonts/source-code-pro-600.ttf') format('truetype');
 }
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/source-code-pro-700.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url('/fonts/source-code-pro-900.ttf') format('truetype');
+}
 
 :root {
   /* Light theme — backgrounds */
@@ -99,7 +113,7 @@ html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: clip;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -159,7 +173,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 .topbar-dot--g { background: var(--dot-green); }
 
 .topbar-path {
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   color: var(--text-secondary);
   margin-left: 0.4rem;
   white-space: nowrap;
@@ -186,7 +200,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
 .topbar-btn {
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   color: var(--text-secondary);
   background: transparent;
   border: 1px solid var(--border-medium);
@@ -213,7 +227,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .topbar-clock {
-  font-size: 0.88rem;
+  font-size: 0.75rem;
   color: var(--text-dim);
   font-variant-numeric: tabular-nums;
 }
@@ -227,7 +241,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
 .nav a {
   font-family: var(--font-mono);
-  font-size: 0.9rem;
+  font-size: 0.82rem;
   color: var(--text-secondary);
   text-decoration: none;
   padding: 0.3rem 0.65rem;
@@ -278,7 +292,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   align-items: center;
   padding: 0 1rem;
   padding-bottom: env(safe-area-inset-bottom, 0px);
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
   flex-shrink: 0;
   gap: 1.5rem;
@@ -473,7 +487,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
 .entry-num {
   color: var(--text-muted);
-  font-size: 0.84rem;
+  font-size: 0.75rem;
   font-weight: 500;
   margin-right: 0.5rem;
   font-variant-numeric: tabular-nums;
@@ -481,7 +495,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
 .entry-tag {
   color: var(--accent-warn);
-  font-size: 0.84rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-right: 0.5rem;
@@ -516,14 +530,14 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .entry-date {
-  font-size: 0.88rem;
+  font-size: 0.75rem;
   color: var(--text-muted);
   display: inline;
   font-variant-numeric: tabular-nums;
 }
 
 .entry-time {
-  font-size: 0.84rem;
+  font-size: 0.72rem;
   color: var(--text-dim);
   margin-left: 0.35rem;
   font-variant-numeric: tabular-nums;
@@ -537,7 +551,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .article-back {
-  font-size: 0.84rem;
+  font-size: 0.78rem;
   color: var(--accent-prompt);
   text-decoration: none;
   display: inline-flex;
@@ -549,7 +563,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 .article-back:hover { color: var(--primary-light); opacity: 1; }
 
 .article-tag-label {
-  font-size: 0.84rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--accent-warn);
@@ -579,7 +593,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .meta-item {
-  font-size: 0.88rem;
+  font-size: 0.78rem;
   color: var(--text-secondary);
   display: flex;
   align-items: center;
@@ -763,7 +777,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   border: 1px solid var(--border-medium);
   color: var(--text-muted);
   font-family: var(--font-mono);
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   padding: 0.15rem 0.45rem;
   cursor: pointer;
   transition: all 0.2s;
@@ -866,7 +880,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
 /* Related articles */
 .related-section h3 {
-  font-size: 0.88rem;
+  font-size: 0.75rem;
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--text-dim);
@@ -894,14 +908,14 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .related-num {
-  font-size: 0.82rem;
+  font-size: 0.72rem;
   color: var(--text-dim);
   flex-shrink: 0;
   font-variant-numeric: tabular-nums;
 }
 
 .related-tag {
-  font-size: 0.88rem;
+  font-size: 0.72rem;
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--accent-warn);
@@ -917,7 +931,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .related-date {
-  font-size: 0.82rem;
+  font-size: 0.72rem;
   color: var(--text-dim);
   margin-top: 0.15rem;
   font-variant-numeric: tabular-nums;
@@ -935,7 +949,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .article-nav a {
-  font-size: 0.84rem;
+  font-size: 0.78rem;
   color: var(--accent-prompt);
   text-decoration: none;
   transition: opacity 0.2s;
@@ -989,7 +1003,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   color: var(--text-primary);
   padding: 0.5rem 1rem;
   z-index: 200;
-  font-size: 0.8rem;
+  font-size: 0.72rem;
 }
 
 .skip-link:focus {
@@ -1064,7 +1078,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   padding-top: 1.25rem;
   margin-top: 1.25rem;
   border-top: 1px solid var(--border-subtle);
-  font-size: 0.74rem;
+  font-size: 0.72rem;
   color: var(--text-muted);
 }
 
@@ -1120,7 +1134,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   border: none;
   color: var(--text-primary);
   font-family: var(--font-mono);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   outline: none;
 }
 
@@ -1147,7 +1161,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   padding: 0.5rem 0.65rem;
   color: var(--text-primary);
   text-decoration: none;
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   transition: background 0.15s, border-color 0.15s;
   border-left: 2px solid transparent;
 }
@@ -1159,7 +1173,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .search-result-item .result-tag {
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   color: var(--accent-warn);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1221,7 +1235,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
   .nav a {
     padding: 0.6rem 1rem;
-    font-size: 0.82rem;
+    font-size: 0.78rem;
     color: var(--text-muted);
     text-decoration: none;
     transition: all 0.15s;
@@ -1257,7 +1271,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   }
 
   .ascii-art {
-    font-size: 0.32rem;
+    display: none;
   }
 
   .term-input-line {
@@ -1459,7 +1473,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   .entry-tag {
     display: inline;
     margin-right: 0.35rem;
-    font-size: 0.8rem;
+    font-size: 0.72rem;
   }
 
   .entry-title {

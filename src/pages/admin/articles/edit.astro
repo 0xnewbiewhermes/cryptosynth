@@ -65,9 +65,9 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   .adm-input { width: 100%; padding: 0.7rem 0.85rem; border: 1px solid var(--border); border-radius: 0; background: var(--bg-card); color: var(--text-primary); font-size: 0.95rem; font-family: var(--font-body); outline: none; }
   .adm-input:focus { border-color: var(--primary); }
   .adm-btn { display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.6rem 1.1rem; border: 1px solid transparent; border-radius: 0; font-size: 0.82rem; font-weight: 600; font-family: var(--font-body); cursor: pointer; transition: all 0.15s; text-decoration: none; white-space: nowrap; }
-  .adm-btn-primary { background: var(--primary); color: #fff; border-color: var(--primary); width: 100%; margin-top: 0.75rem; }
+  .adm-btn-primary { background: var(--primary); color: var(--text-inverse); border-color: var(--primary); width: 100%; margin-top: 0.75rem; }
   .adm-btn-primary:hover { opacity: 0.9; }
-  .adm-btn-success { background: #16a34a; color: #fff; border-color: #16a34a; }
+  .adm-btn-success { background: #16a34a; color: var(--text-inverse); border-color: #16a34a; }
   .adm-btn-success:hover { opacity: 0.9; }
   .adm-btn-outline { background: transparent; color: var(--text-primary); border-color: var(--border); }
   .adm-btn-outline:hover { border-color: var(--text-primary); }
@@ -124,7 +124,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
   .preview-content h2 { font-size: 1.25rem; }
   .preview-content h3 { font-size: 1.1rem; }
   .preview-content p { margin: 0.5rem 0; }
-  .preview-content pre { background: #1C1812; color: #e8e6e3; padding: 1rem; overflow-x: auto; font-size: 0.8rem; margin: 0.75rem 0; }
+  .preview-content pre { background: var(--bg-elevated); color: var(--text-primary); padding: 1rem; overflow-x: auto; font-size: 0.8rem; margin: 0.75rem 0; }
   .preview-content code { font-family: 'JetBrains Mono', monospace; font-size: 0.85em; }
   .preview-content :not(pre) > code { background: rgba(0,0,0,0.06); padding: 0.1em 0.3em; }
   .preview-content a { color: var(--primary); }

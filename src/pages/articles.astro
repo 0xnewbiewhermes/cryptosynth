@@ -34,7 +34,7 @@ const categories = ['Semua', 'Airdrop', 'Tutorial', 'Node'];
         <span class="term-dim">  NUM  TAG            TITLE                                              DATE</span>
       </div>
       <div class="term-line">
-        <span class="term-dim" style="color:rgba(212,212,212,0.20)">  ───  ───            ─────                                              ────</span>
+        <span class="term-dim" style="color:var(--border)">  ───  ───            ─────                                              ────</span>
       </div>
       {posts.map((post, index) => (
         <a href={`/blog/${post.id}`} class="article-entry" style={`--j:${index}`}>

@@ -105,7 +105,6 @@ Sementara Modulr masih di tahap "618 commits dan website broken," peaq udah puny
 | Mesin onboard | 0 (klaim pilot program) | 6M+ |
 | Partnership | Gak ada yang terverifikasi | Deutsche Telekom, Bosch, Airbus, Mastercard |
 | GitHub activity | Stalling (sejak 2 Juni) | Active development |
-| Token | eMDR (ERC-20, 1M supply) | PEAQ (native token, listed) |
 | Community | 2 stars, 1 fork, Twitter suspended | Active community, multiple channels |
 
 Saya gak nulis ini buat nge-dump Modulr. Tapi kalo kamu bandingin kedua project ini, bedanya terlalu jauh buat di-ignore.

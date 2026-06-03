@@ -2,7 +2,7 @@
 title: "Modulr Lanjutan: Proof of Utility Bukan Consensus, dan GitHub-nya Udah Stalling"
 slug: modulr-robotics-l1-blockchain-lanjutan
 category: "Journal"
-description: "Update Modulr setelah 2 minggu: GitHub cuma 2 commit baru, Proof of Utility ternyata bukan consensus mechanism, dan peaq jauh lebih matang. Analisis jujur."
+description: "Update Modulr 2 hari setelah catatan pertama: GitHub langsung stalling, Proof of Utility ternyata bukan consensus mechanism, dan peaq jauh lebih matang."
 pubDate: 2026-06-03T10:15:00Z
 author: "Gideon"
 tags:
@@ -13,22 +13,22 @@ tags:
   - early-stage
 heroImage: "/images/hero/modulr-robotics-l1-blockchain-lanjutan.png"
 ogImage: "/images/og/modulr-robotics-l1-blockchain-lanjutan.png"
-excerpt: "Lanjutan analisis Modulr setelah 2 minggu. GitHub stalling, Proof of Utility ternyata bukan consensus beneran, dan kompetitor sudah jauh di depan."
+excerpt: "Lanjutan analisis Modulr 2 hari kemudian. GitHub langsung stalling setelah 616 commits, Proof of Utility ternyata bukan consensus beneran, dan kompetitor sudah jauh di depan."
 ---
 
 <div class="tldr-box">
-<strong>TL;DR:</strong> Lanjutan dari catatan pertama soal Modulr. Setelah 2 minggu, cuma 2 commit baru di GitHub (total 618, zero sejak 2 Juni). Proof of Utility yang mereka klaim ternyata bukan consensus mechanism: lebih ke reward/verification system. Dan yang paling bikin saya mikir ulang: gak ada whitepaper, gak ada technical paper, domain modulr.network malah parked. Sementara itu peaq udah onboard 6M+ mesin dengan partnership Deutsche Telekom, Bosch, dan Mastercard.
+<strong>TL;DR:</strong> Lanjutan dari catatan pertama soal Modulr. Baru 2 hari setelah catatan pertama, dan GitHub-nya udah berhenti: cuma 2 commit baru (total 618, zero sejak 2 Juni). Proof of Utility yang mereka klaim ternyata bukan consensus mechanism: lebih ke reward/verification system. Dan yang paling bikin saya mikir ulang: gak ada whitepaper, gak ada technical paper, domain modulr.network malah parked. Sementara itu peaq udah onboard 6M+ mesin dengan partnership Deutsche Telekom, Bosch, dan Mastercard.
 </div>
 
 <div class="disclaimer-box">
 <strong>â ï¸ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
 </div>
 
-Dua hari lalu saya nulis soal [Modulr](https://cryptosynth.id/blog/modulr-robotics-l1-blockchain), L1 blockchain yang klaim fokus ke robotik. Waktu itu kesan saya: konsep menarik, GitHub aktif, tapi banyak red flag. Sekarang saya balik lagi buat cek progress-nya. Hasilnya? Agak mengecewakan.
+2 hari lalu saya nulis soal [Modulr](https://cryptosynth.id/blog/modulr-robotics-l1-blockchain), L1 blockchain yang klaim fokus ke robotik. Waktu itu kesan saya: konsep menarik, GitHub aktif (616 commits), tapi banyak red flag. Baru 2 hari, saya balik lagi buat cek. Hasilnya? Agak mengecewakan.
 
 ## GitHub: Dari Aktif ke Stalling
 
-Ini yang paling kelihatan. Dua minggu lalu saya catat 616 commits di repo utama `modulr-core`. Sekarang?
+Ini yang paling kelihatan. 2 hari lalu saya catat 616 commits di repo utama `modulr-core`, dengan update harian yang konsisten. Sekarang?
 
 - **Total commits: 618** (tambah 2 doang)
 - **Last push: 1 Juni 2026, 20:24 UTC**
@@ -36,7 +36,7 @@ Ini yang paling kelihatan. Dua minggu lalu saya catat 616 commits di repo utama 
 
 Dua commit terakhir itu cuma bugfix: "anchors blocks thread logic" dan "fix last-mile finalizer deadlocks." Selebihnya? Hening. Gak ada commit baru, gak ada PR yang di-merge, gak ada activity sama sekali.
 
-Bandingkan dengan 2 minggu sebelumnya (Mei-Juni) yang rata-rata 5-10 commit per hari. Penurunan dari aktif banget ke total berhenti itu sinyal yang gak bagus. Bisa jadi tim lagi fokus di branch lain, atau bisa jadi development-nya udah slowdown. Either way, buat project yang bilang "pilot program accepting teams," ini gak matching.
+Yang bikin saya heran: pas artikel pertama ditulis (1 Juni), development-nya lagi aktif banget. Rata-rata 5-10 commit per hari di minggu-minggu sebelumnya. Begitu saya publish catatan soal mereka, langsung berhenti. Bisa jadi timing-nya kebetulan, bisa jadi tim lagi fokus di branch lain. Tapi penurunan dari "aktif banget" ke "total hening" dalam hitungan hari itu sinyal yang gak bagus. Buat project yang bilang "pilot program accepting teams," ini gak matching.
 
 ## Proof of Utility: Bukan yang Saya Kira
 
@@ -104,7 +104,7 @@ Sementara Modulr masih di tahap "618 commits dan website broken," peaq udah puny
 | Mainnet | Belum | Udah jalan |
 | Mesin onboard | 0 (klaim pilot program) | 6M+ |
 | Partnership | Gak ada yang terverifikasi | Deutsche Telekom, Bosch, Airbus, Mastercard |
-| GitHub activity | Stalling (2 minggu zero commits) | Active development |
+| GitHub activity | Stalling (sejak 2 Juni) | Active development |
 | Token | eMDR (ERC-20, 1M supply) | PEAQ (native token, listed) |
 | Community | 2 stars, 1 fork, Twitter suspended | Active community, multiple channels |
 

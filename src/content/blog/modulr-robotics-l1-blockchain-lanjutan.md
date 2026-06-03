@@ -21,10 +21,10 @@ excerpt: "Lanjutan analisis Modulr setelah 2 minggu. GitHub stalling, Proof of U
 </div>
 
 <div class="disclaimer-box">
-<strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
+<strong>â ï¸ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
 </div>
 
-Dua minggu lalu saya nulis soal [Modulr](https://cryptosynth.id/blog/modulr-robotics-l1-blockchain), L1 blockchain yang klaim fokus ke robotik. Waktu itu kesan saya: konsep menarik, GitHub aktif, tapi banyak red flag. Sekarang saya balik lagi buat cek progress-nya. Hasilnya? Agak mengecewakan.
+Dua hari lalu saya nulis soal [Modulr](https://cryptosynth.id/blog/modulr-robotics-l1-blockchain), L1 blockchain yang klaim fokus ke robotik. Waktu itu kesan saya: konsep menarik, GitHub aktif, tapi banyak red flag. Sekarang saya balik lagi buat cek progress-nya. Hasilnya? Agak mengecewakan.
 
 ## GitHub: Dari Aktif ke Stalling
 

@@ -14,8 +14,8 @@ dist/
 vercel.json.bak
 .vercel/
 
-# Large generated data
-# public/data/
+# Large generated data (fetched at build time via prebuild script)
+public/data/scam-alerts.json
 
 # Nested repo copy
 cryptosynth/

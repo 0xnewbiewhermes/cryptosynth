@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "astro dev",
+    "prebuild": "bash scripts/fetch-scam-alerts.sh",
     "build": "astro build",
     "postbuild": "node scripts/optimize-images.mjs",
     "preview": "astro preview"

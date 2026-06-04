@@ -1,0 +1,195 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const personSchema = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Gideon",
+  "url": "https://cryptosynth.id/about/gideon",
+  "image": "https://cryptosynth.id/images/avatar.svg",
+  "jobTitle": "Crypto Practitioner",
+  "description": "Crypto practitioner, node operator, airdrop farmer, dan builder. Menulis catatan crypto personal dari sudut pandang pribadi.",
+  "sameAs": [
+    "https://twitter.com/cryptosynthid",
+    "https://t.me/cryptosynthid"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "CryptoSynth",
+    "url": "https://cryptosynth.id"
+  },
+  "knowsAbout": [
+    "Cryptocurrency",
+    "Blockchain",
+    "DeFi",
+    "Airdrop Farming",
+    "Node Operation",
+    "Smart Contracts",
+    "Trading Bots",
+    "EVM",
+    "Web3"
+  ],
+  "email": "hello@cryptosynth.id",
+  "nationality": {
+    "@type": "Country",
+    "name": "Indonesia"
+  }
+};
+
+const breadcrumbSchema = {
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Beranda", "item": "https://cryptosynth.id" },
+    { "@type": "ListItem", "position": 2, "name": "Tentang", "item": "https://cryptosynth.id/about" },
+    { "@type": "ListItem", "position": 3, "name": "Gideon", "item": "https://cryptosynth.id/about/gideon" }
+  ]
+};
+---
+
+<BaseLayout
+  title="Gideon — Penulis CryptoSynth"
+  description="Profil Gideon, crypto practitioner dan penulis CryptoSynth.id. Node operator, airdrop farmer, builder, dan DeFi enthusiast dari Indonesia."
+  author="Gideon"
+>
+  <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <div class="page-hero">
+    <div class="container">
+      <h1>Gideon</h1>
+      <p>Crypto practitioner. Node operator. Builder.</p>
+    </div>
+  </div>
+
+  <section class="section author-page" style="max-width: 800px; margin: 0 auto;">
+    <div class="container">
+
+      <div class="author-card">
+        <div class="author-avatar">
+          <img src="/images/avatar.svg" alt="Gideon" width="80" height="80" />
+        </div>
+        <div class="author-info">
+          <h2 class="author-name">Gideon</h2>
+          <p class="author-role">Crypto Practitioner & Writer</p>
+          <div class="author-links">
+            <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener">@cryptosynthid</a>
+            <a href="https://t.me/cryptosynthid" target="_blank" rel="noopener">Telegram</a>
+            <a href="mailto:hello@cryptosynth.id">Email</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="article-body">
+        <h2>Tentang Saya</h2>
+        <p>Saya Gideon. Saya nulis catatan crypto personal di CryptoSynth.id — dokumentasi pengalaman langsung dari menjalankan node, farming airdrop, deploy smart contract, sampai ngoprek trading bot.</p>
+        <p>Bukan wartawan, bukan analyst, bukan influencer. Cuma orang biasa yang penasaran sama on-chain world dan cukup sabar buat ngejalanin node, nyatet hasilnya, dan ngeliatin portofolio tumbuh (atau kadang menyusut).</p>
+
+        <h2>Yang Saya Kerjain</h2>
+        <ul>
+          <li><strong>Node Operator</strong> — Menjalankan dan memantau node di berbagai testnet dan mainnet. Dari setup sampai troubleshooting, semua dicatat.</li>
+          <li><strong>Airdrop Farmer</strong> — Screening, farming, dan tracking airdrop dari berbagai protocol. Beberapa verified, beberapa masih speculative.</li>
+          <li><strong>Builder</strong> — Eksperimen smart contract, testing dApp, mainan di GenLayer Studio, EVM chains, dan protocol baru yang menarik.</li>
+          <li><strong>Trading Bot</strong> — Develop dan jalankan bot trading otomatis. Liquidation bot, MEV strategies, dan DeFi automation.</li>
+        </ul>
+
+        <h2>Tools yang Saya Bikin</h2>
+        <ul>
+          <li><a href="/tools?tab=tracker"><strong>Airdrop Tracker</strong></a> — Database airdrop aktif dengan risk score, cost, deadline, dan tutorial</li>
+          <li><a href="/tools?tab=scam"><strong>Scam Checker</strong></a> — Cek domain/address crypto melalui 9+ threat intel databases</li>
+        </ul>
+
+        <h2>Prinsip Nulis</h2>
+        <ul>
+          <li><strong>Transparan</strong> — Kalo rugi, saya bilang rugi. Kalo untung, saya bilang untung dan gimana caranya.</li>
+          <li><strong>No BS</strong> — Gak jual sinyal, gak jual course. Affiliate link ditandai, sponsored post ditulis jelas.</li>
+          <li><strong>DYOR</strong> — Semua berdasarkan pengalaman pribadi. Bukan saran keuangan.</li>
+        </ul>
+
+        <h2>Kontak</h2>
+        <p>Mau diskusi, kolaborasi, atau sekadar say hi?</p>
+        <ul>
+          <li>Email: <a href="mailto:hello@cryptosynth.id">hello@cryptosynth.id</a></li>
+          <li>X/Twitter: <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener">@cryptosynthid</a></li>
+          <li>Telegram: <a href="https://t.me/cryptosynthid" target="_blank" rel="noopener">@cryptosynthid</a></li>
+        </ul>
+      </div>
+
+      <div class="author-articles-link">
+        <a href="/" class="back-link">&larr; Lihat semua catatan</a>
+      </div>
+
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .author-card {
+    display: flex;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 1.5rem;
+    border: 1px solid var(--border-medium);
+    background: var(--bg-elevated);
+    margin-bottom: 2rem;
+  }
+
+  .author-avatar img {
+    border-radius: 50%;
+    border: 2px solid var(--primary);
+    display: block;
+  }
+
+  .author-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin: 0 0 0.15rem;
+  }
+
+  .author-role {
+    font-size: 0.82rem;
+    color: var(--text-muted);
+    margin: 0 0 0.5rem;
+  }
+
+  .author-links {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .author-links a {
+    font-size: 0.78rem;
+    color: var(--primary);
+  }
+
+  .author-articles-link {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .back-link {
+    font-size: 0.82rem;
+    color: var(--accent-prompt);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .back-link:hover {
+    color: var(--primary-light);
+    opacity: 1;
+  }
+
+  @media (max-width: 768px) {
+    .author-card {
+      flex-direction: column;
+      text-align: center;
+      padding: 1.25rem;
+    }
+
+    .author-links {
+      justify-content: center;
+    }
+  }
+</style>

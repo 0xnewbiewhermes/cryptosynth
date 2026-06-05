@@ -89,40 +89,82 @@ def generate_image(prompt: str, output_path: str, width: int, height: int) -> di
     }
 
 
-def build_og_prompt(title: str, category: str, date: str) -> str:
+CATEGORY_VISUALS = {
+    "Airdrop": {
+        "icon": "gift boxes, token distribution charts, farming dashboard UI",
+        "palette": "emerald green (#10B981) accent",
+        "theme": "farming interface with points tally, referral tree, farming progress bars",
+    },
+    "Journal": {
+        "icon": "price charts, news ticker, market data, candlestick patterns",
+        "palette": "emerald green (#059669) accent",
+        "theme": "market analysis dashboard with macro data",
+    },
+    "Tutorial": {
+        "icon": "code editor, terminal windows, command lines, network diagrams",
+        "palette": "blue (#3B82F6) accent",
+        "theme": "terminal with code blocks, CLI interface, step indicators",
+    },
+    "DeFi": {
+        "icon": "liquidity pools, yield curves, protocol dashboard, swap interface",
+        "palette": "purple (#8B5CF6) accent",
+        "theme": "DeFi protocol dashboard with TVL charts, pool metrics",
+    },
+    "Berita": {
+        "icon": "breaking news ticker, newspaper layout, headline UI",
+        "palette": "blue (#3B82F6) accent",
+        "theme": "news terminal with headlines, timestamp feed",
+    },
+}
+
+DEFAULT_VISUAL = CATEGORY_VISUALS["Journal"]
+
+
+def build_og_prompt(title: str, category: str, date: str, description: str = "") -> str:
+    visual = CATEGORY_VISUALS.get(category, DEFAULT_VISUAL)
+    # Extract keywords from title for unique visual elements
+    title_keywords = title.replace('"', "").replace("'", "")
+    desc_hint = f" Article context: {description[:200]}" if description else ""
+
     return f"""Generate a dark terminal-themed OG image (1200x630) for a crypto blog article.
 
 Title: "{title}"
 Category: {category}
-Date: {date}
+Date: {date}{desc_hint}
 
-Requirements:
+Visual requirements:
 - Dark background (#0F172A) with subtle grid lines
-- Green accent color (#059669) - thin top border line
-- A Bitcoin chart or price visualization showing downtrend with red candles
-- Big text "{title}" in white bold font left-aligned
-- Small text "CryptoSynth.id" at bottom left in green
+- {visual['palette']} - thin top border line and category badge
+- Visual: {visual['icon']}
+- {visual['theme']}
+- Big text "{title}" in white bold font, left-aligned, max 3 lines
+- Small text "CryptoSynth.id" at bottom left in {visual['palette'].split()[0]}
 - Small text "{date}" at bottom right
-- A category badge "{category}" at top left in green
-- Decorative geometric shapes in background with low opacity
+- Category badge "{category}" at top left
+- UNIQUE design: the image MUST visually reference "{title_keywords[:60]}" specifically, not generic crypto imagery
 
-Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design. Make it look like a terminal dashboard."""
+Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design. Terminal dashboard look. Every image for this blog should be visually distinct - never use the same chart pattern, icon layout, or composition twice."""
 
 
-def build_hero_prompt(title: str, category: str) -> str:
+def build_hero_prompt(title: str, category: str, description: str = "") -> str:
+    visual = CATEGORY_VISUALS.get(category, DEFAULT_VISUAL)
+    title_keywords = title.replace('"', "").replace("'", "")
+    desc_hint = f" Article context: {description[:150]}" if description else ""
+
     return f"""Generate a dark terminal-themed hero image (800x400) for a crypto blog article.
 
 Title: "{title}"
-Category: {category}
+Category: {category}{desc_hint}
 
-Requirements:
+Visual requirements:
 - Dark background (#0F172A) with subtle grid lines
-- Green accent color (#059669) - thin top border line
-- Text "{title}" in white bold font on left side
-- A Bitcoin chart or price visualization on the right side showing decline
-- Small text "CryptoSynth.id" at bottom left in green
+- {visual['palette']} - thin top border line
+- Visual on right side: {visual['icon']}
+- Text "{title}" in white bold font, left-aligned, max 3 lines
+- Small text "CryptoSynth.id" at bottom left
+- UNIQUE design: must visually reference "{title_keywords[:50]}" specifically
 
-Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design."""
+Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design. Never reuse the same layout or chart style from previous images."""
 
 
 def main():
@@ -131,6 +173,7 @@ def main():
     parser.add_argument("--slug", help="Article slug (filename without extension)")
     parser.add_argument("--category", default="Journal", help="Article category")
     parser.add_argument("--date", default="", help="Date string (e.g. '6 Juni 2026')")
+    parser.add_argument("--desc", default="", help="Article description/excerpt for contextual visuals")
     parser.add_argument("--prompt", help="Custom prompt (skip auto-build)")
     parser.add_argument("--output", help="Output path (for custom single image)")
     parser.add_argument("--width", type=int, default=1200, help="Image width")
@@ -161,8 +204,8 @@ def main():
         og_path = f"public/images/og/{args.slug}.png"
         hero_path = f"public/images/hero/{args.slug}.png"
 
-        og_prompt = build_og_prompt(args.title, args.category, args.date)
-        hero_prompt = build_hero_prompt(args.title, args.category)
+        og_prompt = build_og_prompt(args.title, args.category, args.date, args.desc)
+        hero_prompt = build_hero_prompt(args.title, args.category, args.desc)
 
         if args.dry_run:
             print("\n=== OG PROMPT ===")

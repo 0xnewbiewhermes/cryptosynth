@@ -1443,15 +1443,13 @@ function formatDate(dateStr) {
       return false;
     }
 
-    function normalizeInput(input) {
-    // ===== CYRILLIC HOMOGRAPH DETECTION =====
     const CYRILLIC_MAP = {
-      '\u0430':'a','\u0435':'e','\u043e':'o','\u0440':'p','\u0441':'c','\u0443':'y','\u0445':'x',
-      '\u0410':'A','\u0412':'B','\u0415':'E','\u041a':'K','\u041c':'M','\u041d':'H','\u041e':'O',
-      '\u0420':'P','\u0421':'C','\u0422':'T'
+      "\u0430":"a","\u0435":"e","\u043e":"o","\u0440":"p","\u0441":"c","\u0443":"y","\u0445":"x",
+      "\u0410":"A","\u0412":"B","\u0415":"E","\u041a":"K","\u041c":"M","\u041d":"H","\u041e":"O",
+      "\u0420":"P","\u0421":"C","\u0422":"T"
     };
-    const INVISIBLE_SET = new Set(['\u200b','\u200c','\u200d','\u200e','\u200f','\u2060','\u00ad','\u034f','\u180e','\u2800','\u3164','\uffa0']);
-    const RISKY_TLDS = ['.tk','.ml','.ga','.cf','.gq','.xyz','.top','.club','.work','.buzz','.icu','.cam','.rest'];
+    const INVISIBLE_SET = new Set(["\u200b","\u200c","\u200d","\u200e","\u200f","\u2060","\u00ad","\u034f","\u180e","\u2800","\u3164","\uffa0"]);
+    const RISKY_TLDS = [".tk",".ml",".ga",".cf",".gq",".xyz",".top",".club",".work",".buzz",".icu",".cam",".rest"];
 
     function detectHomograph(domain) {
       const suspicious = [];
@@ -1461,50 +1459,48 @@ function formatDate(dateStr) {
       for (let i = 0; i < domain.length; i++) {
         const ch = domain[i];
         const code = ch.codePointAt(0);
-        if (ch === '.' || ch === '-') continue;
+        if (ch === "." || ch === "-") continue;
         if (code >= 0x0400 && code <= 0x052F) {
           hasCyrillic = true;
-          suspicious.push({ pos: i, char: ch, code: 'U+' + code.toString(16).toUpperCase().padStart(4,'0'), looksLike: CYRILLIC_MAP[ch] || '?' });
+          suspicious.push({ pos: i, char: ch, code: "U+" + code.toString(16).toUpperCase().padStart(4,"0"), looksLike: CYRILLIC_MAP[ch] || "?" });
         } else if (code >= 0x0041 && code <= 0x007A) {
           hasLatin = true;
         }
         if (INVISIBLE_SET.has(ch)) {
-          invisible.push({ pos: i, code: 'U+' + code.toString(16).toUpperCase().padStart(4,'0') });
+          invisible.push({ pos: i, code: "U+" + code.toString(16).toUpperCase().padStart(4,"0") });
         }
       }
 
       let punycode = null;
       try {
-        const encoded = new TextEncoder().encode(domain);
-        // Simple punycode check: if domain has non-ASCII chars
         const hasNonAscii = [...domain].some(c => c.codePointAt(0) > 127);
         if (hasNonAscii) {
-          const url = new URL('http://' + domain);
+          const url = new URL("http://" + domain);
           punycode = url.hostname;
         }
       } catch {}
 
       const mixedScript = hasCyrillic && hasLatin;
-      const isIDN = punycode && punycode !== domain && punycode.includes('xn--');
+      const isIDN = punycode && punycode !== domain && punycode.includes("xn--");
 
-      let risk = 'low';
+      let risk = "low";
       const reasons = [];
-      if (suspicious.length > 0) { risk = 'high'; reasons.push(suspicious.length + ' Cyrillic lookalike'); }
-      if (mixedScript) { risk = 'critical'; reasons.push('Mixed Cyrillic+Latin (homograph attack)'); }
-      if (invisible.length > 0) { risk = 'critical'; reasons.push(invisible.length + ' invisible/zero-width chars'); }
-      if (isIDN) reasons.push('IDN punycode: ' + punycode);
+      if (suspicious.length > 0) { risk = "high"; reasons.push(suspicious.length + " Cyrillic lookalike"); }
+      if (mixedScript) { risk = "critical"; reasons.push("Mixed Cyrillic+Latin (homograph attack)"); }
+      if (invisible.length > 0) { risk = "critical"; reasons.push(invisible.length + " invisible/zero-width chars"); }
+      if (isIDN) reasons.push("IDN punycode: " + punycode);
 
-      // TLD risk
       const tld = RISKY_TLDS.find(t => domain.endsWith(t));
 
       return { suspicious, invisible, mixedScript, isIDN, punycode, risk, reasons, riskyTld: tld || null };
     }
 
+    function normalizeInput(input) {
       let d = input.trim().toLowerCase();
-      for (const prefix of ['http://', 'https://', 'www.', 'hxxp://', 'hxxps://', 'ftp://']) {
+      for (const prefix of ["http://", "https://", "www.", "hxxp://", "hxxps://", "ftp://"]) {
         if (d.startsWith(prefix)) d = d.slice(prefix.length);
       }
-      d = d.replace(/\/+$/, '').replace(/\/$/, '');
+      d = d.replace(/\/+$/, "").replace(/\/$/, "");
       return d;
     }
 

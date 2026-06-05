@@ -234,9 +234,9 @@ function formatDate(dateStr) {
                     required
                   />
                 </div>
-                <button type="submit" class="scam-btn" id="checkBtn">
-                  <span id="btnText">Periksa</span>
-                  <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
+                <button type="submit" class="scam-btn" id="checkBtn" disabled title="Tunggu database siap">
+                  <span id="btnText">Memuat database...</span>
+                  <span id="btnSpinner" class="scam-spinner" style="display:inline-block"></span>
                 </button>
               </form>
               <p class="scam-form-hint">Domain, wallet address, atau kontrak token - diperiksa dari 9 sumber: blacklist lokal, VirusTotal, Google Safe Browsing, URLScan, URLhaus, SURBL, URIBL, Go+ Security, dan deteksi Cyrillic homograph</p>
@@ -1385,25 +1385,46 @@ function formatDate(dateStr) {
       'phishdestroy': { icon: '🔥', label: 'phishdestroy' }
     };
 
-    // Load data
+    // Load data with sessionStorage cache
+    const cacheKey = 'scam_db';
+    const cached = sessionStorage.getItem(cacheKey);
+    if (cached) {
+      try {
+        scamData = JSON.parse(cached);
+        showStats(scamData);
+        btn.disabled = false;
+        btn.title = '';
+        return;
+      } catch {}
+    }
+
     fetch(dataUrl + '?v=' + Date.now())
       .then(r => r.json())
       .then(data => {
         scamData = data;
-        const counts = {};
-        data.forEach(d => {
-          d.source.split(', ').forEach(s => { counts[s] = (counts[s] || 0) + 1; });
-        });
-        const parts = [];
-        if (counts['ScamSniffer']) parts.push(`🛡️ ${(counts['ScamSniffer']).toLocaleString('id-ID')}`);
-        if (counts['jarelllama']) parts.push(`🚫 ${(counts['jarelllama']).toLocaleString('id-ID')}`);
-        if (counts['phishdestroy']) parts.push(`🔥 ${(counts['phishdestroy']).toLocaleString('id-ID')}`);
-        if (statsText) statsText.innerHTML = parts.join(' &bull; ');
+        try { sessionStorage.setItem(cacheKey, JSON.stringify(data)); } catch {}
+        showStats(data);
+        btn.disabled = false;
+        btn.title = '';
       })
       .catch(() => {
-        if (statsText) { statsText.innerHTML = 'Gagal memuat database'; }
+        if (statsText) statsText.innerHTML = '❌ Gagal memuat database';
         if (stats) stats.style.color = '#EF4444';
+        btn.disabled = false;
+        btn.textContent = 'Coba Lagi';
       });
+
+    function showStats(data) {
+      const counts = {};
+      data.forEach(d => {
+        d.source.split(', ').forEach(s => { counts[s] = (counts[s] || 0) + 1; });
+      });
+      const parts = [];
+      if (counts['ScamSniffer']) parts.push(`🛡️ ${(counts['ScamSniffer']).toLocaleString('id-ID')}`);
+      if (counts['jarelllama']) parts.push(`🚫 ${(counts['jarelllama']).toLocaleString('id-ID')}`);
+      if (counts['phishdestroy']) parts.push(`🔥 ${(counts['phishdestroy']).toLocaleString('id-ID')}`);
+      if (statsText) statsText.innerHTML = '✅ Database siap &bull; ' + parts.join(' &bull; ');
+    }
 
     function isAddress(input) {
       if (/^0x[a-f0-9]{40}$/i.test(input)) return 'evm';

@@ -29,7 +29,7 @@ ogImage: "/images/og/airdrop-q2-2026.png"
 
 ## Kenapa Q2 2026 Beda
 
-Saya udah lama gak nulis roundup airdrop. Alasannya simpel: setelah HYPE dan JUP meledak di 2024, musim airdrop 2025 agak sepi. Tapi Q2 2026 ini beda. Ada Polymarket yang belum punya token tapi valuation-nya udah di angka $9 miliar. Ada game yang beneran seru dimainin (bukan cuma klik-klik). Dan ada beberapa project yang distribusinya tinggal hitungan hari, bukan bulan.
+Saya udah lama gak nulis roundup airdrop. Alasannya simpel: setelah HYPE dan JUP meledak di 2024, musim airdrop 2025 agak sepi. Tapi Q2 2026 ini beda. Ada Polymarket yang belum punya token tapi valuation-nya udah di angka $9 miliar. Ada game yang beneran seru dimainin (bukan cuma klik-klik). Dan ada beberapa project yang distribusinya tinggal hitungan hari, bukan bulan. (Beberapa project di daftar ini udah saya bahas lebih detail: [SosoValue](/blog/sosovalue-deepdive-platform-riset-ai-crypto-revenue-20m), [Hyperliquid](/blog/hyperliquid-kenapa-semua-orang-bahas-dex-ini), dan [Polymarket](/blog/variational-polymarket-base-tiga-kandidat-airdrop-terkuat-mei-2026).)
 
 Yang perlu kamu catat: daftar ini bukan "semua airdrop yang ada." Ini 7 yang menurut saya worth dikejar berdasarkan ukuran potensi reward, status konfirmasi, dan effort yang dibutuhkan.
 

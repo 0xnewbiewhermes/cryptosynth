@@ -34,9 +34,9 @@ const canonicalURL = canonical || new URL(rawPath, Astro.site).href;
 const fullImageURL = new URL(image, Astro.site).href;
 
 // Build keywords from tags (specific per article) or category (for category pages)
-// Helper: truncate title for <title> tag (keep under 60 chars total with brand suffix)
+// Helper: truncate title for <title> tag (keep under 72 chars total with brand suffix)
 const brandSuffix = ' | CryptoSynth.id';
-const maxTitleLen = 60 - brandSuffix.length;
+const maxTitleLen = 72 - brandSuffix.length;
 
 // Truncate meta description to 155 chars (Google cuts at ~160)
 const truncateDesc = (d) => {

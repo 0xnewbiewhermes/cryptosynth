@@ -37,9 +37,10 @@ export async function GET(context: APIContext) {
 `;
   }
 
-  // Blog posts with actual pubDate as lastmod
+  // Blog posts with actual pubDate/updatedDate as lastmod
   for (const post of posts) {
-    const postDate = new Date(post.data.pubDate).toISOString().split('T')[0];
+    const lastmod = post.data.updatedDate || post.data.pubDate;
+    const postDate = new Date(lastmod).toISOString().split('T')[0];
     // WIB timezone for Google News
     const postDateWIB = new Date(new Date(post.data.pubDate).getTime() + 7 * 60 * 60 * 1000);
     const postDateTime = postDateWIB.toISOString().replace('Z', '+07:00');

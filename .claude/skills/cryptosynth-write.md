@@ -124,6 +124,105 @@ Kata-kata ini perlu dikurangi drastis:
 - [ ] Closing kuat (bukan cuma berhenti)
 - [ ] `updatedDate` kalau artikel update dari versi sebelumnya
 
+## Article Length Guidelines
+
+| Kategori | Minimum | Target | Ideal |
+|----------|---------|--------|-------|
+| **Airdrop (single project)** | 80 lines | 90-150 lines | Data lengkap + farming strategy |
+| **Airdrop (multi-project)** | 90 lines | 100-180 lines | Per project coverage cukup |
+| **Journal** | 80 lines | 100-150 lines | Hook kuat, opini berbobot |
+| **Tutorial** | 150 lines | 200-800+ lines | Screenshots tiap step penting |
+
+**Catatan:** Kalau artikel mentok di <50 lines tanpa alasan jelas, berarti topiknya gak cukup depth buat jadi artikel — merge ke artikel lain atau skip.
+
+## PubDate Convention
+
+**Format wajib:** `+07:00` (WIB — timezone Indonesia). Jangan pakai `Z` (UTC).
+
+```yaml
+# ✅ Benar
+pubDate: "2026-06-10T10:00:00+07:00"
+
+# ❌ Salah
+pubDate: "2026-06-10T03:00:00Z"
+```
+
+Alasan: pembaca CryptoSynth mayoritas di Indonesia, WIB lebih intuitif.
+
+## Image Generation Workflow
+
+Hero & OG image wajib unik (jangan `default.jpg`). Generate otomatis:
+
+```yaml
+heroImage: "/images/hero/slug.png"
+ogImage: "/images/og/slug.png"
+```
+
+**Format:** `.png`, rasio 1200x630 (OG), 800x400 (hero).
+**Tools:** Pakai `scripts/generate-og-images.py` atau `scripts/generate-article-images.py` yang udah ada di project.
+**Pre-commit checklist:**
+- [ ] Image udah ada di `/public/images/hero/` dan `/public/images/og/`
+- [ ] Gak make `default.jpg`
+- [ ] Nama file sesuai slug
+
+## Series & Sequel Pattern
+
+Kasus: Modulr 1 → Modulr Lanjutan, Variational 1 → Variational Deep-Dive.
+
+### Aturan:
+1. **Bikin artikel baru** kalau ada update signifikan (data baru, phase baru, koreksi)
+2. **Link ke artikel sebelumnya** di paragraf pertama artikel baru
+3. **`updatedDate` di artikel lama** — kalau artikel original perlu dikoreksi, tambah `updatedDate` + inline note "Update: lihat artikel lanjutan [link]"
+4. **Jangan overwrite artikel lama** — biarkan sebagai historical record, tulis yang baru untuk koreksi
+5. **Naming convention sequel:**
+   - `modulr-robotics-l1-blockchain.md` (part 1)
+   - `modulr-robotics-l1-blockchain-lanjutan.md` (part 2 — suffix `lanjutan`)
+
+### Contoh implementasi di Modulr Lanjutan ✅:
+```yaml
+# Artikel baru
+---
+title: "Modulr Robotics L1 Blockchain — Update & Koreksi"
+description: "Dua minggu setelah artikel pertama, ini update data on-chain..."
+---
+
+Dua minggu lalu saya nulis [Modulr Robotics L1 Blockchain](/blog/modulr-robotics-l1-blockchain).
+Beberapa data di artikel itu udah outdated. Ini koreksi dan update terbaru.
+```
+
+## Research Process (Pre-Write)
+
+Sebelum nulis artikel baru, lakukan ini secara urut:
+
+1. **Cek artikel existing** — `src/content/blog/` — apa topik ini udah dibahas? Kalau iya, cukup update atau bikin sequel
+2. **Cek sumber primer** — project website, whitepaper, X/Twitter project official, discord — bukan cuma second-hand dari CoinDesk
+3. **Cek data on-chain** — TVL? Volume? Holders? Gunakan data real-time, jangan asumsi
+4. **Cek timing** — apa ini masih relevan besok? Atau bakal expire dalam seminggu? Kalau ya, sebut timeframe di artikel
+5. **Kumpulkan 3+ sumber** minimal sebelum mulai nulis
+6. **Cek kategori** — Airdrop / Journal / Tutorial — sesuaikan struktur
+
+## Tone Spectrum
+
+Gak semua artikel harus tone yang sama. Sesuaikan intensity dengan topik:
+
+```
+Santai ←─────────────────────────────→ Serius
+Airdrop farming     Journal/Opini      Tutorial teknis     Scam/Keamanan
+```
+
+| Topik | Tone | Contoh |
+|-------|------|--------|
+| **Airdrop farming** | Santai, informatif, sedikit humor | "Ini cara farming-nya gampang banget, cuma butuh 5 menit sehari" |
+| **Journal / Opini** | Balance, personal, berani ambil posisi | "Menurut gue, ini overhyped. Datanya gak nge-support." |
+| **Tutorial teknis** | Serius, presisi, step-by-step | minimal humor, maksimal clarity |
+| **Scam / Keamanan** | Serius, urgent, alert | "LANGSUNG cabut approval. Ini honeypot." |
+
+### Panduan:
+- **Jangan pake humor di artikel scam/keamanan** — ini bisa merugikan pembaca
+- **Boleh santai di airdrop farming** — ini yang paling dibaca santai
+- **Tutorial:** clarity > personality. Simpan gaya bahasa untuk narasi, jangan di code blocks
+- **Journal:** bebas, ini tempat lo paling personal. Tapi tetap harus data-driven
+
 ## Reference Artikel
 
 ### Best Examples (jadikan template)

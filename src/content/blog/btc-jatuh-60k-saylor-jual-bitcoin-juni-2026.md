@@ -1,7 +1,7 @@
 ---
 title: "BTC Jatuh ke $60K, Saylor Jual Bitcoin  -  Apa yang Sebenarnya Terjadi?"
 slug: "btc-jatuh-60k-saylor-jual-bitcoin-juni-2026"
-pubDate: "2026-06-06T08:07:00+07:00"
+pubDate: "2026-06-06T00:51:00+07:00"
 author: "Gideon"
 category: "Journal"
 tags:

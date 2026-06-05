@@ -1,1 +1,32 @@
-(function(){function r(d){var n=Date.now()-d.getTime();if(n<0)return'Baru saja';var m=Math.floor(n/6e4),h=Math.floor(m/60),D=Math.floor(h/24),w=Math.floor(D/7),M=Math.floor(D/30);if(m<1)return'Baru saja';if(m<60)return m+' menit lalu';if(h<24)return h+' jam lalu';if(D<7)return D+' hari lalu';if(w<4)return w+' minggu lalu';if(M<12)return M+' bulan lalu';return d.toLocaleDateString('id-ID',{year:'numeric',month:'long',day:'numeric',timeZone:'Asia/Jakarta'})}function u(){var e=document.querySelectorAll('[data-live-time]');for(var i=0;i<e.length;i++){var p=e[i].getAttribute('data-pubdate');if(p)e[i].textContent=r(new Date(p))}}if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',function(){u();setInterval(u,6e4)})}else{u();setInterval(u,6e4)}})();
+(function(){
+  function r(d){
+    var n = Date.now() - d.getTime();
+    // Future date: show nothing — entry-date handles it
+    if (n < 0) return '';
+    var m = Math.floor(n / 6e4);
+    var h = Math.floor(m / 60);
+    var D = Math.floor(h / 24);
+    var w = Math.floor(D / 7);
+    var M = Math.floor(D / 30);
+    if (m < 1) return 'Baru saja';
+    if (m < 60) return m + ' menit lalu';
+    if (h < 24) return h + ' jam lalu';
+    if (D < 7) return D + ' hari lalu';
+    if (w < 4) return w + ' minggu lalu';
+    if (M < 12) return M + ' bulan lalu';
+    // >1 year: kosong — entry-date handles it
+    return '';
+  }
+  function u(){
+    var e = document.querySelectorAll('[data-live-time]');
+    for (var i = 0; i < e.length; i++) {
+      var p = e[i].getAttribute('data-pubdate');
+      if (p) e[i].textContent = r(new Date(p));
+    }
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', function(){ u(); setInterval(u, 6e4); });
+  } else {
+    u(); setInterval(u, 6e4);
+  }
+})();

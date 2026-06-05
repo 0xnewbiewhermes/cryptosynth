@@ -1745,6 +1745,13 @@ function formatDate(dateStr) {
       result.scrollIntoView({ behavior: 'smooth', block: 'center' });
     } catch (err) {
       console.error("Scam error:", err);
+      resultCard.className = 'scam-result-card scam-result-warning';
+      resultCard.style.opacity = '1';
+      resultIcon.textContent = '❌';
+      resultIconWrap.style.background = 'rgba(239, 68, 68, 0.12)';
+      resultTitle.textContent = 'Gagal Memeriksa';
+      resultDetail.innerHTML = '<p>Terjadi kesalahan saat memeriksa. Coba lagi atau periksa koneksi internet.</p>';
+      result.scrollIntoView({ behavior: 'smooth', block: 'center' });
     } finally {
       btnText.style.display = "inline";
       btnSpinner.style.display = "none";

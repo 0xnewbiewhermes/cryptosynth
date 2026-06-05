@@ -110,6 +110,22 @@ Kata-kata ini perlu dikurangi drastis:
 - "trus" — pake "lalu" atau "kemudian" atau hapus aja
 - "ya..." — unnecessary filler
 
+### Bahasa Indonesia Rules
+
+**Whale = orang, bukan hewan.** Meskipun secara harfiah "whale" berarti paus (ikan), dalam konteks crypto "whale" merujuk pada pemilik modal besar — seorang trader/investor. Maka:
+- ✅ "Seorang whale" / "Para whale" / "Whale besar"
+- ❌ "Seekor whale" / "Whale itu" (merujuk hewan)
+- ✅ "Whale ini mindahin BTC" — tidak perlu kata sandang
+
+**Influencer = orang, bukan makhluk:**
+- ✅ "Seorang influencer crypto"
+- ❌ "Seekor influencer" / "Influencer itu"
+
+**Kata sandang untuk entitas crypto:**
+- Akun/wallet/address → "sebuah" atau tanpa sandang
+- Token/coin → tanpa sandang atau "si"
+- Bot/agent → "sebuah" (benda), bukan "seekor"
+
 ## SEO Checklist (Pre-Publish)
 
 - [ ] `excerpt` terisi (jangan copas `description`)
@@ -189,6 +205,32 @@ description: "Dua minggu setelah artikel pertama, ini update data on-chain..."
 Dua minggu lalu saya nulis [Modulr Robotics L1 Blockchain](/blog/modulr-robotics-l1-blockchain).
 Beberapa data di artikel itu udah outdated. Ini koreksi dan update terbaru.
 ```
+
+## Forbidden Characters & Typography
+
+CryptoSynth pakai karakter ASCII/UTF-8 standar. Dilarang keras pakai karakter tipografi AI-generik berikut:
+
+### ❌ DILARANG:
+| Karakter | Contoh | Ganti dengan |
+|----------|--------|-------------|
+| **Em dash** (`—`) | "Bitcoin—yang turun" | **En dash** (`-`) atau spasi |
+| **En dash** (`–`) | "harga–volume" | **Hyphen** (`-`) |
+| **Ellipsis** (`…`) | "masih berlangsung…" | **Tiga titik** (`...`) |
+| **Smart quotes** (`""`/`''`) | "soal ini" | **Straight quotes** (`"`/`'`) |
+| **Bullet alternatif** (`•` `·` `◦`) | • item | **Asterisk** (`-`) untuk list |
+| **Non-breaking space** (` `) | — | **Regular space** |
+| **Thin space** (` `) | — | **Regular space** |
+| **Multiplication sign** (`×`) | 5× leverage | **Huruf x** (`x`) |
+| **Registered mark** (`®`) | Company® | Cukup `(R)` atau hapus |
+| **Copyright** (`©`) | ©2026 | Cukup `(c)` atau hapus |
+
+### Kenapa?
+Karakter ini adalah hallmark konten generated-by-AI. Google bisa deteksi pattern ini. Pembaca yang jeli juga bisa. CryptoSynth harus terasa ditulis manusia, bukan AI. Straight quotes, hyphen biasa, dan tiga titik adalah standar yang aman dan terasa natural.
+
+### Checklist pre-publish:
+- [ ] Scan artikel untuk em dash (`—`), en dash (`–`), ellipsis (`…`), smart quotes
+- [ ] Ganti semua dengan ASCII equivalent
+- [ ] Cek multiplication sign (`×`) ganti jadi `x`
 
 ## Research Process (Pre-Write)
 

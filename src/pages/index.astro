@@ -41,7 +41,7 @@ const posts = (await getCollection('blog')).sort(
         <a href={`/blog/${post.id}`} class="article-entry" style={`--j:${index}`}>
           <div class="entry-meta">
             <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
-            <span class="entry-time">{relativeTime(post.data.pubDate)}</span>
+            <span class="entry-time" data-live-time data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
           </div>
           <span class="entry-num">{String(index + 1).padStart(2, '0')}</span>
           <span class="entry-tag">{(post.data.tags || []).slice(0, 2).map((tag) => `#${tag}`).join(' · ')}</span>

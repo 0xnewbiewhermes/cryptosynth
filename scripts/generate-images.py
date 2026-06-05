@@ -3,7 +3,7 @@
 
 Usage:
   # Generate both for an article
-  python3 scripts/generate-images.py --title "BTC Jatuh ke $60K" --slug "btc-jatuh-60k" --category Journal --date "6 Juni 2026"
+  python3 scripts/generate-images.py --title "BTC Jatuh ke $60K" --slug "btc-jatuh-60k" --category Journal
 
   # Or single image with custom prompt
   python3 scripts/generate-images.py --prompt "..." --output "public/images/hero/x.png" --width 800 --height 400
@@ -120,17 +120,15 @@ CATEGORY_VISUALS = {
 DEFAULT_VISUAL = CATEGORY_VISUALS["Journal"]
 
 
-def build_og_prompt(title: str, category: str, date: str, description: str = "") -> str:
+def build_og_prompt(title: str, category: str, description: str = "") -> str:
     visual = CATEGORY_VISUALS.get(category, DEFAULT_VISUAL)
-    # Extract keywords from title for unique visual elements
     title_keywords = title.replace('"', "").replace("'", "")
     desc_hint = f" Article context: {description[:200]}" if description else ""
 
     return f"""Generate a dark terminal-themed OG image (1200x630) for a crypto blog article.
 
 Title: "{title}"
-Category: {category}
-Date: {date}{desc_hint}
+Category: {category}{desc_hint}
 
 Visual requirements:
 - Dark background (#0F172A) with subtle grid lines
@@ -139,7 +137,6 @@ Visual requirements:
 - {visual['theme']}
 - Big text "{title}" in white bold font, left-aligned, max 3 lines
 - Small text "CryptoSynth.id" at bottom left in {visual['palette'].split()[0]}
-- Small text "{date}" at bottom right
 - Category badge "{category}" at top left
 - UNIQUE design: the image MUST visually reference "{title_keywords[:60]}" specifically, not generic crypto imagery
 
@@ -172,7 +169,6 @@ def main():
     parser.add_argument("--title", help="Article title")
     parser.add_argument("--slug", help="Article slug (filename without extension)")
     parser.add_argument("--category", default="Journal", help="Article category")
-    parser.add_argument("--date", default="", help="Date string (e.g. '6 Juni 2026')")
     parser.add_argument("--desc", default="", help="Article description/excerpt for contextual visuals")
     parser.add_argument("--prompt", help="Custom prompt (skip auto-build)")
     parser.add_argument("--output", help="Output path (for custom single image)")
@@ -204,7 +200,7 @@ def main():
         og_path = f"public/images/og/{args.slug}.png"
         hero_path = f"public/images/hero/{args.slug}.png"
 
-        og_prompt = build_og_prompt(args.title, args.category, args.date, args.desc)
+        og_prompt = build_og_prompt(args.title, args.category, args.desc)
         hero_prompt = build_hero_prompt(args.title, args.category, args.desc)
 
         if args.dry_run:

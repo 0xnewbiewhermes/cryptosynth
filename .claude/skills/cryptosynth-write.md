@@ -174,7 +174,6 @@ OPENROUTER_API_KEY="sk-or-..." python3 scripts/generate-images.py \
   --title "Judul Artikel" \
   --slug "nama-slug" \
   --category "Journal" \
-  --date "6 Juni 2026" \
   --desc "BTC turun 14% dalam sepekan, Saylor jual 32 BTC..."
 ```
 
@@ -187,7 +186,7 @@ public/images/og/{slug}.png     (1200x630)
 **Dry-run (cek prompt tanpa spend):**
 ```bash
 OPENROUTER_API_KEY="sk-or-..." python3 scripts/generate-images.py \
-  --dry-run --title "..." --slug "..." --category Journal --date "..."
+  --dry-run --title "..." --slug "..." --category Journal
 ```
 
 **Single custom image:**

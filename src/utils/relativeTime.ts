@@ -3,15 +3,8 @@ export function relativeTime(date: Date | string): string {
   const d = typeof date === 'string' ? new Date(date) : date;
   const diffMs = now.getTime() - d.getTime();
 
-  // Jika artikel di masa depan, tampilkan tanggal aja, jangan "Baru saja"
-  if (diffMs < 0) {
-    return d.toLocaleDateString('id-ID', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      timeZone: 'Asia/Jakarta',
-    });
-  }
+  // Jika artikel di masa depan, jangan tampilkan apa-apa
+  if (diffMs < 0) return '';
 
   const diffSec = Math.floor(diffMs / 1000);
   const diffMin = Math.floor(diffSec / 60);
@@ -27,11 +20,6 @@ export function relativeTime(date: Date | string): string {
   if (diffWeek < 4) return `${diffWeek} minggu lalu`;
   if (diffMonth < 12) return `${diffMonth} bulan lalu`;
 
-  // Fallback: formatted date
-  return d.toLocaleDateString('id-ID', {
-    year: 'numeric',
-    month: 'long',
-    day: 'numeric',
-    timeZone: 'Asia/Jakarta',
-  });
+  // Lebih dari 1 tahun: kosong — tanggal sudah ditampilkan di entry-date
+  return '';
 }

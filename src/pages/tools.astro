@@ -1392,8 +1392,7 @@ function formatDate(dateStr) {
       try {
         scamData = JSON.parse(cached);
         showStats(scamData);
-        btn.disabled = false;
-        btn.title = '';
+        enableBtn();
         return;
       } catch {}
     }
@@ -1404,15 +1403,23 @@ function formatDate(dateStr) {
         scamData = data;
         try { sessionStorage.setItem(cacheKey, JSON.stringify(data)); } catch {}
         showStats(data);
-        btn.disabled = false;
-        btn.title = '';
+        enableBtn();
       })
       .catch(() => {
         if (statsText) statsText.innerHTML = '❌ Gagal memuat database';
         if (stats) stats.style.color = '#EF4444';
         btn.disabled = false;
-        btn.textContent = 'Coba Lagi';
+        btnText.textContent = 'Coba Lagi';
+        btnSpinner.style.display = 'none';
+        btn.title = '';
       });
+
+    function enableBtn() {
+      btn.disabled = false;
+      btnText.textContent = 'Periksa';
+      btnSpinner.style.display = 'none';
+      btn.title = '';
+    }
 
     function showStats(data) {
       const counts = {};

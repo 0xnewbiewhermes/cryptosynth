@@ -9,7 +9,8 @@ Usage:
   python3 scripts/generate-images.py --prompt "..." --output "public/images/hero/x.png" --width 800 --height 400
 """
 
-import os, sys, json, base64, subprocess, argparse, textwrap
+import os, sys, json, base64, subprocess, argparse
+from PIL import Image
 
 API_KEY = os.environ.get("OPENROUTER_API_KEY")
 if not API_KEY:
@@ -65,15 +66,9 @@ def generate_image(prompt: str, output_path: str, width: int, height: int) -> di
         f.write(img_data)
 
     try:
-        subprocess.run([
-            "python3", "-c", textwrap.dedent(f'''
-            from PIL import Image
-            img = Image.open("{tmp}")
-            img = img.resize(({width}, {height}), Image.LANCZOS)
-            img.save("{output_path}")
-            print("OK")
-            ''')
-        ], check=True, capture_output=True, text=True, timeout=30)
+        img = Image.open(tmp)
+        img = img.resize((width, height), Image.LANCZOS)
+        img.save(output_path)
         os.remove(tmp)
     except Exception as e:
         # If PIL fails, keep original

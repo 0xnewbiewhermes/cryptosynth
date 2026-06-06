@@ -150,27 +150,27 @@ DEFAULT_VISUAL = CATEGORY_VISUALS["Journal"]
 def build_og_prompt(_title: str, category: str, _description: str = "") -> str:
     visual = CATEGORY_VISUALS.get(category, DEFAULT_VISUAL)
 
-    return f"""Abstract geometric shapes, clean lines, and layered forms on a dark background (1200x630).
+    return f"""Abstract geometric shapes, clean lines, and layered forms filling the entire dark background (1200x630).
 ABSOLUTELY NO TEXT, NO LETTERS, NO WORDS, NO NUMBERS - pure visual only.
 Background: solid dark (#0F172A) with subtle grid pattern.
 Thin {visual['palette']} line near top edge as accent.
-Prominent abstract elements in muted teal and green tones: {visual['icon']}
-Arrangement: {visual['theme']}
+Abstract composition centered across full canvas: {visual['icon']}
+Balanced layout: {visual['theme']}
 Style: flat colors, crisp geometric shapes, dark hacker aesthetic, no gradients, no humans.
-Make the abstract shapes clearly visible with good contrast - this should look like an album art, not an empty dark rectangle."""
+The composition must be CENTERED and fill the frame - no empty black areas on any side."""
 
 
 def build_hero_prompt(_title: str, category: str, _description: str = "") -> str:
     visual = CATEGORY_VISUALS.get(category, DEFAULT_VISUAL)
 
-    return f"""Abstract geometric shapes, clean lines, and layered forms on a dark background (800x400).
+    return f"""Abstract geometric shapes, clean lines, and layered forms filling the entire dark background (800x400).
 ABSOLUTELY NO TEXT, NO LETTERS, NO WORDS, NO NUMBERS - pure visual only.
 Background: solid dark (#0F172A) with subtle grid pattern.
 Thin {visual['palette']} line near top edge as accent.
-Abstract geometric shapes stacked on the right side: {visual['icon']}
-Arrangement: {visual['theme']}
+Abstract geometric shapes spread across the full width: {visual['icon']}
+Balanced layout: {visual['theme']}
 Style: flat colors, crisp geometric shapes, dark hacker aesthetic, no gradients, no humans.
-Make the abstract shapes clearly visible with good contrast - this should look like an album art, not an empty dark rectangle."""
+The composition must be CENTERED and fill the frame - no empty black areas on any side."""
 
 
 def main():

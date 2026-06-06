@@ -123,7 +123,6 @@ Buat yang baru mau mulai, cukup daftar pake [referral link](https://node.optimai
 
 Saya sendiri jalanin Core Node di VPS ini dan lihat langsung gimana sistemnya kerja: scraper otomatis, submit data, validasi. Ini bukan project "connect wallet and pray": ada kontribusi nyata ke jaringan.
 
----
 
 **Sumber:**
 - [OptimAI Network: Official Site](https://optimai.network)

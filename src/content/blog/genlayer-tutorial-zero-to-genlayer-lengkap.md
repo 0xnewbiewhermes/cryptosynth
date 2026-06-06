@@ -27,7 +27,6 @@ faq: "Apa itu GenLayer?;;GenLayer adalah blockchain layer untuk AI-powered intel
 <strong>⚠️ Disclaimer:</strong> Semua yang ditulis di sini adalah <strong>catatan pribadi</strong>, bukan saran keuangan atau ajakan investasi. Saya bukan financial advisor. Risiko rugi ada di setiap keputusan crypto. Selalu DYOR (*do your own research*) sebelum ambil keputusan.
 </div>
 
----
 
 ## Bagian 1: Memahami GenLayer & Optimistic Democracy
 
@@ -115,7 +114,6 @@ Validator tidak mereplikasi output Leader. Mereka **menilai akurasi** hasil Lead
 - **Oracle**: oracle AI tanpa middleware
 - **DAOs**: voting cerdas dengan analisis proposal
 
----
 
 ## Bagian 2: Membangun Intelligent Contract Dispute Resolution
 
@@ -442,7 +440,6 @@ Hanya JSON, tidak ada teks lain."""
 
 **Simpan sebagai `DisputeResolution.py`**, ini yang bakal kita deploy.
 
----
 
 ## Bagian 3: Deploy & Test Contract di GenLayer Studio
 
@@ -514,7 +511,6 @@ Ini adalah siklus hidup transaksi yang dijelaskan di Bagian 1. Jika statusnya **
 | `execution failed` | Runtime error | Cek panel log |
 | `0 GEN` | Belum fund | Klik Fund di wallet |
 
----
 
 ## Bagian 4: Frontend dengan genlayer-js & React
 
@@ -773,7 +769,6 @@ npm run dev
 
 Alur: Connect MetaMask → Switch ke GenLayer → Buat sengketa → Counterparty join → Resolve → AI jadi hakim.
 
----
 
 ## Bagian 5: Deploy ke Bradbury Testnet & Go Live
 

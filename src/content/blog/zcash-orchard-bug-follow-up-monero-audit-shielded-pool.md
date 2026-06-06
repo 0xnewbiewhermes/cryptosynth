@@ -30,7 +30,6 @@ canonical: "https://cryptosynth.id/blog/zcash-orchard-bug-follow-up-monero-audit
 <strong>Disclaimer:</strong> Lanjutan dari artikel [Zcash Orchard Bobol](/blog/zcash-orchard-bug-counterfeit-privacy-coin-juni-2026) yang terbit kemarin. Saya gak punya posisi ZEC atau XMR saat ini.
 </div>
 
----
 
 Dari semua yang terjadi minggu ini, satu hal yang bikin saya paling mikir: **bukan soal bug-nya, tapi soal apa yang terjadi setelahnya.**
 
@@ -38,7 +37,6 @@ Tim Zcash patch dalam 4 jam. Disclosure transparan. Komunitas debat soal masa de
 
 Dan sekarang, domain specialist yang sama yang nemuin bug mulai ngincer privacy coin lain.
 
----
 
 ## Researcher Now Incar Monero
 
@@ -64,7 +62,6 @@ Hornby bilang dia bakal cari **flaws di protocol engineering**, bukan cuma scann
 
 XMR turun 8% pas artikel ini ditulis ke $295  -  ikut koreksi market, bukan karena signal spesifik.
 
----
 
 ## Shielded Pool Redesign  -  Bukan Patch Biasa
 
@@ -88,7 +85,6 @@ Turnstile accounting adalah solusi teknis buat kalimat itu. Kalau berhasil, gak 
 
 Tapi proposal ini masih perlu governance approval. Dan governance Zcash  -  seperti semua blockchain governance  -  gak cepet. Target NU7: akhir Juli. Itu masih 7 minggu dari sekarang.
 
----
 
 ## Market Aftermath: Data yang Jujur
 
@@ -112,7 +108,6 @@ Ini ngasih tau bahwa **yang jual bukan trader leverage.** Ini whale dan holder s
 
 Short interest ZEC juga di rekor. OI ZEC futures di ATH. Ini double-edged sword: kalau harga stabil, short squeeze bisa dorong ZEC balik cepet. Tapi selama bearish sentiment dominan, tekanan jual tetep ada.
 
----
 
 ## Formal Verification: Solusi Jangka Panjang
 
@@ -146,7 +141,6 @@ Gemini co-founder Cameron Winklevoss juga defend Zcash:
 
 Fair point, tapi ini standard yang lebih cocok buat Bitcoin atau Ethereum  -  bukan privacy coin. Privacy coin beda level risikonya karena supply integrity gak bisa diaudit secara publik.
 
----
 
 ## Risks & Refleksi
 
@@ -166,7 +160,6 @@ Fair point, tapi ini standard yang lebih cocok buat Bitcoin atau Ethereum  -  bu
 - **Privacy vs auditability trade-off belum punya solusi elegan.** Turnstile accounting mungkin jawabannya, tapi masih proposal
 - **AI-assisted auditing adalah game changer.** Hornby nemuin bug dalam 24 jam pake Opus 4.8. Bayangin apa yang bisa dilakukan attacker dengan model yang sama
 
----
 
 ## Opini Saya
 
@@ -189,7 +182,6 @@ Monero mungkin next domino. Atau mungkin Hornby gak nemu apa-apa dan itu jadi en
 
 Either way, saya bakal ngikutin.
 
----
 
 ## Sumber
 
@@ -203,6 +195,5 @@ Either way, saya bakal ngikutin.
 - [Taylor Hornby statement via X](https://x.com/taylorhornby)
 - [Arthur Hayes statement via X](https://x.com/CryptoHayes)
 
----
 
 *Artikel ini pertama kali diterbitkan 7 Juni 2026. Update akan ditambahkan kalau ada perkembangan soal NU7, hasil audit Monero, atau keputusan governance Zcash.*

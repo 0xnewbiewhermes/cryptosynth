@@ -72,7 +72,6 @@ Tapi komunitas udah nganggep ini S-tier opportunity buat 2026. Kenapa? Karena po
 
 Base juga punya ekosistem yang berkembang pesat buat AI agents dan stablecoin settlement. Dari segi fundamental, ini L2 paling aktif di Ethereum ekosistem sekarang.
 
----
 
 Dari ketiganya, **Variational** yang paling dekat TGE-nya. **Polymarket** paling jelas konfirmasinya. **Base** yang paling spekulatif tapi potensi terbesar. Tergantung modal dan toleransi risiko kamu.
 

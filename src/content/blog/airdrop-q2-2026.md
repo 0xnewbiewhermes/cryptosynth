@@ -165,10 +165,8 @@ Beberapa hal yang sering dilupain orang:
 
 **Waktu adalah modal.** Beacon butuh ~30 menit sehari. Grass butuh 0 menit (passive). Polymarket butuh komitmen trading. Pilih yang sesuai dengan waktu yang kamu punya.
 
----
 
 Airdrop Q2 2026 ini menarik karena variasinya. Ada yang butuh modal (Polymarket, Hyperliquid), ada yang butuh waktu (Beacon, SosoValue), dan ada yang passive aja (Grass). Dari ketujuhnya, Polymarket yang bikin saya penasaran karena valuation-nya belum terwujud ke token. Tapi kalau kamu mau yang seru, main Beacon. Gamenya beneran worth dimainin bahkan tanpa airdrop.
 
----
 
 *Catatan: Ini catatan pribadi, bukan saran investasi. Kamu punya duit, kamu yang mutusin.*

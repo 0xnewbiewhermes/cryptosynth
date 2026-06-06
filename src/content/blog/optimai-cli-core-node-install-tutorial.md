@@ -226,7 +226,6 @@ Bandingin sama [artikel pertama saya soal OptimAI](/blog/optimai-network-airdrop
 
 Kalo ada pertanyaan soal setup atau troubleshooting, cek [dokumentasi resmi OptimAI](https://docs.optimai.network/docs/optimai-node/core-node) atau tanya di komunitas mereka.
 
----
 
 **Sumber:**
 - [OptimAI CLI Node GitHub](https://github.com/OptimaiNetwork/OptimAI-CLI-Node)

@@ -30,7 +30,6 @@ canonical: "https://cryptosynth.id/blog/zcash-orchard-bug-counterfeit-privacy-co
 <strong>Disclaimer:</strong> Ini catatan pribadi dari seorang yang ngikutin Zcash dari 2019. Bukan saran keuangan. Saya gak punya posisi ZEC atau XMR saat nulis ini, tapi pernah pegang ZEC di 2021.
 </div>
 
----
 
 Dari data kejutannya: udah setengah desentralisasi yang ancur malem itu.
 
@@ -38,7 +37,6 @@ Seorang security researcher bisa duduk di kursinya, ngejalanin AI model yang bar
 
 Dan CEO BitMEX, setelah 6 bulan hype-in privacy coin sebagai "Holy Trinity" portfolio-nya, jual semua ZEC dalam hitungan jam.
 
----
 
 ## Yang Sebenarnya Terjadi
 
@@ -66,7 +64,6 @@ Gak ada drama. Gak ada leak. Gak ada hacker jahat yang duluan nemu. Hornby langs
 
 Respon tim Zcash cepet. Dari discovery ke patching: **4 hari**. Itu lumayan buat project yang governance-nya desentralisasi. Tapi masalahnya bukan di response time.
 
----
 
 ## Kenapa Ini Beda Dari Bug Biasanya
 
@@ -84,7 +81,6 @@ Shielded Labs disclosure-nya jujur banget:
 
 **Artinya:** Mungkin aja ada yang exploit celah ini selama 4 tahun dan kita gak bakal pernah tau.
 
----
 
 ## Akar Masalah Teknis
 
@@ -98,7 +94,6 @@ Konsekuensinya: penyerang bisa bikin proof palsu yang bilang "saya punya 1,000 Z
 
 Vulnerability classification: **soundness bug** - system accept proof yang harusnya ditolak. Ini yang paling fatal buat shielded pool.
 
----
 
 ## Dampak ke Harga
 
@@ -131,7 +126,6 @@ Kalau diterjemahin: "Meskipun gue yakin banget gak ada eksploitasi, secara kript
 
 Dia bilang privacy coin butuh **"perfection, not improbability"** - karena menghadapi narasi surveillance dari AI, pemerintah, dan big tech. Tapi dia ninggalin celah: **bakal beli lagi kalau supply integrity bisa diverifikasi**, bahkan di harga yang lebih tinggi.
 
----
 
 ## Kenapa Ini Bukan Kali Pertama
 
@@ -147,7 +141,6 @@ Udi Wertheimer (crypto commentator, gak asing karena sering debat soal Bitcoin) 
 
 Ini yang bikin saya personally kurang percaya diri sama long-term viability shielded pool design Zcash. Bukan karena timnya jelek - mereka responsif dan transparan. Tapi karena secara fundamental, **privacy dan auditability adalah trade-off yang susah banget diseimbangin.**
 
----
 
 ## Dampak ke Privacy Coin Lain
 
@@ -167,7 +160,6 @@ Joe Andrews (CEO Aztec Labs, project privacy layer di Ethereum) nge-highlight re
 
 Artinya: ZK circuit itu rawan. Formal verification (proof matematis kalau circuit bener) dan dual-proof system harusnya jadi standar, bukan opsional.
 
----
 
 ## Rencana Perbaikan
 
@@ -185,7 +177,6 @@ Craig Salm (GC Grayscale) ngasih argumen tandingan:
 
 Valid point. Tapi argumen ini gak tentuin: "unlikely" beda dengan "provable." Dan buat privacy coin, **provable itu standar yang harus dipenuhi.**
 
----
 
 ## Risiko & Refleksi
 
@@ -201,7 +192,6 @@ Valid point. Tapi argumen ini gak tentuin: "unlikely" beda dengan "provable." Da
 - **Privacy vs auditability trade-off.** Semakin privat sebuah blockchain, semakin susah ngedeteksi masalah supply. Ini fundamental, bukan temporary.
 - **Regulatory angle.** Kalau privacy coin sendiri aja gak bisa ngejamin supply integrity-nya, gimana mau ngadepin regulasi yang minta transparansi?
 
----
 
 ## Opini Saya
 
@@ -219,7 +209,6 @@ Kesimpulan saya: **Zcash gak akan mati karena ini.** Timnya respon cepet, komuni
 
 Saya pribadi wait-and-see. Kalau turnstile accounting berhasil diimplementasi dan audit formal Orchard circuit keluar bersih, Zcash bisa balik. Tapi buat sekarang, saya prefer observed from distance.
 
----
 
 ## Sumber
 
@@ -233,6 +222,5 @@ Saya pribadi wait-and-see. Kalau turnstile accounting berhasil diimplementasi da
 - [Aztec Labs - Joe Andrews Comment on ZK Circuit Security](https://x.com/aztec_labs)
 - [Udi Wertheimer Commentary on Zcash Sprout/Orchard Pattern](https://x.com/udiWertheimer)
 
----
 
 *Artikel ini pertama kali diterbitkan 6 Juni 2026. Update akan ditambahkan kalau ada perkembangan soal turnstile accounting atau hasil audit Orchard circuit.*

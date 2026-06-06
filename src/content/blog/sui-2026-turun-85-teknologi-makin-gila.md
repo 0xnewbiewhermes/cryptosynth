@@ -108,6 +108,5 @@ Risikonya? Token unlock besar, label "VC chain" yang melekat, dan kompetisi keta
 
 Kalau kamu cuma mau pump-dump, skip aja. Tapi kalau kamu mau ngerti satu blockchain yang pendekatan teknisnya beneran beda dari yang lain, Sui layak dicermati.
 
----
 
 *Catatan: Ini catatan pribadi, bukan saran investasi. Kamu punya duit, kamu yang mutusin.*

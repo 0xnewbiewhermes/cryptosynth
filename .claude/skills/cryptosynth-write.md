@@ -92,6 +92,7 @@ Screenshots adalah requirement, bukan opsional. Tutorial 800+ baris tanpa visual
 - **Bold untuk highlight:** pake `**teks**`, jangan CAPSLOCK
 - **Self-correction:** kalau ada kesalahan di artikel sebelumnya, akui dan koreksi (contoh: Modulr Lanjutan)
 - **Internal linking:** link ke artikel terkait di CryptoSynth sendiri, bukan cuma external sources
+- **Dilarang horizontal rules (`---`):** Jangan pake `---` di body artikel. Section separator cukup pake heading baru (`##`). Satu-satunya `---` yang diizinkan adalah frontmatter delimiter (baris 1 dan baris setelah frontmatter). Horizontal rules di body create visual noise dan gak konsisten sama terminal aesthetic.
 
 ### DON'T ❌
 - **Jangan buka artikel dengan pattern:** "Barusan iseng scroll X", "Lagi rame di X", "Minggu ini lagi hangat" — variasi ini udah kepake >12 kali

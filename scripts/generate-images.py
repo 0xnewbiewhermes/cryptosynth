@@ -72,8 +72,9 @@ def generate_image(prompt: str, output_path: str, width: int, height: int) -> di
         from urllib.parse import urlparse
         parsed = urlparse(img_url)
         # Only allow known image-hosting domains (OpenRouter CDN)
-        allowed = (".r2.dev", ".vercel-storage.com", "openrouter.ai")
-        if not any(parsed.hostname and parsed.hostname.endswith(s) for s in allowed):
+        allowed_prefix = (".r2.dev", ".vercel-storage.com", ".openrouter.ai")
+        host = parsed.hostname or ""
+        if host != "openrouter.ai" and not any(host.endswith(s) for s in allowed_prefix):
             return {"error": f"Disallowed image host: {parsed.hostname}"}
         # Reject private/loopback IPs
         try:

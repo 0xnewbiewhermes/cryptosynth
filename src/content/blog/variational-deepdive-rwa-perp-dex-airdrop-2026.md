@@ -164,7 +164,6 @@ Jangan cuma liat upside-nya. Ini risiko yang harus dipertimbangkan:
 
 **Regulatory risk.** RWA trading di perp DEX itu grey area. Kalo regulator mulai ngeh, bisa ada masalah.
 
----
 
 Variational menarik buat saya bukan cuma karena points-nya. Tapi karena approach-nya beda: pake RFQ model buat bridge TradFi liquidity on-chain, timnya beneran quant background, dan protokolnya udah generate revenue beneran sebelum ada token.
 

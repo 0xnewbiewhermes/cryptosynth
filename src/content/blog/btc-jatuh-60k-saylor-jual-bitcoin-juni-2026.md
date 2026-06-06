@@ -142,7 +142,6 @@ Apa ini akhir dari bull market? Menurut gue belum tentu. Bull market 2024-2025 d
 
 Tapi seperti kata Saylor, "Volatility creates opportunity." Yang bedain investor yang survive dari yang FOMO adalah: **apakah kamu punya tesis investasi, atau cuma ikut-ikutan.**
 
----
 
 **Sumber:**
 - [CryptoQuant: Whale BTC deposits on Binance double as June selloff accelerates](https://cryptoquant.com/insights/quicktake/6a225aaba8af494cbea1e3ba-Whale-BTC-deposits-on-Binance-double-as-June-selloff-accelerates)

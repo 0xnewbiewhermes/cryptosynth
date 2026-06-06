@@ -71,7 +71,6 @@ Tapi jangan expect instant profit. Project ini masih awal banget: tim 11 orang, 
 
 Dari beberapa project AI-agent infrastructure yang lagi muncul, Catena punya pendekatan regulatory yang paling serius dibanding yang lain. Tapi timing TGE (kalo ada) bisa jauh: mereka fokus ke proses charter bank dulu, bukan token.
 
----
 
 **Sumber:**
 - [Catena Labs Series A announcement](https://x.com/catena_labs/status/2057083329279566025)

@@ -116,6 +116,5 @@ Ini bukan project crypto yang nge-hype tanpa substansi. Ada produk nyata, ada vo
 
 Tapi kalau kamu mau tau satu DEX yang paling banyak dibahas di 2026, ini dia.
 
----
 
 *Sumber: [CoinDesk (29 Mei 2026)](https://www.coindesk.com/markets/2026/05/29/ice-ceo-calls-hyperliquid-bigger-than-nasdaq-says-he-s-met-its-founders), [CoinDesk (30 Mei 2026)](https://www.coindesk.com/business/2026/05/30/hyperliquid-could-become-a-financial-services-juggernaut-as-defi-expands-says-grayscale), [Grayscale Research Report](https://www.coindesk.com/business/2026/05/30/hyperliquid-could-become-a-financial-services-juggernaut-as-defi-expands-says-grayscale)*

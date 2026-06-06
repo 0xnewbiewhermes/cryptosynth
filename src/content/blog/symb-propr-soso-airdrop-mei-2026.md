@@ -87,6 +87,5 @@ Dari ketiganya, yang paling dekat TGE-nya SYMB (5 Juni). Kalo kamu cuma punya wa
 
 Yang pasti: testnet farming massal yang cuma ngumpulin tx dummy udah makin kurang dihargai. Project sekarang lebih merit-based, reward aktivitas genuine, dan makin jago filter sybil. Farming yang paling worth sekarang: yang butuh konsistensi harian, bukan spam sekali doang.
 
----
 
 *Sumber: [@TheSymbioteLab](https://x.com/TheSymbioteLab), [@ProprXYZ](https://x.com/ProprXYZ), [@SoSoValue](https://x.com/SoSoValue)*

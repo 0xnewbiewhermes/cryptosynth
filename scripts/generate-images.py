@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate article images (hero + OG) via OpenRouter Gemini 3.1 Flash.
+"""Generate article images (hero + OG) via OpenRouter Flux 2 Klein 4B.
 
 Usage:
   # Generate both for an article
@@ -12,18 +12,16 @@ Usage:
 import os, sys, json, base64, subprocess, argparse
 from PIL import Image
 
-API_KEY = os.environ.get("OPENROUTER_API_KEY")
-if not API_KEY:
-    print("ERROR: OPENROUTER_API_KEY not set")
-    sys.exit(1)
-
-MODEL = "google/gemini-3.1-flash-image-preview"
-COST_PER_MTOKEN_INPUT = 0.50  # $0.50/1M input tokens
-COST_PER_MTOKEN_OUTPUT = 60.0  # ~$60/1M output tokens (image)
+MODEL = "black-forest-labs/flux.2-klein-4b"
+COST_PER_MTOKEN_INPUT = 0.10  # $0.10/1M input tokens
+COST_PER_MTOKEN_OUTPUT = 0.10  # ~$0.10/1M output tokens
 
 
 def generate_image(prompt: str, output_path: str, width: int, height: int) -> dict:
     """Generate image, save to path, return metadata."""
+    API_KEY = os.environ.get("OPENROUTER_API_KEY")
+    if not API_KEY:
+        return {"error": "OPENROUTER_API_KEY not set"}
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
     resp = subprocess.run([
@@ -45,18 +43,51 @@ def generate_image(prompt: str, output_path: str, width: int, height: int) -> di
 
     # Extract image from response
     choices = data.get("choices", [{}])
-    images = choices[0].get("message", {}).get("images", [])
-    if not images:
-        raw = json.dumps(data, indent=2)
-        return {"error": f"No image in response. Full response:\n{raw[:1000]}"}
+    msg = choices[0].get("message", {})
+    img_url = None
 
-    img_url = images[0].get("image_url", {}).get("url")
+    # Flux returns image as markdown link in content
+    content = msg.get("content", "")
+    if content:
+        m = __import__("re").search(r"!\[.*?\]\((https?://[^\s)]+)\)", content)
+        if m:
+            img_url = m.group(1)
+
+    # Gemini-style: dedicated images array
     if not img_url:
-        return {"error": "No image_url field in response"}
+        images = msg.get("images", [])
+        if images:
+            img_url = images[0].get("image_url", {}).get("url")
+            if img_url and "," in img_url:
+                img_url = img_url.split(",", 1)[1]
 
-    # Decode base64
-    if "," in img_url:
+    if not img_url:
+        raw = json.dumps(data, indent=2)
+        return {"error": f"No image found in response. Full response:\n{raw[:1000]}"}
+
+    # Decode base64 or fetch URL
+    if img_url.startswith("data:"):
         img_data = base64.b64decode(img_url.split(",", 1)[1])
+    elif img_url.startswith(("http://", "https://")):
+        from urllib.parse import urlparse
+        parsed = urlparse(img_url)
+        # Only allow known image-hosting domains (OpenRouter CDN)
+        allowed = (".r2.dev", ".vercel-storage.com", "openrouter.ai")
+        if not any(parsed.hostname and parsed.hostname.endswith(s) for s in allowed):
+            return {"error": f"Disallowed image host: {parsed.hostname}"}
+        # Reject private/loopback IPs
+        try:
+            import socket
+            for addr in socket.getaddrinfo(parsed.hostname, 443):
+                ip = __import__("ipaddress").ip_address(addr[4][0])
+                if ip.is_private or ip.is_loopback or ip.is_link_local:
+                    return {"error": f"Refused private IP: {ip}"}
+        except OSError:
+            return {"error": f"Cannot resolve host: {parsed.hostname}"}
+        r = subprocess.run(["curl", "-sS", "--max-redirs", "0", img_url], capture_output=True, timeout=30)
+        if r.returncode != 0:
+            return {"error": f"Failed to download image from {img_url}"}
+        img_data = r.stdout
     else:
         img_data = base64.b64decode(img_url)
 

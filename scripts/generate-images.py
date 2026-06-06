@@ -120,20 +120,18 @@ def build_og_prompt(title: str, category: str, description: str = "") -> str:
     title_keywords = title.replace('"', "").replace("'", "")
     desc_hint = f" Article context: {description[:200]}" if description else ""
 
-    return f"""Generate a dark terminal-themed OG image (1200x630) for a crypto blog article.
+    return f"""Generate a dark terminal-themed OG image (1200x630) for a crypto blog article. DO NOT render any text - no title text, no labels, no "CryptoSynth.id", no category badges. Pure visuals only.
 
-Title: "{title}"
+Title context: "{title}"
 Category: {category}{desc_hint}
 
 Visual requirements:
 - Dark background (#0F172A) with subtle grid lines
-- {visual['palette']} - thin top border line and category badge
+- {visual['palette']} - thin top border line
 - Visual: {visual['icon']}
 - {visual['theme']}
-- Big text "{title}" in white bold font, left-aligned, max 3 lines
-- Small text "CryptoSynth.id" at bottom left in {visual['palette'].split()[0]}
-- Category badge "{category}" at top left
 - UNIQUE design: the image MUST visually reference "{title_keywords[:60]}" specifically, not generic crypto imagery
+- NO TEXT whatsoever on the image
 
 Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design. Terminal dashboard look. Every image for this blog should be visually distinct - never use the same chart pattern, icon layout, or composition twice."""
 
@@ -143,18 +141,17 @@ def build_hero_prompt(title: str, category: str, description: str = "") -> str:
     title_keywords = title.replace('"', "").replace("'", "")
     desc_hint = f" Article context: {description[:150]}" if description else ""
 
-    return f"""Generate a dark terminal-themed hero image (800x400) for a crypto blog article.
+    return f"""Generate a dark terminal-themed hero image (800x400) for a crypto blog article. DO NOT render any text - no title text, no labels, no "CryptoSynth.id". Pure visuals only.
 
-Title: "{title}"
+Title context: "{title}"
 Category: {category}{desc_hint}
 
 Visual requirements:
 - Dark background (#0F172A) with subtle grid lines
 - {visual['palette']} - thin top border line
 - Visual on right side: {visual['icon']}
-- Text "{title}" in white bold font, left-aligned, max 3 lines
-- Small text "CryptoSynth.id" at bottom left
 - UNIQUE design: must visually reference "{title_keywords[:50]}" specifically
+- NO TEXT whatsoever on the image
 
 Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design. Never reuse the same layout or chart style from previous images."""
 

@@ -117,74 +117,59 @@ def generate_image(prompt: str, output_path: str, width: int, height: int) -> di
 
 CATEGORY_VISUALS = {
     "Airdrop": {
-        "icon": "gift boxes, token distribution charts, farming dashboard UI",
+        "icon": "abstract geometric shapes, interconnected nodes, layered polygons",
         "palette": "emerald green (#10B981) accent",
-        "theme": "farming interface with points tally, referral tree, farming progress bars",
+        "theme": "geometric patterns with radiating lines, polygonal mesh structures",
     },
     "Journal": {
-        "icon": "price charts, news ticker, market data, candlestick patterns",
+        "icon": "abstract wave patterns, flowing线条, geometric grid compositions",
         "palette": "emerald green (#059669) accent",
-        "theme": "market analysis dashboard with macro data",
+        "theme": "organic flowing shapes, interconnected rings, layered depth",
     },
     "Tutorial": {
-        "icon": "code editor, terminal windows, command lines, network diagrams",
+        "icon": "abstract geometric blocks, binary-like patterns, structured grids",
         "palette": "blue (#3B82F6) accent",
-        "theme": "terminal with code blocks, CLI interface, step indicators",
+        "theme": "isometric geometric shapes, stacked blocks, network nodes",
     },
     "DeFi": {
-        "icon": "liquidity pools, yield curves, protocol dashboard, swap interface",
+        "icon": "interlocking geometric rings, circular patterns, flowing lines",
         "palette": "purple (#8B5CF6) accent",
-        "theme": "DeFi protocol dashboard with TVL charts, pool metrics",
+        "theme": "concentric geometric patterns, interwoven circular motifs",
     },
     "Berita": {
-        "icon": "breaking news ticker, newspaper layout, headline UI",
+        "icon": "abstract radiating lines, geometric bursts, layered rectangles",
         "palette": "blue (#3B82F6) accent",
-        "theme": "news terminal with headlines, timestamp feed",
+        "theme": "expanding geometric patterns, layered depth gradients",
     },
 }
 
 DEFAULT_VISUAL = CATEGORY_VISUALS["Journal"]
 
 
-def build_og_prompt(title: str, category: str, description: str = "") -> str:
+def build_og_prompt(_title: str, category: str, _description: str = "") -> str:
     visual = CATEGORY_VISUALS.get(category, DEFAULT_VISUAL)
-    title_keywords = title.replace('"', "").replace("'", "")
-    desc_hint = f" Article context: {description[:200]}" if description else ""
 
-    return f"""Generate a dark terminal-themed OG image (1200x630) for a crypto blog article. DO NOT render any text - no title text, no labels, no "CryptoSynth.id", no category badges. Pure visuals only.
-
-Title context: "{title}"
-Category: {category}{desc_hint}
-
-Visual requirements:
-- Dark background (#0F172A) with subtle grid lines
-- {visual['palette']} - thin top border line
-- Visual: {visual['icon']}
-- {visual['theme']}
-- UNIQUE design: the image MUST visually reference "{title_keywords[:60]}" specifically, not generic crypto imagery
-- NO TEXT whatsoever on the image
-
-Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design. Terminal dashboard look. Every image for this blog should be visually distinct - never use the same chart pattern, icon layout, or composition twice."""
+    return f"""Abstract geometric shapes, clean lines, and layered forms on a dark background (1200x630).
+ABSOLUTELY NO TEXT, NO LETTERS, NO WORDS, NO NUMBERS - pure visual only.
+Background: solid dark (#0F172A) with subtle grid pattern.
+Thin {visual['palette']} line near top edge as accent.
+Prominent abstract elements in muted teal and green tones: {visual['icon']}
+Arrangement: {visual['theme']}
+Style: flat colors, crisp geometric shapes, dark hacker aesthetic, no gradients, no humans.
+Make the abstract shapes clearly visible with good contrast - this should look like an album art, not an empty dark rectangle."""
 
 
-def build_hero_prompt(title: str, category: str, description: str = "") -> str:
+def build_hero_prompt(_title: str, category: str, _description: str = "") -> str:
     visual = CATEGORY_VISUALS.get(category, DEFAULT_VISUAL)
-    title_keywords = title.replace('"', "").replace("'", "")
-    desc_hint = f" Article context: {description[:150]}" if description else ""
 
-    return f"""Generate a dark terminal-themed hero image (800x400) for a crypto blog article. DO NOT render any text - no title text, no labels, no "CryptoSynth.id". Pure visuals only.
-
-Title context: "{title}"
-Category: {category}{desc_hint}
-
-Visual requirements:
-- Dark background (#0F172A) with subtle grid lines
-- {visual['palette']} - thin top border line
-- Visual on right side: {visual['icon']}
-- UNIQUE design: must visually reference "{title_keywords[:50]}" specifically
-- NO TEXT whatsoever on the image
-
-Style: hacker terminal aesthetic, minimal, no human faces, no gradients, flat design. Never reuse the same layout or chart style from previous images."""
+    return f"""Abstract geometric shapes, clean lines, and layered forms on a dark background (800x400).
+ABSOLUTELY NO TEXT, NO LETTERS, NO WORDS, NO NUMBERS - pure visual only.
+Background: solid dark (#0F172A) with subtle grid pattern.
+Thin {visual['palette']} line near top edge as accent.
+Abstract geometric shapes stacked on the right side: {visual['icon']}
+Arrangement: {visual['theme']}
+Style: flat colors, crisp geometric shapes, dark hacker aesthetic, no gradients, no humans.
+Make the abstract shapes clearly visible with good contrast - this should look like an album art, not an empty dark rectangle."""
 
 
 def main():

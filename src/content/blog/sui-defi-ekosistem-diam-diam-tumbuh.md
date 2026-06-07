@@ -32,7 +32,7 @@ canonical: "https://cryptosynth.id/blog/sui-defi-ekosistem-diam-diam-tumbuh"
 
 ## "Chain Mati" dengan $200M+ DeFi Ecosystem
 
-Dua minggu lalu saya nulis [Sui di 2026: Turun 85%, Tapi Teknologinya Justru Makin Gila](/blog/sui-2026-turun-85-teknologi-makin-gila). Waktu itu SUI di $0.82. Sekarang $0.75. Tambah turun 9%.
+Empat hari lalu saya nulis [Sui di 2026: Turun 85%, Tapi Teknologinya Justru Makin Gila](/blog/sui-2026-turun-85-teknologi-makin-gila). Waktu itu SUI di $0.82. Sekarang $0.75. Tambah turun 9%.
 
 Narasi publik soal Sui masih sama. "VC chain." "Token unlock terus." "Movement gak ada." Tapi ada satu hal yang jarang dibahas. Ekosistem DeFi di atas Sui ternyata berfungsi dan tumbuh pelan-pelan.
 

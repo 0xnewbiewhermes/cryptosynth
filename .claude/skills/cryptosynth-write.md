@@ -166,43 +166,17 @@ pubDate: "2026-06-10T03:00:00Z"
 
 Alasan: pembaca CryptoSynth mayoritas di Indonesia, WIB lebih intuitif.
 
-## Image Generation Workflow
+## Image — User-Provided
 
-Hero & OG image wajib unik (jangan `default.jpg`). Generate via OpenRouter Gemini 3.1 Flash:
+Image dikirim user setelah draft selesai. **Jangan generate image otomatis.**
 
-```bash
-OPENROUTER_API_KEY="sk-or-..." python3 scripts/generate-images.py \
-  --title "Judul Artikel" \
-  --slug "nama-slug" \
-  --category "Journal" \
-  --desc "BTC turun 14% dalam sepekan, Saylor jual 32 BTC..."
-```
-
-**Output:**
-```
-public/images/hero/{slug}.png   (800x400)
-public/images/og/{slug}.png     (1200x630)
-```
-
-**Dry-run (cek prompt tanpa spend):**
-```bash
-OPENROUTER_API_KEY="sk-or-..." python3 scripts/generate-images.py \
-  --dry-run --title "..." --slug "..." --category Journal
-```
-
-**Single custom image:**
-```bash
-OPENROUTER_API_KEY="sk-or-..." python3 scripts/generate-images.py \
-  --prompt "Generate..." --output path.png --width 1200 --height 630
-```
-
-**Format:** `.png`, auto-resize ke dimensi tepat, auto-optimize ke WebP pas build.
-**PENTING:** Panggil fungsi ini SEKALI untuk kedua image. Jangan trial-error manual — setiap call ke API = biaya $0.067.
-**Pre-commit checklist:**
-- [ ] Image udah ada di `/public/images/hero/` dan `/public/images/og/`
-- [ ] Gak make `default.jpg`
-- [ ] Nama file sesuai slug
-- [ ] Cost reported di console setelah generate
+**Workflow:**
+1. Saya kirim draft artikel lengkap
+2. User generate image sendiri dan kirim ke saya
+3. Saya resize & simpan ke path yang benar:
+   - `public/images/hero/{slug}.png` (800×400, center crop)
+   - `public/images/og/{slug}.png` (1200×630, center crop)
+4. WebP auto-generated via postbuild (`optimize-images.mjs`)
 
 ## Series & Sequel Pattern
 

@@ -1,7 +1,7 @@
 ---
 title: "Sui DeFi 2026: Ekosistem yang Diam-Diam Tumbuh"
 slug: "sui-defi-ekosistem-diam-diam-tumbuh"
-pubDate: "2026-06-08T19:00:00+07:00"
+pubDate: "2026-06-08T01:45:00+07:00"
 author: "Gideon"
 category: "Journal"
 description: "SUI turun 86% dari ATH. Tapi di balik layar, ekosistem DeFi-nya tumbuh dengan Cetus, DeepBook, NAVI, Bucket Protocol, dan liquid staking. Ini potret ekosistem yang jarang dibahas."
@@ -18,7 +18,7 @@ heroImage: "/images/hero/sui-defi-ekosistem-diam-diam-tumbuh.png"
 ogImage: "/images/og/sui-defi-ekosistem-diam-diam-tumbuh.png"
 excerpt: "SUI dari $5.35 ke $0.75. Tapi yang jarang dibahas: Cetus, DeepBook, NAVI, Bucket Protocol, dan liquid staking. Semuanya berfungsi dan tumbuh. Ini snapshot DeFi Sui di Juni 2026."
 faq: "Apa aja protokol DeFi yang ada di Sui?;;Sui punya Cetus (AMM DEX), DeepBook (order book), NAVI Protocol (lending/borrowing), Bucket Protocol (stablecoin CDP), Haedal dan Volo (liquid staking), dan Bluefin (perp DEX). Total market cap ekosistem DeFi di Sui sekitar $200M+.;;Apa beda DeepBook sama Cetus?;;DeepBook adalah on-chain central limit order book, mirip Binance order book, lengkap dengan bid/ask spread. Cetus adalah AMM (Automated Market Maker) kayak Uniswap, pake concentrated liquidity. DeepBook cocok buat trader, Cetus buat swapper.;;Apakah Sui punya stablecoin sendiri?;;Iya. Bucket Protocol nerbitin BUCK, CDP stablecoin yang di-collateralized oleh SUI dan token lain. Ada juga eSui Dollar yang di-back oleh staked SUI. Tapi skala masih kecil dibanding USDC atau USDT.;;Gimana cara mulai DeFi di Sui?;;Butuh SUI buat gas, wallet kayak Suiet atau Martian Wallet, dan bisa mulai dari Cetus buat swap, NAVI buat lending, atau Haedal buat staking. Semua transaksi selesai dalam <1 detik dengan fee ~$0.001.;;Apa risiko DeFi di Sui?;;Ekosistem masih kecil. TVL jauh di bawah Solana atau Ethereum. Risiko smart contract, liquidity fragmentation, dan developer pool Move yang kecil. Plus, token unlock SUI masih berlanjut sampai 2028."
-updatedDate: "2026-06-08T19:00:00+07:00"
+updatedDate: "2026-06-08T01:45:00+07:00"
 canonical: "https://cryptosynth.id/blog/sui-defi-ekosistem-diam-diam-tumbuh"
 ---
 

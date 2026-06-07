@@ -17,7 +17,7 @@ tags:
 heroImage: "/images/hero/sui-defi-ekosistem-diam-diam-tumbuh.png"
 ogImage: "/images/og/sui-defi-ekosistem-diam-diam-tumbuh.png"
 excerpt: "SUI dari $5.35 ke $0.75. Tapi yang jarang dibahas: Cetus, DeepBook, NAVI, Bucket Protocol, dan liquid staking. Semuanya berfungsi dan tumbuh. Ini snapshot DeFi Sui di Juni 2026."
-faq: "Apa aja protokol DeFi yang ada di Sui?;;Sui punya Cetus (AMM DEX), DeepBook (order book), NAVI Protocol (lending/borrowing), Bucket Protocol (stablecoin CDP), Haedal dan Volo (liquid staking), dan Bluefin (perp DEX). Total market cap ekosistem DeFi di Sui sekitar $200M+.;;Apa beda DeepBook sama Cetus?;;DeepBook adalah on-chain central limit order book, mirip Binance order book, lengkap dengan bid/ask spread. Cetus adalah AMM (Automated Market Maker) kayak Uniswap, pake concentrated liquidity. DeepBook cocok buat trader, Cetus buat swapper.;;Apakah Sui punya stablecoin sendiri?;;Iya. Bucket Protocol nerbitin BUCK, CDP stablecoin yang di-collateralized oleh SUI dan token lain. Ada juga eSui Dollar yang di-back oleh staked SUI. Tapi skala masih kecil dibanding USDC atau USDT.;;Gimana cara mulai DeFi di Sui?;;Butuh SUI buat gas, wallet kayak Suiet atau Martian Wallet, dan bisa mulai dari Cetus buat swap, NAVI buat lending, atau Haedal buat staking. Semua transaksi selesai dalam <1 detik dengan fee ~$0.001.;;Apa risiko DeFi di Sui?;;Ekosistem masih kecil. TVL jauh di bawah Solana atau Ethereum. Risiko smart contract, liquidity fragmentation, dan developer pool Move yang kecil. Plus, token unlock SUI masih berlanjut sampai 2028."
+faq: "Apa aja protokol DeFi yang ada di Sui?;;Sui punya Cetus (AMM DEX), DeepBook (order book), NAVI Protocol (lending/borrowing), Bucket Protocol (stablecoin CDP), Haedal dan Volo (liquid staking), dan Bluefin (perp DEX). Total market cap ekosistem DeFi di Sui sekitar $200M+.;;Apa beda DeepBook sama Cetus?;;DeepBook adalah on-chain central limit order book, mirip Binance order book, lengkap dengan bid/ask spread. Cetus adalah AMM (Automated Market Maker) kayak Uniswap, pake concentrated liquidity. DeepBook cocok buat trader, Cetus buat swapper.;;Apakah Sui punya stablecoin sendiri?;;Iya. Bucket Protocol nerbitin BUCK, CDP stablecoin yang di-collateralized oleh SUI dan token lain. Ada juga eSui Dollar yang di-back oleh staked SUI. Tapi skala masih kecil dibanding USDC atau USDT.;;Gimana cara mulai DeFi di Sui?;;Butuh SUI buat gas, wallet kayak Suiet atau Martian Wallet, dan bisa mulai dari Cetus buat swap, NAVI buat lending, atau Haedal buat staking. Semua transaksi selesai dalam <1 detik dengan fee ~$0.001.;;Apa risiko DeFi di Sui?;;Ekosistem masih kecil. TVL jauh di bawah Solana atau Ethereum. Risiko smart contract, liquidity fragmentation, dan developer pool Move yang kecil. Plus, token unlock SUI masih berlanjut sampai 2030+ (Community Reserve gradual release)."
 updatedDate: "2026-06-08T01:45:00+07:00"
 canonical: "https://cryptosynth.id/blog/sui-defi-ekosistem-diam-diam-tumbuh"
 ---
@@ -172,9 +172,9 @@ Dengan $240M total token MC, likuiditas di setiap protokol tipis. Satu protokol 
 
 Move itu bahasa yang lebih aman dari Solidity, tapi jumlah developer yang bisa nulis Move masih sangat kecil. Artinya lebih sedikit protokol baru, audit lebih mahal, dan kurang inovasi dibanding EVM ecosystem.
 
-### Token Unlock Masih Berlanjut
+### Token Unlock Jangka Panjang
 
-SUI baru 40% circulating. Sisa 60% bakal terus di-unlock sampe 2028. Ini tekanan jual struktural yang gak bisa diabaikan. DeFi ecosystem bisa tumbuh, tapi harga SUI mungkin tetep tertekan.
+SUI baru 40% circulating — data resmi dari Sui Foundation API per Juni 2026. Tapi sisa 60% gak bakal ke-unlock dalam waktu dekat. Community Reserve release-nya sangat gradual: Desember 2028 diperkirakan baru 45.5%, Desember 2029 di 47.2%, dan data API yang tersedia sampai 2030 masih cuma 47.8%. Jadwal distribusi Foundation sendiri mencakup periode "seven years" dari 2023 — artinya berlangsung minimal sampai 2030. Ini tekanan jual struktural yang gak bisa diabaikan dalam jangka menengah, tapi dampaknya per bulan relatif kecil karena unlock-nya tersebar tipis.
 
 ### Ketergantungan Bridge
 
@@ -203,6 +203,8 @@ Yang pasti: Sui bukan chain mati. Chain mati gak punya 30+ token di CoinGecko, g
 ### Sumber Data
 - [CoinGecko - Sui Ecosystem](https://www.coingecko.com/en/categories/sui-ecosystem) - data token per 8 Juni 2026
 - [CoinGecko - SUI Price](https://www.coingecko.com/en/coins/sui) - $0.75, MC $3.02B
+- [Sui Foundation - Circulation API](https://sui-circulation.suiexplorer.com/api/sui_circulation) - official circulating supply data
+- [Sui Foundation - Token Release Schedule](https://blog.sui.io/token-release-schedule/) - planned distributions "over the next seven years"
 - [Artikel sebelumnya: Sui 2026](/blog/sui-2026-turun-85-teknologi-makin-gila) - konteks teknologi Sui
 - [Cetus](https://www.cetus.zone) - AMM DEX
 - [DeepBook](https://deepbook.tech) - Order book DEX

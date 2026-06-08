@@ -13,14 +13,14 @@ const categories = ['Semua', 'Airdrop', 'Tutorial', 'Node'];
 <BaseLayout title="Semua Catatan - CryptoSynth.id" description="Seluruh catatan crypto personal yang pernah ditulis — airdrop, farming, tutorial, dan opini pasar." terminalPath="~/cryptosynth/articles">
   <div class="terminal-home">
     <div class="term-welcome">
-      <h1 class="term-line term-highlight" style="font-size:inherit;font-weight:inherit;margin:0;line-height:inherit">Arsip Semua Catatan</h1>
+      <h1 class="term-line term-highlight title-inherit">Arsip Semua Catatan</h1>
       <div class="term-line term-dim">Kumpulan catatan personal — airdrop, tutorial, node, dan opini pasar dari sudut pandang pribadi.</div>
       <div class="term-line">&nbsp;</div>
       <div class="term-line">
         <span class="term-dim">  Filter: </span>
         {categories.map((cat, i) => (
           <>
-            <a href={cat === 'Semua' ? '/articles' : `/category/${cat.toLowerCase()}`} class="term-accent" style="text-decoration:none; margin-right: 0.5rem;">{cat}</a>
+            <a href={cat === 'Semua' ? '/articles' : `/category/${cat.toLowerCase()}`} class="term-accent term-cat-link">{cat}</a>
             {i < categories.length - 1 && <span class="term-dim">|</span>}
           </>
         ))}
@@ -34,7 +34,7 @@ const categories = ['Semua', 'Airdrop', 'Tutorial', 'Node'];
         <span class="term-dim">  NUM  TAG            TITLE                                              DATE</span>
       </div>
       <div class="term-line">
-        <span class="term-dim" style="color:var(--border)">  ───  ───            ─────                                              ────</span>
+        <span class="term-dim term-border">  ───  ───            ─────                                              ────</span>
       </div>
       {posts.map((post, index) => (
         <a href={`/blog/${post.id}`} class="article-entry" style={`--j:${index}`}>

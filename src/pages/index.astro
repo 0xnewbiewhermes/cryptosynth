@@ -35,7 +35,7 @@ const posts = (await getCollection('blog')).sort(
         <span class="term-dim">  NUM  TAG            TITLE                                              DATE</span>
       </div>
       <div class="term-line">
-        <span class="term-dim" style="color:var(--border)">  ───  ───            ─────                                              ────</span>
+        <span class="term-dim term-border">  ───  ───            ─────                                              ────</span>
       </div>
       {posts.map((post, index) => (
         <a href={`/blog/${post.id}`} class="article-entry" style={`--j:${index}`}>

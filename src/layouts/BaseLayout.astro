@@ -59,11 +59,11 @@ const isActive = (path: string) => {
       </div>
       <span class="topbar-path">{terminalPath}</span>
       <nav class="nav" id="mainNav">
-        <a href="/" class={isActive('/')}>Catatan</a>
-        <a href="/category/airdrop" class={isActive('/category/airdrop')}>Airdrop</a>
-        <a href="/category/tutorial" class={isActive('/category/tutorial')}>Tutorial</a>
-        <a href="/tools" class={isActive('/tools')}>Tools</a>
-        <a href="/about" class={isActive('/about')}>Tentang</a>
+        <a href="/" class={isActive('/')} aria-current={isActive('/') ? 'page' : undefined}>Catatan</a>
+        <a href="/category/airdrop" class={isActive('/category/airdrop')} aria-current={isActive('/category/airdrop') ? 'page' : undefined}>Airdrop</a>
+        <a href="/category/tutorial" class={isActive('/category/tutorial')} aria-current={isActive('/category/tutorial') ? 'page' : undefined}>Tutorial</a>
+        <a href="/tools" class={isActive('/tools')} aria-current={isActive('/tools') ? 'page' : undefined}>Tools</a>
+        <a href="/about" class={isActive('/about')} aria-current={isActive('/about') ? 'page' : undefined}>Tentang</a>
       </nav>
       <div class="topbar-right">
         <button type="button" class="topbar-btn" id="searchToggle" aria-label="Cari catatan">
@@ -107,7 +107,7 @@ const isActive = (path: string) => {
           </div>
           <div class="footer-links">
             <div class="footer-col">
-              <p style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--text-muted);margin-bottom:0.7rem;font-weight:600">Jelajahi</p>
+              <p class="footer-label">Jelajahi</p>
               <a href="/">Catatan</a>
               <a href="/category/airdrop">Airdrop</a>
               <a href="/category/tutorial">Tutorial</a>
@@ -115,13 +115,13 @@ const isActive = (path: string) => {
               <a href="/articles">Arsip</a>
             </div>
             <div class="footer-col">
-              <p style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--text-muted);margin-bottom:0.7rem;font-weight:600">Lainnya</p>
+              <p class="footer-label">Lainnya</p>
               <a href="/about">Tentang</a>
               <a href="/disclaimer">Disclaimer</a>
               <a href="/privacy">Privacy</a>
             </div>
             <div class="footer-col">
-              <p style="font-size:0.7rem;text-transform:uppercase;letter-spacing:0.15em;color:var(--text-muted);margin-bottom:0.7rem;font-weight:600">Ikuti</p>
+              <p class="footer-label">Ikuti</p>
               <a href="https://twitter.com/cryptosynthid" target="_blank" rel="noopener">X (Twitter)</a>
               <a href="mailto:hello@cryptosynth.id">Email</a>
               <a href="/rss.xml">RSS Feed</a>
@@ -141,7 +141,7 @@ const isActive = (path: string) => {
       <span class="status-item" id="statusArticles"></span>
       <span class="status-item">3 kategori</span>
       <span class="status-item" id="statusClock"></span>
-      <span style="margin-left:auto">CryptoSynth.id v2.0</span>
+      <span class="status-item status-version">CryptoSynth.id v2.0</span>
     </div>
 
     <!-- Scroll to Top -->
@@ -290,10 +290,10 @@ const isActive = (path: string) => {
               scrollObserver.unobserve(entry.target);
             }
           });
-        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
-        document.querySelectorAll('.scroll-reveal').forEach(function(el) { scrollObserver.observe(el); });
+        }, { threshold: 0.08, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.scroll-reveal, .reveal').forEach(function(el) { scrollObserver.observe(el); });
       } else {
-        document.querySelectorAll('.scroll-reveal').forEach(function(el) { el.classList.add('visible'); });
+        document.querySelectorAll('.scroll-reveal, .reveal').forEach(function(el) { el.classList.add('visible'); });
       }
 
       // === Search: focus trap when open ===
@@ -311,6 +311,33 @@ const isActive = (path: string) => {
           else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
         });
       })();
+
+      // === Magnetic buttons ===
+      document.querySelectorAll('[data-magnetic]').forEach(function(btn) {
+        btn.addEventListener('mousemove', function(e) {
+          var rect = btn.getBoundingClientRect();
+          var x = (e.clientX - rect.left - rect.width / 2) * 0.2;
+          var y = (e.clientY - rect.top - rect.height / 2) * 0.2;
+          btn.style.transform = 'translate3d(' + x + 'px, ' + y + 'px, 0)';
+        });
+        btn.addEventListener('mouseleave', function() {
+          btn.style.transform = '';
+        });
+      });
+
+      // === Button ripple (tracks click position) ===
+      document.querySelectorAll('.btn-ripple').forEach(function(btn) {
+        btn.addEventListener('click', function(e) {
+          var rect = btn.getBoundingClientRect();
+          var x = ((e.clientX - rect.left) / rect.width * 100).toFixed(1);
+          var y = ((e.clientY - rect.top) / rect.height * 100).toFixed(1);
+          btn.style.setProperty('--mx', x + '%');
+          btn.style.setProperty('--my', y + '%');
+          btn.classList.remove('ripple-active');
+          void btn.offsetWidth;
+          btn.classList.add('ripple-active');
+        });
+      });
     </script>
     <script is:inline src="/live-time.js"></script>
 </body>

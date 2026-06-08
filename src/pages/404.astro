@@ -27,7 +27,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           </div>
           <div class="error-detail-item">
             <span class="error-label">Status</span>
-            <span class="error-value error-status"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#DC2626" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -2px; margin-right: 4px;"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> Reverted</span>
+            <span class="error-value error-status"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="var(--accent-error)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon-status"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> Reverted</span>
           </div>
           <div class="error-detail-item">
             <span class="error-label">RPC Error</span>
@@ -38,7 +38,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
         <div class="error-actions">
           <a href="/" class="btn btn-primary">← Kembali ke Beranda</a>
           <a href="/articles" class="btn btn-outline">Lihat Semua Catatan</a>
-          <a href="/search" class="btn btn-ghost"><svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: -3px; margin-right: 4px;"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Cari Artikel</a>
+          <a href="/search" class="btn btn-ghost"><svg class="btn-icon icon-btn" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg> Cari Artikel</a>
         </div>
 
         <div class="error-fun">
@@ -113,7 +113,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    box-shadow: var(--shadow-card);
+    border: 1px solid var(--border-medium);
   }
 
   .error-detail-item {
@@ -133,7 +133,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
   .error-value { color: var(--text-primary); font-family: 'JetBrains Mono', monospace; font-size: 0.82rem; }
   .error-hash { color: var(--text-muted); }
-  .error-status { color: #DC2626; }
+  .error-status { color: var(--accent-error); }
   .error-rpc { color: var(--text-secondary); font-style: italic; }
 
   .error-actions {
@@ -214,7 +214,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     border: 1px solid var(--border);
   }
 
-  .error-string { color: #059669; }
+  .error-string { color: var(--accent-success); }
 
   @media (max-width: 600px) {
     .error-code { font-size: 4.5rem; }

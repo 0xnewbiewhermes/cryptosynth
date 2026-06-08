@@ -97,10 +97,10 @@ const termPath = `~/cryptosynth/catatan/${post.id}.md`;
     </div>
 
     <!-- Hero image (if exists) -->
-    <div class="article-hero" style="margin-bottom:1.75rem">
+    <div class="article-hero">
       <picture>
         <source srcset={heroImage.replace('.png', '.webp')} type="image/webp" />
-        <img src={heroImage} alt={post.data.title} width="1059" height="556" loading="eager" fetchpriority="high" style="width:100%;height:auto;display:block" />
+        <img src={heroImage} alt={post.data.title} width="1059" height="556" loading="eager" fetchpriority="high" class="hero-img img-reveal" />
       </picture>
     </div>
 
@@ -111,7 +111,7 @@ const termPath = `~/cryptosynth/catatan/${post.id}.md`;
 
     <!-- Tags -->
     {post.data.tags && post.data.tags.length > 0 && (
-      <div class="tags-row" style="margin-top:2rem">
+      <div class="tags-row">
         {post.data.tags.map((tag) => (
           <a href={`/articles?tag=${tag}`} class="tag-chip">#{tag}</a>
         ))}

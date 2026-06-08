@@ -14,7 +14,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           <span class="scam-hero-dot"></span>
           Keamanan Dulu, Baru Transaksi
         </div>
-        <h1 class="scam-hero-title"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; margin-right: 6px;"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>Cek Scam Crypto</h1>
+        <h1 class="scam-hero-title"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-inline"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>Cek Scam Crypto</h1>
         <p class="scam-hero-desc">
           Masukkan domain atau address crypto untuk cek apakah terdaftar sebagai scam di database phishing global kami.
         </p>
@@ -38,9 +38,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
                   required
                 />
               </div>
-              <button type="submit" class="scam-btn" id="checkBtn">
+              <button type="submit" class="scam-btn btn-ripple" id="checkBtn" data-magnetic>
                 <span id="btnText">Periksa</span>
-                <span id="btnSpinner" class="scam-spinner" style="display:none"></span>
+                <span id="btnSpinner" class="scam-spinner hidden"></span>
               </button>
             </form>
             <p class="scam-form-hint">Domain, wallet address (Ethereum, BSC, Bitcoin, Solana), atau kontrak token - diperiksa dari 3 database + analisis token real-time</p>
@@ -55,7 +55,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     </div>
   </section>
 
-  <section class="scam-result-section" id="checkResult" style="display:none">
+  <section class="scam-result-section hidden" id="checkResult">
     <div class="container">
       <div class="scam-result-card" id="resultCard">
         <div class="scam-result-glow"></div>
@@ -156,7 +156,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   .scam-hero-dot {
     width: 6px;
     height: 6px;
-    background: var(--accent);
+    background: var(--primary);
     border-radius: 50%;
   }
 
@@ -173,7 +173,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     font-weight: 900;
     letter-spacing: -0.03em;
     line-height: 1.1;
-    color: var(--text-inverse);
+    color: var(--text-primary);
     margin-bottom: 0.5rem;
   }
 
@@ -198,12 +198,11 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     border: 1px solid var(--text-separator);
     border-radius: var(--radius-lg, 16px);
     padding: 1.25rem 1.5rem;
-    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    transition: border-color 0.3s ease;
   }
 
   .scam-form-card-inner:focus-within {
-    border-color: rgba(26, 93, 227, 0.4);
-    box-shadow: 0 0 30px rgba(26, 93, 227, 0.08);
+    border-color: var(--primary);
   }
 
   .scam-form {
@@ -243,7 +242,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     border: none;
     outline: none;
     padding: 0.85rem 0;
-    color: var(--text-inverse);
+    color: var(--text-primary);
     font-size: 0.95rem;
     font-family: 'JetBrains Mono', 'SF Mono', monospace;
     font-weight: 500;
@@ -265,19 +264,19 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     font-size: 0.95rem;
     font-weight: 700;
     cursor: pointer;
-    transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
+    transition: background 0.25s ease, transform 0.15s ease;
     display: flex;
     align-items: center;
     gap: 0.5rem;
     white-space: nowrap;
     font-family: 'Source Code Pro', monospace;
     letter-spacing: 0.01em;
-    box-shadow: 0 4px 14px rgba(26, 93, 227, 0.25);
+    border: 1px solid var(--primary);
   }
 
   .scam-btn:hover {
     transform: translateY(-1px);
-    box-shadow: 0 6px 20px rgba(26, 93, 227, 0.35);
+    background: var(--primary-dark);
   }
 
   .scam-btn:active {
@@ -325,10 +324,12 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     font-weight: 500;
   }
 
+  .scam-stats-error { color: var(--accent-error); }
+
   .scam-stat-pulse {
     width: 6px;
     height: 6px;
-    background: var(--accent, #1E40AF);
+    background: var(--primary);
     border-radius: 50%;
     animation: scam-pulse 2s ease-in-out infinite;
   }
@@ -433,9 +434,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     border-radius: 100px;
     font-size: 0.85rem;
     font-weight: 600;
-    background: rgba(239, 68, 68, 0.08);
-    border: 1px solid rgba(239, 68, 68, 0.2);
-    color: #EF4444;
+    background: var(--bg-tint-error);
+    border: 1px solid var(--border-tint-error);
+    color: var(--accent-error);
   }
 
   .flag-badge {
@@ -449,54 +450,54 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .flag-bad {
-    background: rgba(239, 68, 68, 0.1);
-    border: 1px solid rgba(239, 68, 68, 0.25);
-    color: #EF4444;
+    background: var(--bg-tint-error);
+    border: 1px solid var(--border-tint-error);
+    color: var(--accent-error);
   }
 
   /* --- AMAN state --- */
   .scam-result-aman .scam-result-glow {
-    background: #10B981;
+    background: var(--accent-success);
   }
   .scam-result-aman .scam-result-inner {
-    border-color: rgba(16, 185, 129, 0.3);
-    background: linear-gradient(135deg, rgba(16, 185, 129, 0.04), rgba(16, 185, 129, 0.01));
+    border-color: var(--border-tint-success);
+    background: var(--bg-tint-success);
   }
   .scam-result-aman .scam-result-icon-wrap {
-    background: rgba(16, 185, 129, 0.12);
+    background: var(--bg-tint-success);
   }
   .scam-result-aman h2 {
-    color: #10B981;
+    color: var(--accent-success);
   }
 
   /* --- SCAM state --- */
   .scam-result-scam .scam-result-glow {
-    background: #EF4444;
+    background: var(--accent-error);
   }
   .scam-result-scam .scam-result-inner {
-    border-color: rgba(239, 68, 68, 0.3);
-    background: linear-gradient(135deg, rgba(239, 68, 68, 0.04), rgba(239, 68, 68, 0.01));
+    border-color: var(--border-tint-error);
+    background: var(--bg-tint-error);
   }
   .scam-result-scam .scam-result-icon-wrap {
-    background: rgba(239, 68, 68, 0.12);
+    background: var(--bg-tint-error);
   }
   .scam-result-scam h2 {
-    color: #EF4444;
+    color: var(--accent-error);
   }
 
   /* --- WARNING state (invalid input) --- */
   .scam-result-warning .scam-result-glow {
-    background: #F59E0B;
+    background: var(--accent-warn);
   }
   .scam-result-warning .scam-result-inner {
-    border-color: rgba(245, 158, 11, 0.3);
-    background: linear-gradient(135deg, rgba(245, 158, 11, 0.04), rgba(245, 158, 11, 0.01));
+    border-color: var(--border-tint-warn);
+    background: var(--bg-tint-warn);
   }
   .scam-result-warning .scam-result-icon-wrap {
-    background: rgba(245, 158, 11, 0.12);
+    background: var(--bg-tint-warn);
   }
   .scam-result-warning h2 {
-    color: #F59E0B;
+    color: var(--accent-warn);
   }
 
   /* ===== SOURCES SECTION ===== */
@@ -664,7 +665,7 @@ fetch(dataUrl + '?v=' + Date.now())
   })
   .catch(() => {
     statsText.innerHTML = 'Gagal memuat database';
-    stats.style.color = '#EF4444';
+    stats.classList.add('scam-stats-error');
   });
 
 function isAddress(input) {

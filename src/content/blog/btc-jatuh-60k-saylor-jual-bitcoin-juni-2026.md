@@ -64,7 +64,7 @@ Tapi damage-nya udah terjadi. Narasi "Saylor jual" nyebar lebih cepet dari fakta
 
 ## Mitos #2: "Ini Like 2022"
 
-Beberapa orang bandingin sama crypto winter 2022. Menurut gue, perbandingannya gak tepat.
+Beberapa orang bandingin sama crypto winter 2022. Menurut saya, perbandingannya gak tepat.
 
 **2022:** Crypto winter karena fundamental rusak  -  Luna collapsed, FTX fraud, 3AC default. Trust hancur.
 
@@ -132,13 +132,13 @@ CPI data minggu depan bakal krusial. Kalau inflasi lebih rendah dari expected, W
 
 ## Apa Artinya Buat Kamu?
 
-Dua hal yang menurut gue penting:
+Dua hal yang menurut saya penting:
 
 1. **Jangan FOMO jual di titik panic.** Data menunjukkan whale akumulasi di saat retail panic. Kalau kamu jual sekarang, kamu jual ke mereka.
 
 2. **Tapi jangan averaging down sebelum yakin.** $60K harus konfirmasi sebagai support dulu. Kalau tembus, averaging down di $55K lebih aman.
 
-Apa ini akhir dari bull market? Menurut gue belum tentu. Bull market 2024-2025 didorong oleh liquidity dan ekspektasi pro-crypto regulation. Dua hal itu masih ada  -  cuma lagi tertahan oleh faktor makro sementara.
+Apa ini akhir dari bull market? Menurut saya belum tentu. Bull market 2024-2025 didorong oleh liquidity dan ekspektasi pro-crypto regulation. Dua hal itu masih ada  -  cuma lagi tertahan oleh faktor makro sementara.
 
 Tapi seperti kata Saylor, "Volatility creates opportunity." Yang bedain investor yang survive dari yang FOMO adalah: **apakah kamu punya tesis investasi, atau cuma ikut-ikutan.**
 

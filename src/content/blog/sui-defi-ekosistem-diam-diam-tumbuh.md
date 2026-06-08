@@ -194,7 +194,7 @@ Bandingin sama chain-chain L1 lain yang luncur di 2023-2024. Aptos punya DeFi ec
 
 Dari segi "punya DeFi yang beneran jalan," Sui termasuk yang terdepan di antara L1 generasi baru setelah Solana.
 
-Bukan berarti beli SUI. Tapi kalo lo punya SUI, mending dimasukin ke haSUI atau vSUI daripada diem aja. At least dapet yield. Atau coba deposit di NAVI, farming di Cetus. Ekosistem ini fungsional.
+Bukan berarti beli SUI. Tapi kalo kamu punya SUI, mending dimasukin ke haSUI atau vSUI daripada diem aja. At least dapet yield. Atau coba deposit di NAVI, farming di Cetus. Ekosistem ini fungsional.
 
 Yang pasti: Sui bukan chain mati. Chain mati gak punya 30+ token di CoinGecko, gak punya 3 liquid staking protocol, dan gak punya order book DEX yang berfungsi.
 

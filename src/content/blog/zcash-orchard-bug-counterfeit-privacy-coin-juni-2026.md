@@ -122,7 +122,7 @@ Alasannya menarik:
 
 > "While I think it's extremely unlikely of any minting, it cannot be formally cryptographically proved impossible."
 
-Kalau diterjemahin: "Meskipun gue yakin banget gak ada eksploitasi, secara kriptografi gak bisa dibuktiin."
+Kalau diterjemahin: "Meskipun saya yakin banget gak ada eksploitasi, secara kriptografi gak bisa dibuktiin."
 
 Dia bilang privacy coin butuh **"perfection, not improbability"** - karena menghadapi narasi surveillance dari AI, pemerintah, dan big tech. Tapi dia ninggalin celah: **bakal beli lagi kalau supply integrity bisa diverifikasi**, bahkan di harga yang lebih tinggi.
 

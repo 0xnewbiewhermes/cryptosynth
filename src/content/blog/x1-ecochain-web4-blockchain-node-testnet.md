@@ -8,7 +8,7 @@ description: "X1 EcoChain klaim sebagai L1 Web4 paling hemat energi  -  pakai ph
 tags: [X1 EcoChain, Web4, Layer 1, DePIN, node, physical node, testnet, airdrop]
 heroImage: "/images/hero/x1-ecochain-web4-blockchain-node-testnet.png"
 ogImage: "/images/og/x1-ecochain-web4-blockchain-node-testnet.png"
-excerpt: "X1 EcoChain cobain pendekatan beda: L1 dengan ribuan physical nodes kecil yang tersebar di rumah-rumah. Bukan validator di data center, beneran di colokan listrik lo. Node sale mulai $250."
+excerpt: "X1 EcoChain cobain pendekatan beda: L1 dengan ribuan physical nodes kecil yang tersebar di rumah-rumah. Bukan validator di data center, beneran di colokan listrik kamu. Node sale mulai $250."
 canonical: "https://cryptosynth.id/blog/x1-ecochain-web4-blockchain-node-testnet"
 faq: "Apa itu X1 EcoChain?;;X1 EcoChain adalah Layer 1 blockchain EVM-compatible yang pakai Proof of Nodes (PoN) consensus, divalidasi oleh ribuan physical X1Nodes kecil yang tersebar di 65+ negara. Klaimnya: konsumsi listrik cuma 3 Wh per node, gas fee ~$0.01, block time ~7.5 detik.;;Apa bedanya X1 EcoChain dengan blockchain lain?;;Bedanya di pendekatan hardware: mereka jual node fisik (mirip router) yang bisa diinstal di rumah. Bukan validator di cloud/server farm. Ini yang mereka sebut \"true decentralization\", karena secara fisik tersebar, bukan cuma virtual nodes.;;Berapa harga X1Node?;;Ada 2 tipe: physical device $1,650 (termasuk 15,000 X1 coin) dan virtual node $250-$1,550 tergantung tier (Beginner $250, Light $550, Medium $1,050, Professional $1,550). Virtual node juga dapat X1 coins bonus sesuai tier.;;Kapan TGE dan mainnet X1 EcoChain?;;Roadmap bilang Q2 2026, yang berarti Juni 2026 ini. Tapi sampai artikel ini ditulis, mainnet belum launch. Node sale masih jalan, testnet masih aktif.;;Apakah X1 EcoChain punya airdrop?;;Website mereka mention \"X1 EcoChain Airdrop for Multichain Score holders\", tapi detailnya belum ada di whitepaper. Cara terbaik prepare: ikut testnet, connect wallet, complete ecosystem tasks.;;Apa risiko investasi di X1 EcoChain?;;Risiko utama: (1) tokenomics belum transparan, distribution breakdown tidak dipublikasi, (2) TGE udah molor (Q2 2025 ke Q2 2026), (3) butuh network effects besar untuk sukses, (4) kompetisi dari L1 lain yang lebih mature, (5) whitepaper address team tapi no bios/credentials."
 ---
@@ -121,11 +121,11 @@ Dari reverse engineering JS nodesale:
 
 Physical device dikirim secara fisik. Opsi pickup di Dubai (UAE) atau delivery ke beberapa negara: Ukraine, Canada, beberapa negara Eropa. Ada biaya tambahan $130 buat regional dealership delivery.
 
-Virtual nodes gak perlu hardware fisik. Cuma sewa akses validator. Tapi ini kontradiktif sama narasi "true decentralization" mereka. Virtual nodes tetep jalan di server mereka, bukan di rumah lo.
+Virtual nodes gak perlu hardware fisik. Cuma sewa akses validator. Tapi ini kontradiktif sama narasi "true decentralization" mereka. Virtual nodes tetep jalan di server mereka, bukan di rumah kamu.
 
 ### XRate System
 
-Ada sistem XRate yang nentuin berapa reward lo sebagai node operator. Makin tinggi (max 1), makin besar payout. Faktor yang ngaruh: kestabilan koneksi, uptime, dan partisipasi. Bandwidth yang direkomendasiin: 5 Mbps upload, 15 Mbps download.
+Ada sistem XRate yang nentuin berapa reward kamu sebagai node operator. Makin tinggi (max 1), makin besar payout. Faktor yang ngaruh: kestabilan koneksi, uptime, dan partisipasi. Bandwidth yang direkomendasiin: 5 Mbps upload, 15 Mbps download.
 
 
 ## Tim & Advisors
@@ -257,9 +257,9 @@ Apakah ini underrated gem? Mungkin. Kalau mereka beneran deliver TGE & mainnet d
 
 Apakah ini overhyped? Juga mungkin. Physical nodes kedengeran revolutionary, tapi virtual nodes, validator API key terbatas, dan lack of transparancy bikin skeptis.
 
-Pendapat gue pribadi: Ini project potensi tinggi, resiko juga tinggi. Node sale $250 sampai $1,650 bukan jumlah kecil. Kalau lo percaya visi physical decentralization dan punya risk tolerance tinggi, keep on radar. Tapi jangan all-in sebelum TGE happen dan tokenomics dipublikasi secara transparan.
+Pendapat saya pribadi: Ini project potensi tinggi, resiko juga tinggi. Node sale $250 sampai $1,650 bukan jumlah kecil. Kalau kamu percaya visi physical decentralization dan punya risk tolerance tinggi, keep on radar. Tapi jangan all-in sebelum TGE happen dan tokenomics dipublikasi secara transparan.
 
-Gue personally gak akan beli node dulu. Nunggu mainnet launch, lihat data on-chain aktual, baru evaluasi lagi.
+saya personally gak akan beli node dulu. Nunggu mainnet launch, lihat data on-chain aktual, baru evaluasi lagi.
 
 
 ## Sumber

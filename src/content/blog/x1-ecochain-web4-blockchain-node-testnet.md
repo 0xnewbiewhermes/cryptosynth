@@ -203,7 +203,7 @@ Sayangnya sebagian besar masih tahap awal. Belum ada yang beneran mature.
 
 Website testnet mention "X1 EcoChain Airdrop for Multichain Score holders". Dari Nomis protocol. Tapi detailnya: berapa total alokasi? Snapshoot kapan? Kapan claim? Kriteria eligibility? Semua belum diumumkan.
 
-Ini typical pre-TGE airdrop marketing. Bikin buzz, encourage testnet participation, tapi belum commitment.
+Ini typical pre-TGE airdrop marketing. Bikin buzz, encourage testnet participation, tapi belum commitment. Kalo mau ikut testnet dan prepare airdrop, bisa pake link ini: [https://t.x1eco.com/?rcode=LGo9jc2v](https://t.x1eco.com/?rcode=LGo9jc2v).
 
 ### Grant Program
 

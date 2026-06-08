@@ -39,65 +39,79 @@
 }
 
 :root {
-  /* Light theme — backgrounds */
-  --bg: #ffffff;
-  --bg-elevated: #f8f9fa;
-  --bg-surface: #f1f3f5;
-  --bg-hover: rgba(0, 0, 0, 0.04);
-  --bg-card: #ffffff;
+  /* ===== DARK THEME — Terminal Practitioner (DESIGN.md) ===== */
 
-  /* Light theme — text hierarchy */
-  --text-primary: #111827;
-  --text-secondary: #374151;
-  --text-muted: #6b7280;
-  --text-dim: #6b7280;
-  --text-inverse: #ffffff;
-  --text-faint: #9ca3af;
-  --text-ghost: #d1d5db;
+  /* Background depth stack: 0c0c0c → 161616 → 1a1a1a */
+  --bg: #0c0c0c;
+  --bg-elevated: #161616;
+  --bg-surface: #1a1a1a;
+  --bg-hover: rgba(255, 255, 255, 0.04);
+  --bg-card: #161616;
 
-  /* Syntax-inspired accents — slightly deeper for light bg contrast */
-  --primary: #2563eb;       /* Blue — links, paths */
-  --primary-light: #3b82f6;
-  --primary-dark: #1d4ed8;
-  --accent-prompt: #4f46e5; /* Indigo — command prompt */
-  --accent-success: #059669; /* Emerald — success, cursor */
-  --accent-warn: #d97706;    /* Amber — tags, warnings */
-  --accent-error: #dc2626;   /* Red — errors */
-  --accent-string: #b45309;  /* Orange — inline code */
+  /* Text hierarchy: 4 opacity levels of #d4d4d4 */
+  --text-primary: #d4d4d4;
+  --text-secondary: rgba(212, 212, 212, 0.65);
+  --text-muted: rgba(212, 212, 212, 0.50);
+  --text-dim: rgba(212, 212, 212, 0.40);
+  --text-inverse: #0c0c0c;
+  --text-faint: rgba(212, 212, 212, 0.35);
+  --text-ghost: rgba(212, 212, 212, 0.25);
 
-  /* Borders */
-  --border: rgba(0, 0, 0, 0.08);
-  --border-light: rgba(0, 0, 0, 0.04);
-  --border-medium: rgba(0, 0, 0, 0.10);
-  --border-heavy: rgba(0, 0, 0, 0.12);
-  --border-subtle: rgba(0, 0, 0, 0.05);
-  --text-separator: rgba(0, 0, 0, 0.08);
+  /* Syntax accents: blue=link, indigo=prompt, emerald=success, amber=warn, red=error, orange=string */
+  --primary: #3b82f6;
+  --primary-light: #60a5fa;
+  --primary-dark: #2563eb;
+  --accent-prompt: #6366f1;
+  --accent-success: #10b981;
+  --accent-warn: #f59e0b;
+  --accent-error: #ef4444;
+  --accent-string: #e0a060;
+
+  /* Borders — white on dark at varying opacities (0.02→0.04→0.06→0.12) */
+  --border: rgba(255, 255, 255, 0.06);
+  --border-light: rgba(255, 255, 255, 0.02);
+  --border-medium: rgba(255, 255, 255, 0.10);
+  --border-heavy: rgba(255, 255, 255, 0.12);
+  --border-subtle: rgba(255, 255, 255, 0.04);
+  --text-separator: rgba(255, 255, 255, 0.08);
 
   /* Background overlays */
-  --bg-active: rgba(0, 0, 0, 0.04);
-  --bg-interactive: rgba(0, 0, 0, 0.06);
-  --bg-code-inline: rgba(0, 0, 0, 0.04);
+  --bg-active: rgba(255, 255, 255, 0.04);
+  --bg-interactive: rgba(255, 255, 255, 0.06);
+  --bg-code-inline: rgba(255, 255, 255, 0.04);
 
   /* Accent tints */
-  --bg-tint-success: rgba(5, 150, 105, 0.06);
-  --bg-tint-primary: rgba(37, 99, 235, 0.05);
-  --bg-tint-warn: rgba(217, 119, 6, 0.06);
-  --border-tint-success: rgba(5, 150, 105, 0.25);
-  --border-tint-warn: rgba(217, 119, 6, 0.20);
+  --bg-tint-success: rgba(16, 185, 129, 0.06);
+  --bg-tint-primary: rgba(59, 130, 246, 0.05);
+  --bg-tint-warn: rgba(245, 158, 11, 0.06);
+  --border-tint-success: rgba(16, 185, 129, 0.25);
+  --border-tint-warn: rgba(245, 158, 11, 0.20);
 
   /* Terminal dots (macOS traffic lights) */
   --dot-red: #ff5f56;
   --dot-yellow: #ffbd2e;
   --dot-green: #27c93f;
 
+  /* Border radius — 4px default, 8px max for containers */
   --radius: 4px;
   --radius-lg: 8px;
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
 
+  /* 8px spacing grid (DESIGN.md) */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 40px;
+  --space-6: 48px;
+  --space-7: 64px;
+  --space-8: 96px;
+  --space-9: 128px;
+
+  /* Layout */
   --max-width: 780px;
   --nav-height: 40px;
 
-  /* Fonts — Source Code Pro primary, fallback stack */
+  /* Fonts — Source Code Pro single family (One-Family Rule) */
   --font-mono: 'Source Code Pro', 'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', monospace;
   --font-body: 'Source Code Pro', 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
   --font-display: 'Source Code Pro', 'SF Mono', 'Menlo', monospace;
@@ -462,7 +476,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
 /* ===== ARTICLE ENTRY (terminal list item) ===== */
 .article-entry {
-  padding: 0.85rem 0;
+  padding: var(--space-2, 16px) 0;
   cursor: pointer;
   transition: border-color 0.15s, background 0.15s;
   border-left: 2px solid transparent;
@@ -470,14 +484,15 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   display: block;
   text-decoration: none;
   color: inherit;
-  border-bottom: 1px solid var(--border-heavy);
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  border-bottom: 1px solid var(--border);
+  padding-left: var(--space-1, 8px);
+  padding-right: var(--space-1, 8px);
+  background: transparent;
 }
 
 .article-entry:hover {
   border-left-color: var(--primary);
-  background: var(--bg-hover);
+  background: var(--bg-elevated);
   opacity: 1;
 }
 
@@ -780,7 +795,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   font-size: 0.72rem;
   padding: 0.15rem 0.45rem;
   cursor: pointer;
-  transition: all 0.2s;
+  transition: opacity 0.2s, color 0.2s, background 0.2s;
   opacity: 0;
 }
 
@@ -878,6 +893,21 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   outline-offset: 2px;
 }
 
+/* Share section */
+.share-section {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.share-label {
+  font-size: 0.6rem;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
 /* Related articles */
 .related-section h3 {
   font-size: 0.75rem;
@@ -893,7 +923,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   padding: 0.75rem 0;
   border-bottom: 1px solid var(--border-light);
   cursor: pointer;
-  transition: all 0.2s;
+  transition: padding-left 0.2s, color 0.2s;
   text-decoration: none;
   color: inherit;
 }
@@ -1238,7 +1268,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
     font-size: 0.78rem;
     color: var(--text-muted);
     text-decoration: none;
-    transition: all 0.15s;
+    transition: color 0.15s, background 0.15s, border-color 0.15s;
     border-left: 2px solid transparent;
   }
 
@@ -1277,7 +1307,17 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   }
 
   .term-input-line {
-    display: none;
+    display: flex;
+    padding: 0.5rem 0;
+    font-size: 0.78rem;
+  }
+
+  .term-input-line .term-prompt {
+    font-size: 0.78rem;
+  }
+
+  .term-input {
+    font-size: 0.78rem;
   }
 
   /* Mobile quick action buttons */
@@ -1512,6 +1552,14 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   .related-item { gap: 0.6rem; }
 }
 
+/* ===== SECTION PADDING CONSISTENCY ===== */
+.section {
+  padding: var(--space-7, 64px) 0;
+}
+.section-sm {
+  padding: var(--space-5, 40px) 0;
+}
+
 /* ===== ANIMATIONS ===== */
 @media (prefers-reduced-motion: no-preference) {
   /* Article list stagger */
@@ -1536,6 +1584,108 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
     opacity: 1;
     transform: translateY(0);
   }
+
+  /* Scroll-reveal: staggered elements animate in on scroll */
+  .scroll-reveal {
+    opacity: 0;
+    transform: translateY(16px);
+    transition: opacity 0.5s cubic-bezier(0.16, 1, 0.3, 1),
+                transform 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  .scroll-reveal.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* Stagger children via data-delay attribute */
+  .scroll-reveal[data-delay="1"] { transition-delay: 80ms; }
+  .scroll-reveal[data-delay="2"] { transition-delay: 160ms; }
+  .scroll-reveal[data-delay="3"] { transition-delay: 240ms; }
+  .scroll-reveal[data-delay="4"] { transition-delay: 320ms; }
+}
+
+/* ===== ENHANCED HOVER EFFECTS ===== */
+
+/* Link underline animation — subtle slide-in on hover */
+.nav a::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 0.65rem;
+  width: 0;
+  height: 1.5px;
+  background: var(--primary);
+  transition: width 0.25s cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 1px;
+}
+
+.nav a:hover::after {
+  width: calc(100% - 1.3rem);
+}
+
+/* .nav a has position: relative already — ensure it for ::after */
+.nav a {
+  position: relative;
+}
+
+/* Button hover — subtle lift */
+.topbar-btn:hover {
+  transform: translateY(-1px);
+  transition: transform 0.2s cubic-bezier(0.23, 1, 0.32, 1),
+              color 0.2s, border-color 0.2s;
+}
+
+/* Article entry hover enhancement */
+.article-entry {
+  transition: border-color 0.15s, background 0.15s, padding-left 0.2s ease;
+}
+
+.article-entry:hover {
+  padding-left: 0.75rem;
+}
+
+/* Tag chip hover enhancement */
+.tag-chip {
+  transition: color 0.2s, border-color 0.2s, transform 0.15s;
+}
+
+.tag-chip:hover {
+  transform: translateY(-1px);
+}
+
+/* Scroll-to-top hover enhancement */
+.scroll-top-btn {
+  transition: opacity 0.3s, visibility 0.3s, border-color 0.2s, color 0.2s, transform 0.2s;
+}
+
+.scroll-top-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* ===== SEARCH LOADING STATE ===== */
+.search-dropdown-results.loading::after {
+  content: 'Memuat index...';
+  display: block;
+  padding: 0.5rem 0.65rem;
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  animation: search-load-pulse 1.5s ease infinite;
+}
+
+@keyframes search-load-pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Article hero image subtle reveal */
+.article-hero img {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.article-hero img[src] {
+  opacity: 1;
 }
 
 /* ===== UTILITY ===== */

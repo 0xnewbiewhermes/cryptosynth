@@ -868,7 +868,7 @@ function formatDate(dateStr) {
     padding: 0.35rem 1rem;
     background: rgba(30, 64, 175, 0.08);
     border: 1px solid rgba(30, 64, 175, 0.12);
-    border-radius: 100px;
+    border-radius: var(--radius);
     font-size: 0.82rem;
     color: var(--primary);
     margin-bottom: 1rem;
@@ -912,17 +912,15 @@ function formatDate(dateStr) {
   }
 
   .scam-form-card-inner {
-    background: var(--bg-card);
+    background: var(--bg-elevated);
     border: 1px solid var(--border);
     border-radius: var(--radius);
     padding: 1.25rem 1.5rem;
-    box-shadow: var(--shadow-sm);
-    transition: border-color 0.2s, box-shadow 0.2s;
+    transition: border-color 0.2s;
   }
 
   .scam-form-card-inner:focus-within {
     border-color: var(--primary);
-    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.08);
   }
 
   .scam-form {
@@ -1076,7 +1074,7 @@ function formatDate(dateStr) {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border-radius: var(--radius-lg);
     font-size: 1.3rem;
     margin-top: 0.1rem;
   }
@@ -1093,9 +1091,9 @@ function formatDate(dateStr) {
   .scam-result-body p { margin: 0; font-size: 0.85rem; line-height: 1.55; color: var(--text-secondary); }
   .scam-result-body strong { color: var(--text-primary); font-weight: 600; }
   .scam-result-body small { color: var(--text-muted); font-size: 0.8rem; }
-  .scam-result-aman h2 { color: #10B981 !important; }
-  .scam-result-scam h2 { color: #EF4444 !important; }
-  .scam-result-warning h2 { color: #F59E0B !important; }
+  .scam-result-aman h2 { color: var(--accent-success) !important; }
+  .scam-result-scam h2 { color: var(--accent-error) !important; }
+  .scam-result-warning h2 { color: var(--accent-warn) !important; }
 
   .src-badges { display: flex; flex-wrap: wrap; gap: 0.35rem; margin-top: 0.5rem; }
 
@@ -1110,7 +1108,7 @@ function formatDate(dateStr) {
     font-family: var(--font-mono);
     background: rgba(239, 68, 68, 0.06);
     border: 1px solid rgba(239, 68, 68, 0.15);
-    color: #EF4444;
+    color: var(--accent-error);
   }
 
   .flag-badge {
@@ -1127,12 +1125,12 @@ function formatDate(dateStr) {
   .flag-bad {
     background: rgba(239, 68, 68, 0.08);
     border: 1px solid rgba(239, 68, 68, 0.2);
-    color: #EF4444;
+    color: var(--accent-error);
   }
   .flag-warn {
     background: rgba(245, 158, 11, 0.08);
     border: 1px solid rgba(245, 158, 11, 0.2);
-    color: #F59E0B;
+    color: var(--accent-warn);
   }
 
   .homograph-chars {
@@ -1151,20 +1149,20 @@ function formatDate(dateStr) {
     color: var(--text-secondary);
   }
 
-  .scam-result-aman .scam-result-glow { background: #10B981; }
+  .scam-result-aman .scam-result-glow { background: var(--accent-success); }
   .scam-result-aman .scam-result-inner { border-color: rgba(16, 185, 129, 0.25); background: rgba(16, 185, 129, 0.02); }
   .scam-result-aman .scam-result-icon-wrap { background: rgba(16, 185, 129, 0.1); }
-  .scam-result-aman h2 { color: #10B981; }
+  .scam-result-aman h2 { color: var(--accent-success); }
 
-  .scam-result-scam .scam-result-glow { background: #EF4444; }
+  .scam-result-scam .scam-result-glow { background: var(--accent-error); }
   .scam-result-scam .scam-result-inner { border-color: rgba(239, 68, 68, 0.25); background: rgba(239, 68, 68, 0.02); }
   .scam-result-scam .scam-result-icon-wrap { background: rgba(239, 68, 68, 0.1); }
-  .scam-result-scam h2 { color: #EF4444; }
+  .scam-result-scam h2 { color: var(--accent-error); }
 
-  .scam-result-warning .scam-result-glow { background: #F59E0B; }
+  .scam-result-warning .scam-result-glow { background: var(--accent-warn); }
   .scam-result-warning .scam-result-inner { border-color: rgba(245, 158, 11, 0.25); background: rgba(245, 158, 11, 0.02); }
   .scam-result-warning .scam-result-icon-wrap { background: rgba(245, 158, 11, 0.1); }
-  .scam-result-warning h2 { color: #F59E0B; }
+  .scam-result-warning h2 { color: var(--accent-warn); }
 
   .scam-sources-section { padding: 2rem 0; }
 
@@ -1216,7 +1214,7 @@ function formatDate(dateStr) {
   }
   .hg-char code {
     font-size: 0.8rem;
-    color: #EF4444;
+    color: var(--accent-error);
     font-weight: 700;
   }
   .hg-char strong {
@@ -1437,7 +1435,7 @@ function formatDate(dateStr) {
       })
       .catch(() => {
         if (statsText) statsText.innerHTML = '❌ Gagal memuat database';
-        if (stats) stats.style.color = '#EF4444';
+        if (stats) stats.style.color = 'var(--accent-error)';
         btn.disabled = false;
         btnText.textContent = 'Coba Lagi';
         btnSpinner.style.display = 'none';

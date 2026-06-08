@@ -221,7 +221,8 @@ const isActive = (path: string) => {
 
         function doSearch(query: string) {
           if (!results) return;
-          if (!query.trim()) { results.innerHTML = ''; return; }
+          if (!query.trim()) { results.innerHTML = ''; results.classList.remove('loading'); return; }
+          results.classList.remove('loading');
           const q = query.toLowerCase();
           const hits = searchIndex.filter((item: any) =>
             (item.title || '').toLowerCase().includes(q) ||
@@ -279,6 +280,37 @@ const isActive = (path: string) => {
           statusArticles.textContent = '13 catatan';
         }
       }
+
+      // === Scroll-Reveal (IntersectionObserver) ===
+      if ('IntersectionObserver' in window) {
+        var scrollObserver = new IntersectionObserver(function(entries) {
+          entries.forEach(function(entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('visible');
+              scrollObserver.unobserve(entry.target);
+            }
+          });
+        }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.scroll-reveal').forEach(function(el) { scrollObserver.observe(el); });
+      } else {
+        document.querySelectorAll('.scroll-reveal').forEach(function(el) { el.classList.add('visible'); });
+      }
+
+      // === Search: focus trap when open ===
+      (function searchFocus() {
+        var sd = document.getElementById('searchDropdown');
+        var st = document.getElementById('searchToggle');
+        if (!sd || !st) return;
+        sd.addEventListener('keydown', function(e) {
+          if (e.key !== 'Tab' || !sd.classList.contains('open')) return;
+          var focusable = sd.querySelectorAll('input, button, a, [tabindex]:not([tabindex="-1"])');
+          if (!focusable.length) return;
+          var first = focusable[0];
+          var last = focusable[focusable.length - 1];
+          if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+          else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        });
+      })();
     </script>
     <script is:inline src="/live-time.js"></script>
 </body>

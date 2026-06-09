@@ -42,9 +42,19 @@ function formatDate(dateStr) {
   const d = new Date(dateStr);
   return d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
 }
+
+// Build ItemList for SEO
+const itemList = {
+  name: 'Airdrop Tracker - Daftar Airdrop Crypto',
+  items: airdropsData.map((a) => ({
+    name: `${a.project}${a.symbol !== 'TBD' ? ` (${a.symbol})` : ''}`,
+    url: a.link,
+    description: `${a.chain} | ${a.category} | ${a.status} | Risk: ${a.risk} | ${a.action}`
+  }))
+};
 ---
 
-<BaseLayout title="Airdrop Tracker - CryptoSynth" description="Tracker airdrop crypto terlengkap. Status, risiko, biaya, kesulitan, wallet, sybil risk - semua yang kamu butuhkan untuk memburu airdrop.">
+<BaseLayout title="Airdrop Tracker - CryptoSynth" description="Tracker airdrop crypto terlengkap. Status, risiko, biaya, kesulitan, wallet, sybil risk - semua yang kamu butuhkan untuk memburu airdrop." {itemList}>
   <div class="tracker-page container">
     <div class="tracker-header">
       <h1 class="tracker-title"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-inline"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>Airdrop Tracker</h1>

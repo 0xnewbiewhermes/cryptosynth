@@ -28,6 +28,17 @@ function parseFaq(faqStr: string): { question: string; answer: string }[] {
 }
 const faqItems = parseFaq(post.data.faq || '');
 
+// Parse HowTo: "Step name;;Step desc||Step name;;Step desc"
+function parseHowTo(raw: string): { steps: { name: string; text: string }[] } | null {
+  if (!raw || raw.trim() === '') return null;
+  const steps = raw.split('||').map(p => {
+    const [name = '', ...rest] = p.split(';;');
+    return { name: name.trim(), text: rest.join(';;').trim() };
+  }).filter(s => s.name && s.text);
+  return steps.length > 0 ? { steps } : null;
+}
+const howToData = parseHowTo(post.data.howTo || '');
+
 const formattedDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', {
   year: 'numeric',
   month: 'long',
@@ -75,7 +86,7 @@ const wordCount = post.body?.split(/\s+/).length || 0;
 const termPath = `~/cryptosynth/catatan/${post.id}.md`;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} author={post.data.author || 'Gideon'} category={post.data.category} tags={post.data.tags} faq={faqItems} terminalPath={termPath}>
+<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} author={post.data.author || 'Gideon'} category={post.data.category} tags={post.data.tags} faq={faqItems} howTo={howToData} terminalPath={termPath}>
   <article class="article-container">
     <!-- Back link -->
     <a href="/" class="article-back">← kembali ke daftar</a>

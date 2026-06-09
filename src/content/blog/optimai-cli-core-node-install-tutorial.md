@@ -17,6 +17,7 @@ tags:
   - opi
 heroImage: "/images/hero/optimai-cli-core-node-install-tutorial.png"
 ogImage: "/images/og/optimai-cli-core-node-install-tutorial.png"
+howTo: "Siapkan VPS;;Pastikan spesifikasi 4GB RAM, 2 core CPU, 15GB SSD, dan Docker sudah terinstall di VPS Linux.||Download OptimAI CLI Binary;;Download binary resmi OptimAI Core Node dari release channel, verifikasi checksum.||Login dan Konfigurasi;;Login dengan API key, setup konfigurasi node sesuai dokumentasi resmi.||Setup Systemd Service;;Buat systemd unit file agar node auto-restart saat server reboot atau crash.||Monitoring Reward;;Cek status node dengan CLI dan pantau akumulasi reward OPI token."
 ---
 
 <div class="tldr-box">

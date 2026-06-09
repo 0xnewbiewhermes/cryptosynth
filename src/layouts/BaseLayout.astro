@@ -36,8 +36,19 @@ const isActive = (path: string) => {
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap-index.xml" />
     <link rel="preconnect" href="https://www.googletagmanager.com" />
     <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#0c0c0c" />
-    <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0c0c0c" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#f8f6f2" media="(prefers-color-scheme: light)" />
+    <meta name="color-scheme" content="dark light" />
+    <!-- ↓ Flash prevention: set theme sebelum render -->
+    <script is:inline>
+      (function() {
+        var theme = localStorage.getItem('cryptosynth-theme');
+        if (!theme) {
+          theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        }
+        document.documentElement.setAttribute('data-theme', theme);
+      })();
+    </script>
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
     <!-- Fonts: self-hosted Source Code Pro (no Google Fonts roundtrip) -->
@@ -71,6 +82,10 @@ const isActive = (path: string) => {
           Cari
         </button>
         <a href="/rss.xml" class="topbar-btn" aria-label="RSS Feed">RSS</a>
+        <button type="button" class="topbar-btn" id="themeToggle" aria-label="Toggle tema">
+          <svg class="theme-icon-sun" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="theme-icon-moon" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
         <span class="topbar-clock" id="topbarClock"></span>
         <button type="button" class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
           <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
@@ -338,6 +353,33 @@ const isActive = (path: string) => {
           btn.classList.add('ripple-active');
         });
       });
+
+      // === Theme Toggle ===
+      (function initTheme() {
+        var KEY = 'cryptosynth-theme';
+        var html = document.documentElement;
+        var btn = document.getElementById('themeToggle');
+        if (!btn) return;
+
+        function updateMeta(theme) {
+          var tc = document.querySelector('meta[name="theme-color"]');
+          if (!tc) return;
+          tc.removeAttribute('media');
+          tc.content = theme === 'dark' ? '#0c0c0c' : '#f8f6f2';
+        }
+
+        btn.addEventListener('click', function() {
+          var cur = html.getAttribute('data-theme') || 'dark';
+          var next = cur === 'dark' ? 'light' : 'dark';
+
+          html.classList.add('theme-transition');
+          setTimeout(function() { html.classList.remove('theme-transition'); }, 300);
+
+          html.setAttribute('data-theme', next);
+          localStorage.setItem(KEY, next);
+          updateMeta(next);
+        });
+      })();
     </script>
     <script is:inline src="/live-time.js"></script>
 </body>

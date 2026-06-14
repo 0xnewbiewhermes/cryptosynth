@@ -231,7 +231,7 @@ Grass Season 2 adalah salah satu airdrop DePIN paling signifikan di 2026. Claim 
 
 **Kalau lo eligible:** Claim dan evaluasi. Kalau harga masih di $0.30-0.40, sell pressure dari claimer bisa bikin harga turun. Tapi fundamental Grass cukup kuat — revenue riil, klien bayaran, dan AI data demand yang terus naik. Mungkin worth hold jangka panjang.
 
-**Kalau lo gak eligible:** Epoch 20 adalah season baru. Mekanismenya belum jelas, tapi Grass Foundation kemungkinan akan tetap rewarding kontributor. Gak akan segarang Season 1 dan 2, tapi gak rugi kalau mulai.
+**Kalau lo gak eligible atau mau mulai dari nol:** Epoch 20 adalah season baru — pakai [referral link saya](https://app.grass.io/register?referralCode=rUtNmfYnZjGBLcK) untuk join, install app, biarin jalan, dan mulai kumpulin points buat season berikutnya.
 
 **Yang pasti:** Grass adalah salah satu dari sedikit proyek kripto yang bisa dibilang *produk dulu, token belakangan*. Itu langka dan patut diperhatikan meskipun harganya sekarang jauh dari ATH.
 

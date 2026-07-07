@@ -57,9 +57,9 @@ const publishDateWIB = post.data.pubDate ? toWIB(new Date(post.data.pubDate)) : 
 const modifiedDateWIB = post.data.updatedDate ? toWIB(new Date(post.data.updatedDate)) : publishDateWIB;
 
 // OG image path
-const ogImage = `/images/og/${post.id}.png`;
+const ogImage = post.data.ogImage || `/images/og/${post.id}.png`;
 // Hero image path
-const heroImage = `/images/hero/${post.id}.png`;
+const heroImage = post.data.heroImage || `/images/hero/${post.id}.png`;
 
 // Related articles: score by shared tags + same category, pick top 3
 const allPosts = await getCollection('blog');

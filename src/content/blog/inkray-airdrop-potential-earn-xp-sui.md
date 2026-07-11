@@ -4,7 +4,7 @@ slug: inkray-airdrop-potential-earn-xp-sui
 category: "Tutorial"
 description: "A practical look at Inkray, a Sui Testnet publishing platform built with Walrus and Seal, plus how to complete its XP quests without treating an unconfirmed airdrop as a promise."
 excerpt: "Inkray is a publishing app on Sui Testnet where your writing is stored through Walrus. Here is how the XP quests work, what makes the project interesting, and what is still unconfirmed about any future airdrop."
-pubDate: 2026-07-11T19:30:00+07:00
+pubDate: 2026-07-11T13:00:00+07:00
 author: "Gideon"
 tags:
   - inkray

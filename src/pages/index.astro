@@ -59,7 +59,7 @@ const posts = (await getCollection('blog')).sort(
     <!-- Command input -->
     <div class="term-input-line" id="termInputLine">
       <span class="term-prompt">gideon@cryptosynth:~$</span>
-      <input type="text" id="termInput" name="command" class="term-input" placeholder="ketik help…" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="Terminal command input" />
+      <input type="text" id="termInput" name="command" class="term-input" placeholder="help · ls · grep &lt;keyword&gt;" spellcheck="false" autocomplete="off" autocapitalize="off" aria-label="Terminal command input" />
     </div>
 
     <!-- Mobile quick actions -->
@@ -400,6 +400,15 @@ const posts = (await getCollection('blog')).sort(
       window.scrollTo(0, document.body.scrollHeight);
     }
   }
+
+  // Keyboard shortcut: press / anywhere outside a field to open search.
+  document.addEventListener('keydown', (e) => {
+    const target = e.target as HTMLElement;
+    if (e.key === '/' && target?.tagName !== 'INPUT' && target?.tagName !== 'TEXTAREA' && !target?.isContentEditable) {
+      e.preventDefault();
+      document.getElementById('searchToggle')?.click();
+    }
+  });
 
   // Input handler
   if (input) {

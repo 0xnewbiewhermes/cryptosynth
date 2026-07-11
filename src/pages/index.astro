@@ -3,7 +3,9 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { relativeTime } from '../utils/relativeTime';
 
-const posts = (await getCollection('blog')).sort(
+const posts = (await getCollection('blog'))
+  .filter((post) => !post.data.draft && new Date(post.data.pubDate).getTime() <= Date.now())
+  .sort(
   (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
 );
 ---

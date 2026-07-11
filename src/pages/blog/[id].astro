@@ -2,9 +2,13 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import FaqSection from '../../components/FaqSection.astro';
 import { getCollection, render } from 'astro:content';
+import { toTagSlug } from '../../utils/tagSlug';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog');
+  const now = Date.now();
+  const posts = (await getCollection('blog')).filter(
+    (post) => !post.data.draft && new Date(post.data.pubDate).getTime() <= now
+  );
   return posts.map((post) => ({
     params: { id: post.id },
     props: { post },
@@ -48,21 +52,22 @@ const formattedDate = new Date(post.data.pubDate).toLocaleDateString('id-ID', {
   timeZone: 'Asia/Jakarta',
 });
 
-// Date with WIB timezone offset for structured data
-function toWIB(date: Date): string {
-  const wib = new Date(date.getTime() + 7 * 60 * 60 * 1000);
-  return wib.toISOString().replace('Z', '+07:00');
-}
-const publishDateWIB = post.data.pubDate ? toWIB(new Date(post.data.pubDate)) : undefined;
-const modifiedDateWIB = post.data.updatedDate ? toWIB(new Date(post.data.updatedDate)) : publishDateWIB;
+// ISO 8601 instants for structured data. Do not add the timezone twice.
+const publishDateISO = post.data.pubDate ? new Date(post.data.pubDate).toISOString() : undefined;
+const modifiedDateISO = post.data.updatedDate
+  ? new Date(post.data.updatedDate).toISOString()
+  : publishDateISO;
 
 // OG image path
 const ogImage = post.data.ogImage || `/images/og/${post.id}.png`;
 // Hero image path
 const heroImage = post.data.heroImage || `/images/hero/${post.id}.png`;
+const heroWebp = heroImage.replace(/\.(png|jpe?g)$/i, '.webp');
 
 // Related articles: score by shared tags + same category, pick top 3
-const allPosts = await getCollection('blog');
+const allPosts = (await getCollection('blog')).filter(
+  (candidate) => !candidate.data.draft && new Date(candidate.data.pubDate).getTime() <= Date.now()
+);
 const currentTags = new Set(post.data.tags || []);
 const currentCategory = post.data.category;
 const relatedPosts = allPosts
@@ -86,7 +91,22 @@ const wordCount = post.body?.split(/\s+/).length || 0;
 const termPath = `~/cryptosynth/catatan/${post.id}.md`;
 ---
 
-<BaseLayout title={post.data.title} description={post.data.excerpt || post.data.description} image={ogImage} type="article" publishDate={publishDateWIB} modifiedDate={modifiedDateWIB} author={post.data.author || 'Gideon'} category={post.data.category} tags={post.data.tags} faq={faqItems} howTo={howToData} terminalPath={termPath}>
+<BaseLayout
+  title={post.data.title}
+  description={post.data.excerpt || post.data.description}
+  image={ogImage}
+  imageAlt={post.data.title}
+  canonical={post.data.canonical}
+  type="article"
+  publishDate={publishDateISO}
+  modifiedDate={modifiedDateISO}
+  author={post.data.author || 'Gideon'}
+  category={post.data.category}
+  tags={post.data.tags}
+  faq={faqItems}
+  howTo={howToData}
+  terminalPath={termPath}
+>
   <article class="article-container">
     <!-- Back link -->
     <a href="/" class="article-back">← kembali ke daftar</a>
@@ -110,7 +130,7 @@ const termPath = `~/cryptosynth/catatan/${post.id}.md`;
     <!-- Hero image (if exists) -->
     <div class="article-hero">
       <picture>
-        <source srcset={heroImage.replace('.png', '.webp')} type="image/webp" />
+        {heroWebp !== heroImage && <source srcset={heroWebp} type="image/webp" />}
         <img src={heroImage} alt={post.data.title} loading="eager" fetchpriority="high" class="hero-img img-reveal" />
       </picture>
     </div>
@@ -124,7 +144,7 @@ const termPath = `~/cryptosynth/catatan/${post.id}.md`;
     {post.data.tags && post.data.tags.length > 0 && (
       <div class="tags-row">
         {post.data.tags.map((tag) => (
-          <a href={`/articles?tag=${tag}`} class="tag-chip">#{tag}</a>
+          <a href={`/tag/${toTagSlug(tag)}`} class="tag-chip">#{tag}</a>
         ))}
       </div>
     )}
@@ -136,6 +156,12 @@ const termPath = `~/cryptosynth/catatan/${post.id}.md`;
       <a href={`https://t.me/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(shareText)}`} target="_blank" rel="noopener noreferrer" class="tag-chip">Telegram</a>
       <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(shareText)}&url=${encodeURIComponent(shareUrl)}`} target="_blank" rel="noopener noreferrer" class="tag-chip">X</a>
     </div>
+
+    <!-- Visible author identity for readers and search engines -->
+    <aside class="disclaimer-box" aria-label="Tentang penulis">
+      <strong>Gideon</strong> menulis catatan crypto personal dari sisi pengguna, node operator, dan airdrop farmer.
+      <a href="/about/gideon">Lihat profil dan metodologi riset.</a>
+    </aside>
 
     <!-- FAQ Section -->
     <FaqSection items={faqItems} />

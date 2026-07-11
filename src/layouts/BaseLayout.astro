@@ -6,6 +6,8 @@ interface Props {
   title: string;
   description?: string;
   image?: string;
+  imageAlt?: string;
+  canonical?: string;
   type?: 'website' | 'article';
   publishDate?: string;
   modifiedDate?: string;
@@ -18,7 +20,7 @@ interface Props {
   terminalPath?: string;
 }
 
-const { title, description, image, type = 'website', publishDate, modifiedDate, author, category, tags = [], faq = '', howTo, itemList, terminalPath = '~/cryptosynth' } = Astro.props;
+const { title, description, image, imageAlt, canonical, type = 'website', publishDate, modifiedDate, author, category, tags = [], faq = '', howTo, itemList, terminalPath = '~/cryptosynth' } = Astro.props;
 
 // Active nav state detection
 const pathname = Astro.url.pathname.replace(/\/+$/, '') || '/';
@@ -31,7 +33,7 @@ const isActive = (path: string) => {
 <!doctype html>
 <html lang="id">
   <head>
-    <SeoHead {title} {description} {image} {type} {publishDate} {modifiedDate} {author} {category} {tags} {faq} {howTo} {itemList} />
+    <SeoHead {title} {description} {image} {imageAlt} {canonical} {type} {publishDate} {modifiedDate} {author} {category} {tags} {faq} {howTo} {itemList} />
     <link rel="alternate" type="application/rss+xml" title="CryptoSynth.id RSS" href="/rss.xml" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=3" />
     <link rel="mask-icon" href="/favicon.svg?v=3" color="#3b82f6" />

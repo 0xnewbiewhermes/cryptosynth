@@ -1,9 +1,9 @@
 ---
-title: "Inkray Airdrop Potential: How to Earn XP on Sui's Publishing Platform"
+title: "Potensi Airdrop Inkray: Cara Earn XP di Platform Publishing Sui"
 slug: inkray-airdrop-potential-earn-xp-sui
 category: "Tutorial"
-description: "A practical look at Inkray, a Sui Testnet publishing platform built with Walrus and Seal, plus how to complete its XP quests without treating an unconfirmed airdrop as a promise."
-excerpt: "Inkray is a publishing app on Sui Testnet where your writing is stored through Walrus. Here is how the XP quests work, what makes the project interesting, and what is still unconfirmed about any future airdrop."
+description: "Panduan praktis mencoba Inkray, platform publishing di Sui Testnet yang memakai Walrus dan Seal, sekaligus membaca potensi airdropnya tanpa menganggapnya sebagai janji."
+excerpt: "Inkray adalah platform publishing di Sui Testnet dengan penyimpanan artikel melalui Walrus dan sistem quest berbasis XP. Ini cara mencobanya, memakai invite code, dan membaca sinyal airdropnya dengan realistis."
 pubDate: 2026-07-11T13:00:00+07:00
 author: "Gideon"
 tags:
@@ -17,137 +17,135 @@ tags:
 heroImage: "/images/hero/inkray-airdrop-potential-earn-xp-sui.jpg"
 ogImage: "/images/hero/inkray-airdrop-potential-earn-xp-sui.jpg"
 faq: >
-  Is the Inkray airdrop confirmed?;;No. Inkray's public website describes a Sui Testnet publishing platform, but it does not publish a token, snapshot, allocation, or airdrop schedule. Treat the airdrop angle as speculation, not a guarantee.;;What is XP in Inkray?;;XP is the experience score shown for completing quests in the Inkray app. The exact task list and XP values can change, so follow the live quest panel rather than an old screenshot.;;Do I need a mainnet wallet?;;Inkray currently presents itself as live on Sui Testnet. Use a separate testnet wallet and never put a seed phrase into the website.;;What does Inkray use Walrus for?;;Inkray says published articles are stored on Walrus, a decentralized storage network, while ownership and related records are handled through Sui objects.;;Is this financial advice?;;No. This is a personal research note about a testnet application. There is no confirmed token or guaranteed reward.
+  Apakah airdrop Inkray sudah dikonfirmasi?;;Belum. Situs publik Inkray menjelaskan platform publishing di Sui Testnet, tetapi belum mengumumkan token, snapshot, alokasi, atau jadwal airdrop. Anggap ini sebagai spekulasi, bukan jaminan.;;Apa itu XP di Inkray?;;XP adalah skor pengalaman yang tampil setelah menyelesaikan quest di aplikasi Inkray. Daftar tugas dan nilainya bisa berubah, jadi jadikan panel quest yang sedang live sebagai acuan.;;Apakah saya butuh wallet mainnet?;;Inkray saat ini ditampilkan sebagai aplikasi di Sui Testnet. Gunakan wallet testnet terpisah dan jangan pernah memasukkan seed phrase ke situs.;;Untuk apa Walrus dipakai Inkray?;;Inkray menyebut artikel yang dipublikasikan disimpan melalui Walrus, sementara kepemilikan dan catatan terkait direpresentasikan sebagai objek Sui.;;Apakah ini nasihat finansial?;;Bukan. Ini catatan riset pribadi tentang aplikasi testnet. Belum ada token yang dikonfirmasi atau hadiah yang dijamin.
 ---
 
 <div class="tldr-box">
-<strong>TL;DR:</strong> Inkray is a Web3 publishing platform currently presented as live on Sui Testnet. It combines Sui for on-chain ownership, Walrus for decentralized article storage, and Seal for encrypted premium content. The app also has XP quests. That makes it worth testing early, but there is no official Inkray token, snapshot, allocation, or airdrop schedule published on the public landing page. Farm the product, not a promise.
+<strong>TL;DR:</strong> Inkray adalah platform publishing Web3 yang saat ini ditampilkan live di Sui Testnet. Stack-nya menggabungkan Sui untuk kepemilikan on-chain, Walrus untuk penyimpanan artikel terdesentralisasi, dan Seal untuk konten premium terenkripsi. Ada juga quest yang memberi XP. Menarik untuk dicoba lebih awal, tetapi belum ada token Inkray, snapshot, alokasi, atau jadwal airdrop resmi di landing page publiknya. Farm produknya, bukan janjinya.
 </div>
 
 <div class="disclaimer-box">
-<strong>Disclaimer:</strong> This is a personal research note, not financial advice. Inkray is a testnet application and its quests, rewards, and UI can change. A quest XP balance is not proof that a token or airdrop will exist. Use a burner wallet, verify every transaction, and never share your seed phrase.
+<strong>Disclaimer:</strong> Ini catatan riset pribadi, bukan nasihat finansial. Inkray adalah aplikasi testnet dan quest, reward, serta tampilannya dapat berubah. Saldo XP bukan bukti bahwa token atau airdrop pasti akan ada. Pakai burner wallet, cek setiap transaksi, dan jangan pernah membagikan seed phrase.
 </div>
 
-## Inkray Is More Interesting Than "Just Another Quest"
+## Inkray Bukan Sekadar Halaman Quest
 
-The easy way to describe Inkray is "a blog platform on Sui." That is accurate, but it misses the point.
+Cara paling singkat menjelaskan Inkray adalah “platform blog di Sui”. Itu benar, tapi belum menceritakan bagian yang menarik.
 
-Inkray is trying to solve a very old Web2 problem: you publish on someone else's platform, then the platform controls the account, the distribution, and sometimes the content itself. Inkray's pitch is different. Connect a Sui wallet, create a publication, write in Markdown, and publish. The platform says your article is stored permanently and that you keep the ownership record.
+Di Web2, kita biasanya menulis di platform milik orang lain. Platform tersebut memegang akun, distribusi, dan kadang-kadang juga kendali atas konten. Inkray mencoba mengambil arah berbeda: hubungkan wallet Sui, buat publication, tulis dalam Markdown, lalu publikasikan. Menurut penjelasan produknya, artikel disimpan secara permanen dan catatan kepemilikannya tetap terkait dengan kreator.
 
-The stack is clearly stated on [Inkray's official website](https://inkray.xyz/):
+Stack yang dijelaskan di [situs resmi Inkray](https://inkray.xyz/) cukup jelas:
 
-- **Sui** handles the blockchain side - publications and ownership records are represented as Sui objects.
-- **Walrus** handles decentralized storage for the article data.
-- **Seal** handles access-controlled encryption for premium content.
+- **Sui** menangani sisi blockchain. Publication dan catatan kepemilikan direpresentasikan sebagai objek Sui.
+- **Walrus** menangani penyimpanan data artikel secara terdesentralisasi.
+- **Seal** menangani enkripsi dan kontrol akses untuk konten premium.
 
-That is a real product thesis, not just a points dashboard. You can try the app without assuming the airdrop story is true.
+Jadi, ada produk yang bisa dicoba, bukan hanya dashboard poin. Kita bisa menguji aplikasinya tanpa harus menganggap cerita airdrop sebagai fakta.
 
-## So, Where Does the Airdrop Angle Come From?
+## Dari Mana Datang Angle Airdrop-nya?
 
-The Inkray app currently shows quests that award XP. That naturally raises the question: is XP going to matter later?
+Aplikasi Inkray saat ini menampilkan quest yang memberi XP. Wajar kalau muncul pertanyaan: apakah XP ini akan berguna nanti?
 
-Maybe. But there is a line between **a reasonable early-user thesis** and **an invented airdrop announcement**.
+Mungkin saja. Tapi ada perbedaan antara **tesis pengguna awal yang masuk akal** dan **pengumuman airdrop yang dibuat-buat**.
 
-At the time of writing, Inkray's public landing page says it is live on Sui Testnet and explains the publishing, storage, monetization, and collectible features. It does **not** publish:
+Saat artikel ini ditulis, landing page publik Inkray menyebut aplikasinya live di Sui Testnet dan menjelaskan fitur publishing, storage, monetization, serta collectible. Yang belum dipublikasikan:
 
-- a token ticker;
-- a token contract;
-- a snapshot date;
-- an XP-to-token conversion rate;
-- a reward pool; or
-- an official airdrop allocation.
+- ticker token;
+- kontrak token;
+- tanggal snapshot;
+- rumus konversi XP ke token;
+- jumlah reward pool; atau
+- alokasi airdrop resmi.
 
-So the honest thesis is narrower: XP may be a way for the team to measure participation while the product is still early. If Inkray later introduces incentives, consistent product usage could be more useful than a wallet that only clicked social links once. That is a possibility, not a guarantee.
+Kesimpulan yang jujur lebih sempit: XP mungkin dipakai tim untuk mengukur partisipasi ketika produknya masih awal. Kalau suatu hari Inkray membuat program insentif, penggunaan produk yang konsisten bisa lebih berarti daripada wallet yang hanya sekali klik link sosial. Itu kemungkinan, bukan kepastian.
 
-## How to Earn XP on Inkray
+## Cara Earn XP di Inkray
 
-The exact quest names and XP values can change. Use the live quest panel as the source of truth, but the flow is straightforward:
+Nama quest dan jumlah XP bisa berubah. Jadikan panel quest yang sedang live sebagai sumber informasi utama. Alurnya kurang lebih seperti ini.
 
-### 1. Use a separate Sui testnet wallet
+### 1. Siapkan wallet Sui testnet terpisah
 
-Create a fresh wallet for experiments. Do not reuse the wallet that holds your mainnet assets. A testnet app should not need your seed phrase, private key, or permission to move unrelated funds.
+Buat wallet baru khusus eksperimen. Jangan gunakan wallet yang menyimpan aset mainnet. Aplikasi testnet tidak membutuhkan seed phrase, private key, atau izin untuk memindahkan aset yang tidak berhubungan.
 
-### 2. Open Inkray and connect the wallet
+### 2. Buka Inkray dan hubungkan wallet
 
-Go to [inkray.xyz](https://inkray.xyz/) and connect the Sui wallet you created for testing. Check the network shown by your wallet before signing anything. If a transaction asks for an amount or permission that does not match the action, reject it.
+Buka [inkray.xyz](https://inkray.xyz/) lalu hubungkan wallet yang tadi dibuat. Periksa network yang tampil di wallet sebelum menandatangani transaksi. Kalau detail transaksi meminta jumlah atau izin yang tidak sesuai dengan aksi yang sedang dilakukan, tolak.
 
+### Invite code
 
-### Invite links
+Saat ini Inkray membutuhkan invite code untuk bergabung. Berikut tiga invite link yang tersedia untuk panduan ini:
 
-Inkray currently requires an invite code to join. These are the three invite links available for this guide:
+- [Join dengan invite code 1](https://inkray.xyz/invite?code=INK-DUWESGJA)
+- [Join dengan invite code 2](https://inkray.xyz/invite?code=INK-AA937A3Q)
+- [Join dengan invite code 3](https://inkray.xyz/invite?code=INK-2XMFHTJZ)
 
-- [Join with invite code 1](https://inkray.xyz/invite?code=INK-DUWESGJA)
-- [Join with invite code 2](https://inkray.xyz/invite?code=INK-AA937A3Q)
-- [Join with invite code 3](https://inkray.xyz/invite?code=INK-2XMFHTJZ)
+Kalau satu kode sudah dipakai atau campaign invite berakhir, coba kode berikutnya. Jangan membayar siapa pun untuk invite code dan pastikan hanya memakai domain resmi `inkray.xyz`.
 
-If one code has already been used or the invite campaign has ended, try the next one. Do not pay anyone for an invite code, and only use the official `inkray.xyz` domain.
+### 3. Cari panel XP atau Quests
 
-### 3. Find the XP quest panel
+Buka area aplikasi yang berlabel **Quests**, **XP**, atau nama serupa. Baca persyaratannya sebelum mengklik. Ada tugas sosial, ada juga yang meminta kita benar-benar memakai fitur produk.
 
-Open the area of the app labelled **Quests**, **XP**, or a similar rewards section. Read the requirement before clicking through. Some tasks may be social actions; others may ask you to use an actual product feature.
+### 4. Selesaikan tugas lalu cek statusnya
 
-### 4. Complete the task, then verify it
+Kerjakan satu quest setiap kali. Jika tugasnya berupa publish, comment, collect artikel, atau menghubungkan akun sosial, kembali ke panel quest dan pastikan statusnya berubah. Catat aksi dan XP yang didapat supaya mudah melihat kalau verifikasinya gagal.
 
-Finish one quest at a time. If the task involves publishing, commenting, collecting an article, or connecting a social account, return to the quest panel and check that the status changed before moving on. Keep a simple note of the action and the resulting XP so you can spot a failed verification.
+### 5. Pakai produknya, jangan loop klik
 
-### 5. Use the product instead of looping clicks
+Sinyal aktivitas terbaik belum tentu datang dari angka XP terbesar. Publikasikan artikel tes yang singkat dan berguna. Baca artikel lain. Coba fitur collect atau creator jika tersedia. Dengan begitu, kita punya catatan penggunaan nyata dan bisa menilai apakah Inkray memang layak dipakai, bahkan jika airdrop tidak pernah muncul.
 
-The strongest activity signal is not necessarily the biggest XP number. Publish a short, useful test article. Read another article. Try the collect or creator flow if it is available. This gives you a record of genuine usage and helps you decide whether Inkray is actually worth your time even if no airdrop appears.
+## Kenapa Stack-nya Menarik untuk Dicoba?
 
-## What Makes the Stack Worth Testing?
+### Sui: kepemilikan sebagai objek
 
-### Sui: ownership as an object
+Inkray menyebut publication dan catatan kepemilikan sebagai objek Sui. Artinya, hubungan antara konten dan kreator tidak hanya disimpan di database privat platform. Wallet bisa menjadi bagian dari model kepemilikan.
 
-Inkray says publications and ownership records are Sui objects. That matters because the content relationship is not meant to live only in a private platform database. The wallet can be part of the ownership model.
+Ini bukan berarti setiap artikel otomatis permanen atau setiap smart contract pasti aman. Namun desainnya lebih mudah diperiksa: ada catatan chain, wallet, dan riwayat transaksi, bukan hanya dashboard akun.
 
-This does not magically make every article permanent or every smart contract safe. It does make the design easier to inspect: there is a chain record, a wallet, and a transaction history instead of only an account dashboard.
+### Walrus: storage dipisahkan dari aplikasi
 
-### Walrus: storage separate from the app
+Inkray memakai [Walrus](https://www.walrus.xyz/) untuk penyimpanan data terdesentralisasi. Dokumentasi Walrus menjelaskan jaringan storage yang memakai erasure coding dan mekanisme pemulihan agar blob tetap tersedia ketika sebagian node bermasalah. Dalam praktiknya, Inkray memisahkan data artikel dari interface publishing-nya.
 
-Inkray uses [Walrus](https://www.walrus.xyz/) for decentralized data storage. The underlying Walrus research describes a storage network designed to keep blobs available through erasure coding and recovery when individual nodes fail. In practical terms, Inkray is separating the article bytes from the publishing interface.
+Ini bagian yang paling berguna. Jika frontend berubah, artikel yang disimpan melalui Walrus punya peluang lebih baik untuk tetap bisa ditemukan dibanding posting yang hanya terjebak di database satu perusahaan. “Peluang lebih baik” bukan jaminan permanen tanpa syarat; ketersediaan tetap bergantung pada implementasi aplikasi dan ketentuan storage.
 
-That is the useful part of the design. If the front end changes, a Walrus-backed article has a better chance of remaining addressable than a post trapped in one company's database. "Better chance" is not the same as an unconditional permanence guarantee; availability still depends on the application's implementation and the storage terms.
+### Seal: konten premium dengan akses terkontrol
 
-### Seal: premium content without a central key server
+Inkray juga mengiklankan enkripsi Seal untuk konten gated. Idenya, artikel bisa dienkripsi dan aksesnya diatur oleh policy, bukan dengan membagikan kunci dari satu server pusat kepada semua subscriber. Cocok untuk model subscription, tetapi tetap periksa transaksi sebelum membayar atau membuka konten.
 
-Inkray also advertises Seal encryption for gated content. The idea is that an article can be encrypted and access can be controlled by policy rather than by handing every subscriber a key from one central server. It is a good fit for subscriptions, but users should still inspect what they are signing before paying or unlocking anything.
+## Penilaian Saya tentang Potensi Airdrop
 
-## My Read on the Airdrop Potential
+Berikut bukti yang tersedia saat ini:
 
-Here is the evidence ladder as it stands:
-
-| Signal | What is actually known | My read |
+| Sinyal | Yang benar-benar diketahui | Pembacaan saya |
 |---|---|---|
-| Live testnet product | Inkray says it is live on Sui Testnet | Positive early-stage signal |
-| XP quests | The app shows quests that award XP | Suggests participation tracking |
-| Sui + Walrus + Seal | Publicly described by Inkray | Clear technical/product direction |
-| Token | No official token details found on the public landing page | Unconfirmed |
-| Snapshot or allocation | No public schedule or formula | Unconfirmed |
-| Airdrop | No official promise | Speculation only |
+| Produk testnet live | Inkray menyebut dirinya live di Sui Testnet | Sinyal positif tahap awal |
+| Quest XP | Aplikasi menampilkan quest yang memberi XP | Menunjukkan adanya pelacakan partisipasi |
+| Sui + Walrus + Seal | Dijelaskan secara publik oleh Inkray | Arah teknis dan produk cukup jelas |
+| Token | Belum ada detail token resmi di landing page publik | Belum terkonfirmasi |
+| Snapshot atau alokasi | Belum ada jadwal atau formula publik | Belum terkonfirmasi |
+| Airdrop | Belum ada janji resmi | Masih spekulasi |
 
-That is enough for a low-cost testnet experiment. It is not enough to call Inkray a confirmed airdrop.
+Itu cukup untuk eksperimen testnet berbiaya rendah. Belum cukup untuk menyebut Inkray sebagai airdrop yang sudah pasti.
 
-The best strategy is therefore simple: complete the quests that are easy to verify, use the publishing product, keep records, and stop if the app asks for suspicious approvals or unnecessary funds. Do not spend real money to chase an XP number whose conversion formula does not exist yet.
+Strateginya sederhana: selesaikan quest yang mudah diverifikasi, gunakan fitur publishing, simpan catatan, dan berhenti jika aplikasi meminta approval mencurigakan atau dana yang tidak perlu. Jangan mengeluarkan uang nyata demi mengejar angka XP yang rumus konversinya belum ada.
 
-## Safety Notes Before You Start
+## Catatan Keamanan
 
-- Use a burner Sui wallet with no valuable assets.
-- Never enter a seed phrase or private key into Inkray or a quest form.
-- Check the network and transaction details in your wallet.
-- Do not sign unlimited token approvals for a testnet quest.
-- Ignore DMs claiming to be an Inkray moderator or promising guaranteed allocation.
-- Save the official domain: `inkray.xyz`. Treat lookalike domains as phishing until proven otherwise.
-- Re-check the official app and its announcement channels before trusting any future token or snapshot claim.
+- Gunakan burner Sui wallet tanpa aset berharga.
+- Jangan pernah memasukkan seed phrase atau private key ke Inkray maupun formulir quest.
+- Periksa network dan detail transaksi di wallet.
+- Jangan menandatangani unlimited token approval untuk quest testnet.
+- Abaikan DM yang mengaku moderator Inkray atau menjanjikan alokasi pasti.
+- Simpan domain resmi: `inkray.xyz`. Anggap domain mirip sebagai phishing sampai terbukti sebaliknya.
+- Cek kembali aplikasi dan kanal pengumuman resmi sebelum mempercayai klaim token atau snapshot di masa depan.
 
-## Bottom Line
+## Kesimpulan
 
-Inkray is worth a look because the product itself has a coherent idea: publish on Sui, store the content through Walrus, and keep the creator closer to the ownership and monetization layer. The XP quests add an interesting early-user incentive.
+Inkray layak dilihat karena punya ide produk yang cukup koheren: publishing di Sui, penyimpanan konten melalui Walrus, dan kreator yang lebih dekat dengan layer kepemilikan serta monetisasi. Quest XP membuatnya menarik untuk pengguna awal.
 
-But the correct headline in your own head is not "guaranteed Inkray airdrop." It is:
+Tapi headline yang tepat bukan “airdrop Inkray dijamin”. Cara berpikir yang lebih sehat:
 
-> **Try an early Sui publishing product, earn the XP that is currently available, and keep optionality if the team later rewards real contributors.**
+> **Coba produk publishing Sui yang masih awal, ambil XP yang memang tersedia, dan simpan opsi kalau nanti tim memberi reward kepada kontributor nyata.**
 
-That is a much better trade than blindly farming every new points page on the internet.
+Itu trade-off yang jauh lebih masuk akal daripada membabi buta farming setiap halaman poin baru di internet.
 
-*This article will be updated if Inkray publishes official token, snapshot, or reward details.*
-
+*Artikel ini akan diperbarui jika Inkray menerbitkan detail resmi tentang token, snapshot, atau reward.*

@@ -1753,7 +1753,11 @@ function formatDate(dateStr) {
           }
           const skippedSources = threatChecks.filter(c => c.skipped);
           if (skippedSources.length > 0) {
-            html += `<br><small style="opacity:0.6">⏸️ ${skippedSources.length} source belum dikonfigurasi (butuh API key)</small>`;
+            html += `<br><small style="opacity:0.6">⏸️ Belum dikonfigurasi: ${skippedSources.map(c => c.source).join(', ')} (butuh API key)</small>`;
+          }
+          const failedSources = threatChecks.filter(c => c.error && !c.skipped);
+          if (failedSources.length > 0) {
+            html += `<br><small style="color:var(--accent-warn)">⚠️ Tidak merespons: ${failedSources.map(c => c.source).join(', ')}</small>`;
           }
         }
         if (hg.riskyTld) {

@@ -3,6 +3,7 @@ title: "Sui di 2026: Turun 85%, Tapi Teknologinya Justru Makin Gila"
 slug: sui-2026-turun-85-teknologi-makin-gila
 category: "Journal"
 description: "Sui pernah $5, sekarang $0.82. Tapi kalau kamu cuma liat harga, kamu bakal ketinggalan cerita yang lebih besar."
+excerpt: "Harga SUI jatuh jauh dari puncaknya, tetapi jaringan dan ekosistemnya justru makin matang. Ini catatan personal tentang gap antara harga dan perkembangan teknologi Sui."
 pubDate: 2026-06-02T20:25:00Z
 author: "Gideon"
 tags:

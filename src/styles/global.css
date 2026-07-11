@@ -1753,6 +1753,27 @@ html.theme-transition *::after {
   50% { opacity: 1; }
 }
 
+/* Article hero image */
+.article-hero {
+  width: 100%;
+  margin-bottom: 1.75rem;
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+
+.article-hero picture {
+  display: block;
+  width: 100%;
+}
+
+.article-hero img,
+.article-hero .hero-img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 /* Article hero image subtle reveal */
 .article-hero img {
   opacity: 0;

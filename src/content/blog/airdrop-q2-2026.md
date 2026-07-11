@@ -3,6 +3,7 @@ title: "7 Airdrop yang Layak Difarming Q2 2026: Polymarket, Beacon, SosoValue, d
 slug: airdrop-q2-2026
 category: "Airdrop"
 description: "Rangkuman 7 airdrop aktif dan segera TGE di Q2 2026. Dari Polymarket yang valuation-nya $9B sampai Beacon yang gamenya beneran seru dimainin."
+excerpt: "Tujuh peluang airdrop Q2 2026 yang masih layak dikerjakan, lengkap dengan alasan, biaya waktu, dan risiko masing-masing."
 pubDate: 2026-05-29T12:32:00+07:00
 author: "Gideon"
 tags:

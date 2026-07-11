@@ -38,16 +38,17 @@ export async function getStaticPaths() {
 }
 
 const { label, posts } = Astro.props;
-const title = `Artikel ${label} - CryptoSynth.id`;
-const description = `Kumpulan catatan CryptoSynth tentang ${label}: riset, tutorial, risiko, dan peluang crypto dari sudut pandang personal.`;
+const displayLabel = label.length <= 5 ? label.toUpperCase() : label;
+const title = `Artikel ${displayLabel}`;
+const description = `Kumpulan catatan CryptoSynth tentang ${displayLabel}: riset, tutorial, risiko, dan peluang crypto dari sudut pandang personal.`;
 ---
 
 <BaseLayout
   {title}
   {description}
-  tags={[label]}
+  tags={[displayLabel]}
   itemList={{
-    name: `Catatan ${label}`,
+    name: `Catatan ${displayLabel}`,
     items: posts.map((post) => ({
       name: post.data.title,
       url: `https://cryptosynth.id/blog/${post.id}`,
@@ -58,7 +59,7 @@ const description = `Kumpulan catatan CryptoSynth tentang ${label}: riset, tutor
 >
   <div class="terminal-home">
     <div class="term-welcome">
-      <h1 class="term-line term-highlight title-inherit">#{label}</h1>
+      <h1 class="term-line term-highlight title-inherit">#{displayLabel}</h1>
       <div class="term-line term-dim">{description}</div>
       <div class="term-line">&nbsp;</div>
       <a href="/articles" class="term-accent">← semua catatan</a>

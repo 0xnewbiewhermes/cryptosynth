@@ -1,8 +1,8 @@
 (function(){
   function r(d){
     var n = Date.now() - d.getTime();
-    // Future date: show nothing — entry-date handles it
-    if (n < 0) return '';
+    // Keep scheduled/future posts visible instead of leaving the relative-time field blank.
+    if (n < 0) return 'segera';
     var m = Math.floor(n / 6e4);
     var h = Math.floor(m / 60);
     var D = Math.floor(h / 24);

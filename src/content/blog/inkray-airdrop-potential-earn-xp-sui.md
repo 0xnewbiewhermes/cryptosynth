@@ -1,5 +1,5 @@
 ---
-title: "Inkray Airdrop Potential: Cara Earn XP di Publishing Platform Sui"
+title: "Inkray Airdrop Potential: How to Earn XP on Sui's Publishing Platform"
 slug: inkray-airdrop-potential-earn-xp-sui
 category: "Tutorial"
 description: "A practical look at Inkray, a Sui Testnet publishing platform built with Walrus and Seal, plus how to complete its XP quests without treating an unconfirmed airdrop as a promise."

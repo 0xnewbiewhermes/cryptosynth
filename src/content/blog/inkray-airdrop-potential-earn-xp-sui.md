@@ -26,15 +26,15 @@ faq: >
 <strong>Disclaimer:</strong> This is a personal research note, not financial advice. Inkray is a testnet application and its quests, rewards, and UI can change. A quest XP balance is not proof that a token or airdrop will exist. Use a burner wallet, verify every transaction, and never share your seed phrase.
 </div>
 
-## Inkray Is More Interesting Than â€œJust Another Questâ€
+## Inkray Is More Interesting Than "Just Another Quest"
 
-The easy way to describe Inkray is â€œa blog platform on Sui.â€ That is accurate, but it misses the point.
+The easy way to describe Inkray is "a blog platform on Sui." That is accurate, but it misses the point.
 
 Inkray is trying to solve a very old Web2 problem: you publish on someone elseâ€™s platform, then the platform controls the account, the distribution, and sometimes the content itself. Inkrayâ€™s pitch is different. Connect a Sui wallet, create a publication, write in Markdown, and publish. The platform says your article is stored permanently and that you keep the ownership record.
 
 The stack is clearly stated on [Inkrayâ€™s official website](https://inkray.xyz/):
 
-- **Sui** handles the blockchain side â€” publications and ownership records are represented as Sui objects.
+- **Sui** handles the blockchain side - publications and ownership records are represented as Sui objects.
 - **Walrus** handles decentralized storage for the article data.
 - **Seal** handles access-controlled encryption for premium content.
 
@@ -93,7 +93,7 @@ This does not magically make every article permanent or every smart contract saf
 
 Inkray uses [Walrus](https://www.walrus.xyz/) for decentralized data storage. The underlying Walrus research describes a storage network designed to keep blobs available through erasure coding and recovery when individual nodes fail. In practical terms, Inkray is separating the article bytes from the publishing interface.
 
-That is the useful part of the design. If the front end changes, a Walrus-backed article has a better chance of remaining addressable than a post trapped in one companyâ€™s database. â€œBetter chanceâ€ is not the same as an unconditional permanence guarantee; availability still depends on the applicationâ€™s implementation and the storage terms.
+That is the useful part of the design. If the front end changes, a Walrus-backed article has a better chance of remaining addressable than a post trapped in one company's database. "Better chance" is not the same as an unconditional permanence guarantee; availability still depends on the application's implementation and the storage terms.
 
 ### Seal: premium content without a central key server
 
@@ -130,7 +130,7 @@ The best strategy is therefore simple: complete the quests that are easy to veri
 
 Inkray is worth a look because the product itself has a coherent idea: publish on Sui, store the content through Walrus, and keep the creator closer to the ownership and monetization layer. The XP quests add an interesting early-user incentive.
 
-But the correct headline in your own head is not â€œguaranteed Inkray airdrop.â€ It is:
+But the correct headline in your own head is not "guaranteed Inkray airdrop." It is:
 
 > **Try an early Sui publishing product, earn the XP that is currently available, and keep optionality if the team later rewards real contributors.**
 

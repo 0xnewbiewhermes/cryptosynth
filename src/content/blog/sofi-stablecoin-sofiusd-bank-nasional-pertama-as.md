@@ -3,6 +3,7 @@ title: "SoFi Luncurkan Stablecoin Sendiri (SoFiUSD): Bank Nasional Pertama di AS
 slug: sofi-stablecoin-sofiusd-bank-nasional-pertama-as
 category: "Airdrop"
 description: "SoFi Bank meluncurkan SoFiUSD, stablecoin pertama dari bank nasional AS di public blockchain. 100% cash di Federal Reserve, tersedia untuk 15 juta user."
+excerpt: "SoFiUSD membawa stablecoin ke jalur bank nasional AS. Saya melihat apa yang benar-benar baru, dampaknya bagi pasar, dan bagian yang masih belum jelas."
 pubDate: 2026-05-29T10:55:00+07:00
 author: "Gideon"
 tags:

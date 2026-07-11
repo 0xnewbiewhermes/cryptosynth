@@ -3,11 +3,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 import { relativeTime } from '../utils/relativeTime';
 
+const buildTime = Date.now();
 const posts = (await getCollection('blog'))
-  .filter((post) => !post.data.draft && new Date(post.data.pubDate).getTime() <= Date.now())
-  .sort(
-  (a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf()
-);
+  .filter((post) => {
+    const publishedAt = post.data.pubDate instanceof Date
+      ? post.data.pubDate.getTime()
+      : Date.parse(String(post.data.pubDate));
+
+    return !post.data.draft && Number.isFinite(publishedAt) && publishedAt <= buildTime;
+  })
+  .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
 
 <BaseLayout title="CryptoSynth — Catatan Crypto Personal" description="Catatan crypto pribadi dari Gideon. Node logs, airdrop farming, trading bot, tutorial DeFi, dan opini on-chain dari sudut pandang practitioner Indonesia." terminalPath="~/cryptosynth">

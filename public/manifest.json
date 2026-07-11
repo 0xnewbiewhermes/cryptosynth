@@ -9,9 +9,9 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/favicon.png?v=2",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "/favicon.svg?v=3",
+      "sizes": "any",
+      "type": "image/svg+xml"
     },
     {
       "src": "/images/cryptosynth-logo.png",

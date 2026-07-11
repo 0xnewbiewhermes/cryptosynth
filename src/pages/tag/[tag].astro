@@ -1,0 +1,86 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { relativeTime } from '../../utils/relativeTime';
+import { toTagSlug } from '../../utils/tagSlug';
+
+export async function getStaticPaths() {
+  const now = Date.now();
+  const posts = (await getCollection('blog')).filter(
+    (post) => !post.data.draft && new Date(post.data.pubDate).getTime() <= now
+  );
+
+  const groups = new Map<string, { label: string; posts: typeof posts }>();
+  for (const post of posts) {
+    for (const rawTag of post.data.tags || []) {
+      const slug = toTagSlug(rawTag);
+      if (!slug) continue;
+      const existing = groups.get(slug);
+      if (existing) {
+        existing.posts.push(post);
+      } else {
+        groups.set(slug, { label: rawTag, posts: [post] });
+      }
+    }
+  }
+
+  return Array.from(groups.entries())
+    .filter(([, group]) => group.posts.length >= 2)
+    .map(([tag, group]) => ({
+      params: { tag },
+      props: {
+        label: group.label,
+        posts: group.posts.sort(
+          (a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime()
+        ),
+      },
+    }));
+}
+
+const { label, posts } = Astro.props;
+const title = `Artikel ${label} - CryptoSynth.id`;
+const description = `Kumpulan catatan CryptoSynth tentang ${label}: riset, tutorial, risiko, dan peluang crypto dari sudut pandang personal.`;
+---
+
+<BaseLayout
+  {title}
+  {description}
+  tags={[label]}
+  itemList={{
+    name: `Catatan ${label}`,
+    items: posts.map((post) => ({
+      name: post.data.title,
+      url: `https://cryptosynth.id/blog/${post.id}`,
+      description: post.data.excerpt || post.data.description,
+    })),
+  }}
+  terminalPath={`~/cryptosynth/tag/${toTagSlug(label)}`}
+>
+  <div class="terminal-home">
+    <div class="term-welcome">
+      <h1 class="term-line term-highlight title-inherit">#{label}</h1>
+      <div class="term-line term-dim">{description}</div>
+      <div class="term-line">&nbsp;</div>
+      <a href="/articles" class="term-accent">← semua catatan</a>
+    </div>
+
+    <div class="term-articles">
+      <div class="term-line"><span class="term-dim">  NUM  TAG            TITLE                                              DATE</span></div>
+      <div class="term-line"><span class="term-dim term-border">  ───  ───            ─────                                              ────</span></div>
+      {posts.map((post, index) => (
+        <a href={`/blog/${post.id}`} class="article-entry">
+          <div class="entry-meta">
+            <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
+            <span class="entry-time">{relativeTime(post.data.pubDate)}</span>
+          </div>
+          <span class="entry-num">{String(index + 1).padStart(2, '0')}</span>
+          <span class="entry-tag">{(post.data.tags || []).slice(0, 2).map((tag) => `#${tag}`).join(' · ')}</span>
+          <div class="entry-title">{post.data.title}</div>
+          {post.data.excerpt && <div class="entry-excerpt">{post.data.excerpt}</div>}
+        </a>
+      ))}
+      <div class="term-line">&nbsp;</div>
+      <div class="term-line term-dim">&nbsp;&nbsp;Total: {posts.length} catatan.</div>
+    </div>
+  </div>
+</BaseLayout>

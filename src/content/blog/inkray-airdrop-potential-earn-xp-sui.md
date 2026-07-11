@@ -14,6 +14,8 @@ tags:
   - airdrop
   - testnet
   - quest
+heroImage: "/images/hero/inkray-airdrop-potential-earn-xp-sui.jpg"
+ogImage: "/images/hero/inkray-airdrop-potential-earn-xp-sui.jpg"
 faq: >
   Is the Inkray airdrop confirmed?;;No. Inkray's public website describes a Sui Testnet publishing platform, but it does not publish a token, snapshot, allocation, or airdrop schedule. Treat the airdrop angle as speculation, not a guarantee.;;What is XP in Inkray?;;XP is the experience score shown for completing quests in the Inkray app. The exact task list and XP values can change, so follow the live quest panel rather than an old screenshot.;;Do I need a mainnet wallet?;;Inkray currently presents itself as live on Sui Testnet. Use a separate testnet wallet and never put a seed phrase into the website.;;What does Inkray use Walrus for?;;Inkray says published articles are stored on Walrus, a decentralized storage network, while ownership and related records are handled through Sui objects.;;Is this financial advice?;;No. This is a personal research note about a testnet application. There is no confirmed token or guaranteed reward.
 ---
@@ -68,6 +70,17 @@ Create a fresh wallet for experiments. Do not reuse the wallet that holds your m
 ### 2. Open Inkray and connect the wallet
 
 Go to [inkray.xyz](https://inkray.xyz/) and connect the Sui wallet you created for testing. Check the network shown by your wallet before signing anything. If a transaction asks for an amount or permission that does not match the action, reject it.
+
+
+### Invite links
+
+Inkray currently requires an invite code to join. These are the three invite links available for this guide:
+
+- [Join with invite code 1](https://inkray.xyz/invite?code=INK-DUWESGJA)
+- [Join with invite code 2](https://inkray.xyz/invite?code=INK-AA937A3Q)
+- [Join with invite code 3](https://inkray.xyz/invite?code=INK-2XMFHTJZ)
+
+If one code has already been used or the invite campaign has ended, try the next one. Do not pay anyone for an invite code, and only use the official `inkray.xyz` domain.
 
 ### 3. Find the XP quest panel
 

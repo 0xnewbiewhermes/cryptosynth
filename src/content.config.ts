@@ -5,8 +5,8 @@ const blog = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/blog" }),
   schema: z.object({
     title: z.string(),
-    description: z.string().optional(),
-    excerpt: z.string().optional(),
+    description: z.string(),
+    excerpt: z.string(),
     pubDate: z.coerce.date(),
     updatedDate: z.coerce.date().optional(),
     author: z.string().default('Gideon'),
@@ -15,8 +15,8 @@ const blog = defineCollection({
     draft: z.boolean().default(false),
     faq: z.string().default(''),
     howTo: z.string().default(''),
-    heroImage: z.string().optional(),
-    ogImage: z.string().optional(),
+    heroImage: z.string(),
+    ogImage: z.string(),
     canonical: z.string().optional(),
   }),
 });

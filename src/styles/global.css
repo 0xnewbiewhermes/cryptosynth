@@ -282,6 +282,8 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   -webkit-tap-highlight-color: transparent;
 }
 
+.lang-toggle { min-width: 2.2rem; justify-content: center; }
+
 .topbar-btn:hover {
   color: var(--text-secondary);
   border-color: var(--border-heavy);
@@ -1210,7 +1212,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
   .topbar-path { display: none; }
 
-  .topbar-right .topbar-btn:not(.menu-toggle):not(#themeToggle) { display: none; }
+  .topbar-right .topbar-btn:not(.menu-toggle):not(#themeToggle):not(#langToggle) { display: none; }
 
   /* Mobile nav dropdown */
   .nav {

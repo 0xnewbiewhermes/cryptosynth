@@ -20,7 +20,7 @@ const categories = ['Semua', 'Airdrop', 'Tutorial', 'Node'];
         <span class="term-dim">  Filter: </span>
         {categories.map((cat, i) => (
           <>
-            <a href={cat === 'Semua' ? '/articles' : `/category/${cat.toLowerCase()}`} class="term-accent term-cat-link">{cat}</a>
+            <a href={cat === 'Airdrop' ? '/airdrop' : '/articles'} class="term-accent term-cat-link">{cat}</a>
             {i < categories.length - 1 && <span class="term-dim">|</span>}
           </>
         ))}

@@ -81,7 +81,7 @@ const isActive = (path: string) => {
       <div class="topbar-right">
         <button type="button" class="topbar-btn" id="searchToggle" aria-label="Cari catatan" data-i18n-aria="search">
           <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
-          Cari
+          <span data-i18n="searchLabel">Cari</span>
         </button>
         <a href="/rss.xml" class="topbar-btn" aria-label="RSS Feed">RSS</a>
         <button type="button" class="topbar-btn" id="themeToggle" aria-label="Toggle tema">
@@ -367,7 +367,7 @@ const isActive = (path: string) => {
           id: {
             skip: 'Langsung ke konten',
             'nav.notes': 'Catatan', 'nav.airdrop': 'Airdrop', 'nav.tutorial': 'Tutorial',
-            'nav.tools': 'Tools', 'nav.about': 'Tentang', search: 'Cari catatan',
+            'nav.tools': 'Tools', 'nav.about': 'Tentang', search: 'Cari catatan', searchLabel: 'Cari',
             'footer.description': 'Catatan crypto personal. Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.',
             'footer.explore': 'Jelajahi', 'footer.more': 'Lainnya', 'footer.follow': 'Ikuti',
             'status.connected': 'connected', 'status.categories': '3 kategori'
@@ -375,7 +375,7 @@ const isActive = (path: string) => {
           en: {
             skip: 'Skip to content',
             'nav.notes': 'Notes', 'nav.airdrop': 'Airdrops', 'nav.tutorial': 'Tutorials',
-            'nav.tools': 'Tools', 'nav.about': 'About', search: 'Search notes',
+            'nav.tools': 'Tools', 'nav.about': 'About', search: 'Search notes', searchLabel: 'Search',
             'footer.description': 'Personal crypto notes. Node logs, airdrop farming, trading, and opinions from a practitioner perspective.',
             'footer.explore': 'Explore', 'footer.more': 'More', 'footer.follow': 'Follow',
             'status.connected': 'connected', 'status.categories': '3 categories'

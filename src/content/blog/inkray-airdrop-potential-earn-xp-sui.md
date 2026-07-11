@@ -30,9 +30,9 @@ faq: >
 
 The easy way to describe Inkray is "a blog platform on Sui." That is accurate, but it misses the point.
 
-Inkray is trying to solve a very old Web2 problem: you publish on someone elseâ€™s platform, then the platform controls the account, the distribution, and sometimes the content itself. Inkrayâ€™s pitch is different. Connect a Sui wallet, create a publication, write in Markdown, and publish. The platform says your article is stored permanently and that you keep the ownership record.
+Inkray is trying to solve a very old Web2 problem: you publish on someone else's platform, then the platform controls the account, the distribution, and sometimes the content itself. Inkray's pitch is different. Connect a Sui wallet, create a publication, write in Markdown, and publish. The platform says your article is stored permanently and that you keep the ownership record.
 
-The stack is clearly stated on [Inkrayâ€™s official website](https://inkray.xyz/):
+The stack is clearly stated on [Inkray's official website](https://inkray.xyz/):
 
 - **Sui** handles the blockchain side - publications and ownership records are represented as Sui objects.
 - **Walrus** handles decentralized storage for the article data.
@@ -46,7 +46,7 @@ The Inkray app currently shows quests that award XP. That naturally raises the q
 
 Maybe. But there is a line between **a reasonable early-user thesis** and **an invented airdrop announcement**.
 
-At the time of writing, Inkrayâ€™s public landing page says it is live on Sui Testnet and explains the publishing, storage, monetization, and collectible features. It does **not** publish:
+At the time of writing, Inkray's public landing page says it is live on Sui Testnet and explains the publishing, storage, monetization, and collectible features. It does **not** publish:
 
 - a token ticker;
 - a token contract;

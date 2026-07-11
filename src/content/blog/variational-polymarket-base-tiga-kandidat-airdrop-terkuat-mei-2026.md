@@ -3,6 +3,7 @@ title: "Variational RWA Phase 2, Polymarket, Base: Tiga Kandidat Airdrop Terkuat
 slug: variational-polymarket-base-tiga-kandidat-airdrop-terkuat-mei-2026
 category: "Airdrop"
 description: "Variational siap rilis Phase 2 RWA bulan depan, Polymarket makin dekat ke token, dan Base lagi diincar farmer. Ini breakdown-nya."
+excerpt: "Tiga kandidat airdrop dengan produk dan aktivitas nyata: Variational, Polymarket, dan ekosistem Base. Ini alasan, cara ikut, dan risikonya."
 pubDate: 2026-05-26T15:00:00+07:00
 author: "Gideon"
 tags:

@@ -3,8 +3,8 @@ export function relativeTime(date: Date | string): string {
   const d = typeof date === 'string' ? new Date(date) : date;
   const diffMs = now.getTime() - d.getTime();
 
-  // Jika artikel di masa depan, jangan tampilkan apa-apa
-  if (diffMs < 0) return '';
+  // Keep scheduled/future posts visible instead of leaving the relative-time field blank.
+  if (diffMs < 0) return 'segera';
 
   const diffSec = Math.floor(diffMs / 1000);
   const diffMin = Math.floor(diffSec / 60);

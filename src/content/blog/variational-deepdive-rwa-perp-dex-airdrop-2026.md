@@ -3,6 +3,7 @@ title: "Variational Deep-Dive: Tim Quant Ex-Jane Street, $50M Dragonfly, dan Str
 slug: variational-deepdive-rwa-perp-dex-airdrop-2026
 category: "Airdrop"
 description: "Beda dari artikel pertama yang bahas tiga project sekaligus. Ini breakdown lengkap Variational: siapa timnya, gimana model bisnisnya, dan strategi farming yang optimal berdasarkan data on-chain."
+excerpt: "Variational bukan sekadar perp DEX baru. Saya membedah tim, pendanaan, model RWA, aktivitas produk, dan strategi farming yang masih masuk akal."
 pubDate: 2026-05-28T09:30:00+07:00
 author: "Gideon"
 tags:

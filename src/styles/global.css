@@ -1,5 +1,5 @@
 /* ===== CRYPTOSYNTH TERMINAL DESIGN SYSTEM ===== */
-/* Terminal Interface — Source Code Pro, light bg, CLI aesthetic */
+/* Terminal Interface â€” Source Code Pro, light bg, CLI aesthetic */
 
 /* ===== SELF-HOSTED FONTS ===== */
 @font-face {
@@ -39,9 +39,9 @@
 }
 
 :root {
-  /* ===== DARK THEME (default) — Terminal Practitioner (DESIGN.md) ===== */
+  /* ===== DARK THEME (default) â€” Terminal Practitioner (DESIGN.md) ===== */
 
-  /* Background depth stack: 0c0c0c → 161616 → 1a1a1a */
+  /* Background depth stack: 0c0c0c â†’ 161616 â†’ 1a1a1a */
   --bg: #0c0c0c;
   --bg-elevated: #161616;
   --bg-surface: #1a1a1a;
@@ -61,13 +61,14 @@
   --primary: #3b82f6;
   --primary-light: #60a5fa;
   --primary-dark: #2563eb;
-  --accent-prompt: #6366f1;
+  /* CryptoSynth prompt: use the same electric-blue brand accent as links/navigation. */
+  --accent-prompt: var(--primary);
   --accent-success: #10b981;
   --accent-warn: #f59e0b;
   --accent-error: #ef4444;
   --accent-string: #e0a060;
 
-  /* Borders — white on dark at varying opacities (0.02→0.04→0.06→0.12) */
+  /* Borders â€” white on dark at varying opacities (0.02â†’0.04â†’0.06â†’0.12) */
   --border: rgba(255, 255, 255, 0.06);
   --border-light: rgba(255, 255, 255, 0.02);
   --border-medium: rgba(255, 255, 255, 0.10);
@@ -94,7 +95,7 @@
   --dot-yellow: #ffbd2e;
   --dot-green: #27c93f;
 
-  /* Border radius — 4px default, 8px max for containers */
+  /* Border radius â€” 4px default, 8px max for containers */
   --radius: 4px;
   --radius-lg: 8px;
 
@@ -113,13 +114,13 @@
   --max-width: 780px;
   --nav-height: 40px;
 
-  /* Fonts — Source Code Pro single family (One-Family Rule) */
+  /* Fonts â€” Source Code Pro single family (One-Family Rule) */
   --font-mono: 'Source Code Pro', 'SF Mono', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', monospace;
   --font-body: 'Source Code Pro', 'SF Mono', 'Menlo', 'Monaco', 'Consolas', monospace;
   --font-display: 'Source Code Pro', 'SF Mono', 'Menlo', monospace;
 }
 
-/* ===== LIGHT THEME — Terminal Light variant ===== */
+/* ===== LIGHT THEME â€” Terminal Light variant ===== */
 :root[data-theme="light"] {
   color-scheme: light;
 
@@ -140,7 +141,7 @@
   --primary: #2563eb;
   --primary-light: #3b82f6;
   --primary-dark: #1d4ed8;
-  --accent-prompt: #6366f1;
+  --accent-prompt: var(--primary);
   --accent-success: #059669;
   --accent-warn: #d97706;
   --accent-error: #dc2626;
@@ -773,7 +774,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   color: var(--text-secondary);
 }
 
-/* TL;DR box — emerald accent */
+/* TL;DR box â€” emerald accent */
 .tldr-box {
   border: 1px solid var(--border-tint-success);
   border-left: 3px solid var(--accent-success);
@@ -789,7 +790,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   color: var(--accent-success);
 }
 
-/* Disclaimer box — amber accent */
+/* Disclaimer box â€” amber accent */
 .disclaimer-box {
   border: 1px solid var(--border-tint-warn);
   border-left: 3px solid var(--accent-warn);
@@ -893,119 +894,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 }
 
 .article-body th {
-  text-align: left;
-  padding: 0.5rem 0.75rem;
-  font-weight: 600;
-  color: var(--text-primary);
-  font-size: 0.84rem;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
-  white-space: nowrap;
-}
-
-.article-body td {
-  padding: 0.5rem 0.75rem;
-  border-bottom: 1px solid var(--border-subtle);
-  color: var(--text-secondary);
-}
-
-.article-body tr:hover td {
-  background: var(--border-light);
-}
-
-/* Hero image */
-.article-hero {
-  margin-bottom: 1.75rem;
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.article-hero img,
-.hero-img {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-
-/* Article footer */
-.article-footer {
-  margin-top: 2.5rem;
-  padding-top: 1.75rem;
-  border-top: 1px solid var(--border);
-}
-
-.tags-row {
-  display: flex;
-  gap: 0.4rem;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-  margin-bottom: 1.5rem;
-}
-
-.tag-chip {
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-  color: var(--text-muted);
-  background: var(--border-light);
-  border: 1px solid var(--border);
-  padding: 0.25rem 0.5rem;
-  transition: color 0.2s, border-color 0.2s;
-  cursor: pointer;
-  text-decoration: none;
-  touch-action: manipulation;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.tag-chip:hover {
-  border-color: var(--primary);
-  color: var(--primary-light);
-  opacity: 1;
-}
-
-.tag-chip:focus-visible {
-  outline: 2px solid var(--primary-light);
-  outline-offset: 2px;
-}
-
-/* Share section */
-.share-section {
-  margin-top: 1.5rem;
-  display: flex;
-  gap: 0.75rem;
-  align-items: center;
-}
-
-.share-label {
-  font-size: 0.6rem;
-  color: var(--text-dim);
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-/* Related articles */
-.related-section h3 {
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: var(--text-dim);
-  margin-bottom: 0.85rem;
-}
-
-.related-item {
-  display: flex;
-  gap: 0.85rem;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid var(--border-light);
-  cursor: pointer;
-  transition: padding-left 0.2s, color 0.2s;
-  text-decoration: none;
-  color: inherit;
-}
-
-.related-item:hover {
-  padding-left: 0.4rem;
-  opacity: 1;
+  text-align: …551 tokens truncated…1;
 }
 
 .related-item:hover .related-title {
@@ -1698,7 +1587,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   .scroll-reveal[data-delay="6"],
   .reveal[data-delay="6"] { transition-delay: 480ms; }
 
-  /* Image reveal on load — clip-path animation */
+  /* Image reveal on load â€” clip-path animation */
   .img-reveal {
     clip-path: inset(0 0 100% 0);
     transition: clip-path 0.8s cubic-bezier(0.23, 1, 0.32, 1);
@@ -1730,7 +1619,7 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
   opacity: 1;
 }
 
-/* Link underline animation — subtle slide-in on hover */
+/* Link underline animation â€” subtle slide-in on hover */
 .nav a {
   position: relative;
 }
@@ -1779,7 +1668,7 @@ html.theme-transition *::after {
               color 0.25s ease !important;
 }
 
-/* Button hover — subtle lift */
+/* Button hover â€” subtle lift */
 .topbar-btn {
   transition: color 0.2s, border-color 0.2s,
               transform 0.25s cubic-bezier(0.23, 1, 0.32, 1),
@@ -1946,3 +1835,4 @@ html.theme-transition *::after {
 /* cache-bust 1780082494 */
 /* 1780083221 */
 /* force 1780083539 */
+

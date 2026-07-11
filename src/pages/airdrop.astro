@@ -8,37 +8,44 @@ const posts = (await getCollection('blog', (p) => p.data.category?.toLowerCase()
 );
 ---
 
-<BaseLayout title="Airdrop Update - CryptoSynth.id" description="Peluang airdrop terbaru, tutorial klaim, dan update project web3 yang sedang bagi-bagi token.">
-  <div class="page-hero">
-    <div class="container">
-      <h1>Airdrop Update</h1>
-      <p>Peluang airdrop terbaru, tutorial klaim, dan update project web3.</p>
+<BaseLayout title="Airdrop Update - CryptoSynth.id" description="Peluang airdrop terbaru, tutorial klaim, dan update project crypto." terminalPath="~/cryptosynth/airdrop">
+  <div class="terminal-home">
+    <div class="term-welcome">
+      <h1 class="term-line term-highlight title-inherit">Airdrop Update</h1>
+      <div class="term-line term-dim">Peluang airdrop terbaru dan catatan farming dari sudut pandang pribadi.</div>
+      <div class="term-line">&nbsp;</div>
+      <div class="term-line">
+        <span class="term-dim">  Filter: </span>
+        <a href="/articles" class="term-accent term-cat-link">Semua</a>
+        <span class="term-dim">|</span>
+        <a href="/airdrop" class="term-accent term-cat-link">Airdrop</a>
+        <span class="term-dim">|</span>
+        <a href="/articles" class="term-accent term-cat-link">Tutorial</a>
+        <span class="term-dim">|</span>
+        <a href="/articles" class="term-accent term-cat-link">Node</a>
+      </div>
+      <div class="term-line">&nbsp;</div>
+    </div>
+
+    <div class="term-articles">
+      <div class="term-line">&nbsp;</div>
+      <div class="term-line"><span class="term-dim">  NUM  TAG            TITLE                                              DATE</span></div>
+      <div class="term-line"><span class="term-dim term-border">  ───  ───            ─────                                              ────</span></div>
+      {posts.map((post, index) => (
+        <a href={'/blog/' + post.id} class="article-entry" style={'--j:' + index}>
+          <div class="entry-meta">
+            <span class="entry-date">{new Date(post.data.pubDate).toLocaleDateString('id-ID', { day: 'numeric', month: 'short', timeZone: 'Asia/Jakarta' })}</span>
+            <span class="entry-time" data-live-time data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
+          </div>
+          <span class="entry-num">{String(index + 1).padStart(2, '0')}</span>
+          <span class="entry-tag">{(post.data.tags || []).slice(0, 2).map((tag) => '#' + tag).join(' · ')}</span>
+          <div class="entry-title">{post.data.title}</div>
+          {post.data.excerpt && <div class="entry-excerpt">{post.data.excerpt}</div>}
+        </a>
+      ))}
+      <div class="term-line">&nbsp;</div>
+      <div class="term-line term-dim">&nbsp;&nbsp;Total: {posts.length} catatan airdrop. Tap judul untuk baca.</div>
+      <div class="term-line">&nbsp;</div>
     </div>
   </div>
-  <section class="section">
-    <div class="container">
-      <div class="articles-grid">
-        {posts.map((post) => (
-          <article class="card-v2">
-            <div class="card-v2-body">
-              <div class="card-v2-tags">
-                {(post.data.tags || []).slice(0, 2).map((tag) => (
-                  <span class="card-v2-tag">#{tag}</span>
-                ))}
-              </div>
-              <h3 class="card-v2-title">
-                <a href={`/blog/${post.id}`}>{post.data.title}</a>
-              </h3>
-              <p class="card-v2-excerpt">{post.data.excerpt || post.data.description}</p>
-              <div class="card-v2-meta">
-                <span class="card-v2-relative" data-live-time data-pubdate={new Date(post.data.pubDate).toISOString()}>{relativeTime(post.data.pubDate)}</span>
-                <span class="card-v2-sep">·</span>
-                <span>{new Date(post.data.pubDate).toLocaleDateString('id-ID', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'Asia/Jakarta' })}</span>
-              </div>
-            </div>
-          </article>
-        ))}
-      </div>
-    </div>
-  </section>
 </BaseLayout>

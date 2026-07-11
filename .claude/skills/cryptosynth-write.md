@@ -12,19 +12,60 @@ description: "Writing skill untuk CryptoSynth — blog crypto personal (Bahasa I
 **Bahasa:** Indonesia untuk narasi, English untuk istilah teknis (wallet, deploy, farming, points, TGE, dll). Natural, bukan terjemahan.
 **Anti:** Sales pitch, hype, influencer tone, rocket emojis, "100x gems".
 
-## Article Structure (Wajib)
+## Naturalness Gate (Prioritas Tertinggi)
 
-Setiap artikel minimal harus punya:
+Artikel harus terasa seperti catatan Gideon, bukan output generator konten. Aturan ini mengalahkan target panjang dan template struktur lain di dokumen ini.
+
+Sebelum publish, pastikan:
+
+- Ada sudut pandang yang jelas: apa yang menarik, apa yang meragukan, dan apa keputusan praktis penulis.
+- Fakta, opini, dan spekulasi dipisahkan. Jangan mengubah kemungkinan menjadi kepastian.
+- Jangan mengarang pengalaman langsung. Tulis "berdasarkan dokumentasi" atau "belum saya uji" jika memang belum mencoba.
+- Bahasa Indonesia harus terdengar natural. English boleh untuk istilah crypto yang memang biasa dipakai.
+- Pangkas kalimat yang hanya mengulang disclaimer, kesimpulan, atau konteks sebelumnya.
+- Panjang mengikuti kebutuhan topik. Jangan menambah paragraf hanya untuk mengejar jumlah baris atau word count.
+- Setiap paragraf harus memberi fakta, instruksi, konteks, atau opini. Jika tidak, hapus.
+
+### Pola AI Slop yang Dilarang
+
+- Struktur terlalu simetris: setiap section tidak harus punya pembuka, tiga poin, lalu kesimpulan mini.
+- Disclaimer yang sama diulang dalam TL;DR, body, tabel, risks, dan closing.
+- Frasa formal hasil terjemahan seperti "tesis pengguna awal", "arah teknis dan produk", "simpan opsi", "evidence ladder", atau "dalam lanskap yang terus berkembang".
+- Pembukaan generik: "Di era digital", "Dalam dunia crypto", "Seiring berkembangnya teknologi", "Tidak dapat dipungkiri".
+- Penutup moral yang merangkum seluruh artikel sekali lagi tanpa memberi pendapat baru.
+- Tabel untuk informasi yang lebih enak dibaca sebagai dua atau tiga paragraf pendek.
+- Daftar panjang hanya agar artikel terlihat lengkap.
+- Klaim personal palsu seperti "saya mencoba" atau "menurut pengalaman saya" tanpa bukti bahwa pengujian dilakukan.
+
+### Human Edit Pass (Wajib)
+
+Setelah draft selesai:
+
+1. Baca keras-keras. Ubah kalimat yang terdengar seperti presentasi atau terjemahan.
+2. Pangkas minimal satu putaran. Targetkan 10-20% lebih ringkas jika draft terasa repetitif.
+3. Cari frasa yang bisa muncul di artikel crypto mana pun. Ganti dengan detail spesifik proyek atau hapus.
+4. Kurangi kalimat pengaman. Satu disclaimer yang jelas lebih baik daripada lima disclaimer tipis.
+5. Pastikan opini penulis spesifik dan punya alasan, bukan sekadar "menarik untuk dipantau".
+6. Cek bahwa tidak ada pengalaman, angka, fitur, atau hasil transaksi yang dikarang.
+7. Lakukan final scan untuk karakter tipografi terlarang dan link sumber.
+
+## Article Structure (Adaptif)
+
+Struktur mengikuti kebutuhan artikel, bukan template tetap.
+
+Elemen yang tersedia:
 
 ```
-1. Hook (variatif, jangan pattern itu-itu aja)
-2. TL;DR box
-3. Disclaimer box
-4. Body content
-5. Risks section (WAJIB — bedain dari blog crypto lain)
-6. Closing opinion/prediksi/CTA (JANGAN cuma berhenti)
-7. Sources (link)
+- Hook yang spesifik
+- TL;DR box jika artikel panjang
+- Disclaimer jika ada risiko finansial, wallet, atau spekulasi
+- Body content dengan heading secukupnya
+- Risks atau catatan keamanan jika relevan
+- Opini/keputusan praktis penulis
+- Sumber primer dalam konteks atau daftar sources
 ```
+
+Tidak semua elemen harus muncul di setiap artikel. Jangan memaksa TL;DR, disclaimer, tabel, risks, dan closing jika hasilnya mengulang informasi yang sama. Variasikan urutan dan bentuk section antarartikel.
 
 ## Frontmatter Rules
 

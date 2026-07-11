@@ -1,7 +1,9 @@
 import { getCollection } from 'astro:content';
 
 export async function GET() {
-  const posts = await getCollection('blog');
+  const posts = (await getCollection('blog')).filter(
+    (post) => !post.data.draft && new Date(post.data.pubDate).getTime() <= Date.now()
+  );
   const searchIndex = posts
     .sort((a, b) => new Date(b.data.pubDate).getTime() - new Date(a.data.pubDate).getTime())
     .map((post) => ({

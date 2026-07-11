@@ -6,6 +6,7 @@ author: "Gideon"
 category: "Journal"
 tags: ["ai-agent", "crypto", "defai", "keamanan"]
 description: "CertiK CEO bilang AI agent di crypto = ancaman insider skala mesin. Coinbase dan MoonPay terus push integrasi. Mana yang bener?"
+excerpt: "AI agent mulai memegang wallet dan bertransaksi sendiri. Peluangnya besar, tetapi risiko izin, keamanan, dan token kosong juga tidak kecil."
 heroImage: "/images/hero/ai-agent-crypto-revolusi-atau-bencana-2026.png"
 ogImage: "/images/og/ai-agent-crypto-revolusi-atau-bencana-2026.png"
 ---

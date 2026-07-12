@@ -14,7 +14,7 @@ tags:
   - tutorial
   - troubleshooting
 draft: false
-heroImage: "/images/hero/optimai-cli-core-node-install-tutorial.png"
+heroImage: "/images/hero/optimai-multiple-nodes-one-vps.svg"
 ogImage: "/images/og/optimai-cli-core-node-install-tutorial.png"
 canonical: "https://cryptosynth.id/blog/optimai-multiple-nodes-one-vps"
 faq: "Apakah OptimAI resmi mendukung beberapa Core Node dalam satu VPS?;;Belum ada dokumentasi resmi OptimAI yang menjelaskan atau mendukung beberapa instance Core Node dalam satu VPS. CLI resminya justru memberi pesan bahwa instance lain sudah berjalan.;;Apakah VPS dengan RAM besar otomatis bisa menjalankan banyak node?;;Belum tentu. Kapasitas server hanya satu bagian dari masalah. CLI, identity node, Docker, reward tracking, dan aturan jaringan juga harus mendukung konfigurasi tersebut.;;Apa yang harus dilakukan jika muncul pesan Another node instance is already running?;;Gunakan optimai-cli node status untuk memeriksa node aktif. Jangan memaksa proses kedua atau mengubah file internal tanpa panduan resmi.;;Apakah satu node per VPS lebih aman?;;Ya. Selama OptimAI belum memberi panduan multi-instance, satu Core Node per host adalah konfigurasi yang paling mudah dipantau dan paling dekat dengan dokumentasi resmi."

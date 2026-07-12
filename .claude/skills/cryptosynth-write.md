@@ -5,6 +5,32 @@ description: "Writing skill untuk CryptoSynth — blog crypto personal (Bahasa I
 
 # CryptoSynth Writing Guidelines
 
+## Editorial Positioning
+
+**Core position:** Personal technical crypto blog yang benar-benar mencoba produk, menjalankan node, dan membangun sesuatu.
+
+Prioritas editorial:
+
+1. Tutorial praktis, node operation, deployment, testnet experiment, builder notes, dan troubleshooting.
+2. Technical research atau deep dive yang membantu pembaca memahami keputusan implementasi.
+3. Journal dan opini personal yang berbasis data serta pengalaman nyata.
+4. Airdrop tetap boleh dibahas, tetapi angle utamanya harus penggunaan produk, biaya, risiko, effort, dan hasil yang bisa diverifikasi - bukan hype token.
+
+Target hasil tutorial harus konkret: node aktif, contract berhasil di-deploy, wallet terhubung, test berhasil direproduksi, atau error terselesaikan.
+
+Untuk artikel teknis, cantumkan jika tersedia:
+
+- Tanggal terakhir diuji
+- Versi CLI, SDK, contract, atau aplikasi
+- OS, network, chain, dan environment pengujian
+- Expected output atau indikator berhasil
+- Troubleshooting untuk error yang benar-benar mungkin terjadi
+- Status setiap langkah: sudah diuji langsung, berdasarkan dokumentasi, atau belum diuji
+
+Jangan mengaku sudah mencoba, menjalankan, atau membangun sesuatu tanpa bukti atau konfirmasi eksplisit dari user. Jika belum diuji, tulis dengan jujur.
+
+Komposisi editorial yang diarahkan: sekitar 60% tutorial praktis, 25% technical research/deep dive, dan 15% journal/opini. Ini panduan strategi, bukan kuota kaku.
+
 ## Voice & Identity
 
 **Brand:** Hacker / Practitioner / No-BS

@@ -1591,7 +1591,8 @@ a:focus-visible { outline: 2px solid var(--primary-light); outline-offset: 2px; 
 
   /* Image reveal on load â€” clip-path animation */
   .img-reveal {
-    clip-path: inset(0 0 100% 0);
+    /* A hero must never remain partially clipped if its animation is interrupted. */
+    clip-path: inset(0);
     transition: clip-path 0.8s cubic-bezier(0.23, 1, 0.32, 1);
   }
   .img-reveal.loaded,

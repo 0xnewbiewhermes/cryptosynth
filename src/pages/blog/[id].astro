@@ -62,7 +62,6 @@ const modifiedDateISO = post.data.updatedDate
 const ogImage = post.data.ogImage || `/images/og/${post.id}.png`;
 // Hero image path
 const heroImage = post.data.heroImage || `/images/hero/${post.id}.png`;
-const heroWebp = heroImage.replace(/\.(png|jpe?g)$/i, '.webp');
 
 // Related articles: score by shared tags + same category, pick top 3
 const allPosts = (await getCollection('blog')).filter(
@@ -129,10 +128,14 @@ const termPath = `~/cryptosynth/catatan/${post.id}.md`;
 
     <!-- Hero image (if exists) -->
     <div class="article-hero">
-      <picture>
-        {heroWebp !== heroImage && <source srcset={heroWebp} type="image/webp" />}
-        <img src={heroImage} alt={post.data.title} loading="eager" fetchpriority="high" class="hero-img img-reveal" />
-      </picture>
+      <img
+        src={heroImage}
+        alt={post.data.title}
+        loading="eager"
+        fetchpriority="high"
+        decoding="async"
+        class="hero-img img-reveal"
+      />
     </div>
 
     <!-- Article Body -->

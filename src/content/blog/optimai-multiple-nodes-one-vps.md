@@ -1,7 +1,7 @@
 ---
 title: "Bisa Jalankan Beberapa OptimAI Node di Satu VPS? Batasan Resmi CLI"
 slug: "optimai-multiple-nodes-one-vps"
-pubDate: "2026-07-12T14:30:00+07:00"
+pubDate: "2026-07-12T09:00:00+07:00"
 author: "Gideon"
 category: "Tutorial"
 description: "Dokumentasi OptimAI hanya menjelaskan satu Core Node per host. Ini batasan CLI, kebutuhan resource, dan cara memilih setup VPS yang lebih aman."

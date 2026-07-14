@@ -13,9 +13,9 @@ tags:
   - referral
   - tutorial
   - x
-draft: true
-heroImage: "/images/hero/clasho-ai-tutorial-join-creator-trials.png"
-ogImage: "/images/og/clasho-ai-tutorial-join-creator-trials.png"
+draft: false
+heroImage: "/images/hero/clasho-ai-tutorial-join-creator-trials.jpg"
+ogImage: "/images/og/clasho-ai-tutorial-join-creator-trials.jpg"
 canonical: "https://cryptosynth.id/blog/clasho-ai-tutorial-join-creator-trials"
 faq: "Apakah Clasho adalah airdrop crypto?;;Tidak ada pengumuman token atau airdrop di sumber resmi Clasho yang saya cek. Clasho memposisikan dirinya sebagai platform campaign dan reward untuk creator berdasarkan performa konten.;;Apakah referral link wajib dipakai untuk masuk Clasho?;;Clasho masih berada pada fase early access. Referral link memberi jalur masuk yang dibagikan penulis, tetapi tampilan dan syarat akses dapat berubah. Selalu cek form yang muncul di situs resmi.;;Apakah semua creator pasti mendapat pembayaran?;;Tidak. Clasho menjelaskan bahwa reward terkait performa, sementara nilai, syarat, dan ketersediaan campaign dapat berubah. Jangan menganggap join atau membuat satu post sebagai jaminan pembayaran.;;Apakah follower kecil boleh ikut?;;Situs Clasho menyatakan platformnya dibuat untuk creator dari berbagai ukuran dan menilai dampak, bukan hanya jumlah follower. Itu bukan jaminan lolos campaign atau mendapat reward."
 ---

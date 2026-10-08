@@ -268,11 +268,6 @@ const staleCount = airdropsData.filter((a) => isStale(a.lastVerified)).length;
             </div>
           </div>
         </div>
-        <div class="ai-explanation" id="aiExplanation" style="display:none">
-          <button type="button" id="explainBtn">Jelaskan hasil dengan Claude (beta)</button>
-          <p>Jika diklik, input dan ringkasan hasil pemeriksaan dikirim ke Claude. AI hanya menjelaskan sinyal; hasil pemeriksaan di atas tetap acuan utama.</p>
-          <p id="explainText" aria-live="polite"></p>
-        </div>
         <p class="checker-feedback">Menemukan hasil yang keliru? <a href="mailto:hello@cryptosynth.id?subject=Masukan%20Scam%20Checker">Kirim masukan ke Gideon</a>.</p>
       </div>
     </section>
@@ -1152,10 +1147,6 @@ const staleCount = airdropsData.filter((a) => isStale(a.lastVerified)).length;
   .scam-result-neutral .scam-result-glow { background: var(--primary); }
   .scam-result-neutral .scam-result-inner { border-color: var(--border-medium); background: var(--bg-elevated); }
   .scam-result-neutral h2 { color: var(--primary); }
-  .ai-explanation { max-width: 580px; margin: 1rem auto 0; padding: 1rem; border: 1px solid var(--border-medium); border-radius: 8px; }
-  .ai-explanation button { padding: 0.55rem 0.85rem; border: 1px solid var(--primary); border-radius: 6px; background: var(--primary); color: var(--text-inverse); cursor: pointer; }
-  .ai-explanation button:disabled { opacity: 0.6; cursor: wait; }
-  .ai-explanation p { margin: 0.55rem 0 0; font-size: 0.82rem; line-height: 1.55; }
   .checker-feedback { max-width: 580px; margin: 0.8rem auto 0; font-size: 0.82rem; color: var(--text-dim); }
 
   .scam-result-scam .scam-result-glow { background: var(--accent-error); }
@@ -1414,30 +1405,7 @@ const staleCount = airdropsData.filter((a) => isStale(a.lastVerified)).length;
     const btnText = document.getElementById('btnText');
     const btnSpinner = document.getElementById('btnSpinner');
     const btn = document.getElementById('checkBtn');
-    const aiPanel = document.getElementById('aiExplanation');
-    const explainBtn = document.getElementById('explainBtn');
-    const explainText = document.getElementById('explainText');
-    let aiEnabled = false;
-    let lastEvidence = null;
     if (!form) return;
-    fetch('/api/explain-risk').then(r => r.json()).then(d => {
-      aiEnabled = d.enabled === true;
-    }).catch(() => {});
-    explainBtn?.addEventListener('click', async () => {
-      if (!lastEvidence || !aiEnabled) return;
-      explainBtn.disabled = true;
-      explainText.textContent = 'Claude sedang menjelaskan hasil...';
-      try {
-        const response = await fetch('/api/explain-risk', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(lastEvidence),
-        });
-        const data = await response.json();
-        explainText.textContent = response.ok ? data.explanation : (data.error || 'Penjelasan belum tersedia.');
-      } catch { explainText.textContent = 'Penjelasan belum tersedia. Coba lagi nanti.'; }
-      finally { explainBtn.disabled = false; }
-    });
 
     const SOURCE_META = {
       'ScamSniffer': { icon: '🛡️', label: 'ScamSniffer' },
@@ -1644,9 +1612,6 @@ const staleCount = airdropsData.filter((a) => isStale(a.lastVerified)).length;
       result.style.display = 'block';
       resultCard.className = 'scam-result-card';
       resultCard.style.opacity = '0';
-      lastEvidence = null;
-      aiPanel.style.display = 'none';
-      explainText.textContent = '';
       btnText.style.display = 'none';
       btnSpinner.style.display = 'inline-block';
       btn.disabled = true;
@@ -1822,21 +1787,6 @@ const staleCount = airdropsData.filter((a) => isStale(a.lastVerified)).length;
         html += `<br><small>Tetap verifikasi sebelum transaksi.</small>`;
         resultDetail.innerHTML = html + coverage;
       }
-      lastEvidence = {
-        subject: cleaned,
-        kind: addrType ? 'address' : 'domain',
-        status: verdict.status,
-        findings: [
-          ...(isScam ? matches.flatMap(m => m.source.split(', ').map(s => `Terdaftar di ${s}`)) : []),
-          ...threatMalicious.map(c => `${c.source}: ${c.risk}`),
-          ...(goPlusRisky ? goPlusResult.flags.map(f => `Go+ Security: ${f}`) : []),
-          ...(hg.riskyTld ? [`TLD perlu perhatian: ${hg.riskyTld}`] : []),
-        ].slice(0, 12),
-        checkedSources,
-        unavailableSources: missingSources,
-        blacklistUpdatedAt,
-      };
-      aiPanel.style.display = aiEnabled ? 'block' : 'none';
       resultCard.style.opacity = '1';
       result.scrollIntoView({ behavior: 'smooth', block: 'center' });
     } catch (err) {

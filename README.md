@@ -17,7 +17,6 @@ npm run dev
 
 - Antarmuka utama: `/tools?tab=scam`.
 - Pemeriksaan domain server: `src/pages/api/threat-check.ts`.
-- Penjelasan Claude: `src/pages/api/explain-risk.ts`, hanya aktif jika `ANTHROPIC_API_KEY` dan `SCAM_AI_ENABLED=true` dikonfigurasi. Penjelasan adalah ringkasan sinyal, bukan keputusan keamanan. Sebelum mengaktifkannya untuk publik, tetapkan batas biaya dan pembatasan permintaan karena endpoint ini memakai API berbayar.
 - Daftar blokir lokal diperbarui ketika situs dibangun. Waktu pengambilan data ditampilkan pada alat; jangan menganggapnya selalu terbaru.
 
 ## Airdrop Tracker
@@ -27,3 +26,4 @@ Data ada di `src/data/airdrops.json`. Tanggal `lastVerified` menyatakan pemeriks
 ## Status
 
 CryptoSynth masih proyek awal. Repo publik dan situs tidak boleh dipakai sebagai bukti jumlah pengguna, pendapatan, status badan usaha, atau integrasi Claude yang aktif tanpa data pendukung.
+Penggunaan Claude untuk menjelaskan sinyal risiko adalah rencana yang dapat diajukan dalam proposal, bukan fitur situs saat ini.

@@ -1,63 +1,29 @@
-# Astro Starter Kit: Blog
+# CryptoSynth
+
+Blog teknis crypto berbahasa Indonesia dan Scam Checker yang sedang dikembangkan di [cryptosynth.id](https://cryptosynth.id). Arah produk dan batas klaim ada di [PRODUCT.md](PRODUCT.md).
+
+## Menjalankan lokal
+
+Butuh Node.js yang kompatibel dengan Astro 6 dan Python 3 untuk proses pengambilan daftar blokir saat build.
 
 ```sh
-npm create astro@latest -- --template blog
+npm ci
+npm run dev
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+`npm run build` mengambil daftar blokir publik, membangun situs Astro, lalu mengoptimalkan gambar. Lihat `.env.example` untuk layanan pemeriksaan tambahan. Kunci API hanya boleh disimpan sebagai environment variable, bukan di repo.
 
-Features:
+## Scam Checker
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+- Antarmuka utama: `/tools?tab=scam`.
+- Pemeriksaan domain server: `src/pages/api/threat-check.ts`.
+- Penjelasan Claude: `src/pages/api/explain-risk.ts`, hanya aktif jika `ANTHROPIC_API_KEY` dan `SCAM_AI_ENABLED=true` dikonfigurasi. Penjelasan adalah ringkasan sinyal, bukan keputusan keamanan. Sebelum mengaktifkannya untuk publik, tetapkan batas biaya dan pembatasan permintaan karena endpoint ini memakai API berbayar.
+- Daftar blokir lokal diperbarui ketika situs dibangun. Waktu pengambilan data ditampilkan pada alat; jangan menganggapnya selalu terbaru.
 
-## 🚀 Project Structure
+## Airdrop Tracker
 
-Inside of your Astro project, you'll see the following folders and files:
+Data ada di `src/data/airdrops.json`. Tanggal `lastVerified` menyatakan pemeriksaan terakhir oleh pengelola, bukan konfirmasi resmi proyek. Entri yang sudah lama tidak diperiksa ditandai untuk ditinjau ulang.
 
-```text
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+## Status
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+CryptoSynth masih proyek awal. Repo publik dan situs tidak boleh dipakai sebagai bukti jumlah pengguna, pendapatan, status badan usaha, atau integrasi Claude yang aktif tanpa data pendukung.

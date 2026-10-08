@@ -40,7 +40,7 @@ async function checkVirusTotal(domain: string): Promise<any> {
       undetected,
       total,
       reputation,
-      risk: malicious > 0 ? 'critical' : suspicious > 0 ? 'high' : 'low',
+      risk: malicious > 0 ? 'critical' : suspicious > 0 ? 'high' : total > 0 ? 'low' : 'unknown',
     };
   } catch (err: any) {
     return { error: err.message, source: 'VirusTotal' };
@@ -99,7 +99,7 @@ async function checkURLScan(domain: string): Promise<any> {
     const results = data.results || [];
 
     if (results.length === 0) {
-      return { source: 'URLScan.io', found: false, totalScans: 0, risk: 'low', note: 'Belum pernah di-scan' };
+      return { source: 'URLScan.io', found: false, totalScans: 0, risk: 'unknown', note: 'Belum pernah di-scan' };
     }
 
     const latest = results[0];
@@ -114,7 +114,7 @@ async function checkURLScan(domain: string): Promise<any> {
       score,
       screenshot: latest.screenshot || null,
       pageUrl: latest.page?.url || null,
-      risk: verdict.malicious ? 'critical' : score > 50 ? 'high' : 'low',
+      risk: verdict.malicious === true ? 'critical' : score > 50 ? 'high' : verdict.malicious === false ? 'low' : 'unknown',
     };
   } catch (err: any) {
     return { error: err.message, source: 'URLScan.io' };
@@ -154,9 +154,12 @@ async function checkURLhaus(domain: string): Promise<any> {
 }
 
 export async function GET({ url }: { url: URL }) {
-  const domain = url.searchParams.get('domain');
-  if (!domain) {
-    return new Response(JSON.stringify({ error: 'Missing domain parameter' }), {
+  const domain = url.searchParams.get('domain')?.toLowerCase() || '';
+  const labels = domain.split('.');
+  const validDomain = domain.length <= 253 && labels.length >= 2 &&
+    labels.every((label) => /^[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?$/.test(label));
+  if (!validDomain) {
+    return new Response(JSON.stringify({ error: 'Invalid domain parameter' }), {
       status: 400,
       headers: { 'Content-Type': 'application/json' },
     });
@@ -175,20 +178,23 @@ export async function GET({ url }: { url: URL }) {
     .map(r => (r as PromiseFulfilledResult<any>).value);
 
   // Determine overall risk
-  const risks = checks.map(c => c.risk).filter(Boolean);
-  let overallRisk = 'low';
+  const successfulChecks = checks.filter(c => !c.skipped && !c.error && ['low', 'high', 'critical'].includes(c.risk));
+  const risks = successfulChecks.map(c => c.risk);
+  let overallRisk = successfulChecks.length ? 'low' : 'unknown';
   if (risks.includes('critical')) overallRisk = 'critical';
   else if (risks.includes('high')) overallRisk = 'high';
   else if (risks.includes('medium')) overallRisk = 'medium';
 
-  const activeSources = checks.filter(c => !c.skipped).length;
+  const activeSources = successfulChecks.length;
   const skippedSources = checks.filter(c => c.skipped).length;
+  const failedSources = checks.filter(c => c.error).length;
 
   return new Response(JSON.stringify({
     domain,
     overallRisk,
     activeSources,
     skippedSources,
+    failedSources,
     checks,
   }), {
     status: 200,

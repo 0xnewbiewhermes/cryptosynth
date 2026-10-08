@@ -16,6 +16,7 @@ vercel.json.bak
 
 # Large generated data (fetched at build time via prebuild script)
 public/data/scam-alerts.json
+public/data/scam-alerts-meta.json
 
 # Nested repo copy
 cryptosynth/

@@ -15,8 +15,15 @@ const posts = (await getCollection('blog'))
   .sort((a, b) => b.data.pubDate.getTime() - a.data.pubDate.getTime());
 ---
 
-<BaseLayout title="CryptoSynth — Catatan Crypto Personal" description="Catatan crypto pribadi dari Gideon. Node logs, airdrop farming, trading bot, tutorial DeFi, dan opini on-chain dari sudut pandang practitioner Indonesia." terminalPath="~/cryptosynth">
+<BaseLayout title="CryptoSynth — Cek Risiko Crypto dan Catatan Praktis" description="Scam Checker untuk membantu memeriksa sinyal risiko domain dan alamat crypto, disertai catatan teknis dari Gideon. Hasil kosong bukan jaminan aman." terminalPath="~/cryptosynth">
   <div class="terminal-home">
+    <section class="product-intro" aria-labelledby="product-title">
+      <span class="product-kicker">Scam Checker · beta</span>
+      <h1 id="product-title">Cek sinyal risiko sebelum menghubungkan wallet</h1>
+      <p>Masukkan domain atau alamat crypto. CryptoSynth menunjukkan temuan daftar blokir, pemeriksaan yang berhasil, dan sumber yang tidak tersedia agar kamu bisa memutuskan langkah berikutnya dengan lebih hati-hati.</p>
+      <a class="product-cta" href="/tools?tab=scam">Buka Scam Checker →</a>
+      <p class="product-caveat">Tidak ditemukan di sumber yang diperiksa bukan berarti aman.</p>
+    </section>
     <!-- Welcome output (visible by default, hidden after first interaction) -->
     <div class="term-welcome" id="termWelcome">
       <pre class="ascii-art" aria-hidden="true"> ██████╗██████╗ ██╗   ██╗██████╗ ████████╗ ██████╗ ███████╗██╗   ██╗███╗   ██╗████████╗██╗  ██╗
@@ -25,7 +32,7 @@ const posts = (await getCollection('blog'))
 ██║     ██╔══██╗  ╚██╔╝  ██╔═══╝    ██║   ██║   ██║╚════██║  ╚██╔╝  ██║╚██╗██║   ██║   ██╔══██║
 ╚██████╗██║  ██║   ██║   ██║        ██║   ╚██████╔╝███████║   ██║   ██║ ╚████║   ██║   ██║  ██║
  ╚═════╝╚═╝  ╚═╝   ╚═╝   ╚═╝        ╚═╝    ╚═════╝ ╚══════╝   ╚═╝   ╚═╝  ╚═══╝   ╚═╝   ╚═╝</pre>
-      <h1 class="term-line term-highlight home-h1 term-reveal" style="--i:0">Catatan Crypto Personal</h1>
+      <h2 class="term-line term-highlight home-h1 term-reveal" style="--i:0">Catatan Crypto Personal</h2>
       <div class="term-line term-dim term-reveal" style="--i:1">Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.</div>
       <div class="term-line term-reveal" style="--i:2">&nbsp;</div>
       <div class="term-line term-reveal" style="--i:3">Ketik <span class="term-warn">help</span> untuk lihat semua command.</div>
@@ -82,6 +89,19 @@ const posts = (await getCollection('blog'))
 </BaseLayout>
 
 <style>
+  .product-intro {
+    padding: 1.4rem;
+    margin-bottom: 1.75rem;
+    border: 1px solid var(--border-medium);
+    border-radius: 12px;
+    background: var(--bg-elevated);
+  }
+  .product-kicker { color: var(--primary); font-size: 0.78rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; }
+  .product-intro h1 { margin: 0.55rem 0; font-size: clamp(1.3rem, 3vw, 2rem); line-height: 1.25; }
+  .product-intro p { line-height: 1.65; max-width: 62ch; }
+  .product-cta { display: inline-block; margin-top: 0.35rem; padding: 0.65rem 1rem; border-radius: 7px; background: var(--primary); color: var(--text-inverse); font-weight: 700; text-decoration: none; }
+  .product-cta:hover, .product-cta:focus-visible { background: var(--primary-dark); }
+  .product-intro .product-caveat { margin: 0.8rem 0 0; color: var(--text-dim); font-size: 0.82rem; }
   /* Terminal home layout */
   .terminal-home {
     padding: 1.5rem 1.5rem 0;

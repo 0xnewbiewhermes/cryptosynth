@@ -46,7 +46,13 @@ export async function GET({ url }: { url: URL }) {
       });
     }
 
-    const apiKey = process.env.COVALENT_API_KEY || 'cqt_rQXfQhHT6KMXPRhP4HRp8DwXQ9fH';
+    const apiKey = process.env.COVALENT_API_KEY;
+    if (!apiKey) {
+      return new Response(JSON.stringify({ error: 'Wallet data service is not configured' }), {
+        status: 503,
+        headers: { 'Content-Type': 'application/json' },
+      });
+    }
 
     if (multi) {
       // Fetch across multiple chains

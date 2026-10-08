@@ -77,7 +77,7 @@ const isActive = (path: string) => {
         <a href="/" class={isActive('/')} aria-current={isActive('/') ? 'page' : undefined} data-i18n="nav.notes">Catatan</a>
         <a href="/airdrop" class={isActive('/airdrop')} aria-current={isActive('/airdrop') ? 'page' : undefined} data-i18n="nav.airdrop">Airdrop</a>
         <a href="/articles" class={isActive('/articles')} aria-current={isActive('/articles') ? 'page' : undefined} data-i18n="nav.tutorial">Tutorial</a>
-        <a href="/tools" class={isActive('/tools')} aria-current={isActive('/tools') ? 'page' : undefined} data-i18n="nav.tools">Tools</a>
+        <a href="/tools?tab=scam" class={isActive('/tools')} aria-current={isActive('/tools') ? 'page' : undefined} data-i18n="nav.tools">Cek Scam</a>
         <a href="/about" class={isActive('/about')} aria-current={isActive('/about') ? 'page' : undefined} data-i18n="nav.about">Tentang</a>
       </nav>
       <div class="topbar-right">
@@ -123,7 +123,7 @@ const isActive = (path: string) => {
         <div class="footer-inner">
           <div class="footer-brand">
             <a href="/" class="logo footer-logo">Crypto<span class="logo-accent">Synth</span></a>
-            <p>Catatan crypto personal. Node logs, airdrop farming, trading, dan opini dari sudut pandang pribadi.</p>
+            <p>Scam Checker yang sedang dikembangkan, dengan catatan crypto praktis dari Gideon.</p>
           </div>
           <div class="footer-links">
             <div class="footer-col">
@@ -131,7 +131,7 @@ const isActive = (path: string) => {
               <a href="/">Catatan</a>
               <a href="/airdrop">Airdrop</a>
               <a href="/articles">Tutorial</a>
-              <a href="/tools">Tools</a>
+              <a href="/tools?tab=scam">Cek Scam</a>
               <a href="/articles">Arsip</a>
             </div>
             <div class="footer-col">
@@ -369,16 +369,16 @@ const isActive = (path: string) => {
           id: {
             skip: 'Langsung ke konten',
             'nav.notes': 'Catatan', 'nav.airdrop': 'Airdrop', 'nav.tutorial': 'Tutorial',
-            'nav.tools': 'Tools', 'nav.about': 'Tentang', search: 'Cari catatan', searchLabel: 'Cari',
-            'footer.description': 'Catatan crypto personal. Node logs, airdrop farming, trading, dan opini crypto dari sudut pandang pribadi.',
+            'nav.tools': 'Cek Scam', 'nav.about': 'Tentang', search: 'Cari catatan', searchLabel: 'Cari',
+            'footer.description': 'Scam Checker yang sedang dikembangkan, dengan catatan crypto praktis dari Gideon.',
             'footer.explore': 'Jelajahi', 'footer.more': 'Lainnya', 'footer.follow': 'Ikuti',
             'status.connected': 'connected', 'status.categories': '3 kategori'
           },
           en: {
             skip: 'Skip to content',
             'nav.notes': 'Notes', 'nav.airdrop': 'Airdrops', 'nav.tutorial': 'Tutorials',
-            'nav.tools': 'Tools', 'nav.about': 'About', search: 'Search notes', searchLabel: 'Search',
-            'footer.description': 'Personal crypto notes. Node logs, airdrop farming, trading, and opinions from a practitioner perspective.',
+            'nav.tools': 'Scam Check', 'nav.about': 'About', search: 'Search notes', searchLabel: 'Search',
+            'footer.description': 'A developing scam checker with practical crypto notes from Gideon.',
             'footer.explore': 'Explore', 'footer.more': 'More', 'footer.follow': 'Follow',
             'status.connected': 'connected', 'status.categories': '3 categories'
           }

@@ -42,6 +42,11 @@ function formatDate(dateStr) {
   const d = new Date(dateStr);
   return d.toLocaleDateString('id-ID', { day: 'numeric', month: 'short', year: 'numeric' });
 }
+const isStale = (dateStr) => {
+  const checkedAt = Date.parse(dateStr || '');
+  return !Number.isFinite(checkedAt) || Date.now() - checkedAt > 30 * 24 * 60 * 60 * 1000;
+};
+const staleCount = airdropsData.filter((a) => isStale(a.lastVerified)).length;
 
 // Build ItemList for SEO
 const itemList = {
@@ -49,17 +54,18 @@ const itemList = {
   items: airdropsData.map((a) => ({
     name: `${a.project}${a.symbol !== 'TBD' ? ` (${a.symbol})` : ''}`,
     url: a.link,
-    description: `${a.chain} | ${a.category} | ${a.status} | Risk: ${a.risk} | ${a.action}`
+    description: `${a.chain} | ${a.category} | ${isStale(a.lastVerified) ? 'Perlu cek ulang' : a.status} | Risk: ${a.risk} | ${a.action}`
   }))
 };
 ---
 
-<BaseLayout title="Airdrop Tracker - CryptoSynth" description="Tracker airdrop crypto terlengkap. Status, risiko, biaya, kesulitan, wallet, sybil risk - semua yang kamu butuhkan untuk memburu airdrop." {itemList}>
+<BaseLayout title="Airdrop Tracker - CryptoSynth" description="Catatan airdrop dengan tanggal pemeriksaan terakhir. Informasi lama perlu diverifikasi ulang sebelum digunakan." {itemList}>
   <div class="tracker-page container">
     <div class="tracker-header">
       <h1 class="tracker-title"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-inline"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>Airdrop Tracker</h1>
-      <p class="tracker-subtitle">Tracker airdrop crypto paling lengkap. Klik kartu untuk melihat detail lengkap - risiko, biaya, wallet, sybil risk, dan lainnya.</p>
+      <p class="tracker-subtitle">Catatan airdrop dengan risiko, biaya, dan tanggal terakhir diperiksa. Informasi bisa berubah; periksa ulang sebelum bertindak.</p>
     </div>
+    {staleCount > 0 && <p class="tracker-freshness-notice">{staleCount} dari {airdropsData.length} entri belum diperiksa ulang dalam 30 hari. Status dan estimasi di bawah adalah catatan lama, bukan kondisi terkini.</p>}
 
     <div class="tracker-filters">
       <div class="filter-group">
@@ -102,14 +108,14 @@ const itemList = {
                   <span class="card-chain">{a.chain}</span>
                 </div>
                 <div class="card-badges">
-                  <span class={`badge ${st.cls}`}>{st.text}</span>
+                    <span class={`badge ${isStale(a.lastVerified) ? 'badge-upcoming' : st.cls}`}>{isStale(a.lastVerified) ? 'Perlu cek ulang' : st.text}</span>
                   <span class={`badge ${rk.cls}`}>Risk: {rk.text}</span>
                   <span class={`badge ${ct.cls}`}>Cost: {ct.text}</span>
                   <span class={`badge ${df.cls}`}>{df.text}</span>
                 </div>
               </div>
               <div class="card-right">
-                <span class="card-verified">✓ {formatDate(a.lastVerified)}</span>
+                <span class="card-verified">Terakhir dicek: {formatDate(a.lastVerified)}</span>
                 <button class="card-expand-btn" aria-label="Lihat detail">
                   <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M6 8l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </button>
@@ -125,11 +131,11 @@ const itemList = {
                 </div>
                 <div class="detail-item">
                   <span class="detail-label">Deadline</span>
-                  <span class="detail-value">{a.deadline}</span>
+                  <span class="detail-value">{isStale(a.lastVerified) ? 'Perlu cek ulang' : a.deadline}</span>
                 </div>
                 <div class="detail-item">
                   <span class="detail-label">Estimasi Reward</span>
-                  <span class="detail-value">{a.estimated}</span>
+                  <span class="detail-value">{isStale(a.lastVerified) ? 'Perlu cek ulang' : a.estimated}</span>
                 </div>
                 <div class="detail-item">
                   <span class="detail-label">Waktu yang Dibutuhkan</span>
@@ -159,9 +165,9 @@ const itemList = {
                 </div>
                 {a.announcement && (
                   <div class="detail-item detail-full">
-                    <span class="detail-label">Pengumuman Resmi</span>
-                    <span class="detail-value">
-                      <a href={a.announcement} target="_blank" rel="noopener noreferrer" class="detail-link">Lihat Pengumuman →</a>
+                      <span class="detail-label">Rujukan</span>
+                      <span class="detail-value">
+                        <a href={a.announcement} target="_blank" rel="noopener noreferrer" class="detail-link">Buka Sumber →</a>
                     </span>
                   </div>
                 )}
@@ -176,7 +182,7 @@ const itemList = {
                 {a.notes && (
                   <div class="detail-item detail-full">
                     <span class="detail-label">Catatan</span>
-                    <span class="detail-value detail-notes">{a.notes}</span>
+                    <span class="detail-value detail-notes">{isStale(a.lastVerified) ? `Catatan saat dicek ${formatDate(a.lastVerified)}: ` : ''}{a.notes}</span>
                   </div>
                 )}
               </div>

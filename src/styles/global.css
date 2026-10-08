@@ -1764,6 +1764,16 @@ html.theme-transition *::after {
   overflow: hidden;
 }
 
+.tracker-freshness-notice {
+  margin: 1rem 0;
+  padding: 0.8rem 1rem;
+  border: 1px solid var(--border-tint-warn);
+  border-radius: 8px;
+  background: var(--bg-tint-warn);
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+
 .article-hero picture {
   display: block;
   width: 100%;

@@ -6,6 +6,7 @@
     "dev": "astro dev",
     "prebuild": "bash scripts/fetch-scam-alerts.sh",
     "build": "astro build",
+    "test": "node --test tests/*.test.mjs",
     "postbuild": "node scripts/optimize-images.mjs",
     "preview": "astro preview"
   },
